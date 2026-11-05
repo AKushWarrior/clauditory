@@ -1,0 +1,74 @@
+# From Plan to Action: How Well Do Agents Follow the Plan?
+
+- **Source:** Shuyang Liu, Saman Dehghan, Jatin Ganhotra, Martin Hirzel and Reyhaneh Jabbarvand, "From Plan to Action: How Well Do Agents Follow the Plan?" In Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE '26), Munich, October 2026. arXiv:2604.12147 (version 3, August 7, 2026, read here); DOI 10.1145/3832783.3834400.
+- **Type:** peer-reviewed conference paper (accepted at ASE 2026), also posted as an arXiv preprint
+- **Where to find it:** https://arxiv.org/abs/2604.12147
+- **Last reviewed:** 2026-11-05
+- **Used by:** `chat/system/prompt.md`
+
+## What the source covers
+
+The paper asks whether coding agents follow the plan their system prompt gives them, and whether following it helps. The authors, from the University of Illinois and IBM, analyze 21,120 agent trajectories and change the plan in controlled ways to see how compliance and success respond. It is the most direct recent evidence on how a step-by-step procedure in a system prompt shapes agent behavior, but it tested mid-sized and open models on one kind of task.
+
+### Method
+
+The testbed is SWE-agent, an open scaffold for fixing GitHub issues, whose system prompt carries a four-phase plan: navigate the code to find the bug, reproduce it with a new test, patch it, then validate the patch. The authors ran four models: GPT-5 mini, DeepSeek-V3, DeepSeek-R1 and Devstral-small (a 24-billion-parameter coding model). None is a current frontier model of the kind this repository's prompt targets. GPT-5 mini is the small tier of a closed model family, and the other three are open-weight.
+
+The main benchmark is 497 issues from SWE-bench Verified. A smaller check used Python issues from SWE-bench Pro, which is harder and less likely to have leaked into training data; only 31 of its 266 Python issues were solved by any model under the default plan, so that check is small.
+
+Each model ran under eight plan settings: the default plan, no plan at all, the plan minus reproduction, the plan minus validation, the plan plus regression-test runs at the start and end, the plan plus a change summary before submitting, a reordered plan with patching before reproduction, and the default plan re-inserted into the context every five steps.
+
+The authors map each agent action to a plan phase with rules (file inspection counts as navigation, new tests before any code edit count as reproduction, and so on), then score each trajectory on three measures: whether all planned phases appear, whether they appear in the planned order, and whether the agent stays inside the planned phases. The overall compliance score is the geometric mean of the three. Two authors hand-labeled 320 sampled actions, and their labels agreed almost perfectly with the automatic mapping. Because agents are nondeterministic, the default-plan runs were repeated three times and the plan variants were also compared on the subset of issues whose outcome stayed the same across repeats.
+
+### Findings
+
+- **Compliance varies by model.** Devstral-small followed the phases in order but added many off-plan actions. GPT-5 mini adapted to difficulty: on easy issues it often skipped reproduction and went straight from navigation to patching, and on hard ones it followed the plan more closely. DeepSeek-V3 stayed inside the plan's phases but often skipped or reordered them, and DeepSeek-R1 complied least.
+- **Following the plan goes with success, mostly.** Resolved issues had higher compliance than unresolved ones for Devstral-small and DeepSeek-R1 at conventional significance. The link was weaker for DeepSeek-V3 and reversed, not significantly, for GPT-5 mini, which followed the plan more on hard problems it then failed.
+- **Without a plan, agents fall back on habits from training.** With the plan removed, agents still showed much of the default workflow, which suggests they learned it in training. Success fell for every model. The drop was small for Devstral-small and GPT-5 mini, whose habits resemble the plan, and large for the DeepSeek models, even though they had complied poorly when the plan was present. The authors read this as evidence that a plan helps an agent's local reasoning even when the agent doesn't follow it step by step, and that without one the agent tends to converge too early.
+- **A worse plan can be worse than no plan.** Removing reproduction or validation from the plan hurt more than removing the whole plan for some models. Removing validation hurt GPT-5 mini badly, because running its own tests after patching was how it caught wrong patches before submitting. DeepSeek-R1 under a cut-down plan began emitting malformed tool calls and terminating, which says more about that model's fragility than about planning.
+- **Adding sensible steps can hurt.** Adding regression-test runs, a standard best practice, lowered success for DeepSeek-V3: running the full test suite early flooded the context and pulled attention from the bug. A change-summary step at the end changed little. The authors conclude that extra steps help only when they match how a model already works.
+- **Agents override a bad order.** When told to patch before reproducing, models that rely on reproduction did it first anyway, and the reordered plan cost them some success.
+- **Reminders help.** Re-inserting the plan every five steps improved success for every model and raised compliance for DeepSeek-V3. The authors' explanation is that a plan at the top of the prompt loses influence as the context fills with file contents and error messages, and reminders keep the agent from drifting into side tasks.
+- **Some wins come from skipping the plan.** Each model solved some issues only without the plan, mostly because the plan demanded a reproduction test the model wrote wrong, sending it into repeated patch-and-fail cycles. The authors flag that some of these no-plan wins may reflect memorized benchmark answers.
+
+### Numbers worth knowing
+
+Under the default plan on SWE-bench Verified, success rates read from the paper's figure are about 65 percent for Devstral-small, 56 percent for GPT-5 mini, 39 percent for DeepSeek-R1 and 38 percent for DeepSeek-V3 (DeepSeek-V3 resolved 191 of 497 issues, which matches). On the stable subset, the reordered plan moved DeepSeek-V3 from 38.3 percent to 38 percent, a negligible change. Compliance on SWE-bench Pro was 13 percent lower on average than on SWE-bench Verified. The paper reports most other effects only in figures, without the exact numbers in the text, so the size of the reminder gain and the no-plan drop can't be quoted precisely from the text alone.
+
+### Strength of the evidence
+
+The design is careful within its scope. It uses a large number of trajectories, controlled one-at-a-time changes to the plan, a validated action-to-phase mapping, repeated runs to separate real effects from noise, and peer review at a major software engineering venue. The authors are open about contamination: SWE-bench Verified is known to overlap with training data, and they cite evidence that it no longer measures frontier coding ability.
+
+Three limits matter for this repository. First, the models are not frontier models. GPT-5 mini, DeepSeek-V3, DeepSeek-R1 and Devstral-small are a generation or a tier below the Claude models this prompt runs on, and the paper's own results show that how much a plan helps depends on how closely it matches the model's trained habits. A stronger model's habits differ, so the direction of the effects is a better guide than their size. Second, the task is one narrow kind of coding work with a fixed four-step workflow. Third, the plan is a procedure written by the scaffold's authors, not a set of goals the model writes for itself. The paper says nothing about self-written goal lists, open-ended chat tasks or delegation to other agents.
+
+## What the prompt applies
+
+**Listing goals up front and using them as the stopping rule (Working loop, Before starting).** The paper's clearest finding is that having a plan raised success for every model it tested, and that agents without one converged too early. That supports the prompt's step of writing down what a complete answer must meet before starting, and the stopping rule built on it. The support is indirect. The paper tested a fixed procedure supplied in the system prompt, while the prompt asks the model to write its own list of goals, judged by what the user wants. The prompt's choice to list outcomes, not steps, does fit two of the paper's other results: prescribed steps that clashed with a model's habits hurt it, and models overrode a bad order anyway. A goal list leaves the method to the model and avoids both problems. The paper did not test that design.
+
+**Scaling the loop to the task (Working loop, opening paragraph).** The prompt tells the model to give a quick question a quick answer and run the full loop only on tasks that need it. GPT-5 mini's behavior in the paper matches this: it skipped reproduction on easy issues and followed the plan on hard ones. The paper also found that forcing an unneeded step (a reproduction test the model wrote badly) could cause failures that skipping it avoided. Both points support scaling the procedure to the task.
+
+**Covering the full scope (While working, operational goals).** The paper bears on this rule only at a distance. Its scope measure counts whether planned phases appear, not whether the user's request was fully met. The closest result is that removing validation from the plan led GPT-5 mini to submit wrong patches too early.
+
+**Counting a goal done only on outside evidence (While working, operational goals).** The validation result is the paper's best support for this rule. GPT-5 mini's success depended heavily on running tests after patching, and without that step it submitted patches it could have caught. Running a test is outside evidence of the kind the prompt names. The paper didn't measure the model's own judgment of completion, so it supports the value of the check, not the claim that self-judgment is unreliable; other references carry that claim.
+
+**Delegation rules.** The paper studies single agents only and gives no evidence for or against the prompt's rules on subagents.
+
+## What the prompt omits
+
+- **Plan reminders.** The paper's most consistent positive result is that re-inserting the plan every few steps improved success for every model. The prompt states its working loop once and has no reminder mechanism, because a static system prompt can't re-inject itself. A harness that can add turn-level messages could act on this finding, and the gap matters most for long agentic runs, where the paper shows a plan losing influence.
+- **Fixed procedures.** The prompt prescribes no step sequence for a task type. That fits the paper's warning that steps misaligned with a model's habits hurt more than they help.
+- **Compliance monitoring.** The authors suggest tracking compliance during a run and triggering reminders when the agent drifts. That is harness design and out of reach for a prompt.
+- **Fine-tuning recommendations.** The paper's main call is for training that teaches models to follow plans in place of memorizing workflows. It has no bearing on prompt text.
+
+## Conflicts with other references
+
+Some reference files named below did not yet exist in the folder when this was written. Where a file was missing, this section works from the source's local full text and says so.
+
+- **Harness design for long-running application development (`anthropic-harness-design.md`).** The Anthropic post found that without a planning step the generator built too little, which agrees with this paper's no-plan result. Its planner avoided low-level technical detail because errors in a detailed spec cascaded into the build. That matches this paper's finding that misaligned or wrong steps can hurt more than no plan. The two sources agree, and together they support the prompt's choice to list outcomes and leave the method open.
+- **Claude prompting best practices (`anthropic-prompting-best-practices.md`).** That guide says a general instruction to think carefully often beats a hand-written reasoning plan, because the model's own reasoning often exceeds what a person would prescribe. This paper is consistent with that for strong models: GPT-5 mini, the most capable model tested, adapted the plan to the task and did better on easy problems when it skipped steps. Yet removing the plan entirely still cut success for every model. The prompt's goal list sits between the two: it fixes what to achieve and leaves the steps to the model.
+- **PushBench (`pushbench.md`, file not yet written; read from the source abstract).** PushBench found that agents stop short of a requested count unless a controller tracks state and an outside verifier confirms progress. That fits this paper's finding that plans lose influence as context grows and that reminders help. Neither the paper nor the prompt provides a state tracker beyond the goal list itself.
+- **Teams of coding agents (`coding-agent-teams.md`, file not yet written; read from the source abstract).** Cohere's study found that planning was the most valuable work to hand to helper agents. This paper says nothing about who writes the plan. The prompt keeps goal-setting with the main agent, which neither study tested directly.
+
+## Review notes
+
+I read the full text of version 3 from a local copy, including the method, every research question, the threats to validity and the discussion. The text copy lost most figures, so the per-model success rates come from figure labels in the extracted text. Their alignment with model names is a reading of the layout, cross-checked only for DeepSeek-V3 against the 191 resolved issues stated in the text. The exact first-version date of the arXiv preprint was not visible in the copy; the arXiv ID places it in April 2026, after the repository's recency cutoff of March 5, 2026, and the ASE submission date was March 26, 2026. I did not open the authors' artifact or prompt files. For the conflicts section I read the existing best-practices reference, my own harness-design reference and the abstracts of the PushBench and coding-agent-teams papers, not their full texts. I did not test any claim on a model.
