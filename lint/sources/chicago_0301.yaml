@@ -1,0 +1,1756 @@
+- source: chicago
+  page: 341
+  entry: "a lot"
+  kind: substitution
+  wrong: "alot"
+  right: "a lot"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always two words."
+- source: chicago
+  page: 344
+  entry: "alright"
+  kind: substitution
+  wrong: "alright"
+  right: "all right"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words; one-word form is nonstandard."
+- source: chicago
+  page: 344
+  entry: "alongside"
+  kind: substitution
+  wrong: "alongside of"
+  right: "alongside"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not follow alongside with of."
+- source: chicago
+  page: 344
+  entry: "alot"
+  kind: substitution
+  wrong: "alot"
+  right: "a lot"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Nonstandard; write a lot."
+- source: chicago
+  page: 345
+  entry: "anyplace"
+  kind: substitution
+  wrong: "anyplace"
+  right: "anywhere"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Informal one-word form; use anywhere."
+- source: chicago
+  page: 345
+  entry: "anyways"
+  kind: substitution
+  wrong: "anyways"
+  right: "anyway"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "The -s form is nonstandard."
+- source: chicago
+  page: 345
+  entry: "anywhere; any place"
+  kind: substitution
+  wrong: "anyplace"
+  right: "anywhere"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Avoid informal anyplace."
+- source: chicago
+  page: 342
+  entry: "actual fact, in"
+  kind: existence
+  wrong: "in actual fact"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Redundant; use actually, in fact, or omit."
+- source: chicago
+  page: 370
+  entry: "in actual fact"
+  kind: existence
+  wrong: "in actual fact"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Redundant; use actually, in fact, or omit."
+- source: chicago
+  page: 343
+  entry: "after having"
+  kind: existence
+  wrong: "after having (?:\\w+ed|been|gone|done|seen|made|taken|given|passed|left|finished|won)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Redundant; use after plus a present participle."
+- source: chicago
+  page: 343
+  entry: "ain't"
+  kind: existence
+  wrong: "ain't"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Dialect; only in dialogue of nonstandard speakers or jest."
+- source: chicago
+  page: 345
+  entry: "and/or"
+  kind: existence
+  wrong: "and/or"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid; use and or or, or both."
+- source: chicago
+  page: 346
+  entry: "as per"
+  kind: existence
+  wrong: "as per"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Nonstandard; write as you requested or per."
+- source: chicago
+  page: 346
+  entry: "as per"
+  kind: existence
+  wrong: "as per usual"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Illiteracy; write as usual."
+- source: chicago
+  page: 347
+  entry: "as yet; as of yet"
+  kind: existence
+  wrong: "as of yet"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Stilted; use yet, still, or so far."
+- source: chicago
+  page: 347
+  entry: "at the present time"
+  kind: existence
+  wrong: "at the present time|at this time"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Turgid; use now, today, or currently."
+- source: chicago
+  page: 347
+  entry: "at the time that; at the time when"
+  kind: substitution
+  wrong: "at the time (?:that|when)"
+  right: "when"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use plain when."
+- source: chicago
+  page: 348
+  entry: "bated breath"
+  kind: substitution
+  wrong: "baited breath"
+  right: "bated breath"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled bated."
+- source: chicago
+  page: 348
+  entry: "basis"
+  kind: existence
+  wrong: "on an? \\w+ basis"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Overworked; use an adverb or state the time directly."
+- source: chicago
+  page: 350
+  entry: "by means of"
+  kind: existence
+  wrong: "by means of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Often verbose; use by or with."
+- source: chicago
+  page: 350
+  entry: "by reason of"
+  kind: existence
+  wrong: "by reason of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use because or because of unless in a fixed phrase."
+- source: chicago
+  page: 352
+  entry: "center around"
+  kind: substitution
+  wrong: "center around"
+  right: "center on"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Illogical; use center on or revolve around."
+- source: chicago
+  page: 353
+  entry: "close proximity"
+  kind: existence
+  wrong: "close proximity"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Redundant; use close or in proximity."
+- source: chicago
+  page: 357
+  entry: "couldn't care less"
+  kind: substitution
+  wrong: "could care less"
+  right: "couldn't care less"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Standard phrasing is couldn't care less."
+- source: chicago
+  page: 358
+  entry: "criteria"
+  kind: substitution
+  wrong: "criterias"
+  right: "criteria"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Criteria is already plural."
+- source: chicago
+  page: 358
+  entry: "credible; creditable; credulous"
+  kind: substitution
+  wrong: "strains credulity"
+  right: "strains credibility"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Guide wants the cliche as strains credibility."
+- source: chicago
+  page: 361
+  entry: "due to the fact that"
+  kind: substitution
+  wrong: "due to the fact that"
+  right: "because"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use because."
+- source: chicago
+  page: 361
+  entry: "doubtless"
+  kind: substitution
+  wrong: "doubtlessly"
+  right: "doubtless"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Flat adverb is doubtless."
+- source: chicago
+  page: 353
+  entry: "cohabit; cohabitate"
+  kind: substitution
+  wrong: "cohabitate"
+  right: "cohabit"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Back-formation; use cohabit."
+- source: chicago
+  page: 357
+  entry: "copyright"
+  kind: substitution
+  wrong: "copywrite"
+  right: "copyright"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelling has nothing to do with write."
+- source: chicago
+  page: 357
+  entry: "copyright"
+  kind: substitution
+  wrong: "copywrited"
+  right: "copyrighted"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelling has nothing to do with write."
+- source: chicago
+  page: 357
+  entry: "councillor; counselor"
+  kind: substitution
+  wrong: "counsellor"
+  right: "counselor"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American spelling counselor; counsellor is British."
+- source: chicago
+  page: 357
+  entry: "court-martial"
+  kind: substitution
+  wrong: "court-martialled"
+  right: "court-martialed"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American inflection has one l."
+- source: chicago
+  page: 357
+  entry: "court-martial"
+  kind: substitution
+  wrong: "court-martialling"
+  right: "court-martialing"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American inflection has one l."
+- source: chicago
+  page: 359
+  entry: "dependant; dependent"
+  kind: substitution
+  wrong: "dependant"
+  right: "dependent"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American usage uses dependent for noun and adjective."
+- source: chicago
+  page: 362
+  entry: "effete"
+  kind: existence
+  wrong: "effete"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Ambiguous today; best avoided."
+- source: chicago
+  page: 363
+  entry: "enthused"
+  kind: substitution
+  wrong: "enthused"
+  right: "enthusiastic"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use enthusiastic as the adjective."
+- source: chicago
+  page: 372
+  entry: "inquire"
+  kind: substitution
+  wrong: "enquire"
+  right: "inquire"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Enquire is a British variant."
+- source: chicago
+  page: 372
+  entry: "inquire"
+  kind: substitution
+  wrong: "enquiry"
+  right: "inquiry"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Enquiry is a British variant."
+- source: chicago
+  page: 364
+  entry: "et al."
+  kind: substitution
+  wrong: "et al(?!\\.)"
+  right: "et al."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Al. is an abbreviation and takes a period."
+- source: chicago
+  page: 364
+  entry: "etc."
+  kind: substitution
+  wrong: "and etc\\.?"
+  right: "etc."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "And etc. is redundant because et means and."
+- source: chicago
+  page: 364
+  entry: "etc."
+  kind: existence
+  wrong: "(?:such as|for example|for instance|e\\.g\\.,?)\\b[^.;]{0,100}?\\betc\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not end a for-example list with etc."
+- source: chicago
+  page: 364
+  entry: "event"
+  kind: substitution
+  wrong: "in the event that"
+  right: "if"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Verbose; use if."
+- source: chicago
+  page: 364
+  entry: "executor; administrator"
+  kind: substitution
+  wrong: "executrix"
+  right: "executor"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Feminine forms unnecessary."
+- source: chicago
+  page: 364
+  entry: "executor; administrator"
+  kind: substitution
+  wrong: "administratrix"
+  right: "administrator"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Feminine forms unnecessary."
+- source: chicago
+  page: 365
+  entry: "feel bad"
+  kind: existence
+  wrong: "fe(?:el|els|lt|eling) badly"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use feel bad, not feel badly."
+- source: chicago
+  page: 365
+  entry: "finalize"
+  kind: existence
+  wrong: "finaliz(?:e|es|ed|ing)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Inflated jargon; use finish when possible."
+- source: chicago
+  page: 365
+  entry: "first"
+  kind: substitution
+  wrong: "firstly"
+  right: "first"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use first, second, third, not the -ly forms."
+- source: chicago
+  page: 365
+  entry: "first"
+  kind: substitution
+  wrong: "secondly"
+  right: "second"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use first, second, third, not the -ly forms."
+- source: chicago
+  page: 365
+  entry: "first"
+  kind: substitution
+  wrong: "thirdly"
+  right: "third"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use first, second, third, not the -ly forms."
+- source: chicago
+  page: 365
+  entry: "flammable; inflammable"
+  kind: substitution
+  wrong: "inflammable"
+  right: "flammable"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Flammable is the standard term."
+- source: chicago
+  page: 366
+  entry: "gauntlet; gantlet"
+  kind: substitution
+  wrong: "run the gantlet"
+  right: "run the gauntlet"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Standard phrase is run the gauntlet."
+- source: chicago
+  page: 366
+  entry: "free rein"
+  kind: substitution
+  wrong: "free reign"
+  right: "free rein"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled rein."
+- source: chicago
+  page: 367
+  entry: "graduate"
+  kind: existence
+  wrong: "graduated (?:college|high school|university)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "A student graduates from a school, not the school."
+- source: chicago
+  page: 368
+  entry: "harebrained"
+  kind: substitution
+  wrong: "hairbrained"
+  right: "harebrained"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled with hare."
+- source: chicago
+  page: 368
+  entry: "hark back"
+  kind: substitution
+  wrong: "(?:harken|hearken) back"
+  right: "hark back"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer hark back."
+- source: chicago
+  page: 368
+  entry: "he or she"
+  kind: substitution
+  wrong: "he/she"
+  right: "he or she"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer he or she to slashed forms."
+- source: chicago
+  page: 368
+  entry: "he or she"
+  kind: substitution
+  wrong: "s/he"
+  right: "he or she"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer he or she to slashed forms."
+- source: chicago
+  page: 368
+  entry: "he or she"
+  kind: substitution
+  wrong: "\\(s\\)he"
+  right: "he or she"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer he or she to parenthetical forms."
+- source: chicago
+  page: 369
+  entry: "home in"
+  kind: substitution
+  wrong: "hone in"
+  right: "home in"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Home in is the correct phrase."
+- source: chicago
+  page: 369
+  entry: "holocaust"
+  kind: casing
+  wrong: "the holocaust"
+  right: "the Holocaust"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize for the Nazi genocide."
+- source: chicago
+  page: 370
+  entry: "impact; impactful"
+  kind: existence
+  wrong: "impactful"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Jargon; use influential or powerful."
+- source: chicago
+  page: 370
+  entry: "in connection with"
+  kind: existence
+  wrong: "in connection with"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Vague; use of, about, for, or related to."
+- source: chicago
+  page: 371
+  entry: "in excess of"
+  kind: existence
+  wrong: "in excess of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Verbose; use more than or over."
+- source: chicago
+  page: 371
+  entry: "in order to; in order for"
+  kind: existence
+  wrong: "in order to"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Often reducible to to when rhythm holds."
+- source: chicago
+  page: 371
+  entry: "in regard to"
+  kind: substitution
+  wrong: "in regards to"
+  right: "in regard to"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Nonstandard plural."
+- source: chicago
+  page: 371
+  entry: "in spite of"
+  kind: substitution
+  wrong: "in spite of"
+  right: "despite"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer despite for brevity."
+- source: chicago
+  page: 371
+  entry: "inasmuch as"
+  kind: existence
+  wrong: "inasmuch as"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use because or since."
+- source: chicago
+  page: 378
+  entry: "near future, in the"
+  kind: substitution
+  wrong: "in the near future"
+  right: "soon"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Try soon or shortly."
+- source: chicago
+  page: 373
+  entry: "irregardless"
+  kind: substitution
+  wrong: "irregardless"
+  right: "regardless"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Error; use regardless."
+- source: chicago
+  page: 373
+  entry: "kudos"
+  kind: existence
+  wrong: "kudos (?:is|are|were|was)|kudo"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Kudos is singular; avoid kudo."
+- source: chicago
+  page: 373
+  entry: "last; lastly"
+  kind: substitution
+  wrong: "lastly"
+  right: "last"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer last for a final point."
+- source: chicago
+  page: 374
+  entry: "life-and-death"
+  kind: substitution
+  wrong: "life-or-death"
+  right: "life-and-death"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Standard idiom is life-and-death."
+- source: chicago
+  page: 376
+  entry: "media; mediums"
+  kind: existence
+  wrong: "media is"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Media is plural in this sense."
+- source: chicago
+  page: 376
+  entry: "memoranda"
+  kind: existence
+  wrong: "(?:memoranda|criteria|phenomena|strata) is"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Plural forms take plural verbs."
+- source: chicago
+  page: 376
+  entry: "mete out"
+  kind: substitution
+  wrong: "meet out"
+  right: "mete out"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled mete."
+- source: chicago
+  page: 377
+  entry: "minuscule"
+  kind: substitution
+  wrong: "miniscule"
+  right: "minuscule"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled minuscule."
+- source: chicago
+  page: 377
+  entry: "mitigate; militate"
+  kind: substitution
+  wrong: "mitigate against"
+  right: "militate against"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Correct phrase is militate against."
+- source: chicago
+  page: 377
+  entry: "myself"
+  kind: existence
+  wrong: "(?:and|or) myself"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid myself in place of I or me."
+- source: chicago
+  page: 378
+  entry: "nonplussed"
+  kind: substitution
+  wrong: "nonplused"
+  right: "nonplussed"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Avoid variant spelling."
+- source: chicago
+  page: 379
+  entry: "of"
+  kind: existence
+  wrong: "(?:January|February|March|April|May|June|July|August|September|October|November|December) of (?=\\d{4})"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer June 2022 over June of 2022."
+- source: chicago
+  page: 379
+  entry: "off"
+  kind: substitution
+  wrong: "off of"
+  right: "off"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Never put of after off."
+- source: chicago
+  page: 379
+  entry: "of"
+  kind: existence
+  wrong: "inside of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Avoid needless of after inside."
+- source: chicago
+  page: 380
+  entry: "outside"
+  kind: existence
+  wrong: "outside of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No of needed in spatial references."
+- source: chicago
+  page: 379
+  entry: "on; upon"
+  kind: existence
+  wrong: "upon"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer on unless introducing an event or condition."
+- source: chicago
+  page: 379
+  entry: "oneself"
+  kind: substitution
+  wrong: "one's self"
+  right: "oneself"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: chicago
+  page: 380
+  entry: "orient; orientate"
+  kind: substitution
+  wrong: "orientate"
+  right: "orient"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Orientate is a poor variation."
+- source: chicago
+  page: 380
+  entry: "parameters"
+  kind: existence
+  wrong: "parameters"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Pretentious in nontechnical writing; use limits or boundaries."
+- source: chicago
+  page: 382
+  entry: "plethora"
+  kind: existence
+  wrong: "plethora"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid as mere equivalent of abundance."
+- source: chicago
+  page: 383
+  entry: "precondition"
+  kind: existence
+  wrong: "precondition"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Try condition or prerequisite."
+- source: chicago
+  page: 383
+  entry: "preliminary to"
+  kind: substitution
+  wrong: "preliminary to"
+  right: "before"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use before."
+- source: chicago
+  page: 383
+  entry: "previous to"
+  kind: substitution
+  wrong: "previous to"
+  right: "before"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use before."
+- source: chicago
+  page: 383
+  entry: "prior to"
+  kind: substitution
+  wrong: "prior to"
+  right: "before"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use before or until."
+- source: chicago
+  page: 383
+  entry: "presently"
+  kind: existence
+  wrong: "presently"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Ambiguous; write now or soon."
+- source: chicago
+  page: 383
+  entry: "preventive"
+  kind: substitution
+  wrong: "preventative"
+  right: "preventive"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Strictly correct form is preventive."
+- source: chicago
+  page: 383
+  entry: "process of, in the"
+  kind: existence
+  wrong: "in the process of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Can almost always be deleted."
+- source: chicago
+  page: 383
+  entry: "prophesy; prophecy"
+  kind: substitution
+  wrong: "prophesize"
+  right: "prophesy"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Prophesize is erroneous."
+- source: chicago
+  page: 384
+  entry: "protuberance"
+  kind: substitution
+  wrong: "protruberance"
+  right: "protuberance"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled without extra r."
+- source: chicago
+  page: 384
+  entry: "proved; proven"
+  kind: existence
+  wrong: "(?:has|have|had|was|were|been|be|is|are) proven"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use proved as participle; proven only as adjective."
+- source: chicago
+  page: 384
+  entry: "reason"
+  kind: existence
+  wrong: "reasons?\\b[^.]{0,40}\\bis because"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Reason is because is poor; use reason is that."
+- source: chicago
+  page: 384
+  entry: "rack; wrack"
+  kind: substitution
+  wrong: "nerve-wracking"
+  right: "nerve-racking"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Rack is standard in familiar senses."
+- source: chicago
+  page: 384
+  entry: "rack; wrack"
+  kind: substitution
+  wrong: "wrack and ruin"
+  right: "rack and ruin"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Rack is standard."
+- source: chicago
+  page: 384
+  entry: "rack; wrack"
+  kind: existence
+  wrong: "wrack(?:ed|ing)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Rack is standard; wrack is seaweed only."
+- source: chicago
+  page: 384
+  entry: "peak; peek; pique"
+  kind: existence
+  wrong: "peak(?:s|ed)? (?:my|your|his|her|their|our) interest"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Interest is piqued, not peaked."
+- source: chicago
+  page: 385
+  entry: "regardless"
+  kind: substitution
+  wrong: "irregardless"
+  right: "regardless"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use regardless."
+- source: chicago
+  page: 386
+  entry: "sacrilegious"
+  kind: substitution
+  wrong: "sacreligious"
+  right: "sacrilegious"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Correct spelling."
+- source: chicago
+  page: 388
+  entry: "sneak"
+  kind: substitution
+  wrong: "snuck"
+  right: "sneaked"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Reserve snuck for dialect."
+- source: chicago
+  page: 389
+  entry: "supersede"
+  kind: substitution
+  wrong: "supercede"
+  right: "supersede"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Avoid variant."
+- source: chicago
+  page: 390
+  entry: "thus"
+  kind: substitution
+  wrong: "thusly"
+  right: "thus"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Flat adverb is thus."
+- source: chicago
+  page: 390
+  entry: "till"
+  kind: substitution
+  wrong: "'til"
+  right: "till"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Till is not a contraction; avoid 'til."
+- source: chicago
+  page: 390
+  entry: "toward"
+  kind: substitution
+  wrong: "towards"
+  right: "toward"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American English prefers toward."
+- source: chicago
+  page: 390
+  entry: "toward"
+  kind: substitution
+  wrong: "afterwards"
+  right: "afterward"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "American editors prefer no final s."
+- source: chicago
+  page: 390
+  entry: "toward"
+  kind: substitution
+  wrong: "backwards"
+  right: "backward"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "American editors prefer no final s; backwards as sports noun possible."
+- source: chicago
+  page: 390
+  entry: "toward"
+  kind: substitution
+  wrong: "upwards"
+  right: "upward"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "American editors prefer no final s."
+- source: chicago
+  page: 390
+  entry: "toward"
+  kind: substitution
+  wrong: "downwards"
+  right: "downward"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "American editors prefer no final s."
+- source: chicago
+  page: 390
+  entry: "toward"
+  kind: substitution
+  wrong: "forwards"
+  right: "forward"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "American editors prefer no final s; forwards is a sports noun."
+- source: chicago
+  page: 391
+  entry: "unique"
+  kind: existence
+  wrong: "(?:very|more|most|somewhat|quite|rather|really|extremely|fairly|so) unique"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Unique is absolute; no degrees."
+- source: chicago
+  page: 391
+  entry: "use; utilize"
+  kind: existence
+  wrong: "utiliz(?:e|es|ed|ing|ation)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use is usually better than utilize."
+- source: chicago
+  page: 392
+  entry: "whether"
+  kind: substitution
+  wrong: "whether or not"
+  right: "whether"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Or not usually unnecessary."
+- source: chicago
+  page: 359
+  entry: "determine whether; determine if"
+  kind: substitution
+  wrong: "(?:determine|decide) if"
+  right: "determine whether"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Whether preferred over if after determine and decide."
+- source: chicago
+  page: 392
+  entry: "whoever; whomever"
+  kind: existence
+  wrong: "whomever"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid unless certain of grammar."
+- source: chicago
+  page: 392
+  entry: "workers' compensation"
+  kind: substitution
+  wrong: "workmen's compensation"
+  right: "workers' compensation"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Preferred name; workers is always plural."
+- source: chicago
+  page: 349
+  entry: "amid; among"
+  kind: substitution
+  wrong: "amidst"
+  right: "amid"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Avoid amidst in American English."
+- source: chicago
+  page: 349
+  entry: "amid; among"
+  kind: substitution
+  wrong: "amongst"
+  right: "among"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Avoid amongst in American English."
+- source: chicago
+  page: 349
+  entry: "between you and me"
+  kind: substitution
+  wrong: "between you and I"
+  right: "between you and me"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hypercorrection; both pronouns are objects."
+- source: chicago
+  page: 357
+  entry: "couple"
+  kind: existence
+  wrong: "a couple (?:days|weeks|months|years|minutes|hours|times|things|people|guys|friends|beers|drinks|bucks|dollars|movies)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Add of after couple as an adjective."
+- source: chicago
+  page: 359
+  entry: "different"
+  kind: existence
+  wrong: "different than(?! (?:they|he|she|we|I|you|it|there|what|how|when|where)\\b)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer different from before a noun."
+- source: chicago
+  page: 376
+  entry: "mankind"
+  kind: existence
+  wrong: "mankind"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Consider humans, human beings, or people."
+- source: chicago
+  page: 395
+  entry: "gender-neutral nouns"
+  kind: existence
+  wrong: "manpower"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use crew, staff, or workers."
+- source: chicago
+  page: 395
+  entry: "gender-neutral nouns"
+  kind: substitution
+  wrong: "forefathers"
+  right: "ancestors"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Gender-neutral alternative."
+- source: chicago
+  page: 395
+  entry: "gender-neutral nouns"
+  kind: substitution
+  wrong: "businessman"
+  right: "business owner"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Gender-neutral alternative."
+- source: chicago
+  page: 395
+  entry: "gender-neutral nouns"
+  kind: substitution
+  wrong: "businesswoman"
+  right: "business owner"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Gender-neutral alternative."
+- source: chicago
+  page: 395
+  entry: "gender-neutral nouns"
+  kind: substitution
+  wrong: "authoress"
+  right: "author"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Drop gender suffix."
+- source: chicago
+  page: 395
+  entry: "gender-neutral nouns"
+  kind: substitution
+  wrong: "testatrix"
+  right: "testator"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Drop gender suffix."
+- source: chicago
+  page: 395
+  entry: "gender-neutral nouns"
+  kind: substitution
+  wrong: "chairperson"
+  right: "chair"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Chair is simpler than -person forms."
+- source: chicago
+  page: 395
+  entry: "gender-neutral nouns"
+  kind: substitution
+  wrong: "anchorperson"
+  right: "anchor"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Anchor is simpler than -person forms."
+- source: chicago
+  page: 352
+  entry: "chair"
+  kind: substitution
+  wrong: "chairman|chairwoman"
+  right: "chair"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Gender-neutral chair is preferred."
+- source: chicago
+  page: 377
+  entry: "mute"
+  kind: existence
+  wrong: "deaf-mute"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Historical phrasing to be avoided."
+- source: chicago
+  page: 395
+  entry: "ableism"
+  kind: existence
+  wrong: "differently abled|special needs"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Euphemisms obscure meaning."
+- source: chicago
+  page: 395
+  entry: "ableism"
+  kind: substitution
+  wrong: "confined to a wheelchair"
+  right: "wheelchair user"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Emphasize agency."
+- source: chicago
+  page: 395
+  entry: "ableism"
+  kind: substitution
+  wrong: "wheelchair[- ]bound"
+  right: "wheelchair user"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Emphasize agency."
+- source: chicago
+  page: 395
+  entry: "ableism"
+  kind: substitution
+  wrong: "speech defect"
+  right: "speech impediment"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Preferred term."
+- source: chicago
+  page: 395
+  entry: "ableism"
+  kind: existence
+  wrong: "deaf as a post|willfully blind|a lame excuse|bogus excuse"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Disability-based figurative language offends some readers."
+- source: chicago
+  page: 359
+  entry: "depend on"
+  kind: substitution
+  wrong: "depends how"
+  right: "depends on how"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Depend demands on."
+- source: chicago
+  page: 336
+  entry: "any and some"
+  kind: existence
+  wrong: "(?:n't|\\bnot) (?:\\w+ ){1,3}(?:somebody|someone|something|somewhere)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "With negation use any- words, not some- words."
+- source: chicago
+  page: 335
+  entry: "shan't"
+  kind: existence
+  wrong: "shan't"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Not used in American English except in jest."
+- source: chicago
+  page: 350
+  entry: "but"
+  kind: existence
+  wrong: "(?:^|[.!?] )But,"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Avoid comma after sentence-opening But."
+- source: chicago
+  page: 371
+  entry: "in the affirmative; in the negative"
+  kind: existence
+  wrong: "in the (?:affirmative|negative)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Pompous; just say yes or no."
+- source: chicago
+  page: 356
+  entry: "consider"
+  kind: existence
+  wrong: "consider(?:s|ed|ing)? as"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Add as after consider only to mean examine or discuss."
+- source: chicago
+  page: 319
+  entry: "comply"
+  kind: substitution
+  wrong: "comply to"
+  right: "comply with"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Comply takes with."
+- source: chicago
+  page: 320
+  entry: "dissimilar"
+  kind: substitution
+  wrong: "dissimilar from"
+  right: "dissimilar to"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Takes to."
+- source: chicago
+  page: 320
+  entry: "enamored"
+  kind: substitution
+  wrong: "enamored with"
+  right: "enamored of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Takes of."
+- source: chicago
+  page: 321
+  entry: "independent"
+  kind: substitution
+  wrong: "independent from"
+  right: "independent of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Takes of."
+- source: chicago
+  page: 320
+  entry: "excerpt"
+  kind: substitution
+  wrong: "excerpt of"
+  right: "excerpt from"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Takes from."
+- source: chicago
+  page: 321
+  entry: "inhere"
+  kind: substitution
+  wrong: "inherent within"
+  right: "inherent in"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Takes in."
+- source: chicago
+  page: 321
+  entry: "instill"
+  kind: substitution
+  wrong: "instill(?:s|ed|ing)? with"
+  right: "instill in"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Instill B in A."
+- source: chicago
+  page: 321
+  entry: "juxtapose"
+  kind: existence
+  wrong: "juxtapos(?:e|ed|ing) with"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Juxtapose takes to."
+- source: chicago
+  page: 321
+  entry: "preferable"
+  kind: substitution
+  wrong: "preferable than"
+  right: "preferable to"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Takes to."
+- source: chicago
+  page: 319
+  entry: "acquit"
+  kind: substitution
+  wrong: "acquit(?:ted)? from"
+  right: "acquitted of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Takes of."
+- source: chicago
+  page: 319
+  entry: "accompanied"
+  kind: substitution
+  wrong: "accompanied with"
+  right: "accompanied by"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Takes by."
+- source: chicago
+  page: 319
+  entry: "based"
+  kind: substitution
+  wrong: "based out of"
+  right: "based at"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Preferably not out of."
+- source: chicago
+  page: 320
+  entry: "build"
+  kind: existence
+  wrong: "buil(?:d|ds|t|ding) off of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Build takes on, not off of."
+- source: chicago
+  page: 320
+  entry: "equivalent"
+  kind: substitution
+  wrong: "equivalent with"
+  right: "equivalent to"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Preferably not with."
+- source: chicago
+  page: 344
+  entry: "all (of)"
+  kind: existence
+  wrong: "all of (?:the|my|your|his|her|its|our|their)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Delete of after all when possible."
+- source: chicago
+  page: 367
+  entry: "half (of)"
+  kind: existence
+  wrong: "half of (?:the|my|your|his|her|its|our|their)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Delete of after half when possible."

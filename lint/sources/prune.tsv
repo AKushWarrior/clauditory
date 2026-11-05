@@ -63,11 +63,13 @@ Apple	(?i)(?<![\d,.])\d,\d{3}(?![\d,])
 Apple	(?i)(?<=[a-z,;] )Steps? \d+\b
 Apple	(?i)(?<=\d)-(?=\d{2,4}\b)(?<=\b(?:19|20)\d\d-)\b
 Apple	(?i)\b(?:19|20)\d{2}[–-]\d{2}\b
+Apple	(?i)\b(?:an|the|your) Apples?\b(?! (?:Account|Card|Cash|Watch|Pencil|Store|TV|Music|News|Support|Pay|Books|Intelligence|Vision|Original|silicon|Park|Inc|ID|Maps|Fitness|Arcade|Diagnostics|Remote|Loops|Lossless|Trade|Gift|Online|Retail|Authorized|Configurator|Developer|Beta|Creator|Games|Podcasts|Photos|services|logo|menu|event|File|Filing|Push|Computer|Newton|Lisa|II|M\d|A\d|T2|Silicon))\b
 Apple	(?i)\bWeb(?= (?:app|browser|developer|server|page|site|address|cam|cast|mail))\b
 Apple	(?i)\b\d+['’]s\b
 Apple	(?i)\bcheck the (?:\w+ )?checkbox|checked|unchecked\b
 Apple	(?i)\bcountries(?! or regions)|\bcountry(?! or region)(?= (?:code|availability|settings?))\b
 Apple	(?i)\bfrom \d{1,2}(?::\d{2})?[–-]\d\b
+Apple	(?i)\bnon-(?=[a-z])
 Apple	(?i)\bover \d[\d,]*\b
 Apple	(?i)\bsub-(?=[a-z])
 Apple	\bChapter (?=\d)
@@ -104,26 +106,48 @@ Apple	us
 Apple	via
 Chicago	(?<![A-Za-z.])U\.S\.
 Chicago	(?<=\d)%
+Chicago	(?i)"[^"\n]+"
+Chicago	(?i)(?!(?:early|friendly|only|family|likely|lonely|lovely|holy|silly|daily|weekly|monthly|yearly|quarterly|elderly|costly|deadly|ugly|lively|orderly|timely|worldly|kindly|lowly|scholarly|surly|leisurely|neighborly|italy|july|assembly|anomaly|monopoly|supply|reply|apply|rally|belly|jelly|bully|ally)-)[a-z]{2,}ly-[a-z]+\b
+Chicago	(?i)(?<![./\w-])(?:png|gif|jpeg|jpg|pdf|svg)(?![./\w-])
 Chicago	(?i)(?<![.\s])\.\.\.(?!\.)
+Chicago	(?i)(?<=[.?!])  +(?=[A-Z])
 Chicago	(?i)(?<=[a-z,;] )(?:Chapter|Appendix|Table|Figure) \d\b
 Chicago	(?i)(?<=[a-z,;] )(?:Cubism|Surrealism|Existentialism|Modernism|Postmodernism|Minimalism|Structuralism|Rococo|Baroque|Fauvism|Naturalism|Realism|Symbolism|Humanism|Idealism|Impressionism|Formalism|Deconstruction|Transcendentalism|Neoclassicism|Nominalism|Imagism|Mannerism|Conceptualism|Classicism|Art Deco|Art Nouveau|Pop Art|Op Art)\b
 Chicago	(?i)(?<=[a-z]) x (?=[A-Z]\.? ?[a-z]+)
 Chicago	(?i)(?<=\d )(?:km|kg|cm|mm|mg|ml|mL|kW|kHz|MHz|GHz|Hz|ha|dpi|rpm|mph|lb|oz)s\b
+Chicago	(?i)\b(?:1[5-9]|20)\d{2}-(?:1[5-9]|20)?\d{2}\b
 Chicago	(?i)\b(?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4} (?=[a-z])
+Chicago	(?i)\b(?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}(?= [a-z])
+Chicago	(?i)\b(?:[2-9]\d?|100) (?:years|months|weeks|days)\b
 Chicago	(?i)\b(?:from|between) \$?\d[\d,.]*\s?[–—-]\s?\$?\d\b
 Chicago	(?i)\b(?:one|two|three|four|five|six|seven|eight|nine) (?:half|halves|thirds?|fourths?|quarters?|fifths?|sixths?|eighths?|tenths?)\b
 Chicago	(?i)\b(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve) (?:half|thirds?|fourths?|fifths?|sixths?|sevenths?|eighths?|ninths?|tenths?)(?![-\w])
+Chicago	(?i)\b(?:to|for|with|by|from|of) who\b(?! (?:is|was|are|were|has|had|will|would|can|could|does|did))\b
+Chicago	(?i)\b[a-z]+, [a-z]+ (?:and|or) [a-z]+\b
 Chicago	(?i)\b\d{1,3}['’]s\b
 Chicago	(?i)\bin (?!(?:January|February|March|April|May|June|July|August|September|October|November|December)\b)[A-Z][a-z]+ \d{4}\b
 Chicago	\bSept(?!\.)
+Chicago	\bU\.S\.(?!C\.)
+Chicago	\bthe Web(?! (?:Consortium|Standards))\b
+Chicago	all of its
+Chicago	all of the
+Chicago	and etc.
+Chicago	and/or
 Chicago	april
 Chicago	august
+Chicago	authoress
+Chicago	confined to a wheelchair
+Chicago	differently abled
 Chicago	february
+Chicago	half of the
 Chicago	in the appendix
 Chicago	july
 Chicago	june
+Chicago	mankind
+Chicago	manpower
 Chicago	november
 Chicago	october
+Chicago	parameters
 Google	(?i)(?<=[a-z,] )Internet(?! of Things| Key| Protocol| Assigned| Explorer)
 Google	(?i)\b(?:Jan|Feb|Mar|Apr|Aug|Sept?|Oct|Nov|Dec)\. \d\b
 Google	(?i)\b[A-Z]{2,}['’]s\b
@@ -132,6 +156,7 @@ Google	(?i)\b[a-z]+, [a-z]+ (?:and|or)\b
 Google	(?i)\b\d ?(?:[ap]\.m|[ap]m|[AP]\.M|Am|Pm)\b
 Google	(?i)\b\d+ percent|\d+ %
 Google	(?i)\b\d+(?:st|nd|rd|th)\b
+Google	(?i)\b\d{1,2}(?::\d{2})?\s?(?:a\.m|p\.m|am|pm)\b
 Google	(?i)\bdoes(?:n.t| not) yet|eventually\b
 Google	(?i)\bfrom \d+-\d+\b
 Google	(?i)\blet.s\b
@@ -177,6 +202,7 @@ Google	vice versa
 Google	white papers
 Google	world wide web
 Google	would not
+IBM	(?<=\d) percent\b
 IBM	(?i)(?<![\d,.])\d,\d{3}(?![\d,])
 IBM	(?i)(?<![\d-])\d+-\d+(?![\d-])
 IBM	(?i)\b(?:ante|bio|counter|extra|infra|inter|intra|macro|meta|micro|mid|mini|multi|non|over|post|pre|pseudo|sub|super|supra|trans|ultra|un|under)-(?![a-z]*-)[a-z]+\b
@@ -221,12 +247,15 @@ Microsoft	(?i)\b(?:one|two|three|four|five|six|seven|eight|nine) (?:half|halves|
 Microsoft	(?i)\b\d+(?:\.\d+)? percent\b
 Microsoft	(?i)\b\d+(?:\.\d+)?\s?[KMB]\b
 Microsoft	(?i)\b\d+(?:st|nd|rd|th)\b
+Microsoft	(?i)\b\d{1,2}(?::\d{2})? ?(?:a\.m|p\.m)(?=\.)
 Microsoft	(?i)\b\w+, \w+ and \w+\b
 Microsoft	(?i)\bjump(?:s|ed|ing)? (?:to|from|back to) (?:the |a )?(?:link|page|topic|section|reference)\b
+Microsoft	(?i)\bsub-[a-z]+\b
 Microsoft	\bet al(?=\.)
 Microsoft	a given
 Microsoft	april
 Microsoft	black box
+Microsoft	click here
 Microsoft	corrupted
 Microsoft	crash
 Microsoft	data are
@@ -237,6 +266,7 @@ Microsoft	easily
 Microsoft	enable
 Microsoft	establish connectivity
 Microsoft	february
+Microsoft	indices
 Microsoft	july
 Microsoft	june
 Microsoft	lower case
@@ -254,6 +284,7 @@ Microsoft	there is
 Microsoft	there were
 Microsoft	viz.
 Microsoft	world wide web
+NYT	(?<=[A-Za-z]), (?=(?:Inc|Ltd)\.)\b
 NYT	(?<=\d)\s?%
 NYT	(?i)(?<=[A-Za-z]), Inc(?=\.)
 NYT	(?i)(?<=[a-z]), (?:AL|AK|AZ|AR|CA|CO|CT|DE|DC|FL|GA|IL|KS|KY|MD|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)(?=[ ,.]|$)

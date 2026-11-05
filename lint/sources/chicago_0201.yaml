@@ -1,0 +1,556 @@
+- source: chicago
+  page: 294
+  entry: "5.108 negative contractions"
+  kind: existence
+  wrong: "amn['’]t"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Never contract am not as amn't; use I'm not, or aren't I in questions."
+- source: chicago
+  page: 294
+  entry: "5.109 contractions"
+  kind: existence
+  wrong: "oughtn['’]t"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Oughtn't looks awkward; prefer ought not."
+- source: chicago
+  page: 294
+  entry: "5.109 contractions"
+  kind: substitution
+  wrong: "can not(?! only| just| be only)"
+  right: "cannot"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Cannot is the one-word form that contracts to can't."
+- source: chicago
+  page: 275
+  entry: "5.53 possessive pronouns"
+  kind: substitution
+  wrong: "her['’]s"
+  right: "hers"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Possessive personal pronouns never take an apostrophe."
+- source: chicago
+  page: 275
+  entry: "5.53 possessive pronouns"
+  kind: substitution
+  wrong: "your['’]s"
+  right: "yours"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Possessive personal pronouns never take an apostrophe."
+- source: chicago
+  page: 275
+  entry: "5.53 possessive pronouns"
+  kind: substitution
+  wrong: "our['’]s"
+  right: "ours"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Possessive personal pronouns never take an apostrophe."
+- source: chicago
+  page: 275
+  entry: "5.53 possessive pronouns"
+  kind: substitution
+  wrong: "their['’]s"
+  right: "theirs"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Possessive personal pronouns never take an apostrophe."
+- source: chicago
+  page: 275
+  entry: "5.54 possessive pronouns versus contractions"
+  kind: substitution
+  wrong: "its['’](?!\\w)"
+  right: "its"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Possessive its takes no apostrophe; may false-match a quoted word."
+- source: chicago
+  page: 282
+  entry: "5.71 indefinite pronouns"
+  kind: existence
+  wrong: "(?:anyone|anybody|someone|somebody|everyone|everybody|no one|nobody)['’]s else"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Put the possessive on else: anybody else's, no one else's."
+- source: chicago
+  page: 282
+  entry: "5.71 indefinite pronouns"
+  kind: substitution
+  wrong: "no-one"
+  right: "no one"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No one is written as two words."
+- source: chicago
+  page: 271
+  entry: "5.43 first-person pronoun"
+  kind: casing
+  wrong: "(?<![\\w'’./(-])i(?![\\w'’.)/-])"
+  right: "I"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "The pronoun I is always capitalized; may hit list markers or roman numerals."
+- source: chicago
+  page: 270
+  entry: "5.40 nominative misused for objective"
+  kind: substitution
+  wrong: "between (you|him|her|them|us) and I"
+  right: "between $1 and me"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Object of a preposition takes the objective case: between you and me."
+- source: chicago
+  page: 270
+  entry: "5.40 nominative misused for objective"
+  kind: existence
+  wrong: "(?:tell|told|give|gave|send|sent|call|called|ask|asked|thank|thanked|for|with|to) (?:you|him|her|them|us|[A-Z][a-z]+) (?:and|or) I\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Compound object needs me, not I (tell Laura and me)."
+- source: chicago
+  page: 276
+  entry: "5.55 reflexive and intensive pronouns"
+  kind: existence
+  wrong: "(?:and|or) myself\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Myself in a compound subject or object is nonstandard; use I or me."
+- source: chicago
+  page: 285
+  entry: "5.82 / 5.51 singular they"
+  kind: existence
+  wrong: "(?i:his or her|his/her|he or she|he/she|him or her|himself or herself|s/he)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Chicago endorses singular they; prefer their or they over gendered pairs."
+- source: chicago
+  page: 277
+  entry: "5.57 kind and sort"
+  kind: substitution
+  wrong: "these kind of"
+  right: "these kinds of"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Plural demonstratives take plural kinds or sorts."
+- source: chicago
+  page: 277
+  entry: "5.57 kind and sort"
+  kind: substitution
+  wrong: "those kind of"
+  right: "those kinds of"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Plural demonstratives take plural kinds or sorts."
+- source: chicago
+  page: 277
+  entry: "5.57 kind and sort"
+  kind: substitution
+  wrong: "these sort of"
+  right: "these sorts of"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Plural demonstratives take plural kinds or sorts."
+- source: chicago
+  page: 277
+  entry: "5.57 kind and sort"
+  kind: substitution
+  wrong: "those sort of"
+  right: "those sorts of"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Plural demonstratives take plural kinds or sorts."
+- source: chicago
+  page: 282
+  entry: "5.70 who versus whom"
+  kind: existence
+  wrong: "\\b(?:to|for|with|by|from|of) who\\b(?! (?:is|was|are|were|has|had|will|would|can|could|does|did))"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "After a preposition formal prose keeps whom (for whom the bell tolls)."
+- source: chicago
+  page: 284
+  entry: "5.78 choosing a or an"
+  kind: substitution
+  wrong: "an historic"
+  right: "a historic"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Use a before an h sounded as a consonant."
+- source: chicago
+  page: 284
+  entry: "5.78 choosing a or an"
+  kind: existence
+  wrong: "an (?:unique|unicorn|union|uniform|unit|united|universal|university|useful|usual|utility|European|euro|eulogy|euphemism|one-time|onetime|once)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Words starting with a y sound take a, not an."
+- source: chicago
+  page: 284
+  entry: "5.78 choosing a or an"
+  kind: existence
+  wrong: "an U\\.?S\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "US is said as you-ess, so use a US."
+- source: chicago
+  page: 284
+  entry: "5.78 choosing a or an"
+  kind: existence
+  wrong: "a (?:hour|hourly|honest|honor|honour|heir|insurance|X-Files)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Silent h or vowel sound takes an (an hour, an insurance agent)."
+- source: chicago
+  page: 284
+  entry: "5.78 choosing a or an"
+  kind: existence
+  wrong: "a (?:MBA|ATM|FBI|NBA|NFL|MRI|SUV|SQL|HTML|XML|LCD|LED|FAQ|SMS|NDA|RSS|FDA|HR|RFP|MVP|NGO|LLC|SEO|SSD|SAT|AP|IRS|FAA|NSA|EPA|ETF|IRA)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation read with a vowel sound first takes an (an MBA, an ATM)."
+- source: chicago
+  page: 284
+  entry: "5.78 choosing a or an"
+  kind: existence
+  wrong: "an (?:PDF|BTU|UI|UX|URL|USB|UFO|UK|UN|UAE|UPS|CEO|CPU|DVD|GPU|PhD)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation read with a consonant sound first takes a (a PDF, a BTU)."
+- source: chicago
+  page: 288
+  entry: "5.93 noncomparable adjectives"
+  kind: existence
+  wrong: "(?:more|most|very|quite|largely|really|rather|somewhat|extremely|fairly|less|least) (?:unique|impossible|pregnant|entire|absolute|infinite|perfect|complete|universal|final|dead|empty)\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Absolute adjectives resist comparison or intensifiers; rare deliberate exceptions exist."
+- source: chicago
+  page: 288
+  entry: "5.94 participial adjectives"
+  kind: existence
+  wrong: "very much (?:tired|drunk|bored|interested|pleased|satisfied)"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Adjectival participles take plain very, not very much."
+- source: chicago
+  page: 289
+  entry: "5.96 phrasal adjectives"
+  kind: existence
+  wrong: "\\d(?:,\\d{3})*-(?:pounds|hours|years|days|weeks|months|minutes|miles|dollars|pages|words|feet|inches|people|times)\\b(?!-)"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Amount in a phrasal adjective stays singular: 3,000-pound truck."
+- source: chicago
+  page: 290
+  entry: "5.97 exceptions for phrasal adjectives"
+  kind: existence
+  wrong: "\\b(?:highly|newly|widely|recently|poorly|badly|fully|sharply|greatly|closely|densely|heavily|carefully|clearly|deeply|largely|mostly|barely|completely|extremely|really|freshly|finely|loosely|tightly|brightly|slowly|quickly)-[a-z]+"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "No hyphen after an -ly adverb in a phrasal adjective."
+- source: chicago
+  page: 286
+  entry: "5.86 predicate adjectives"
+  kind: existence
+  wrong: "\\b(?:feel|feels|felt|feeling) badly\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "After a linking verb use the adjective: feel bad."
+- source: chicago
+  page: 292
+  entry: "5.104 regular and irregular verbs"
+  kind: substitution
+  wrong: "dreamt"
+  right: "dreamed"
+  domain: wording
+  fix: safe
+  american: false
+  context: general
+  note: "American English prefers -ed; -t forms are British."
+- source: chicago
+  page: 292
+  entry: "5.104 regular and irregular verbs"
+  kind: substitution
+  wrong: "learnt"
+  right: "learned"
+  domain: wording
+  fix: safe
+  american: false
+  context: general
+  note: "American English prefers -ed; -t forms are British."
+- source: chicago
+  page: 292
+  entry: "5.104 regular and irregular verbs"
+  kind: substitution
+  wrong: "spelt"
+  right: "spelled"
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: "American English prefers -ed; spelt is also a grain, so review."
+- source: chicago
+  page: 299
+  entry: "5.128 subjunctive versus indicative"
+  kind: existence
+  wrong: "I wish (?:I|he|she|it|we|they) was\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Wishes contrary to fact take were."
+- source: chicago
+  page: 300
+  entry: "5.129 subjunctive misuse"
+  kind: existence
+  wrong: "whether (?:I|he|she|it) were\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Indicative whether-clauses take was, not were."
+- source: chicago
+  page: 300
+  entry: "5.129 double conditional"
+  kind: existence
+  wrong: "\\b[Ii]f (?:I|you|he|she|it|we|they) would have\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Use had in the if-clause: if I had gone, not if I would have gone."
+- source: chicago
+  page: 300
+  entry: "5.129 present subjunctive"
+  kind: existence
+  wrong: "\\b(?:recommend|insist|demand|request|propose|require)(?:s|ed)? that (?:he|she|it) (?:is|was|has|takes|goes|makes|does|gets)\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Mandative clauses use the base form: insists that she go; may false-match."
+- source: chicago
+  page: 262
+  entry: "5.10 / 5.18 mass nouns"
+  kind: existence
+  wrong: "\\b(?:luggages|furnitures|spaghettis|wheats|informations|evidences)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Mass nouns lack plural forms; evidences may be legal usage."
+- source: chicago
+  page: 205
+  entry: "4.4 email"
+  kind: substitution
+  wrong: "e-mail"
+  right: "email"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Chicago writes email without a hyphen."
+- source: chicago
+  page: 250
+  entry: "4.112 electronic rights"
+  kind: substitution
+  wrong: "e-book"
+  right: "ebook"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Chicago writes ebook as one word."
+- source: chicago
+  page: 250
+  entry: "4.112 audio rights"
+  kind: substitution
+  wrong: "audio book"
+  right: "audiobook"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Audiobook is one word."
+- source: chicago
+  page: 250
+  entry: "4.112 electronic rights"
+  kind: substitution
+  wrong: "data base"
+  right: "database"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Database is one word."
+- source: chicago
+  page: 205
+  entry: "4.5 original expression"
+  kind: substitution
+  wrong: "pre-existing"
+  right: "preexisting"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Chicago closes the pre- prefix: preexisting."
+- source: chicago
+  page: 208
+  entry: "4.12 joint authorship"
+  kind: substitution
+  wrong: "co-author"
+  right: "coauthor"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Coauthor is closed up."
+- source: chicago
+  page: 208
+  entry: "4.12 joint authorship"
+  kind: substitution
+  wrong: "co-authors"
+  right: "coauthors"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Coauthors is closed up."
+- source: chicago
+  page: 210
+  entry: "4.19 copublication"
+  kind: substitution
+  wrong: "co-publication"
+  right: "copublication"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Copublication is closed up."
+- source: chicago
+  page: 250
+  entry: "4.112-4.115 non- compounds"
+  kind: existence
+  wrong: "non-(?:exclusive|recurring|dramatic|fiction|standard|binary|restrictive|count|comparable|personal|living|possessive|human|profit)"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Chicago closes non- compounds: nonfiction, nonexclusive, nonrecurring."
+- source: chicago
+  page: 204
+  entry: "4.2 US without periods"
+  kind: substitution
+  wrong: "U\\.S\\.(?!C\\.)"
+  right: "US"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Chicago writes US without periods; leave statute cites like U.S.C."
+- source: chicago
+  page: 251
+  entry: "4.114 percent"
+  kind: existence
+  wrong: "\\d+(?:\\.\\d+)?\\s?%"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "In nontechnical text use numeral plus the word percent."
+- source: chicago
+  page: 205
+  entry: "4.5 comma after e.g. and i.e."
+  kind: existence
+  wrong: "\\b(?:e\\.g|i\\.e)\\.(?![,\\w])"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Follow e.g. and i.e. with a comma."
+- source: chicago
+  page: 257
+  entry: "5.2 centuries"
+  kind: existence
+  wrong: "\\b\\d{1,2}(?:st|nd|rd|th)[- ]century"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spell out centuries: twenty-first century."
+- source: chicago
+  page: 212
+  entry: "4.25 spelled-out numbers"
+  kind: existence
+  wrong: "\\b(?:[2-9]\\d?|100) (?:years|months|weeks|days)\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Nontechnical prose spells out numbers to one hundred; flag only."

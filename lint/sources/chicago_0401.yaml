@@ -1,0 +1,1042 @@
+- source: chicago
+  page: 403
+  entry: "6.7 one space between sentences"
+  kind: existence
+  wrong: "(?<=[.?!])  +(?=[A-Z])"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Use one space, not two, between sentences."
+- source: chicago
+  page: 432
+  entry: "6.66 one space after colon"
+  kind: existence
+  wrong: "(?<=:)  +(?=\\S)"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Use a single space after a colon."
+- source: chicago
+  page: 403
+  entry: "6.9 periods and commas inside closing quotes"
+  kind: existence
+  wrong: "\\w[”\"][.,]"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "In American style, periods and commas go inside closing quotation marks; exceptions for typed strings."
+- source: chicago
+  page: 404
+  entry: "6.10 colons and semicolons outside quotes"
+  kind: existence
+  wrong: "[;:][”\"]"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Colons and semicolons follow closing quotation marks, never precede them."
+- source: chicago
+  page: 406
+  entry: "6.14 no double period after abbreviation"
+  kind: existence
+  wrong: "(?<!\\.)\\.\\.(?!\\.)"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "An abbreviation ending a sentence takes no additional period."
+- source: chicago
+  page: 453
+  entry: "6.15 spaced ellipsis"
+  kind: substitution
+  wrong: "(?<![.\\s])\\.\\.\\.(?!\\.)"
+  right: ". . ."
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Chicago prefers three spaced periods with nonbreaking spaces for an ellipsis."
+- source: chicago
+  page: 453
+  entry: "6.15 ellipsis character"
+  kind: substitution
+  wrong: "…"
+  right: ". . ."
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Chicago prefers spaced periods over the single ellipsis character."
+- source: chicago
+  page: 407
+  entry: "6.19 serial comma"
+  kind: existence
+  wrong: "\\b[a-z]+, [a-z]+ (?:and|or) [a-z]+\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Use a comma before the final and or or in a series of three or more; many false positives."
+- source: chicago
+  page: 409
+  entry: "6.20 comma before etc."
+  kind: existence
+  wrong: "(?<![,(])\\s+etc\\."
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "A comma precedes etc. when it ends a series."
+- source: chicago
+  page: 409
+  entry: "6.20 etc. needs period"
+  kind: substitution
+  wrong: "etc(?![.\\w])"
+  right: "etc."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Abbreviation of et cetera takes a period."
+- source: chicago
+  page: 409
+  entry: "6.20 et al. needs period"
+  kind: substitution
+  wrong: "et al(?!\\.)"
+  right: "et al."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Et al. is an abbreviation and takes a period."
+- source: chicago
+  page: 409
+  entry: "6.20 et. al."
+  kind: substitution
+  wrong: "et\\. al\\.?"
+  right: "et al."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Only al. takes a period; et is a full word."
+- source: chicago
+  page: 409
+  entry: "6.20 no comma before et al. after single name"
+  kind: existence
+  wrong: "\\b[A-Z][a-z]+, et al\\."
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "After a single item, et al. takes no preceding comma."
+- source: chicago
+  page: 409
+  entry: "6.21 ampersand serial comma"
+  kind: existence
+  wrong: ",\\s+&"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Omit the serial comma before an ampersand in company names."
+- source: chicago
+  page: 420
+  entry: "6.41 comma after year in dates"
+  kind: existence
+  wrong: "(?:January|February|March|April|May|June|July|August|September|October|November|December) \\d{1,2}, \\d{4}(?= [a-z])"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "In month-day-year dates, a comma follows the year mid-sentence; adjectival use may be exempt."
+- source: chicago
+  page: 420
+  entry: "6.41 comma between day and month-day"
+  kind: existence
+  wrong: "(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday) (?:January|February|March|April|May|June|July|August|September|October|November|December)"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Separate the weekday from the month and day with a comma."
+- source: chicago
+  page: 420
+  entry: "6.41 comma before year"
+  kind: existence
+  wrong: "(?:January|February|March|April|May|June|July|August|September|October|November|December) \\d{1,2} \\d{4}"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Month-day-year dates need a comma between day and year."
+- source: chicago
+  page: 420
+  entry: "6.42 no comma before postal code"
+  kind: existence
+  wrong: "\\b[A-Z]{2}, \\d{5}\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "No comma between state and ZIP code."
+- source: chicago
+  page: 423
+  entry: "6.46 Jr. Sr. II III without commas"
+  kind: existence
+  wrong: "\\w, (?:Jr\\.|Sr\\.|II|III|IV)\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Commas are not required around Jr., Sr., II, III in running text; inverted names need them."
+- source: chicago
+  page: 424
+  entry: "6.47 Inc. Ltd. without commas"
+  kind: existence
+  wrong: "\\w, (?:Inc|Ltd|LLC|Co|Corp)\\."
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "No comma before Inc., Ltd., and similar in company names unless the company itself uses one."
+- source: chicago
+  page: 426
+  entry: "6.54 comma after i.e. and e.g."
+  kind: existence
+  wrong: "\\b(?:i\\.e\\.|e\\.g\\.)(?=\\s+\\w)"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "i.e. and e.g. are followed by a comma."
+- source: chicago
+  page: 426
+  entry: "6.54 i.e. periods"
+  kind: substitution
+  wrong: "\\bi\\.e(?![.\\w])"
+  right: "i.e."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Abbreviation i.e. takes both periods."
+- source: chicago
+  page: 426
+  entry: "6.54 e.g. periods"
+  kind: substitution
+  wrong: "\\be\\.g(?![.\\w])"
+  right: "e.g."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Abbreviation e.g. takes both periods."
+- source: chicago
+  page: 429
+  entry: "6.61 comma splice with however, therefore, thus"
+  kind: existence
+  wrong: ", (?:however|therefore|thus|hence|accordingly)(?=,? (?:the|we|he|she|it|they|I|this|that)\\b)"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Conjunctive adverbs joining independent clauses take a semicolon, not a comma."
+- source: chicago
+  page: 432
+  entry: "6.68 no colon after namely, for example"
+  kind: existence
+  wrong: "\\b(?:namely|for example|that is|i\\.e\\.|e\\.g\\.):"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Namely, for example, and similar take a comma, not a colon."
+- source: chicago
+  page: 433
+  entry: "6.71 misused colon before a list"
+  kind: existence
+  wrong: "\\b(?:includes?|included|including|such as|consists? of|consisting of):"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "A colon needs a grammatically complete sentence before it."
+- source: chicago
+  page: 435
+  entry: "6.77 bracketed exclamation point"
+  kind: existence
+  wrong: "\\[!\\]"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Avoid bracketed exclamation points as editorial protest; use sic only for errors."
+- source: chicago
+  page: 437
+  entry: "6.83 en dash in year ranges"
+  kind: existence
+  wrong: "\\b(?:1[5-9]|20)\\d{2}-(?:1[5-9]|20)?\\d{2}\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Use an en dash, not a hyphen, in number ranges such as years."
+- source: chicago
+  page: 437
+  entry: "6.83 en dash in page ranges"
+  kind: existence
+  wrong: "\\bpp?\\. \\d+-\\d+"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Use an en dash in page ranges."
+- source: chicago
+  page: 438
+  entry: "6.83 from with en dash"
+  kind: existence
+  wrong: "\\bfrom \\d{4}\\s?[–-]\\s?\\d{2,4}\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "After from, use to or through, never an en dash."
+- source: chicago
+  page: 438
+  entry: "6.83 between with en dash"
+  kind: existence
+  wrong: "\\bbetween \\d{1,4}\\s?[–-]\\s?\\d{1,4}\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "After between, use and, never an en dash or hyphen."
+- source: chicago
+  page: 439
+  entry: "6.87 Wisconsin-Madison en dash"
+  kind: substitution
+  wrong: "Wisconsin-Madison"
+  right: "Wisconsin–Madison"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Campus locations after university names take an en dash."
+- source: chicago
+  page: 439
+  entry: "6.87 Wisconsin-Milwaukee en dash"
+  kind: substitution
+  wrong: "Wisconsin-Milwaukee"
+  right: "Wisconsin–Milwaukee"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Campus locations after university names take an en dash."
+- source: chicago
+  page: 440
+  entry: "6.89 spaced en dash as em dash"
+  kind: substitution
+  wrong: "(?<=\\w) – (?=\\w)"
+  right: "—"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Spaced en dashes are British style; American style uses unspaced em dashes."
+- source: chicago
+  page: 440
+  entry: "6.91 spaced em dash"
+  kind: substitution
+  wrong: "(?<=\\w) — (?=\\w)"
+  right: "—"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Em dashes take no surrounding spaces."
+- source: chicago
+  page: 440
+  entry: "6.91 double hyphen as dash"
+  kind: substitution
+  wrong: "(?<=\\w)--(?=\\w)"
+  right: "—"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Use a true em dash, not two hyphens."
+- source: chicago
+  page: 441
+  entry: "6.95 no comma, colon, semicolon before em dash"
+  kind: existence
+  wrong: "[,:;]—"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Never put a comma, colon, or semicolon before an em dash."
+- source: chicago
+  page: 444
+  entry: "6.103 parentheses within parentheses"
+  kind: existence
+  wrong: "\\([^()\\[\\]]*\\([^()]*\\)[^()]*\\)"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Prefer square brackets for parentheses nested in parentheses."
+- source: chicago
+  page: 445
+  entry: "6.104 no comma before closing parenthesis"
+  kind: existence
+  wrong: "[,;:]\\)"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "A closing parenthesis is never preceded by a comma, semicolon, or colon."
+- source: chicago
+  page: 448
+  entry: "6.115 all-numeral dates"
+  kind: existence
+  wrong: "\\b\\d{1,2}/\\d{1,2}/\\d{2,4}\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid all-numeral slash dates in formal writing; use ISO format if needed."
+- source: chicago
+  page: 450
+  entry: "6.123 straight double quotes"
+  kind: existence
+  wrong: "\"[^\"\\n]+\""
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Published prose should use curly quotation marks; code text is exempt."
+- source: chicago
+  page: 451
+  entry: "6.125 apostrophe vs left single quote"
+  kind: existence
+  wrong: "‘(?:tis|twas|em|n|\\d0s)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Leading apostrophes in contractions and decades must be right-facing marks."
+- source: chicago
+  page: 454
+  entry: "6.133 period with question mark"
+  kind: existence
+  wrong: "[?!]\\.(?!\\.)"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "A period never accompanies a question mark or exclamation point."
+- source: chicago
+  page: 455
+  entry: "6.134 comma after question mark or exclamation point"
+  kind: existence
+  wrong: "[?!][”\"]?,"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Omit the comma after a quoted question or exclamation; retained after titles."
+- source: chicago
+  page: 455
+  entry: "6.135 multiple end marks"
+  kind: existence
+  wrong: "[?!]{2,}"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Avoid ?!, !!, ?? combinations in formal prose."
+- source: chicago
+  page: 465
+  entry: "7.3 colour"
+  kind: substitution
+  wrong: "colour"
+  right: "color"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use American spelling when editing for a US publisher, outside quotations."
+- source: chicago
+  page: 465
+  entry: "7.3 analyse"
+  kind: substitution
+  wrong: "analyse"
+  right: "analyze"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use American -ize spelling outside quoted material."
+- source: chicago
+  page: 465
+  entry: "7.6 zeroes"
+  kind: substitution
+  wrong: "zeroes"
+  right: "zeros"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Plural noun is zeros; the verb zeroes in is correct."
+- source: chicago
+  page: 465
+  entry: "7.6 millenniums"
+  kind: substitution
+  wrong: "millenniums"
+  right: "millennia"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Chicago prefers the first-listed plural, millennia."
+- source: chicago
+  page: 468
+  entry: "7.13 plural after closing quote"
+  kind: existence
+  wrong: "”['’]?s\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Avoid a plural ending after a closing quotation mark; reword."
+- source: chicago
+  page: 468
+  entry: "7.14 dos and don'ts"
+  kind: substitution
+  wrong: "do['’]s and don['’]ts"
+  right: "dos and don’ts"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Noun coinages pluralize with s, so dos and don'ts."
+- source: chicago
+  page: 468
+  entry: "7.15 decade plurals"
+  kind: existence
+  wrong: "\\b(?:1[0-9]|20)\\d0['’]s\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Form decade plurals without an apostrophe, as in the 1990s."
+- source: chicago
+  page: 469
+  entry: "7.15 plural of degree abbreviations"
+  kind: existence
+  wrong: "\\b(?:BA|BS|MA|MS|MBA|PhD|IRA|URL)['’]s\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Plural abbreviations add s with no apostrophe; possessives are exempt."
+- source: chicago
+  page: 469
+  entry: "7.17 possessive of names ending in s"
+  kind: existence
+  wrong: "\\b(?:Kansas|Venus|Jesus|Dickens|Marx|Alexis|Darius|Berlioz|Borges|Tacitus|Malraux|Descartes|Camus|Euripides|Xerxes|Ganges)['’](?!s)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Singular names ending in s take apostrophe plus s in the possessive."
+- source: chicago
+  page: 471
+  entry: "7.20 United States possessive"
+  kind: substitution
+  wrong: "United States['’]s"
+  right: "United States’"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Plural-form names take only an apostrophe even when singular in meaning."
+- source: chicago
+  page: 471
+  entry: "7.20 politics possessive"
+  kind: substitution
+  wrong: "politics['’]s"
+  right: "politics’"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Nouns plural in form and singular in meaning take apostrophe only."
+- source: chicago
+  page: 471
+  entry: "7.20 economics possessive"
+  kind: substitution
+  wrong: "economics['’]s"
+  right: "economics’"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Nouns plural in form and singular in meaning take apostrophe only."
+- source: chicago
+  page: 471
+  entry: "7.21 for goodness' sake"
+  kind: substitution
+  wrong: "goodness['’]s sake"
+  right: "goodness’ sake"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Traditional for-sake expressions drop the extra s."
+- source: chicago
+  page: 471
+  entry: "7.21 for righteousness' sake"
+  kind: substitution
+  wrong: "righteousness['’]s sake"
+  right: "righteousness’ sake"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Traditional for-sake expressions drop the extra s."
+- source: chicago
+  page: 472
+  entry: "7.24 compound possessives"
+  kind: existence
+  wrong: "\\b(?:mother|father|sister|brother|daughter|son)s?['’]s?-in-law"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "In -in-law compounds the final element takes the possessive."
+- source: chicago
+  page: 475
+  entry: "7.30 contraction apostrophe direction"
+  kind: existence
+  wrong: "‘(?:tis|twas|em|cause)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "A contraction apostrophe faces right, like a closing single quote."
+- source: chicago
+  page: 475
+  entry: "7.32 an historical"
+  kind: substitution
+  wrong: "an (historical|historic|hotel|historian)"
+  right: "a $1"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use a before a pronounced h."
+- source: chicago
+  page: 475
+  entry: "7.32 a honor"
+  kind: substitution
+  wrong: "a honor"
+  right: "an honor"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use an before a silent h."
+- source: chicago
+  page: 475
+  entry: "7.32 a hour"
+  kind: substitution
+  wrong: "a hour"
+  right: "an hour"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use an before a silent h."
+- source: chicago
+  page: 475
+  entry: "7.32 a heir"
+  kind: substitution
+  wrong: "a heir"
+  right: "an heir"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use an before a silent h."
+- source: chicago
+  page: 476
+  entry: "7.33 a before vowel-sound abbreviations"
+  kind: existence
+  wrong: "\\ba (?:NBC|FBI|MBA|MRI|SMS|NFL|NBA|HMO|LLC|NPR|RSVP|HR|FAQ|FDA|DNA|ATM|IRS|NGO|EU|SAT|XML|HTML)\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Choose a or an by how the abbreviation is pronounced; these start with a vowel sound."
+- source: chicago
+  page: 476
+  entry: "7.33 an before consonant-sound abbreviations"
+  kind: existence
+  wrong: "\\ban (?:URL|UFO|UN|USB|UK|US|UI|UX|EULA|UNESCO|UCLA|UAE)\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "These abbreviations begin with a y sound, so use a."
+- source: chicago
+  page: 476
+  entry: "7.33 a before eight-sound numerals"
+  kind: existence
+  wrong: "\\ba (?:8\\d*|11|18)\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Numerals pronounced with an initial vowel sound take an."
+- source: chicago
+  page: 476
+  entry: "7.34 ligature in Encyclopaedia"
+  kind: substitution
+  wrong: "Encyclopædia"
+  right: "Encyclopaedia"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use ae ligatures in words adopted into English."
+- source: chicago
+  page: 476
+  entry: "7.34 ligature in mediaeval"
+  kind: substitution
+  wrong: "mediæval"
+  right: "mediaeval"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use ae ligatures in words adopted into English."
+- source: chicago
+  page: 476
+  entry: "7.34 ligature in archaeology"
+  kind: substitution
+  wrong: "archæology"
+  right: "archaeology"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use ae ligatures in words adopted into English."
+- source: chicago
+  page: 487
+  entry: "7.62 so-called with quotation marks"
+  kind: existence
+  wrong: "so-called\\s+[“\"][^”\"]+[”\"]"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "So-called already signals irony; quotes are needed only to single out part of a phrase."
+- source: chicago
+  page: 494
+  entry: "7.82 file format abbreviations in caps"
+  kind: existence
+  wrong: "(?<![./\\w-])(?:png|gif|jpeg|jpg|pdf|svg)(?![./\\w-])"
+  domain: technical
+  fix: none
+  american: true
+  context: technical
+  note: "File format abbreviations are full capitals unless given as extensions."
+- source: chicago
+  page: 494
+  entry: "7.82 Caps Lock"
+  kind: casing
+  wrong: "[Cc]aps lock"
+  right: "Caps Lock"
+  domain: technical
+  fix: safe
+  american: true
+  context: technical
+  note: "Named keys are capitalized."
+- source: chicago
+  page: 494
+  entry: "7.83 macOS"
+  kind: casing
+  wrong: "MacOS|Macos|MACOS"
+  right: "macOS"
+  domain: technical
+  fix: safe
+  american: true
+  context: technical
+  note: "Apple's operating system is styled macOS."
+- source: chicago
+  page: 494
+  entry: "7.83 keyboard shortcut spacing"
+  kind: existence
+  wrong: "\\b(?:Ctrl|Alt|Shift|Option|Command|Control)\\s+\\+\\s*\\w+"
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: "Join keys with a plus sign and no spaces, as in Ctrl+S."
+- source: chicago
+  page: 496
+  entry: "7.85 internet lowercase"
+  kind: casing
+  wrong: "Internet(?! (?:Protocol|Explorer|Archive|Society))"
+  right: "internet"
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: "Internet-related terms are lowercase unless part of a proper name."
+- source: chicago
+  page: 496
+  entry: "7.85 the web lowercase"
+  kind: casing
+  wrong: "the Web(?! (?:Consortium|Standards))"
+  right: "the web"
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: "Web is lowercase unless part of a proper name."
+- source: chicago
+  page: 496
+  entry: "7.85 website"
+  kind: substitution
+  wrong: "[Ww]eb site"
+  right: "website"
+  domain: technical
+  fix: safe
+  american: true
+  context: technical
+  note: "Website is one lowercase word."
+- source: chicago
+  page: 496
+  entry: "7.85 web page"
+  kind: casing
+  wrong: "Web page|Webpage"
+  right: "web page"
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: "Web page is two lowercase words."
+- source: chicago
+  page: 496
+  entry: "7.85 Wi-Fi"
+  kind: casing
+  wrong: "WiFi|Wifi|wifi|Wi-fi|WIFI"
+  right: "Wi-Fi"
+  domain: technical
+  fix: safe
+  american: true
+  context: technical
+  note: "Wi-Fi is a trademark with a hyphen and capital F."
+- source: chicago
+  page: 496
+  entry: "7.85 Ethernet"
+  kind: casing
+  wrong: "ethernet"
+  right: "Ethernet"
+  domain: technical
+  fix: safe
+  american: true
+  context: technical
+  note: "Ethernet is a trademark and stays capitalized."
+- source: chicago
+  page: 497
+  entry: "7.89 online"
+  kind: substitution
+  wrong: "on-line"
+  right: "online"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Online has become a closed compound."
+- source: chicago
+  page: 498
+  entry: "7.92 cost-effective"
+  kind: substitution
+  wrong: "cost effective"
+  right: "cost-effective"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenated, even after a noun."
+- source: chicago
+  page: 498
+  entry: "7.92 old-fashioned"
+  kind: substitution
+  wrong: "old fashioned"
+  right: "old-fashioned"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Always hyphenated, even after a noun; the cocktail name is an exception."
+- source: chicago
+  page: 498
+  entry: "7.92 ill-advised"
+  kind: substitution
+  wrong: "ill advised"
+  right: "ill-advised"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenated, even after a noun."
+- source: chicago
+  page: 498
+  entry: "7.92 short-lived"
+  kind: substitution
+  wrong: "short lived"
+  right: "short-lived"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenated, even after a noun."
+- source: chicago
+  page: 498
+  entry: "7.92 high-spirited"
+  kind: substitution
+  wrong: "high spirited"
+  right: "high-spirited"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenated, even after a noun."
+- source: chicago
+  page: 498
+  entry: "7.92 wild-eyed"
+  kind: substitution
+  wrong: "wild eyed"
+  right: "wild-eyed"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenated, even after a noun."
+- source: chicago
+  page: 498
+  entry: "7.92 fat-free"
+  kind: substitution
+  wrong: "fat free"
+  right: "fat-free"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenated, even after a noun."
+- source: chicago
+  page: 498
+  entry: "7.92 first-rate"
+  kind: substitution
+  wrong: "first rate(?! (?:of|is|was|will|would|has|had|that))"
+  right: "first-rate"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Always hyphenated as a modifier, even after a noun."
+- source: chicago
+  page: 498
+  entry: "7.92 all-consuming"
+  kind: substitution
+  wrong: "all consuming"
+  right: "all-consuming"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenated, even after a noun."
+- source: chicago
+  page: 498
+  entry: "7.92 dyed-in-the-wool"
+  kind: substitution
+  wrong: "dyed in the wool"
+  right: "dyed-in-the-wool"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenated, even after a noun."
+- source: chicago
+  page: 498
+  entry: "7.93 no hyphen after -ly adverb"
+  kind: existence
+  wrong: "(?i)(?!(?:early|friendly|only|family|likely|lonely|lovely|holy|silly|daily|weekly|monthly|yearly|quarterly|elderly|costly|deadly|ugly|lively|orderly|timely|worldly|kindly|lowly|scholarly|surly|leisurely|neighborly|italy|july|assembly|anomaly|monopoly|supply|reply|apply|rally|belly|jelly|bully|ally)-)[a-z]{2,}ly-[a-z]+"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Do not hyphenate an -ly adverb to the word it modifies."
+- source: chicago
+  page: 500
+  entry: "7.96 age terms"
+  kind: existence
+  wrong: "\\b(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\\d+)(?: year-old|-year old| year old)\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Age terms are hyphenated fully, as in five-year-old, as noun or adjective."
+- source: chicago
+  page: 500
+  entry: "7.96 northeast"
+  kind: substitution
+  wrong: "north[ -]east"
+  right: "northeast"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Compass points are closed compounds."
+- source: chicago
+  page: 500
+  entry: "7.96 northwest"
+  kind: substitution
+  wrong: "north[ -]west"
+  right: "northwest"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Compass points are closed compounds."
+- source: chicago
+  page: 500
+  entry: "7.96 southeast"
+  kind: substitution
+  wrong: "south[ -]east"
+  right: "southeast"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Compass points are closed compounds."
+- source: chicago
+  page: 500
+  entry: "7.96 southwest"
+  kind: substitution
+  wrong: "south[ -]west"
+  right: "southwest"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Compass points are closed compounds."

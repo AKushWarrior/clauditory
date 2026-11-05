@@ -16,7 +16,7 @@ The rules come in two layers.
 
 **Hand-written rules.** About 60 rules in `lint/styles` encode the writing-style skill's own choices (the House style) and the best-known mechanical rules of Oxford, NYT, AP, Chicago, and Apple. They cover the serial comma, hyphens after adverbs, apostrophes in plurals, the article before an abbreviation, `percent`, times such as `4 p.m.`, the month before the day, small numbers, American spellings, Apple product names, and more. Each rule links to the reference file for its guide.
 
-**Extracted rules.** The rest were taken from the guides page by page. Each guide was split into 100-page chunks (the PDFs of NYT, AP, Chicago, Oxford, IBM, and Apple) or line ranges (the web guides of Microsoft and Google and the Red Hat guide's source), and a model-run extraction read every page of each chunk and recorded every rule a pattern can check: the wrong form, the right form where there is one, the kind of rule, whether the rule holds in American English, and how safe an automatic fix is. That pass produced about 12,300 candidate rules, kept in `lint/sources/`. A generator then:
+**Extracted rules.** The rest were taken from the guides page by page. Each guide was split into 100-page chunks (the PDFs of NYT, AP, Chicago, Oxford, IBM, and Apple) or line ranges (the web guides of Microsoft and Google and the Red Hat guide's source), and a model-run extraction read every page of each chunk and recorded every rule a pattern can check: the wrong form, the right form where there is one, the kind of rule, whether the rule holds in American English, and how safe an automatic fix is. That pass produced about 12,600 candidate rules, kept in `lint/sources/`. A generator then:
 
 - drops British-only rules, since the linter writes American English, and treats Oxford's word-choice rules as suggestions without automatic fixes, because the dictionary often prefers British idiom;
 - drops rules that would flag a form the skills prescribe (email, web page, toward, contractions in conversation, and others) or that would replace a word with one the skills flag;
@@ -24,7 +24,7 @@ The rules come in two layers.
 - turns finite patterns, such as `cyber attack` or `cyber-attack`, into plain word lists, which the linter matches with a hash lookup, and keeps about 1,000 true patterns, each checked with Vale's own regular-expression engine;
 - drops every entry that fires at least three times across at least two files of this repository's own prose, which is written to the skills and reviewed, so a rule that fires on it repeatedly contradicts the skills or is too broad.
 
-About 13,600 word-list entries and 1,000 patterns survive. Word-list entries the guides call errors, and that have one replacement, report as warnings with an automatic fix; the rest report as suggestions.
+About 13,900 word-list entries and 1,100 patterns survive. Word-list entries the guides call errors, and that have one replacement, report as warnings with an automatic fix; the rest report as suggestions.
 
 ## What the linter omits
 
@@ -36,4 +36,4 @@ The guides disagree often, on the serial comma, the percent sign, abbreviated mo
 
 ## Review notes
 
-The extraction ran over every page of each guide's chunks; the agents reported a few pages as blank scans and some page numbers as approximate. AP's back-of-book index and several dictionary sections list headwords without rule text, and the extraction inferred some wrong forms from them, such as `air fare` from the headword `airfare`, so those rules carry suggestion severity unless the guide states the rule. The extraction was model-run and its output wasn't checked entry by entry against the guides; the generator's filters and the pruning pass are the checks on it. Three scanned Chicago chunks (pages 201 to 500) were still being read when this version was built.
+The extraction ran over every page of each guide's chunks; the agents reported a few pages as blank scans and some page numbers as approximate. AP's back-of-book index and several dictionary sections list headwords without rule text, and the extraction inferred some wrong forms from them, such as `air fare` from the headword `airfare`, so those rules carry suggestion severity unless the guide states the rule. The extraction was model-run and its output wasn't checked entry by entry against the guides; the generator's filters and the pruning pass are the checks on it. In Chicago's scanned PDF, original pages 214 to 249 (chapter 4, on rights and permissions) returned no images and went unread; they hold no style rules.

@@ -300,6 +300,16 @@ rules:
     fix: safe
     literal: true
     topic: term
+  Chicago.ExtGrammarTermsFlag:
+    domain: grammar
+    fix: none
+    literal: true
+    topic: term
+  Chicago.ExtGrammarTermsReview:
+    domain: grammar
+    fix: review
+    literal: true
+    topic: term
   Chicago.ExtPatternAvoid:
     domain: wording
     fix: none
@@ -323,6 +333,11 @@ rules:
   Chicago.ExtPatternGrammarAvoid:
     domain: grammar
     fix: none
+    literal: true
+    topic: term
+  Chicago.ExtPatternGrammarCasingReview:
+    domain: grammar
+    fix: review
     literal: true
     topic: term
   Chicago.ExtPatternGrammarTerms:
@@ -923,16 +938,6 @@ rules:
   RedHat.ExtCasingReview:
     domain: wording
     fix: review
-    literal: true
-    topic: term
-  RedHat.ExtGrammarAvoid:
-    domain: grammar
-    fix: none
-    literal: true
-    topic: term
-  RedHat.ExtGrammarTerms:
-    domain: grammar
-    fix: safe
     literal: true
     topic: term
   RedHat.ExtGrammarTermsReview:
