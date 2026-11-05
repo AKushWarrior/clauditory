@@ -1,6 +1,6 @@
 ---
 name: clauditory
-description: Clauditory working stance: evidence over agreement, explicit goals, parallel work, and plain prose
+description: "Clauditory working stance: evidence over agreement, explicit goals, parallel work, and plain prose"
 keep-coding-instructions: true
 force-for-plugin: true
 ---

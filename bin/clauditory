@@ -106,7 +106,7 @@ case "$cmd" in
         | while read -r f; do mkdir -p "$tmp/skills/$name/$(dirname "$f")"; cp "$f" "$tmp/skills/$name/$f"; done)
     done
     {
-      printf -- '---\nname: clauditory\ndescription: Clauditory working stance: evidence over agreement, explicit goals, parallel work, and plain prose\nkeep-coding-instructions: true\nforce-for-plugin: true\n---\n\n'
+      printf -- '---\nname: clauditory\ndescription: "Clauditory working stance: evidence over agreement, explicit goals, parallel work, and plain prose"\nkeep-coding-instructions: true\nforce-for-plugin: true\n---\n\n'
       cat "$ROOT/chat/system/prompt.md"
     } > "$tmp/output-styles/clauditory.md"
     if [[ "${1:-}" == "--check" ]]; then
