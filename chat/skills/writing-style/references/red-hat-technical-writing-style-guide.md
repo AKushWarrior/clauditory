@@ -264,7 +264,7 @@ The date bullet shares the guide's ban on all-numeric dates and its preference f
 
 **Commas in four-digit numbers (nyt-manual-of-style.md, ibm-style-guide.md).** The guide omits the comma in four-digit numbers, as IBM does except where consistency calls for one. The skill uses commas from four digits up, except in years, versions, and code, following the news manuals.
 
-**Figures in a mixed set of numbers (nyt-manual-of-style.md, google-developer-style-guide.md).** The guide uses figures for every number in a paragraph that contains one of 10 or more. Google applies the rule within a sentence. By its reference file, the NYT spells out small numbers even in a mixed series. The skill's rule falls between these: figures for comparable numbers in the same series. That is narrower than the guide's paragraph-wide rule.
+**Figures in a mixed set of numbers (nyt-manual-of-style.md, google-developer-style-guide.md).** The guide uses figures for every number in a paragraph that contains one of 10 or more. Google applies the rule within a sentence. By its reference file, the NYT spells out small numbers even in a mixed series. The skill keeps the NYT rule: one through nine spelled out and figures for 10 and above, even in a mixed series. An earlier version used figures for comparable numbers in the same series; version 2.0.0 dropped that rule because it contradicted the NYT. That is narrower than the guide's paragraph-wide rule.
 
 **Hyphens after a verb (oxford-new-harts-rules.md, oxford-dictionary-for-writers.md).** The guide hyphenates up-to-date and out-of-date even after the noun. Oxford leaves compound modifiers open after a verb, and so does the skill (section 8).
 

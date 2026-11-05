@@ -238,7 +238,7 @@ The proposals did not cover several Hart's rules that the skill also lacks. The 
 
 ## Conflicts with other references
 
-**nyt-manual-of-style.md and ap-stylebook.md (serial comma).** Hart's 4.3.5 calls the serial comma Oxford's century-old house rule and argues that it removes ambiguity. The NYT and AP omit it in a simple series and add it only when the sentence would be unclear. The skill now uses it in every series by the owner's explicit choice, which overrides every source under AGENTS.md. Both of those reference files still describe the skill as following the NYT here; their conflict sections predate version 2.0.0.
+**nyt-manual-of-style.md and ap-stylebook.md (serial comma).** Hart's 4.3.5 calls the serial comma Oxford's century-old house rule and argues that it removes ambiguity. The NYT and AP omit it in a simple series and add it only when the sentence would be unclear. The skill now uses it in every series by the owner's explicit choice, which overrides every source under AGENTS.md. Both of those reference files record the same resolution.
 
 **nyt-manual-of-style.md (numbers in a series).** The NYT reference records that the 2015 manual spells out numbers under 10 even in a series with larger numbers. Hart's 11.1.2 says the opposite: when one number in a sentence must be a figure, comparable numbers in that sentence become figures too, and google-developer-style-guide.md records the same rule for Google. The skill follows the NYT, which keeps the one-through-nine rule a single test with no exception for a series, and section 8 has no rule that converts small numbers to figures in a mixed series.
 
