@@ -20,7 +20,8 @@ chat/
     references/           one file per source behind the prompt
   skills/
     <skill-name>/
-      SKILL.md            the skill, in Agent Skills format
+      SKILL.md            the skill, in Agent Skills format, with metadata.version
+      CHANGELOG.md        what changed in each version
       references/         one file per source behind the skill
 coding/                   (planned) artifacts for coding agents, same layout as chat/
 plugins/clauditory/       generated plugin for Claude Code, the Claude apps and Codex
@@ -30,7 +31,9 @@ plugins/clauditory/       generated plugin for Claude Code, the Claude apps and 
 
 The plugin under `plugins/clauditory` is generated. Edit the sources under `chat/`, then run `bin/clauditory build` and commit the result; `bin/clauditory build --check` fails when the plugin is stale. Bump the version in both plugin manifests when a change should reach people who already installed it.
 
-The first artifact is `chat/skills/writing-style`. It lives under `chat/` because it was written for chat agents, but its rules apply to any agent writing prose, including agents working in this repository. Its sources rank in this order when they conflict: The New York Times Manual of Style and Usage, the AP Stylebook, The Chicago Manual of Style, and then the technical guides (Google, Microsoft and Apple style guides and the git and Linux kernel patch guides), which fill in rules for documentation, code comments and commit messages.
+Every skill carries a version in its frontmatter, as `metadata.version`, and a `CHANGELOG.md` beside its `SKILL.md`. Use semantic versioning: raise the major version when a rule changes in a way that alters existing text, the minor version when you add or deepen rules, and the patch version for wording fixes that change no rule. Update the changelog in the same commit.
+
+The writing-style skill sets the house register for any agent writing prose, including agents working in this repository, and the technical-writing skill adds rules for documentation, code comments, and commits. Their sources rank in this order when they conflict: The New York Times Manual of Style and Usage, the AP Stylebook, The Chicago Manual of Style, the New Oxford Style Manual (where its British conventions differ from American ones, the American convention wins), and then the technical guides from Google, Microsoft, Apple, IBM, and Red Hat and the git and Linux kernel patch guides. The owner's explicit choices override every source: no em dashes, the serial comma, and the revision-pass bans.
 
 Use the most widely supported format for each kind of artifact. Skills follow the Agent Skills format: a folder holding a `SKILL.md` file with `name` and `description` frontmatter. System prompts are plain Markdown.
 

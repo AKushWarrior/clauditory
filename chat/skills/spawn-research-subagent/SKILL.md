@@ -1,6 +1,8 @@
 ---
 name: spawn-research-subagent
 description: Use when a research task splits into independent sub-questions or needs heavy reading across many sources. Fans the work out to parallel Haiku subagents. Not for single-fact lookups.
+metadata:
+  version: "1.1.0"
 ---
 
 # Spawn research subagents
