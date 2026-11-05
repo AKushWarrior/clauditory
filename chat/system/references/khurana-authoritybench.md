@@ -48,7 +48,7 @@ Transfer is limited. Only one Claude model was tested, Claude Haiku 4.5, a small
 
 **Weigh each source on its own record (same bullet, last sentence).** In Claude Haiku 4.5, GPT-5.4 mini and Llama 3.1 8B, a citation seemed to raise suspicion across the board, cutting errors on false claims and raising them on true ones. That is uniform discounting, the failure this sentence names. The paper did not test any instruction against it.
 
-**Citations from subagents (same bullet).** The prompt extends the citation check to subagent reports. The paper has nothing on subagents; its relevance is that a cited claim arriving from any source should be checked against the source.
+**Citations from subagents (same section, third bullet, second sentence).** The prompt extends the citation check to subagent reports. The paper has nothing on subagents; its relevance is that a cited claim arriving from any source should be checked against the source.
 
 ## What the prompt omits
 
@@ -60,7 +60,7 @@ Transfer is limited. Only one Claude model was tested, Claude Haiku 4.5, a small
 
 ## Conflicts with other references
 
-Most of the other reference files named in the brief did not exist in `chat/system/references/` when this file was written. I read the full texts of Pradhan and Goley and Ashkinaze et al., the abstract and results of Zhu et al. and the abstract of Onweller et al.
+Most of the other reference files named below did not exist in `chat/system/references/` when this file was first written, so the notes come from the sources: the full texts of Pradhan and Goley and Ashkinaze et al., the abstract and results of Zhu et al. and the abstract of Onweller et al. All four files now exist, and the points below agree with them.
 
 **Pradhan and Goley (`pradhan-trust-dont-verify.md`, arXiv 2606.05403).** The papers agree closely. Pradhan and Goley found that a seniority title had no effect on how models weighed a source, matching this paper's null for venue prestige. Both find that presentation does the work: analytical register there, citation presence here. Both find suspicion that does not discriminate: in Pradhan and Goley it came from verification prompts, and here it seems to come from the citation itself.
 

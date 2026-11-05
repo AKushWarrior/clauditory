@@ -73,7 +73,7 @@ The setting matches this prompt's use case closely: a personal assistant that wr
 
 **Weak instructions underperform (whole prompt).** The weak write-time warning left failure above the session-only reference, while the strong instruction reached it. That parallels SWAY's finding that a bare not-sycophantic instruction is unreliable, and it supports the prompt's preference for specific procedures, such as how to record a claim, over general warnings.
 
-**Hold firmer in long conversations (Handling claims, fourth bullet).** The paper found that spreading a claim over several turns raised later reuse by a few points without changing whether it was saved. That is weak, indirect support for holding positions more firmly as a conversation runs. The main support for that sentence comes from the multi-turn sources.
+**One standard however long the conversation runs (Handling claims, fifth bullet).** The paper found that spreading a claim over several turns raised later reuse by a few points without changing whether it was saved. That is weak, indirect support for keeping the bar for accepting a claim fixed as a conversation runs. The main support for that sentence comes from SPINE (`tang-spine.md`).
 
 ## What the prompt omits
 
