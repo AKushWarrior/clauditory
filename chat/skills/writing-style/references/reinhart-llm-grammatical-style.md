@@ -72,13 +72,13 @@ For someone drafting with or editing model output, the paper identifies concrete
 
 The source shapes four parts of SKILL.md.
 
-Section 3 (Sentences), the rule about ending a finished sentence instead of hanging a trailing clause on it, and the matching item 3 of the revision pass in section 9 (trailing commentary clauses). The participial-clause finding is the strongest and most replicated result in the paper, at several times the human rate. The skill's wording names the specific forms (a clause beginning with an "-ing" verb after a comma) and tells the writer to cut it or give it its own sentence with a real subject. The paper supplies the evidence that this habit is both frequent in model prose and a marker of it. The paper itself says nothing about commentary function (highlighting or underscoring significance); that narrowing comes from the other references, and this source only establishes the grammatical form and its frequency.
+Section 3 (Sentences), the rule about ending a finished sentence instead of hanging a trailing clause on it, and the matching item 3 of the revision pass in section 10 (trailing commentary clauses). The participial-clause finding is the strongest and most replicated result in the paper, at several times the human rate. The skill's wording names the specific forms (a clause beginning with an "-ing" verb after a comma) and tells the writer to cut it or give it its own sentence with a real subject. The paper supplies the evidence that this habit is both frequent in model prose and a marker of it. The paper itself says nothing about commentary function (highlighting or underscoring significance); that narrowing comes from the other references, and this source only establishes the grammatical form and its frequency.
 
 Section 2 (Words), the rule to prefer verbs to nouns built from verbs. The nominalization result, about double the human rate for GPT-4o, supports the skill's instruction to write "we decided" rather than "a decision was made." The skill's stated cost, that noun-heavy prose hides who did what, is the skill's own reasoning, but the frequency data justifies listing it among the defaults to correct rather than as a stylistic preference.
 
-Section 9, item 8 (overused vocabulary). The paper's lists of overrepresented words, including tapestry, intricate and underscore, are among the supporting evidence for those entries. The skill does not use the paper's multipliers, and treats this paper as one of several vocabulary sources.
+Section 10, item 8 (overused vocabulary). The paper's lists of overrepresented words, including tapestry, intricate and underscore, are among the supporting evidence for those entries. The skill does not use the paper's multipliers, and treats this paper as one of several vocabulary sources.
 
-Section 3, the rule to keep a series parallel, and section 9, item 4 (reflexive triplets). The phrasal coordination finding, about double the human rate, supports giving attention to pairs and series that join nouns or adjectives by "and". The paper does not measure triplets or the usefulness of a third item, so the triplet rule rests on other sources; this one only shows that coordinated phrases are a model habit worth watching.
+Section 3, the rule to keep a series parallel, and section 10, item 4 (reflexive triplets). The phrasal coordination finding, about double the human rate, supports giving attention to pairs and series that join nouns or adjectives by "and". The paper does not measure triplets or the usefulness of a third item, so the triplet rule rests on other sources; this one only shows that coordinated phrases are a model habit worth watching.
 
 Section 1 (Open with the answer) and section 4 (numbers and evidence) do not draw on this paper.
 
@@ -88,7 +88,7 @@ The skill leaves out all of the classifier material. Detector accuracy, feature 
 
 It omits the full Biber feature set. Most of the 66 features, such as downtoners, clausal coordination and hedges, differ in direction between GPT-4o and Llama, so a single rule about them would be correct for one family and wrong for the other. The skill targets only the features that are consistently elevated across the instruction-tuned models.
 
-It omits the vocabulary multipliers and model-by-model word lists. They are partly artifacts (continuation, a repeated first name), they reflect 2024 model versions, and the skill's own list in section 9 is deliberately short and kept only in the revision pass.
+It omits the vocabulary multipliers and model-by-model word lists. They are partly artifacts (continuation, a repeated first name), they reflect 2024 model versions, and the skill's own list in section 10 is deliberately short and kept only in the revision pass.
 
 It omits the genre misalignment argument as a rule, because it is an interpretation without a per-genre test in the main text. The skill does state in its principles that a writer should match register to reader, but that comes from the style manuals, not from this paper.
 

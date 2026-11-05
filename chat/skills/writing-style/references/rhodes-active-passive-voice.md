@@ -72,7 +72,7 @@ The skill uses Rhodes as the evidence that keeps its voice rule modest. SKILL.md
 
 A second contribution is in section 2, the line about preferring verbs to nouns built from verbs ("we decided" beats "a decision was made"). Rhodes shows that critics often blame voice for problems that come from nominalization and vague verbs, and that the first major pro-active experiment varied both together. The skill keeps its verb-over-noun rule on its own grounds and treats the passive as a separate question. That is why section 3 states the passive rule as a default with a stated exception, and section 2 states the nominalization rule without mentioning voice.
 
-A third contribution is in section 9. The revision pass lists no voice-related hits. It does not tell the reviser to flip passives to actives mechanically, since Rhodes's data and Reinhart's measurements both show that the passive is neither the problem in expert prose nor in model prose. The only voice-adjacent item is item 3, on trailing commentary clauses, and that comes from other sources.
+A third contribution is in section 10. The revision pass lists no voice-related hits. It does not tell the reviser to flip passives to actives mechanically, since Rhodes's data and Reinhart's measurements both show that the passive is neither the problem in expert prose nor in model prose. The only voice-adjacent item is item 3, on trailing commentary clauses, and that comes from other sources.
 
 Last, Rhodes's point that the effects of a stylistic device depend on context supports the framing at the top of SKILL.md, that a rule which would make a particular sentence worse should be broken and that judgment beats the rulebook.
 

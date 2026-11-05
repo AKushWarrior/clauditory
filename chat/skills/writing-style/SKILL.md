@@ -15,8 +15,8 @@ Apply this style to everything you write that a person may read or that will per
 
 ## How to use this skill
 
-1. Draft with sections 1 to 8 in mind. While drafting, aim at the target style rather than steering around a list of forbidden things.
-2. When the draft is done, run the revision pass in section 9 and rewrite anything it catches. The lists of patterns to remove live only there, because reading a list of banned words right before writing tends to put those words in your head.
+1. Draft with sections 1 to 9 in mind. While drafting, aim at the target style rather than steering around a list of forbidden things.
+2. When the draft is done, run the revision pass in section 10 and rewrite anything it catches. The lists of patterns to remove live only there, because reading a list of banned words right before writing tends to put those words in your head.
 3. Use the examples at the end as the reference for what good output sounds like.
 
 ## 1. Open with the answer
@@ -29,6 +29,7 @@ Apply this style to everything you write that a person may read or that will per
 
 - Use the plain word: use, not utilize; before, not prior to; try, not attempt; after, not following; start, not initiate; about, not with regard to; help, not facilitate; happen, not transpire; whether, not whether or not (unless you mean regardless of whether). Fancy words add length and make the writer sound less sure of the point.
 - Be specific. Give the number, the name, the mechanism, the example. "The page loads in 4 seconds" beats "performance is suboptimal." If something is unique, say in what respect; if it's large, say how large.
+- Use is, are and has when they're the accurate verbs. "The library is a wrapper around the API" beats "the library serves as a wrapper." "The room has two windows" beats "the room features two windows." Inflated substitutes for plain verbs add words and make an ordinary fact sound like a selling point.
 - Prefer verbs to nouns built from verbs. "We decided" beats "a decision was made." Noun-heavy prose hides who did what and slows the reader.
 - Use words in their exact sense. Impact means strike; for influence, say affect. Literally means not figuratively. Unique means one of a kind and takes no "very." Massive describes physical bulk. Key works as a noun; as a free-standing adjective ("the lobbyists were key") it's lazy.
 - Skip clichés. They signal to the reader that there's nothing new here. If a phrase arrives pre-assembled (game changer, deep dive, at the end of the day, low-hanging fruit, perfect storm, silver bullet, wake-up call, paradigm shift, cutting edge), say what you actually mean.
@@ -92,7 +93,27 @@ Apply this style to everything you write that a person may read or that will per
 - Use "that" for restrictive clauses (no commas) and "which" for nonrestrictive ones (with commas).
 - Use "fewer" for things you count and "less" for amounts.
 
-## 9. Revision pass
+## 9. Technical and persisted text
+
+These rules add to sections 1 to 8 for documentation, instructions, code comments, commit messages and pull requests. Where they disagree with an earlier section, the earlier section wins.
+
+- Write steps in the imperative, one action per step, in a numbered list when order matters. Put the goal or condition before the action: "To delete the cache, run `make clean`," not "Run `make clean` if you want to delete the cache." A reader who doesn't share the goal can skip the step.
+- Address the reader as "you." Use the third person for what software or other people do. Skip "let's" and "we" unless "we" plainly means a named team or organization.
+- Describe how things behave in the present tense: "The server returns an error," not "the server will return an error." Keep the future for events that come later in a sequence.
+- Use must for what is required, can for what is optional and might for what is possible. Avoid "should" when the reader can't tell whether it means required or recommended.
+- Keep documentation timeless. Words like now, new, currently, soon and at present go stale; describe how the thing works as of the version the text covers. Release notes, commit messages and changelogs record a change, so they can say what changed.
+- Don't claim more than you can show. In claims about a product or a result, avoid best, fastest, always, never, ensure and guarantee unless they're literally true, and give the source or the measurement for any performance claim.
+- Don't call a step simple, easy, quick or "just" a matter of something. If it's easy, the reader will notice; if it isn't, the word insults them.
+- Don't describe software as if it thinks or wants. A parser detects a delimiter; it doesn't see one or decide to split.
+- Put code, commands, file names, identifiers and literal values in code formatting, and use them only as the exact names they are.
+- Write link text that names the destination. "See the deployment guide" works; "click here" tells the reader nothing.
+- Write headings in sentence case with no closing punctuation. Start task headings with a verb ("Create an index") and concept headings with a noun phrase ("Index types").
+- Write for readers who may not be native English speakers: keep "that" and articles even where they're optional, avoid idioms and avoid stacking several modifiers before a noun.
+- Code comments and docstrings say what the code can't: the purpose, the reason for a choice, a constraint or a trap. Don't restate what the next line does.
+- Commit messages: write the subject line in the imperative, about 50 characters and never more than 72, with no closing period. Follow the repository's existing conventions for prefixes and capitalization. After a blank line, the body explains the problem the change solves and why this approach solves it, states the old behavior in the present tense, gives numbers for any claimed improvement, and summarizes outside discussion instead of only linking to it. Don't narrate the diff.
+- Pull request descriptions follow the same pattern: what changed, why and how it was tested, in plain sentences.
+
+## 10. Revision pass
 
 Before sending, read the draft once against this list and rewrite each hit.
 
@@ -103,10 +124,11 @@ Before sending, read the draft once against this list and rewrite each hit.
 5. **Recap endings.** A closing paragraph that opens with "In summary", "Overall", "In conclusion", "Ultimately" or "The bottom line" and repeats earlier points. Delete it. If a point deserves emphasis, move it to the top.
 6. **Stock openers and closers.** "Great question", "Certainly", "Absolutely", "I'd be happy to", "Let's dive in", "Here's a breakdown", "I hope this helps", "Let me know if you have any other questions", "Feel free to reach out". Delete them and start or end on substance.
 7. **Announcements in place of content.** "It's important to note that", "It's worth noting", "Notably," and "Additionally," at the start of a sentence. Delete the frame and keep the point.
-8. **Overused vocabulary.** Words machine-written text leans on: delve, underscore, showcase, intricate, pivotal, realm, meticulous, notably, additionally, crucial, comprehensive, multifaceted, nuanced, seamless, transformative, groundbreaking, leverage, enhance, garner, surpass, commendable, innovative, boast, landscape, tapestry, robust, foster, embark, vibrant, holistic, testament, and navigate or journey used figuratively. Keep one only when it is the most precise word available, which is rare.
+8. **Overused vocabulary.** Words machine-written text leans on: delve, underscore, showcase, intricate, pivotal, realm, meticulous, notably, additionally, crucial, comprehensive, multifaceted, nuanced, seamless, transformative, groundbreaking, leverage, enhance, garner, surpass, commendable, innovative, boast, landscape, tapestry, robust, foster, vibrant, holistic, testament, and journey used figuratively. Keep one only when it is the most precise word available, which is rare.
 9. **Hedge stacks.** "May potentially", "could possibly", "it seems that it might". Use one hedge or none.
 10. **Bare numbers.** A figure with no comparison, a relative change with no absolute, or a percentage on a tiny base. Add the context from section 4.
 11. **Formatting creep.** Bullets that should be a paragraph, headers on a short answer, bold scattered through running text, list items that aren't parallel. Convert to prose or fix the list.
+12. **Inflated plain verbs.** "Serves as", "stands as", "features", "offers" or "boasts" where is, are or has would say the same thing. Use the plain verb.
 
 After rewriting, check that the fixes did not create new hits, such as a colon-and-fragment construction repeated in every paragraph.
 

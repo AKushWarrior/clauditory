@@ -60,7 +60,7 @@ For a writer, the paper supports a few practical points. A handful of words beca
 
 ## What the skill applies
 
-Section 9, item 8 of SKILL.md (overused vocabulary) takes its core list from the focal words. Delve, underscore, showcase, intricate, realm, garner, surpass, boast and groundbreaking all appear there in base form, and the paper's evidence is what justifies treating them as machine markers. The skill lists base forms rather than the paper's inflected tokens because a writer needs to catch delving and delved as well as delve. Other words in that item (for example pivotal, crucial, comprehensive, robust, tapestry) are not on the focal list and come from other references, so this paper supports only part of the list.
+Section 10, item 8 of SKILL.md (overused vocabulary) takes its core list from the focal words. Delve, underscore, showcase, intricate, realm, garner, surpass, boast and groundbreaking all appear there in base form, and the paper's evidence is what justifies treating them as machine markers. The skill lists base forms rather than the paper's inflected tokens because a writer needs to catch delving and delved as well as delve. Other words in that item (for example pivotal, crucial, comprehensive, robust, tapestry) are not on the focal list and come from other references, so this paper supports only part of the list.
 
 The paper's choice to rely on measured frequency rather than impression shaped how the skill phrases that item: it names words that rose sharply in both human-published text and model output, and it limits itself to a modest set rather than a long list of everything that sounds formal.
 

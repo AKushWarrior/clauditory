@@ -24,7 +24,7 @@ chat/
 coding/                   (planned) artifacts for coding agents, same layout as chat/
 ```
 
-The first artifact is `chat/skills/writing-style`. It lives under `chat/` because it was written for chat agents, but its rules apply to any agent writing prose, including agents working in this repository.
+The first artifact is `chat/skills/writing-style`. It lives under `chat/` because it was written for chat agents, but its rules apply to any agent writing prose, including agents working in this repository. Its sources rank in this order when they conflict: The New York Times Manual of Style and Usage, the AP Stylebook, The Chicago Manual of Style, and then the technical guides (Google, Microsoft and Apple style guides and the git and Linux kernel patch guides), which fill in rules for documentation, code comments and commit messages.
 
 Use the most widely supported format for each kind of artifact. Skills follow the Agent Skills format: a folder holding a `SKILL.md` file with `name` and `description` frontmatter. System prompts are plain Markdown.
 
@@ -43,7 +43,9 @@ Paraphrase everything. Reference files contain no quotations from the source and
 
 ## Commit messages
 
-Commit messages follow the writing-style skill like everything else. Write the subject line in the imperative mood, under 60 characters, with no closing period: "Add writing-style skill and its references." Leave a blank line, then explain in plain sentences what changed and why, wrapped at about 72 characters. Name the files or behavior that changed, and skip anything the diff already makes obvious.
+Commit messages follow section 9 of the writing-style skill. In short: an imperative subject line of about 50 characters with no closing period, such as "Add the Rhodes reference for the writing-style skill", then a blank line and a body wrapped at about 72 characters that explains the problem and why the change solves it. Name the files or behavior that changed, and skip anything the diff already makes obvious.
+
+Commit as the repository owner. Don't add co-author trailers that credit an AI model.
 
 ## Using bin/clauditory
 

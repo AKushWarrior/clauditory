@@ -94,7 +94,7 @@ The manual is the highest-precedence style source for the skill, and its preface
 
 **Section 8, Mechanics.** This section is almost entirely the manual. The one-through-nine rule, with figures for measurements, money, ages and percentages, follows the numbers entry. The percent-in-text and symbol-in-tables rule follows the percent entry and its allowance of the symbol in tables and charts. The serial comma rule (omit in a simple series, add for ambiguity) follows the comma entry. The capital after a colon follows the colon entry and the preface's note that the rule is now unconditional for complete sentences. That versus which and fewer versus less follow their entries.
 
-**Section 9, Revision pass.** Item 1 (replace em dashes) is stricter than the manual, as covered below, but its concern with dashes as a stand-in for commas begins with the manual's observation that the mark is overused and misused. Item 11 and other items on announcements, intensifiers and hedges owe little to the manual.
+**Section 10, Revision pass.** Item 1 (replace em dashes) is stricter than the manual, as covered below, but its concern with dashes as a stand-in for commas begins with the manual's observation that the mark is overused and misused. Item 11 and other items on announcements, intensifiers and hedges owe little to the manual.
 
 ## What the skill omits
 
@@ -120,7 +120,7 @@ The manual's rule on polls (sampling method, margin of error) is only partly use
 
 **Recap and summaries.** The manual says nothing against recap endings. Its stress on busy readers supports the user's choice to cut redundant summaries.
 
-**Banned vocabulary.** The skill's list of overused machine vocabulary in section 9 comes from kobak-excess-vocabulary.md, juzek-ward-lexical-overrepresentation.md and wikipedia-signs-of-ai-writing.md. The manual does not list any of those words, but it argues for the same remedy: prefer plain words and be wary of showy ones. It does list a few words the skill also lists in the plain-word section (utilize, initiate, implement in effect), where agreement is full.
+**Banned vocabulary.** The skill's list of overused machine vocabulary in section 10 comes from kobak-excess-vocabulary.md, juzek-ward-lexical-overrepresentation.md and wikipedia-signs-of-ai-writing.md. The manual does not list any of those words, but it argues for the same remedy: prefer plain words and be wary of showy ones. It does list a few words the skill also lists in the plain-word section (utilize, initiate, implement in effect), where agreement is full.
 
 **Other style manuals.** On the serial comma, percent, the one-through-nine numbers rule and the capital after a colon, the skill follows this manual. Where the AP and Chicago differ, the stated precedence rule of NYT first resolves it. I did not check those files for their exact positions in this review.
 

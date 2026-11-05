@@ -83,7 +83,7 @@ Because of these limits, the direction of the findings is more trustworthy than 
 
 ## What the skill applies
 
-The skill's revision pass, item 2 in section 9, names correction framing and lists the forms "Not X, but Y," "It's not X, it's Y," "Y, not X," "Not just X, but also Y" and "This isn't about X. It's about Y." Boggia's catalog of surface variants, including the sentence-split form and the not-only form, is the evidence that these are variants of one family, which is why the item lists several shapes and not one. The Stating a priority example at the end of SKILL.md shows the sentence-split form being rewritten as a direct statement.
+The skill's revision pass, item 2 in section 10, names correction framing and lists the forms "Not X, but Y," "It's not X, it's Y," "Y, not X," "Not just X, but also Y" and "This isn't about X. It's about Y." Boggia's catalog of surface variants, including the sentence-split form and the not-only form, is the evidence that these are variants of one family, which is why the item lists several shapes and not one. The Stating a priority example at the end of SKILL.md shows the sentence-split form being rewritten as a direct statement.
 
 Section 3 carries the principle behind the rule in positive form: state claims directly, say what is true rather than first describing what isn't, and use a contrast only when the reader actually holds the mistaken view. That last clause reflects the paper's own point that a correction does real work when something specific is being corrected.
 

@@ -80,7 +80,7 @@ The Stylebook is an institutional judgment, not a study. It cites no experiments
 
 **Section 6, Structure.** The rule that a list needs a short introducing phrase and items of the same grammatical shape comes directly from the AP lists entry, including the reference to starting each item with the same part of speech and using one tense and voice.
 
-**Section 9, Revision pass.** Item 10 (bare numbers) restates the data chapter's rules. Item 8 (overused vocabulary) does not draw on AP. Item 1 draws on the AP warning about overusing dashes, although the ban itself is the user's.
+**Section 10, Revision pass.** Item 10 (bare numbers) restates the data chapter's rules. Item 8 (overused vocabulary) does not draw on AP. Item 1 draws on the AP warning about overusing dashes, although the ban itself is the user's.
 
 ## What the skill omits
 
