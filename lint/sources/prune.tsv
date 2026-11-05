@@ -1,0 +1,360 @@
+# Extracted entries that fire on the repository's reviewed prose; genrules.py drops them.
+AP	(?<=\d)\s?(?:percent|per cent)\b
+AP	(?i)(?!flu-like)[a-z]*[a-km-z]-like\b
+AP	(?i)(?:(?:two|three|four|five|six|seven|eight|nine|ten|eleven|twelve) (?:thirds|fourths|fifths|sixths|sevenths|eighths|ninths|tenths|elevenths|twelfths|sixteenths)|one (?:third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|sixteenth))\b
+AP	(?i)(?<=[.!?] )\d{1,3}(?![\d(%,.:]|[kKD]\b)\b
+AP	(?i)(?<=[A-Za-z])\.\.\.
+AP	(?i)(?<=[a-z,] )(?:Coach|Forward|General Manager|Team Doctor)(?= [A-Z][a-z]+)
+AP	(?i)(?<=\d )[AaPp]\.[Mm]\b
+AP	(?i), (Inc|Ltd)(?=\.)
+AP	(?i)\.  +(?=[A-Z])
+AP	(?i)\b(?:Ala|Ariz|Ark|Calif|Colo|Conn|Del|Fla|Ga|Ill|Ind|Kan|Ky|La|Md|Mass|Mich|Minn|Miss|Mo|Mont|Neb|Nev|N\.H|N\.J|N\.M|N\.Y|N\.C|N\.D|Okla|Ore|Pa|R\.I|S\.C|S\.D|Tenn|Vt|Va|Wash|W\.Va|Wis|Wyo)(?=\.)
+AP	(?i)\b(?:January|February|August|September|October|November|December) (?=\d{1,2}(?!\d))\b
+AP	(?i)\b(?:one|two|three|four|five|six|seven|eight|nine) (?:thirds|third|fourths|fourth|fifths|fifth|sixths|sixth|sevenths|seventh|eighths|eighth|ninths|ninth|tenths|tenth)\b
+AP	(?i)\b(?:pre|re)-e\w+\b
+AP	(?i)\b(?:sub|super|ultra|un|under|trans)-(?=[a-z])
+AP	(?i)\b(?:ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety) (?:people|years|days|weeks|months|percent|miles|feet|inches|dollars)\b
+AP	(?i)\b[A-Z]\. [A-Z]\. (?=[A-Z][a-z])
+AP	(?i)\b[A-Z]\. [A-Z]\. [A-Z][a-z]+\b
+AP	(?i)\b[A-Za-z]+, [A-Za-z]+, (?:and|or) [A-Za-z]+\b
+AP	(?i)\b\d+-(?:million|billion|trillion)\b
+AP	(?i)\b\d+['’]s\b
+AP	(?i)\b\d{1,2}(?::\d{2})?\s?(?:A\.M|P\.M)\b
+AP	(?i)\b\d{2,4}['’]s\b
+AP	(?i)\bby-(?!election\b)(?=[a-z])
+AP	(?i)\bchapter \d+\b
+AP	(?i)\bcounter-(?=[a-z])
+AP	(?i)\be\.g\.\s+\w+\b
+AP	(?i)\bhandicapped(?! parking)
+AP	(?i)\bmid-[a-z]+\b
+AP	(?i)\bmulti-[a-z]+\b
+AP	(?i)\bnon-[a-z]+\b
+AP	(?i)\bon (?:(?:Jan|Feb|Aug|Sept|Oct|Nov|Dec)\.|March|April|May|June|July) \d{1,2}\b
+AP	(?i)\s\.\d+\b
+AP	\bAugust(?= \d{1,2}(?!\d))\b
+AP	\bNovember(?= \d{1,2}(?!\d))\b
+AP	\bOctober(?= \d{1,2}(?!\d))\b
+AP	\bSeptember(?= \d{1,2}(?!\d))\b
+AP	\bpage(?= \d)
+AP	an autistic
+AP	and login
+AP	differently abled
+AP	ebooks
+AP	fulsome
+AP	handicapped
+AP	indices
+AP	insane
+AP	lower case
+AP	lower-case
+AP	mankind
+AP	manpower
+AP	oriental
+AP	past history
+AP	prevalence
+AP	refute
+AP	sizeable
+AP	start-up
+AP	turning a blind eye
+AP	un
+AP	us
+AP	user name
+AP	world wide
+Apple	(?i)(?<![\d,.])\d,\d{3}(?![\d,])
+Apple	(?i)(?<=[a-z,;] )Steps? \d+\b
+Apple	(?i)(?<=\d)-(?=\d{2,4}\b)(?<=\b(?:19|20)\d\d-)\b
+Apple	(?i)\b(?:19|20)\d{2}[–-]\d{2}\b
+Apple	(?i)\bWeb(?= (?:app|browser|developer|server|page|site|address|cam|cast|mail))\b
+Apple	(?i)\b\d+['’]s\b
+Apple	(?i)\bcheck the (?:\w+ )?checkbox|checked|unchecked\b
+Apple	(?i)\bcountries(?! or regions)|\bcountry(?! or region)(?= (?:code|availability|settings?))\b
+Apple	(?i)\bfrom \d{1,2}(?::\d{2})?[–-]\d\b
+Apple	(?i)\bover \d[\d,]*\b
+Apple	(?i)\bsub-(?=[a-z])
+Apple	\bChapter (?=\d)
+Apple	\banti-(?=[a-hj-z])(?![A-Z])(?!replay)
+Apple	\bmonospace(?!d)
+Apple	a unit
+Apple	baz
+Apple	black box
+Apple	black-box
+Apple	bug
+Apple	bugs
+Apple	corrupted
+Apple	crash
+Apple	due to
+Apple	dummy
+Apple	end users
+Apple	error message
+Apple	error messages
+Apple	file name
+Apple	ftp the
+Apple	functionality
+Apple	grandfathered
+Apple	gui
+Apple	indices
+Apple	justification
+Apple	led
+Apple	man-hours
+Apple	master and slave
+Apple	optionally
+Apple	square brackets
+Apple	the unit
+Apple	turning a blind eye
+Apple	us
+Apple	via
+Chicago	(?<![A-Za-z.])U\.S\.
+Chicago	(?<=\d)%
+Chicago	(?i)(?<![.\s])\.\.\.(?!\.)
+Chicago	(?i)(?<=[a-z,;] )(?:Chapter|Appendix|Table|Figure) \d\b
+Chicago	(?i)(?<=[a-z,;] )(?:Cubism|Surrealism|Existentialism|Modernism|Postmodernism|Minimalism|Structuralism|Rococo|Baroque|Fauvism|Naturalism|Realism|Symbolism|Humanism|Idealism|Impressionism|Formalism|Deconstruction|Transcendentalism|Neoclassicism|Nominalism|Imagism|Mannerism|Conceptualism|Classicism|Art Deco|Art Nouveau|Pop Art|Op Art)\b
+Chicago	(?i)(?<=[a-z]) x (?=[A-Z]\.? ?[a-z]+)
+Chicago	(?i)(?<=\d )(?:km|kg|cm|mm|mg|ml|mL|kW|kHz|MHz|GHz|Hz|ha|dpi|rpm|mph|lb|oz)s\b
+Chicago	(?i)\b(?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4} (?=[a-z])
+Chicago	(?i)\b(?:from|between) \$?\d[\d,.]*\s?[–—-]\s?\$?\d\b
+Chicago	(?i)\b(?:one|two|three|four|five|six|seven|eight|nine) (?:half|halves|thirds?|fourths?|quarters?|fifths?|sixths?|eighths?|tenths?)\b
+Chicago	(?i)\b(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve) (?:half|thirds?|fourths?|fifths?|sixths?|sevenths?|eighths?|ninths?|tenths?)(?![-\w])
+Chicago	(?i)\b\d{1,3}['’]s\b
+Chicago	(?i)\bin (?!(?:January|February|March|April|May|June|July|August|September|October|November|December)\b)[A-Z][a-z]+ \d{4}\b
+Chicago	\bSept(?!\.)
+Chicago	april
+Chicago	august
+Chicago	february
+Chicago	in the appendix
+Chicago	july
+Chicago	june
+Chicago	november
+Chicago	october
+Google	(?i)(?<=[a-z,] )Internet(?! of Things| Key| Protocol| Assigned| Explorer)
+Google	(?i)\b(?:Jan|Feb|Mar|Apr|Aug|Sept?|Oct|Nov|Dec)\. \d\b
+Google	(?i)\b[A-Z]{2,}['’]s\b
+Google	(?i)\b[A-Za-z]+ly-[a-z]+\b
+Google	(?i)\b[a-z]+, [a-z]+ (?:and|or)\b
+Google	(?i)\b\d ?(?:[ap]\.m|[ap]m|[AP]\.M|Am|Pm)\b
+Google	(?i)\b\d+ percent|\d+ %
+Google	(?i)\b\d+(?:st|nd|rd|th)\b
+Google	(?i)\bdoes(?:n.t| not) yet|eventually\b
+Google	(?i)\bfrom \d+-\d+\b
+Google	(?i)\blet.s\b
+Google	(?i)\blog in(?! to)
+Google	\bread only(?! the| a | an | one| first| for)
+Google	at present
+Google	bar
+Google	baz
+Google	black box
+Google	black-box
+Google	blind to
+Google	cli
+Google	click here
+Google	comprises
+Google	crazy
+Google	cripple
+Google	currently
+Google	data are
+Google	docs
+Google	easily
+Google	easy
+Google	file name
+Google	file names
+Google	for instance
+Google	grandfathered
+Google	indices
+Google	insane
+Google	just
+Google	man-hours
+Google	newer
+Google	off-the-shelf
+Google	proper
+Google	quick
+Google	quickly
+Google	read only
+Google	run the following command
+Google	simple
+Google	simply
+Google	this page
+Google	thorough
+Google	via
+Google	vice versa
+Google	white papers
+Google	world wide web
+Google	would not
+IBM	(?i)(?<![\d,.])\d,\d{3}(?![\d,])
+IBM	(?i)(?<![\d-])\d+-\d+(?![\d-])
+IBM	(?i)\b(?:ante|bio|counter|extra|infra|inter|intra|macro|meta|micro|mid|mini|multi|non|over|post|pre|pseudo|sub|super|supra|trans|ultra|un|under)-(?![a-z]*-)[a-z]+\b
+IBM	(?i)\b(?:one|two|three|four|five|six|seven|eight|nine|ten|\d+(?:\.\d+)?) (?:billion|trillion)\b
+IBM	(?i)\b[A-Z]{2,}['’]s\b
+IBM	(?i)\b[Nn]o\.(?= ?\d)
+IBM	(?i)\b[a-z]+ which (?:is|are|was|were|has|have|can|will|contains|provides|enables)\b
+IBM	(?i)\b\d+'s\b
+IBM	(?i)\bbetween \d+ and \d+\b
+IBM	\bDr(?!\.)
+IBM	an error occurred
+IBM	best practice
+IBM	best practices
+IBM	billion
+IBM	branch
+IBM	click here
+IBM	congratulations
+IBM	crash
+IBM	discusses
+IBM	exclamation mark
+IBM	for instance
+IBM	foreign
+IBM	functionality
+IBM	indices
+IBM	lower-case
+IBM	retry
+IBM	simply
+IBM	square brackets
+IBM	thank you
+IBM	there are
+IBM	there is
+IBM	trillion
+IBM	typos
+IBM	u.s.
+IBM	user-friendly
+IBM	versioning
+Microsoft	(?<!right-)(?<!double-)click(?: on)?\b
+Microsoft	(?i)(?<![\d,.])\d{5,}(?![\d,])
+Microsoft	(?i)(?<!\d)\.\d+\b
+Microsoft	(?i)\b(?:Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)(?=\. )
+Microsoft	(?i)\b(?:one|two|three|four|five|six|seven|eight|nine) (?:half|halves|thirds?|fourths?|fifths?|quarters?)\b
+Microsoft	(?i)\b\d+(?:\.\d+)? percent\b
+Microsoft	(?i)\b\d+(?:\.\d+)?\s?[KMB]\b
+Microsoft	(?i)\b\d+(?:st|nd|rd|th)\b
+Microsoft	(?i)\b\w+, \w+ and \w+\b
+Microsoft	(?i)\bjump(?:s|ed|ing)? (?:to|from|back to) (?:the |a )?(?:link|page|topic|section|reference)\b
+Microsoft	\bet al(?=\.)
+Microsoft	a given
+Microsoft	april
+Microsoft	black box
+Microsoft	corrupted
+Microsoft	crash
+Microsoft	data are
+Microsoft	default to
+Microsoft	defaults to
+Microsoft	disable
+Microsoft	easily
+Microsoft	enable
+Microsoft	establish connectivity
+Microsoft	february
+Microsoft	july
+Microsoft	june
+Microsoft	lower case
+Microsoft	lower-case
+Microsoft	normally
+Microsoft	november
+Microsoft	october
+Microsoft	quickly
+Microsoft	quite
+Microsoft	simply
+Microsoft	strike
+Microsoft	system prompt
+Microsoft	there are
+Microsoft	there is
+Microsoft	there were
+Microsoft	viz.
+Microsoft	world wide web
+NYT	(?<=\d)\s?%
+NYT	(?i)(?<=[A-Za-z]), Inc(?=\.)
+NYT	(?i)(?<=[a-z]), (?:AL|AK|AZ|AR|CA|CO|CT|DE|DC|FL|GA|IL|KS|KY|MD|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)(?=[ ,.]|$)
+NYT	(?i)\b(?:August|September|October|November|December|January|February) \d{1,2}\b
+NYT	(?i)\b(?:\d+|two|three|four|five|six|seven|eight|nine|ten) times (?:more|less|faster|slower|bigger|smaller|larger|thinner|shorter)\b
+NYT	(?i)\b(?:anyone|someone|everyone|anybody|somebody|everybody)\b[^.]{0,60}\b(?:their|them|they|theirs)\b
+NYT	(?i)\b(?:ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty) (?:people|miles|years|days|items|cases|inches|feet)\b
+NYT	(?i)\bOriental(?! rug)
+NYT	(?i)\b[A-Za-z]+, [A-Za-z]+, (?:and|or)\b
+NYT	(?i)\bnon-(?=[a-z])
+NYT	(?i)\breference[ds]?\s+(?:the|a|an|this|that|these|those|his|her|their)\b
+NYT	(?i)\bthen-[A-Z]\w+\b
+NYT	and/or
+NYT	brit
+NYT	capability
+NYT	confined to a wheelchair
+NYT	cripple
+NYT	crippled
+NYT	handicapped
+NYT	impact on
+NYT	indices
+NYT	literally
+NYT	lower case
+NYT	lower-case
+NYT	man-hours
+NYT	mankind
+NYT	manpower
+NYT	mid-sized
+NYT	pin number
+NYT	probe
+NYT	probed
+NYT	probes
+NYT	reenter
+NYT	refute
+NYT	sizeable
+NYT	spell out
+NYT	spelled out
+NYT	spelling out
+NYT	spells out
+NYT	times larger
+NYT	travelled
+NYT	us
+NYT	user-friendly
+NYT	world wide web
+Oxford	"\.
+Oxford	(?i)(?<![\d,.$£€/-])\d{5,}(?![\d,]|\.\d{3})
+Oxford	(?i)(?<![\d\w.])\.\d+\b
+Oxford	(?i)(?<=[.!?:;]) {2,}(?=\S)
+Oxford	(?i)(?<=\s)\.\d+\b
+Oxford	(?i)(colou|honou|labou|neighbou|harbou|favou|flavou|humou|rumou|vigou|odou|tumou|behaviou|armou|endeavou|rigou|valou|clamou|fervou|saviou|vapou)r(s|ed|ing|ful|able|ably|ite|ites|less|er|ers|hood)?\b
+Oxford	(?i)\b(?!U\.S\.|U\.K\.|U\.N\.|E\.U\.)[A-Z]\.[A-Z]\. [A-Z][a-z]{2,}\b
+Oxford	(?i)\b(?:1[0-9]|20)\d{2}-(?:1[0-9]|20)?\d{2}\b
+Oxford	(?i)\b(?:such as|including|for example|e\.g\.)[^.;:\n]{1,100}\betc\.
+Oxford	(?i)\bfrom \d+ ?[-–—] ?\d+\b
+Oxford	authoress
+Oxford	file name
+Oxford	long list
+Oxford	pin number
+Oxford	re-read
+Oxford	run in
+Oxford	run on
+Oxford	say so
+Oxford	set aside
+Oxford	set off
+Oxford	short list
+Oxford	sizeable
+Oxford	themself
+Oxford	user name
+Oxford	viz.
+RedHat	(?i)(?!(?:early|daily|weekly|monthly|yearly|family|friendly|only|likely|unlikely|costly|lovely|lonely|assembly|supply|apply|reply|italy|belly|jelly|rally|ally|bully|holy|ugly|silly|lily|chilly|elderly|orderly|timely|deadly|lively|homely|kindly|manly|worldly|oily|curly|surly|sly|fly|ply|july|rely|multiply|comply|imply|butterfly|dragonfly|firefly|hourly|nightly|quarterly)-)[A-Za-z]{2,}ly-[a-z]+\b
+RedHat	(?i)(?<![\d,.])\d,\d{3}(?![\d,])
+RedHat	(?i)\b(?:multi|non|sub|semi|pre|inter|intra|micro|mini|over|under|post|pseudo|counter|extra|hyper|infra)-(?!case|\d)[a-z]{3,}\b
+RedHat	(?i)\b[A-Z]{2,}'s?\b
+RedHat	(?i)\b[ap]\.m(?=\.)
+RedHat	actually
+RedHat	click here
+RedHat	codebase
+RedHat	crash
+RedHat	delve deeper
+RedHat	dig deeper
+RedHat	fill out
+RedHat	frictionless
+RedHat	got
+RedHat	if you want
+RedHat	indices
+RedHat	interesting
+RedHat	just
+RedHat	make sure
+RedHat	makes it easy
+RedHat	need to
+RedHat	needs to
+RedHat	out of date
+RedHat	revert back
+RedHat	simply
+RedHat	there are
+RedHat	there is
+RedHat	there might be
+RedHat	totally
+RedHat	tribe
+RedHat	up to date
+RedHat	user name
+RedHat	user-friendly
+RedHat	we suggest
+RedHat	will

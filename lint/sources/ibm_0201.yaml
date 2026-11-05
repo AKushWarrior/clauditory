@@ -1,0 +1,550 @@
+- source: ibm
+  page: 202
+  entry: Multiplier prefixes
+  kind: existence
+  wrong: \d+\s?(?:kilobytes|megabytes|gigabytes|terabytes|kilobits|megabits|gigabits)
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: Use abbreviations such as KB, MB, Gb with a number instead of spelled-out units.
+- source: ibm
+  page: 201
+  entry: Multiplier prefixes
+  kind: existence
+  wrong: \d+ K bytes
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: Prefixes are not used alone or with spelled-out units; write KB.
+- source: ibm
+  page: 203
+  entry: International currency designations
+  kind: existence
+  wrong: (?:US|MX|CA|AU|NZ|HK)\$\s?\d
+  domain: wording
+  fix: none
+  american: true
+  context: technical
+  note: Country-prefixed dollar symbols are not standardized; prefer the ISO 4217 code.
+- source: ibm
+  page: 204
+  entry: International currency designations
+  kind: existence
+  wrong: \b(?:USD|EUR|GBP|AUD|CAD|JPY|LKR|CHF|INR) \d
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: Place the ISO currency code directly before the amount, with no space.
+- source: ibm
+  page: 205
+  entry: Dates
+  kind: existence
+  wrong: \b\d{1,2}/\d{1,2}/\d{2,4}\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: All-numeric dates with slashes are ambiguous internationally; spell out the month.
+- source: ibm
+  page: 205
+  entry: Dates
+  kind: existence
+  wrong: \b\d{1,2}-\d{1,2}-\d{2,4}\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: All-numeric dates with hyphens are ambiguous; spell out the month.
+- source: ibm
+  page: 205
+  entry: Dates
+  kind: existence
+  wrong: (?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}(?:st|nd|rd|th)\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No ordinal suffixes on days; write the day as a plain number before the month.
+- source: ibm
+  page: 205
+  entry: Dates
+  kind: existence
+  wrong: \b\d{1,2}(?:st|nd|rd|th) (?:of )?(?:January|February|March|April|May|June|July|August|September|October|November|December)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No ordinal suffixes on days; use a plain number then the month.
+- source: ibm
+  page: 206
+  entry: Dates
+  kind: existence
+  wrong: (?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday) (?:January|February|March|April|May|June|July|August|September|October|November|December)\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Put a comma between the weekday and the date.
+- source: ibm
+  page: 206
+  entry: Dates
+  kind: existence
+  wrong: (?:January|February|March|April|May|June|July|August|September|October|November|December), \d{4}\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No comma between month and year.
+- source: ibm
+  page: 206
+  entry: Dates
+  kind: existence
+  wrong: \b\d{1,2}(?:st|nd|rd|th)[- ]century\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Spell out century names, for example twenty-first century. Marketing content is an exception.
+- source: ibm
+  page: 207
+  entry: Leading zeros
+  kind: existence
+  wrong: \b0\d (?:January|February|March|April|May|June|July|August|September|October|November|December)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No leading zero on single-digit days, except in aligned tables or format examples.
+- source: ibm
+  page: 208
+  entry: Times of the day
+  kind: existence
+  wrong: \b\d{1,2}\.\d{2} ?(?:a\.m\.|p\.m\.|am|pm|AM|PM)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use a colon between hours and minutes in 12-hour times.
+- source: ibm
+  page: 208
+  entry: Times of the day
+  kind: existence
+  wrong: \d(?:a\.m\.|p\.m\.|am|pm)\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Leave a space between the number and a.m. or p.m.
+- source: ibm
+  page: 208
+  entry: Times of the day
+  kind: existence
+  wrong: \d ?(?:AM|PM|A\.M\.|P\.M\.)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use lowercase a.m. and p.m. with periods.
+- source: ibm
+  page: 208
+  entry: Times of the day
+  kind: existence
+  wrong: \d ?(?:am|pm)\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write a.m. and p.m. with periods.
+- source: ibm
+  page: 208
+  entry: Times of the day
+  kind: existence
+  wrong: \bo['’]clock\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not use o'clock for whole hours.
+- source: ibm
+  page: 209
+  entry: Times of the day
+  kind: substitution
+  wrong: \b12(?::00)? ?(?:a\.m\.|am|AM)
+  right: 12 midnight
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use midnight rather than 12 a.m.
+- source: ibm
+  page: 209
+  entry: Times of the day
+  kind: substitution
+  wrong: \b12(?::00)? ?(?:p\.m\.|pm|PM)
+  right: 12 noon
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use noon rather than 12 p.m.
+- source: ibm
+  page: 210
+  entry: National telephone numbers
+  kind: existence
+  wrong: \(\d{3}\) ?\d{3}-\d{4}
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: In NANP numbers, separate groups with hyphens, not parentheses.
+- source: ibm
+  page: 233
+  entry: Location of interface elements
+  kind: existence
+  wrong: (?i)\b(?:left|right)[- ]hand\b
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: Use upper-left, lower-right and similar terms, not left-hand or right-hand.
+- source: ibm
+  page: 235
+  entry: Check box
+  kind: substitution
+  wrong: (?i)\bcheckbox(?:es)?\b
+  right: check box
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: Write check box as two words; use select and clear as the verbs.
+- source: ibm
+  page: 235
+  entry: Check box
+  kind: existence
+  wrong: (?i)\b(?:uncheck|untick|deselect)\b
+  domain: technical
+  fix: none
+  american: true
+  context: technical
+  note: For check boxes use clear rather than uncheck; for radio buttons use selected state wording.
+- source: ibm
+  page: 236
+  entry: Drop-down list
+  kind: substitution
+  wrong: (?i)\bdrop ?down (?=list)
+  right: 'drop-down '
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: Hyphenate drop-down list.
+- source: ibm
+  page: 239
+  entry: Push button
+  kind: existence
+  wrong: (?i)\bpush button\b
+  domain: technical
+  fix: none
+  american: true
+  context: technical
+  note: Refer to a button by its label only; do not add push button or button.
+- source: ibm
+  page: 234
+  entry: Interface element labels
+  kind: existence
+  wrong: \b(?:[Cc]lick|[Pp]ress|[Ss]elect) the (?:OK|Cancel|Save|Next|Back|Submit|Apply|Close|Finish|Start) button\b
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: Name push buttons by label only, for example click OK.
+- source: ibm
+  page: 242
+  entry: Window
+  kind: existence
+  wrong: (?i)\b(?:dialog box|dialog window|pop-up window)\b
+  domain: technical
+  fix: none
+  american: true
+  context: technical
+  note: Call a window a window, not a dialog, dialog box, or pop-up.
+- source: ibm
+  page: 234
+  entry: Interface element labels
+  kind: existence
+  wrong: \b(?:Click|Select) \*{0,2}[A-Z][\w ]+(?:\.\.\.|\u2026)
+  domain: technical
+  fix: none
+  american: true
+  context: technical
+  note: Omit trailing ellipsis from UI labels such as Save As... in most cases.
+- source: ibm
+  page: 245
+  entry: Mouse buttons
+  kind: substitution
+  wrong: (?i)\b(click|double-click|right-click) on\b
+  right: $1
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: Do not use the preposition on with mouse actions.
+- source: ibm
+  page: 245
+  entry: Mouse buttons
+  kind: existence
+  wrong: (?i)\bclick (?:the |on the )?[\w ]{1,40}? twice\b
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: Use double-click instead of clicking twice.
+- source: ibm
+  page: 245
+  entry: Verbs to use with keyboard keys
+  kind: existence
+  wrong: (?i)\b(?:depress|hit|punch|strike)(?:ing)? (?:the )?(?:[A-Za-z0-9+]+ key|Enter|Esc|Escape|Tab|Shift|Ctrl|Alt|Backspace|Delete|F\d{1,2})\b
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: Use press, type, or enter for keys; never hit, depress, punch, or strike.
+- source: ibm
+  page: 247
+  entry: Key combinations
+  kind: existence
+  wrong: \b(?:Ctrl|Alt|Shift|Control) \+ \w|\w \+ (?:Ctrl|Alt|Shift)\b
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: Join key names with a plus sign and no surrounding spaces.
+- source: ibm
+  page: 247
+  entry: Key combinations
+  kind: existence
+  wrong: \b(?:Ctrl|Alt|Shift)-[A-Z0-9]\b
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: Use a plus sign, not a hyphen, between keys pressed together.
+- source: ibm
+  page: 231
+  entry: File names, file types, and directory names
+  kind: substitution
+  wrong: \ban(?= \.[A-Za-z0-9]+ file)
+  right: a
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: Read the period as dot, so use the article a before a file extension.
+- source: ibm
+  page: 232
+  entry: File names, file types, and directory names
+  kind: existence
+  wrong: (?i)\b(?:the )?(?:file|directory) [\w./\\-]+\.(?:txt|exe|ini|conf|cfg|log|bat|sys|xml|json|pdf)\b
+  domain: technical
+  fix: none
+  american: true
+  context: technical
+  note: Put file or directory after the name, as in the readme.txt file.
+- source: ibm
+  page: 250
+  entry: Message text
+  kind: existence
+  wrong: (?i)\ban error (?:has )?(?:occurred|was encountered)\b
+  domain: technical
+  fix: none
+  american: true
+  context: technical
+  note: Messages should state the specific problem rather than just that an error occurred.
+- source: ibm
+  page: 263
+  entry: Style (international audiences)
+  kind: existence
+  wrong: (?i)\b(?:please|thank you)\b
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: Avoid politeness words in technical information.
+- source: ibm
+  page: 263
+  entry: Style (international audiences)
+  kind: existence
+  wrong: \b\w+n['’]t\b
+  domain: grammar
+  fix: none
+  american: true
+  context: technical
+  note: Avoid contractions when writing for an international audience.
+- source: ibm
+  page: 263
+  entry: Style (international audiences)
+  kind: existence
+  wrong: ' & | \+ (?=[a-z])'
+  domain: wording
+  fix: none
+  american: true
+  context: technical
+  note: Use the word and rather than an ampersand or plus sign in running text.
+- source: ibm
+  page: 264
+  entry: Grammar (international audiences)
+  kind: substitution
+  wrong: (?i)\bprint out\b
+  right: print
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: Drop the particle from phrasal verbs when the verb alone suffices.
+- source: ibm
+  page: 264
+  entry: Grammar (international audiences)
+  kind: substitution
+  wrong: (?i)\bcall up\b
+  right: call
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: Drop the particle from phrasal verbs when the verb alone suffices.
+- source: ibm
+  page: 264
+  entry: Grammar (international audiences)
+  kind: existence
+  wrong: (?i)\bstart up\b
+  domain: wording
+  fix: none
+  american: true
+  context: technical
+  note: Prefer start to the phrasal verb start up (verb use).
+- source: ibm
+  page: 265
+  entry: Grammar (international audiences)
+  kind: existence
+  wrong: (?i)\bthere (?:is|are)\b
+  domain: grammar
+  fix: none
+  american: true
+  context: technical
+  note: Avoid expletive there is and there are constructions that hide the subject.
+- source: ibm
+  page: 265
+  entry: Grammar (international audiences)
+  kind: existence
+  wrong: (?i)\bit is (?:important|necessary|essential|recommended) to\b
+  domain: grammar
+  fix: none
+  american: true
+  context: technical
+  note: Avoid expletive it is constructions; rewrite with a clear subject or Important:.
+- source: ibm
+  page: 266
+  entry: Grammar (international audiences)
+  kind: existence
+  wrong: (?i)\b(?:during|after|before|in|for) the install\b|\bthe install (?:job|process|step|time)\b
+  domain: grammar
+  fix: review
+  american: true
+  context: technical
+  note: Do not use install as a noun; write installation.
+- source: ibm
+  page: 267
+  entry: Terminology (international audiences)
+  kind: substitution
+  wrong: (?i)\bvoluminous\b
+  right: large
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: 'Use the simplest term: large instead of voluminous.'
+- source: ibm
+  page: 267
+  entry: Terminology (international audiences)
+  kind: substitution
+  wrong: (?i)\bdiminutive\b
+  right: small
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: 'Use the simplest term: small instead of diminutive.'
+- source: ibm
+  page: 267
+  entry: Terminology (international audiences)
+  kind: existence
+  wrong: (?i)\b(?:billion|trillion)s?\b
+  domain: wording
+  fix: none
+  american: true
+  context: technical
+  note: Avoid billion and trillion because meanings differ by country; use the number.
+- source: ibm
+  page: 268
+  entry: Terminology (international audiences)
+  kind: existence
+  wrong: (?i)\b(?:domestic|foreign)\b
+  domain: wording
+  fix: none
+  american: true
+  context: technical
+  note: Avoid domestic and foreign for international audiences.
+- source: ibm
+  page: 268
+  entry: Terminology (international audiences)
+  kind: existence
+  wrong: \b(?:e\.g\.|i\.e\.|etc\.)
+  domain: wording
+  fix: none
+  american: true
+  context: technical
+  note: Do not use Latin abbreviations e.g., i.e., or etc.
+- source: ibm
+  page: 267
+  entry: Terminology (international audiences)
+  kind: existence
+  wrong: (?i)\bpound (?:sign|symbol)\b
+  domain: wording
+  fix: none
+  american: true
+  context: technical
+  note: 'Call # the number sign (#) and explain its use.'
+- source: ibm
+  page: 268
+  entry: Punctuation (international audiences)
+  kind: existence
+  wrong: \band/or\b
+  domain: grammar
+  fix: none
+  american: true
+  context: technical
+  note: Avoid slashes standing in for and/or; say which is meant.
+- source: ibm
+  page: 268
+  entry: Punctuation (international audiences)
+  kind: existence
+  wrong: \b\w+\((?:s|es)\)
+  domain: grammar
+  fix: none
+  american: true
+  context: technical
+  note: Do not form plurals with (s); rewrite or say one or more.
+- source: ibm
+  page: 268
+  entry: Punctuation (international audiences)
+  kind: existence
+  wrong: —
+  domain: grammar
+  fix: none
+  american: true
+  context: technical
+  note: Avoid em dashes in technical information; use commas, parentheses, or a colon.

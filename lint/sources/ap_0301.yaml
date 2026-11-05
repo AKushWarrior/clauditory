@@ -1,0 +1,2279 @@
+- source: ap
+  page: 302
+  entry: "forecast"
+  kind: substitution
+  wrong: "forecasted"
+  right: "forecast"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Past tense of forecast stays forecast."
+- source: ap
+  page: 303
+  entry: "forward"
+  kind: substitution
+  wrong: "forwards"
+  right: "forward"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use forward, not forwards (soccer plural noun is an exception)."
+- source: ap
+  page: 303
+  entry: "Founding Fathers"
+  kind: casing
+  wrong: "(?:founding [Ff]athers|Founding fathers)"
+  right: "Founding Fathers"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Capitalize when naming the creators of the U.S. Constitution."
+- source: ap
+  page: 304
+  entry: "4G, 5G, LTE"
+  kind: existence
+  wrong: "fifth[- ]generation"
+  domain: wording
+  fix: none
+  american: true
+  context: "technical"
+  note: "Describe 5G as faster, emerging or next-generation network instead of fifth generation."
+- source: ap
+  page: 305
+  entry: "4x4"
+  kind: substitution
+  wrong: "4x4"
+  right: "four-wheel drive"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Prefer four-wheel drive unless 4x4 is part of a model name."
+- source: ap
+  page: 305
+  entry: "401(k)"
+  kind: substitution
+  wrong: "401 \\(k\\)"
+  right: "401(k)"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No space before the parenthesis."
+- source: ap
+  page: 305
+  entry: "fractions"
+  kind: existence
+  wrong: "(?:(?:two|three|four|five|six|seven|eight|nine|ten|eleven|twelve) (?:thirds|fourths|fifths|sixths|sevenths|eighths|ninths|tenths|elevenths|twelfths|sixteenths)|one (?:third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|sixteenth))"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Spell out fractions below 1 with hyphens, as in two-thirds."
+- source: ap
+  page: 306
+  entry: "French Canadian"
+  kind: substitution
+  wrong: "French-Canadian"
+  right: "French Canadian"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen."
+- source: ap
+  page: 306
+  entry: "french fries"
+  kind: casing
+  wrong: "French [Ff]ries"
+  right: "french fries"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Lowercase french because it names a cut, not a nation."
+- source: ap
+  page: 306
+  entry: "freelancer"
+  kind: substitution
+  wrong: "free[- ]lancer"
+  right: "freelancer"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 306
+  entry: "freelance"
+  kind: substitution
+  wrong: "free[- ]lance"
+  right: "freelance"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word for verb and adjective."
+- source: ap
+  page: 307
+  entry: "frequent flyer"
+  kind: substitution
+  wrong: "frequent flier"
+  right: "frequent flyer"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spelled flyer."
+- source: ap
+  page: 307
+  entry: "Frisbee"
+  kind: substitution
+  wrong: "(?i:frisbee)(?! disc)"
+  right: "flying disc"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Trademark; use Frisbee disc for the brand, flying disc for generic."
+- source: ap
+  page: 307
+  entry: "front-runner"
+  kind: substitution
+  wrong: "front runner"
+  right: "front-runner"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Hyphenate."
+- source: ap
+  page: 307
+  entry: "fulfill"
+  kind: substitution
+  wrong: "fulfil"
+  right: "fulfill"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two l's in American spelling."
+- source: ap
+  page: 307
+  entry: "fulfill"
+  kind: substitution
+  wrong: "fulfils"
+  right: "fulfills"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two l's in American spelling."
+- source: ap
+  page: 307
+  entry: "full-"
+  kind: existence
+  wrong: "full (?:dress|fledged|length|page|scale)(?= [a-z])"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate full- compound modifiers such as full-length, full-scale."
+- source: ap
+  page: 307
+  entry: "full-body scanner"
+  kind: substitution
+  wrong: "full body scanner"
+  right: "full-body scanner"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Hyphenate the modifier."
+- source: ap
+  page: 308
+  entry: "full time, full-time"
+  kind: existence
+  wrong: "full time (?=(?:job|jobs|employee|employees|worker|workers|position|positions|student|students|basis|schedule|work|staff|teacher|teachers|mom|dad|professor|faculty|resident|residents|status))"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate full-time as a compound modifier."
+- source: ap
+  page: 308
+  entry: "full time, full-time"
+  kind: existence
+  wrong: "(?:work|works|worked|working) full-time"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use full time without a hyphen after the verb."
+- source: ap
+  page: 308
+  entry: "fulsome"
+  kind: existence
+  wrong: "fulsome"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Means disgustingly excessive; do not use for lavish or profuse."
+- source: ap
+  page: 308
+  entry: "fundraising"
+  kind: substitution
+  wrong: "fund[- ]raising"
+  right: "fundraising"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 308
+  entry: "fundraiser"
+  kind: substitution
+  wrong: "fund[- ]raiser"
+  right: "fundraiser"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 308
+  entry: "fundraiser"
+  kind: substitution
+  wrong: "fund[- ]raisers"
+  right: "fundraisers"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 310
+  entry: "gambling"
+  kind: existence
+  wrong: "gaming"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Prefer gambling; gaming is a euphemism except in quotes, names or video games."
+- source: ap
+  page: 312
+  entry: "GED"
+  kind: existence
+  wrong: "(?:a|the|his|her|their|my|your) GED(?! (?:diploma|certificate|test|tests|exam|exams|program|class|classes|credential|prep|course|students?))"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "GED is an adjective; write GED diploma or certificate."
+- source: ap
+  page: 313
+  entry: "gender, sex and sexual orientation"
+  kind: existence
+  wrong: "opposite (?:sexes|genders?|sex)"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Avoid both, either or opposite sexes or genders."
+- source: ap
+  page: 313
+  entry: "gender-fluid"
+  kind: substitution
+  wrong: "gender fluid"
+  right: "gender-fluid"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Include the hyphen."
+- source: ap
+  page: 313
+  entry: "gender-fluidity"
+  kind: substitution
+  wrong: "gender fluidity"
+  right: "gender-fluidity"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Include the hyphen."
+- source: ap
+  page: 314
+  entry: "gender-nonconforming"
+  kind: existence
+  wrong: "gender-non-conforming|gender non-conforming|gender nonconforming"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Write gender-nonconforming, hyphenated, one word after the hyphen."
+- source: ap
+  page: 314
+  entry: "gender-nonconforming"
+  kind: existence
+  wrong: "gender-bending|tomboy"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Dated terminology to avoid."
+- source: ap
+  page: 314
+  entry: "nonbinary"
+  kind: substitution
+  wrong: "non-binary|non binary"
+  right: "nonbinary"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word, no hyphen."
+- source: ap
+  page: 314
+  entry: "transgender"
+  kind: substitution
+  wrong: "transgendered"
+  right: "transgender"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Do not use transgendered."
+- source: ap
+  page: 314
+  entry: "transgender"
+  kind: existence
+  wrong: "transgenders"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Do not use transgender as a noun."
+- source: ap
+  page: 314
+  entry: "transgender"
+  kind: substitution
+  wrong: "birth gender"
+  right: "sex assigned at birth"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use sex (or gender) assigned at birth."
+- source: ap
+  page: 314
+  entry: "transgender"
+  kind: existence
+  wrong: "transsexuals?"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Outdated term unless a source asks to be identified so."
+- source: ap
+  page: 315
+  entry: "gender dysphoria"
+  kind: substitution
+  wrong: "gender identity disorder"
+  right: "gender dysphoria"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use gender dysphoria."
+- source: ap
+  page: 316
+  entry: "gender confirmation"
+  kind: substitution
+  wrong: "sex change"
+  right: "gender-confirmation surgery"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Outdated; use gender-confirmation surgery if surgery is involved."
+- source: ap
+  page: 316
+  entry: "gender confirmation"
+  kind: existence
+  wrong: "pre-op|post-op"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Avoid describing someone as pre-op or post-op."
+- source: ap
+  page: 316
+  entry: "cross-dresser"
+  kind: substitution
+  wrong: "transvestites?"
+  right: "cross-dresser"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Outdated; use cross-dresser only if the subject identifies so."
+- source: ap
+  page: 316
+  entry: "hormones"
+  kind: existence
+  wrong: "(?:fe)?male hormones"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Avoid male or female hormones; all humans have varying sex hormones."
+- source: ap
+  page: 317
+  entry: "intersex"
+  kind: substitution
+  wrong: "hermaphrodites?"
+  right: "intersex"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Outdated term; use intersex."
+- source: ap
+  page: 317
+  entry: "sexual orientation"
+  kind: substitution
+  wrong: "sexual preference"
+  right: "sexual orientation"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use sexual orientation."
+- source: ap
+  page: 318
+  entry: "sexual orientation"
+  kind: existence
+  wrong: "alternative lifestyle"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Avoid."
+- source: ap
+  page: 318
+  entry: "sexual orientation"
+  kind: existence
+  wrong: "homosexuals?"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Avoid homosexual for people; homosexuality is fine as a concept."
+- source: ap
+  page: 319
+  entry: "same-sex marriage"
+  kind: substitution
+  wrong: "gay marriage"
+  right: "same-sex marriage"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Preferred over gay marriage."
+- source: ap
+  page: 320
+  entry: "gender-neutral language"
+  kind: existence
+  wrong: "snowperson|baseperson|freshperson|freshwoman"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Avoid tortured -person constructions; freshman is acceptable."
+- source: ap
+  page: 320
+  entry: "gender-neutral language"
+  kind: existence
+  wrong: "siblinghood"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use brotherhood or sisterhood."
+- source: ap
+  page: 320
+  entry: "search"
+  kind: substitution
+  wrong: "manhunt"
+  right: "search"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 320
+  entry: "police officer"
+  kind: substitution
+  wrong: "policemen"
+  right: "police officers"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 320
+  entry: "police officer"
+  kind: substitution
+  wrong: "policeman|policewoman|patrolman"
+  right: "police officer"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 320
+  entry: "door attendant"
+  kind: substitution
+  wrong: "doorman"
+  right: "door attendant"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 321
+  entry: "congressperson"
+  kind: substitution
+  wrong: "congressperson"
+  right: "member of Congress"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not use congressperson."
+- source: ap
+  page: 321
+  entry: "city leaders"
+  kind: substitution
+  wrong: "city fathers"
+  right: "city leaders"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 321
+  entry: "actor"
+  kind: existence
+  wrong: "actress(?:es)?"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use actor for any gender except Oscars, Emmys or Tonys stories."
+- source: ap
+  page: 321
+  entry: "blond"
+  kind: substitution
+  wrong: "blonde (?=hair)"
+  right: "blond"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use blond as the adjective."
+- source: ap
+  page: 321
+  entry: "brown (hair)"
+  kind: existence
+  wrong: "brunettes?"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Avoid brunette as a noun; use brown hair."
+- source: ap
+  page: 321
+  entry: "business owner, businessperson"
+  kind: substitution
+  wrong: "businessman|businesswoman"
+  right: "businessperson"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 321
+  entry: "business owner, businessperson"
+  kind: substitution
+  wrong: "businessmen|businesswomen"
+  right: "businesspeople"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 321
+  entry: "busser"
+  kind: substitution
+  wrong: "bus(?:boy|girl)s?"
+  right: "busser"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use busser."
+- source: ap
+  page: 322
+  entry: "confidant"
+  kind: substitution
+  wrong: "confidante"
+  right: "confidant"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not confidante."
+- source: ap
+  page: 322
+  entry: "crew, staff, workforce, workers"
+  kind: substitution
+  wrong: "manpower"
+  right: "workforce"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 322
+  entry: "firefighter"
+  kind: substitution
+  wrong: "firemen"
+  right: "firefighters"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 322
+  entry: "firefighter"
+  kind: substitution
+  wrong: "fireman"
+  right: "firefighter"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 322
+  entry: "hero"
+  kind: substitution
+  wrong: "heroines?"
+  right: "hero"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use hero for any gender."
+- source: ap
+  page: 322
+  entry: "host"
+  kind: substitution
+  wrong: "hostess"
+  right: "host"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use host for any gender."
+- source: ap
+  page: 322
+  entry: "humanity, humankind"
+  kind: substitution
+  wrong: "mankind"
+  right: "humanity"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 322
+  entry: "human-made"
+  kind: substitution
+  wrong: "man-made"
+  right: "human-made"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Also human-caused, artificial or synthetic."
+- source: ap
+  page: 322
+  entry: "maintenance hole"
+  kind: substitution
+  wrong: "manholes?"
+  right: "maintenance hole"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 322
+  entry: "mail carrier"
+  kind: substitution
+  wrong: "mailmen|mailman"
+  right: "mail carrier"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Also letter carrier."
+- source: ap
+  page: 322
+  entry: "salesperson"
+  kind: substitution
+  wrong: "salesman|saleswoman"
+  right: "salesperson"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 322
+  entry: "salesperson"
+  kind: substitution
+  wrong: "salesmen|saleswomen"
+  right: "salespeople"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 322
+  entry: "server"
+  kind: substitution
+  wrong: "waiters?|waitresses"
+  right: "server"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender-neutral alternative."
+- source: ap
+  page: 322
+  entry: "singer, songwriter"
+  kind: substitution
+  wrong: "songstress"
+  right: "singer"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Not songstress."
+- source: ap
+  page: 324
+  entry: "generations"
+  kind: substitution
+  wrong: "generation X"
+  right: "Generation X"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Capitalize Generation X."
+- source: ap
+  page: 324
+  entry: "generations"
+  kind: substitution
+  wrong: "generation Y"
+  right: "Generation Y"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Capitalize Generation Y."
+- source: ap
+  page: 324
+  entry: "generations"
+  kind: substitution
+  wrong: "generation Z"
+  right: "Generation Z"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Capitalize Generation Z."
+- source: ap
+  page: 324
+  entry: "generations"
+  kind: substitution
+  wrong: "generation Alpha"
+  right: "Generation Alpha"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Capitalize Generation Alpha."
+- source: ap
+  page: 324
+  entry: "generations"
+  kind: substitution
+  wrong: "(?<=[a-z,;] )Millennials"
+  right: "millennials"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase millennials."
+- source: ap
+  page: 324
+  entry: "generations"
+  kind: substitution
+  wrong: "Baby Boomers"
+  right: "baby boomers"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase baby boomers."
+- source: ap
+  page: 324
+  entry: "Geneva Conventions"
+  kind: substitution
+  wrong: "Geneva Convention"
+  right: "Geneva Conventions"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Note the final s."
+- source: ap
+  page: 325
+  entry: "geographic names"
+  kind: substitution
+  wrong: "Saint(?= (?:Louis|Paul|Petersburg|Cloud|Charles|Lucia|Vincent|Kitts|Helena|Augustine|George|Johns?|Joseph|Croix|Thomas|Martin|Pierre|Andrews|Albans|Davids))"
+  right: "St."
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Abbreviate Saint as St. in place names."
+- source: ap
+  page: 326
+  entry: "Gibraltar, Strait of"
+  kind: substitution
+  wrong: "Straits of Gibraltar"
+  right: "Strait of Gibraltar"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Singular Strait."
+- source: ap
+  page: 326
+  entry: "GI, GIs"
+  kind: substitution
+  wrong: "G\\.I\\."
+  right: "GI"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "No periods in GI."
+- source: ap
+  page: 327
+  entry: "glamour"
+  kind: substitution
+  wrong: "glamourous"
+  right: "glamorous"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "The adjective drops the u."
+- source: ap
+  page: 327
+  entry: "globe-trotter, globe-trotting"
+  kind: substitution
+  wrong: "(?<!Harlem )globetrotter"
+  right: "globe-trotter"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate except the Harlem Globetrotters."
+- source: ap
+  page: 327
+  entry: "globe-trotter, globe-trotting"
+  kind: substitution
+  wrong: "(?<!Harlem )globetrotting"
+  right: "globe-trotting"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate."
+- source: ap
+  page: 328
+  entry: "-goer"
+  kind: existence
+  wrong: "(?:concert|movie|party|theater|theatre|church|film|opera|play)[- ]goers?"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Write -goer as one word, such as moviegoer."
+- source: ap
+  page: 328
+  entry: "goodwill"
+  kind: substitution
+  wrong: "good will"
+  right: "goodwill"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word in all uses."
+- source: ap
+  page: 329
+  entry: "government"
+  kind: substitution
+  wrong: "Federal Government"
+  right: "federal government"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Always lowercase government."
+- source: ap
+  page: 329
+  entry: "government"
+  kind: substitution
+  wrong: "State Government"
+  right: "state government"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Always lowercase government."
+- source: ap
+  page: 329
+  entry: "government"
+  kind: substitution
+  wrong: "U\\.S\\. Government"
+  right: "U.S. government"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase government."
+- source: ap
+  page: 331
+  entry: "governor"
+  kind: substitution
+  wrong: "Governor(?= (?!General)[A-Z][a-z]+)"
+  right: "Gov."
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Abbreviate and capitalize as Gov. before a name."
+- source: ap
+  page: 331
+  entry: "grade, grader"
+  kind: existence
+  wrong: "(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|\\d+(?:st|nd|rd|th))-grad(?:e|er|ers)"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "No hyphen in fourth grade or first grader unless confusion with another ordinal."
+- source: ap
+  page: 331
+  entry: "graduate"
+  kind: existence
+  wrong: "graduated (?:the (?:university|college)|(?:University|College|Harvard|Yale|Princeton|Stanford|Columbia|Cornell|Duke|Georgetown|MIT))"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not drop from after graduated."
+- source: ap
+  page: 332
+  entry: "granddad, granddaughter"
+  kind: existence
+  wrong: "grand[- ](?:dad|daughter|father|mother|son|ma|pa|parents?|child|children|kids?)"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Write grand- relatives as one word."
+- source: ap
+  page: 332
+  entry: "grand jury"
+  kind: substitution
+  wrong: "Grand Jury"
+  right: "grand jury"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Always lowercase."
+- source: ap
+  page: 332
+  entry: "grassroots"
+  kind: substitution
+  wrong: "grass[- ]roots"
+  right: "grassroots"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 332
+  entry: "gray"
+  kind: substitution
+  wrong: "grey"
+  right: "gray"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gray, not grey; greyhound and proper names excepted."
+- source: ap
+  page: 332
+  entry: "great-"
+  kind: existence
+  wrong: "great (?:great )?grand(?:father|mother|son|daughter|parents?|child|children)"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate great-grandfather and similar."
+- source: ap
+  page: 333
+  entry: "gross domestic product"
+  kind: substitution
+  wrong: "Gross Domestic Product"
+  right: "gross domestic product"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Lowercase in all uses."
+- source: ap
+  page: 334
+  entry: "groundswell"
+  kind: substitution
+  wrong: "ground[- ]swell"
+  right: "groundswell"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 335
+  entry: "G-7"
+  kind: substitution
+  wrong: "G7"
+  right: "G-7"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Hyphen in the abbreviation."
+- source: ap
+  page: 335
+  entry: "G-20"
+  kind: substitution
+  wrong: "G20"
+  right: "G-20"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Hyphen in the abbreviation."
+- source: ap
+  page: 335
+  entry: "guarantee"
+  kind: substitution
+  wrong: "guaranty"
+  right: "guarantee"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Prefer guarantee except in proper names."
+- source: ap
+  page: 336
+  entry: "guerrilla"
+  kind: substitution
+  wrong: "guerilla"
+  right: "guerrilla"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Double r."
+- source: ap
+  page: 336
+  entry: "guest"
+  kind: existence
+  wrong: "guest(?:ed|ing)"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Do not use guest as a verb except in quotes."
+- source: ap
+  page: 336
+  entry: "gunbattle"
+  kind: substitution
+  wrong: "gun[- ]battle"
+  right: "gunbattle"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 336
+  entry: "gunboat"
+  kind: substitution
+  wrong: "gun[- ]boat"
+  right: "gunboat"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 336
+  entry: "gunfight"
+  kind: substitution
+  wrong: "gun[- ]fight"
+  right: "gunfight"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 336
+  entry: "gunfire"
+  kind: substitution
+  wrong: "gun[- ]fire"
+  right: "gunfire"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 336
+  entry: "gunpoint"
+  kind: substitution
+  wrong: "gun[- ]point"
+  right: "gunpoint"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 336
+  entry: "gunpowder"
+  kind: substitution
+  wrong: "gun[- ]powder"
+  right: "gunpowder"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 338
+  entry: "half-"
+  kind: substitution
+  wrong: "half-back"
+  right: "halfback"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Closed compound."
+- source: ap
+  page: 339
+  entry: "half-"
+  kind: substitution
+  wrong: "half-hearted"
+  right: "halfhearted"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Closed compound."
+- source: ap
+  page: 340
+  entry: "half-"
+  kind: substitution
+  wrong: "half-tone"
+  right: "halftone"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Closed compound."
+- source: ap
+  page: 341
+  entry: "half-"
+  kind: substitution
+  wrong: "half-track"
+  right: "halftrack"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Closed compound."
+- source: ap
+  page: 341
+  entry: "half-"
+  kind: substitution
+  wrong: "half-time"
+  right: "halftime"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Sports copy uses halftime."
+- source: ap
+  page: 341
+  entry: "half-"
+  kind: substitution
+  wrong: "half-brother"
+  right: "half brother"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two words, no hyphen."
+- source: ap
+  page: 342
+  entry: "half-"
+  kind: substitution
+  wrong: "half-dollar"
+  right: "half dollar"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two words, no hyphen."
+- source: ap
+  page: 343
+  entry: "half-"
+  kind: substitution
+  wrong: "half-size"
+  right: "half size"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two words, no hyphen."
+- source: ap
+  page: 343
+  entry: "half-"
+  kind: substitution
+  wrong: "half baked"
+  right: "half-baked"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenated."
+- source: ap
+  page: 343
+  entry: "half-"
+  kind: substitution
+  wrong: "half cocked"
+  right: "half-cocked"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenated."
+- source: ap
+  page: 343
+  entry: "half-"
+  kind: substitution
+  wrong: "half dozen"
+  right: "half-dozen"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenated."
+- source: ap
+  page: 343
+  entry: "half-"
+  kind: substitution
+  wrong: "half hour"
+  right: "half-hour"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenated."
+- source: ap
+  page: 343
+  entry: "half-"
+  kind: substitution
+  wrong: "half life"
+  right: "half-life"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenated."
+- source: ap
+  page: 343
+  entry: "half-"
+  kind: substitution
+  wrong: "half mile"
+  right: "half-mile"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenated."
+- source: ap
+  page: 343
+  entry: "half-"
+  kind: substitution
+  wrong: "half moon"
+  right: "half-moon"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenated."
+- source: ap
+  page: 343
+  entry: "half-"
+  kind: substitution
+  wrong: "half truth"
+  right: "half-truth"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenated."
+- source: ap
+  page: 343
+  entry: "Halley's comet"
+  kind: substitution
+  wrong: "Halley['’]s Comet"
+  right: "Halley's comet"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Capitalize only the proper noun element of a comet name."
+- source: ap
+  page: 343
+  entry: "handicap, handicapped"
+  kind: substitution
+  wrong: "handicapped parking"
+  right: "accessible parking"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Do not use handicapped for disability."
+- source: ap
+  page: 343
+  entry: "handicap, handicapped"
+  kind: existence
+  wrong: "handicapped(?! parking)"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Do not use for a disability or a person; golf handicap is fine."
+- source: ap
+  page: 344
+  entry: "Hanukkah"
+  kind: substitution
+  wrong: "Chanukah|Chanukkah|Hanukah"
+  right: "Hanukkah"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "AP spelling."
+- source: ap
+  page: 344
+  entry: "harelip"
+  kind: substitution
+  wrong: "hare ?lip"
+  right: "cleft lip"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Avoid harelip."
+- source: ap
+  page: 345
+  entry: "hard line, hard-liner"
+  kind: substitution
+  wrong: "hardliner"
+  right: "hard-liner"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Hyphenate."
+- source: ap
+  page: 345
+  entry: "hard line, hard-liner"
+  kind: substitution
+  wrong: "hardline"
+  right: "hard-line"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Adjective is hard-line."
+- source: ap
+  page: 347
+  entry: "headlines"
+  kind: substitution
+  wrong: "4Q"
+  right: "Q4"
+  domain: wording
+  fix: review
+  american: true
+  context: "headlines"
+  note: "Write Q4 in headlines."
+- source: ap
+  page: 349
+  entry: "health care"
+  kind: substitution
+  wrong: "healthcare"
+  right: "health care"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two words."
+- source: ap
+  page: 353
+  entry: "Hells Angels"
+  kind: substitution
+  wrong: "Hell['’]s Angels"
+  right: "Hells Angels"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No apostrophe."
+- source: ap
+  page: 353
+  entry: "hemorrhage"
+  kind: substitution
+  wrong: "haemorrhage"
+  right: "hemorrhage"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "American spelling."
+- source: ap
+  page: 354
+  entry: "heroes"
+  kind: substitution
+  wrong: "heros"
+  right: "heroes"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spelling."
+- source: ap
+  page: 354
+  entry: "hertz"
+  kind: substitution
+  wrong: "Hz"
+  right: "hertz"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not abbreviate hertz."
+- source: ap
+  page: 354
+  entry: "high blood pressure"
+  kind: substitution
+  wrong: "hypertension"
+  right: "high blood pressure"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Preferred term."
+- source: ap
+  page: 354
+  entry: "high definition"
+  kind: substitution
+  wrong: "high definition(?= (?:television|TV|video|display|image|images|screen|picture|camera|monitor|set|sets))"
+  right: "high-definition"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate the adjective."
+- source: ap
+  page: 354
+  entry: "high functioning, low functioning"
+  kind: existence
+  wrong: "(?:high|low)[- ]functioning"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Vague terms for people with disabilities; be specific."
+- source: ap
+  page: 355
+  entry: "high tech, high-tech"
+  kind: substitution
+  wrong: "high tech(?= (?:company|companies|industry|firm|firms|worker|workers|job|jobs|gadget|gadgets|device|devices|equipment|sector))"
+  right: "high-tech"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate as adjective."
+- source: ap
+  page: 355
+  entry: "hillbilly"
+  kind: existence
+  wrong: "hillbill(?:y|ies)"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Derogatory; avoid outside quotes."
+- source: ap
+  page: 355
+  entry: "HIPAA"
+  kind: existence
+  wrong: "HIPAA"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Avoid the acronym; refer to privacy laws."
+- source: ap
+  page: 356
+  entry: "his, her, he, she"
+  kind: existence
+  wrong: "his/her|her/his|he/she|she/he|his or her|her or his|he or she|she or he|him/her|her/him|him or her|her or him|s/he"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Do not use paired pronoun constructions; use they or reword."
+- source: ap
+  page: 357
+  entry: "historical periods and events"
+  kind: existence
+  wrong: "\\d+(?:st|nd|rd|th) Century"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase century."
+- source: ap
+  page: 357
+  entry: "history"
+  kind: substitution
+  wrong: "past history"
+  right: "history"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Redundant."
+- source: ap
+  page: 357
+  entry: "Hitler, Adolf"
+  kind: substitution
+  wrong: "Adolph Hitler"
+  right: "Adolf Hitler"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spelled Adolf."
+- source: ap
+  page: 357
+  entry: "Hodgkin lymphoma"
+  kind: substitution
+  wrong: "Hodgkin['’]s (?:disease|lymphoma)"
+  right: "Hodgkin lymphoma"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No possessive."
+- source: ap
+  page: 357
+  entry: "Hodgkin lymphoma"
+  kind: substitution
+  wrong: "Non-Hodgkin['’]s"
+  right: "Non-Hodgkin"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No possessive."
+- source: ap
+  page: 358
+  entry: "Holocaust"
+  kind: existence
+  wrong: "holocaust"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Capitalize for the Nazi mass murder; lowercase for other uses."
+- source: ap
+  page: 359
+  entry: "homebuilder"
+  kind: substitution
+  wrong: "home builder"
+  right: "homebuilder"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 359
+  entry: "homebuilder"
+  kind: substitution
+  wrong: "home builders"
+  right: "homebuilders"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 359
+  entry: "homebuyer"
+  kind: substitution
+  wrong: "home buyer"
+  right: "homebuyer"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 359
+  entry: "homebuyer"
+  kind: substitution
+  wrong: "home buyers"
+  right: "homebuyers"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 359
+  entry: "homeowner"
+  kind: substitution
+  wrong: "home owner"
+  right: "homeowner"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 359
+  entry: "homeowner"
+  kind: substitution
+  wrong: "home owners"
+  right: "homeowners"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 360
+  entry: "homefront"
+  kind: substitution
+  wrong: "home front"
+  right: "homefront"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 360
+  entry: "homeless, homelessness"
+  kind: existence
+  wrong: "the homeless(?=[ ,.;]| (?:and|who|are|in|to|of|for|on|with|as|from|but|or|is|were|was)\\b)"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Avoid the dehumanizing the homeless; write homeless people."
+- source: ap
+  page: 360
+  entry: "homeless, homelessness"
+  kind: existence
+  wrong: "flophouses?|hobos?|vagrants?|derelicts?"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Disparaging terms for homeless people."
+- source: ap
+  page: 360
+  entry: "homepage"
+  kind: substitution
+  wrong: "home page"
+  right: "homepage"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 361
+  entry: "homicide, murder, manslaughter"
+  kind: existence
+  wrong: "charged with murdering"
+  domain: wording
+  fix: none
+  american: true
+  context: "legal"
+  note: "Use the formal charge, murder, not charged with murdering."
+- source: ap
+  page: 363
+  entry: "horsepower"
+  kind: substitution
+  wrong: "hp"
+  right: "horsepower"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not abbreviate horsepower."
+- source: ap
+  page: 363
+  entry: "hot spot"
+  kind: substitution
+  wrong: "hotspot"
+  right: "hot spot"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two words."
+- source: ap
+  page: 363
+  entry: "hourlong, hourslong"
+  kind: substitution
+  wrong: "hour[- ]long"
+  right: "hourlong"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 363
+  entry: "hourlong, hourslong"
+  kind: substitution
+  wrong: "hours[- ]long"
+  right: "hourslong"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 364
+  entry: "HPV"
+  kind: substitution
+  wrong: "HPV virus"
+  right: "HPV"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Redundant."
+- source: ap
+  page: 365
+  entry: "human smuggling"
+  kind: substitution
+  wrong: "human-smuggling"
+  right: "human smuggling"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen in the modifier."
+- source: ap
+  page: 365
+  entry: "human smuggling"
+  kind: substitution
+  wrong: "people-smuggling"
+  right: "people smuggling"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen in the modifier."
+- source: ap
+  page: 365
+  entry: "human trafficking"
+  kind: substitution
+  wrong: "human-trafficking"
+  right: "human trafficking"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen in the modifier."
+- source: ap
+  page: 365
+  entry: "human trafficking"
+  kind: substitution
+  wrong: "people-trafficking"
+  right: "people trafficking"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen in the modifier."
+- source: ap
+  page: 366
+  entry: "hydro-"
+  kind: substitution
+  wrong: "hydro-electric"
+  right: "hydroelectric"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen after hydro-."
+- source: ap
+  page: 367
+  entry: "hydro-"
+  kind: substitution
+  wrong: "hydro-phobia"
+  right: "hydrophobia"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen after hydro-."
+- source: ap
+  page: 367
+  entry: "hyper-"
+  kind: substitution
+  wrong: "hyper-active"
+  right: "hyperactive"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen after hyper-."
+- source: ap
+  page: 368
+  entry: "hyper-"
+  kind: substitution
+  wrong: "hyper-critical"
+  right: "hypercritical"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen after hyper-."
+- source: ap
+  page: 369
+  entry: "ICBM, ICBMs"
+  kind: substitution
+  wrong: "ICBM missiles?"
+  right: "ICBM"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Redundant."
+- source: ap
+  page: 369
+  entry: "i.e."
+  kind: existence
+  wrong: "i\\.e\\. (?=\\w)"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Always follow i.e. with a comma."
+- source: ap
+  page: 370
+  entry: "illegitimate"
+  kind: existence
+  wrong: "illegitimate (?:child|children|son|daughter|birth)"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Do not call children of unmarried parents illegitimate."
+- source: ap
+  page: 372
+  entry: "illegal immigration"
+  kind: existence
+  wrong: "illegal (?:immigrants?|aliens?)"
+  domain: wording
+  fix: none
+  american: true
+  context: "immigration"
+  note: "Use illegal only for actions; say immigrants lacking permanent legal status."
+- source: ap
+  page: 372
+  entry: "illegal immigration"
+  kind: existence
+  wrong: "illegals"
+  domain: wording
+  fix: none
+  american: true
+  context: "immigration"
+  note: "Do not use illegals."
+- source: ap
+  page: 372
+  entry: "illegal immigration"
+  kind: existence
+  wrong: "unauthorized immigrants?|irregular migrants?"
+  domain: wording
+  fix: none
+  american: true
+  context: "immigration"
+  note: "Terms AP rejects."
+- source: ap
+  page: 372
+  entry: "illegal immigration"
+  kind: existence
+  wrong: "undocumented (?:immigrants?|migrants?|workers?|aliens?|people|persons|residents|children|youth|students|families)"
+  domain: wording
+  fix: none
+  american: true
+  context: "immigration"
+  note: "AP says not to use undocumented for people."
+- source: ap
+  page: 374
+  entry: "internally displaced person/people"
+  kind: existence
+  wrong: "internally displaced (?:persons?|people)"
+  domain: wording
+  fix: none
+  american: true
+  context: "immigration"
+  note: "Jargon; write people displaced within their own countries."
+- source: ap
+  page: 374
+  entry: "anchor babies"
+  kind: existence
+  wrong: "anchor babies"
+  domain: wording
+  fix: none
+  american: true
+  context: "immigration"
+  note: "Pejorative; avoid outside quotes."
+- source: ap
+  page: 374
+  entry: "birth tourism"
+  kind: existence
+  wrong: "birth tourism"
+  domain: wording
+  fix: none
+  american: true
+  context: "immigration"
+  note: "Avoid outside quotes; describe the action."
+- source: ap
+  page: 375
+  entry: "catch and release"
+  kind: existence
+  wrong: "catch[- ]and[- ]release"
+  domain: wording
+  fix: none
+  american: true
+  context: "immigration"
+  note: "Misleading term; avoid outside quotes."
+- source: ap
+  page: 375
+  entry: "chain migration"
+  kind: existence
+  wrong: "chain migration"
+  domain: wording
+  fix: none
+  american: true
+  context: "immigration"
+  note: "Vague; avoid outside quotes."
+- source: ap
+  page: 375
+  entry: "deportation, expulsion"
+  kind: existence
+  wrong: "self-deportation"
+  domain: wording
+  fix: none
+  american: true
+  context: "immigration"
+  note: "Avoid."
+- source: ap
+  page: 376
+  entry: "green card"
+  kind: substitution
+  wrong: "green card (?=holders?)"
+  right: "green-card"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Hyphenate as a modifier."
+- source: ap
+  page: 384
+  entry: "impostor"
+  kind: substitution
+  wrong: "imposter"
+  right: "impostor"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spelled with or."
+- source: ap
+  page: 389
+  entry: "inbox"
+  kind: substitution
+  wrong: "in-box"
+  right: "inbox"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 389
+  entry: "incorporated"
+  kind: substitution
+  wrong: ", Inc"
+  right: "Inc"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No comma before Inc."
+- source: ap
+  page: 390
+  entry: "index, indexes"
+  kind: substitution
+  wrong: "indices"
+  right: "indexes"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Plural is indexes in general use."
+- source: ap
+  page: 390
+  entry: "indict"
+  kind: existence
+  wrong: "indicted for (?:killing|murder|murdering|bribery|robbery|assault|theft|fraud|arson|rape|embezzlement)"
+  domain: wording
+  fix: review
+  american: true
+  context: "legal"
+  note: "Use indicted on a charge of."
+- source: ap
+  page: 392
+  entry: "infantile paralysis"
+  kind: substitution
+  wrong: "infantile paralysis"
+  right: "polio"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Preferred term is polio."
+- source: ap
+  page: 393
+  entry: "initials"
+  kind: existence
+  wrong: "[A-Z]\\. [A-Z]\\. (?=[A-Z][a-z])"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Initials used as a first name take periods and no space."
+- source: ap
+  page: 393
+  entry: "injuries"
+  kind: existence
+  wrong: "sustained (?:an )?injur(?:y|ies)"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Simpler wording such as was injured."
+- source: ap
+  page: 396
+  entry: "input"
+  kind: existence
+  wrong: "inputt(?:ed|ing)"
+  domain: technical
+  fix: none
+  american: true
+  context: "general"
+  note: "Do not use input as a verb for data entry."
+- source: ap
+  page: 397
+  entry: "inquire, inquiry"
+  kind: substitution
+  wrong: "enquire"
+  right: "inquire"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not enquire."
+- source: ap
+  page: 397
+  entry: "inquire, inquiry"
+  kind: substitution
+  wrong: "enquires"
+  right: "inquires"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not enquire."
+- source: ap
+  page: 397
+  entry: "inquire, inquiry"
+  kind: substitution
+  wrong: "enquired"
+  right: "inquired"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not enquire."
+- source: ap
+  page: 397
+  entry: "inquire, inquiry"
+  kind: substitution
+  wrong: "enquiring"
+  right: "inquiring"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not enquire."
+- source: ap
+  page: 397
+  entry: "inquire, inquiry"
+  kind: substitution
+  wrong: "enquiry"
+  right: "inquiry"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not enquiry."
+- source: ap
+  page: 397
+  entry: "inquire, inquiry"
+  kind: substitution
+  wrong: "enquiries"
+  right: "inquiries"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not enquiry."
+- source: ap
+  page: 397
+  entry: "insignia"
+  kind: substitution
+  wrong: "insignias"
+  right: "insignia"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Same form singular and plural."
+- source: ap
+  page: 397
+  entry: "inter-"
+  kind: substitution
+  wrong: "inter-racial"
+  right: "interracial"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen after inter-."
+- source: ap
+  page: 398
+  entry: "inter-"
+  kind: substitution
+  wrong: "inter-state"
+  right: "interstate"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen after inter-."
+- source: ap
+  page: 399
+  entry: "internet"
+  kind: casing
+  wrong: "Internet"
+  right: "internet"
+  domain: technical
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase internet."

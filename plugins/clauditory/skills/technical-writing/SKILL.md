@@ -2,7 +2,7 @@
 name: technical-writing
 description: Use when writing documentation, how-to instructions, READMEs, code comments, docstrings, error or log messages, commit messages, pull request descriptions, changelogs, or agent instruction files. Adds rules for steps, modal verbs, code and identifiers, links, headings, and commits on top of the writing-style skill. Not for code itself.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Technical writing
@@ -69,6 +69,8 @@ After the writing-style revision pass, check the draft against these items and r
 1. **Overclaiming and dating.** Best, fastest, always, never, ensure, or guarantee in a claim that isn't literally true; simple, easy, quick, or "just" describing a step; now, new, currently, soon, or at present in text that describes how something works. Cut the word or replace it with the fact.
 2. **Vague requirements.** "You should," "you need to," or "you may" where the reader can't tell whether the step is required, optional, or permitted. Use must, can, or might.
 3. **Bare identifiers and positional references.** An identifier with no noun for its kind, a command used as a verb in documentation, "above" or "below," and link text such as "here" or "this page."
+
+Then run the writing-style skill's linter on the draft, with `--commit` for a commit message, and fix what it reports where the rule applies.
 
 ## Example
 

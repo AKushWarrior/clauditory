@@ -2,7 +2,7 @@
 name: writing-style
 description: Use for any prose a person will read and for anything that persists, including chat replies, reports, docs, emails, posts, summaries, commit messages, pull request text, code comments, notes, and agent instruction files such as CLAUDE.md and AGENTS.md. Sets word choice, sentences, numbers and evidence, structure, tone, and mechanics, then runs a revision pass that removes machine-default habits. Not for code itself or raw data.
 metadata:
-  version: "2.0.0"
+  version: "2.1.0"
 ---
 
 # Writing style
@@ -21,7 +21,8 @@ For documentation, instructions, code comments, commit messages, and pull reques
 
 1. Draft with sections 1 to 8 in mind. Aim at the target style instead of steering around a list of forbidden things.
 2. When the draft is done, run the revision pass in section 10 and rewrite what it catches. The lists of patterns to remove live only there. Constraints applied while drafting tend to make a model plan a thinner answer, and drafting freely before revising keeps the content.
-3. Treat the examples at the end as the standard for what good output sounds like.
+3. Before you send or save a substantial piece of text, check it with the linter in section 11 and fix what it reports.
+4. Treat the examples at the end as the standard for what good output sounds like.
 
 ## 1. Open with the answer
 
@@ -137,7 +138,7 @@ For documentation, instructions, code comments, docstrings, error messages, comm
 
 Before sending, read the draft once against this list and rewrite each hit. Keep every point the original sentence carried; the pass changes how the draft says things, not what it says.
 
-1. **Em dashes.** Replace every em dash (—) and every spaced dash used as one ( – or - ) with a comma, colon, parentheses, or a period. Write ranges with "to."
+1. **Em dashes.** Replace every em dash (—), en dash, or run of hyphens standing in for one (--, ---, or a hyphen with a space on either side) with a comma, colon, parentheses, or a period. Write ranges with "to," and put command-line flags in code formatting.
 2. **Correction framing.** "Not X, but Y." "It's not X, it's Y." "Y, not X." "Not just X, but also Y." "This isn't about X. It's about Y." Rewrite as a plain statement of Y. Keep a contrast only if the reader plausibly believes X, and at most once per response.
 3. **Trailing participles.** A finished clause followed by a comma and an -ing phrase: ", highlighting...", ", underscoring...", ", showcasing...", ", ensuring...", ", reflecting...", ", enabling you to...", ", allowing...", ", providing...", ", resulting in...", or ", making it...". The -ing word leaves the reader to guess how it relates to the clause. Cut it, or name the relation: "which lets you" for a consequence, "so that" for a purpose, or a new sentence with a concrete subject.
 4. **Reflexive triplets.** Three adjectives, nouns, or clauses where the third adds nothing. Cut to what carries information.
@@ -153,6 +154,18 @@ Before sending, read the draft once against this list and rewrite each hit. Keep
 14. **Confusable words.** Affect and effect, ensure and insure, imply and infer, continual and continuous, discrete and discreet, complement and compliment, principal and principle, practical and practicable, comprise and compose, fewer and less. Check each one you used and fix any swap.
 
 After rewriting, check that the fixes didn't create new hits, such as a colon-and-fragment construction repeated in every paragraph.
+
+## 11. Lint before you send
+
+This skill ships a linter, `scripts/lint` in this skill's folder, that checks text against the rules a program can test: the revision-pass patterns, the mechanics in section 8, common machine-writing tells, and the word lists of the major style guides. Run it on anything substantial before you commit, save, or send it: a document, a reference file, a README, a commit message, or a reply longer than a few paragraphs. Skip it for short chat replies, code, and quoted material.
+
+```
+scripts/lint --fix draft.md                  # fix the mechanical problems in place, then report the rest
+scripts/lint < reply.md                      # check text without changing it
+git log -1 --format=%B | scripts/lint --commit   # check a commit message
+```
+
+Fix every error and warning where the rule applies, and skip any fix that would make the sentence worse or change its meaning. Treat suggestions as prompts to look again, not as orders. If `scripts/lint` isn't present, as in an upload without the bundled binaries, run the revision pass by hand.
 
 ## Examples
 

@@ -118,7 +118,7 @@ The skill leaves out much of the rest of the guide for reasons of scope. HTML ma
 
 It leaves out the five-to-six-sentence paragraph signal. Google's 26-word sentence target is close to section 3's request to keep most sentences under about 25 words, but the skill's figure follows the IBM guide's threshold, as ibm-style-guide.md records, and the 40-word point for splitting a sentence is the owner's. The guide offers no evidence for its figures.
 
-It leaves out the tone guidance that assumes a company talking to customers: the knowledgeable-friend persona, the advice to let personality show, and the rules on please. Section 7 sets tone for the skill, and the news-manual model it rests on ranks higher.
+It leaves out the tone guidance that assumes a company talking to customers: the knowledgeable-friend persona, the advice to let personality show, and the rules on please. Section 7 sets tone for the skill on the model of a good newspaper, which writes for a reader and not for a customer.
 
 It leaves out the ban on humor for global audiences as a general rule. Section 7 permits dry humor in conversation, and the rules for global readers now sit in technical-writing's section 6, which applies only to technical and persisted text.
 
@@ -130,7 +130,7 @@ It leaves out Google's treatment of contractions, colons, percentages, numbers, 
 
 ## Conflicts with other references
 
-AGENTS.md ranks the New York Times, the AP, Chicago, and the New Oxford Style Manual ahead of the technical guides, and the owner's explicit choices (no em dashes, the serial comma, and the revision-pass bans) override every source. Every conflict below is resolved by that order.
+Each entry below records the form the skill chose and the reason for it. The owner's explicit choices (no em dashes, the serial comma, and the revision-pass bans) override every source.
 
 **Serial comma (nyt-manual-of-style.md, ap-stylebook.md, chicago-manual-of-style.md).** Google requires the serial comma in every series of three or more, as Chicago does. The NYT and AP omit it in a simple series. Earlier versions of section 8 followed the NYT and added the comma only where an item contained and or the sentence would otherwise be ambiguous. Version 2.0.0 adopted the serial comma by the owner's choice, so Google and the skill now agree, and the remaining conflict is between the skill and the NYT and AP.
 
@@ -142,7 +142,7 @@ AGENTS.md ranks the New York Times, the AP, Chicago, and the New Oxford Style Ma
 
 **Dashes (nyt-manual-of-style.md, ap-stylebook.md, chicago-manual-of-style.md, freeburg-em-dashes.md).** Google uses the unspaced em dash for a break in a sentence, rules out the en dash entirely, and writes number ranges with a hyphen. The skill bans the em dash at the owner's explicit request and writes ranges with to. Google's guidance does support one part of the skill's revision item 1. It rejects a dash between a term and its description and asks for a colon or period, which is the same substitution the skill asks for in every case.
 
-**Contractions (nyt-manual-of-style.md).** Google recommends contractions throughout its documentation and gives a reason the skill does not answer. A reader scanning quickly may miss a standalone not but will rarely misread a contracted negative. Section 7, which follows the NYT, allows contractions in conversation and spells them out in formal documents, and technical-writing sets no rule of its own on contractions. A writer of formal technical text under this skill can protect against a missed not by placing the negative early and keeping the sentence short. Google's point is reasonable. The skill resolves the conflict by precedence alone and gives no counterargument.
+**Contractions (nyt-manual-of-style.md).** Google recommends contractions throughout its documentation and gives a reason the skill does not answer. A reader scanning quickly may miss a standalone not but will rarely misread a contracted negative. Section 7, which follows the NYT, allows contractions in conversation and spells them out in formal documents, and technical-writing sets no rule of its own on contractions. A writer of formal technical text under this skill can protect against a missed not by placing the negative early and keeping the sentence short. Google's point is reasonable. The skill keeps the NYT's split because it ties register to the setting, with spelled-out forms where text is formal or likely to be translated, but it gives no counterargument to Google's point about scanning.
 
 **Lets you (ibm-style-guide.md).** Google's word list replaces allows you to and enables you to with lets you. Section 2 and revision item 12 treat lets you like the other two and ask for the reader as the subject, as in "You can export the report as CSV." The skill's rule follows the IBM guide's entries for allow, enable, let, and permit, as ibm-style-guide.md records. Google's fix removes the inflated verb but keeps the step between the reader and the action, and the skill removes both.
 
@@ -156,7 +156,7 @@ AGENTS.md ranks the New York Times, the AP, Chicago, and the New Oxford Style Ma
 
 **Active voice (rhodes-active-passive-voice.md, reinhart-llm-grammatical-style.md).** Google's active-voice default rests on accountability, the same reason section 3 gives. Rhodes found no comprehension difference between active and passive voice, and Reinhart found that instruction-tuned models use agentless passives at about half the human rate. Neither result touches Google's argument, which concerns whether the reader can tell who acts. Google's three exceptions for the passive fit inside the skill's two.
 
-**Other technical guides.** Google names the Microsoft Writing Style Guide as its fallback for technical questions, which puts Microsoft second to Google in Google's own hierarchy. AGENTS.md lists the technical guides together after the news manuals, Chicago, and Oxford. Google says nothing about commit-message subject lines, and the commit rules now belong to technical-writing, whose references compare git, the kernel, and AGENTS.md.
+**Other technical guides.** Google names the Microsoft Writing Style Guide as its fallback for technical questions, which puts Microsoft second to Google in Google's own hierarchy. The skill sets no order among the technical guides; each entry in this file records the choice it made. Google says nothing about commit-message subject lines, and the commit rules now belong to technical-writing, whose references compare git, the kernel, and AGENTS.md.
 
 ## Review notes
 

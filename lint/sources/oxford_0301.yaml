@@ -1,0 +1,380 @@
+- source: oxford
+  page: 304
+  entry: "14.4.4 Superscripts and subscripts (isotope names)"
+  kind: existence
+  wrong: "(?i)(?:uranium|carbon|plutonium|iodine|caesium|cesium|strontium|cobalt|radium|thorium|radon|hydrogen)-\\d{1,3}"
+  domain: wording
+  fix: review
+  american: false
+  context: science
+  note: Written out with the element name, an isotope number takes a space, no hyphen (uranium 235).
+
+- source: oxford
+  page: 304
+  entry: "14.4.4 Oxidation states"
+  kind: existence
+  wrong: "(?i)(?:manganese|iron|copper|chromium|lead|tin|cobalt|nickel|mercury|vanadium|titanium|chlorine|sulfur|sulphur) \\((?:I{1,3}|IV|VI{0,3}|IX|X)\\)"
+  domain: wording
+  fix: review
+  american: true
+  context: science
+  note: Oxidation-state numeral follows the element name closed up, with no space before the parenthesis.
+
+- source: oxford
+  page: 302
+  entry: "Table 14.3 Chemical elements (aluminium)"
+  kind: substitution
+  wrong: "aluminum"
+  right: "aluminium"
+  domain: wording
+  fix: safe
+  american: false
+  context: science
+  note: IUPAC-style British spelling for element 13.
+
+- source: oxford
+  page: 302
+  entry: "Table 14.3 Chemical elements (caesium)"
+  kind: substitution
+  wrong: "cesium"
+  right: "caesium"
+  domain: wording
+  fix: safe
+  american: false
+  context: science
+  note: IUPAC-style British spelling for element 55.
+
+- source: oxford
+  page: 302
+  entry: "Table 14.3 Chemical elements (sulphur)"
+  kind: substitution
+  wrong: "sulfur"
+  right: "sulphur"
+  domain: wording
+  fix: safe
+  american: false
+  context: science
+  note: Table gives sulphur as element name for S.
+
+- source: oxford
+  page: 304
+  entry: "14.5.1 Computing terminology (object-oriented)"
+  kind: substitution
+  wrong: "object-orientated"
+  right: "object-oriented"
+  domain: wording
+  fix: safe
+  american: true
+  context: computing
+  note: Do not Britishize computing terms; keep oriented.
+
+- source: oxford
+  page: 304
+  entry: "14.5.1 Computing terminology (program)"
+  kind: substitution
+  wrong: "programme"
+  right: "program"
+  domain: wording
+  fix: review
+  american: true
+  context: computing
+  note: Computing uses program, not programme, for software (but programme elsewhere in British text).
+
+- source: oxford
+  page: 304
+  entry: "14.5.1 Computing terminology (analog)"
+  kind: substitution
+  wrong: "analogue"
+  right: "analog"
+  domain: wording
+  fix: review
+  american: true
+  context: computing
+  note: Standard computing vocabulary takes the US spelling analog.
+
+- source: oxford
+  page: 304
+  entry: "14.5.1 Computing terminology (compact disc)"
+  kind: substitution
+  wrong: "compact disk"
+  right: "compact disc"
+  domain: wording
+  fix: safe
+  american: true
+  context: computing
+  note: Exception to the disk spelling; compact disc and digital versatile disc keep c.
+
+- source: oxford
+  page: 304
+  entry: "14.5.1 Computing terminology (digital versatile disc)"
+  kind: substitution
+  wrong: "digital versatile disk"
+  right: "digital versatile disc"
+  domain: wording
+  fix: safe
+  american: true
+  context: computing
+  note: Exception to the disk spelling; DVD expands to disc.
+
+- source: oxford
+  page: 305
+  entry: "14.5.1 Programming language names (Unix)"
+  kind: casing
+  wrong: "UNIX"
+  right: "Unix"
+  domain: technical
+  fix: review
+  american: true
+  context: computing
+  note: Style the name Unix in upper and lower case; UNIX is the trademark form.
+
+- source: oxford
+  page: 305
+  entry: "14.5.1 Programming language names (C#)"
+  kind: substitution
+  wrong: "C♯"
+  right: "C#"
+  domain: technical
+  fix: safe
+  american: true
+  context: computing
+  note: C# uses a hash on the line, not a musical sharp sign.
+
+- source: oxford
+  page: 305
+  entry: "14.5.1 Data storage (kilobyte)"
+  kind: existence
+  wrong: "\\d\\s?kB"
+  domain: technical
+  fix: none
+  american: true
+  context: computing
+  note: Data storage uses capital K for kilo (1 KB is 1024 bytes); ambiguous with SI kB, so review.
+
+- source: oxford
+  page: 305
+  entry: "14.5.1 Computing mark-up language"
+  kind: substitution
+  wrong: "markup language"
+  right: "mark-up language"
+  domain: wording
+  fix: safe
+  american: false
+  context: computing
+  note: House spelling is hyphenated mark-up; British-only.
+
+- source: oxford
+  page: 309
+  entry: "14.6.2 Notation (abbreviations of functions)"
+  kind: existence
+  wrong: "\\b(?:log|exp|max|lim|cos|tan|sin|cov)\\.(?=\\()"
+  domain: technical
+  fix: none
+  american: true
+  context: mathematics
+  note: Standard function abbreviations such as log and exp carry no full point.
+
+- source: oxford
+  page: 315
+  entry: "14.7.1 Astronomy conventions (Solar System)"
+  kind: casing
+  wrong: "solar system"
+  right: "Solar System"
+  domain: wording
+  fix: review
+  american: true
+  context: astronomy
+  note: Capitalize Solar System when naming our planetary system; other uses of solar stay lower case.
+
+- source: oxford
+  page: 315
+  entry: "14.7.1 Astronomy conventions (minor planet)"
+  kind: existence
+  wrong: "asteroids?"
+  domain: wording
+  fix: none
+  american: true
+  context: astronomy
+  note: In technical astronomy, minor planet is preferred to asteroid; asteroid belt is accepted.
+
+- source: oxford
+  page: 317
+  entry: "15.1.2 Arrangement of items (etc. after examples)"
+  kind: existence
+  wrong: "\\b(?:including|includes|such as|for example|for instance|e\\.g\\.,?)\\b[^.;:!?]{1,120}\\betc\\."
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: A list introduced by including, for example or such as should not also end with etc.
+
+- source: oxford
+  page: 324
+  entry: "15.2.1 Table citations (positional references)"
+  kind: existence
+  wrong: "(?i)\\b(?:the )?(?:table|figure|illustration|chart|graph)s? (?:above|below)\\b|\\bthe following (?:table|figure|illustration|chart|graph)\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid positional references to tables and figures; cite by number because layout changes.
+
+- source: oxford
+  page: 332
+  entry: "16.1.2 Numbering and citations (positional references)"
+  kind: existence
+  wrong: "(?i)\\bthe (?:figure|illustration|image|diagram) (?:above|below)\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Refer to figures by number, not by position such as above or below.
+
+- source: oxford
+  page: 338
+  entry: "16.2.2 Graphs and tables (leading zero)"
+  kind: existence
+  wrong: "(?<=\\s)\\.\\d+"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Put a zero before decimal points (0.86, not .86); probability values such as p < .05 are exempt.
+
+- source: oxford
+  page: 346
+  entry: "16.4.1 Percentages (per cent)"
+  kind: substitution
+  wrong: "percent"
+  right: "per cent"
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: British house style writes per cent as two words in running text.
+
+- source: oxford
+  page: 355
+  entry: "17.2.5 Location within a work (f. and ff.)"
+  kind: existence
+  wrong: "\\d\\s?f\\.(?!\\w)"
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: Replace a page number plus f. with an explicit two-page span (15-16, not 15 f.).
+
+- source: oxford
+  page: 356
+  entry: "17.2.5 Abbreviations (ibid.)"
+  kind: existence
+  wrong: "\\b[Ii]bid\\.?|\\b[Ii]b\\.(?=\\s)"
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: Ibid. is best avoided; use author and short title instead.
+
+- source: oxford
+  page: 356
+  entry: "17.2.5 Abbreviations (op. cit., loc. cit., art. cit.)"
+  kind: existence
+  wrong: "\\b(?:op|loc|art)\\. ?cit\\."
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: Avoid op. cit., loc. cit. and art. cit.; cite author and short title.
+
+- source: oxford
+  page: 356
+  entry: "17.2.5 Abbreviations (idem)"
+  kind: existence
+  wrong: "\\b(?:[Ii]dem|[Ee]adem|[Ee]aedem|[Ee]idem)\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: Avoid idem and its gendered forms; repeat the author's name.
+
+- source: oxford
+  page: 375
+  entry: "18.2.9 Place of publication (Munich)"
+  kind: substitution
+  wrong: "München"
+  right: "Munich"
+  domain: wording
+  fix: review
+  american: true
+  context: citations
+  note: Give the place of publication in its English form.
+
+- source: oxford
+  page: 375
+  entry: "18.2.9 Place of publication (The Hague)"
+  kind: substitution
+  wrong: "Den Haag"
+  right: "The Hague"
+  domain: wording
+  fix: review
+  american: true
+  context: citations
+  note: Give the place of publication in its English form.
+
+- source: oxford
+  page: 375
+  entry: "18.2.9 Place of publication (Turin)"
+  kind: substitution
+  wrong: "Torino"
+  right: "Turin"
+  domain: wording
+  fix: review
+  american: true
+  context: citations
+  note: Give the place of publication in its English form.
+
+- source: oxford
+  page: 377
+  entry: "18.2.12 Editions (edn)"
+  kind: existence
+  wrong: "\\b\\d+(?:st|nd|rd|th) ed\\."
+  domain: wording
+  fix: none
+  american: false
+  context: citations
+  note: Oxford abbreviates edition as edn (2nd edn), not ed.
+
+- source: oxford
+  page: 390
+  entry: "18.8.3 Resource locators (angle brackets)"
+  kind: existence
+  wrong: "<https?://[^>\\s]+>"
+  domain: technical
+  fix: none
+  american: true
+  context: citations
+  note: Do not enclose URLs in angle brackets; they interfere with XML tagging.
+
+- source: oxford
+  page: 341
+  entry: "16.3.2 File types (JPEG)"
+  kind: casing
+  wrong: "(?<![./\\w-])(?:Jpeg|jpeg)(?![\\w-])"
+  right: "JPEG"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Image format abbreviations are written in capitals (JPEG, TIFF, EPS).
+
+- source: oxford
+  page: 341
+  entry: "16.3.2 File types (TIFF)"
+  kind: casing
+  wrong: "(?<![./\\w-])(?:Tiff|tiff)(?![\\w-])"
+  right: "TIFF"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Image format abbreviations are written in capitals (JPEG, TIFF, EPS).

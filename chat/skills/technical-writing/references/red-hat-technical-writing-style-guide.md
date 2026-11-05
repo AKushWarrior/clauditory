@@ -209,7 +209,7 @@ The guide is a secondary source for technical-writing 1.0.0. It is the main sour
 
 **Need to as a general rule.** The guide's entry treats need to as something to avoid in all requirements. The skill keeps it only where its force is unclear. That fits the owner's decision to avoid word-level rules in favor of a general rule on idiom (writing-style, section 2).
 
-**Title case and gerund headings.** These conflict with the skill and lose under the source order (see below).
+**Title case and gerund headings.** These conflict with the skill, which follows Google, IBM, and Microsoft on heading case (see below).
 
 **Release notes and the passive.** The guide allows the passive in release notes. The skill's commit and changelog rules don't mention voice, and writing-style's passive exception (the actor is unknown or beside the point) already covers these cases.
 
@@ -219,9 +219,9 @@ The guide is a secondary source for technical-writing 1.0.0. It is the main sour
 
 These conflicts concern the technical-writing skill. Each cited file lives in chat/skills/writing-style/references, because technical-writing grew out of that skill's section 9 and shares its sources.
 
-**Heading case (google-developer-style-guide.md, ibm-style-guide.md, microsoft-writing-style-guide.md).** The guide uses title case and suggests gerunds for chapter and section titles, with imperatives for tasks. Google, Microsoft, and IBM use sentence case. Google discourages an -ing word at the start of a heading, while IBM uses gerunds for tasks. The skill uses sentence case, starts task headings with a verb, and starts concept headings with a noun phrase. It follows Google, which ranks ahead of Red Hat in the AGENTS.md order.
+**Heading case (google-developer-style-guide.md, ibm-style-guide.md, microsoft-writing-style-guide.md).** The guide uses title case and suggests gerunds for chapter and section titles, with imperatives for tasks. Google, Microsoft, and IBM use sentence case. Google discourages an -ing word at the start of a heading, while IBM uses gerunds for tasks. The skill uses sentence case, starts task headings with a verb, and starts concept headings with a noun phrase. It follows Google, which agrees with IBM and Microsoft on sentence case and discourages an -ing opening because it translates inconsistently.
 
-**File name or filename (oxford-dictionary-for-writers.md).** The guide writes file name as two words, and the Oxford dictionary gives filename. The skill writes filename, following the higher-ranked Oxford dictionary.
+**File name or filename (oxford-dictionary-for-writers.md).** The guide writes file name as two words, and the Oxford dictionary gives filename. The skill writes filename, following the Oxford dictionary and the newer technical guides, and the closed form matches the one-word username the skill also uses.
 
 **Punctuation with quoted literals (oxford-new-harts-rules.md, ibm-style-guide.md, nyt-manual-of-style.md).** The guide puts punctuation outside quotation marks around anything that isn't part of the quotation. Hart's Rules and IBM do the same only for quoted code. The skill puts literals in code formatting (section 4), and writing-style section 8 keeps the American placement for prose, so the guide's rule never applies.
 

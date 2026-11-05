@@ -1,0 +1,1869 @@
+- source: nyt
+  page: 301
+  entry: meager
+  kind: substitution
+  wrong: meagre
+  right: meager
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: American spelling meager.
+- source: nyt
+  page: 301
+  entry: meanwhile
+  kind: existence
+  wrong: Meanwhile,
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Too abrupt a transition; state the actual relationship of events instead.
+- source: nyt
+  page: 301
+  entry: meanwhile
+  kind: existence
+  wrong: In another development
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Skimpy transition; say how the events relate.
+- source: nyt
+  page: 301
+  entry: mean-
+  kind: substitution
+  wrong: mean-spirited
+  right: meanspirited
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Compounds with mean are solid.
+- source: nyt
+  page: 301
+  entry: medals
+  kind: substitution
+  wrong: Congressional Medal of Honor
+  right: Medal of Honor
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: The word Congressional is not part of the name.
+- source: nyt
+  page: 301
+  entry: medevac
+  kind: substitution
+  wrong: medevaced
+  right: medevacked
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Verb forms are medevacked and medevacking.
+- source: nyt
+  page: 301
+  entry: medevac
+  kind: substitution
+  wrong: medevacing
+  right: medevacking
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Verb forms are medevacked and medevacking.
+- source: nyt
+  page: 303
+  entry: memorandums
+  kind: substitution
+  wrong: memoranda
+  right: memorandums
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Plural is memorandums.
+- source: nyt
+  page: 303
+  entry: men and women
+  kind: existence
+  wrong: spokespersons?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Prefer spokesman or spokeswoman, or press officers for a mixed group.
+- source: nyt
+  page: 304
+  entry: men and women
+  kind: existence
+  wrong: four-person
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use a gender-neutral form like four-member rather than four-person.
+- source: nyt
+  page: 304
+  entry: men and women
+  kind: substitution
+  wrong: male nurses?
+  right: nurse
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Avoid sex modifiers on occupational terms.
+- source: nyt
+  page: 304
+  entry: men and women
+  kind: substitution
+  wrong: (?:women|female) judges
+  right: judges
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Avoid sex modifiers on occupational terms.
+- source: nyt
+  page: 304
+  entry: men and women
+  kind: existence
+  wrong: divorc[ée]e?s?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use divorced man or divorced woman instead.
+- source: nyt
+  page: 305
+  entry: men and women
+  kind: substitution
+  wrong: mailman
+  right: letter carrier
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use a neutral job title.
+- source: nyt
+  page: 305
+  entry: men and women
+  kind: substitution
+  wrong: mailmen
+  right: letter carriers
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use a neutral job title.
+- source: nyt
+  page: 305
+  entry: men and women
+  kind: substitution
+  wrong: policeman|policewoman
+  right: police officer
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Police officer is preferred.
+- source: nyt
+  page: 305
+  entry: men and women
+  kind: substitution
+  wrong: policemen|policewomen
+  right: police officers
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Police officer is preferred.
+- source: nyt
+  page: 305
+  entry: men and women
+  kind: existence
+  wrong: comedienne|executrix|sculptress
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Avoid grafted feminine endings; use comedian, executor, sculptor.
+- source: nyt
+  page: 305
+  entry: men and women
+  kind: existence
+  wrong: waitron|waitperson|waitstaff
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use waiter, waitress or server instead.
+- source: nyt
+  page: 305
+  entry: men and women
+  kind: existence
+  wrong: women's liberation
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Outdated outside historical reference.
+- source: nyt
+  page: 305
+  entry: mental hospital
+  kind: substitution
+  wrong: insane asylum
+  right: mental hospital
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Outdated term.
+- source: nyt
+  page: 307
+  entry: microchip
+  kind: substitution
+  wrong: microchip
+  right: chip
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use chip.
+- source: nyt
+  page: 307
+  entry: mid-
+  kind: existence
+  wrong: mid-(?:afternoon|air|channel|continent|day|field|land|life|morning|night|point|ocean|section|ship|size|stream|summer|way|week)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Mid compounds are solid except before a proper noun or number.
+- source: nyt
+  page: 309
+  entry: mike
+  kind: substitution
+  wrong: mic
+  right: mike
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use mike for informal reference to a microphone.
+- source: nyt
+  page: 309
+  entry: militant
+  kind: substitution
+  wrong: militance
+  right: militancy
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: The noun is militancy.
+- source: nyt
+  page: 310
+  entry: mill
+  kind: existence
+  wrong: (?:coffee|flour|paper|pepper|textile|diploma)mill
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Suffix mill compounds usually two words.
+- source: nyt
+  page: 310
+  entry: mini-
+  kind: existence
+  wrong: mini-(?:bike|bus|computer|skirt|van)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Most mini compounds are solid.
+- source: nyt
+  page: 310
+  entry: mind-set
+  kind: substitution
+  wrong: mindset
+  right: mind-set
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated.
+- source: nyt
+  page: 311
+  entry: minuscule
+  kind: substitution
+  wrong: miniscule
+  right: minuscule
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Spelled minuscule.
+- source: nyt
+  page: 311
+  entry: mini-series
+  kind: substitution
+  wrong: miniseries
+  right: mini-series
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated in this guide.
+- source: nyt
+  page: 312
+  entry: mix-up
+  kind: substitution
+  wrong: mixup
+  right: mix-up
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Noun is hyphenated.
+- source: nyt
+  page: 313
+  entry: moneyed
+  kind: substitution
+  wrong: monied
+  right: moneyed
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Spelled moneyed.
+- source: nyt
+  page: 313
+  entry: moneys
+  kind: substitution
+  wrong: moneys|monies
+  right: money
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Plural of money is stilted; use money or funds.
+- source: nyt
+  page: 313
+  entry: -monger
+  kind: existence
+  wrong: (?:fish|rumor|scandal|war)[ -]monger
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Monger compounds are one word.
+- source: nyt
+  page: 314
+  entry: monthlong
+  kind: substitution
+  wrong: month-long
+  right: monthlong
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: nyt
+  page: 314
+  entry: months
+  kind: existence
+  wrong: (?:August|September|October|November|December|January|February) \d{1,2}\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Abbreviate these months when followed by a numeral, but not March through July.
+- source: nyt
+  page: 314
+  entry: months
+  kind: substitution
+  wrong: Sep\.
+  right: Sept.
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: September abbreviates to Sept.
+- source: nyt
+  page: 314
+  entry: months
+  kind: existence
+  wrong: (?:Mar|Apr|Jun|Jul)\. \d
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not abbreviate March, April, June or July in text.
+- source: nyt
+  page: 314
+  entry: Moonies
+  kind: existence
+  wrong: Moonies
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Disparaging; avoid.
+- source: nyt
+  page: 315
+  entry: more importantly
+  kind: substitution
+  wrong: more importantly
+  right: more important
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Write more important.
+- source: nyt
+  page: 315
+  entry: Moslem
+  kind: substitution
+  wrong: Moslem
+  right: Muslim
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use Muslim.
+- source: nyt
+  page: 315
+  entry: mortician
+  kind: substitution
+  wrong: mortician
+  right: funeral director
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use funeral director or undertaker.
+- source: nyt
+  page: 318
+  entry: Muhammad
+  kind: substitution
+  wrong: Mohammed|Mohammad|Muhammed
+  right: Muhammad
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use Muhammad unless a person prefers otherwise.
+- source: nyt
+  page: 318
+  entry: multi-
+  kind: existence
+  wrong: multi-(?:colored|cultural|dimensional|ethnic|faceted|fold|form|lateral|level|media|millionaire|national|purpose|racial|speed|tasking)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Multi compounds are solid unless another i follows.
+- source: nyt
+  page: 319
+  entry: mustache
+  kind: substitution
+  wrong: moustache
+  right: mustache
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: American spelling.
+- source: nyt
+  page: 321
+  entry: N.A.A.C.P.
+  kind: substitution
+  wrong: NAACP
+  right: N.A.A.C.P.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Periods in this abbreviation.
+- source: nyt
+  page: 322
+  entry: Nafta
+  kind: casing
+  wrong: NAFTA
+  right: Nafta
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Acronym styled as a word.
+- source: nyt
+  page: 322
+  entry: Nascar
+  kind: casing
+  wrong: NASCAR
+  right: Nascar
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Acronym styled as a word.
+- source: nyt
+  page: 322
+  entry: Nasdaq
+  kind: casing
+  wrong: NASDAQ
+  right: Nasdaq
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Styled as a word.
+- source: nyt
+  page: 323
+  entry: N.I.H.
+  kind: substitution
+  wrong: NIH
+  right: N.I.H.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Periods in this abbreviation in later references.
+- source: nyt
+  page: 324
+  entry: N.S.C.
+  kind: substitution
+  wrong: NSC
+  right: N.S.C.
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Periods when abbreviated, sparingly.
+- source: nyt
+  page: 325
+  entry: natural parents
+  kind: substitution
+  wrong: natural parents
+  right: biological parents
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Avoids implying adoptive parents are unnatural.
+- source: nyt
+  page: 325
+  entry: nauseous
+  kind: existence
+  wrong: (?:feel|feels|felt|feeling|am|is|are|was|were) nauseous
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: People feel nauseated, not nauseous.
+- source: nyt
+  page: 327
+  entry: N.B.A.
+  kind: substitution
+  wrong: NBA
+  right: N.B.A.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Periods in this abbreviation.
+- source: nyt
+  page: 328
+  entry: N.C.A.A.
+  kind: substitution
+  wrong: NCAA
+  right: N.C.A.A.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Periods in this abbreviation.
+- source: nyt
+  page: 328
+  entry: near East
+  kind: existence
+  wrong: Near East
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not use; say Middle East.
+- source: nyt
+  page: 328
+  entry: N.C.O.
+  kind: existence
+  wrong: N\.C\.O\.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write NCO without periods.
+- source: nyt
+  page: 329
+  entry: Neiman Marcus
+  kind: substitution
+  wrong: Neiman-Marcus
+  right: Neiman Marcus
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen in the name.
+- source: nyt
+  page: 329
+  entry: nerve-racking
+  kind: substitution
+  wrong: nerve-wracking|nerve wracking|nerve-wrecking
+  right: nerve-racking
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Spelled racking.
+- source: nyt
+  page: 329
+  entry: neo-Classical
+  kind: casing
+  wrong: Neo-Classical
+  right: neo-Classical
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Lowercase neo; could start a sentence.
+- source: nyt
+  page: 329
+  entry: neo-Gothic
+  kind: casing
+  wrong: Neo-Gothic
+  right: neo-Gothic
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Lowercase neo; could start a sentence.
+- source: nyt
+  page: 332
+  entry: newspaper names
+  kind: existence
+  wrong: (?:The )?London Times
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Say The Times of London.
+- source: nyt
+  page: 332
+  entry: newspaper names
+  kind: existence
+  wrong: The Guardian newspaper
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not append newspaper to a title.
+- source: nyt
+  page: 331
+  entry: news(-)
+  kind: existence
+  wrong: news[ -](?:room|stand|worthy|magazine|print)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: These news compounds are solid.
+- source: nyt
+  page: 331
+  entry: newspaperman
+  kind: substitution
+  wrong: newsperson
+  right: newspeople
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Newspeople accepted; newsperson sounds contrived.
+- source: nyt
+  page: 333
+  entry: New York Botanical Garden
+  kind: substitution
+  wrong: New York Botanical Gardens
+  right: New York Botanical Garden
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Singular Garden.
+- source: nyt
+  page: 335
+  entry: New York Fire Department
+  kind: substitution
+  wrong: firemen|firewomen
+  right: firefighters
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use firefighters.
+- source: nyt
+  page: 335
+  entry: New York Fire Department
+  kind: existence
+  wrong: F\.?D\.?N\.?Y\.?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid except in direct quotations; write Fire Department.
+- source: nyt
+  page: 335
+  entry: New York Police Department
+  kind: existence
+  wrong: N\.?Y\.?P\.?D\.?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid except in direct quotations; write Police Department.
+- source: nyt
+  page: 340
+  entry: N.F.L.
+  kind: substitution
+  wrong: NFL
+  right: N.F.L.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Periods in this abbreviation.
+- source: nyt
+  page: 340
+  entry: N.L.R.B.
+  kind: substitution
+  wrong: NLRB
+  right: N.L.R.B.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Periods in this abbreviation.
+- source: nyt
+  page: 340
+  entry: night(-)
+  kind: existence
+  wrong: night[ -](?:club|cap|clothes|dress|fall|gown|long|mare|time)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Most night compounds listed are one word.
+- source: nyt
+  page: 340
+  entry: PIN
+  kind: substitution
+  wrong: PIN number
+  right: PIN
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Redundant; PIN includes number.
+- source: nyt
+  page: 340
+  entry: N.Y.U.
+  kind: substitution
+  wrong: NYU
+  right: N.Y.U.
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Periods, except the NYU Langone name.
+- source: nyt
+  page: 341
+  entry: Nobel Prize
+  kind: casing
+  wrong: Nobel prize
+  right: Nobel Prize
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize Prize.
+- source: nyt
+  page: 341
+  entry: Nobel Prize
+  kind: casing
+  wrong: Nobel peace prize|Nobel Peace prize
+  right: Nobel Peace Prize
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize Peace Prize.
+- source: nyt
+  page: 341
+  entry: non(-)
+  kind: existence
+  wrong: non-(?=[a-z])
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Close up non compounds unless an uppercase letter follows; exceptions exist.
+- source: nyt
+  page: 341
+  entry: non sequitur
+  kind: substitution
+  wrong: non-sequitur
+  right: non sequitur
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words, never hyphenated.
+- source: nyt
+  page: 342
+  entry: nonetheless
+  kind: substitution
+  wrong: none the less|none-the-less
+  right: nonetheless
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: nyt
+  page: 342
+  entry: nonprofit
+  kind: substitution
+  wrong: not-for-profit
+  right: nonprofit
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Nonprofit is more natural.
+- source: nyt
+  page: 342
+  entry: nonprofit
+  kind: substitution
+  wrong: non-profit
+  right: nonprofit
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Closed compound.
+- source: nyt
+  page: 344
+  entry: not-for-profit
+  kind: substitution
+  wrong: not for profit
+  right: nonprofit
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use nonprofit.
+- source: nyt
+  page: 344
+  entry: notwithstanding
+  kind: substitution
+  wrong: not withstanding
+  right: notwithstanding
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: nyt
+  page: 345
+  entry: Nov.
+  kind: existence
+  wrong: Nov(?!\.|ember)\b(?= \d)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Abbreviate November as Nov. before numerals.
+- source: nyt
+  page: 345
+  entry: now
+  kind: existence
+  wrong: the now (?:famous|defunct)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use now famous or now defunct after the noun.
+- source: nyt
+  page: 347
+  entry: numbers
+  kind: existence
+  wrong: \b(?:ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty) (?:people|miles|years|days|items|cases|inches|feet)\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use figures for numbers above nine in ordinary copy.
+- source: nyt
+  page: 348
+  entry: numbers
+  kind: existence
+  wrong: \$\d+(?:\.\d+)? to \$\d+(?:\.\d+)? (?:million|billion|trillion)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Repeat million or billion in a range: $5 billion to $15 billion.'
+- source: nyt
+  page: 348
+  entry: numbers
+  kind: existence
+  wrong: \b\d+-\d+ (?:vote|ruling)\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Ordinary copy uses to: a 5-to-4 ruling; hyphen form is for headlines.'
+- source: nyt
+  page: 348
+  entry: numbers
+  kind: substitution
+  wrong: \b2d\b
+  right: 2nd
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Ordinals use nd.
+- source: nyt
+  page: 348
+  entry: numbers
+  kind: substitution
+  wrong: \b3d\b
+  right: 3rd
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Ordinals use rd.
+- source: nyt
+  page: 350
+  entry: numbers in names
+  kind: substitution
+  wrong: ', Jr\.'
+  right: ' Jr.'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No comma before Jr.
+- source: nyt
+  page: 350
+  entry: numbers in names
+  kind: substitution
+  wrong: ', Sr\.'
+  right: ' Sr.'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No comma before Sr.
+- source: nyt
+  page: 351
+  entry: numbers, round
+  kind: existence
+  wrong: quadrillion|quintillion
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Express in millions or billions instead.
+- source: nyt
+  page: 353
+  entry: obituaries
+  kind: existence
+  wrong: There are no survivors
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write that no immediate family members survive.
+- source: nyt
+  page: 358
+  entry: observer
+  kind: existence
+  wrong: observers?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Often masks reporter; use a more specific term unless an official designation.
+- source: nyt
+  page: 358
+  entry: octopus
+  kind: substitution
+  wrong: octopi
+  right: octopuses
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Plural is octopuses.
+- source: nyt
+  page: 358
+  entry: of
+  kind: existence
+  wrong: '(?:so|too|as|how|that) (?:big|sweet|good|long|small|large|bad|great|short|tall) of an? '
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Omit of after the modifier before a or an.
+- source: nyt
+  page: 360
+  entry: O. Henry
+  kind: substitution
+  wrong: O'Henry|O' Henry
+  right: O. Henry
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Pen name has a period and space.
+- source: nyt
+  page: 360
+  entry: O.K.
+  kind: substitution
+  wrong: okay
+  right: O.K.
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use O.K. in features and informal contexts.
+- source: nyt
+  page: 361
+  entry: one person one vote
+  kind: existence
+  wrong: one man,? one vote
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Avoid; use one person one vote.
+- source: nyt
+  page: 362
+  entry: ongoing
+  kind: existence
+  wrong: ongoing
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Bureaucratic; delete or use continuing, developing.
+- source: nyt
+  page: 362
+  entry: on line
+  kind: existence
+  wrong: (?:wait|waited|waiting|stand|stood|standing) on line
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use in line outside New York idiom.
+- source: nyt
+  page: 362
+  entry: online
+  kind: substitution
+  wrong: on-line
+  right: online
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Solid compound.
+- source: nyt
+  page: 364
+  entry: oriental
+  kind: existence
+  wrong: Oriental(?! rug)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Outdated geographic term; use Asian or more specific.
+- source: nyt
+  page: 364
+  entry: orthodontics
+  kind: substitution
+  wrong: orthodontia
+  right: orthodontics
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use orthodontics.
+- source: nyt
+  page: 364
+  entry: out(-)
+  kind: existence
+  wrong: out-(?:dated|patient|spoken|door|field|going|grow|run|score|back|bid|class|climb|cry|board|bound)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Out prefix compounds are solid.
+- source: nyt
+  page: 364
+  entry: outage
+  kind: existence
+  wrong: outage
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Jargon and euphemism; use failure, shutdown or cutoff.
+- source: nyt
+  page: 364
+  entry: outbox, inbox
+  kind: substitution
+  wrong: in-box
+  right: inbox
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: nyt
+  page: 364
+  entry: outbox, inbox
+  kind: substitution
+  wrong: out-box
+  right: outbox
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: nyt
+  page: 365
+  entry: outer boroughs
+  kind: existence
+  wrong: outer boroughs?
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Manhattan-centric; name the boroughs instead.
+- source: nyt
+  page: 365
+  entry: over(-)
+  kind: existence
+  wrong: over-(?:abundant|act|arching|bearing|charge|compensate|crowd|dose|draft|drive|expand|extend|indulgence|production|prompt|reach|react|ripe|sensitive|time)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Over prefix compounds are solid.
+- source: nyt
+  page: 369
+  entry: parenting
+  kind: existence
+  wrong: parenting
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Can sound like social-work jargon.
+- source: nyt
+  page: 370
+  entry: parley
+  kind: existence
+  wrong: parley
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Stilted; use talks, meeting or conference.
+- source: nyt
+  page: 368
+  entry: paneled
+  kind: substitution
+  wrong: panelled
+  right: paneled
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: American spelling.
+- source: nyt
+  page: 368
+  entry: paralleled
+  kind: substitution
+  wrong: parallelled
+  right: paralleled
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Single l.
+- source: nyt
+  page: 368
+  entry: paralleling
+  kind: substitution
+  wrong: parallelling
+  right: paralleling
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Single l.
+- source: nyt
+  page: 370
+  entry: parimutuel
+  kind: substitution
+  wrong: pari-mutuel
+  right: parimutuel
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: nyt
+  page: 371
+  entry: partially
+  kind: substitution
+  wrong: partially
+  right: partly
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: To mean in part, partly is shorter.
+- source: nyt
+  page: 373
+  entry: party
+  kind: existence
+  wrong: throw(?:s|n|ing)? a party|threw a party
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Thrown is trite; use give, hold or host.
+- source: nyt
+  page: 373
+  entry: passer(s)-by
+  kind: substitution
+  wrong: passerby
+  right: passer-by
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated; plural passers-by.
+- source: nyt
+  page: 375
+  entry: PDF
+  kind: existence
+  wrong: \(PDF\)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Put (PDF) in link tooltip, not body text.
+- source: nyt
+  page: 377
+  entry: people of color
+  kind: existence
+  wrong: people of color
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Too self-conscious; name specific groups.
+- source: nyt
+  page: 378
+  entry: percent
+  kind: substitution
+  wrong: per cent
+  right: percent
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: nyt
+  page: 378
+  entry: percent
+  kind: substitution
+  wrong: \bpct\b
+  right: percent
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not abbreviate to pct.
+- source: nyt
+  page: 378
+  entry: percent
+  kind: substitution
+  wrong: (?<=\d)\s?%
+  right: ' percent'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Spell out percent in text; % only in headlines, tables, charts.
+- source: nyt
+  page: 380
+  entry: personal names
+  kind: existence
+  wrong: Wm\.|Thos\.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not abbreviate given names.
+- source: nyt
+  page: 380
+  entry: personal names
+  kind: existence
+  wrong: \b(?:J\.F\.K\.|L\.B\.J\.|F\.D\.R\.)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use famous initials as name substitutes.
+- source: nyt
+  page: 382
+  entry: persuade
+  kind: existence
+  wrong: convinced? \w+ to\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Convince takes of or that; use persuade with to.
+- source: nyt
+  page: 381
+  entry: petty larceny
+  kind: substitution
+  wrong: petit larceny
+  right: petty larceny
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Petit only in quotations.
+- source: nyt
+  page: 382
+  entry: Ph.D.
+  kind: substitution
+  wrong: PhD
+  right: Ph.D.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Periods in this abbreviation.
+- source: nyt
+  page: 382
+  entry: phony
+  kind: existence
+  wrong: phony
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Colloquial; use counterfeit, fake or sham.
+- source: nyt
+  page: 382
+  entry: physician assistant
+  kind: substitution
+  wrong: physician's assistant
+  right: physician assistant
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No possessive.
+- source: nyt
+  page: 382
+  entry: picnicking
+  kind: substitution
+  wrong: picnicing
+  right: picnicking
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Add k.
+- source: nyt
+  page: 383
+  entry: Ping-Pong
+  kind: substitution
+  wrong: Ping-Pong|Ping Pong
+  right: table tennis
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Trademark; use generic table tennis.
+- source: nyt
+  page: 383
+  entry: pixelated
+  kind: substitution
+  wrong: pixilated
+  right: pixelated
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Pixelated means blurred pixels; pixilated means fairy-enchanted.
+- source: nyt
+  page: 384
+  entry: plead
+  kind: substitution
+  wrong: \bpled\b
+  right: pleaded
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Past tense is pleaded.
+- source: nyt
+  page: 384
+  entry: plow
+  kind: substitution
+  wrong: plough
+  right: plow
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: American spelling.
+- source: nyt
+  page: 384
+  entry: plow
+  kind: substitution
+  wrong: ploughed
+  right: plowed
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: American spelling.
+- source: nyt
+  page: 384
+  entry: plow
+  kind: substitution
+  wrong: ploughing
+  right: plowing
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: American spelling.
+- source: nyt
+  page: 386
+  entry: p.m.
+  kind: substitution
+  wrong: (?<=\d )(?:PM|pm|P\.M\.)
+  right: p.m.
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Lowercase with periods.
+- source: nyt
+  page: 386
+  entry: p.m.
+  kind: substitution
+  wrong: (?<=\d)(?:PM|pm)
+  right: ' p.m.'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Lowercase with periods and a space.
+- source: nyt
+  page: 386
+  entry: p.m.
+  kind: existence
+  wrong: \b\d{1,2}:00 [ap]\.m\.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write 10 p.m., never 10:00.
+- source: nyt
+  page: 385
+  entry: plurals
+  kind: existence
+  wrong: \b\d{4}'s\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: No apostrophe in decade plurals like 1990s.
+- source: nyt
+  page: 385
+  entry: plurals
+  kind: existence
+  wrong: \b(?:TV|PC|DVD|CD|PDF)'s\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: No apostrophe in plurals of abbreviations; may be a possessive.
+- source: nyt
+  page: 389
+  entry: pollster
+  kind: substitution
+  wrong: poll takers?
+  right: pollster
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use pollster.
+- source: nyt
+  page: 390
+  entry: porn
+  kind: existence
+  wrong: porno\b|smut\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Dated terms; avoid.
+- source: nyt
+  page: 390
+  entry: posh words
+  kind: existence
+  wrong: \b(?:chichi|glitz|glitzy|posh|swank|swanky|tony)\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Trite or dated; use concrete detail.
+- source: nyt
+  page: 391
+  entry: post(-)
+  kind: existence
+  wrong: post-(?:card|date|doctoral|graduate|industrial|man|mark|master|paid|script|war)\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Most post compounds are solid.
+- source: nyt
+  page: 391
+  entry: poundcake
+  kind: substitution
+  wrong: pound cake
+  right: poundcake
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: nyt
+  page: 393
+  entry: pre(-)
+  kind: existence
+  wrong: pre-(?:adolescent|amplifier|cancerous|concert|condition|convention|date|decease|destination|determined|fabricated|flight|game|heat|historic|judge|marital|natal|nuptial|package|paid|release|school|shrink|tax|test|trial|view|war)\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Close up pre compounds unless followed by e or a capital.
+- source: nyt
+  page: 394
+  entry: pre-existing
+  kind: substitution
+  wrong: pre-?existing
+  right: existing
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Long way of saying existing.
+- source: nyt
+  page: 394
+  entry: preferences
+  kind: existence
+  wrong: reverse discrimination
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Polemical term; avoid.
+- source: nyt
+  page: 394
+  entry: premiere
+  kind: existence
+  wrong: premiered
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Premiere as a verb is jargon.
+- source: nyt
+  page: 394
+  entry: missing prepositions
+  kind: existence
+  wrong: wait(?:s|ed|ing)? tables|graduat(?:e|ed|es|ing) college
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Dialect; use wait on tables, graduate from college.
+- source: nyt
+  page: 394
+  entry: prerecorded
+  kind: substitution
+  wrong: prerecorded
+  right: recorded
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Recorded alone does the job.
+- source: nyt
+  page: 395
+  entry: Presidents' Day
+  kind: substitution
+  wrong: President's Day|Presidents Day
+  right: Presidents' Day
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Plural possessive apostrophe.
+- source: nyt
+  page: 395
+  entry: preventive
+  kind: substitution
+  wrong: preventative
+  right: preventive
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use preventive outside quotations.
+- source: nyt
+  page: 396
+  entry: prima facie
+  kind: substitution
+  wrong: prima-facie
+  right: prima facie
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Never hyphenated.
+- source: nyt
+  page: 396
+  entry: prior to
+  kind: substitution
+  wrong: prior to
+  right: before
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Stilted; use before.
+- source: nyt
+  page: 396
+  entry: prix fixe
+  kind: substitution
+  wrong: prix-fixe
+  right: prix fixe
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: nyt
+  page: 396
+  entry: prix fixe
+  kind: substitution
+  wrong: prix fixed|prix-fixed
+  right: prix fixe
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Never fixed.
+- source: nyt
+  page: 397
+  entry: pro(-)
+  kind: existence
+  wrong: pro-(?:bono|forma|rata|tem)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Latin pro terms are two words.
+- source: nyt
+  page: 397
+  entry: pro(-)
+  kind: substitution
+  wrong: pro-active
+  right: proactive
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Solid compound.
+- source: nyt
+  page: 398
+  entry: pro-choice
+  kind: existence
+  wrong: pro-choice|pro-life
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Polemical; avoid outside quotations.
+- source: nyt
+  page: 398
+  entry: probe
+  kind: existence
+  wrong: \bprobe(?:s|d)?\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use as a synonym for inquiry or investigate.
+- source: nyt
+  page: 398
+  entry: programmed
+  kind: substitution
+  wrong: programed
+  right: programmed
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Double m.
+- source: nyt
+  page: 398
+  entry: programmed
+  kind: substitution
+  wrong: programer
+  right: programmer
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Double m.
+- source: nyt
+  page: 398
+  entry: programmed
+  kind: substitution
+  wrong: programing
+  right: programming
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Double m.
+- source: nyt
+  page: 399
+  entry: propeller
+  kind: substitution
+  wrong: propellor
+  right: propeller
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Spelled propeller.
+- source: nyt
+  page: 400
+  entry: provided
+  kind: existence
+  wrong: providing (?:that )?(?:he|she|they|it|we|you|I)\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use provided, not providing, to mean if.
+- source: nyt
+  page: 400
+  entry: PTA
+  kind: substitution
+  wrong: P\.T\.A\.
+  right: PTA
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No periods.
+- source: nyt
+  page: 400
+  entry: pizzazz
+  kind: substitution
+  wrong: pizazz|pizzaz|pazazz
+  right: pizzazz
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Double z twice.
+- source: nyt
+  page: 376
+  entry: pennywhistle
+  kind: substitution
+  wrong: penny whistle|penny-whistle
+  right: pennywhistle
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: nyt
+  page: 377
+  entry: Pentecostal
+  kind: substitution
+  wrong: Pentacostal
+  right: Pentecostal
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Spelled Pentecostal.
+- source: nyt
+  page: 379
+  entry: periodontics
+  kind: substitution
+  wrong: periodontia
+  right: periodontics
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use periodontics.
+- source: nyt
+  page: 379
+  entry: permanent representative
+  kind: existence
+  wrong: permanent representatives?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use delegate or representative.

@@ -1,0 +1,1749 @@
+- source: nyt
+  page: 101
+  entry: "clergy"
+  kind: existence
+  wrong: "(?:two|three|four|five|six|seven|eight|nine|ten|many|several) clergy(?=\\s*(?:[.,;]|and\\b|or\\b|were\\b|are\\b|who\\b))"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Clergy is collective; count individuals as clergy members or clergymen."
+- source: nyt
+  page: 101
+  entry: "climax"
+  kind: existence
+  wrong: "climax(?:ed|ing)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Climax as a verb is journalese; keep it a noun."
+- source: nyt
+  page: 102
+  entry: "co- verbs"
+  kind: existence
+  wrong: "co-(?:write|wrote|written|writing|authored|authoring)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Verbs coined with co- sound contrived; rephrase with 'with'."
+- source: nyt
+  page: 104
+  entry: "co-chair"
+  kind: substitution
+  wrong: "co-chair"
+  right: "co-chairman"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use co-chairman or co-chairwoman; co-leader works for general references."
+- source: nyt
+  page: 105
+  entry: "coffee klatch"
+  kind: substitution
+  wrong: "coffee klat(?:s)?ch"
+  right: "kaffeeklatsch"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled kaffeeklatsch, one word."
+- source: nyt
+  page: 105
+  entry: "casket"
+  kind: substitution
+  wrong: "casket"
+  right: "coffin"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Coffin preferred over the euphemistic casket."
+- source: nyt
+  page: 106
+  entry: "SAT"
+  kind: existence
+  wrong: "Scholastic (?:Aptitude|Assessment) Test"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "SAT no longer abbreviates any test name."
+- source: nyt
+  page: 107
+  entry: "collide"
+  kind: existence
+  wrong: "collided with"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "If it seems to assign blame, write that two vehicles collided."
+- source: nyt
+  page: 108
+  entry: "Columbus Day"
+  kind: casing
+  wrong: "Columbus day"
+  right: "Columbus Day"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize Day in the holiday name."
+- source: nyt
+  page: 108
+  entry: "colorblind"
+  kind: substitution
+  wrong: "color[- ]blind"
+  right: "colorblind"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 108
+  entry: "colored"
+  kind: existence
+  wrong: "colored (?:people|person|man|men|woman|women)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Offensive in most US racial contexts outside proper names."
+- source: nyt
+  page: 108
+  entry: "comedian"
+  kind: substitution
+  wrong: "comedienne"
+  right: "comedian"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Comedian suits men and women."
+- source: nyt
+  page: 108
+  entry: "comedian"
+  kind: substitution
+  wrong: "comediennes"
+  right: "comedians"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Comedian suits men and women."
+- source: nyt
+  page: 109
+  entry: "comma"
+  kind: existence
+  wrong: "[A-Za-z]+, [A-Za-z]+, (?:and|or)"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "No comma before and or or in a simple series."
+- source: nyt
+  page: 110
+  entry: "Jr., Sr."
+  kind: substitution
+  wrong: "(?<=[A-Za-z]), (?=(?:Jr|Sr)\\.)"
+  right: " "
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "No comma before Jr. or Sr. in names."
+- source: nyt
+  page: 110
+  entry: "dates"
+  kind: existence
+  wrong: "(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan\\.|Feb\\.|Aug\\.|Sept\\.|Oct\\.|Nov\\.|Dec\\.), (?:1[0-9]{3}|20[0-9]{2})"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "No comma between month and year when the day is omitted."
+- source: nyt
+  page: 111
+  entry: "commander in chief"
+  kind: substitution
+  wrong: "commander-in-chief"
+  right: "commander in chief"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Lowercase and unhyphenated."
+- source: nyt
+  page: 111
+  entry: "commanding general"
+  kind: existence
+  wrong: "commanding (?:general|officer)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Redundant; use commander."
+- source: nyt
+  page: 113
+  entry: "community"
+  kind: existence
+  wrong: "the (?:real estate|health care|healthcare) community"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Avoid overly broad community labels."
+- source: nyt
+  page: 113
+  entry: "companion"
+  kind: existence
+  wrong: "longtime companion"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "A euphemism turned cliche; be specific."
+- source: nyt
+  page: 113
+  entry: "company names"
+  kind: substitution
+  wrong: "Wal-Mart"
+  right: "Walmart"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use the name more familiar to readers."
+- source: nyt
+  page: 114
+  entry: "company names"
+  kind: substitution
+  wrong: "(?<=[A-Za-z]), (?=(?:Inc|Ltd)\\.)"
+  right: " "
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Do not set Inc. or Ltd. off with commas."
+- source: nyt
+  page: 114
+  entry: "company names"
+  kind: substitution
+  wrong: "Wieden \\+ Kennedy"
+  right: "Wieden & Kennedy"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Replace plus signs in firm names with an ampersand."
+- source: nyt
+  page: 115
+  entry: "comparisons"
+  kind: existence
+  wrong: "(?:times|time) (?:larger|taller|smaller|bigger|longer|shorter|faster|slower|heavier|higher|lower)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use 'times as large'; 'times smaller' is not meaningful."
+- source: nyt
+  page: 115
+  entry: "complimentary"
+  kind: substitution
+  wrong: "complimentary(?= (?:tickets?|copy|copies|drinks?|breakfast|gifts?|admission|shipping|samples?))"
+  right: "free"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Journalism favors free over complimentary."
+- source: nyt
+  page: 115
+  entry: "comprise"
+  kind: substitution
+  wrong: "comprised of"
+  right: "composed of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not write comprised of."
+- source: nyt
+  page: 116
+  entry: "concentration camps"
+  kind: existence
+  wrong: "Polish (?:concentration|death) camps?"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Ambiguous phrase can imply Poland ran the camps."
+- source: nyt
+  page: 117
+  entry: "confined"
+  kind: existence
+  wrong: "confined to (?:a |his |her |their )?(?:wheelchair|bed)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Say uses a wheelchair or is bedridden instead."
+- source: nyt
+  page: 117
+  entry: "confined"
+  kind: existence
+  wrong: "wheelchair[- ]bound"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Say uses a wheelchair."
+- source: nyt
+  page: 118
+  entry: "consensus"
+  kind: substitution
+  wrong: "consensus of opinion|general consensus"
+  right: "consensus"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Redundant."
+- source: nyt
+  page: 120
+  entry: "contractions"
+  kind: existence
+  wrong: "(?:is|has|have|do|does|did|are|was|were|had|would|could|should)n[’']t|won[’']t|can[’']t"
+  domain: grammar
+  fix: none
+  american: true
+  context: news
+  note: "Spell out contractions in straightforward news copy."
+- source: nyt
+  page: 121
+  entry: "convince"
+  kind: existence
+  wrong: "convinc(?:e|es|ed|ing) (?:him|her|them|me|us|you|the \\w+|my \\w+) to"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Convince takes of or that; use persuade before to."
+- source: nyt
+  page: 121
+  entry: "Coordinated Universal Time"
+  kind: substitution
+  wrong: "Greenwich Mean Time"
+  right: "Coordinated Universal Time"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "UTC replaced GMT as the world standard."
+- source: nyt
+  page: 121
+  entry: "Coordinated Universal Time"
+  kind: substitution
+  wrong: "UTC"
+  right: "U.T.C."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 124
+  entry: "cosmonaut"
+  kind: substitution
+  wrong: "cosmonauts?"
+  right: "astronaut"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use astronaut except in translated texts or quotations."
+- source: nyt
+  page: 125
+  entry: "cost of living"
+  kind: substitution
+  wrong: "cost of living(?= (?:adjustment|increase|index|allowance|raise|crisis))"
+  right: "cost-of-living"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate only when it modifies a following noun."
+- source: nyt
+  page: 126
+  entry: "couple"
+  kind: substitution
+  wrong: "a couple(?= (?!of\\b|is\\b|has\\b|was\\b|does\\b|as\\b)[a-z]+s\\b)"
+  right: "a couple of"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Colloquial couple takes of."
+- source: nyt
+  page: 128
+  entry: "courthouse"
+  kind: substitution
+  wrong: "court house"
+  right: "courthouse"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word, except the Foley Square name."
+- source: nyt
+  page: 128
+  entry: "court-martial"
+  kind: substitution
+  wrong: "court martial"
+  right: "court-martial"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: nyt
+  page: 129
+  entry: "courtroom"
+  kind: substitution
+  wrong: "court room"
+  right: "courtroom"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 130
+  entry: "C.P.A."
+  kind: substitution
+  wrong: "CPA"
+  right: "C.P.A."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 130
+  entry: "C.P.U."
+  kind: substitution
+  wrong: "CPU"
+  right: "C.P.U."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 134
+  entry: "crematory"
+  kind: substitution
+  wrong: "crematoria"
+  right: "crematories"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use crematoria."
+- source: nyt
+  page: 134
+  entry: "crematory"
+  kind: substitution
+  wrong: "crematoriums?"
+  right: "crematory"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Crematory preferred to crematorium."
+- source: nyt
+  page: 134
+  entry: "crew"
+  kind: existence
+  wrong: "(?:two|three|four|five|six|seven|eight|nine|ten|many|several) crew(?=\\s*(?:[.,;]|and\\b|or\\b|were\\b|are\\b|who\\b))"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Crew is collective; use crew members for individuals."
+- source: nyt
+  page: 134
+  entry: "cripple"
+  kind: existence
+  wrong: "cripple|crippled|cripples"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use for disabilities; describe the condition instead."
+- source: nyt
+  page: 135
+  entry: "crowdsourcing"
+  kind: substitution
+  wrong: "crowd[- ]sourcing"
+  right: "crowdsourcing"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word, no hyphen."
+- source: nyt
+  page: 135
+  entry: "C-Span"
+  kind: casing
+  wrong: "C-SPAN|CSPAN|C-span"
+  right: "C-Span"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Styled C-Span."
+- source: nyt
+  page: 136
+  entry: "curriculums"
+  kind: substitution
+  wrong: "curricula"
+  right: "curriculums"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Plural is curriculums."
+- source: nyt
+  page: 136
+  entry: "curriculum vitae"
+  kind: substitution
+  wrong: "curriculum vitae"
+  right: "résumé"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Too lofty for news copy."
+- source: nyt
+  page: 136
+  entry: "E. E. Cummings"
+  kind: casing
+  wrong: "e\\. ?e\\. ?cummings"
+  right: "E. E. Cummings"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Conventional capitalization outside his poetry."
+- source: nyt
+  page: 137
+  entry: "czar"
+  kind: substitution
+  wrong: "tsar"
+  right: "czar"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell czar."
+- source: nyt
+  page: 137
+  entry: "czar"
+  kind: substitution
+  wrong: "tsarist"
+  right: "czarist"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell czarist."
+- source: nyt
+  page: 137
+  entry: "Czechoslovakia"
+  kind: substitution
+  wrong: "Czechoslovakian"
+  right: "Czechoslovak"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "The adjective is Czechoslovak."
+- source: nyt
+  page: 139
+  entry: "Danzig"
+  kind: substitution
+  wrong: "Danzig"
+  right: "Gdansk"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use Polish spelling except in historical contexts."
+- source: nyt
+  page: 139
+  entry: "Dardanelles"
+  kind: substitution
+  wrong: "Dardanelles Strait"
+  right: "Dardanelles"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use the Dardanelles alone."
+- source: nyt
+  page: 139
+  entry: "damn it"
+  kind: substitution
+  wrong: "dammit"
+  right: "damn it"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: nyt
+  page: 139
+  entry: "D.A.R."
+  kind: substitution
+  wrong: "DAR"
+  right: "D.A.R."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 139
+  entry: "dash"
+  kind: substitution
+  wrong: "(?<=\\w)—(?=\\w)"
+  right: " — "
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Set off dashes with spaces in news style."
+- source: nyt
+  page: 147
+  entry: "dates"
+  kind: existence
+  wrong: "(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan\\.|Feb\\.|Aug\\.|Sept\\.|Oct\\.|Nov\\.|Dec\\.) \\d{1,2}(?:st|nd|rd|th)"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use a plain numeral for the day after a month."
+- source: nyt
+  page: 147
+  entry: "day care"
+  kind: substitution
+  wrong: "daycare|day-care"
+  right: "day care"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words, even as a modifier."
+- source: nyt
+  page: 147
+  entry: "daylight saving time"
+  kind: substitution
+  wrong: "daylight savings"
+  right: "daylight saving"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Saving, not savings."
+- source: nyt
+  page: 147
+  entry: "time zone abbreviations"
+  kind: substitution
+  wrong: "EDT"
+  right: "E.D.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time-zone abbreviations take periods."
+- source: nyt
+  page: 147
+  entry: "time zone abbreviations"
+  kind: substitution
+  wrong: "CDT"
+  right: "C.D.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time-zone abbreviations take periods."
+- source: nyt
+  page: 147
+  entry: "time zone abbreviations"
+  kind: substitution
+  wrong: "MDT"
+  right: "M.D.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time-zone abbreviations take periods."
+- source: nyt
+  page: 147
+  entry: "time zone abbreviations"
+  kind: substitution
+  wrong: "PDT"
+  right: "P.D.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time-zone abbreviations take periods."
+- source: nyt
+  page: 171
+  entry: "time zone abbreviations"
+  kind: substitution
+  wrong: "EST"
+  right: "E.S.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time-zone abbreviations take periods."
+- source: nyt
+  page: 148
+  entry: "D.C."
+  kind: substitution
+  wrong: "(?<=Washington, )DC"
+  right: "D.C."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 148
+  entry: "D.D.S."
+  kind: substitution
+  wrong: "DDS"
+  right: "D.D.S."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 149
+  entry: "deaf"
+  kind: existence
+  wrong: "deaf-mute|deaf and dumb"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use deaf-mute; give the extent of hearing loss."
+- source: nyt
+  page: 150
+  entry: "decades"
+  kind: existence
+  wrong: "\\b(?:1[5-9]|20)\\d0[’']s"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No apostrophe in decade plurals such as 1990s."
+- source: nyt
+  page: 150
+  entry: "decimate"
+  kind: existence
+  wrong: "decimat(?:e|es|ed|ing) (?:a |the )?(?:quarter|half|third|two-thirds|three-quarters|\\d+(?:\\.\\d+)? percent)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not pair decimate with fractions or percentages."
+- source: nyt
+  page: 151
+  entry: "decisions"
+  kind: existence
+  wrong: "(?:take|takes|took|taken|taking) (?:a|the|that) decision"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "In American usage decisions are made, not taken."
+- source: nyt
+  page: 151
+  entry: "decry"
+  kind: existence
+  wrong: "decr(?:y|ies|ied|ying)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Stilted; consider deplore or denounce."
+- source: nyt
+  page: 151
+  entry: "deejay"
+  kind: substitution
+  wrong: "deejay"
+  right: "D.J."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use D.J."
+- source: nyt
+  page: 151
+  entry: "defensible"
+  kind: substitution
+  wrong: "defendable"
+  right: "defensible"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell defensible."
+- source: nyt
+  page: 151
+  entry: "defining moment"
+  kind: existence
+  wrong: "defining moment"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Journalistic cliche."
+- source: nyt
+  page: 152
+  entry: "delegate at large"
+  kind: substitution
+  wrong: "delegate-at-large"
+  right: "delegate at large"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphens."
+- source: nyt
+  page: 153
+  entry: "Democrat"
+  kind: substitution
+  wrong: "Democrat [Pp]arty"
+  right: "Democratic Party"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use Democrat as a modifier."
+- source: nyt
+  page: 156
+  entry: "diagnose"
+  kind: existence
+  wrong: "diagnosed with"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "The disease is diagnosed, not the patient."
+- source: nyt
+  page: 157
+  entry: "dietitian"
+  kind: substitution
+  wrong: "dietician"
+  right: "dietitian"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell dietitian."
+- source: nyt
+  page: 157
+  entry: "different"
+  kind: existence
+  wrong: "different than"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Prefer different from before a noun."
+- source: nyt
+  page: 158
+  entry: "disc, disk"
+  kind: substitution
+  wrong: "(?:hard|floppy) disc"
+  right: "hard disk"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use disk for magnetic computer storage."
+- source: nyt
+  page: 158
+  entry: "disc, disk"
+  kind: substitution
+  wrong: "compact disk"
+  right: "compact disc"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use disc for optical devices."
+- source: nyt
+  page: 158
+  entry: "disabled"
+  kind: existence
+  wrong: "the disabled"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "As a noun it equates diverse people; use an adjective."
+- source: nyt
+  page: 159
+  entry: "dive"
+  kind: substitution
+  wrong: "dove(?= (?:into|in|off|for|down|under|headfirst|from))"
+  right: "dived"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Past tense of dive is dived."
+- source: nyt
+  page: 160
+  entry: "D.J."
+  kind: substitution
+  wrong: "DJ"
+  right: "D.J."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 160
+  entry: "D.M.D."
+  kind: substitution
+  wrong: "DMD"
+  right: "D.M.D."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 160
+  entry: "dollars and cents"
+  kind: existence
+  wrong: "(?<=\\$)\\d[\\d.,]*-(?:million|billion|trillion)(?=\\s+[a-z])(?!\\s+(?:a|per|to|and)\\b)"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "No hyphen in simple adjective sums like $2.5 million investment."
+- source: nyt
+  page: 160
+  entry: "dollars and cents"
+  kind: existence
+  wrong: "(?<=\\$)\\d[\\d.,]* to \\$\\d[\\d.,]* (?:million|billion|trillion)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Repeat million or billion on both amounts."
+- source: nyt
+  page: 161
+  entry: "dos and don'ts"
+  kind: substitution
+  wrong: "do[’']s"
+  right: "dos"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "No apostrophe in plurals of words as words."
+- source: nyt
+  page: 162
+  entry: "doughnut"
+  kind: substitution
+  wrong: "donuts?"
+  right: "doughnut"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell doughnut."
+- source: nyt
+  page: 163
+  entry: "downplay"
+  kind: substitution
+  wrong: "downplay"
+  right: "play down"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write the two-word phrasal verb."
+- source: nyt
+  page: 163
+  entry: "downplay"
+  kind: substitution
+  wrong: "downplays"
+  right: "plays down"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write the two-word phrasal verb."
+- source: nyt
+  page: 163
+  entry: "downplay"
+  kind: substitution
+  wrong: "downplayed"
+  right: "played down"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write the two-word phrasal verb."
+- source: nyt
+  page: 163
+  entry: "downplay"
+  kind: substitution
+  wrong: "downplaying"
+  right: "playing down"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write the two-word phrasal verb."
+- source: nyt
+  page: 163
+  entry: "Down syndrome"
+  kind: substitution
+  wrong: "Down[’']s syndrome"
+  right: "Down syndrome"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No possessive."
+- source: nyt
+  page: 163
+  entry: "draft"
+  kind: substitution
+  wrong: "draught"
+  right: "draft"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "American spelling for a current of air or beer."
+- source: nyt
+  page: 163
+  entry: "drunk"
+  kind: substitution
+  wrong: "drunk driver"
+  right: "drunken driver"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Drunken before a noun."
+- source: nyt
+  page: 163
+  entry: "drunk"
+  kind: substitution
+  wrong: "drunk driving"
+  right: "drunken driving"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Drunken before a noun."
+- source: nyt
+  page: 163
+  entry: "Druse"
+  kind: substitution
+  wrong: "Druze"
+  right: "Druse"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Preferred spelling."
+- source: nyt
+  page: 165
+  entry: "Dutch"
+  kind: existence
+  wrong: "Hollanders?"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Netherlander, never Hollander."
+- source: nyt
+  page: 165
+  entry: "dwarf"
+  kind: existence
+  wrong: "midgets?"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Widely considered offensive; use dwarf."
+- source: nyt
+  page: 166
+  entry: "earthquakes"
+  kind: existence
+  wrong: "Richter scale"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use the term; give moment magnitude."
+- source: nyt
+  page: 167
+  entry: "temblor"
+  kind: substitution
+  wrong: "tremblor"
+  right: "temblor"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell temblor."
+- source: nyt
+  page: 170
+  entry: "editors' note"
+  kind: substitution
+  wrong: "(?:editor[’']s|editors) note"
+  right: "editors’ note"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Possessive is always plural."
+- source: nyt
+  page: 171
+  entry: "E.E.O.C."
+  kind: substitution
+  wrong: "EEOC"
+  right: "E.E.O.C."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 172
+  entry: "-elect"
+  kind: existence
+  wrong: "(?:president|governor|senator|mayor) elect"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate president-elect and similar."
+- source: nyt
+  page: 172
+  entry: "elderly"
+  kind: existence
+  wrong: "elderly"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Vague; prefer specific ages or older adults."
+- source: nyt
+  page: 174
+  entry: "email"
+  kind: substitution
+  wrong: "e-mail"
+  right: "email"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen."
+- source: nyt
+  page: 174
+  entry: "email"
+  kind: casing
+  wrong: "E-mail"
+  right: "Email"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen."
+- source: nyt
+  page: 174
+  entry: "emcee"
+  kind: substitution
+  wrong: "emcee"
+  right: "M.C."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use M.C."
+- source: nyt
+  page: 174
+  entry: "emergency medical workers"
+  kind: existence
+  wrong: "first responders?"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Jargon except in quotations."
+- source: nyt
+  page: 175
+  entry: "empanel"
+  kind: substitution
+  wrong: "empanel(?:ed|ing)?"
+  right: "impanel"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell impanel."
+- source: nyt
+  page: 176
+  entry: "emporiums"
+  kind: substitution
+  wrong: "emporia"
+  right: "emporiums"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is emporiums."
+- source: nyt
+  page: 177
+  entry: "enumeration"
+  kind: substitution
+  wrong: "firstly"
+  right: "first"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No -ly in enumerations."
+- source: nyt
+  page: 177
+  entry: "enumeration"
+  kind: substitution
+  wrong: "secondly"
+  right: "second"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No -ly in enumerations."
+- source: nyt
+  page: 177
+  entry: "enumeration"
+  kind: substitution
+  wrong: "thirdly"
+  right: "third"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No -ly in enumerations."
+- source: nyt
+  page: 177
+  entry: "E.P.A."
+  kind: substitution
+  wrong: "EPA"
+  right: "E.P.A."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 178
+  entry: "epileptic"
+  kind: existence
+  wrong: "epileptics"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer person with epilepsy."
+- source: nyt
+  page: 178
+  entry: "Episcopal Church"
+  kind: substitution
+  wrong: "Episcopalian church"
+  right: "Episcopal church"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Never Episcopalian church."
+- source: nyt
+  page: 178
+  entry: "equaled"
+  kind: substitution
+  wrong: "equalled"
+  right: "equaled"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American single l."
+- source: nyt
+  page: 178
+  entry: "equaled"
+  kind: substitution
+  wrong: "equalling"
+  right: "equaling"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American single l."
+- source: nyt
+  page: 179
+  entry: "equally as"
+  kind: substitution
+  wrong: "equally as"
+  right: "equally"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Use one word, not both."
+- source: nyt
+  page: 179
+  entry: "esthetic"
+  kind: substitution
+  wrong: "esthetic"
+  right: "aesthetic"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use aesthetic."
+- source: nyt
+  page: 179
+  entry: "etc."
+  kind: existence
+  wrong: "etc"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Rarely serves a purpose in news writing."
+- source: nyt
+  page: 179
+  entry: "Eskimo"
+  kind: existence
+  wrong: "Eskimos?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Many prefer Inuit; make the connection clear."
+- source: nyt
+  page: 180
+  entry: "ethnic"
+  kind: existence
+  wrong: "ethnics"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use ethnic as a noun outside quotations."
+- source: nyt
+  page: 180
+  entry: "euphemisms"
+  kind: substitution
+  wrong: "passed away"
+  right: "died"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "People die in news copy."
+- source: nyt
+  page: 180
+  entry: "euphemisms"
+  kind: substitution
+  wrong: "passes away"
+  right: "dies"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "People die in news copy."
+- source: nyt
+  page: 181
+  entry: "eurozone"
+  kind: substitution
+  wrong: "euro[- ]zone"
+  right: "eurozone"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 184
+  entry: "eyewitness"
+  kind: existence
+  wrong: "eyewitness"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Witness is generally preferred."
+- source: nyt
+  page: 185
+  entry: "F.A.A."
+  kind: substitution
+  wrong: "FAA"
+  right: "F.A.A."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 185
+  entry: "facsimile"
+  kind: substitution
+  wrong: "facsimile"
+  right: "fax"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use fax for the office process."
+- source: nyt
+  page: 185
+  entry: "faculty"
+  kind: existence
+  wrong: "(?:hiring|recruiting) faculty|(?:many|several) faculty(?=\\s+(?:were|are|who|have|said|say|believe))"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Faculty is collective; use faculty members for individuals."
+- source: nyt
+  page: 185
+  entry: "Fahrenheit"
+  kind: existence
+  wrong: "\\d+(?:\\s+°\\s*|°\\s+)[FC]"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No spaces around the degree symbol."
+- source: nyt
+  page: 187
+  entry: "Far East"
+  kind: existence
+  wrong: "Far East"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Western-centric; name the region such as East Asia."
+- source: nyt
+  page: 187
+  entry: "F.A.O."
+  kind: substitution
+  wrong: "FAO"
+  right: "F.A.O."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 188
+  entry: "farther"
+  kind: substitution
+  wrong: "further(?= (?:away|north|south|east|west|down the))"
+  right: "farther"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Farther for physical distance."
+- source: nyt
+  page: 189
+  entry: "F.B.I."
+  kind: substitution
+  wrong: "FBI"
+  right: "F.B.I."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 189
+  entry: "F.C.C."
+  kind: substitution
+  wrong: "FCC"
+  right: "F.C.C."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 189
+  entry: "F.D.A."
+  kind: substitution
+  wrong: "FDA"
+  right: "F.D.A."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 189
+  entry: "F.D.I.C."
+  kind: substitution
+  wrong: "FDIC"
+  right: "F.D.I.C."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 190
+  entry: "Federal Trade Commission"
+  kind: substitution
+  wrong: "FTC"
+  right: "F.T.C."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 191
+  entry: "female, male"
+  kind: existence
+  wrong: "(?:male|female) (?:nurse|judge|doctor|lawyer|teacher|pilot|engineer|firefighter|police officer)s?"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Avoid sex labels on occupations that imply a norm."
+- source: nyt
+  page: 191
+  entry: "female, male"
+  kind: existence
+  wrong: "(?:the|these|those|two|three|four|five|many|several) (?:females|males)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use women, men, girls or boys for people."
+- source: nyt
+  page: 191
+  entry: "fewer, less"
+  kind: substitution
+  wrong: "less(?= (?:people|students|workers|items|jobs|cars|houses|calories|votes|visitors|customers|employees|children|women|men)\\b)"
+  right: "fewer"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Fewer for countable things."
+- source: nyt
+  page: 192
+  entry: "F.H.A."
+  kind: substitution
+  wrong: "FHA"
+  right: "F.H.A."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviation takes periods."
+- source: nyt
+  page: 192
+  entry: "Fifth Amendment"
+  kind: existence
+  wrong: "(?:took|take|takes|taken|taking|plead|pleads|pleaded|pled) the Fifth(?: Amendment)?"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Implies a scheme; say invoked the Fifth Amendment right."
+- source: nyt
+  page: 193
+  entry: "file name"
+  kind: substitution
+  wrong: "filename"
+  right: "file name"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: nyt
+  page: 193
+  entry: "filmmaker"
+  kind: substitution
+  wrong: "film[- ]makers?"
+  right: "filmmaker"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 194
+  entry: "fireman"
+  kind: existence
+  wrong: "fireman|firemen|firewoman|firewomen"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use firefighter."
+- source: nyt
+  page: 195
+  entry: "fiscal year"
+  kind: existence
+  wrong: "fiscal (?:19|20)\\d\\d"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Write the 1998 fiscal year, not fiscal 1998."
+- source: nyt
+  page: 195
+  entry: "fjord"
+  kind: substitution
+  wrong: "fiord"
+  right: "fjord"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell fjord."
+- source: nyt
+  page: 196
+  entry: "flag-draped coffin"
+  kind: existence
+  wrong: "flag-draped coffins?"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Journalese cliche."
+- source: nyt
+  page: 196
+  entry: "flier"
+  kind: substitution
+  wrong: "flyer"
+  right: "flier"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Flier for pilot, fast train or leaflet."
+- source: nyt
+  page: 196
+  entry: "flier"
+  kind: substitution
+  wrong: "flyers"
+  right: "fliers"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Flier for pilot, fast train or leaflet."
+- source: nyt
+  page: 197
+  entry: "foe"
+  kind: existence
+  wrong: "foes?"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Exaggeration in politics; use rival or opponent."
+- source: nyt
+  page: 197
+  entry: "-fold"
+  kind: existence
+  wrong: "(?:two|three|four|five|six|seven|eight|nine|ten|twenty|hundred|thousand|million)-fold"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell solid-word numerals with fold as one word."
+- source: nyt
+  page: 197
+  entry: "following"
+  kind: substitution
+  wrong: "following day"
+  right: "next day"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Following is stilted; use next day."
+- source: nyt
+  page: 197
+  entry: "folks"
+  kind: existence
+  wrong: "folks"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Sounds condescending in news copy."
+- source: nyt
+  page: 198
+  entry: "foot-and-mouth disease"
+  kind: substitution
+  wrong: "hoof-and-mouth"
+  right: "foot-and-mouth"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Disease is foot-and-mouth."
+- source: nyt
+  page: 200
+  entry: "foreman"
+  kind: existence
+  wrong: "forelady|foreperson"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use foreman or forewoman."
+- source: nyt
+  page: 200
+  entry: "formulas"
+  kind: substitution
+  wrong: "formulae"
+  right: "formulas"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is formulas."

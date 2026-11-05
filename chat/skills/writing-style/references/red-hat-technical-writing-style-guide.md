@@ -254,9 +254,9 @@ The date bullet shares the guide's ban on all-numeric dates and its preference f
 
 ## Conflicts with other references
 
-**Heading case (google-developer-style-guide.md, ibm-style-guide.md, microsoft-writing-style-guide.md).** The guide puts headings in title case and prefers gerund titles for chapters. Google, IBM, and Microsoft use sentence case. Google discourages an -ing word at the start of a heading, while IBM uses gerunds for task headings. The skill writes headers in sentence case with no closing punctuation (section 6), following the guides that rank ahead of Red Hat in the AGENTS.md order.
+**Heading case (google-developer-style-guide.md, ibm-style-guide.md, microsoft-writing-style-guide.md).** The guide puts headings in title case and prefers gerund titles for chapters. Google, IBM, and Microsoft use sentence case. Google discourages an -ing word at the start of a heading, while IBM uses gerunds for task headings. The skill writes headers in sentence case with no closing punctuation (section 6), following Google, IBM, and Microsoft, which agree with one another on case.
 
-**Punctuation with quotation marks (nyt-manual-of-style.md, ap-stylebook.md, chicago-manual-of-style.md, oxford-new-harts-rules.md, ibm-style-guide.md).** In technical documentation the guide puts periods and commas outside a closing quotation mark unless they belong to the quotation or to code. The American manuals put them inside. Oxford's Hart's Rules (14.5.2) and IBM both make an exception for quoted code. The skill puts periods and commas inside, following the American convention as the precedence rule requires. It puts literals in code formatting, which settles the case that motivates the guide's rule.
+**Punctuation with quotation marks (nyt-manual-of-style.md, ap-stylebook.md, chicago-manual-of-style.md, oxford-new-harts-rules.md, ibm-style-guide.md).** In technical documentation the guide puts periods and commas outside a closing quotation mark unless they belong to the quotation or to code. The American manuals put them inside. Oxford's Hart's Rules (14.5.2) and IBM both make an exception for quoted code. The skill puts periods and commas inside, following the American convention that section 8 uses throughout. It puts literals in code formatting, which settles the case that motivates the guide's rule.
 
 **Dates (nyt-manual-of-style.md, ap-stylebook.md, ibm-style-guide.md, oxford-new-harts-rules.md).** The guide and IBM write day, month, and year (1 April 2021), which is also British order in Hart's Rules. The news manuals put the month first. The skill uses the American order. It shares the guide's ban on all-figure dates, and it keeps ISO dates for logs and data in technical-writing.
 
@@ -268,7 +268,7 @@ The date bullet shares the guide's ban on all-numeric dates and its preference f
 
 **Hyphens after a verb (oxford-new-harts-rules.md, oxford-dictionary-for-writers.md).** The guide hyphenates up-to-date and out-of-date even after the noun. Oxford leaves compound modifiers open after a verb, and so does the skill (section 8).
 
-**Doubled vowels after a prefix.** The guide hyphenates a prefix that ends in the same vowel the word begins with (pre-emptive, semi-independent), with listed exceptions. The skill closes up most prefixes and gives preexisting as an example. The skill follows its higher-ranked sources here. I did not find a reference file in this folder that states the doubled-vowel rule either way.
+**Doubled vowels after a prefix.** The guide hyphenates a prefix that ends in the same vowel the word begins with (pre-emptive, semi-independent), with listed exceptions. The skill closes up most prefixes and gives preexisting as an example. The skill's closed form applies the general closed-prefix rule it takes from IBM and the push toward fewer hyphens in Hart's Rules. I did not find a reference file in this folder that states the doubled-vowel rule either way.
 
 **Filename (oxford-dictionary-for-writers.md).** The guide writes file name as two words. The Oxford dictionary gives filename as one, and technical-writing uses filename. This conflict affects technical-writing more than this skill.
 

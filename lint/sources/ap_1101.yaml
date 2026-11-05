@@ -1,0 +1,1361 @@
+- source: ap
+  page: 1159
+  entry: abnormality
+  kind: existence
+  wrong: abnormalit(?:y|ies)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Index marks as nonpreferred in disability coverage; context-dependent, review manually.
+- source: ap
+  page: 1159
+  entry: Aborigine
+  kind: existence
+  wrong: Aborigines?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Index marks Aborigine as nonpreferred; prefer specific group names or Aboriginal.
+- source: ap
+  page: 1160
+  entry: abortionist
+  kind: existence
+  wrong: abortionists?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Index flags as derogatory.
+- source: ap
+  page: 1160
+  entry: abuser
+  kind: existence
+  wrong: (?:drug|substance|alcohol) abusers?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred label for people with addiction; use person-first wording.
+- source: ap
+  page: 1161
+  entry: accommodate
+  kind: substitution
+  wrong: accomodat(?:e|es|ed|ing|ion|ions)
+  right: accommodate
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index spelling is accommodate with double m; flags the common misspelling stems.
+- source: ap
+  page: 1161
+  entry: acknowledgment
+  kind: substitution
+  wrong: acknowledgement
+  right: acknowledgment
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: AP spelling drops the middle e.
+- source: ap
+  page: 1162
+  entry: actress
+  kind: substitution
+  wrong: actress
+  right: actor
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: AP index points actress to actor for all genders.
+- source: ap
+  page: 1162
+  entry: actress
+  kind: substitution
+  wrong: actresses
+  right: actors
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: AP index points actress to actor for all genders.
+- source: ap
+  page: 1162
+  entry: activewear
+  kind: substitution
+  wrong: active wear
+  right: activewear
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word per index.
+- source: ap
+  page: 1162
+  entry: ADD
+  kind: existence
+  wrong: ADD
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred; use attention-deficit/hyperactivity disorder. Case-sensitive, but ADD has other meanings.
+- source: ap
+  page: 1162
+  entry: addict
+  kind: existence
+  wrong: addicts?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred noun for people; use person-first wording. Idiomatic uses cause false positives.
+- source: ap
+  page: 1163
+  entry: ad-lib
+  kind: substitution
+  wrong: adlib
+  right: ad-lib
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated spelling in the index.
+- source: ap
+  page: 1163
+  entry: adjustable-rate mortgage
+  kind: substitution
+  wrong: adjustable rate mortgage
+  right: adjustable-rate mortgage
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate the compound modifier.
+- source: ap
+  page: 1164
+  entry: adviser
+  kind: substitution
+  wrong: advisor
+  right: adviser
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: AP spells the person as adviser.
+- source: ap
+  page: 1165
+  entry: afterward
+  kind: substitution
+  wrong: afterwards
+  right: afterward
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: AP form has no s.
+- source: ap
+  page: 1165
+  entry: African American
+  kind: substitution
+  wrong: African-American
+  right: African American
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No hyphen in African American.
+- source: ap
+  page: 1166
+  entry: air bag
+  kind: substitution
+  wrong: airbag
+  right: air bag
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Two words per index.
+- source: ap
+  page: 1166
+  entry: airfare
+  kind: substitution
+  wrong: air fare
+  right: airfare
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word per index.
+- source: ap
+  page: 1167
+  entry: airstrike
+  kind: substitution
+  wrong: air strike
+  right: airstrike
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word per index.
+- source: ap
+  page: 1167
+  entry: Al-Aqsa Mosque
+  kind: substitution
+  wrong: Al Aqsa Mosque
+  right: Al-Aqsa Mosque
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated name per index.
+- source: ap
+  page: 1167
+  entry: albinos
+  kind: existence
+  wrong: albinos
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred as a noun for people; prefer person with albinism.
+- source: ap
+  page: 1167
+  entry: alcoholic
+  kind: existence
+  wrong: alcoholics?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred noun; context-dependent (adj. alcoholic drinks is fine).
+- source: ap
+  page: 1168
+  entry: al-Fatah
+  kind: substitution
+  wrong: al-Fatah
+  right: Fatah
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Index marks al-Fatah improper; use Fatah.
+- source: ap
+  page: 1168
+  entry: alien
+  kind: existence
+  wrong: illegal aliens?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Alien is nonpreferred for immigrants; see illegal immigration entry.
+- source: ap
+  page: 1169
+  entry: alright
+  kind: substitution
+  wrong: (?i:alright)
+  right: all right
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index marks alright as incorrect.
+- source: ap
+  page: 1169
+  entry: alternative lifestyle
+  kind: existence
+  wrong: alternative lifestyles?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred; see LGBTQ and sexual orientation entries.
+- source: ap
+  page: 1169
+  entry: al-Qaida
+  kind: substitution
+  wrong: (?i:al[- ]Qaeda)
+  right: al-Qaida
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: AP spelling is al-Qaida.
+- source: ap
+  page: 1169
+  entry: al-Shabab
+  kind: substitution
+  wrong: (?i:al[- ]Shabaab)
+  right: al-Shabab
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: AP spelling is al-Shabab.
+- source: ap
+  page: 1169
+  entry: Alzheimer's disease
+  kind: substitution
+  wrong: Alzheimers
+  right: Alzheimer's
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Possessive apostrophe required.
+- source: ap
+  page: 1170
+  entry: ambulance driver
+  kind: existence
+  wrong: ambulance drivers?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred; see first responder entry.
+- source: ap
+  page: 1170
+  entry: Amber Alert
+  kind: casing
+  wrong: AMBER Alert
+  right: Amber Alert
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Not all caps.
+- source: ap
+  page: 1171
+  entry: amid
+  kind: substitution
+  wrong: (?i:amidst)
+  right: amid
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index marks amidst as incorrect.
+- source: ap
+  page: 1171
+  entry: AARP
+  kind: substitution
+  wrong: American Association of Retired Persons
+  right: AARP
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index directs the full name to AARP.
+- source: ap
+  page: 1171
+  entry: AAA
+  kind: substitution
+  wrong: American Automobile Association
+  right: AAA
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index directs the full name to AAA.
+- source: ap
+  page: 1171
+  entry: AOL
+  kind: substitution
+  wrong: America Online
+  right: AOL
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index directs the full name to AOL.
+- source: ap
+  page: 1171
+  entry: AmeriCorps
+  kind: casing
+  wrong: Americorps?
+  right: AmeriCorps
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Camel-case capitalization.
+- source: ap
+  page: 1172
+  entry: amok
+  kind: substitution
+  wrong: (?i:amuck)
+  right: amok
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index marks amuck as incorrect.
+- source: ap
+  page: 1173
+  entry: animal welfare activist
+  kind: substitution
+  wrong: animal rights activist
+  right: animal welfare activist
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Animal rights activist is nonpreferred.
+- source: ap
+  page: 1173
+  entry: animal welfare activist
+  kind: substitution
+  wrong: animal rights activists
+  right: animal welfare activists
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Animal rights activist is nonpreferred.
+- source: ap
+  page: 1173
+  entry: a.m., p.m.
+  kind: substitution
+  wrong: (?<=\d )(?:am|AM|A\.M\.)
+  right: a.m.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Lowercase with periods after a time.
+- source: ap
+  page: 1173
+  entry: a.m., p.m.
+  kind: substitution
+  wrong: (?<=\d )(?:pm|PM|P\.M\.)
+  right: p.m.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Lowercase with periods after a time.
+- source: ap
+  page: 1174
+  entry: anti-Asian sentiment
+  kind: existence
+  wrong: anti-Asian sentiment
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred label in the index.
+- source: ap
+  page: 1174
+  entry: antisemitism
+  kind: substitution
+  wrong: (?i:anti-Semitism)
+  right: antisemitism
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No hyphen, lowercase s.
+- source: ap
+  page: 1174
+  entry: antisemitic
+  kind: substitution
+  wrong: (?i:anti-Semitic)
+  right: antisemitic
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No hyphen, lowercase s.
+- source: ap
+  page: 1174
+  entry: antitrust
+  kind: substitution
+  wrong: anti-trust
+  right: antitrust
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1174
+  entry: anti-vaxxer
+  kind: existence
+  wrong: anti-vaxxers?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Index flags as derogatory.
+- source: ap
+  page: 1174
+  entry: antiviral
+  kind: substitution
+  wrong: anti-viral
+  right: antiviral
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1174
+  entry: antivirus
+  kind: substitution
+  wrong: anti-virus
+  right: antivirus
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1176
+  entry: April Fools' Day
+  kind: substitution
+  wrong: April Fool's Day
+  right: April Fools' Day
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Plural possessive apostrophe after s.
+- source: ap
+  page: 1176
+  entry: April Fools' Day
+  kind: substitution
+  wrong: April Fools Day
+  right: April Fools' Day
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Needs plural possessive apostrophe.
+- source: ap
+  page: 1176
+  entry: Arab American
+  kind: substitution
+  wrong: Arab-American
+  right: Arab American
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No hyphen.
+- source: ap
+  page: 1176
+  entry: Arabian Gulf
+  kind: substitution
+  wrong: Arabian Gulf
+  right: Persian Gulf
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index marks Arabian Gulf nonpreferred.
+- source: ap
+  page: 1177
+  entry: archaeology
+  kind: substitution
+  wrong: archeology
+  right: archaeology
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: AP spelling keeps the ae.
+- source: ap
+  page: 1179
+  entry: Asian American
+  kind: substitution
+  wrong: Asian-American
+  right: Asian American
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No hyphen.
+- source: ap
+  page: 1179
+  entry: ASD
+  kind: existence
+  wrong: ASD
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred; use autism spectrum disorder or autism. Case-sensitive; other meanings possible.
+- source: ap
+  page: 1179
+  entry: Asperger's syndrome
+  kind: existence
+  wrong: Asperger(?:'|’)?s syndrome
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred; see autism spectrum disorder.
+- source: ap
+  page: 1180
+  entry: assault rifle
+  kind: existence
+  wrong: assault (?:rifles?|weapons?)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Index marks assault rifle and assault weapon nonpreferred.
+- source: ap
+  page: 1180
+  entry: associate degree
+  kind: substitution
+  wrong: associate(?:'|’)s degree
+  right: associate degree
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Index marks associate's degree incorrect.
+- source: ap
+  page: 1181
+  entry: asylum-seekers
+  kind: substitution
+  wrong: asylum seekers
+  right: asylum-seekers
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated per index.
+- source: ap
+  page: 1181
+  entry: asylum-seekers
+  kind: substitution
+  wrong: asylum seeker
+  right: asylum-seeker
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated per index.
+- source: ap
+  page: 1181
+  entry: asymptomatic
+  kind: existence
+  wrong: asymptomatic
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Index marks nonpreferred in some uses; review manually.
+- source: ap
+  page: 1181
+  entry: ATM
+  kind: substitution
+  wrong: ATM machines?
+  right: ATM
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Redundant; index marks ATM machine improper.
+- source: ap
+  page: 1181
+  entry: athlete's foot
+  kind: substitution
+  wrong: athletes foot
+  right: athlete's foot
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Possessive apostrophe.
+- source: ap
+  page: 1181
+  entry: athlete's heart
+  kind: substitution
+  wrong: athletes heart
+  right: athlete's heart
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Possessive apostrophe.
+- source: ap
+  page: 1181
+  entry: attache
+  kind: substitution
+  wrong: attaché
+  right: attache
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: AP omits accent marks.
+- source: ap
+  page: 1182
+  entry: attention-deficit/hyperactivity disorder
+  kind: substitution
+  wrong: (?i:attention[- ]deficit disorder)
+  right: attention-deficit/hyperactivity disorder
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index marks attention-deficit disorder nonpreferred.
+- source: ap
+  page: 1183
+  entry: autoworker
+  kind: substitution
+  wrong: auto worker
+  right: autoworker
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1183
+  entry: autoworkers
+  kind: substitution
+  wrong: auto workers
+  right: autoworkers
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1183
+  entry: bird flu
+  kind: substitution
+  wrong: avian influenza
+  right: bird flu
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index marks avian influenza nonpreferred.
+- source: ap
+  page: 1184
+  entry: ax
+  kind: substitution
+  wrong: axe
+  right: ax
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: AP uses ax. Proper names such as Axe may false positive.
+- source: ap
+  page: 1185
+  entry: baby bump
+  kind: existence
+  wrong: baby bumps?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Index marks nonpreferred.
+- source: ap
+  page: 1185
+  entry: babysit
+  kind: substitution
+  wrong: baby[- ]sit
+  right: babysit
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1185
+  entry: babysitter
+  kind: substitution
+  wrong: baby[- ]sitter
+  right: babysitter
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1185
+  entry: babysitting
+  kind: substitution
+  wrong: baby[- ]sitting
+  right: babysitting
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1185
+  entry: backboard
+  kind: substitution
+  wrong: back board
+  right: backboard
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1185
+  entry: backcourt
+  kind: substitution
+  wrong: back court
+  right: backcourt
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1185
+  entry: backfield
+  kind: substitution
+  wrong: back field
+  right: backfield
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: One word in sports; literal back field possible.
+- source: ap
+  page: 1185
+  entry: backhand
+  kind: substitution
+  wrong: back hand
+  right: backhand
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: One word; literal back hand possible.
+- source: ap
+  page: 1185
+  entry: backspin
+  kind: substitution
+  wrong: back spin
+  right: backspin
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1185
+  entry: backstop
+  kind: substitution
+  wrong: back stop
+  right: backstop
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1185
+  entry: backward
+  kind: substitution
+  wrong: backwards
+  right: backward
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: AP form is backward; backwards is acceptable idiom in some phrases.
+- source: ap
+  page: 1186
+  entry: backstroke
+  kind: substitution
+  wrong: back stroke
+  right: backstroke
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1186
+  entry: Baha'i
+  kind: substitution
+  wrong: Bahai
+  right: Baha'i
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Apostrophe in Baha'i.
+- source: ap
+  page: 1186
+  entry: baker's dozen
+  kind: substitution
+  wrong: bakers dozen
+  right: baker's dozen
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Possessive apostrophe.
+- source: ap
+  page: 1186
+  entry: ballerina
+  kind: substitution
+  wrong: ballerinas?
+  right: ballet dancer
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Index points ballerina to dancer or ballet dancer; pluralize manually.
+- source: ap
+  page: 1186
+  entry: ballgame
+  kind: substitution
+  wrong: ball game
+  right: ballgame
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: One word in sports use; literal ball game possible.
+- source: ap
+  page: 1186
+  entry: ballclub
+  kind: substitution
+  wrong: ball club
+  right: ballclub
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: One word in sports use.
+- source: ap
+  page: 1187
+  entry: ballpark
+  kind: substitution
+  wrong: ball park
+  right: ballpark
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1187
+  entry: ballplayer
+  kind: substitution
+  wrong: ball player
+  right: ballplayer
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1187
+  entry: ballroom
+  kind: substitution
+  wrong: ball room
+  right: ballroom
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1188
+  entry: barreled
+  kind: substitution
+  wrong: barrelled
+  right: barreled
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Single l, American spelling.
+- source: ap
+  page: 1188
+  entry: barreling
+  kind: substitution
+  wrong: barrelling
+  right: barreling
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Single l, American spelling.
+- source: ap
+  page: 1188
+  entry: battlefront
+  kind: substitution
+  wrong: battle front
+  right: battlefront
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1188
+  entry: battleground
+  kind: substitution
+  wrong: battle ground
+  right: battleground
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1188
+  entry: battleship
+  kind: substitution
+  wrong: battle ship
+  right: battleship
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1188
+  entry: battle station
+  kind: substitution
+  wrong: battlestation
+  right: battle station
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Two words per index.
+- source: ap
+  page: 1188
+  entry: BASE jumping
+  kind: casing
+  wrong: base jumping
+  right: BASE jumping
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: BASE is an acronym.
+- source: ap
+  page: 1189
+  entry: bed-and-breakfast
+  kind: substitution
+  wrong: bed and breakfast
+  right: bed-and-breakfast
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: AP uses hyphens for the lodging type.
+- source: ap
+  page: 1189
+  entry: bellwether
+  kind: substitution
+  wrong: bell[- ]?weather
+  right: bellwether
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word, correct spelling.
+- source: ap
+  page: 1189
+  entry: benefited
+  kind: substitution
+  wrong: benefitted
+  right: benefited
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Single t.
+- source: ap
+  page: 1189
+  entry: benefiting
+  kind: substitution
+  wrong: benefitting
+  right: benefiting
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Single t.
+- source: ap
+  page: 1189
+  entry: beggar
+  kind: existence
+  wrong: beggars?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred for homeless people; idioms cause false positives.
+- source: ap
+  page: 1190
+  entry: bestseller
+  kind: substitution
+  wrong: best[- ]seller
+  right: bestseller
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1190
+  entry: bestselling
+  kind: substitution
+  wrong: best[- ]selling
+  right: bestselling
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1190
+  entry: Bible-believing
+  kind: existence
+  wrong: Bible-believing
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Index marks nonpreferred.
+- source: ap
+  page: 1191
+  entry: bioterrorism
+  kind: substitution
+  wrong: bio-terrorism
+  right: bioterrorism
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1192
+  entry: Black Muslim
+  kind: existence
+  wrong: Black Muslims?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Index flags as derogatory.
+- source: ap
+  page: 1193
+  entry: Bluetooth
+  kind: casing
+  wrong: '[Bb]lue[Tt]ooth|bluetooth'
+  right: Bluetooth
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalize Bluetooth.
+- source: ap
+  page: 1193
+  entry: blue chip stock
+  kind: substitution
+  wrong: blue-chip stock
+  right: blue chip stock
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No hyphen per index.
+- source: ap
+  page: 1194
+  entry: Mumbai
+  kind: substitution
+  wrong: Bombay
+  right: Mumbai
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index redirects Bombay to Mumbai.
+- source: ap
+  page: 1194
+  entry: baloney
+  kind: substitution
+  wrong: bologna
+  right: baloney
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index redirects bologna to baloney (lowercase).
+- source: ap
+  page: 1194
+  entry: Russian Revolution
+  kind: substitution
+  wrong: Bolshevik Revolution
+  right: Russian Revolution
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index redirects.
+- source: ap
+  page: 1195
+  entry: Bosniak
+  kind: substitution
+  wrong: Bosnian Muslims?
+  right: Bosniaks
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Index marks Bosnian Muslims nonpreferred; Bosniaks.
+- source: ap
+  page: 1195
+  entry: Bosnia-Herzegovina
+  kind: substitution
+  wrong: Bosnia and Herzegovina
+  right: Bosnia-Herzegovina
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated form in AP.
+- source: ap
+  page: 1195
+  entry: Bosporus
+  kind: substitution
+  wrong: Bosphorus
+  right: Bosporus
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: AP spelling.
+- source: ap
+  page: 1196
+  entry: breastfeed
+  kind: substitution
+  wrong: breast[- ]feed
+  right: breastfeed
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1196
+  entry: breastfeeding
+  kind: substitution
+  wrong: breast[- ]feeding
+  right: breastfeeding
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1197
+  entry: BP PLC
+  kind: substitution
+  wrong: British Petroleum
+  right: BP PLC
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index redirects British Petroleum to BP PLC.
+- source: ap
+  page: 1198
+  entry: brunette
+  kind: existence
+  wrong: brunettes?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred; use brown hair.
+- source: ap
+  page: 1199
+  entry: buses
+  kind: substitution
+  wrong: busses
+  right: buses
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Plural of bus is buses; buss is a kiss.
+- source: ap
+  page: 1199
+  entry: bull's-eye
+  kind: substitution
+  wrong: bull(?:'|’)s eye|bullseye
+  right: bull's-eye
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated with apostrophe.
+- source: ap
+  page: 1199
+  entry: bum
+  kind: existence
+  wrong: bums?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred for homeless people; other senses cause false positives.
+- source: ap
+  page: 1199
+  entry: Myanmar
+  kind: substitution
+  wrong: Burma
+  right: Myanmar
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Index redirects Burma to Myanmar.
+- source: ap
+  page: 1200
+  entry: busser
+  kind: existence
+  wrong: bus(?:boy|girl)s?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Nonpreferred; use busser.
+- source: ap
+  page: 1200
+  entry: by-election
+  kind: substitution
+  wrong: by election
+  right: by-election
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated.
+- source: ap
+  page: 1200
+  entry: business owner
+  kind: existence
+  wrong: business(?:man|woman|men|women)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Gender-neutral alternative is business owner or businessperson.

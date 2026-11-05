@@ -1,0 +1,2000 @@
+- source: ap
+  page: 601
+  entry: "predate"
+  kind: substitution
+  wrong: "pre-date"
+  right: "predate"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write predate solid, no hyphen."
+- source: ap
+  page: 602
+  entry: "predecease"
+  kind: substitution
+  wrong: "pre-decease"
+  right: "predecease"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write predecease solid, no hyphen."
+- source: ap
+  page: 603
+  entry: "predispose"
+  kind: substitution
+  wrong: "pre-dispose"
+  right: "predispose"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write predispose solid, no hyphen."
+- source: ap
+  page: 604
+  entry: "preflight"
+  kind: substitution
+  wrong: "pre-flight"
+  right: "preflight"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write preflight solid, no hyphen."
+- source: ap
+  page: 605
+  entry: "pregame"
+  kind: substitution
+  wrong: "pre-game"
+  right: "pregame"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write pregame solid, no hyphen."
+- source: ap
+  page: 606
+  entry: "preheat"
+  kind: substitution
+  wrong: "pre-heat"
+  right: "preheat"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write preheat solid, no hyphen."
+- source: ap
+  page: 607
+  entry: "prehistoric"
+  kind: substitution
+  wrong: "pre-historic"
+  right: "prehistoric"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write prehistoric solid, no hyphen."
+- source: ap
+  page: 608
+  entry: "preignition"
+  kind: substitution
+  wrong: "pre-ignition"
+  right: "preignition"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write preignition solid, no hyphen."
+- source: ap
+  page: 609
+  entry: "prejudge"
+  kind: substitution
+  wrong: "pre-judge"
+  right: "prejudge"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write prejudge solid, no hyphen."
+- source: ap
+  page: 610
+  entry: "premarital"
+  kind: substitution
+  wrong: "pre-marital"
+  right: "premarital"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write premarital solid, no hyphen."
+- source: ap
+  page: 611
+  entry: "prenatal"
+  kind: substitution
+  wrong: "pre-natal"
+  right: "prenatal"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write prenatal solid, no hyphen."
+- source: ap
+  page: 612
+  entry: "prenuptial"
+  kind: substitution
+  wrong: "pre-nuptial"
+  right: "prenuptial"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write prenuptial solid, no hyphen."
+- source: ap
+  page: 613
+  entry: "pretax"
+  kind: substitution
+  wrong: "pre-tax"
+  right: "pretax"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write pretax solid, no hyphen."
+- source: ap
+  page: 614
+  entry: "pretest"
+  kind: substitution
+  wrong: "pre-test"
+  right: "pretest"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write pretest solid, no hyphen."
+- source: ap
+  page: 615
+  entry: "prewar"
+  kind: substitution
+  wrong: "pre-war"
+  right: "prewar"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write prewar solid, no hyphen."
+- source: ap
+  page: 615
+  entry: "prefixes (pre- double e)"
+  kind: substitution
+  wrong: "pre-(?=e(?:stablish|minent|clampsia|mpt))"
+  right: "pre"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in pre- plus double-e words like preeminent, preempt."
+- source: ap
+  page: 653
+  entry: "re- (double e)"
+  kind: substitution
+  wrong: "re-(?=e(?:lect|merge|mphasize|mploy|nact|ngage|nlist|nter|quip|stablish|xamine))"
+  right: "re"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in re- plus double-e words such as reelect, reenter."
+- source: ap
+  page: 623
+  entry: "pro-"
+  kind: substitution
+  wrong: "pro (?=(?:business|labor|peace|war)\\b)"
+  right: "pro-"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate pro- when it means support for something."
+- source: ap
+  page: 623
+  entry: "pro-"
+  kind: substitution
+  wrong: "pro(?=(?:business|labor|peace|war)\\b)"
+  right: "pro-"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate pro- when it means support for something."
+- source: ap
+  page: 616
+  entry: "Presidents Day"
+  kind: substitution
+  wrong: "President(?:['’]s|s['’]) Day"
+  right: "Presidents Day"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Presidents Day takes no apostrophe."
+- source: ap
+  page: 616
+  entry: "presidency"
+  kind: casing
+  wrong: "(?<=[a-z,] )Presidency"
+  right: "presidency"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Always lowercase presidency."
+- source: ap
+  page: 615
+  entry: "president"
+  kind: casing
+  wrong: "(?<![Vv]ice )president (?=[A-Z][a-z]+)"
+  right: "President "
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize president as a formal title before a name; may misfire on descriptive uses."
+- source: ap
+  page: 617
+  entry: "presiding officer"
+  kind: casing
+  wrong: "Presiding Officer"
+  right: "presiding officer"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Always lowercase presiding officer."
+- source: ap
+  page: 617
+  entry: "press conference"
+  kind: substitution
+  wrong: "press conferences?"
+  right: "news conference"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "News conference is preferred."
+- source: ap
+  page: 619
+  entry: "primary"
+  kind: casing
+  wrong: "(?:New Hampshire|Democratic|Republican) Primary"
+  right: "primary"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not capitalize primary; this pattern is a stand-in for the capitalized form."
+- source: ap
+  page: 619
+  entry: "primary day"
+  kind: casing
+  wrong: "Primary Day"
+  right: "primary day"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase primary day."
+- source: ap
+  page: 620
+  entry: "Prince Edward Island"
+  kind: substitution
+  wrong: "P\\.E\\.I\\."
+  right: "Prince Edward Island"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not abbreviate Prince Edward Island."
+- source: ap
+  page: 620
+  entry: "prior to"
+  kind: substitution
+  wrong: "prior to"
+  right: "before"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Before is less stilted; keep prior to only for requirements."
+- source: ap
+  page: 623
+  entry: "producer price index"
+  kind: casing
+  wrong: "Producer Price Index"
+  right: "producer price index"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell the index name lowercase."
+- source: ap
+  page: 623
+  entry: "professor"
+  kind: substitution
+  wrong: "Prof\\."
+  right: "Professor"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Never abbreviate professor."
+- source: ap
+  page: 623
+  entry: "profit-sharing"
+  kind: substitution
+  wrong: "profit sharing"
+  right: "profit-sharing"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate profit-sharing as noun and adjective."
+- source: ap
+  page: 623
+  entry: "profit-taking"
+  kind: existence
+  wrong: "profit[- ]taking"
+  domain: wording
+  fix: none
+  american: true
+  context: business
+  note: "Avoid this term; it is inaccurate when the seller still takes a loss."
+- source: ap
+  page: 625
+  entry: "price-earnings ratio"
+  kind: substitution
+  wrong: "price[ /]earnings ratio"
+  right: "price-earnings ratio"
+  domain: wording
+  fix: safe
+  american: true
+  context: business
+  note: "Hyphenate price-earnings ratio."
+- source: ap
+  page: 628
+  entry: "pronouns"
+  kind: existence
+  wrong: "(?:preferred|chosen) pronouns"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not say preferred or chosen pronouns; say the pronouns they use."
+- source: ap
+  page: 628
+  entry: "pronouns"
+  kind: existence
+  wrong: "(?i:he/she|he or she|s/he|his/her|his or her)"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Avoid he/she; use they when necessary or reword."
+- source: ap
+  page: 629
+  entry: "proportions"
+  kind: existence
+  wrong: "\\b(?:one|two|three|four|five|six|seven|eight|nine) parts? (?:\\w+ )?to\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Always use figures for proportions such as 2 parts to 6 parts."
+- source: ap
+  page: 629
+  entry: "proposition"
+  kind: substitution
+  wrong: "Prop\\.(?= \\d)"
+  right: "Proposition"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not abbreviate proposition outside quotations."
+- source: ap
+  page: 629
+  entry: "proposition"
+  kind: casing
+  wrong: "proposition(?= \\d)"
+  right: "Proposition"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize proposition before a figure for a ballot question."
+- source: ap
+  page: 629
+  entry: "prostitute"
+  kind: existence
+  wrong: "(?i:child|underage|teenage|teen) prostitut\\w*"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid child, underage or teenage prostitute outside quotations or charges."
+- source: ap
+  page: 631
+  entry: "protester"
+  kind: substitution
+  wrong: "protestors?"
+  right: "protester"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell protester with -er."
+- source: ap
+  page: 631
+  entry: "prove, proved, proving"
+  kind: existence
+  wrong: "(?i:has|have|had|having|was|were|be|been) proven\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Use proved in verb forms; proven only as an adjective."
+- source: ap
+  page: 632
+  entry: "public schools"
+  kind: casing
+  wrong: "public school(?= \\d)"
+  right: "Public School"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize public school with a figure."
+- source: ap
+  page: 632
+  entry: "Pulitzer Prizes"
+  kind: casing
+  wrong: "Pulitzer prize"
+  right: "Pulitzer Prize"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize Pulitzer Prize."
+- source: ap
+  page: 632
+  entry: "Pulitzer Prizes"
+  kind: substitution
+  wrong: "Pulitzer Prize[ -]winning"
+  right: "Pulitzer Prize-winning"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate Pulitzer Prize-winning."
+- source: ap
+  page: 633
+  entry: "Q&A format"
+  kind: substitution
+  wrong: "Q ?(?:and|&|\\+) ?A"
+  right: "Q&A"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Q&A within a story body."
+- source: ap
+  page: 633
+  entry: "Q-tips"
+  kind: casing
+  wrong: "(?:Q-Tips|q-tips|Q-tip)"
+  right: "Q-tips"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Q-tips is a trademark; consider cotton swab as generic."
+- source: ap
+  page: 635
+  entry: "quiet period"
+  kind: existence
+  wrong: "quiet period"
+  domain: wording
+  fix: none
+  american: true
+  context: business
+  note: "Avoid quiet period; it is a misnomer for SEC disclosure limits."
+- source: ap
+  page: 635
+  entry: "quotations in the news"
+  kind: existence
+  wrong: "\\(sic\\)|\\[sic\\]"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use (sic) to flag quoted errors; paraphrase or add an editor's note."
+- source: ap
+  page: 637
+  entry: "Quran"
+  kind: substitution
+  wrong: "Koran|Qur['’]an|Qur'an"
+  right: "Quran"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Quran is the preferred spelling unless a name or title uses Koran."
+- source: ap
+  page: 639
+  entry: "race-related coverage"
+  kind: existence
+  wrong: "\\bthugs?\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Many read thug as coded racial slur; avoid."
+- source: ap
+  page: 639
+  entry: "race-related coverage"
+  kind: existence
+  wrong: "Black boys?\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid Black boy for Black males of any age; be specific about age."
+- source: ap
+  page: 641
+  entry: "racially charged"
+  kind: existence
+  wrong: "racially (?:charged|motivated|tinged)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Vague euphemisms; use racist, xenophobic, biased or give specifics."
+- source: ap
+  page: 642
+  entry: "Caucasian"
+  kind: existence
+  wrong: "Caucasian"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid Caucasian as a synonym for white."
+- source: ap
+  page: 642
+  entry: "biracial"
+  kind: existence
+  wrong: "mixed[- ]race"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid mixed-race unless the person prefers it; use biracial or multiracial."
+- source: ap
+  page: 643
+  entry: "people of color"
+  kind: existence
+  wrong: "person of color"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use person of color for an individual."
+- source: ap
+  page: 643
+  entry: "people of color"
+  kind: existence
+  wrong: "\\b(?:POC|BIPOC|BAME)\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid these shorthands outside quotations; explain if used."
+- source: ap
+  page: 643
+  entry: "people of color"
+  kind: existence
+  wrong: "Black, Indigenous and people of color|Black, Asian and minority ethnic"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use these combined labels."
+- source: ap
+  page: 643
+  entry: "reverse discrimination"
+  kind: existence
+  wrong: "reverse discrimination"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Limit to quotes; discrimination alone suffices."
+- source: ap
+  page: 643
+  entry: "transracial"
+  kind: existence
+  wrong: "transracial"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use for people adopting a different racial identity."
+- source: ap
+  page: 644
+  entry: "Aborigine"
+  kind: existence
+  wrong: "Aborigines?\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Outdated and offensive to some; avoid."
+- source: ap
+  page: 644
+  entry: "Black"
+  kind: casing
+  wrong: "black(?= (?:people|Americans|culture|literature|studies|colleges|men|women|students|teachers|community|communities|families|voters)\\b)"
+  right: "Black"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize Black as an adjective in a racial or cultural sense."
+- source: ap
+  page: 644
+  entry: "Black(s), white(s)"
+  kind: existence
+  wrong: "\\bBlacks\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use Black as a noun; write Black people."
+- source: ap
+  page: 644
+  entry: "Black"
+  kind: existence
+  wrong: "\\bNegroes?\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use Negro only in organization names or essential quotations."
+- source: ap
+  page: 644
+  entry: "dual heritage / African American"
+  kind: substitution
+  wrong: "African-American"
+  right: "African American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Asian American"
+  kind: substitution
+  wrong: "Asian-American"
+  right: "Asian American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Arab American"
+  kind: substitution
+  wrong: "Arab-American"
+  right: "Arab American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Filipino American"
+  kind: substitution
+  wrong: "Filipino-American"
+  right: "Filipino American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Mexican American"
+  kind: substitution
+  wrong: "Mexican-American"
+  right: "Mexican American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Native American"
+  kind: substitution
+  wrong: "Native-American"
+  right: "Native American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Indian American"
+  kind: substitution
+  wrong: "Indian-American"
+  right: "Indian American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Chinese American"
+  kind: substitution
+  wrong: "Chinese-American"
+  right: "Chinese American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Cuban American"
+  kind: substitution
+  wrong: "Cuban-American"
+  right: "Cuban American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Italian American"
+  kind: substitution
+  wrong: "Italian-American"
+  right: "Italian American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Irish American"
+  kind: substitution
+  wrong: "Irish-American"
+  right: "Irish American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Korean American"
+  kind: substitution
+  wrong: "Korean-American"
+  right: "Korean American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 644
+  entry: "dual heritage / Japanese American"
+  kind: substitution
+  wrong: "Japanese-American"
+  right: "Japanese American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in dual-heritage terms."
+- source: ap
+  page: 647
+  entry: "Orient, Oriental"
+  kind: existence
+  wrong: "\\bOriental\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use for East Asian nations and peoples; use Asian."
+- source: ap
+  page: 647
+  entry: "Asian Pacific Islander"
+  kind: existence
+  wrong: "Asian Pacific Islanders?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid unless referring to Pacific Islanders of Asian descent."
+- source: ap
+  page: 647
+  entry: "AAPI"
+  kind: existence
+  wrong: "\\bAAPI\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Spell out Asian Americans and Pacific Islanders; AAPI only in quotes."
+- source: ap
+  page: 647
+  entry: "anti-Asian sentiment"
+  kind: existence
+  wrong: "anti-Asian sentiment"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Euphemism; name the bias, harassment or violence."
+- source: ap
+  page: 648
+  entry: "Latinx"
+  kind: existence
+  wrong: "Latinx"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Confine to quotations, names or people who request it."
+- source: ap
+  page: 650
+  entry: "language"
+  kind: existence
+  wrong: "\\bsquaws?\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use squaw for Native Americans."
+- source: ap
+  page: 650
+  entry: "language"
+  kind: existence
+  wrong: "Indian summer|Indian giver|circle the wagons|hold down the fort"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid these phrases as casual or disparaging."
+- source: ap
+  page: 650
+  entry: "tipi"
+  kind: substitution
+  wrong: "teepees?"
+  right: "tipi"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spell tipi, not teepee."
+- source: ap
+  page: 650
+  entry: "Indigenous"
+  kind: casing
+  wrong: "indigenous(?= (?:people|peoples|leaders|communities|groups|relations|women|men)\\b)"
+  right: "Indigenous"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize Indigenous for original inhabitants."
+- source: ap
+  page: 651
+  entry: "racket"
+  kind: substitution
+  wrong: "racquet"
+  right: "racket"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell racket, not racquet."
+- source: ap
+  page: 651
+  entry: "racket"
+  kind: substitution
+  wrong: "racquets"
+  right: "rackets"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell rackets, not racquets."
+- source: ap
+  page: 651
+  entry: "radar"
+  kind: casing
+  wrong: "RADAR"
+  right: "radar"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Radar is a lowercase acronym."
+- source: ap
+  page: 652
+  entry: "ranges"
+  kind: existence
+  wrong: "\\$\\d+(?:\\.\\d+)? to \\$\\d+(?:\\.\\d+)? (?:million|billion|trillion)"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Repeat the unit: $12 million to $14 million."
+- source: ap
+  page: 652
+  entry: "rarely"
+  kind: substitution
+  wrong: "rarely ever"
+  right: "rarely"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Rarely ever is redundant; rarely if ever is fine."
+- source: ap
+  page: 652
+  entry: "ratios"
+  kind: existence
+  wrong: "\\d+-to-\\d+ ratio"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Omit to before ratio: a 2-1 ratio."
+- source: ap
+  page: 654
+  entry: "Realtor"
+  kind: substitution
+  wrong: "\\b[Rr]ealtors?\\b"
+  right: "real estate agent"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Real estate agent is preferred; Realtor only for NAR members."
+- source: ap
+  page: 653
+  entry: "rebut, refute"
+  kind: existence
+  wrong: "refut(?:e|es|ed|ing)\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Refute implies success; use deny, dispute, rebut or respond to."
+- source: ap
+  page: 654
+  entry: "recipes"
+  kind: substitution
+  wrong: "\\btsp\\b\\.?"
+  right: "teaspoon"
+  domain: wording
+  fix: safe
+  american: true
+  context: food
+  note: "Do not abbreviate teaspoon in recipes."
+- source: ap
+  page: 654
+  entry: "recipes"
+  kind: substitution
+  wrong: "\\btbsp\\b\\.?"
+  right: "tablespoon"
+  domain: wording
+  fix: safe
+  american: true
+  context: food
+  note: "Do not abbreviate tablespoon in recipes."
+- source: ap
+  page: 654
+  entry: "record"
+  kind: substitution
+  wrong: "new records?"
+  right: "record"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Avoid redundant new record."
+- source: ap
+  page: 654
+  entry: "recur"
+  kind: substitution
+  wrong: "reoccur"
+  right: "recur"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use recur, not reoccur."
+- source: ap
+  page: 654
+  entry: "recur"
+  kind: substitution
+  wrong: "reoccurs"
+  right: "recurs"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use recurs, not reoccurs."
+- source: ap
+  page: 654
+  entry: "recur"
+  kind: substitution
+  wrong: "reoccurred"
+  right: "recurred"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use recurred, not reoccurred."
+- source: ap
+  page: 654
+  entry: "recur"
+  kind: substitution
+  wrong: "reoccurring"
+  right: "recurring"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use recurring, not reoccurring."
+- source: ap
+  page: 655
+  entry: "redneck"
+  kind: existence
+  wrong: "rednecks?\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Derogatory for poor, white, rural people; do not use."
+- source: ap
+  page: 656
+  entry: "referendum"
+  kind: substitution
+  wrong: "referenda"
+  right: "referendums"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is referendums."
+- source: ap
+  page: 656
+  entry: "reign, rein"
+  kind: substitution
+  wrong: "free reign"
+  right: "free rein"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "The idiom is free rein."
+- source: ap
+  page: 656
+  entry: "reign, rein"
+  kind: substitution
+  wrong: "seize the reigns"
+  right: "seize the reins"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "The idiom is seize the reins."
+- source: ap
+  page: 657
+  entry: "Republican Governors Association"
+  kind: substitution
+  wrong: "Republican Governors['’] Association"
+  right: "Republican Governors Association"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No apostrophe in the name."
+- source: ap
+  page: 658
+  entry: "Reserve Officers' Training Corps"
+  kind: substitution
+  wrong: "Reserve Officer['’]s Training Corps|Reserve Officers Training Corps"
+  right: "Reserve Officers’ Training Corps"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Military practice puts the apostrophe after s."
+- source: ap
+  page: 658
+  entry: "Reserve Officers' Training Corps"
+  kind: substitution
+  wrong: "AROTC"
+  right: "Army ROTC"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Army ROTC."
+- source: ap
+  page: 658
+  entry: "Reserve Officers' Training Corps"
+  kind: substitution
+  wrong: "NROTC"
+  right: "Navy ROTC"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Navy ROTC."
+- source: ap
+  page: 658
+  entry: "Reserve Officers' Training Corps"
+  kind: substitution
+  wrong: "AFROTC"
+  right: "Air Force ROTC"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Air Force ROTC."
+- source: ap
+  page: 659
+  entry: "resistible"
+  kind: substitution
+  wrong: "resistable"
+  right: "resistible"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell resistible with -ible."
+- source: ap
+  page: 660
+  entry: "restaurateur"
+  kind: substitution
+  wrong: "restauranteurs?"
+  right: "restaurateur"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell restaurateur without n."
+- source: ap
+  page: 660
+  entry: "Rev."
+  kind: existence
+  wrong: "(?<![Tt]he )Rev\\.(?= [A-Z])"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Precede Rev. with the before a name: the Rev. Jane Doe."
+- source: ap
+  page: 660
+  entry: "Rev."
+  kind: existence
+  wrong: "(?<![Tt]he )Reverend(?= [A-Z])"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use the abbreviation the Rev. before a name, not Reverend."
+- source: ap
+  page: 662
+  entry: "Rhodes scholar"
+  kind: casing
+  wrong: "Rhodes Scholar\\b"
+  right: "Rhodes scholar"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase scholar."
+- source: ap
+  page: 662
+  entry: "Rhodes scholar"
+  kind: casing
+  wrong: "Rhodes Scholarships?\\b"
+  right: "Rhodes scholarship"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase scholarship."
+- source: ap
+  page: 662
+  entry: "right of way"
+  kind: substitution
+  wrong: "right-of-way"
+  right: "right of way"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Headword spells right of way without hyphens."
+- source: ap
+  page: 662
+  entry: "right of way"
+  kind: substitution
+  wrong: "rights-of-way"
+  right: "rights of way"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Plural is rights of way without hyphens."
+- source: ap
+  page: 663
+  entry: "Rio Grande"
+  kind: substitution
+  wrong: "Rio Grande River"
+  right: "Rio Grande"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Rio means river; omit River."
+- source: ap
+  page: 664
+  entry: "rock 'n' roll"
+  kind: substitution
+  wrong: "rock (?:and|n|['’]n|n['’]) roll"
+  right: "rock ’n’ roll"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use rock ’n’ roll with typographic apostrophes."
+- source: ap
+  page: 664
+  entry: "rock 'n' roll"
+  kind: substitution
+  wrong: "Rock and Roll Hall of Fame"
+  right: "Rock & Roll Hall of Fame"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "The institution's name uses an ampersand."
+- source: ap
+  page: 666
+  entry: "roller coaster"
+  kind: substitution
+  wrong: "rollercoasters?"
+  right: "roller coaster"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 666
+  entry: "Rolls-Royce"
+  kind: substitution
+  wrong: "Rolls Royce"
+  right: "Rolls-Royce"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated trademark."
+- source: ap
+  page: 665
+  entry: "Rollerblade"
+  kind: casing
+  wrong: "rollerblades?\\b"
+  right: "Rollerblade"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Rollerblade is a trademark for in-line skates; consider in-line skates generically."
+- source: ap
+  page: 667
+  entry: "Roman numerals"
+  kind: existence
+  wrong: "Super Bowl [IVXLC]{1,6}\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: sports
+  note: "Identify Super Bowls by year, not Roman numeral."
+- source: ap
+  page: 667
+  entry: "Rosh Hashana"
+  kind: substitution
+  wrong: "Rosh Hashanah"
+  right: "Rosh Hashana"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "This guide spells it Rosh Hashana."
+- source: ap
+  page: 668
+  entry: "rubber stamp"
+  kind: substitution
+  wrong: "rubberstamp"
+  right: "rubber-stamp"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate as verb or adjective."
+- source: ap
+  page: 668
+  entry: "runner-up"
+  kind: substitution
+  wrong: "runners? up"
+  right: "runner-up"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate runner-up."
+- source: ap
+  page: 668
+  entry: "runner-up"
+  kind: substitution
+  wrong: "runners up"
+  right: "runners-up"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is runners-up."
+- source: ap
+  page: 668
+  entry: "runner-up"
+  kind: substitution
+  wrong: "runner-ups"
+  right: "runners-up"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is runners-up."
+- source: ap
+  page: 671
+  entry: "saint"
+  kind: existence
+  wrong: "Saint (?!John\\b)(?=[A-Z])"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviate Saint as St. in saints' and place names, except Saint John."
+- source: ap
+  page: 672
+  entry: "salable"
+  kind: substitution
+  wrong: "saleable"
+  right: "salable"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell salable."
+- source: ap
+  page: 672
+  entry: "salvo"
+  kind: substitution
+  wrong: "salvoes"
+  right: "salvos"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is salvos."
+- source: ap
+  page: 672
+  entry: "Sanaa"
+  kind: substitution
+  wrong: "San['’]a\\b|Sana['’]a\\b"
+  right: "Sanaa"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell the Yemen capital Sanaa."
+- source: ap
+  page: 672
+  entry: "S&P 500"
+  kind: substitution
+  wrong: "S ?& ?P ?500|S and P 500|S&P500"
+  right: "S&P 500"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write S&P 500."
+- source: ap
+  page: 673
+  entry: "Saskatchewan"
+  kind: substitution
+  wrong: "Sask\\."
+  right: "Saskatchewan"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not abbreviate Saskatchewan."
+- source: ap
+  page: 673
+  entry: "Satan"
+  kind: casing
+  wrong: "(?<=[a-z,] )Devil\\b"
+  right: "devil"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase devil and satanic."
+- source: ap
+  page: 673
+  entry: "Satan"
+  kind: casing
+  wrong: "(?<=[a-z,] )Satanic\\b"
+  right: "satanic"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase satanic."
+- source: ap
+  page: 673
+  entry: "Saudi Arabia"
+  kind: substitution
+  wrong: "Saudi Arabian (?=(?:diplomacy|officials?|government|culture|people|economy|monarchy)\\b)"
+  right: "Saudi "
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use Saudi as the adjective."
+- source: ap
+  page: 673
+  entry: "Sault Ste. Marie"
+  kind: substitution
+  wrong: "Sault St\\. Marie"
+  right: "Sault Ste. Marie"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Ste. not St. in Sault Ste. Marie."
+- source: ap
+  page: 675
+  entry: "home schooling"
+  kind: substitution
+  wrong: "homeschooling"
+  right: "home schooling"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words for the noun home schooling."
+- source: ap
+  page: 675
+  entry: "home-schooler"
+  kind: substitution
+  wrong: "homeschoolers?"
+  right: "home-schooler"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate home-schooler."
+- source: ap
+  page: 675
+  entry: "home-schooled"
+  kind: substitution
+  wrong: "homeschooled"
+  right: "home-schooled"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate home-schooled."
+- source: ap
+  page: 675
+  entry: "home-school"
+  kind: substitution
+  wrong: "homeschool"
+  right: "home-school"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate the verb home-school."
+- source: ap
+  page: 676
+  entry: "Scotch tape"
+  kind: casing
+  wrong: "scotch tape"
+  right: "Scotch tape"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Scotch tape is a trademark; consider transparent tape generically."
+- source: ap
+  page: 676
+  entry: "Scot, Scots, Scottish"
+  kind: existence
+  wrong: "Scotch (?:people|man|men|woman|women)\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "The people are Scots or Scottish, not Scotch."
+- source: ap
+  page: 679
+  entry: "scuba"
+  kind: casing
+  wrong: "SCUBA"
+  right: "scuba"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Lowercase acronym."
+- source: ap
+  page: 679
+  entry: "seat belt"
+  kind: substitution
+  wrong: "seatbelt"
+  right: "seat belt"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 679
+  entry: "seat belt"
+  kind: substitution
+  wrong: "seatbelts"
+  right: "seat belts"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 680
+  entry: "secretary-general"
+  kind: substitution
+  wrong: "secretary general"
+  right: "secretary-general"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate secretary-general."
+- source: ap
+  page: 680
+  entry: "secretary-general"
+  kind: substitution
+  wrong: "Secretary General"
+  right: "Secretary-General"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate Secretary-General."
+- source: ap
+  page: 680
+  entry: "secretary-treasurer"
+  kind: substitution
+  wrong: "secretary treasurer"
+  right: "secretary-treasurer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate secretary-treasurer."
+- source: ap
+  page: 681
+  entry: "Securities and Exchange Commission"
+  kind: substitution
+  wrong: "Securities and Exchange Act"
+  right: "Securities Exchange Act"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "The act's name has no and."
+- source: ap
+  page: 681
+  entry: "self-"
+  kind: existence
+  wrong: "\\bself ?(?=(?:assured|defense|government|esteem|control|confidence|employed|made|help|service|serving|aware|conscious|centered|driving|taught|sufficient|sustaining|inflicted|destructive|evident|interest|respect|worth|determination|image|published|storage|reliance|reliant|righteous|restraint|doubt|discipline|improvement|care)\\b)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Always hyphenate self- compounds."
+- source: ap
+  page: 682
+  entry: "semi-"
+  kind: substitution
+  wrong: "semi-final"
+  right: "semifinal"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen after semi- in general."
+- source: ap
+  page: 682
+  entry: "semi-"
+  kind: substitution
+  wrong: "semi-finals"
+  right: "semifinals"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen after semi- in general."
+- source: ap
+  page: 683
+  entry: "semi-"
+  kind: substitution
+  wrong: "semi-official"
+  right: "semiofficial"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen after semi- in general."
+- source: ap
+  page: 684
+  entry: "semi-"
+  kind: substitution
+  wrong: "semi-tropical"
+  right: "semitropical"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen after semi- in general."
+- source: ap
+  page: 684
+  entry: "semiannual"
+  kind: substitution
+  wrong: "semi-annual"
+  right: "semiannual"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen in semiannual."
+- source: ap
+  page: 684
+  entry: "semitrailer"
+  kind: substitution
+  wrong: "semi-trailer"
+  right: "semitrailer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write semitrailer solid."
+- source: ap
+  page: 684
+  entry: "semitrailer"
+  kind: substitution
+  wrong: "semi-tractor trailer|semi tractor-trailer|semi-tractor-trailer"
+  right: "semitractor-trailer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use semitractor-trailer."
+- source: ap
+  page: 684
+  entry: "senatorial"
+  kind: casing
+  wrong: "(?<=[a-z,] )Senatorial"
+  right: "senatorial"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Always lowercase senatorial."
+- source: ap
+  page: 684
+  entry: "sentences"
+  kind: substitution
+  wrong: "(?<=[.?!])[ ]{2,}(?=[\"“]?[A-Z])"
+  right: " "
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Use a single space between sentences."
+- source: ap
+  page: 686
+  entry: "sewage"
+  kind: substitution
+  wrong: "sewerage"
+  right: "sewage"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use sewage for both waste and the system."
+- source: ap
+  page: 687
+  entry: "sexual abuse, sexual assault"
+  kind: existence
+  wrong: "alleged victims?"
+  domain: wording
+  fix: none
+  american: true
+  context: legal
+  note: "Avoid alleged victim; call the person the accuser until conviction."
+- source: ap
+  page: 688
+  entry: "sergeant-at-arms"
+  kind: substitution
+  wrong: "sergeant at arms"
+  right: "sergeant-at-arms"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate sergeant-at-arms."
+- source: ap
+  page: 688
+  entry: "sergeant-at-arms"
+  kind: substitution
+  wrong: "sergeants at arms"
+  right: "sergeants-at-arms"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate sergeants-at-arms."
+- source: ap
+  page: 691
+  entry: "should, would"
+  kind: existence
+  wrong: "\\bif\\b[^,.;]{1,40}\\bwould (?:not )?have\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "In conditional past, use had in the if clause, not would have."
+- source: ap
+  page: 692
+  entry: "shake-up"
+  kind: substitution
+  wrong: "shakeup"
+  right: "shake-up"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate the noun shake-up."
+- source: ap
+  page: 692
+  entry: "Sinai"
+  kind: substitution
+  wrong: "the Sinai(?! (?:Desert|Peninsula))"
+  right: "Sinai"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Not the Sinai on its own."
+- source: ap
+  page: 693
+  entry: "Sierra Nevada"
+  kind: substitution
+  wrong: "Sierra Nevada [Mm]ountains?(?: [Rr]ange)?"
+  right: "Sierra Nevada"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Sierra means mountain range; omit mountains."
+- source: ap
+  page: 693
+  entry: "sizable"
+  kind: substitution
+  wrong: "sizeable"
+  right: "sizable"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell sizable."
+- source: ap
+  page: 693
+  entry: "skillful"
+  kind: substitution
+  wrong: "skilful"
+  right: "skillful"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell skillful."
+- source: ap
+  page: 693
+  entry: "SMS"
+  kind: existence
+  wrong: "\\bSMS\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Text messaging is preferred."
+- source: ap
+  page: 693
+  entry: "smart devices"
+  kind: existence
+  wrong: "smart(?:TVs?|tvs?|locks?|homes?|cit(?:y|ies)|thermostats?|refrigerators?|appliances?|devices?)\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use two words for smart devices except smartphone and smartwatch."
+- source: ap
+  page: 694
+  entry: "Smithsonian Institution"
+  kind: substitution
+  wrong: "Smithsonian Institute"
+  right: "Smithsonian Institution"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "It is an Institution."
+- source: ap
+  page: 695
+  entry: "smokejumper"
+  kind: substitution
+  wrong: "smoke[ -]jumpers?"
+  right: "smokejumper"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word, lowercase."
+- source: ap
+  page: 695
+  entry: "Smokey"
+  kind: substitution
+  wrong: "Smokey the Bear"
+  right: "Smokey Bear"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Smokey or Smokey Bear."
+- source: ap
+  page: 695
+  entry: "sneaked"
+  kind: substitution
+  wrong: "snuck"
+  right: "sneaked"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Sneaked is the preferred past tense."
+- source: ap
+  page: 695
+  entry: "snowdrift"
+  kind: existence
+  wrong: "(?i:snow[ -](?:drift|fall|flake|man|plow|shoe|storm|suit)s?)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Snow compounds are solid words."
+- source: ap
+  page: 695
+  entry: "so-called"
+  kind: existence
+  wrong: "so-called\\s+[\"“‘']"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not put quotation marks after so-called."
+- source: ap
+  page: 696
+  entry: "Social Security"
+  kind: casing
+  wrong: "social security(?! program)"
+  right: "Social Security"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize Social Security for the U.S. system."
+- source: ap
+  page: 697
+  entry: "Somali"
+  kind: substitution
+  wrong: "Somalian"
+  right: "Somali"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Somali, not Somalian."
+- source: ap
+  page: 699
+  entry: "space shuttle"
+  kind: casing
+  wrong: "(?<=[a-z,] )Space Shuttle"
+  right: "space shuttle"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase space shuttle; capitalize the orbiter name."
+- source: ap
+  page: 699
+  entry: "spacecraft"
+  kind: existence
+  wrong: "space (?:craft|ship|suit|walk)s?\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spacecraft, spaceship, spacesuit, spacewalk are solid."
+- source: ap
+  page: 700
+  entry: "special needs"
+  kind: existence
+  wrong: "special needs|special education"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid these euphemisms; be specific about services."
+- source: ap
+  page: 699
+  entry: "spam"
+  kind: casing
+  wrong: "Spam(?= (?:e-?mail|filters?|folders?|messages?|calls?))"
+  right: "spam"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase spam for unsolicited bulk email; Spam is the canned meat."

@@ -7,3 +7,5 @@ tokens:
   - 'not only [^.,;]{1,40},? but also'
   - "isn't about [^.]{1,40}\\. It's about"
   - "(?:it's|this is|that's) not (?:a |an |the )?\\w+, (?:it's|it is)"
+  - "(?:is|are|was|were)(?:n't| not) (?:just |only |merely |simply )?(?:a |an |the )?[^.,;:]{1,40}(?:,|;|\\s*--|\\s*—)\\s*(?:it|they|this|that)(?:'s|’s| is| are|'re|’re)"
+  - "(?:It's|It is|This is|That's) not (?:about|that) [^.]{1,60}\\. (?:It's|It is|This is)"

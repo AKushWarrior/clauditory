@@ -1,0 +1,1003 @@
+- source: oxford
+  page: 66
+  entry: accommodation
+  kind: substitution
+  wrong: accomodation
+  right: accommodation
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Common misspelling, not an acceptable variant.
+- source: oxford
+  page: 66
+  entry: millennium
+  kind: substitution
+  wrong: millenium
+  right: millennium
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Common misspelling, not an acceptable variant.
+- source: oxford
+  page: 66
+  entry: millennium
+  kind: substitution
+  wrong: millenia
+  right: millennia
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Misspelled plural; double n as in millennium.
+- source: oxford
+  page: 66
+  entry: caviar
+  kind: substitution
+  wrong: caviare
+  right: caviar
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Current Oxford spelling is caviar.
+- source: oxford
+  page: 80
+  entry: cooperate
+  kind: existence
+  wrong: co-operat(e|es|ed|ing|ion|ive|ives)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Cooperate is written solid.
+- source: oxford
+  page: 80
+  entry: coordinate
+  kind: existence
+  wrong: co-ordinat(e|es|ed|ing|ion|or|ors)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Coordinate is written solid.
+- source: oxford
+  page: 80
+  entry: microorganism
+  kind: substitution
+  wrong: micro-organism
+  right: microorganism
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Written solid.
+- source: oxford
+  page: 80
+  entry: microorganism
+  kind: substitution
+  wrong: micro-organisms
+  right: microorganisms
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Written solid.
+- source: oxford
+  page: 80
+  entry: preoperative
+  kind: substitution
+  wrong: pre-operative
+  right: preoperative
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Closed to match postoperative.
+- source: oxford
+  page: 80
+  entry: email
+  kind: substitution
+  wrong: e-mail
+  right: email
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Email is commonly one word.
+- source: oxford
+  page: 80
+  entry: email
+  kind: substitution
+  wrong: e-mails
+  right: emails
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Email is commonly one word.
+- source: oxford
+  page: 80
+  entry: website
+  kind: substitution
+  wrong: web[ -]site
+  right: website
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Website is one word; web page stays two words.
+- source: oxford
+  page: 80
+  entry: website
+  kind: substitution
+  wrong: web[ -]sites
+  right: websites
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Website is one word.
+- source: oxford
+  page: 80
+  entry: ebook
+  kind: substitution
+  wrong: e-book
+  right: ebook
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Ebook gaining ground over e-book; other e- terms like e-learning stay hyphenated.
+- source: oxford
+  page: 80
+  entry: ebook
+  kind: substitution
+  wrong: e-books
+  right: ebooks
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Ebook gaining ground over e-book.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: foetus
+  right: fetus
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: foetal
+  right: fetal
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: oestrogen
+  right: estrogen
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: leukaemia
+  right: leukemia
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: haemoglobin
+  right: hemoglobin
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: haematology
+  right: hematology
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: anaemia
+  right: anemia
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: anaemic
+  right: anemic
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: anaesthetic
+  right: anesthetic
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: anaesthesia
+  right: anesthesia
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: diarrhoea
+  right: diarrhea
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: oedema
+  right: edema
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: paediatric
+  right: pediatric
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: orthopaedic
+  right: orthopedic
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 70
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: encyclopaedia
+  right: encyclopedia
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 70
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: mediaeval
+  right: medieval
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe.
+- source: oxford
+  page: 67
+  entry: ae/oe spelling
+  kind: substitution
+  wrong: archaeology
+  right: archeology
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: US spelling uses plain e for ae/oe; archaeology often kept.
+- source: oxford
+  page: 67
+  entry: -ense
+  kind: substitution
+  wrong: defence
+  right: defense
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US spells -ense.
+- source: oxford
+  page: 67
+  entry: -ense
+  kind: substitution
+  wrong: offence
+  right: offense
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US spells -ense.
+- source: oxford
+  page: 67
+  entry: -ense
+  kind: substitution
+  wrong: pretence
+  right: pretense
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US spells -ense.
+- source: oxford
+  page: 70
+  entry: -ense
+  kind: substitution
+  wrong: defences
+  right: defenses
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US spells -ense.
+- source: oxford
+  page: 70
+  entry: -ense
+  kind: substitution
+  wrong: offences
+  right: offenses
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US spells -ense.
+- source: oxford
+  page: 67
+  entry: licence
+  kind: substitution
+  wrong: licence
+  right: license
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US uses license for noun and verb.
+- source: oxford
+  page: 67
+  entry: licence
+  kind: substitution
+  wrong: licences
+  right: licenses
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US uses license for noun and verb.
+- source: oxford
+  page: 70
+  entry: practise
+  kind: substitution
+  wrong: practise
+  right: practice
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: British verb spelling; US uses practice for noun and verb.
+- source: oxford
+  page: 70
+  entry: practise
+  kind: substitution
+  wrong: practised
+  right: practiced
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US uses practice for verb forms.
+- source: oxford
+  page: 70
+  entry: practise
+  kind: substitution
+  wrong: practising
+  right: practicing
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US uses practice for verb forms.
+- source: oxford
+  page: 67
+  entry: -er for -re
+  kind: existence
+  wrong: (centre|calibre|fibre|litre|sombre|spectre|sceptre|mitre|lustre|meagre|ochre|centres|fibres|litres|calibres)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: US -er endings (center, caliber, fiber, liter); proper names keep -re.
+- source: oxford
+  page: 67
+  entry: maneuver
+  kind: substitution
+  wrong: manoeuvre
+  right: maneuver
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling maneuver.
+- source: oxford
+  page: 67
+  entry: maneuver
+  kind: substitution
+  wrong: manoeuvres
+  right: maneuvers
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: US spelling maneuver.
+- source: oxford
+  page: 67
+  entry: skeptic
+  kind: existence
+  wrong: scepti(c|cs|cal|cism)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'US spells with k: skeptic.'
+- source: oxford
+  page: 67
+  entry: mollusk
+  kind: substitution
+  wrong: molluscs?
+  right: mollusk
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: US spells mollusk; plural needs s kept.
+- source: oxford
+  page: 67
+  entry: -ll
+  kind: substitution
+  wrong: appal
+  right: appall
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US doubles the l.
+- source: oxford
+  page: 67
+  entry: -ll
+  kind: substitution
+  wrong: fulfil
+  right: fulfill
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US doubles the l.
+- source: oxford
+  page: 67
+  entry: -ll
+  kind: substitution
+  wrong: distil
+  right: distill
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US doubles the l.
+- source: oxford
+  page: 67
+  entry: -ll
+  kind: substitution
+  wrong: enrol
+  right: enroll
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US doubles the l.
+- source: oxford
+  page: 67
+  entry: -ou- to -o-
+  kind: existence
+  wrong: (mould|moult|smoulder)(s|ed|ing|y)?
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'US drops u: mold, molt, smolder.'
+- source: oxford
+  page: 67
+  entry: -our
+  kind: existence
+  wrong: (colou|honou|labou|neighbou|harbou|favou|flavou|humou|rumou|vigou|odou|tumou|behaviou|armou|endeavou|rigou|valou|clamou|fervou|saviou|vapou)r(s|ed|ing|ful|able|ably|ite|ites|less|er|ers|hood)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: US spells -or; fix none because names like Labour Party keep -our.
+- source: oxford
+  page: 67
+  entry: cozy
+  kind: substitution
+  wrong: cosy
+  right: cozy
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US z spelling.
+- source: oxford
+  page: 67
+  entry: -ize
+  kind: existence
+  wrong: (organ|recogn|real|critic|summar|minim|maxim|util|final|author|apolog|categor|character|custom|democrat|familiar|general|hospital|ideal|legal|local|mobil|modern|neutral|normal|optim|priorit|special|standard|stabil|symbol|synchron|visual|capital|central|colon|digit|harmon|emphas|fertil|memor|sympath|privat|institution|rational|nation|national|civil|equal|fantas|monopol|patron|polar|popular|vandal|vocal|urban|sanit|personal|material|commercial|individual|industrial|social|spiritual)is(e|es|ed|ing|ation|ations|er|ers)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Oxford and US use -ize; -ise is only a British variant.
+- source: oxford
+  page: 67
+  entry: -ise obligatory
+  kind: existence
+  wrong: (advertiz|adviz|appriz|chastiz|circumciz|compriz|compromiz|demiz|deviz|disguiz|disenfranchiz|despiz|enfranchiz|enterpriz|exerciz|exciz|improviz|inciz|merchandiz|premiz|surmiz|surpriz|reviz|superviz|televiz)(e|es|ed|ing)
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Words like advise, exercise, surprise must end -ise in US and British English.
+- source: oxford
+  page: 67
+  entry: -yze
+  kind: existence
+  wrong: (analys|paralys|catalys|electrolys|hydrolys|dialys)(e|ed|ing)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US uses -yze (analyze, paralyze).
+- source: oxford
+  page: 69
+  entry: -ment
+  kind: substitution
+  wrong: abridgement
+  right: abridgment
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US drops the e before -ment.
+- source: oxford
+  page: 69
+  entry: -ment
+  kind: substitution
+  wrong: acknowledgement
+  right: acknowledgment
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US drops the e before -ment.
+- source: oxford
+  page: 69
+  entry: -ment
+  kind: substitution
+  wrong: acknowledgements
+  right: acknowledgments
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US drops the e before -ment.
+- source: oxford
+  page: 69
+  entry: -ment
+  kind: substitution
+  wrong: judgement
+  right: judgment
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Judgment is US form and the legal form in Britain.
+- source: oxford
+  page: 69
+  entry: -ment
+  kind: substitution
+  wrong: judgements
+  right: judgments
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Judgment is US form and the legal form in Britain.
+- source: oxford
+  page: 68
+  entry: -able
+  kind: substitution
+  wrong: blameable
+  right: blamable
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US drops the silent e before -able.
+- source: oxford
+  page: 68
+  entry: -able
+  kind: substitution
+  wrong: likeable
+  right: likable
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US drops the silent e before -able.
+- source: oxford
+  page: 68
+  entry: -able
+  kind: substitution
+  wrong: sizeable
+  right: sizable
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US drops the silent e before -able.
+- source: oxford
+  page: 69
+  entry: -log
+  kind: substitution
+  wrong: analogue
+  right: analog
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: US usually ends -log; analogue can be fine as noun in some uses.
+- source: oxford
+  page: 69
+  entry: -log
+  kind: substitution
+  wrong: catalogue
+  right: catalog
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US usually ends -log.
+- source: oxford
+  page: 70
+  entry: -ae-
+  kind: substitution
+  wrong: encyclopaedia
+  right: encyclopedia
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Superseded by encyclopedia; avoid the ligature.
+- source: oxford
+  page: 71
+  entry: verb doubling
+  kind: existence
+  wrong: (travel|grovel|tunnel|label|model|cancel|signal|fuel|channel|counsel|level|marvel|rival|dial|jewel|pedal|shovel|swivel)l(ed|ing|er|ers)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US doubles final l only when stress falls on final syllable.
+- source: oxford
+  page: 71
+  entry: cruel
+  kind: existence
+  wrong: cruell(er|est)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'US single l: crueler, cruelest.'
+- source: oxford
+  page: 72
+  entry: instalment
+  kind: substitution
+  wrong: instalment
+  right: installment
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US doubles the l; install doubles in both.
+- source: oxford
+  page: 72
+  entry: ageing
+  kind: substitution
+  wrong: ageing
+  right: aging
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US drops the e; British keeps it.
+- source: oxford
+  page: 72
+  entry: earned
+  kind: substitution
+  wrong: earnt
+  right: earned
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Past of earn is always earned.
+- source: oxford
+  page: 72
+  entry: dealt
+  kind: substitution
+  wrong: dealed
+  right: dealt
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Past of deal is dealt.
+- source: oxford
+  page: 72
+  entry: learned
+  kind: substitution
+  wrong: learnt
+  right: learned
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: The -t past forms are British alternatives.
+- source: oxford
+  page: 72
+  entry: burned
+  kind: substitution
+  wrong: burnt
+  right: burned
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: British alternative past; burnt as adjective may be fine.
+- source: oxford
+  page: 72
+  entry: focused
+  kind: existence
+  wrong: focuss(ed|ing)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Single s is the standard form; double s only an alternative.
+- source: oxford
+  page: 74
+  entry: formulas
+  kind: substitution
+  wrong: formulae
+  right: formulas
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Formulas is now more common, even in technical contexts.
+- source: oxford
+  page: 74
+  entry: stadiums
+  kind: substitution
+  wrong: stadia
+  right: stadiums
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Prefer English plural unless dealing with the ancient world.
+- source: oxford
+  page: 74
+  entry: forums
+  kind: substitution
+  wrong: fora
+  right: forums
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Prefer English plural unless dealing with the ancient world.
+- source: oxford
+  page: 78
+  entry: -ly adverb compounds
+  kind: existence
+  wrong: (newly|highly|widely|recently|freely|fully|heavily|poorly|happily|badly|loosely|tightly|densely|finely|closely|clearly|deeply|largely|partly|properly|quickly|slowly|rapidly|strongly|carefully|beautifully|brightly|brilliantly|commonly|critically|environmentally|eagerly|easily|publicly|severely|significantly|fundamentally|socially|politically|technically|historically|financially|typically|usually|mostly|greatly|vastly|wildly|richly|softly|wisely|poorly|barely|merely|deliberately|carelessly)-(?=[a-z])
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: No hyphen after an -ly adverb in compound modifiers.
+- source: oxford
+  page: 81
+  entry: compass points
+  kind: substitution
+  wrong: north-east
+  right: northeast
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US writes compass points solid.
+- source: oxford
+  page: 81
+  entry: compass points
+  kind: substitution
+  wrong: north-west
+  right: northwest
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US writes compass points solid.
+- source: oxford
+  page: 81
+  entry: compass points
+  kind: substitution
+  wrong: south-east
+  right: southeast
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US writes compass points solid.
+- source: oxford
+  page: 81
+  entry: compass points
+  kind: substitution
+  wrong: south-west
+  right: southwest
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: US writes compass points solid.
+- source: oxford
+  page: 81
+  entry: compound numbers
+  kind: existence
+  wrong: (?i)(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety) (one|two|three|four|five|six|seven|eight|nine)(?!-)
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate spelled-out numbers 21 to 99.
+- source: oxford
+  page: 63
+  entry: spacing
+  kind: existence
+  wrong: (?<=[.!?:;]) {2,}(?=\S)
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Use a single space after sentence punctuation; not a double space.
+- source: oxford
+  page: 88
+  entry: possessive pronouns
+  kind: existence
+  wrong: (your|our|their|her)['’]s
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Possessive pronouns hers, ours, yours, theirs take no apostrophe.
+- source: oxford
+  page: 89
+  entry: Hundred Years War
+  kind: substitution
+  wrong: Hundred Years['’] War
+  right: Hundred Years War
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: No apostrophe in names of wars known by length.
+- source: oxford
+  page: 90
+  entry: plurals
+  kind: existence
+  wrong: (1[0-9]|20)\d0['’]s
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: 'Decades take no apostrophe: 1990s.'
+- source: oxford
+  page: 90
+  entry: plurals
+  kind: existence
+  wrong: (CDs?|DVD|PC|MP3|URL|FAQ|PDF|API|TV)['’]s
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: No apostrophe in plurals of abbreviations; possessives are legitimate, so check manually.
+- source: oxford
+  page: 97
+  entry: i.e./e.g.
+  kind: existence
+  wrong: (i\.e|e\.g)\.\s+\w
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Oxford omits comma after i.e. and e.g.; US usage adds one.
+- source: oxford
+  page: 98
+  entry: colon
+  kind: existence
+  wrong: :\s?[—–-]+\s?\w
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Avoid colon followed by dash to introduce a list.

@@ -1,0 +1,2391 @@
+# Oxford chunk 0401-0500. PDF page = printed page + 18.
+# --- New Hart's Rules ch.19 (indexing) ---
+- source: oxford
+  page: 412
+  entry: "Number references (ff.)"
+  kind: existence
+  wrong: "\\d+\\s*ff?(?=\\.)"
+  domain: grammar
+  fix: none
+  american: true
+  context: indexing
+  note: "In index locators avoid f. and ff.; give first and last page instead."
+- source: oxford
+  page: 412
+  entry: "Number references (passim)"
+  kind: existence
+  wrong: "passim"
+  domain: wording
+  fix: none
+  american: true
+  context: indexing
+  note: "Avoid passim in index locators; cite the page extent."
+
+# --- New Hart's Rules ch.21 (US and British English); right-hand side is the US form ---
+- source: oxford
+  page: 425
+  entry: "21.2.2 Colon (time)"
+  kind: existence
+  wrong: "\\d{1,2}\\.\\d{2}\\s?(?:am|pm|a\\.m\\.|p\\.m\\.)"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "US style separates hours and minutes with a colon (5:23), not a full point."
+- source: oxford
+  page: 432
+  entry: "21.4.4 Abbreviations (Mr)"
+  kind: substitution
+  wrong: "Mr(?=\\s+[A-Z])"
+  right: "Mr."
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "US English puts a full point after contractions such as Mr."
+- source: oxford
+  page: 432
+  entry: "21.4.4 Abbreviations (Mrs)"
+  kind: substitution
+  wrong: "Mrs(?=\\s+[A-Z])"
+  right: "Mrs."
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "US English puts a full point after contractions such as Mrs."
+- source: oxford
+  page: 432
+  entry: "21.4.4 Abbreviations (Ms)"
+  kind: substitution
+  wrong: "Ms(?=\\s+[A-Z])"
+  right: "Ms."
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "US English puts a full point after contractions such as Ms."
+- source: oxford
+  page: 432
+  entry: "21.4.4 Abbreviations (Dr)"
+  kind: substitution
+  wrong: "Dr(?=\\s+[A-Z])"
+  right: "Dr."
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "US English puts a full point after contractions such as Dr."
+- source: oxford
+  page: 432
+  entry: "21.4.4 Abbreviations (St)"
+  kind: substitution
+  wrong: "St(?=\\s+[A-Z])"
+  right: "St."
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "US English puts a full point after St. in names."
+- source: oxford
+  page: 432
+  entry: "21.4.4 Aids"
+  kind: casing
+  wrong: "Aids"
+  right: "AIDS"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "US English writes the disease name AIDS; British text often uses Aids."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 axe"
+  kind: substitution
+  wrong: "axe"
+  right: "ax"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "US spelling ax (axe is also common in US use)."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 behove"
+  kind: substitution
+  wrong: "behove"
+  right: "behoove"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling behoove."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 calliper"
+  kind: substitution
+  wrong: "calliper"
+  right: "caliper"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling caliper."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 carburettor"
+  kind: substitution
+  wrong: "carburettor"
+  right: "carburetor"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling carburetor."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 chequered"
+  kind: substitution
+  wrong: "chequered"
+  right: "checkered"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling checkered."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 chilli"
+  kind: substitution
+  wrong: "chilli"
+  right: "chili"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling chili."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 gelatine"
+  kind: substitution
+  wrong: "gelatine"
+  right: "gelatin"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling gelatin."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 glycerine"
+  kind: substitution
+  wrong: "glycerine"
+  right: "glycerin"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling glycerin."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 grandad"
+  kind: substitution
+  wrong: "grandad"
+  right: "granddad"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling granddad."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 jewellery"
+  kind: substitution
+  wrong: "jewellery"
+  right: "jewelry"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling jewelry."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 liquorice"
+  kind: substitution
+  wrong: "liquorice"
+  right: "licorice"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling licorice."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 manoeuvre"
+  kind: substitution
+  wrong: "manoeuvre"
+  right: "maneuver"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling maneuver."
+- source: oxford
+  page: 429
+  entry: "Table 21.1 moustache"
+  kind: substitution
+  wrong: "moustache"
+  right: "mustache"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling mustache."
+- source: oxford
+  page: 430
+  entry: "Table 21.1 noviciate"
+  kind: substitution
+  wrong: "noviciate"
+  right: "novitiate"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling novitiate."
+- source: oxford
+  page: 430
+  entry: "Table 21.1 pyjamas"
+  kind: substitution
+  wrong: "pyjamas"
+  right: "pajamas"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling pajamas."
+- source: oxford
+  page: 430
+  entry: "Table 21.1 pedlar"
+  kind: substitution
+  wrong: "pedlar"
+  right: "peddler"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling peddler."
+- source: oxford
+  page: 430
+  entry: "Table 21.1 phoney"
+  kind: substitution
+  wrong: "phoney"
+  right: "phony"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling phony."
+- source: oxford
+  page: 430
+  entry: "Table 21.1 pitta bread"
+  kind: substitution
+  wrong: "pitta bread"
+  right: "pita bread"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling pita bread."
+- source: oxford
+  page: 430
+  entry: "Table 21.1 plough"
+  kind: substitution
+  wrong: "plough"
+  right: "plow"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling plow."
+- source: oxford
+  page: 430
+  entry: "Table 21.1 podgy"
+  kind: substitution
+  wrong: "podgy"
+  right: "pudgy"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling pudgy."
+- source: oxford
+  page: 430
+  entry: "Table 21.1 racoon"
+  kind: substitution
+  wrong: "racoon"
+  right: "raccoon"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling raccoon."
+- source: oxford
+  page: 430
+  entry: "Table 21.1 tartare sauce"
+  kind: substitution
+  wrong: "tartare sauce"
+  right: "tartar sauce"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling tartar sauce."
+- source: oxford
+  page: 430
+  entry: "Sulphur spelling"
+  kind: substitution
+  wrong: "sulphur"
+  right: "sulfur"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling sulfur (also IUPAC form)."
+- source: oxford
+  page: 430
+  entry: "Sulphide spelling"
+  kind: substitution
+  wrong: "sulphide"
+  right: "sulfide"
+  domain: wording
+  fix: safe
+  american: true
+  context: science
+  note: "US and IUPAC spelling sulfide."
+- source: oxford
+  page: 430
+  entry: "Sulphate spelling"
+  kind: substitution
+  wrong: "sulphate"
+  right: "sulfate"
+  domain: wording
+  fix: safe
+  american: true
+  context: science
+  note: "US and IUPAC spelling sulfate."
+- source: oxford
+  page: 430
+  entry: "Table 21.2 kerb"
+  kind: substitution
+  wrong: "kerb"
+  right: "curb"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling curb for the edge of a road."
+- source: oxford
+  page: 431
+  entry: "Table 21.2 storey"
+  kind: substitution
+  wrong: "storey"
+  right: "story"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling story for a building level."
+- source: oxford
+  page: 431
+  entry: "Table 21.2 programme"
+  kind: substitution
+  wrong: "programme"
+  right: "program"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "US spelling program for all senses."
+- source: oxford
+  page: 431
+  entry: "Table 21.2 metre"
+  kind: substitution
+  wrong: "metre"
+  right: "meter"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "US spelling meter for the metric unit; metre in poetry is separate."
+- source: oxford
+  page: 430
+  entry: "Table 21.2 cheque"
+  kind: substitution
+  wrong: "cheque"
+  right: "check"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US spelling check for a bank order."
+- source: oxford
+  page: 431
+  entry: "21.4.3 Compound words (percent)"
+  kind: substitution
+  wrong: "per cent"
+  right: "percent"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US writes percent as one word."
+- source: oxford
+  page: 431
+  entry: "21.4.3 no one"
+  kind: substitution
+  wrong: "no-one"
+  right: "no one"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US always writes no one as two words."
+- source: oxford
+  page: 431
+  entry: "21.4.3 northeast"
+  kind: substitution
+  wrong: "north-east"
+  right: "northeast"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US writes intermediate compass directions solid."
+- source: oxford
+  page: 431
+  entry: "21.4.3 northwest"
+  kind: substitution
+  wrong: "north-west"
+  right: "northwest"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US writes intermediate compass directions solid."
+- source: oxford
+  page: 431
+  entry: "21.4.3 southeast"
+  kind: substitution
+  wrong: "south-east"
+  right: "southeast"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US writes intermediate compass directions solid."
+- source: oxford
+  page: 431
+  entry: "21.4.3 southwest"
+  kind: substitution
+  wrong: "south-west"
+  right: "southwest"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US writes intermediate compass directions solid."
+- source: oxford
+  page: 431
+  entry: "21.4.3 antinuclear"
+  kind: substitution
+  wrong: "anti-nuclear"
+  right: "antinuclear"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US closes up anti- compounds."
+- source: oxford
+  page: 431
+  entry: "21.4.3 noninvasive"
+  kind: substitution
+  wrong: "non-invasive"
+  right: "noninvasive"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US closes up non- compounds."
+- source: oxford
+  page: 431
+  entry: "21.4.3 semitrailer"
+  kind: substitution
+  wrong: "semi-trailer"
+  right: "semitrailer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US closes up semi- compounds."
+- source: oxford
+  page: 432
+  entry: "21.5.1 aubergine"
+  kind: substitution
+  wrong: "aubergine"
+  right: "eggplant"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US word for aubergine."
+- source: oxford
+  page: 432
+  entry: "21.5.1 nappy"
+  kind: substitution
+  wrong: "nappy"
+  right: "diaper"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US word for nappy."
+- source: oxford
+  page: 432
+  entry: "21.5.1 nappies"
+  kind: substitution
+  wrong: "nappies"
+  right: "diapers"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US word for nappies."
+- source: oxford
+  page: 427
+  entry: "21.3.3 nought"
+  kind: substitution
+  wrong: "nought"
+  right: "zero"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "US English uses zero, or nothing for sports scores."
+- source: oxford
+  page: 435
+  entry: "21.5.3 learnt"
+  kind: substitution
+  wrong: "learnt"
+  right: "learned"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "US replaces -t participles with -ed forms."
+- source: oxford
+  page: 435
+  entry: "21.5.3 leant"
+  kind: substitution
+  wrong: "leant"
+  right: "leaned"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "US replaces -t participles with -ed forms."
+- source: oxford
+  page: 435
+  entry: "21.5.3 spilt"
+  kind: substitution
+  wrong: "spilt"
+  right: "spilled"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "US replaces -t participles with -ed forms."
+- source: oxford
+  page: 435
+  entry: "21.5.3 spoilt"
+  kind: substitution
+  wrong: "spoilt"
+  right: "spoiled"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "US replaces -t participles with -ed forms."
+- source: oxford
+  page: 435
+  entry: "21.5.3 burnt"
+  kind: substitution
+  wrong: "burnt"
+  right: "burned"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "US uses burned in verb phrases; burnt survives as an adjective."
+- source: oxford
+  page: 435
+  entry: "21.5.3 smelt"
+  kind: substitution
+  wrong: "smelt"
+  right: "smelled"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "US uses smelled as the past tense; smelt is also a metal-refining verb."
+- source: oxford
+  page: 435
+  entry: "21.5.3 spelt"
+  kind: substitution
+  wrong: "spelt"
+  right: "spelled"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "US uses spelled as the past tense; spelt is also a grain."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 aeroplane"
+  kind: substitution
+  wrong: "aeroplane"
+  right: "airplane"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form airplane."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 aluminium"
+  kind: substitution
+  wrong: "aluminium"
+  right: "aluminum"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form aluminum."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 candidature"
+  kind: substitution
+  wrong: "candidature"
+  right: "candidacy"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form candidacy."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 centenary"
+  kind: substitution
+  wrong: "centenary"
+  right: "centennial"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "US form centennial."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 costumier"
+  kind: substitution
+  wrong: "costumier"
+  right: "costumer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form costumer."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 devilry"
+  kind: substitution
+  wrong: "devilry"
+  right: "deviltry"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form deviltry."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 doodah"
+  kind: substitution
+  wrong: "doodah"
+  right: "doodad"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form doodad."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 edgeways"
+  kind: substitution
+  wrong: "edgeways"
+  right: "edgewise"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form edgewise."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 elasticated"
+  kind: substitution
+  wrong: "elasticated"
+  right: "elasticized"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form elasticized."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 expiry"
+  kind: substitution
+  wrong: "expiry"
+  right: "expiration"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "US form expiration."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 furore"
+  kind: substitution
+  wrong: "furore"
+  right: "furor"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form furor."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 haulier"
+  kind: substitution
+  wrong: "haulier"
+  right: "hauler"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form hauler."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 hotch-potch"
+  kind: substitution
+  wrong: "hotch-potch"
+  right: "hodge-podge"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form hodge-podge."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 maths"
+  kind: substitution
+  wrong: "maths"
+  right: "math"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form math."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 orientate"
+  kind: substitution
+  wrong: "orientate"
+  right: "orient"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US verb form orient."
+- source: oxford
+  page: 436
+  entry: "Table 21.4 polythene"
+  kind: substitution
+  wrong: "polythene"
+  right: "polyethylene"
+  domain: wording
+  fix: safe
+  american: true
+  context: science
+  note: "US form polyethylene."
+- source: oxford
+  page: 437
+  entry: "Table 21.4 sailing boat"
+  kind: substitution
+  wrong: "sailing boat"
+  right: "sailboat"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form sailboat."
+- source: oxford
+  page: 437
+  entry: "Table 21.4 sequestrate"
+  kind: substitution
+  wrong: "sequestrate"
+  right: "sequester"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form sequester."
+- source: oxford
+  page: 437
+  entry: "Table 21.4 snigger"
+  kind: substitution
+  wrong: "snigger"
+  right: "snicker"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form snicker."
+- source: oxford
+  page: 437
+  entry: "Table 21.4 specialism"
+  kind: substitution
+  wrong: "specialism"
+  right: "specialty"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "US form specialty."
+- source: oxford
+  page: 437
+  entry: "Table 21.4 titbit"
+  kind: substitution
+  wrong: "titbit"
+  right: "tidbit"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form tidbit."
+- source: oxford
+  page: 437
+  entry: "21.5.5 amidst"
+  kind: substitution
+  wrong: "amidst"
+  right: "amid"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US English does not use amidst."
+- source: oxford
+  page: 437
+  entry: "21.5.5 amongst"
+  kind: substitution
+  wrong: "amongst"
+  right: "among"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US English does not use amongst."
+- source: oxford
+  page: 437
+  entry: "21.5.5 whilst"
+  kind: substitution
+  wrong: "whilst"
+  right: "while"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US English does not use whilst."
+- source: oxford
+  page: 437
+  entry: "21.5.5 towards"
+  kind: substitution
+  wrong: "towards"
+  right: "toward"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US English prefers toward."
+- source: oxford
+  page: 437
+  entry: "21.5.5 different to"
+  kind: substitution
+  wrong: "different to"
+  right: "different from"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Different to is exclusively British; both dialects accept different from."
+- source: oxford
+  page: 437
+  entry: "21.5.5 at the weekend"
+  kind: substitution
+  wrong: "at the weekend"
+  right: "on the weekend"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "US idiom is on the weekend."
+- source: oxford
+  page: 439
+  entry: "21.6 daren't, shan't"
+  kind: existence
+  wrong: "daren't|shan't"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Uncommon in US English and regarded as Briticisms."
+
+# --- New Oxford Dictionary for Writers and Editors (printed page + 18); British main forms ---
+- source: oxford
+  page: 454
+  entry: "abdabs"
+  kind: substitution
+  wrong: "habdabs"
+  right: "abdabs"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled abdabs, not habdabs."
+- source: oxford
+  page: 454
+  entry: "abdominal"
+  kind: substitution
+  wrong: "abdomenal"
+  right: "abdominal"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled abdominal, not abdomenal."
+- source: oxford
+  page: 454
+  entry: "abscess"
+  kind: substitution
+  wrong: "abcess"
+  right: "abscess"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled abscess, not abcess."
+- source: oxford
+  page: 454
+  entry: "abseil"
+  kind: substitution
+  wrong: "absail"
+  right: "abseil"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled abseil, not absail."
+- source: oxford
+  page: 454
+  entry: "A-bomb"
+  kind: substitution
+  wrong: "A bomb"
+  right: "A-bomb"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate A-bomb."
+- source: oxford
+  page: 454
+  entry: "Abominable Snowman"
+  kind: casing
+  wrong: "abominable snowman"
+  right: "Abominable Snowman"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize both words of the yeti name."
+- source: oxford
+  page: 454
+  entry: "abridgement"
+  kind: substitution
+  wrong: "abridgement"
+  right: "abridgment"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Dictionary lists US abridgment."
+- source: oxford
+  page: 454
+  entry: "absent-minded"
+  kind: substitution
+  wrong: "absent minded"
+  right: "absent-minded"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate absent-minded."
+- source: oxford
+  page: 454
+  entry: "able-bodied"
+  kind: substitution
+  wrong: "able bodied"
+  right: "able-bodied"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate able-bodied."
+- source: oxford
+  page: 455
+  entry: "accelerator"
+  kind: substitution
+  wrong: "accelerater"
+  right: "accelerator"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled accelerator, not -er."
+- source: oxford
+  page: 455
+  entry: "accessible"
+  kind: substitution
+  wrong: "accessable"
+  right: "accessible"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled accessible, not -able."
+- source: oxford
+  page: 455
+  entry: "accident-prone"
+  kind: substitution
+  wrong: "accident prone"
+  right: "accident-prone"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate accident-prone."
+- source: oxford
+  page: 455
+  entry: "accommodate"
+  kind: substitution
+  wrong: "acomodate|accomodate|acommodate"
+  right: "accommodate"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two cs and two ms."
+- source: oxford
+  page: 455
+  entry: "accordion"
+  kind: substitution
+  wrong: "accordian"
+  right: "accordion"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled accordion, not -ian."
+- source: oxford
+  page: 455
+  entry: "Academy award"
+  kind: casing
+  wrong: "Academy Award"
+  right: "Academy award"
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: "Oxford capitalizes only Academy; other guides capitalize Award."
+- source: oxford
+  page: 455
+  entry: "Académie française"
+  kind: casing
+  wrong: "Académie Française"
+  right: "Académie française"
+  domain: wording
+  fix: safe
+  american: false
+  context: general
+  note: "One capital letter only."
+- source: oxford
+  page: 455
+  entry: "acquiesce, acquire, acquaint"
+  kind: substitution
+  wrong: "aquiesce|aquire|aquaint"
+  right: "acquire"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spelled acqu-, not aqu-; replacement shown is for aquire."
+- source: oxford
+  page: 455
+  entry: "acquittal"
+  kind: substitution
+  wrong: "acquital"
+  right: "acquittal"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled acquittal with tt."
+- source: oxford
+  page: 455
+  entry: "achy"
+  kind: substitution
+  wrong: "achey"
+  right: "achy"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled achy, not achey."
+- source: oxford
+  page: 455
+  entry: "acid rain"
+  kind: substitution
+  wrong: "acid-rain|acidrain"
+  right: "acid rain"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: oxford
+  page: 455
+  entry: "acid test"
+  kind: substitution
+  wrong: "acid-test|acidtest"
+  right: "acid test"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: oxford
+  page: 456
+  entry: "acknowledgement"
+  kind: substitution
+  wrong: "acknowledgement"
+  right: "acknowledgment"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Dictionary lists US acknowledgment."
+- source: oxford
+  page: 456
+  entry: "action-packed"
+  kind: substitution
+  wrong: "action packed"
+  right: "action-packed"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate action-packed."
+- source: oxford
+  page: 456
+  entry: "ad hoc"
+  kind: substitution
+  wrong: "ad-hoc"
+  right: "ad hoc"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words even before a noun; not italic."
+- source: oxford
+  page: 457
+  entry: "add-on"
+  kind: substitution
+  wrong: "addon"
+  right: "add-on"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenated as a noun."
+- source: oxford
+  page: 457
+  entry: "addendum"
+  kind: substitution
+  wrong: "addendums"
+  right: "addenda"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Plural is addenda."
+- source: oxford
+  page: 457
+  entry: "Aberdeen Angus"
+  kind: casing
+  wrong: "Aberdeen angus"
+  right: "Aberdeen Angus"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two capitals."
+- source: oxford
+  page: 457
+  entry: "Adélie penguin"
+  kind: casing
+  wrong: "Adélie Penguin"
+  right: "Adélie penguin"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One capital."
+- source: oxford
+  page: 458
+  entry: "admissible"
+  kind: substitution
+  wrong: "admissable"
+  right: "admissible"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled admissible, not -able."
+- source: oxford
+  page: 458
+  entry: "advertise"
+  kind: substitution
+  wrong: "advertize"
+  right: "advertise"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled advertise, not -ize."
+- source: oxford
+  page: 458
+  entry: "advise"
+  kind: substitution
+  wrong: "advize"
+  right: "advise"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled advise, not -ize."
+- source: oxford
+  page: 459
+  entry: "aethereal"
+  kind: substitution
+  wrong: "aethereal"
+  right: "ethereal"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use ethereal."
+- source: oxford
+  page: 459
+  entry: "aetiology"
+  kind: substitution
+  wrong: "aetiology"
+  right: "etiology"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form etiology."
+- source: oxford
+  page: 460
+  entry: "Afro-American"
+  kind: substitution
+  wrong: "Afro-American"
+  right: "African American"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Superseded by African American."
+- source: oxford
+  page: 460
+  entry: "African American"
+  kind: substitution
+  wrong: "African-American"
+  right: "African American"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen, even as modifier."
+- source: oxford
+  page: 460
+  entry: "Afro-Caribbean"
+  kind: substitution
+  wrong: "Afro Caribbean"
+  right: "Afro-Caribbean"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate."
+- source: oxford
+  page: 460
+  entry: "aforementioned"
+  kind: substitution
+  wrong: "afore-mentioned|afore mentioned"
+  right: "aforementioned"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: oxford
+  page: 460
+  entry: "after- compounds"
+  kind: existence
+  wrong: "after-(?:birth|burner|care|glow|life|math|shave|shock|taste|thought|word)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "These after- compounds are written solid."
+- source: oxford
+  page: 460
+  entry: "after-effect"
+  kind: substitution
+  wrong: "aftereffect"
+  right: "after-effect"
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: "Oxford hyphenates; US dictionaries write aftereffect."
+- source: oxford
+  page: 460
+  entry: "ageing"
+  kind: substitution
+  wrong: "ageing"
+  right: "aging"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Dictionary lists US aging."
+- source: oxford
+  page: 460
+  entry: "ageism"
+  kind: substitution
+  wrong: "agism"
+  right: "ageism"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled ageism."
+- source: oxford
+  page: 460
+  entry: "age-old"
+  kind: substitution
+  wrong: "age old"
+  right: "age-old"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate age-old."
+- source: oxford
+  page: 460
+  entry: "agnail"
+  kind: substitution
+  wrong: "agnail"
+  right: "hangnail"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use hangnail."
+- source: oxford
+  page: 460
+  entry: "agitprop"
+  kind: substitution
+  wrong: "agit-prop|agit prop"
+  right: "agitprop"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word, lower case."
+- source: oxford
+  page: 460
+  entry: "agriculturist"
+  kind: substitution
+  wrong: "agriculturalist"
+  right: "agriculturist"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Dictionary prefers agriculturist."
+- source: oxford
+  page: 460
+  entry: "aggressor"
+  kind: substitution
+  wrong: "aggresser"
+  right: "aggressor"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled aggressor, not -er."
+- source: oxford
+  page: 459
+  entry: "affiliate"
+  kind: substitution
+  wrong: "afiliate|affilliate"
+  right: "affiliate"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two fs, one l."
+- source: oxford
+  page: 461
+  entry: "aide-de-camp plural"
+  kind: substitution
+  wrong: "aide-de-camps"
+  right: "aides-de-camp"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is aides-de-camp."
+- source: oxford
+  page: 461
+  entry: "aircraft plural"
+  kind: substitution
+  wrong: "aircrafts"
+  right: "aircraft"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is the same as singular."
+- source: oxford
+  page: 462
+  entry: "à la carte"
+  kind: substitution
+  wrong: "a la carte"
+  right: "à la carte"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Keep the accent; not italic."
+- source: oxford
+  page: 462
+  entry: "à la mode"
+  kind: substitution
+  wrong: "a la mode"
+  right: "à la mode"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Keep the accent; not italic."
+- source: oxford
+  page: 464
+  entry: "all right"
+  kind: substitution
+  wrong: "alright"
+  right: "all right"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Dictionary rejects alright."
+- source: oxford
+  page: 464
+  entry: "All Saints' Day"
+  kind: substitution
+  wrong: "All Saints Day"
+  right: "All Saints' Day"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitals with apostrophe."
+- source: oxford
+  page: 464
+  entry: "All Souls' Day"
+  kind: substitution
+  wrong: "All Souls Day"
+  right: "All Souls' Day"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitals with apostrophe for the festival."
+- source: oxford
+  page: 464
+  entry: "All Fools' Day"
+  kind: substitution
+  wrong: "All Fools Day"
+  right: "All Fools' Day"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitals with apostrophe."
+- source: oxford
+  page: 465
+  entry: "Alsatian"
+  kind: substitution
+  wrong: "Alsation"
+  right: "Alsatian"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled Alsatian, not -ion."
+- source: oxford
+  page: 466
+  entry: "Alzheimer's"
+  kind: substitution
+  wrong: "Alzheimers"
+  right: "Alzheimer's"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Keep the apostrophe."
+- source: oxford
+  page: 466
+  entry: "Alzheimer's disease"
+  kind: casing
+  wrong: "Alzheimer's Disease"
+  right: "Alzheimer's disease"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One capital."
+- source: oxford
+  page: 466
+  entry: "ambidextrous"
+  kind: substitution
+  wrong: "ambidexterous"
+  right: "ambidextrous"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled ambidextrous."
+- source: oxford
+  page: 468
+  entry: "analogous"
+  kind: substitution
+  wrong: "analagous"
+  right: "analogous"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled analogous."
+- source: oxford
+  page: 468
+  entry: "analyse"
+  kind: substitution
+  wrong: "analyse"
+  right: "analyze"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Dictionary lists US analyze."
+- source: oxford
+  page: 468
+  entry: "anaemia"
+  kind: substitution
+  wrong: "anaemia"
+  right: "anemia"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form anemia."
+- source: oxford
+  page: 468
+  entry: "anaesthesia"
+  kind: substitution
+  wrong: "anaesthesia"
+  right: "anesthesia"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form anesthesia."
+- source: oxford
+  page: 468
+  entry: "anaesthetize"
+  kind: substitution
+  wrong: "anaesthetize"
+  right: "anesthetize"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "US form anesthetize."
+- source: oxford
+  page: 469
+  entry: "Angelman syndrome"
+  kind: substitution
+  wrong: "Angelman's syndrome"
+  right: "Angelman syndrome"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No possessive."
+- source: oxford
+  page: 469
+  entry: "Anglo-Saxon"
+  kind: existence
+  wrong: "Anglo-Saxon"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Prefer Old English for the language."
+- source: oxford
+  page: 470
+  entry: "anticlimax"
+  kind: substitution
+  wrong: "anti-climax"
+  right: "anticlimax"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: oxford
+  page: 470
+  entry: "antidepressant"
+  kind: substitution
+  wrong: "anti-depressant"
+  right: "antidepressant"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: oxford
+  page: 470
+  entry: "anti- compounds written solid"
+  kind: existence
+  wrong: "anti-(?:bacterial|biotic|body|freeze|histamine|oxidant|particle|toxin|type|social|perspirant|matter|macassar)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "These anti- words are written solid."
+- source: oxford
+  page: 472
+  entry: "apostasy"
+  kind: substitution
+  wrong: "apostacy"
+  right: "apostasy"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled apostasy, not -cy."
+- source: oxford
+  page: 473
+  entry: "appeasement"
+  kind: substitution
+  wrong: "appeasment"
+  right: "appeasement"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled appeasement."
+- source: oxford
+  page: 473
+  entry: "April Fool"
+  kind: casing
+  wrong: "April fool"
+  right: "April Fool"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two capitals."
+- source: oxford
+  page: 473
+  entry: "April Fool's Day"
+  kind: substitution
+  wrong: "April Fools Day|April Fools' Day"
+  right: "April Fool's Day"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitals with apostrophe before s."
+- source: oxford
+  page: 473
+  entry: "Arabic numeral"
+  kind: casing
+  wrong: "Arabic Numeral"
+  right: "Arabic numeral"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One capital."
+- source: oxford
+  page: 474
+  entry: "archetype"
+  kind: substitution
+  wrong: "architype"
+  right: "archetype"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled archetype."
+- source: oxford
+  page: 475
+  entry: "arguable"
+  kind: substitution
+  wrong: "argueable"
+  right: "arguable"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled arguable, not -eable."
+- source: oxford
+  page: 476
+  entry: "arm's length"
+  kind: substitution
+  wrong: "arms length"
+  right: "arm's length"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words with apostrophe."
+- source: oxford
+  page: 476
+  entry: "artisan"
+  kind: substitution
+  wrong: "artizan"
+  right: "artisan"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled artisan, not -izan."
+- source: oxford
+  page: 477
+  entry: "ascendancy"
+  kind: substitution
+  wrong: "ascendency"
+  right: "ascendancy"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled ascendancy."
+- source: oxford
+  page: 477
+  entry: "asinine"
+  kind: substitution
+  wrong: "assinine"
+  right: "asinine"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled asinine, not ass-."
+- source: oxford
+  page: 477
+  entry: "askance"
+  kind: substitution
+  wrong: "askant"
+  right: "askance"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled askance."
+- source: oxford
+  page: 477
+  entry: "asphalt"
+  kind: substitution
+  wrong: "ashphalt"
+  right: "asphalt"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled asphalt."
+- source: oxford
+  page: 477
+  entry: "Asiatic"
+  kind: existence
+  wrong: "Asiatic"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Only for scientific or technical use; offensive when used of people."
+- source: oxford
+  page: 478
+  entry: "asymmetry"
+  kind: substitution
+  wrong: "assymetry|asymetry"
+  right: "asymmetry"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One s, two ms."
+- source: oxford
+  page: 479
+  entry: "attendee"
+  kind: substitution
+  wrong: "attendee"
+  right: "attender"
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: "Oxford says use attender; attendee is normal in US English."
+- source: oxford
+  page: 479
+  entry: "audiovisual"
+  kind: substitution
+  wrong: "audio-visual"
+  right: "audiovisual"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: oxford
+  page: 479
+  entry: "AD placement"
+  kind: existence
+  wrong: "\\d{1,4}\\s?AD"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "AD normally precedes the year numeral."
+- source: oxford
+  page: 489
+  entry: "BC placement"
+  kind: existence
+  wrong: "BC\\s\\d{1,4}"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "BC follows the year numeral."
+- source: oxford
+  page: 480
+  entry: "Aussie"
+  kind: substitution
+  wrong: "Ozzie"
+  right: "Aussie"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Informal Australian is spelled Aussie."
+- source: oxford
+  page: 481
+  entry: "author"
+  kind: substitution
+  wrong: "authoress"
+  right: "author"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Prefer author for women writers."
+- source: oxford
+  page: 482
+  entry: "autoimmune"
+  kind: substitution
+  wrong: "auto-immune"
+  right: "autoimmune"
+  domain: wording
+  fix: safe
+  american: true
+  context: science
+  note: "One word."
+- source: oxford
+  page: 481
+  entry: "autopilot"
+  kind: substitution
+  wrong: "auto-pilot|auto pilot"
+  right: "autopilot"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: oxford
+  page: 482
+  entry: "avant-garde"
+  kind: substitution
+  wrong: "avant garde"
+  right: "avant-garde"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenated, not italic."
+- source: oxford
+  page: 482
+  entry: "award-winning"
+  kind: substitution
+  wrong: "award winning"
+  right: "award-winning"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate."
+- source: oxford
+  page: 482
+  entry: "awe-inspiring"
+  kind: substitution
+  wrong: "awe inspiring"
+  right: "awe-inspiring"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate."
+- source: oxford
+  page: 483
+  entry: "baby boomer"
+  kind: casing
+  wrong: "Baby Boomer"
+  right: "baby boomer"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words, lower case."
+- source: oxford
+  page: 484
+  entry: "backslash"
+  kind: substitution
+  wrong: "back slash"
+  right: "backslash"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: oxford
+  page: 484
+  entry: "baksheesh"
+  kind: substitution
+  wrong: "backsheesh"
+  right: "baksheesh"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use baksheesh."
+- source: oxford
+  page: 484
+  entry: "baklava"
+  kind: substitution
+  wrong: "baclava"
+  right: "baklava"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled baklava."
+- source: oxford
+  page: 484
+  entry: "bagel"
+  kind: substitution
+  wrong: "beigel"
+  right: "bagel"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled bagel."
+- source: oxford
+  page: 485
+  entry: "Baikal"
+  kind: substitution
+  wrong: "Baykal"
+  right: "Baikal"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Lake Baikal spelling."
+- source: oxford
+  page: 484
+  entry: "bailiff"
+  kind: substitution
+  wrong: "bailif|baillif"
+  right: "bailiff"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l, two fs."
+- source: oxford
+  page: 486
+  entry: "Band-Aid"
+  kind: substitution
+  wrong: "Band Aid|Bandaid|Band-aid"
+  right: "Band-Aid"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Trademark, caps and hyphen; use adhesive bandage for generic sense."
+- source: oxford
+  page: 486
+  entry: "banyan"
+  kind: substitution
+  wrong: "banian"
+  right: "banyan"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled banyan."
+- source: oxford
+  page: 488
+  entry: "bated breath"
+  kind: substitution
+  wrong: "baited breath"
+  right: "bated breath"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "The phrase is bated breath."
+- source: oxford
+  page: 489
+  entry: "Bayes' theorem"
+  kind: substitution
+  wrong: "Bayes theorem"
+  right: "Bayes' theorem"
+  domain: wording
+  fix: safe
+  american: true
+  context: science
+  note: "Note the apostrophe."
+- source: oxford
+  page: 489
+  entry: "BBC1"
+  kind: substitution
+  wrong: "BBC 1"
+  right: "BBC1"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Close up channel figure."
+- source: oxford
+  page: 489
+  entry: "BBC2"
+  kind: substitution
+  wrong: "BBC 2"
+  right: "BBC2"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Close up channel figure."
+- source: oxford
+  page: 489
+  entry: "beat generation"
+  kind: casing
+  wrong: "Beat Generation"
+  right: "beat generation"
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: "Oxford lower-cases; US guides often capitalize Beat Generation."
+- source: oxford
+  page: 491
+  entry: "believable"
+  kind: substitution
+  wrong: "believeable"
+  right: "believable"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled believable, not -eable."
+- source: oxford
+  page: 491
+  entry: "bellwether"
+  kind: substitution
+  wrong: "bell-wether|bell wether"
+  right: "bellwether"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: oxford
+  page: 491
+  entry: "beneficent"
+  kind: substitution
+  wrong: "beneficient"
+  right: "beneficent"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled beneficent, not -ient."
+- source: oxford
+  page: 492
+  entry: "bequeath"
+  kind: substitution
+  wrong: "bequeathe"
+  right: "bequeath"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled bequeath, no final e."
+- source: oxford
+  page: 493
+  entry: "beriberi"
+  kind: substitution
+  wrong: "beri-beri"
+  right: "beriberi"
+  domain: wording
+  fix: safe
+  american: true
+  context: science
+  note: "One word."
+- source: oxford
+  page: 493
+  entry: "bestseller"
+  kind: substitution
+  wrong: "best-seller|best seller"
+  right: "bestseller"
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: "Oxford writes bestseller as one word; AP and others differ."
+- source: oxford
+  page: 493
+  entry: "Betelgeuse"
+  kind: substitution
+  wrong: "Betelgeux"
+  right: "Betelgeuse"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled Betelgeuse, not -geux."
+- source: oxford
+  page: 494
+  entry: "bigoted"
+  kind: substitution
+  wrong: "bigotted"
+  right: "bigoted"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One t."
+- source: oxford
+  page: 494
+  entry: "bilberry"
+  kind: substitution
+  wrong: "billberry"
+  right: "bilberry"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled bilberry, not bill-."
+- source: oxford
+  page: 494
+  entry: "bimonthly, biweekly"
+  kind: existence
+  wrong: "bi-?monthly|bi-?weekly|biyearly"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Ambiguous; prefer every two months, twice a month and similar."
+- source: oxford
+  page: 495
+  entry: "bi- compounds written solid"
+  kind: existence
+  wrong: "bi-(?:partisan|plane|polar|sexual)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Written as one word."
+- source: oxford
+  page: 495
+  entry: "bitmap"
+  kind: substitution
+  wrong: "bit map"
+  right: "bitmap"
+  domain: technical
+  fix: review
+  american: true
+  context: computing
+  note: "One word."
+- source: oxford
+  page: 495
+  entry: "bizarre"
+  kind: substitution
+  wrong: "bizzare|bizare"
+  right: "bizarre"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One z, two rs."
+- source: oxford
+  page: 495
+  entry: "Negro"
+  kind: existence
+  wrong: "Negro|Negress"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid these terms; use black as an adjective, never as a noun."
+- source: oxford
+  page: 496
+  entry: "blameable"
+  kind: substitution
+  wrong: "blamable"
+  right: "blameable"
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: "Oxford spells blameable; US dictionaries prefer blamable."
+- source: oxford
+  page: 496
+  entry: "blatant"
+  kind: substitution
+  wrong: "blatent"
+  right: "blatant"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled blatant, not -ent."
+- source: oxford
+  page: 496
+  entry: "blessed"
+  kind: substitution
+  wrong: "blest"
+  right: "blessed"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Not blest or blessèd except in poetry."
+- source: oxford
+  page: 497
+  entry: "Bluetooth"
+  kind: substitution
+  wrong: "bluetooth|BlueTooth|Blue[ -][Tt]ooth"
+  right: "Bluetooth"
+  domain: technical
+  fix: review
+  american: true
+  context: computing
+  note: "Trademark, capitalized one word."
+- source: oxford
+  page: 498
+  entry: "B-movie"
+  kind: substitution
+  wrong: "B movie"
+  right: "B-movie"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate."
+- source: oxford
+  page: 499
+  entry: "bombazine"
+  kind: substitution
+  wrong: "bombasine"
+  right: "bombazine"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled bombazine."
+- source: oxford
+  page: 499
+  entry: "bon appétit"
+  kind: substitution
+  wrong: "bon appetit"
+  right: "bon appétit"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Keep the accent; not italic."
+- source: oxford
+  page: 500
+  entry: "bony"
+  kind: substitution
+  wrong: "boney"
+  right: "bony"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled bony."

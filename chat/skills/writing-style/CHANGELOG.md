@@ -2,6 +2,11 @@
 
 Versions follow semantic versioning. A major version changes a rule's outcome in a way that alters existing text, a minor version adds or deepens rules, and a patch version fixes wording without changing a rule.
 
+## 2.1.0 (2026-11-05)
+
+- Add section 11: run the bundled linter, `scripts/lint`, on substantial text before sending or saving it, and fix what it reports.
+- Widen revision item 1 to cover en dashes and runs of hyphens standing in for a dash, and to put command-line flags in code formatting.
+
 ## 2.0.0 (2026-11-05)
 
 - Switch to the serial comma, by the owner's choice.

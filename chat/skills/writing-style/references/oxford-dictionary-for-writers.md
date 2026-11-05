@@ -106,7 +106,7 @@ The skill follows the dictionary's own design note too: it keeps the list of pai
 
 ## What the skill omits
 
-The skill leaves out most of the dictionary, as it should. The book is a lookup tool for thousands of individual spellings, capitals, italics, and proper names, and an agent writing chat replies and reports needs the patterns, not the entries. The British main forms are left out as well, because the precedence order makes American usage the default.
+The skill leaves out most of the dictionary, as it should. The book is a lookup tool for thousands of individual spellings, capitals, italics, and proper names, and an agent writing chat replies and reports needs the patterns, not the entries. The British main forms are left out as well, because section 8 of the skill sets American spelling.
 
 Of my phase 1 proposals, these were cut or cut down:
 
@@ -128,11 +128,11 @@ On idiom, the owner chose a general rule on idiomatic word choice (section 2) ov
 
 **New Hart's Rules (oxford-new-harts-rules.md).** The two halves of the manual agree on every point the skill took: -ize spelling, the verbs that keep -ise, hyphenation by position, closed or hyphenated nouns from phrasal verbs, and dropping italics from familiar borrowed terms. Hart's is the fuller source on hyphens and prefixes and adds the -ly rule. Both books write e.g. and i.e. with no comma after; the skill avoids the question by keeping the abbreviations out of running text.
 
-**NYT Manual of Style (nyt-manual-of-style.md) and AP Stylebook (ap-stylebook.md).** The NYT manual agrees on dilemma and PIN number. On hopefully, which this dictionary labels disputed, the NYT manual objects mildly and the AP Stylebook accepts the modern sense. The skill states no rule on hopefully, so no conflict reaches the text. The dictionary's British forms (colour, centre, programme, whilst) lose to the American convention, as AGENTS.md requires.
+**NYT Manual of Style (nyt-manual-of-style.md) and AP Stylebook (ap-stylebook.md).** The NYT manual agrees on dilemma and PIN number. On hopefully, which this dictionary labels disputed, the NYT manual objects mildly and the AP Stylebook accepts the modern sense. The skill states no rule on hopefully, so no conflict reaches the text. The dictionary's British forms (colour, centre, programme, whilst) give way to the American spelling that section 8 sets.
 
-**Chicago Manual of Style (chicago-manual-of-style.md).** Chicago's glossary and this dictionary share few words. Chicago rules on impact, literally, transpire, and utilize, which this dictionary leaves alone. Where the two meet, as on hopefully, the skill follows Chicago, which ranks higher. The dictionary's entry marking themself as a word to avoid sits uneasily with the singular they that Chicago and AP accept. The skill follows them and says to use the pronouns a person uses. It doesn't mention themself.
+**Chicago Manual of Style (chicago-manual-of-style.md).** Chicago's glossary and this dictionary share few words. Chicago rules on impact, literally, transpire, and utilize, which this dictionary leaves alone. Where the two meet, as on hopefully, the skill sides with Chicago, which treats the word as an established sentence adverb, and so sets no rule against it. The dictionary's entry marking themself as a word to avoid sits uneasily with the singular they that Chicago and AP accept. The skill follows them and says to use the pronouns a person uses. It doesn't mention themself.
 
-**Apple Style Guide (apple-style-guide.md).** Apple tells writers to avoid comprise altogether because readers misuse it. The skill follows this dictionary and the IBM guide instead and keeps comprise in its exact sense, with the whole comprising its parts. Apple ranks lower than Oxford, and the skill's revision item catches the misuse Apple worries about.
+**Apple Style Guide (apple-style-guide.md).** Apple tells writers to avoid comprise altogether because readers misuse it. The skill follows this dictionary and the IBM guide instead and keeps comprise in its exact sense, with the whole comprising its parts. The exact sense is standard, and the skill's revision item catches the misuse Apple worries about, so the skill keeps the word and guards against the error.
 
 **IBM Style Guide (ibm-style-guide.md).** IBM agrees on comprised of, given name, and due to after a form of be. On prefixes, IBM closes reenter where this dictionary hyphenates re- before e. The skill gives neither example, so the difference doesn't surface.
 

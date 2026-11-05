@@ -1,0 +1,4999 @@
+- source: nyt
+  page: 405
+  entry: "questionnaire"
+  kind: substitution
+  wrong: "questionaire"
+  right: "questionnaire"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Double n in questionnaire."
+- source: nyt
+  page: 405
+  entry: "Queens Botanical Garden"
+  kind: substitution
+  wrong: "Queens Botanical Gardens"
+  right: "Queens Botanical Garden"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Singular Garden in the name."
+- source: nyt
+  page: 406
+  entry: "quincentenary"
+  kind: substitution
+  wrong: "quincentenary"
+  right: "quincentennial"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer quincentennial, or say 500th anniversary."
+- source: nyt
+  page: 410
+  entry: "Quran"
+  kind: substitution
+  wrong: "Koran"
+  right: "Quran"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Preferred spelling of the sacred book of Islam."
+- source: nyt
+  page: 410
+  entry: "Quran"
+  kind: substitution
+  wrong: "Qur[’']an"
+  right: "Quran"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Preferred spelling is Quran, no apostrophe."
+- source: nyt
+  page: 411
+  entry: "racket"
+  kind: substitution
+  wrong: "racquet(?!ball)"
+  right: "racket"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Racket for the equipment; racquetball is the game."
+- source: nyt
+  page: 411
+  entry: "rack, wrack"
+  kind: substitution
+  wrong: "nerve[- ]wracking"
+  right: "nerve-racking"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Rack is the word; wrack is archaic."
+- source: nyt
+  page: 412
+  entry: "raise"
+  kind: substitution
+  wrong: "pay rise"
+  right: "raise"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use raise for an increase in pay."
+- source: nyt
+  page: 413
+  entry: "rap"
+  kind: substitution
+  wrong: "rap singers?"
+  right: "rappers"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Performers are rappers."
+- source: nyt
+  page: 413
+  entry: "rarefy, rarefied"
+  kind: substitution
+  wrong: "rarify"
+  right: "rarefy"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Letter before the f is e."
+- source: nyt
+  page: 413
+  entry: "rarefy, rarefied"
+  kind: substitution
+  wrong: "rarified"
+  right: "rarefied"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Letter before the f is e."
+- source: nyt
+  page: 413
+  entry: "(-)rate"
+  kind: substitution
+  wrong: "birth rate"
+  right: "birthrate"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Birthrate is one word."
+- source: nyt
+  page: 414
+  entry: "re-"
+  kind: substitution
+  wrong: "re-create"
+  right: "recreate"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always recreate, never re-create."
+- source: nyt
+  page: 414
+  entry: "reason"
+  kind: substitution
+  wrong: "reason is because"
+  right: "reason is that"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Because is built into reason; use that."
+- source: nyt
+  page: 414
+  entry: "reason"
+  kind: substitution
+  wrong: "reason why"
+  right: "reason"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Redundant; shorten the phrase."
+- source: nyt
+  page: 415
+  entry: "record, new"
+  kind: substitution
+  wrong: "set a new record"
+  right: "set a record"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "New is redundant after set a record."
+- source: nyt
+  page: 416
+  entry: "referendums"
+  kind: substitution
+  wrong: "referenda"
+  right: "referendums"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is referendums."
+- source: nyt
+  page: 418
+  entry: "Reorganized Church of Jesus Christ of Latter Day Saints"
+  kind: substitution
+  wrong: "Latter-Day"
+  right: "Latter Day"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Latter Day is two words, no hyphen, in this church name."
+- source: nyt
+  page: 418
+  entry: "repellent"
+  kind: substitution
+  wrong: "repellant"
+  right: "repellent"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled repellent as noun and adjective."
+- source: nyt
+  page: 420
+  entry: "restaurateur"
+  kind: substitution
+  wrong: "restauranteur"
+  right: "restaurateur"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No n in restaurateur."
+- source: nyt
+  page: 420
+  entry: "result"
+  kind: substitution
+  wrong: "as the result"
+  right: "as a result"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer as a result."
+- source: nyt
+  page: 421
+  entry: "Reuters"
+  kind: substitution
+  wrong: "Reuter(?!s)"
+  right: "Reuters"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "The news agency is Reuters."
+- source: nyt
+  page: 423
+  entry: "Rio Grande"
+  kind: substitution
+  wrong: "Rio Grande River"
+  right: "Rio Grande"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not add River."
+- source: nyt
+  page: 424
+  entry: "Robert's Rules of Order"
+  kind: substitution
+  wrong: "Roberts[’'] Rules"
+  right: "Robert’s Rules"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Robert’s Rules of Order, singular possessive."
+- source: nyt
+  page: 424
+  entry: "rock 'n' roll"
+  kind: substitution
+  wrong: "rock[- ]and[- ]roll"
+  right: "rock ’n’ roll"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use rock ’n’ roll or simply rock."
+- source: nyt
+  page: 425
+  entry: "roller coaster"
+  kind: substitution
+  wrong: "rollercoaster"
+  right: "roller coaster"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: nyt
+  page: 427
+  entry: "row to hoe"
+  kind: substitution
+  wrong: "(?:hard|long|tough) road to hoe"
+  right: "row to hoe"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "The idiom is row to hoe."
+- source: nyt
+  page: 427
+  entry: "rowhouse"
+  kind: substitution
+  wrong: "row house"
+  right: "rowhouse"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Rowhouse is one word."
+- source: nyt
+  page: 428
+  entry: "runner(s)-up"
+  kind: substitution
+  wrong: "runner-ups"
+  right: "runners-up"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is runners-up."
+- source: nyt
+  page: 423
+  entry: "riffraff"
+  kind: substitution
+  wrong: "riff-raff|riff raff"
+  right: "riffraff"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 429
+  entry: "Russian names"
+  kind: substitution
+  wrong: "Tchaikovski|Chaikovsky"
+  right: "Tchaikovsky"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Keep the familiar form Tchaikovsky."
+- source: nyt
+  page: 429
+  entry: "Russian names"
+  kind: substitution
+  wrong: "Khrushchyov"
+  right: "Khrushchev"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Familiar spelling Khrushchev."
+- source: nyt
+  page: 429
+  entry: "Russian names"
+  kind: substitution
+  wrong: "Rachmaninov|Rahkmaninov"
+  right: "Rachmaninoff"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Familiar spelling Rachmaninoff."
+- source: nyt
+  page: 429
+  entry: "czar"
+  kind: substitution
+  wrong: "tsar"
+  right: "czar"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use czar, not tsar."
+- source: nyt
+  page: 429
+  entry: "czar"
+  kind: substitution
+  wrong: "tsarist"
+  right: "czarist"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use czarist, not tsarist."
+- source: nyt
+  page: 432
+  entry: "sacrilegious"
+  kind: substitution
+  wrong: "sacreligious"
+  right: "sacrilegious"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No word religious inside it."
+- source: nyt
+  page: 432
+  entry: "safe deposit box"
+  kind: substitution
+  wrong: "safety deposit"
+  right: "safe deposit"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Safe deposit box, not safety deposit."
+- source: nyt
+  page: 432
+  entry: "Sahara"
+  kind: substitution
+  wrong: "Sahara Desert"
+  right: "the Sahara"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Sahara means desert; Sahara Desert is redundant."
+- source: nyt
+  page: 433
+  entry: "salable"
+  kind: substitution
+  wrong: "saleable"
+  right: "salable"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled salable."
+- source: nyt
+  page: 433
+  entry: "Salonika"
+  kind: substitution
+  wrong: "Salonika"
+  right: "Thessaloniki"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Thessaloniki."
+- source: nyt
+  page: 434
+  entry: "sanitarium(s)"
+  kind: substitution
+  wrong: "sanatorium"
+  right: "sanitarium"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Preferred spelling sanitarium."
+- source: nyt
+  page: 435
+  entry: "sauté"
+  kind: substitution
+  wrong: "sauteed"
+  right: "sautéed"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Accented forms sauté, sautéed, sautéing."
+- source: nyt
+  page: 435
+  entry: "sauté"
+  kind: substitution
+  wrong: "sauteing"
+  right: "sautéing"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Accented forms sauté, sautéed, sautéing."
+- source: nyt
+  page: 435
+  entry: "savings"
+  kind: substitution
+  wrong: "daylight savings"
+  right: "daylight saving"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Daylight saving time, singular saving."
+- source: nyt
+  page: 435
+  entry: "scaloppine"
+  kind: substitution
+  wrong: "scallopini|scaloppini"
+  right: "scaloppine"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled scaloppine."
+- source: nyt
+  page: 435
+  entry: "scarf, scarves"
+  kind: substitution
+  wrong: "scarfs"
+  right: "scarves"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Plural is scarves (verb use excepted)."
+- source: nyt
+  page: 437
+  entry: "Schuylkill, the"
+  kind: substitution
+  wrong: "Schuylkill River"
+  right: "Schuylkill"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Kill means stream; omit River."
+- source: nyt
+  page: 438
+  entry: "seatbelt"
+  kind: substitution
+  wrong: "seat[- ]belt"
+  right: "seatbelt"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 438
+  entry: "second, secondly"
+  kind: substitution
+  wrong: "secondly"
+  right: "second"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "In enumerations use second, not secondly."
+- source: nyt
+  page: 490
+  entry: "third, thirdly"
+  kind: substitution
+  wrong: "thirdly"
+  right: "third"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "In enumerations use third, not thirdly."
+- source: nyt
+  page: 439
+  entry: "Secretary General"
+  kind: substitution
+  wrong: "[Ss]ecretary-general"
+  right: "secretary general"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No hyphen in secretary general."
+- source: nyt
+  page: 439
+  entry: "Secretary General"
+  kind: substitution
+  wrong: "[Dd]irector-general"
+  right: "director general"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No hyphen in director general."
+- source: nyt
+  page: 439
+  entry: "Seder"
+  kind: substitution
+  wrong: "Sedarim"
+  right: "Seders"
+  domain: wording
+  fix: safe
+  american: true
+  context: religion
+  note: "Use the plural Seders."
+- source: nyt
+  page: 439
+  entry: "seesaw"
+  kind: substitution
+  wrong: "see-saw|see saw"
+  right: "seesaw"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 440
+  entry: "self-"
+  kind: substitution
+  wrong: "self-confessed"
+  right: "confessed"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Self-confessed is redundant."
+- source: nyt
+  page: 440
+  entry: "self-"
+  kind: substitution
+  wrong: "self-hood"
+  right: "selfhood"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Selfhood is solid."
+- source: nyt
+  page: 440
+  entry: "self-"
+  kind: substitution
+  wrong: "self-less"
+  right: "selfless"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Selfless is solid."
+- source: nyt
+  page: 440
+  entry: "self-"
+  kind: substitution
+  wrong: "self-same"
+  right: "selfsame"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Selfsame is solid."
+- source: nyt
+  page: 442
+  entry: "separate"
+  kind: substitution
+  wrong: "seperate"
+  right: "separate"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled separate."
+- source: nyt
+  page: 442
+  entry: "separate"
+  kind: substitution
+  wrong: "seperately"
+  right: "separately"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled separately."
+- source: nyt
+  page: 443
+  entry: "sepulcher"
+  kind: substitution
+  wrong: "sepulchre"
+  right: "sepulcher"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American spelling sepulcher."
+- source: nyt
+  page: 446
+  entry: "sexual orientation"
+  kind: substitution
+  wrong: "sexual preference"
+  right: "sexual orientation"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Never sexual preference; it implies choice."
+- source: nyt
+  page: 447
+  entry: "Shariah"
+  kind: substitution
+  wrong: "Sharia(?!h)"
+  right: "Shariah"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Preferred spelling Shariah."
+- source: nyt
+  page: 448
+  entry: "sherbet"
+  kind: substitution
+  wrong: "sherbert"
+  right: "sherbet"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One r before the t."
+- source: nyt
+  page: 448
+  entry: "shish kebab"
+  kind: substitution
+  wrong: "shish kabob|shish-kebab"
+  right: "shish kebab"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words, kebab."
+- source: nyt
+  page: 450
+  entry: "Sichuan"
+  kind: substitution
+  wrong: "Szechwan|Szechuan"
+  right: "Sichuan"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Sichuan for the Chinese province."
+- source: nyt
+  page: 450
+  entry: "Sierra Nevada"
+  kind: substitution
+  wrong: "Sierra Nevada Mountains"
+  right: "Sierra Nevada"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Drop Mountains; use Sierra Nevada or the Sierra."
+- source: nyt
+  page: 450
+  entry: "sightseeing"
+  kind: substitution
+  wrong: "sight-seeing|sight seeing"
+  right: "sightseeing"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 450
+  entry: "signaled"
+  kind: substitution
+  wrong: "signalled"
+  right: "signaled"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l in signaled."
+- source: nyt
+  page: 450
+  entry: "signaled"
+  kind: substitution
+  wrong: "signalling"
+  right: "signaling"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l in signaling."
+- source: nyt
+  page: 450
+  entry: "signatory"
+  kind: substitution
+  wrong: "signatory"
+  right: "signer"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer the simpler word signer."
+- source: nyt
+  page: 450
+  entry: "Simhat Torah"
+  kind: substitution
+  wrong: "Simchat Torah"
+  right: "Simhat Torah"
+  domain: wording
+  fix: safe
+  american: true
+  context: religion
+  note: "Preferred spelling Simhat Torah."
+- source: nyt
+  page: 451
+  entry: "Sinai"
+  kind: substitution
+  wrong: "the Sinai(?! (?:Desert|Peninsula))"
+  right: "Sinai"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Say Sinai, not the Sinai, for the peninsula."
+- source: nyt
+  page: 452
+  entry: "sizable"
+  kind: substitution
+  wrong: "sizeable"
+  right: "sizable"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled sizable."
+- source: nyt
+  page: 452
+  entry: "(-)size"
+  kind: substitution
+  wrong: "medium-sized"
+  right: "medium-size"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use -size, not -sized, for the suffix."
+- source: nyt
+  page: 452
+  entry: "(-)size"
+  kind: substitution
+  wrong: "mid-sized|midsized"
+  right: "midsize"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Midsize is solid."
+- source: nyt
+  page: 452
+  entry: "(-)size"
+  kind: substitution
+  wrong: "king-sized"
+  right: "king-size"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use -size, not -sized."
+- source: nyt
+  page: 452
+  entry: "(-)size"
+  kind: substitution
+  wrong: "life-sized"
+  right: "life-size"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use -size, not -sized."
+- source: nyt
+  page: 452
+  entry: "(-)size"
+  kind: substitution
+  wrong: "pint-sized"
+  right: "pint-size"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use -size, not -sized."
+- source: nyt
+  page: 452
+  entry: "skeptical"
+  kind: substitution
+  wrong: "sceptical"
+  right: "skeptical"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American spelling skeptical."
+- source: nyt
+  page: 452
+  entry: "skeptical"
+  kind: substitution
+  wrong: "scepticism"
+  right: "skepticism"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American spelling skepticism."
+- source: nyt
+  page: 452
+  entry: "skillful"
+  kind: substitution
+  wrong: "skilful"
+  right: "skillful"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Double l in skillful."
+- source: nyt
+  page: 453
+  entry: "smartphone"
+  kind: substitution
+  wrong: "smart phone|smart-phone"
+  right: "smartphone"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 453
+  entry: "Smithsonian Institution"
+  kind: substitution
+  wrong: "Smithsonian Institute"
+  right: "Smithsonian Institution"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "The name is Institution."
+- source: nyt
+  page: 453
+  entry: "smoke screen"
+  kind: substitution
+  wrong: "smokescreen|smoke-screen"
+  right: "smoke screen"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words."
+- source: nyt
+  page: 454
+  entry: "Smokey Bear"
+  kind: substitution
+  wrong: "Smokey the Bear"
+  right: "Smokey Bear"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "The name is Smokey Bear."
+- source: nyt
+  page: 454
+  entry: "smolder"
+  kind: substitution
+  wrong: "smoulder"
+  right: "smolder"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American spelling smolder."
+- source: nyt
+  page: 454
+  entry: "sneak, sneaked, sneaking"
+  kind: substitution
+  wrong: "snuck"
+  right: "sneaked"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Never snuck."
+- source: nyt
+  page: 455
+  entry: "somber"
+  kind: substitution
+  wrong: "sombre"
+  right: "somber"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American spelling somber."
+- source: nyt
+  page: 455
+  entry: "soundtrack"
+  kind: substitution
+  wrong: "sound track"
+  right: "soundtrack"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 456
+  entry: "sous-chef"
+  kind: substitution
+  wrong: "sous chef"
+  right: "sous-chef"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: nyt
+  page: 459
+  entry: "specter"
+  kind: substitution
+  wrong: "spectre"
+  right: "specter"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American spelling specter."
+- source: nyt
+  page: 459
+  entry: "speechwriter"
+  kind: substitution
+  wrong: "speech[- ]writer"
+  right: "speechwriter"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 459
+  entry: "spell-check"
+  kind: substitution
+  wrong: "spellcheck"
+  right: "spell-check"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenated as noun and verb."
+- source: nyt
+  page: 460
+  entry: "spilled"
+  kind: substitution
+  wrong: "spilt"
+  right: "spilled"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use spilled."
+- source: nyt
+  page: 460
+  entry: "spit and image"
+  kind: substitution
+  wrong: "spitting image"
+  right: "spit and image"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "The idiom is spit and image."
+- source: nyt
+  page: 463
+  entry: "stadiums"
+  kind: substitution
+  wrong: "stadia"
+  right: "stadiums"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is stadiums."
+- source: nyt
+  page: 468
+  entry: "steppingstone"
+  kind: substitution
+  wrong: "stepping[- ]stone"
+  right: "steppingstone"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 470
+  entry: "straitjacket"
+  kind: substitution
+  wrong: "straight-?jacket|strait-jacket"
+  right: "straitjacket"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled straitjacket."
+- source: nyt
+  page: 470
+  entry: "strait-laced"
+  kind: substitution
+  wrong: "straight-laced"
+  right: "strait-laced"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled strait-laced."
+- source: nyt
+  page: 470
+  entry: "stratagem"
+  kind: substitution
+  wrong: "strategem"
+  right: "stratagem"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two a's in stratagem."
+- source: nyt
+  page: 470
+  entry: "streetcar"
+  kind: substitution
+  wrong: "street car"
+  right: "streetcar"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 473
+  entry: "subpoena, subpoenaed"
+  kind: substitution
+  wrong: "subpena"
+  right: "subpoena"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled subpoena."
+- source: nyt
+  page: 473
+  entry: "Sudan"
+  kind: substitution
+  wrong: "the Sudan"
+  right: "Sudan"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Not the Sudan."
+- source: nyt
+  page: 473
+  entry: "suffragette"
+  kind: substitution
+  wrong: "suffragette"
+  right: "suffragist"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use suffragist; -ette is belittling."
+- source: nyt
+  page: 474
+  entry: "sulfur"
+  kind: substitution
+  wrong: "sulphur"
+  right: "sulfur"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "American spelling sulfur in lowercase forms."
+- source: nyt
+  page: 475
+  entry: "Super Bowl"
+  kind: substitution
+  wrong: "Superbowl|Super bowl"
+  right: "Super Bowl"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words, capitalized."
+- source: nyt
+  page: 475
+  entry: "supersede"
+  kind: substitution
+  wrong: "supercede"
+  right: "supersede"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No c in supersede."
+- source: nyt
+  page: 476
+  entry: "syllabus(es)"
+  kind: substitution
+  wrong: "syllabi"
+  right: "syllabuses"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is syllabuses."
+- source: nyt
+  page: 478
+  entry: "taekwondo"
+  kind: substitution
+  wrong: "tae[- ]kwon[- ]do"
+  right: "taekwondo"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 480
+  entry: "teenage, teenager"
+  kind: substitution
+  wrong: "teen-age"
+  right: "teenage"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen."
+- source: nyt
+  page: 480
+  entry: "teenage, teenager"
+  kind: substitution
+  wrong: "teen-ager"
+  right: "teenager"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen."
+- source: nyt
+  page: 480
+  entry: "teenage, teenager"
+  kind: substitution
+  wrong: "teenaged"
+  right: "teenage"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use teenage before a noun."
+- source: nyt
+  page: 482
+  entry: "temblor"
+  kind: substitution
+  wrong: "tremblor"
+  right: "temblor"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled temblor."
+- source: nyt
+  page: 483
+  entry: "tempo(s)"
+  kind: substitution
+  wrong: "tempi"
+  right: "tempos"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is tempos."
+- source: nyt
+  page: 483
+  entry: "tendinitis"
+  kind: substitution
+  wrong: "tendonitis"
+  right: "tendinitis"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled tendinitis."
+- source: nyt
+  page: 487
+  entry: "T, fit to a"
+  kind: substitution
+  wrong: "fit to a tee"
+  right: "fit to a T"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Idiom is fit to a T."
+- source: nyt
+  page: 490
+  entry: "thesauruses"
+  kind: substitution
+  wrong: "thesauri"
+  right: "thesauruses"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is thesauruses."
+- source: nyt
+  page: 490
+  entry: "throw"
+  kind: substitution
+  wrong: "throw a party"
+  right: "give a party"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use give; throw a party is trite."
+- source: nyt
+  page: 491
+  entry: "thus"
+  kind: substitution
+  wrong: "thusly"
+  right: "thus"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Thus is the adverb."
+- source: nyt
+  page: 491
+  entry: "'til"
+  kind: substitution
+  wrong: "[’']til"
+  right: "until"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Avoid ’til; till or until instead."
+- source: nyt
+  page: 495
+  entry: "toe the line"
+  kind: substitution
+  wrong: "tow the (?:line|mark)"
+  right: "toe the line"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Idiom is toe the line."
+- source: nyt
+  page: 496
+  entry: "topsy-turvy"
+  kind: substitution
+  wrong: "topsy turvy"
+  right: "topsy-turvy"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: nyt
+  page: 497
+  entry: "totaled, totaling"
+  kind: substitution
+  wrong: "totalled"
+  right: "totaled"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l."
+- source: nyt
+  page: 497
+  entry: "totaled, totaling"
+  kind: substitution
+  wrong: "totalling"
+  right: "totaling"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l."
+- source: nyt
+  page: 497
+  entry: "toward"
+  kind: substitution
+  wrong: "towards"
+  right: "toward"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use toward."
+- source: nyt
+  page: 497
+  entry: "townhouse"
+  kind: substitution
+  wrong: "town[- ]house"
+  right: "townhouse"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 497
+  entry: "tractor-trailer"
+  kind: substitution
+  wrong: "tractor trailer"
+  right: "tractor-trailer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: nyt
+  page: 498
+  entry: "traffic (v.)"
+  kind: substitution
+  wrong: "trafficed"
+  right: "trafficked"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Past tense takes -ked."
+- source: nyt
+  page: 498
+  entry: "traffic (v.)"
+  kind: substitution
+  wrong: "trafficing"
+  right: "trafficking"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Participle takes -king."
+- source: nyt
+  page: 498
+  entry: "tranquil"
+  kind: substitution
+  wrong: "tranquility"
+  right: "tranquillity"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Noun keeps double l; verbs use one."
+- source: nyt
+  page: 498
+  entry: "tranquil"
+  kind: substitution
+  wrong: "tranquillize"
+  right: "tranquilize"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l in the verb."
+- source: nyt
+  page: 498
+  entry: "tranquil"
+  kind: substitution
+  wrong: "tranquillizer"
+  right: "tranquilizer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l."
+- source: nyt
+  page: 498
+  entry: "tranquil"
+  kind: substitution
+  wrong: "tranquillizing"
+  right: "tranquilizing"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l."
+- source: nyt
+  page: 498
+  entry: "trans-"
+  kind: substitution
+  wrong: "transatlantic"
+  right: "trans-Atlantic"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate before a proper noun."
+- source: nyt
+  page: 498
+  entry: "trans-"
+  kind: substitution
+  wrong: "transpacific"
+  right: "trans-Pacific"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate before a proper noun."
+- source: nyt
+  page: 499
+  entry: "transvestite"
+  kind: substitution
+  wrong: "transvestite"
+  right: "cross-dresser"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Outdated; use cross-dresser."
+- source: nyt
+  page: 499
+  entry: "traveled, traveler, traveling"
+  kind: substitution
+  wrong: "travelled"
+  right: "traveled"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l."
+- source: nyt
+  page: 499
+  entry: "traveled, traveler, traveling"
+  kind: substitution
+  wrong: "traveller"
+  right: "traveler"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l."
+- source: nyt
+  page: 499
+  entry: "traveled, traveler, traveling"
+  kind: substitution
+  wrong: "travelling"
+  right: "traveling"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l."
+- source: nyt
+  page: 499
+  entry: "traveler's check"
+  kind: substitution
+  wrong: "traveller?[’']s cheques?"
+  right: "traveler’s check"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Check, not cheque."
+- source: nyt
+  page: 501
+  entry: "tryout"
+  kind: substitution
+  wrong: "try-out"
+  right: "tryout"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Tryout is one word as a noun."
+- source: nyt
+  page: 501
+  entry: "T-shirt"
+  kind: substitution
+  wrong: "tee[- ]shirt|T shirt"
+  right: "T-shirt"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled T-shirt."
+- source: nyt
+  page: 502
+  entry: "tugboat"
+  kind: substitution
+  wrong: "tug[- ]boat"
+  right: "tugboat"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 503
+  entry: "two-by-four"
+  kind: substitution
+  wrong: "two by four|2 ?x ?4"
+  right: "two-by-four"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spelled out and hyphenated for lumber."
+- source: nyt
+  page: 504
+  entry: "Tyrol"
+  kind: substitution
+  wrong: "the Tyrol|Tirol"
+  right: "Tyrol"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spelled Tyrol, not the Tyrol."
+- source: nyt
+  page: 505
+  entry: "Ukraine"
+  kind: substitution
+  wrong: "the Ukraine"
+  right: "Ukraine"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Not the Ukraine."
+- source: nyt
+  page: 505
+  entry: "ukulele"
+  kind: substitution
+  wrong: "ukelele"
+  right: "ukulele"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled ukulele."
+- source: nyt
+  page: 506
+  entry: "uncharted terrain"
+  kind: substitution
+  wrong: "unchartered"
+  right: "uncharted"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Uncharted means unmapped."
+- source: nyt
+  page: 506
+  entry: "undertaker"
+  kind: substitution
+  wrong: "mortician"
+  right: "funeral director"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use mortician."
+- source: nyt
+  page: 507
+  entry: "unheard-of"
+  kind: substitution
+  wrong: "unheard of"
+  right: "unheard-of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Keeps its hyphen even after the noun."
+- source: nyt
+  page: 511
+  entry: "up(-), (-)up"
+  kind: substitution
+  wrong: "upwards"
+  right: "upward"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use upward."
+- source: nyt
+  page: 515
+  entry: "veejay"
+  kind: substitution
+  wrong: "veejay"
+  right: "V.J."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use V.J. for a music-video presenter."
+- source: nyt
+  page: 515
+  entry: "vermilion"
+  kind: substitution
+  wrong: "vermillion"
+  right: "vermilion"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One l pair: vermilion."
+- source: nyt
+  page: 515
+  entry: "Verrazano"
+  kind: substitution
+  wrong: "Verrazzano"
+  right: "Verrazano"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Preferred spelling, one z."
+- source: nyt
+  page: 516
+  entry: "Veterans Day"
+  kind: substitution
+  wrong: "Veterans[’'] Day|Veteran[’']s Day"
+  right: "Veterans Day"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No apostrophe."
+- source: nyt
+  page: 516
+  entry: "vice-presidential"
+  kind: substitution
+  wrong: "vice presidential"
+  right: "vice-presidential"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenated, lowercase."
+- source: nyt
+  page: 516
+  entry: "vice president"
+  kind: substitution
+  wrong: "vice-president(?!ial)"
+  right: "vice president"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No hyphen in vice president."
+- source: nyt
+  page: 517
+  entry: "Vietcong"
+  kind: substitution
+  wrong: "Viet[- ]Cong"
+  right: "Vietcong"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 518
+  entry: "Vietnam War"
+  kind: substitution
+  wrong: "Vietnamese War"
+  right: "Vietnam War"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Vietnam War."
+- source: nyt
+  page: 518
+  entry: "virtuoso(s)"
+  kind: substitution
+  wrong: "virtuosi"
+  right: "virtuosos"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is virtuosos."
+- source: nyt
+  page: 519
+  entry: "voice mail"
+  kind: substitution
+  wrong: "voicemail"
+  right: "voice mail"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Two words in this guide."
+- source: nyt
+  page: 519
+  entry: "voilà"
+  kind: substitution
+  wrong: "voila"
+  right: "voilà"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Accented."
+- source: nyt
+  page: 521
+  entry: "Wailing Wall"
+  kind: substitution
+  wrong: "Wailing Wall"
+  right: "Western Wall"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Now called the Western Wall."
+- source: nyt
+  page: 521
+  entry: "wait on"
+  kind: substitution
+  wrong: "wait tables"
+  right: "wait on tables"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Servers wait on tables."
+- source: nyt
+  page: 521
+  entry: "Waldorf Astoria"
+  kind: substitution
+  wrong: "Waldorf-Astoria"
+  right: "Waldorf Astoria"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen now."
+- source: nyt
+  page: 521
+  entry: "Walmart"
+  kind: substitution
+  wrong: "Wal-Mart"
+  right: "Walmart"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen."
+- source: nyt
+  page: 523
+  entry: "weapons plant"
+  kind: substitution
+  wrong: "weapon plant"
+  right: "weapons plant"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Idiom is weapons plant."
+- source: nyt
+  page: 524
+  entry: "website"
+  kind: substitution
+  wrong: "Web site|web site|Web-site|Website"
+  right: "website"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Lowercase, one word."
+- source: nyt
+  page: 524
+  entry: "web, the"
+  kind: substitution
+  wrong: "the Web"
+  right: "the web"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase web."
+- source: nyt
+  page: 524
+  entry: "webcam"
+  kind: substitution
+  wrong: "web[- ]cam"
+  right: "webcam"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 524
+  entry: "week(-)"
+  kind: substitution
+  wrong: "week-end"
+  right: "weekend"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Solid compound."
+- source: nyt
+  page: 524
+  entry: "week(-)"
+  kind: substitution
+  wrong: "week-long"
+  right: "weeklong"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Solid compound."
+- source: nyt
+  page: 524
+  entry: "week(-)"
+  kind: substitution
+  wrong: "week-day"
+  right: "weekday"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Solid compound."
+- source: nyt
+  page: 524
+  entry: "weight lifter"
+  kind: substitution
+  wrong: "weightlifter"
+  right: "weight lifter"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words."
+- source: nyt
+  page: 524
+  entry: "weight lifter"
+  kind: substitution
+  wrong: "weightlifting"
+  right: "weight lifting"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words."
+- source: nyt
+  page: 524
+  entry: "weird"
+  kind: substitution
+  wrong: "wierd"
+  right: "weird"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled weird."
+- source: nyt
+  page: 526
+  entry: "wharf"
+  kind: substitution
+  wrong: "wharfs"
+  right: "wharves"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Plural is wharves."
+- source: nyt
+  page: 527
+  entry: "whence"
+  kind: substitution
+  wrong: "from whence"
+  right: "whence"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Redundant; whence means from where."
+- source: nyt
+  page: 527
+  entry: "whereabouts"
+  kind: substitution
+  wrong: "whereabouts are"
+  right: "whereabouts is"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Whereabouts takes a singular verb."
+- source: nyt
+  page: 527
+  entry: "whereabouts"
+  kind: substitution
+  wrong: "whereabouts were"
+  right: "whereabouts was"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Whereabouts takes a singular verb."
+- source: nyt
+  page: 528
+  entry: "white(-)"
+  kind: substitution
+  wrong: "white-board"
+  right: "whiteboard"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 528
+  entry: "white(-)"
+  kind: substitution
+  wrong: "white-wash"
+  right: "whitewash"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 528
+  entry: "wholehearted"
+  kind: substitution
+  wrong: "whole-hearted|whole hearted"
+  right: "wholehearted"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 529
+  entry: "wide-body"
+  kind: substitution
+  wrong: "widebody|wide body"
+  right: "wide-body"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: nyt
+  page: 531
+  entry: "winter, wintertime"
+  kind: substitution
+  wrong: "wintery"
+  right: "wintry"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Adjective is wintry."
+- source: nyt
+  page: 531
+  entry: "wiretapping"
+  kind: substitution
+  wrong: "wire-tapping|wire tapping"
+  right: "wiretapping"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 532
+  entry: "woolen, woolly"
+  kind: substitution
+  wrong: "woollen"
+  right: "woolen"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled woolen."
+- source: nyt
+  page: 532
+  entry: "woolen, woolly"
+  kind: substitution
+  wrong: "wooly"
+  right: "woolly"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled woolly."
+- source: nyt
+  page: 533
+  entry: "workers' compensation"
+  kind: substitution
+  wrong: "workers compensation|worker[’']s compensation|workmen[’']s compensation"
+  right: "workers’ compensation"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Plural possessive workers’ compensation."
+- source: nyt
+  page: 534
+  entry: "worldview"
+  kind: substitution
+  wrong: "world[- ]view"
+  right: "worldview"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 534
+  entry: "World War I, World War II"
+  kind: substitution
+  wrong: "World War 2"
+  right: "World War II"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Roman numerals."
+- source: nyt
+  page: 534
+  entry: "World War I, World War II"
+  kind: substitution
+  wrong: "World War 1"
+  right: "World War I"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Roman numerals."
+- source: nyt
+  page: 534
+  entry: "worldwide"
+  kind: substitution
+  wrong: "world-wide"
+  right: "worldwide"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Solid."
+- source: nyt
+  page: 534
+  entry: "worshiped"
+  kind: substitution
+  wrong: "worshipped"
+  right: "worshiped"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One p."
+- source: nyt
+  page: 534
+  entry: "worshiper"
+  kind: substitution
+  wrong: "worshipper"
+  right: "worshiper"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One p."
+- source: nyt
+  page: 534
+  entry: "worshiping"
+  kind: substitution
+  wrong: "worshipping"
+  right: "worshiping"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One p."
+- source: nyt
+  page: 536
+  entry: "Xmas"
+  kind: substitution
+  wrong: "Xmas"
+  right: "Christmas"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell out Christmas."
+- source: nyt
+  page: 538
+  entry: "yogurt"
+  kind: substitution
+  wrong: "yoghurt|yoghourt"
+  right: "yogurt"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spelled yogurt."
+- source: nyt
+  page: 540
+  entry: "zigzag"
+  kind: substitution
+  wrong: "zig-zag|zig zag"
+  right: "zigzag"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: nyt
+  page: 513
+  entry: "utilize"
+  kind: substitution
+  wrong: "utilize"
+  right: "use"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use use."
+- source: nyt
+  page: 513
+  entry: "utilize"
+  kind: substitution
+  wrong: "utilizes"
+  right: "uses"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use uses."
+- source: nyt
+  page: 513
+  entry: "utilize"
+  kind: substitution
+  wrong: "utilized"
+  right: "used"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use used."
+- source: nyt
+  page: 513
+  entry: "utilize"
+  kind: substitution
+  wrong: "utilizing"
+  right: "using"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use using."
+- source: nyt
+  page: 402
+  entry: "push(-)"
+  kind: substitution
+  wrong: "push-cart|push cart"
+  right: "pushcart"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 402
+  entry: "push(-)"
+  kind: substitution
+  wrong: "push-pin|push pin"
+  right: "pushpin"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 404
+  entry: "quarter(-)"
+  kind: substitution
+  wrong: "quarter-back|quarter back"
+  right: "quarterback"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 404
+  entry: "quarter(-)"
+  kind: substitution
+  wrong: "quarter-final|quarter final"
+  right: "quarterfinal"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 404
+  entry: "quarter(-)"
+  kind: substitution
+  wrong: "quarter-master|quarter master"
+  right: "quartermaster"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 406
+  entry: "quick(-)"
+  kind: substitution
+  wrong: "quick-sand|quick sand"
+  right: "quicksand"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 411
+  entry: "race(-)"
+  kind: substitution
+  wrong: "race-horse|race horse"
+  right: "racehorse"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 411
+  entry: "race(-)"
+  kind: substitution
+  wrong: "race-track|race track"
+  right: "racetrack"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 412
+  entry: "radio(-)"
+  kind: substitution
+  wrong: "radio-active|radio active"
+  right: "radioactive"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 412
+  entry: "radio(-)"
+  kind: substitution
+  wrong: "radio-activity|radio activity"
+  right: "radioactivity"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 412
+  entry: "radio(-)"
+  kind: substitution
+  wrong: "radio-therapy|radio therapy"
+  right: "radiotherapy"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 428
+  entry: "run(-)"
+  kind: substitution
+  wrong: "run-away"
+  right: "runaway"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 428
+  entry: "run(-)"
+  kind: substitution
+  wrong: "run-way"
+  right: "runway"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 437
+  entry: "screen(-)"
+  kind: substitution
+  wrong: "screen[- ]play"
+  right: "screenplay"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 437
+  entry: "screen(-)"
+  kind: substitution
+  wrong: "screen[- ]writer"
+  right: "screenwriter"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 433
+  entry: "sail(-)"
+  kind: substitution
+  wrong: "sail-boat|sail boat"
+  right: "sailboat"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 432
+  entry: "safe(-)"
+  kind: substitution
+  wrong: "safe-keeping|safe keeping"
+  right: "safekeeping"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 432
+  entry: "safe(-)"
+  kind: substitution
+  wrong: "safe-guard|safe guard"
+  right: "safeguard"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 432
+  entry: "safe(-)"
+  kind: substitution
+  wrong: "safe-cracker|safe cracker"
+  right: "safecracker"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 436
+  entry: "school(-)"
+  kind: substitution
+  wrong: "school teacher|school-teacher"
+  right: "schoolteacher"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 469
+  entry: "stock(-)"
+  kind: substitution
+  wrong: "stock-holder|stock holder"
+  right: "stockholder"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 469
+  entry: "stock(-)"
+  kind: substitution
+  wrong: "stock-broker|stock broker"
+  right: "stockbroker"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 469
+  entry: "store(-), (-)store"
+  kind: substitution
+  wrong: "book store"
+  right: "bookstore"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 469
+  entry: "store(-), (-)store"
+  kind: substitution
+  wrong: "drug store"
+  right: "drugstore"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 469
+  entry: "store(-), (-)store"
+  kind: substitution
+  wrong: "store-front|store front"
+  right: "storefront"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 469
+  entry: "store(-), (-)store"
+  kind: substitution
+  wrong: "store-house|store house"
+  right: "storehouse"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 469
+  entry: "store(-), (-)store"
+  kind: substitution
+  wrong: "store-keeper|store keeper"
+  right: "storekeeper"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 469
+  entry: "stop(-)"
+  kind: substitution
+  wrong: "stop-gap|stop gap"
+  right: "stopgap"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 469
+  entry: "stop(-)"
+  kind: substitution
+  wrong: "stop-light|stop light"
+  right: "stoplight"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 469
+  entry: "stop(-)"
+  kind: substitution
+  wrong: "stop-watch|stop watch"
+  right: "stopwatch"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 468
+  entry: "steam(-)"
+  kind: substitution
+  wrong: "steam-boat|steam boat"
+  right: "steamboat"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 468
+  entry: "steam(-)"
+  kind: substitution
+  wrong: "steam-ship|steam ship"
+  right: "steamship"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 468
+  entry: "steam(-)"
+  kind: substitution
+  wrong: "steam-roller|steam roller"
+  right: "steamroller"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 462
+  entry: "stage(-), (-)stage"
+  kind: substitution
+  wrong: "stage-hand|stage hand"
+  right: "stagehand"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 454
+  entry: "snow(-)"
+  kind: substitution
+  wrong: "snow-storm|snow storm"
+  right: "snowstorm"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 454
+  entry: "snow(-)"
+  kind: substitution
+  wrong: "snow-flake|snow flake"
+  right: "snowflake"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 454
+  entry: "snow(-)"
+  kind: substitution
+  wrong: "snow-fall|snow fall"
+  right: "snowfall"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 454
+  entry: "snow(-)"
+  kind: substitution
+  wrong: "snow-ball|snow ball"
+  right: "snowball"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 454
+  entry: "snow(-)"
+  kind: substitution
+  wrong: "snow-board|snow board"
+  right: "snowboard"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 454
+  entry: "snow(-)"
+  kind: substitution
+  wrong: "snow-plow|snow plow"
+  right: "snowplow"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 457
+  entry: "space(-)"
+  kind: substitution
+  wrong: "space-craft|space craft"
+  right: "spacecraft"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 457
+  entry: "space(-)"
+  kind: substitution
+  wrong: "space-flight|space flight"
+  right: "spaceflight"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 457
+  entry: "space(-)"
+  kind: substitution
+  wrong: "space-ship|space ship"
+  right: "spaceship"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 457
+  entry: "space(-)"
+  kind: substitution
+  wrong: "space-walk|space walk"
+  right: "spacewalk"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 457
+  entry: "space(-)"
+  kind: substitution
+  wrong: "space-suit|space suit"
+  right: "spacesuit"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 450
+  entry: "side(-)"
+  kind: substitution
+  wrong: "side-walk|side walk"
+  right: "sidewalk"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 450
+  entry: "side(-)"
+  kind: substitution
+  wrong: "side-line|side line"
+  right: "sideline"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 450
+  entry: "side(-)"
+  kind: substitution
+  wrong: "side-step"
+  right: "sidestep"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 449
+  entry: "short(-)"
+  kind: substitution
+  wrong: "short-cut"
+  right: "shortcut"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 449
+  entry: "short(-)"
+  kind: substitution
+  wrong: "short-fall"
+  right: "shortfall"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 449
+  entry: "short(-)"
+  kind: substitution
+  wrong: "short-hand"
+  right: "shorthand"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 449
+  entry: "show(-)"
+  kind: substitution
+  wrong: "show-case"
+  right: "showcase"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 449
+  entry: "show(-)"
+  kind: substitution
+  wrong: "show-down"
+  right: "showdown"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 449
+  entry: "show(-)"
+  kind: substitution
+  wrong: "show-room|show room"
+  right: "showroom"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 492
+  entry: "thunder(-)"
+  kind: substitution
+  wrong: "thunder-storm|thunder storm"
+  right: "thunderstorm"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 492
+  entry: "thunder(-)"
+  kind: substitution
+  wrong: "thunder-bolt|thunder bolt"
+  right: "thunderbolt"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 492
+  entry: "thunder(-)"
+  kind: substitution
+  wrong: "thunder-cloud|thunder cloud"
+  right: "thunderhead"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 492
+  entry: "thunder(-)"
+  kind: substitution
+  wrong: "thunder-clap|thunder clap"
+  right: "thunderclap"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 496
+  entry: "top(-)"
+  kind: substitution
+  wrong: "top-coat|top coat"
+  right: "topcoat"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 496
+  entry: "top(-)"
+  kind: substitution
+  wrong: "top-soil|top soil"
+  right: "topsoil"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 503
+  entry: "type(-), (-)type"
+  kind: substitution
+  wrong: "type-writer|type writer"
+  right: "typewriter"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 503
+  entry: "type(-), (-)type"
+  kind: substitution
+  wrong: "type-face|type face"
+  right: "typeface"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 503
+  entry: "type(-), (-)type"
+  kind: substitution
+  wrong: "type-setter|type setter"
+  right: "typesetter"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 506
+  entry: "under(-)"
+  kind: substitution
+  wrong: "under-ground"
+  right: "underground"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 506
+  entry: "under(-)"
+  kind: substitution
+  wrong: "under-graduate|under graduate"
+  right: "undergraduate"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 506
+  entry: "under(-)"
+  kind: substitution
+  wrong: "under-estimate"
+  right: "underestimate"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 506
+  entry: "under(-)"
+  kind: substitution
+  wrong: "under-world|under world"
+  right: "underworld"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 506
+  entry: "under(-)"
+  kind: substitution
+  wrong: "under-way|under way"
+  right: "underway"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 511
+  entry: "up(-), (-)up"
+  kind: substitution
+  wrong: "back-up"
+  right: "backup"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 511
+  entry: "up(-), (-)up"
+  kind: substitution
+  wrong: "break-up"
+  right: "breakup"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 511
+  entry: "up(-), (-)up"
+  kind: substitution
+  wrong: "hold-up"
+  right: "holdup"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 511
+  entry: "up(-), (-)up"
+  kind: substitution
+  wrong: "build-up"
+  right: "buildup"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 511
+  entry: "up(-), (-)up"
+  kind: substitution
+  wrong: "blow-up"
+  right: "blowup"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 511
+  entry: "up(-), (-)up"
+  kind: substitution
+  wrong: "pick-up"
+  right: "pickup"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 511
+  entry: "up(-), (-)up"
+  kind: substitution
+  wrong: "hook-up"
+  right: "hookup"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 511
+  entry: "up(-), (-)up"
+  kind: substitution
+  wrong: "wind-up"
+  right: "windup"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 511
+  entry: "up(-), (-)up"
+  kind: substitution
+  wrong: "set-up"
+  right: "setup"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 428
+  entry: "turn(-)"
+  kind: substitution
+  wrong: "turn-around"
+  right: "turnaround"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 502
+  entry: "turn(-)"
+  kind: substitution
+  wrong: "turn-out"
+  right: "turnout"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 502
+  entry: "turn(-)"
+  kind: substitution
+  wrong: "turn-over"
+  right: "turnover"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 493
+  entry: "time(-), (-)time"
+  kind: substitution
+  wrong: "time-out"
+  right: "timeout"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 493
+  entry: "time(-), (-)time"
+  kind: substitution
+  wrong: "time-keeper|time keeper"
+  right: "timekeeper"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 523
+  entry: "water(-)"
+  kind: substitution
+  wrong: "water-fall|water fall"
+  right: "waterfall"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 523
+  entry: "water(-)"
+  kind: substitution
+  wrong: "water-front|water front"
+  right: "waterfront"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 523
+  entry: "water(-)"
+  kind: substitution
+  wrong: "water-proof|water proof"
+  right: "waterproof"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 523
+  entry: "water(-)"
+  kind: substitution
+  wrong: "water-melon|water melon"
+  right: "watermelon"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 523
+  entry: "water(-)"
+  kind: substitution
+  wrong: "water-color|water color"
+  right: "watercolor"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 522
+  entry: "war(-)"
+  kind: substitution
+  wrong: "war-time|war time"
+  right: "wartime"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 522
+  entry: "war(-)"
+  kind: substitution
+  wrong: "war-ship|war ship"
+  right: "warship"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 522
+  entry: "war(-)"
+  kind: substitution
+  wrong: "war-head"
+  right: "warhead"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 522
+  entry: "war(-)"
+  kind: substitution
+  wrong: "war-lord|war lord"
+  right: "warlord"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 530
+  entry: "wine(-)"
+  kind: substitution
+  wrong: "wine-maker|wine maker"
+  right: "winemaker"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 530
+  entry: "wine(-)"
+  kind: substitution
+  wrong: "wine-glass|wine glass"
+  right: "wineglass"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 533
+  entry: "work(-)"
+  kind: substitution
+  wrong: "work-day|work day"
+  right: "workday"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 533
+  entry: "work(-)"
+  kind: substitution
+  wrong: "work-week|work week"
+  right: "workweek"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 533
+  entry: "work(-)"
+  kind: substitution
+  wrong: "work-place|work place"
+  right: "workplace"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 533
+  entry: "work(-)"
+  kind: substitution
+  wrong: "work-load|work load"
+  right: "workload"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 476
+  entry: "sweatshirt, sweatsuit, sweatpants"
+  kind: substitution
+  wrong: "sweat[- ]shirt"
+  right: "sweatshirt"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 476
+  entry: "sweatshirt, sweatsuit, sweatpants"
+  kind: substitution
+  wrong: "sweat[- ]suit"
+  right: "sweatsuit"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 476
+  entry: "sweatshirt, sweatsuit, sweatpants"
+  kind: substitution
+  wrong: "sweat[- ]pants"
+  right: "sweatpants"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 480
+  entry: "tight rope"
+  kind: substitution
+  wrong: "tight[- ]rope"
+  right: "tightrope"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 479
+  entry: "telltale"
+  kind: substitution
+  wrong: "tell-tale|tell tale"
+  right: "telltale"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 494
+  entry: "titleholder"
+  kind: substitution
+  wrong: "title-holder|title holder"
+  right: "titleholder"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 492
+  entry: "tiebreaker"
+  kind: substitution
+  wrong: "tie-breaker|tie breaker"
+  right: "tiebreaker"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 471
+  entry: "strikebreaker"
+  kind: substitution
+  wrong: "strike-breaker|strike breaker"
+  right: "strikebreaker"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 538
+  entry: "year(-)"
+  kind: substitution
+  wrong: "year-long"
+  right: "yearlong"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Closed-up compound in this guide."
+- source: nyt
+  page: 533
+  entry: "work(-)"
+  kind: substitution
+  wrong: "workforce"
+  right: "work force"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Guide lists work force as two words."
+- source: nyt
+  page: 413
+  entry: "re(-)"
+  kind: substitution
+  wrong: "reeducate"
+  right: "re-educate"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate re- before an e."
+- source: nyt
+  page: 413
+  entry: "re(-)"
+  kind: substitution
+  wrong: "reelect"
+  right: "re-elect"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate re- before an e."
+- source: nyt
+  page: 413
+  entry: "re(-)"
+  kind: substitution
+  wrong: "reelection"
+  right: "re-election"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate re- before an e."
+- source: nyt
+  page: 413
+  entry: "re(-)"
+  kind: substitution
+  wrong: "reenter"
+  right: "re-enter"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate re- before an e."
+- source: nyt
+  page: 413
+  entry: "re(-)"
+  kind: substitution
+  wrong: "reentry"
+  right: "re-entry"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate re- before an e."
+- source: nyt
+  page: 402
+  entry: "purport"
+  kind: existence
+  wrong: "(?:the|a) purported"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Purport cannot be passive; avoid purported as adjective."
+- source: nyt
+  page: 402
+  entry: "Q-Tips"
+  kind: existence
+  wrong: "Q-Tips?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Trademark; generic alternative is cotton swabs."
+- source: nyt
+  page: 406
+  entry: "queue"
+  kind: existence
+  wrong: "queue"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "British; prefer an American synonym such as line."
+- source: nyt
+  page: 405
+  entry: "queer"
+  kind: existence
+  wrong: "queer"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Treat as a slur except in limited ironic or academic contexts."
+- source: nyt
+  page: 406
+  entry: "quip"
+  kind: existence
+  wrong: "quipped"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "As attribution, quip is usually a slight; use said."
+- source: nyt
+  page: 406
+  entry: "quotation marks"
+  kind: existence
+  wrong: "(?<=\\w)[”\"](?=[.,](?:\\s|$))"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Periods and commas go inside closing quotation marks."
+- source: nyt
+  page: 406
+  entry: "quotation marks"
+  kind: existence
+  wrong: "[:;][”\"]"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Colons and semicolons go outside closing quotation marks."
+- source: nyt
+  page: 454
+  entry: "so-called"
+  kind: existence
+  wrong: "so-called [“\"]"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Quotation marks are redundant after so-called."
+- source: nyt
+  page: 410
+  entry: "quote"
+  kind: existence
+  wrong: "(?:the|a|his|her|their|this|that|my|your|our) quotes?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Quote is colloquial as a noun; use quotation."
+- source: nyt
+  page: 413
+  entry: "rape"
+  kind: existence
+  wrong: "criminal (?:attack|assault)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid euphemisms for rape."
+- source: nyt
+  page: 413
+  entry: "rape"
+  kind: existence
+  wrong: "(?:otherwise )?uninjured"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not call a rape victim uninjured."
+- source: nyt
+  page: 414
+  entry: "re(-)"
+  kind: existence
+  wrong: "re-(?:align|appear|apportion|appraise|arm|born|broadcast|construct|deploy|district|group|imburse|inforce|make|open|order|run|sale|union|usable|use)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Close up re- compounds unless an e or capital follows."
+- source: nyt
+  page: 414
+  entry: "Reader's Digest"
+  kind: existence
+  wrong: "the Reader[’']s Digest"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Reader’s Digest takes no the."
+- source: nyt
+  page: 414
+  entry: "Realtor"
+  kind: existence
+  wrong: "Realtor"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Trademark; prefer real estate agent or broker."
+- source: nyt
+  page: 414
+  entry: "rebut, refute"
+  kind: existence
+  wrong: "refut(?:e|es|ed|ing)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Refute means disprove; usually use rebut, dispute, deny or reject."
+- source: nyt
+  page: 415
+  entry: "record, new"
+  kind: existence
+  wrong: "all[- ]time record"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Needlessly breathless; avoid all-time record."
+- source: nyt
+  page: 415
+  entry: "redneck"
+  kind: existence
+  wrong: "redneck"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Slang and pejorative."
+- source: nyt
+  page: 415
+  entry: "reference"
+  kind: existence
+  wrong: "reference[ds]?\\s+(?:the|a|an|this|that|these|those|his|her|their)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Reference as a verb is business jargon; use cite, mention or refer to."
+- source: nyt
+  page: 420
+  entry: "retardation, retarded"
+  kind: existence
+  wrong: "(?:mental )?retard(?:ation|ed)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Widely seen as offensive; use intellectual disability."
+- source: nyt
+  page: 422
+  entry: "reverse discrimination"
+  kind: existence
+  wrong: "reverse discrimination"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Pejorative; confine to quotations of opponents."
+- source: nyt
+  page: 424
+  entry: "rip-off"
+  kind: existence
+  wrong: "rip-off|rip off"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Slang for theft; rarely suitable."
+- source: nyt
+  page: 431
+  entry: "Russo-"
+  kind: existence
+  wrong: "Russo-\\w+"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Prefer Russian-Chinese style over Russo- forms."
+- source: nyt
+  page: 450
+  entry: "Sino-"
+  kind: existence
+  wrong: "Sino-(?!logist)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Prefer Chinese-American style over Sino- forms."
+- source: nyt
+  page: 433
+  entry: "SALT"
+  kind: existence
+  wrong: "SALT (?:treaty|treaties)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "SALT treaty is redundant."
+- source: nyt
+  page: 435
+  entry: "savings"
+  kind: existence
+  wrong: "a savings of"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Savings is not a singular noun; drop the a or use saving."
+- source: nyt
+  page: 436
+  entry: "school names"
+  kind: existence
+  wrong: "Public School No\\.? ?\\d+"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Write Public School 4, not No. 4."
+- source: nyt
+  page: 440
+  entry: "semiannual, semiyearly"
+  kind: existence
+  wrong: "semi-?(?:annual|yearly|monthly|weekly)|bi(?:annual|monthly|weekly)|tri(?:monthly|weekly)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Prefix time words confuse; use twice a year, every two weeks, etc."
+- source: nyt
+  page: 440
+  entry: "(-)self"
+  kind: existence
+  wrong: "(?:and|or) myself"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Do not use myself as a substitute for me."
+- source: nyt
+  page: 440
+  entry: "self-styled"
+  kind: existence
+  wrong: "self-styled"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Journalese; use professed or who calls herself."
+- source: nyt
+  page: 441
+  entry: "Senior, Junior"
+  kind: existence
+  wrong: "(?<=[A-Za-z]), (?:Jr|Sr)(?=\\.)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No comma before Jr. or Sr."
+- source: nyt
+  page: 423
+  entry: "Ringling Brothers"
+  kind: existence
+  wrong: "(?<=[A-Za-z]), Inc(?=\\.)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No comma before Inc."
+- source: nyt
+  page: 442
+  entry: "senior citizen"
+  kind: existence
+  wrong: "senior citizens?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Euphemism; avoid outside quotations and names."
+- source: nyt
+  page: 446
+  entry: "sex worker"
+  kind: existence
+  wrong: "sex workers?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Vague euphemism; usually prostitute or be more precise."
+- source: nyt
+  page: 452
+  entry: "slate"
+  kind: existence
+  wrong: "slated (?:for|to)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Slate as a verb is journalese and trite."
+- source: nyt
+  page: 453
+  entry: "slay, slayer, slaying"
+  kind: existence
+  wrong: "slay(?:s|er|ing)?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Archaic; prefer kill."
+- source: nyt
+  page: 453
+  entry: "small-business man, small-business woman"
+  kind: existence
+  wrong: "small-business (?:man|woman)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use business owner or small-business owner."
+- source: nyt
+  page: 455
+  entry: "somewhere"
+  kind: existence
+  wrong: "somewhere between"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Somewhere is often superfluous."
+- source: nyt
+  page: 460
+  entry: "spell out"
+  kind: existence
+  wrong: "spell(?:s|ed|ing)? out"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Overused; try detail, explain, list or specify."
+- source: nyt
+  page: 461
+  entry: "spokesman, spokeswoman"
+  kind: existence
+  wrong: "spokesperson|spokespeople"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use spokesman or spokeswoman; press officer in general."
+- source: nyt
+  page: 470
+  entry: "strapped"
+  kind: existence
+  wrong: "cash-strapped"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Redundant and trite."
+- source: nyt
+  page: 471
+  entry: "stricken"
+  kind: existence
+  wrong: "stricken with"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Overstates disability; use contracted or has."
+- source: nyt
+  page: 471
+  entry: "streets and avenues"
+  kind: existence
+  wrong: "\\b(?:1st|2nd|3rd|4th|5th|6th|7th|8th|9th) (?:Street|Avenue)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spell out ordinals through Ninth for streets and avenues."
+- source: nyt
+  page: 471
+  entry: "streets and avenues"
+  kind: existence
+  wrong: "\\b(?:Tenth|Eleventh|Twelfth|Thirteenth|Fourteenth|Fifteenth|Twentieth) (?:Street|Avenue)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use figures for 10th and above in street names."
+- source: nyt
+  page: 471
+  entry: "Styrofoam"
+  kind: existence
+  wrong: "Styrofoam (?:cups?|containers?)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Styrofoam is not used for cups or food containers; write plastic foam."
+- source: nyt
+  page: 472
+  entry: "sub(-)"
+  kind: existence
+  wrong: "sub-(?:assembly|atomic|basement|committee|compact|continent|culture|division|floor|freezing|let|normal|plot|soil|standard|text|title|total|zero)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Sub- compounds are solid."
+- source: nyt
+  page: 473
+  entry: "suffer"
+  kind: existence
+  wrong: "suffer(?:s|ed|ing)? from"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid pitying terms for people with disabilities."
+- source: nyt
+  page: 479
+  entry: "takeaway"
+  kind: existence
+  wrong: "takeaway"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Business jargon outside quotations."
+- source: nyt
+  page: 480
+  entry: "teenage, teenager"
+  kind: existence
+  wrong: "\\bteen (?!and\\b|or\\b|years\\b)(?=[a-z])"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use teen as a separate word except for spans."
+- source: nyt
+  page: 481
+  entry: "telephone numbers"
+  kind: existence
+  wrong: "\\(\\d{3}\\) ?\\d{3}-\\d{4}"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use hyphens: 920-448-0050."
+- source: nyt
+  page: 481
+  entry: "telephone numbers"
+  kind: existence
+  wrong: "\\d{3}\\.\\d{3}\\.\\d{4}"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use hyphens in US numbers, not periods."
+- source: nyt
+  page: 481
+  entry: "televangelist"
+  kind: existence
+  wrong: "televangelist"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Disparaging; use religious broadcaster."
+- source: nyt
+  page: 481
+  entry: "television networks"
+  kind: existence
+  wrong: "[ABCNP]\\.[BCNP]\\.[CNS]\\."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Omit periods in network abbreviations."
+- source: nyt
+  page: 482
+  entry: "temperatures"
+  kind: existence
+  wrong: "\\d\\s?°\\s?[FC]"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid the degree symbol and F or C in articles."
+- source: nyt
+  page: 482
+  entry: "temperatures"
+  kind: existence
+  wrong: "had a temperature"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Everyone has a temperature; say fever or give the reading."
+- source: nyt
+  page: 489
+  entry: "their, theirs, them, they"
+  kind: existence
+  wrong: "(?:anyone|someone|everyone|anybody|somebody|everybody)\\b[^.]{0,60}\\b(?:their|them|they|theirs)\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Guide rejects plural pronouns for singular antecedents like anyone."
+- source: nyt
+  page: 489
+  entry: "that, who"
+  kind: existence
+  wrong: "(?:people|persons?|women|woman|men|man|anyone|someone|everyone) that\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Use who or whom for people."
+- source: nyt
+  page: 489
+  entry: "then"
+  kind: existence
+  wrong: "\\bthen-[A-Z]\\w+"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid then as an adjective; write then the president."
+- source: nyt
+  page: 489
+  entry: "then"
+  kind: existence
+  wrong: "the then (?=[a-z])"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid then as an adjective."
+- source: nyt
+  page: 489
+  entry: "thereby"
+  kind: existence
+  wrong: "thereby"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Musty; try that way."
+- source: nyt
+  page: 491
+  entry: "tidal wave"
+  kind: existence
+  wrong: "tidal waves?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use tsunami for earthquake-induced waves."
+- source: nyt
+  page: 491
+  entry: "time"
+  kind: existence
+  wrong: "half-past"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use numerals for clock time."
+- source: nyt
+  page: 494
+  entry: "times less, times more"
+  kind: existence
+  wrong: "\\b(?:\\d+|two|three|four|five|six|seven|eight|nine|ten) times (?:more|less|faster|slower|bigger|smaller|larger|thinner|shorter)\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid times more or times less; use as much as."
+- source: nyt
+  page: 499
+  entry: "trademark, service mark"
+  kind: existence
+  wrong: "[®™]"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use registration symbols in news articles."
+- source: nyt
+  page: 499
+  entry: "trademark, service mark"
+  kind: existence
+  wrong: "Band-Aid"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Generic bandage is sometimes preferable."
+- source: nyt
+  page: 499
+  entry: "transgender"
+  kind: existence
+  wrong: "tranny"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Offensive slang."
+- source: nyt
+  page: 499
+  entry: "transgender"
+  kind: existence
+  wrong: "transsexual"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Transgender is generally preferable."
+- source: nyt
+  page: 501
+  entry: "tristate area, tristate region"
+  kind: existence
+  wrong: "tristate (?:area|region)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Name the states instead in first references."
+- source: nyt
+  page: 502
+  entry: "tweet"
+  kind: existence
+  wrong: "tweeters|tweeps|twagedy"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid cute coinages."
+- source: nyt
+  page: 503
+  entry: "twister"
+  kind: existence
+  wrong: "twister"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Colloquial; use tornado."
+- source: nyt
+  page: 503
+  entry: "Twitter"
+  kind: existence
+  wrong: "twitter(?:ed|ing)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use Twitter as a verb."
+- source: nyt
+  page: 503
+  entry: "type(-), (-)type"
+  kind: existence
+  wrong: "\\b[a-z]{3,}-type\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid -type compound modifiers."
+- source: nyt
+  page: 505
+  entry: "ultra(-)"
+  kind: existence
+  wrong: "ultra-(?:high|modern|nationalistic|sonic|violet)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Close up ultra- compounds."
+- source: nyt
+  page: 506
+  entry: "un(-)"
+  kind: existence
+  wrong: "un-(?:affected|biased|called|forgettable|heard|needed|selfish|solved|traveled|used|wed)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Close up un- unless an uppercase letter follows."
+- source: nyt
+  page: 507
+  entry: "Uniate"
+  kind: existence
+  wrong: "Uniate"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Often regarded as offensive."
+- source: nyt
+  page: 507
+  entry: "Unification Church"
+  kind: existence
+  wrong: "Moonie"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Disparaging."
+- source: nyt
+  page: 508
+  entry: "unique"
+  kind: existence
+  wrong: "(?:very|rather|almost|somewhat|more|most|quite|fairly) unique"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Unique cannot be modified."
+- source: nyt
+  page: 511
+  entry: "unprecedented"
+  kind: existence
+  wrong: "(?:very|rather|almost|somewhat|more|most|quite|fairly) unprecedented"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Unprecedented cannot be modified."
+- source: nyt
+  page: 511
+  entry: "upcoming"
+  kind: existence
+  wrong: "upcoming"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Telegraphic; use coming, planned or scheduled."
+- source: nyt
+  page: 512
+  entry: "URL"
+  kind: existence
+  wrong: "URL"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Prefer web address in news copy."
+- source: nyt
+  page: 513
+  entry: "user-friendly"
+  kind: existence
+  wrong: "user-friendly"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Can be reader-tiresome."
+- source: nyt
+  page: 516
+  entry: "vet"
+  kind: existence
+  wrong: "\\bvets?\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use vet for veteran."
+- source: nyt
+  page: 521
+  entry: "wait on"
+  kind: existence
+  wrong: "wait on(?! tables| hand)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Dialect; use wait in line, wait for or await."
+- source: nyt
+  page: 521
+  entry: "waiter, waitress"
+  kind: existence
+  wrong: "waitperson|waitron|waitstaff"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid self-conscious coinages."
+- source: nyt
+  page: 522
+  entry: "wannabe"
+  kind: existence
+  wrong: "wannabe"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Slang."
+- source: nyt
+  page: 525
+  entry: "welsh"
+  kind: existence
+  wrong: "welsh(?:ed|es|ing)?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Slang and an ethnic slur."
+- source: nyt
+  page: 527
+  entry: "wheelchair"
+  kind: existence
+  wrong: "confined to (?:a |his |her )?wheelchair|wheelchair[- ]bound"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not exaggerate immobility; say uses a wheelchair."
+- source: nyt
+  page: 527
+  entry: "whether"
+  kind: existence
+  wrong: "whether or not"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Or not is often redundant after whether."
+- source: nyt
+  page: 529
+  entry: "wide(-), (-)wide"
+  kind: existence
+  wrong: "(?:borough|city|continent|country|industry|nation|state|world)-wide"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Suffix -wide compounds are solid."
+- source: nyt
+  page: 534
+  entry: "World Wide Web"
+  kind: existence
+  wrong: "World wide|world wide web"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Capitalize World Wide Web."
+- source: nyt
+  page: 537
+  entry: "years, decades, centuries"
+  kind: existence
+  wrong: "\\b(?:1[0-9]|20)\\d0[’']s\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "No apostrophe in plural decades like 1990s."
+- source: nyt
+  page: 537
+  entry: "years, decades, centuries"
+  kind: existence
+  wrong: "\\bthe [1-9]0s\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Use an apostrophe when shortening a decade, as in the ’60s."
+- source: nyt
+  page: 537
+  entry: "years, decades, centuries"
+  kind: existence
+  wrong: "\\b\\d{2}0[’']s\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Apostrophe belongs before a shortened decade, not after."
+- source: nyt
+  page: 537
+  entry: "years, decades, centuries"
+  kind: existence
+  wrong: "\\b\\d{4}-0\\d\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Write year spans as 1903-4, not 1903-04."
+- source: nyt
+  page: 537
+  entry: "years, decades, centuries"
+  kind: existence
+  wrong: "\\b(?:January|February|March|April|June|July|August|September|October|November|December), \\d{4}\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Omit the comma between a month and a year."
+- source: nyt
+  page: 445
+  entry: "1700s, 18th century"
+  kind: existence
+  wrong: "\\b(?:tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|seventeenth|eighteenth|nineteenth|twentieth|twenty-first) century"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use numerals for centuries after the ninth."
+- source: nyt
+  page: 445
+  entry: "1700s, 18th century"
+  kind: existence
+  wrong: "\\b(?:1st|2nd|3rd|4th|5th|6th|7th|8th|9th) century"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spell out centuries first through ninth."
+- source: nyt
+  page: 538
+  entry: "years, decades, centuries"
+  kind: existence
+  wrong: "(?:First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth|Ninth) Century"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase century."
+- source: nyt
+  page: 538
+  entry: "Yule, Yuletide"
+  kind: existence
+  wrong: "Yule(?:tide)?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Trite; just write Christmas."
+- source: nyt
+  page: 538
+  entry: "yuppie"
+  kind: existence
+  wrong: "yuppie"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Colloquial and dated."
+- source: nyt
+  page: 540
+  entry: "ZIP code"
+  kind: existence
+  wrong: "(?:N\\.Y\\.|N\\.J\\.|Calif\\.|Conn\\.|Mass\\.|Pa\\.|Fla\\.|Tex\\.|Ill\\.|Wash\\.|Va\\.|Md\\.|Ga\\.|Colo\\.|Ariz\\.), \\d{5}\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No comma between state and ZIP code."
+- source: nyt
+  page: 464
+  entry: "state abbreviations"
+  kind: existence
+  wrong: "(?<=[a-z]), (?:AL|AK|AZ|AR|CA|CO|CT|DE|DC|FL|GA|IL|KS|KY|MD|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)(?=[ ,.]|$)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use postal two-letter state abbreviations."
+- source: nyt
+  page: 464
+  entry: "state abbreviations"
+  kind: existence
+  wrong: "(?<=[a-z]), (?:Ia|Ida|Ut|Haw)(?=\\.)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not abbreviate Alaska, Hawaii, Idaho, Iowa, Ohio or Utah."
+- source: nyt
+  page: 506
+  entry: "undertaker"
+  kind: existence
+  wrong: "mortician"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use mortician."
+- source: nyt
+  page: 533
+  entry: "workers' compensation"
+  kind: existence
+  wrong: "workmen[’']s comp"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use workers’ compensation."
+- source: nyt
+  page: 402
+  entry: "putsch"
+  kind: casing
+  wrong: "(?<!Beer Hall )Putsch"
+  right: "putsch"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase except the Beer Hall Putsch."
+- source: nyt
+  page: 412
+  entry: "R.A.F."
+  kind: casing
+  wrong: "RAF"
+  right: "R.A.F."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in R.A.F."
+- source: nyt
+  page: 426
+  entry: "R.O.T.C."
+  kind: casing
+  wrong: "ROTC"
+  right: "R.O.T.C."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in R.O.T.C."
+- source: nyt
+  page: 427
+  entry: "r.p.m."
+  kind: casing
+  wrong: "RPM|rpm"
+  right: "r.p.m."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase with periods."
+- source: nyt
+  page: 425
+  entry: "roman"
+  kind: casing
+  wrong: "roman numerals?"
+  right: "Roman numerals"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize Roman numerals."
+- source: nyt
+  page: 425
+  entry: "roman"
+  kind: casing
+  wrong: "roman alphabet"
+  right: "Roman alphabet"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize Roman alphabet."
+- source: nyt
+  page: 426
+  entry: "Rosh Hashana"
+  kind: casing
+  wrong: "Rosh Hashanah"
+  right: "Rosh Hashana"
+  domain: wording
+  fix: review
+  american: true
+  context: religion
+  note: "Guide spelling has no final h."
+- source: nyt
+  page: 426
+  entry: "Rosh Hashana"
+  kind: substitution
+  wrong: "High Holidays"
+  right: "High Holy Days"
+  domain: wording
+  fix: review
+  american: true
+  context: religion
+  note: "Preferred term is High Holy Days."
+- source: nyt
+  page: 437
+  entry: "Scripture(s)"
+  kind: casing
+  wrong: "Scriptural"
+  right: "scriptural"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase the adjective."
+- source: nyt
+  page: 438
+  entry: "S.E.C."
+  kind: casing
+  wrong: "SEC"
+  right: "S.E.C."
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Periods in S.E.C."
+- source: nyt
+  page: 507
+  entry: "Unesco"
+  kind: casing
+  wrong: "UNESCO"
+  right: "Unesco"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Acronym pronounced as a word takes initial cap."
+- source: nyt
+  page: 507
+  entry: "Unicef"
+  kind: casing
+  wrong: "UNICEF"
+  right: "Unicef"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Initial cap only."
+- source: nyt
+  page: 512
+  entry: "U.S."
+  kind: casing
+  wrong: "US"
+  right: "U.S."
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Periods in U.S. (guide limits use to headlines and the like)."
+- source: nyt
+  page: 512
+  entry: "U.S.A.I.D."
+  kind: casing
+  wrong: "USAID"
+  right: "U.S.A.I.D."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in U.S.A.I.D."
+- source: nyt
+  page: 513
+  entry: "U.S.S.R."
+  kind: casing
+  wrong: "USSR"
+  right: "U.S.S.R."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in U.S.S.R."
+- source: nyt
+  page: 513
+  entry: "U.S.S."
+  kind: casing
+  wrong: "USS"
+  right: "U.S.S."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in U.S.S."
+- source: nyt
+  page: 513
+  entry: "U.T.C."
+  kind: casing
+  wrong: "UTC"
+  right: "U.T.C."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in U.T.C."
+- source: nyt
+  page: 492
+  entry: "time"
+  kind: casing
+  wrong: "GMT"
+  right: "G.M.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in G.M.T."
+- source: nyt
+  page: 492
+  entry: "time zones"
+  kind: casing
+  wrong: "\\bEST\\b"
+  right: "E.S.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time zone abbreviations take periods."
+- source: nyt
+  page: 492
+  entry: "time zones"
+  kind: casing
+  wrong: "\\bEDT\\b"
+  right: "E.D.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time zone abbreviations take periods."
+- source: nyt
+  page: 492
+  entry: "time zones"
+  kind: casing
+  wrong: "\\bCST\\b"
+  right: "C.S.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time zone abbreviations take periods."
+- source: nyt
+  page: 492
+  entry: "time zones"
+  kind: casing
+  wrong: "\\bCDT\\b"
+  right: "C.D.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time zone abbreviations take periods."
+- source: nyt
+  page: 492
+  entry: "time zones"
+  kind: casing
+  wrong: "\\bMST\\b"
+  right: "M.S.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time zone abbreviations take periods."
+- source: nyt
+  page: 492
+  entry: "time zones"
+  kind: casing
+  wrong: "\\bMDT\\b"
+  right: "M.D.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time zone abbreviations take periods."
+- source: nyt
+  page: 492
+  entry: "time zones"
+  kind: casing
+  wrong: "\\bPST\\b"
+  right: "P.S.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time zone abbreviations take periods."
+- source: nyt
+  page: 492
+  entry: "time zones"
+  kind: casing
+  wrong: "\\bPDT\\b"
+  right: "P.D.T."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Time zone abbreviations take periods."
+- source: nyt
+  page: 493
+  entry: "time zones"
+  kind: casing
+  wrong: "(?:Eastern) Time"
+  right: "Eastern time"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Short form is Eastern time, lowercase time."
+- source: nyt
+  page: 493
+  entry: "time zones"
+  kind: casing
+  wrong: "Central Time"
+  right: "Central time"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Short form is Central time, lowercase time."
+- source: nyt
+  page: 493
+  entry: "time zones"
+  kind: casing
+  wrong: "Mountain Time"
+  right: "Mountain time"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Short form is Mountain time, lowercase time."
+- source: nyt
+  page: 493
+  entry: "time zones"
+  kind: casing
+  wrong: "Pacific Time"
+  right: "Pacific time"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Short form is Pacific time, lowercase time."
+- source: nyt
+  page: 491
+  entry: "time"
+  kind: existence
+  wrong: "12 [ap]\\.m(?=\\.)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use noon and midnight, not 12 p.m. or 12 a.m."
+- source: nyt
+  page: 514
+  entry: "V.I.P."
+  kind: casing
+  wrong: "VIP"
+  right: "V.I.P."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in V.I.P."
+- source: nyt
+  page: 528
+  entry: "W.H.O."
+  kind: casing
+  wrong: "WHO"
+  right: "W.H.O."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in W.H.O."
+- source: nyt
+  page: 538
+  entry: "Y.M.C.A."
+  kind: casing
+  wrong: "YMCA"
+  right: "Y.M.C.A."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in Y.M.C.A."
+- source: nyt
+  page: 538
+  entry: "Y.W.C.A."
+  kind: casing
+  wrong: "YWCA"
+  right: "Y.W.C.A."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in Y.W.C.A."
+- source: nyt
+  page: 538
+  entry: "Y.M.H.A."
+  kind: casing
+  wrong: "YMHA"
+  right: "Y.M.H.A."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in Y.M.H.A."
+- source: nyt
+  page: 538
+  entry: "Y.W.H.A."
+  kind: casing
+  wrong: "YWHA"
+  right: "Y.W.H.A."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Periods in Y.W.H.A."
+- source: nyt
+  page: 530
+  entry: "Wi-Fi"
+  kind: casing
+  wrong: "WiFi|Wifi|wifi|wi-fi|Wi-fi|WIFI"
+  right: "Wi-Fi"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Trademark spelled Wi-Fi."
+- source: nyt
+  page: 536
+  entry: "X-ray"
+  kind: casing
+  wrong: "x-ray|Xray|xray|X ray|x ray"
+  right: "X-ray"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spelled X-ray."
+- source: nyt
+  page: 536
+  entry: "X-rated"
+  kind: casing
+  wrong: "x-rated|X rated"
+  right: "X-rated"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spelled X-rated."
+- source: nyt
+  page: 540
+  entry: "zeitgeist"
+  kind: casing
+  wrong: "Zeitgeist"
+  right: "zeitgeist"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase the German noun."
+- source: nyt
+  page: 540
+  entry: "ZIP code"
+  kind: casing
+  wrong: "[Zz]ip [Cc]ode|ZIP Code|[Zz]ipcode"
+  right: "ZIP code"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "ZIP upper case, code lowercase."
+- source: nyt
+  page: 524
+  entry: "website"
+  kind: casing
+  wrong: "Website"
+  right: "website"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Lowercase."
+- source: nyt
+  page: 501
+  entry: "T-shirt"
+  kind: casing
+  wrong: "t-shirt"
+  right: "T-shirt"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capital T."

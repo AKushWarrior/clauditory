@@ -1,1 +1,4 @@
 lint/.bin/
+chat/skills/*/scripts/bin/
+lint/dist/
+__pycache__/

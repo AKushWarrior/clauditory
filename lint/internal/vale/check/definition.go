@@ -1,0 +1,605 @@
+package check
+
+import (
+	"fmt"
+	"regexp"
+	"sort"
+	"strconv"
+	"strings"
+	"unicode/utf8"
+
+	"github.com/mitchellh/mapstructure"
+	rx "github.com/AKushWarrior/clauditory/lint/internal/vale/regex"
+	"gopkg.in/yaml.v3"
+
+	"github.com/AKushWarrior/clauditory/lint/internal/vale/core"
+	"github.com/AKushWarrior/clauditory/lint/internal/vale/nlp"
+)
+
+// cloneRule copies a rule definition, so a built-in one is never changed.
+func cloneRule(generic baseCheck) baseCheck {
+	clone := make(baseCheck, len(generic))
+	for k, v := range generic {
+		clone[k] = v
+	}
+	return clone
+}
+
+// sectionVocab is the accepted terms a file's sections add to the
+// project's, compiled once per set of vocabularies.
+type sectionVocab struct {
+	exceptRe, phraseRe *rx.Regexp
+}
+
+// vocabFor returns the terms f's sections accept, or nil.
+func vocabFor(cfg *core.Config, f *core.File) *sectionVocab {
+	if f == nil || cfg == nil || len(f.Vocab) == 0 {
+		return nil
+	}
+	key := "vocab\x00" + strings.Join(f.Vocab, "\x00")
+	v := cfg.Cached(key, func() any {
+		var terms []string
+		for _, name := range f.Vocab {
+			if vocab := cfg.Vocabularies[name]; vocab != nil {
+				terms = append(terms, vocab.Accepted...)
+			}
+		}
+		re, err := updateExceptions(nil, terms, true)
+		if err != nil {
+			re = nil
+		}
+		return &sectionVocab{exceptRe: re, phraseRe: buildPhraseRe(nil, terms, true)}
+	})
+	return v.(*sectionVocab) //nolint:errcheck // only *sectionVocab is stored
+}
+
+// accepts reports whether the sections accept word, or the phrase it sits
+// in at loc in txt.
+func (v *sectionVocab) accepts(word, txt string, loc []int) bool {
+	return v != nil && (isMatch(v.exceptRe, word) || withinPhrase(v.phraseRe, txt, loc))
+}
+
+// wrapSpace is the whitespace a vocabulary term holds between its words.
+var wrapSpace = regexp.MustCompile(`[ \t]+`)
+
+// literalTerm reports whether a vocabulary term is plain text. A period
+// is allowed, since a name like Node.js holds one and never means "any
+// character".
+func literalTerm(term string) bool {
+	bare := strings.ReplaceAll(term, ".", "")
+	return regexp.QuoteMeta(bare) == bare
+}
+
+// termPattern returns a vocabulary term as a pattern: a literal term's
+// periods are escaped, and whitespace between words matches a line wrap
+// as well as a space.
+func termPattern(term string) string {
+	if literalTerm(term) {
+		term = strings.ReplaceAll(term, ".", `\.`)
+	}
+	return wrapSpace.ReplaceAllString(term, `\s+`)
+}
+
+// FilterEnv is the environment passed to the `--filter` flag.
+type FilterEnv struct {
+	Rules []Definition
+}
+
+// Rule represents in individual writing construct to enforce.
+type Rule interface {
+	Run(blk nlp.Block, file *core.File, cfg *core.Config) ([]core.Alert, error)
+	Fields() Definition
+	Pattern() string
+}
+
+// Definition holds the common attributes of rule definitions.
+type Definition struct {
+	Action      core.Action
+	Description string
+	Extends     string
+	Level       string
+	Limit       int
+	Link        string
+	Message     string
+	Name        string
+	Scope       []string
+	Selector    Selector
+
+	// `matchcase` (`bool`): Adapt the replacement to the case of the text it
+	// replaces, so a rule written as `A-OK` still suggests `a-ok` for `a ok`.
+	//
+	// Meaningful wherever a rule swaps matched text for a literal the author
+	// wrote, since the author cannot know in advance how it will be cased.
+	// `capitalization` ignores it: that rule is about case, and re-casing its
+	// suggestion to match what it found would undo the correction.
+	MatchCase bool
+}
+
+var defaultStyles = []string{"Vale"}
+var extensionPoints = []string{
+	"capitalization",
+	"conditional",
+	"consistency",
+	"existence",
+	"occurrence",
+	"repetition",
+	"substitution",
+	"readability",
+	"spelling",
+	"sequence",
+	"metric",
+	"script",
+}
+var defaultRules = map[string]map[string]interface{}{
+	"Avoid": {
+		"extends":    "existence",
+		"name":       "Vale.Avoid",
+		"level":      "error",
+		"message":    "Avoid using '%s'.",
+		"scope":      "text",
+		"ignorecase": false,
+		"tokens":     []string{},
+		"path":       "internal",
+	},
+	"Terms": {
+		"extends":    "substitution",
+		"name":       "Vale.Terms",
+		"level":      "error",
+		"message":    "Use '%s' instead of '%s'.",
+		"scope":      "text",
+		"ignorecase": true,
+		"swap":       map[string]string{},
+		"vocab":      false,
+		"path":       "internal",
+	},
+	"Repetition": {
+		"extends":    "repetition",
+		"name":       "Vale.Repetition",
+		"level":      "error",
+		"message":    "'%s' is repeated!",
+		"scope":      "text",
+		"ignorecase": true,
+		"alpha":      true,
+		"action": core.Action{
+			Name:   "edit",
+			Params: []string{"truncate", " "},
+		},
+		"tokens": []string{`[^\s.!?]+`},
+		"path":   "internal",
+	},
+	"Spelling": {
+		"extends": "spelling",
+		"name":    "Vale.Spelling",
+		"message": "Did you really mean '%s'?",
+		"level":   "error",
+		"scope":   "text",
+		"action": core.Action{
+			Name:   "suggest",
+			Params: []string{"spellings"},
+		},
+		"ignore": []interface{}{},
+		"path":   "internal",
+	},
+}
+
+const (
+	ignoreCase      = `(?i)`
+	wordTemplate    = `(?m)\b(?:%s)\b`
+	nonwordTemplate = `(?m)(?:%s)`
+	tokenTemplate   = `^(?:%s)$` //nolint:gosec
+)
+
+type baseCheck map[string]interface{}
+
+func buildRule(cfg *core.Config, generic baseCheck) (Rule, error) {
+	path, ok := generic["path"].(string)
+	if !ok {
+		msg := fmt.Errorf("'%v' is not valid", generic)
+		return Existence{}, core.NewE100("internal", msg)
+	}
+
+	rule, err := newRule(cfg, generic, path)
+	if err != nil {
+		return rule, err
+	}
+
+	// A bad action would otherwise surface as a lint-time error, once the
+	// rule had already fired, with no file or line to point at.
+	if err = checkAction(cfg, rule); err != nil {
+		if path == "internal" {
+			return rule, core.NewE100("internal", err)
+		}
+		return rule, core.NewE201FromTarget(err.Error(), "action", path)
+	}
+
+	return rule, nil
+}
+
+func newRule(cfg *core.Config, generic baseCheck, path string) (Rule, error) {
+	name, ok := generic["extends"].(string)
+	if !ok {
+		name = "unknown"
+	}
+
+	delete(generic, "path")
+	flattenAction(generic)
+	// A rule may carry its own cases (see internal/testsuite); they are for
+	// `vale test`, not the compiler.
+	delete(generic, "tests")
+	switch name {
+	case "existence":
+		return NewExistence(cfg, generic, path)
+	case "substitution":
+		return NewSubstitution(cfg, generic, path)
+	case "capitalization":
+		return NewCapitalization(cfg, generic, path)
+	case "occurrence":
+		return NewOccurrence(cfg, generic, path)
+	case "spelling":
+		return NewSpelling(cfg, generic, path)
+	case "repetition":
+		return NewRepetition(cfg, generic, path)
+	case "readability":
+		return NewReadability(cfg, generic, path)
+	case "conditional":
+		return NewConditional(cfg, generic, path)
+	case "consistency":
+		return NewConsistency(cfg, generic, path)
+	case "sequence":
+		return NewSequence(cfg, generic, path)
+	case "metric":
+		return NewMetric(cfg, generic, path)
+	case "script":
+		return NewScript(cfg, generic, path)
+	default:
+		return Existence{}, core.NewE201FromTarget(
+			fmt.Sprintf("'extends' key must be one of %v.", extensionPoints),
+			name,
+			path)
+	}
+}
+
+func formatMessages(msg string, desc string, subs ...string) (string, string) {
+	for i, sub := range subs {
+		subs[i] = unwrap(sub)
+	}
+	return core.FormatMessage(msg, subs...), core.FormatMessage(desc, subs...)
+}
+
+// NOTE: We need to do this because regexp2, the library we use for extended
+// syntax, returns its locatons in *rune* offsets.
+//
+// The block converts the span to byte offsets from an index it builds once, and
+// the text is a slice of the original: this is called for every match and
+// again for every alert, so neither a walk nor a copy per call is affordable.
+func re2Loc(blk nlp.Block, loc []int) (string, error) {
+	lo, hi, ok := blk.ByteSpan(loc[0], loc[1])
+	if !ok {
+		msg := fmt.Errorf("%d (%d:%d)",
+			utf8.RuneCountInString(blk.Text), loc[0], loc[1])
+		return "", core.NewE100("internal", fmt.Errorf("match out of bounds: %w", msg))
+	}
+
+	return blk.Text[lo:hi], nil
+}
+
+func makeAlert(chk Definition, loc []int, blk nlp.Block, cfg *core.Config) (core.Alert, error) {
+	match, err := re2Loc(blk, loc)
+	if err != nil {
+		return core.Alert{}, err
+	}
+
+	return alertFor(chk, loc, match, cfg)
+}
+
+// alertFor builds an alert from a span whose text the caller already has.
+//
+// Converting a rune span to text means walking the block from its start, so a
+// caller that has done it once should not pay for it again -- and every
+// caller of makeAlert had already cut the matched text out to inspect it.
+func alertFor(chk Definition, loc []int, match string, cfg *core.Config) (core.Alert, error) {
+	return alertWithGroups(chk, loc, match, nil, cfg)
+}
+
+// alertWithGroups is alertFor with the matched token's capture groups, which
+// an action's arguments may refer to.
+func alertWithGroups(chk Definition, loc []int, match string, groups []string, cfg *core.Config) (core.Alert, error) {
+	action := chk.Action
+	if chk.MatchCase && action.Name == "replace" {
+		action.Params = recase(action.Params, match)
+	}
+
+	a := core.Alert{
+		Check: chk.Name, Severity: chk.Level, Span: loc, Link: chk.Link,
+		Match: match, Action: action, Groups: groups}
+
+	if chk.Action.Name != "" {
+		repl := match
+
+		fixed, fixError := FixAlert(a, cfg)
+		if fixError != nil {
+			return core.Alert{}, fmt.Errorf("%s: %w", chk.Name, fixError)
+		}
+		a.Suggestions = fixed
+
+		if len(fixed) == 1 {
+			repl = fixed[0]
+		} else if len(fixed) > 1 {
+			repl = core.ToSentence(fixed, "or")
+		}
+		a.Message, a.Description = formatMessages(chk.Message, chk.Description, match, repl)
+	} else {
+		a.Message, a.Description = formatMessages(chk.Message, chk.Description, match)
+	}
+
+	return a, nil
+}
+
+func parse(file []byte, path string) (map[string]interface{}, error) {
+	generic := map[string]interface{}{}
+
+	if err := yaml.Unmarshal(file, &generic); err != nil {
+		r := regexp.MustCompile(`yaml: line (\d+): (.+)`)
+		if r.MatchString(err.Error()) {
+			groups := r.FindStringSubmatch(err.Error())
+			i, erri := strconv.Atoi(groups[1])
+			if erri != nil {
+				return generic, core.NewE100("internal", erri)
+			}
+			return generic, core.NewE201FromPosition(groups[2], path, i)
+		}
+	} else if err = validateDefinition(generic, path); err != nil {
+		return generic, err
+	}
+
+	return generic, nil
+}
+
+func validateDefinition(generic map[string]interface{}, path string) error {
+	if point, ok := generic["extends"]; !ok || point == nil {
+		return core.NewE201FromPosition(
+			"Missing the required 'extends' key.",
+			path,
+			1)
+	} else if key, _ := point.(string); !core.StringInSlice(key, extensionPoints) && !isRuleRef(key) {
+		// A dotted value names another rule to extend; inherit.go resolves it
+		// before buildRule, which only ever sees an extension point.
+		return core.NewE201FromTarget(
+			fmt.Sprintf("'extends' key must be one of %v.", extensionPoints),
+			key,
+			path)
+	}
+
+	if _, ok := generic["message"]; !ok {
+		// A rule extending another rule inherits its message unless it says
+		// otherwise; the chain's root is still held to this when it parses.
+		if key, _ := generic["extends"].(string); !isRuleRef(key) {
+			return core.NewE201FromPosition(
+				"Missing the required 'message' key.",
+				path,
+				1)
+		}
+	}
+
+	if level, ok := generic["level"]; ok {
+		if level == nil || !core.StringInSlice(level.(string), core.AlertLevels) {
+			return core.NewE201FromTarget(
+				fmt.Sprintf("'level' must be one of %v", core.AlertLevels),
+				"level",
+				path)
+		}
+	}
+
+	if generic["code"] != nil && generic["code"].(bool) {
+		return core.NewE201FromTarget(
+			"`code` is deprecated; please use `scope: raw` instead.",
+			"code",
+			path)
+	}
+
+	return nil
+}
+
+func readStructureError(err error, path string) error {
+	r1 := regexp.MustCompile(`\* '(.+)' (.+)`)
+	r2 := regexp.MustCompile(`\* '(?:.*)' (.*): (\w+)`)
+	if r1.MatchString(err.Error()) {
+		groups := r1.FindStringSubmatch(err.Error())
+		return core.NewE201FromTarget(
+			groups[2],
+			strings.ToLower(groups[1]),
+			path)
+	} else if r2.MatchString(err.Error()) {
+		groups := r2.FindStringSubmatch(err.Error())
+		return core.NewE201FromTarget(
+			fmt.Sprintf("%s: '%s'", groups[1], groups[2]),
+			strings.ToLower(groups[2]),
+			path)
+	}
+	return core.NewE201FromPosition(err.Error(), path, 1)
+}
+
+func makeRegexp(
+	template string,
+	noCase bool,
+	word func() bool,
+	callback func() string,
+	shouldAppend bool,
+) string {
+	regex := ""
+
+	if word() {
+		if template != "" {
+			regex += template
+		} else {
+			regex += wordTemplate
+		}
+	} else {
+		regex += nonwordTemplate
+	}
+
+	// The result is a format string the caller fills with its tokens, so a
+	// `%` in the raw text has to survive that step.
+	raw := strings.ReplaceAll(callback(), "%", "%%")
+	if shouldAppend {
+		regex += raw
+	} else {
+		regex = raw + regex
+	}
+
+	if noCase {
+		regex = ignoreCase + regex
+	}
+
+	return regex
+}
+
+// matchToken reports whether `observed` already conforms to `expected`. When
+// `expected` is a plain phrase it's an exact comparison; otherwise `expected`
+// is treated as a regex (e.g., a vocab term like `[pP]y.*\b`).
+func matchToken(expected, observed string, ignorecase bool) bool {
+	p := expected
+	if ignorecase {
+		p = ignoreCase + p
+	}
+
+	r, err := rx.Compile(fmt.Sprintf(tokenTemplate, p))
+	if core.IsPhrase(expected) || err != nil {
+		return expected == observed
+	}
+	return r.MatchStringStd(observed)
+}
+
+func updateExceptions(previous []string, current []string, vocab bool) (*rx.Regexp, error) {
+	if vocab {
+		previous = append(previous, current...)
+	}
+
+	// NOTE: This is required to ensure that we have greedy alternation.
+	sort.Slice(previous, func(p, q int) bool {
+		return len(previous[p]) > len(previous[q])
+	})
+
+	// NOTE: We need to add `(?-i)` to each term that doesn't already have it,
+	// otherwise any instance of the `(?i)` flag will be set for the entire
+	// expression.
+	for i, term := range previous {
+		term = termPattern(term)
+		if !strings.HasPrefix(term, "(?i)") {
+			term = "(?-i)" + term
+		}
+		previous[i] = term
+	}
+
+	regex := makeRegexp(
+		"",
+		false,
+		func() bool { return true },
+		func() string { return "" },
+		true)
+
+	regex = fmt.Sprintf(regex, strings.Join(previous, "|"))
+	if len(previous) > 0 {
+		return rx.Compile(regex)
+	}
+
+	return &rx.Regexp{}, nil
+}
+
+// buildPhraseRe compiles a regex matching the multi-word entries among the
+// given exception terms (a rule's `exceptions` plus, when `vocab` is set, the
+// project's accepted vocabulary). It lets a rule suppress a finding that falls
+// within an accepted phrase even when the rule matched only one of the phrase's
+// component words -- e.g. `mea` within an accepted `mea culpa`. See #1035.
+//
+// Returns nil when there are no multi-word terms (or one fails to compile, in
+// which case `updateExceptions` surfaces the error).
+func buildPhraseRe(previous, current []string, vocab bool) *rx.Regexp {
+	terms := append([]string{}, previous...)
+	if vocab {
+		terms = append(terms, current...)
+	}
+
+	phrases := []string{}
+	for _, term := range terms {
+		if strings.ContainsAny(term, " \t") || strings.Contains(term, `\s`) {
+			phrases = append(phrases, termPattern(term))
+		}
+	}
+
+	if len(phrases) == 0 {
+		return nil
+	}
+
+	re, err := rx.Compile(ignoreCase + `\b(?:` + strings.Join(phrases, "|") + `)\b`)
+	if err != nil {
+		return nil
+	}
+	return re
+}
+
+// withinPhrase reports whether the span `loc` falls entirely within a match of
+// `phraseRe` (an accepted multi-word phrase) in `txt`. Both `loc` and the
+// phrase spans are rune offsets, as returned by regexp2's FindAllStringIndex.
+func withinPhrase(phraseRe *rx.Regexp, txt string, loc []int) bool {
+	if phraseRe == nil {
+		return false
+	}
+	for _, span := range phraseRe.FindAllStringIndex(txt, -1) {
+		if loc[0] >= span[0] && loc[1] <= span[1] {
+			return true
+		}
+	}
+	return false
+}
+
+func decodeRule(input interface{}, output interface{}) error {
+	config := mapstructure.DecoderConfig{
+		ErrorUnused:      true,
+		Squash:           true,
+		WeaklyTypedInput: true,
+		Result:           output,
+	}
+
+	decoder, err := mapstructure.NewDecoder(&config)
+	if err != nil {
+		return err
+	}
+
+	return decoder.Decode(input)
+}
+
+func checkScopes(scopes []string, path string) error {
+	for _, scope := range scopes {
+		for _, sel := range DocSelectors(scope) {
+			if _, err := compileSelector(sel); err != nil {
+				return core.NewE201FromTarget(
+					fmt.Sprintf("invalid selector in 'doc(...)': %s", err),
+					"scope",
+					path)
+			}
+		}
+		if strings.Contains(scope, "&") || strings.HasPrefix(strings.TrimPrefix(scope, "~"), "doc(") {
+			// FIXME: multi part ...
+			continue
+		}
+
+		// Negation ...
+		scope = strings.TrimPrefix(scope, "~")
+
+		// Specification ...
+		//
+		// TODO: check sub-scopes too?
+		scope = strings.Split(scope, ".")[0]
+
+		// No spaces
+		if strings.Contains(scope, " ") {
+			return core.NewE201FromTarget(
+				fmt.Sprintf("scope '%v' contains spaces.", scope),
+				"scope",
+				path)
+		}
+	}
+
+	return nil
+}

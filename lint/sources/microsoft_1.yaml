@@ -1,0 +1,2864 @@
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "serial comma"
+  kind: existence
+  wrong: "\\w+, \\w+ and \\w+"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Add a comma before the conjunction in a series of three or more. Matches many non-series phrases."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "one space after period"
+  kind: existence
+  wrong: "[.?!:] {2,}[A-Z]"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Use one space after periods, question marks, exclamation marks, and colons."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "spaces around dashes"
+  kind: substitution
+  wrong: "\\s+—\\s+"
+  right: "—"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "No spaces around em dashes."
+- source: microsoft
+  page: "Punctuation checklist"
+  entry: "spaces around double hyphen dash"
+  kind: existence
+  wrong: "\\s--\\s"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Use an unspaced em dash, not a spaced double hyphen."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "weak phrasing"
+  kind: existence
+  wrong: "there (?:is|are|was|were)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid weak there is/are/was/were openings."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "contractions"
+  kind: substitution
+  wrong: "do not"
+  right: "don't"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use contractions for a friendly tone."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "contractions"
+  kind: substitution
+  wrong: "does not"
+  right: "doesn't"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use contractions for a friendly tone."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "contractions"
+  kind: substitution
+  wrong: "is not"
+  right: "isn't"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use contractions for a friendly tone."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "contractions"
+  kind: substitution
+  wrong: "are not"
+  right: "aren't"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use contractions for a friendly tone."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "contractions"
+  kind: substitution
+  wrong: "cannot"
+  right: "can't"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use contractions for a friendly tone."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "contractions"
+  kind: substitution
+  wrong: "will not"
+  right: "won't"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use contractions for a friendly tone."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "contractions"
+  kind: substitution
+  wrong: "you are"
+  right: "you're"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use contractions for a friendly tone."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "contractions"
+  kind: substitution
+  wrong: "you will"
+  right: "you'll"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use contractions for a friendly tone."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "contractions"
+  kind: substitution
+  wrong: "we are"
+  right: "we're"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use contractions for a friendly tone."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "contractions"
+  kind: substitution
+  wrong: "let us"
+  right: "let's"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use contractions for a friendly tone."
+- source: microsoft
+  page: "Top 10 tips for Microsoft style and voice"
+  entry: "contractions"
+  kind: substitution
+  wrong: "it is"
+  right: "it's"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use contractions for a friendly tone; skip when emphasis is intended."
+- source: microsoft
+  page: "Numbers checklist"
+  entry: "ordinal adverbs"
+  kind: substitution
+  wrong: "firstly"
+  right: "first"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not add -ly to ordinal numbers."
+- source: microsoft
+  page: "Numbers checklist"
+  entry: "ordinal adverbs"
+  kind: substitution
+  wrong: "secondly"
+  right: "second"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not add -ly to ordinal numbers."
+- source: microsoft
+  page: "Numbers checklist"
+  entry: "ordinal adverbs"
+  kind: substitution
+  wrong: "thirdly"
+  right: "third"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not add -ly to ordinal numbers."
+- source: microsoft
+  page: "Numbers checklist"
+  entry: "percent"
+  kind: existence
+  wrong: "\\d+(?:\\.\\d+)? percent"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use the percent sign with numerals rather than spelling out percent."
+- source: microsoft
+  page: "Numbers checklist"
+  entry: "dates with ordinals"
+  kind: existence
+  wrong: "(?:January|February|March|April|May|June|July|August|September|October|November|December) \\d{1,2}(?:st|nd|rd|th)"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use a numeral without an ordinal suffix for dates."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "date order"
+  kind: existence
+  wrong: "\\d{1,2} (?:January|February|March|April|May|June|July|August|September|October|November|December),? \\d{4}"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Write dates as month day, year, not day month year."
+- source: microsoft
+  page: "Numbers checklist"
+  entry: "commas in large numbers"
+  kind: existence
+  wrong: "(?<![\\d,.])\\d{5,}(?![\\d,])"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use commas in numbers of four or more digits (five for years, pixels, baud). Flags 5+ digits only."
+- source: microsoft
+  page: "Bit and byte terms"
+  entry: "byte abbreviations"
+  kind: existence
+  wrong: "(?:[EGKMPTZ] byte|[EGKMPTZ]Byte|EByte)"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use E, G, K, M, P, T, Z with byte; use EB, GB, KB, MB, PB, TB, ZB."
+- source: microsoft
+  page: "Bit and byte terms"
+  entry: "megabyte"
+  kind: existence
+  wrong: "meg"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Do not use meg for megabyte."
+- source: microsoft
+  page: "Bit and byte terms"
+  entry: "per second"
+  kind: existence
+  wrong: "(?:Gb|Kb|KB|Mb|MB) per second"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use Gbps, Kbps, KBps, Mbps, MBps rather than spelling out per second with the abbreviation."
+- source: microsoft
+  page: "Units of measure terms"
+  entry: "baud rate"
+  kind: substitution
+  wrong: "baud rate"
+  right: "baud"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "baud rate is redundant."
+- source: microsoft
+  page: "Bit and byte terms"
+  entry: "space before unit"
+  kind: existence
+  wrong: "\\d+(?:KB|MB|GB|TB|PB|EB|ZB)"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Insert a space between the numeral and the abbreviated unit."
+- source: microsoft
+  page: "Units of measure terms"
+  entry: "half inch"
+  kind: substitution
+  wrong: "half an inch|one-half inch"
+  right: "half-inch"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate half-inch as an adjective; use it instead of half an inch."
+- source: microsoft
+  page: "8.5\" x 11\" paper"
+  entry: "paper size"
+  kind: substitution
+  wrong: "8\\.5-by-11-inch|8 1/2 by 11-inch|8\\.5 × 11-inch"
+  right: "8.5\" × 11\""
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Write the paper size with straight inch marks and a multiplication sign."
+- source: microsoft
+  page: "Units of measure terms"
+  entry: "multiplication sign"
+  kind: existence
+  wrong: "\\d+ x \\d+"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use the multiplication sign with spaces for tile sizes, resolutions, paper sizes; spell out by otherwise."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "24/7"
+  kind: existence
+  wrong: "24/7"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use; say all day, every day or always."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "AM, PM"
+  kind: existence
+  wrong: "\\d{1,2}(?::\\d{2})? ?(?:am|pm)"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use capital AM or PM after a space."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "AM, PM"
+  kind: existence
+  wrong: "\\d{1,2}(?::\\d{2})? ?(?:a\\.m|p\\.m)(?=\\.)"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use capital AM or PM without periods."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "AM, PM"
+  kind: existence
+  wrong: "\\d{1,2}(?::\\d{2})?(?:AM|PM)"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Put a space between the time and AM or PM."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "noon"
+  kind: substitution
+  wrong: "12:00 noon"
+  right: "noon"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use noon, not 12:00 noon."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "midnight"
+  kind: substitution
+  wrong: "12:00 midnight"
+  right: "midnight"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use midnight, not 12:00 midnight."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "month abbreviations"
+  kind: existence
+  wrong: "(?:Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)(?=\\. )"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviate months with three letters and no period, only when space is tight."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "day abbreviations"
+  kind: existence
+  wrong: "(?:Sun|Mon|Tue|Tues|Wed|Thu|Thur|Thurs|Fri|Sat)(?=\\.)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Day abbreviations take no period."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "capitalize days"
+  kind: existence
+  wrong: "(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday)"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize days of the week."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "capitalize months"
+  kind: existence
+  wrong: "(?:january|february|april|june|july|september|october|november|december)"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize month names."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "UTC"
+  kind: substitution
+  wrong: "Universal Time Coordinate[d]?"
+  right: "Coordinated Universal Time"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Coordinated Universal Time."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "UTC"
+  kind: casing
+  wrong: "CUT"
+  right: "UTC"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Abbreviate Coordinated Universal Time as UTC, never CUT."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "GMT"
+  kind: existence
+  wrong: "Greenwich Mean Time|GMT"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use Coordinated Universal Time instead of GMT unless unavoidable."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "UTC offset spacing"
+  kind: existence
+  wrong: "UTC(?: [+-] ?\\d|[+-] \\d)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No spaces around the plus or hyphen in UTC offsets."
+- source: microsoft
+  page: "Date and time terms"
+  entry: "standard time"
+  kind: existence
+  wrong: "Standard Time|Daylight Saving(?:s)? Time"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid naming standard or daylight saving time unless it matters to the event."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "keypress"
+  kind: substitution
+  wrong: "keypress"
+  right: "keystroke"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use keystroke."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "keyboard shortcut"
+  kind: substitution
+  wrong: "accelerator key|fast key|hot key|quick key|speed key"
+  right: "keyboard shortcut"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use keyboard shortcut."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "Esc"
+  kind: substitution
+  wrong: "Escape key"
+  right: "Esc key"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Refer to the key as Esc."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "numeric keypad"
+  kind: substitution
+  wrong: "numerical keypad|numeric keyboard"
+  right: "numeric keypad"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use numeric keypad."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "arrow keys"
+  kind: substitution
+  wrong: "direction keys|directional keys|movement keys"
+  right: "arrow keys"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use arrow keys."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "backtab"
+  kind: substitution
+  wrong: "backtab"
+  right: "Shift+Tab"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Instruct the customer to use Shift+Tab."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "on-screen keyboard"
+  kind: substitution
+  wrong: "virtual keyboard|soft keyboard|visual keyboard|keyboard display"
+  right: "on-screen keyboard"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use hyphenated on-screen keyboard."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "Page up"
+  kind: casing
+  wrong: "Page Up"
+  right: "Page up"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Sentence-case key name."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "Page down"
+  kind: casing
+  wrong: "Page Down"
+  right: "Page down"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Sentence-case key name."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "Caps lock"
+  kind: casing
+  wrong: "Caps Lock"
+  right: "Caps lock"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Sentence-case key name."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "Scroll lock"
+  kind: casing
+  wrong: "Scroll Lock"
+  right: "Scroll lock"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Sentence-case key name."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "Num lock"
+  kind: casing
+  wrong: "Num Lock"
+  right: "Num lock"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Sentence-case key name."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "Print screen"
+  kind: casing
+  wrong: "Print Screen"
+  right: "Print screen"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Sentence-case key name."
+- source: microsoft
+  page: "Keys and keyboard shortcuts"
+  entry: "keyboard shortcut spacing"
+  kind: existence
+  wrong: "(?:Ctrl|Alt|Shift) \\+ \\w"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "No spaces around the plus sign in keyboard shortcuts."
+- source: microsoft
+  page: "Procedures and instructions checklist"
+  entry: "Shift+click"
+  kind: existence
+  wrong: "(?i:(?:Ctrl|Shift|Alt)\\+click)"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Do not combine keyboard and mouse actions with a plus sign; say hold down Shift while clicking."
+- source: microsoft
+  page: "Mouse and mouse interaction terms"
+  entry: "click on"
+  kind: substitution
+  wrong: "click on"
+  right: "click"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Do not use click on."
+- source: microsoft
+  page: "Mouse and mouse interaction terms"
+  entry: "double-click on"
+  kind: substitution
+  wrong: "double-click on"
+  right: "double-click"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Do not use double-click on."
+- source: microsoft
+  page: "Mouse and mouse interaction terms"
+  entry: "double-click"
+  kind: substitution
+  wrong: "double click"
+  right: "double-click"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate double-click."
+- source: microsoft
+  page: "Touch and pen interaction terms"
+  entry: "tap on"
+  kind: substitution
+  wrong: "tap on"
+  right: "tap"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Do not use tap on."
+- source: microsoft
+  page: "Touch and pen interaction terms"
+  entry: "double-tap on"
+  kind: substitution
+  wrong: "double-tap on"
+  right: "double-tap"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Do not use double-tap on."
+- source: microsoft
+  page: "Touch and pen interaction terms"
+  entry: "touch and hold"
+  kind: substitution
+  wrong: "touch and hold"
+  right: "tap and hold"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use tap and hold only if required; do not use touch and hold."
+- source: microsoft
+  page: "Mouse and mouse interaction terms"
+  entry: "drag"
+  kind: substitution
+  wrong: "click and drag|drag and drop"
+  right: "drag"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use drag; drag-and-drop is OK only as an adjective."
+- source: microsoft
+  page: "Mouse and mouse interaction terms"
+  entry: "hover over"
+  kind: substitution
+  wrong: "mouse over"
+  right: "hover over"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use hover over or point to."
+- source: microsoft
+  page: "Mouse and mouse interaction terms"
+  entry: "click"
+  kind: existence
+  wrong: "click"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Prefer select (input-neutral); click is OK only for mouse-specific text."
+- source: microsoft
+  page: "Describing interactions with UI"
+  entry: "press and hold"
+  kind: substitution
+  wrong: "press and hold"
+  right: "select and hold"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use select and hold in most content."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "pointing device"
+  kind: existence
+  wrong: "pointing device|input device"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Name the specific device: mouse, pen, controller, joystick, touchpad, trackball."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "stylus"
+  kind: substitution
+  wrong: "stylus"
+  right: "pen"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use pen or tablet pen, not stylus."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "turn on"
+  kind: substitution
+  wrong: "power on|switch on"
+  right: "turn on"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use turn on."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "turn off"
+  kind: substitution
+  wrong: "power off|switch off"
+  right: "turn off"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use turn off."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "mobile computer"
+  kind: existence
+  wrong: "mobile computer|portable computer|mobile PC"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use computer or laptop."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "phone"
+  kind: substitution
+  wrong: "cell ?phone|cellular phone|wireless phone"
+  right: "phone"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use phone."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "handheld"
+  kind: existence
+  wrong: "handheld PC|handheld computer"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use device or handheld device."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "adapter"
+  kind: substitution
+  wrong: "adaptor"
+  right: "adapter"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use adapter."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "disc"
+  kind: existence
+  wrong: "(?:CD|DVD|Blu-ray) disk"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use disc for CDs and DVDs."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "hard drive"
+  kind: substitution
+  wrong: "hard disk|fixed disk|disk drive"
+  right: "hard drive"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use hard drive."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "drive C"
+  kind: substitution
+  wrong: "C: drive|drive C:|drive C>"
+  right: "drive C"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Write drive C."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "network drive"
+  kind: substitution
+  wrong: "remote drive"
+  right: "network drive"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use network drive."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "network adapter"
+  kind: substitution
+  wrong: "network card"
+  right: "network adapter"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use network adapter."
+- source: microsoft
+  page: "Computer and device terms"
+  entry: "box hardware"
+  kind: existence
+  wrong: "(?:client|server) box"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not call hardware a box."
+- source: microsoft
+  page: "disk space"
+  entry: "disk space"
+  kind: substitution
+  wrong: "disk space"
+  right: "storage space"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use storage or storage space."
+- source: microsoft
+  page: "display adapter, display driver"
+  entry: "display adapter"
+  kind: substitution
+  wrong: "display adapter"
+  right: "video card"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use video card."
+- source: microsoft
+  page: "display adapter, display driver"
+  entry: "display driver"
+  kind: substitution
+  wrong: "display driver"
+  right: "video driver"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use video driver."
+- source: microsoft
+  page: "Security terms"
+  entry: "antimalware"
+  kind: substitution
+  wrong: "antimalware"
+  right: "anti-malware"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate anti-malware."
+- source: microsoft
+  page: "Security terms"
+  entry: "antivirus"
+  kind: substitution
+  wrong: "anti-virus"
+  right: "antivirus"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Write antivirus without a hyphen."
+- source: microsoft
+  page: "Security terms"
+  entry: "antispyware"
+  kind: substitution
+  wrong: "anti-spyware"
+  right: "antispyware"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Write antispyware without a hyphen."
+- source: microsoft
+  page: "Security terms"
+  entry: "antiphishing"
+  kind: substitution
+  wrong: "anti-phishing"
+  right: "antiphishing"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Write antiphishing without a hyphen."
+- source: microsoft
+  page: "Security terms"
+  entry: "hat hacker"
+  kind: existence
+  wrong: "black hat hacker|white hat hacker"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Consider alternatives such as malicious hacker."
+- source: microsoft
+  page: "Security terms"
+  entry: "bullet-proof"
+  kind: existence
+  wrong: "bullet-proof"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use."
+- source: microsoft
+  page: "Security terms"
+  entry: "deceptive software"
+  kind: substitution
+  wrong: "deceptive software"
+  right: "unwanted software"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use unwanted software."
+- source: microsoft
+  page: "Security terms"
+  entry: "malicious code"
+  kind: substitution
+  wrong: "malicious code"
+  right: "malware"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use malware or malicious software."
+- source: microsoft
+  page: "Security terms"
+  entry: "malicious user"
+  kind: substitution
+  wrong: "malicious user"
+  right: "malicious hacker"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use malicious hacker."
+- source: microsoft
+  page: "Security terms"
+  entry: "insecure"
+  kind: existence
+  wrong: "insecure"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Do not use to mean not secure."
+- source: microsoft
+  page: "Accessibility terms"
+  entry: "offensive disability terms"
+  kind: existence
+  wrong: "sight-impaired|vision-impaired|hearing-impaired|crippled|handicapped|the handicapped|mentally handicapped|slow learner|differently abled|special needs|stricken with|an epileptic|maimed|birth defect"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Offensive or insensitive disability language; use people-first wording."
+- source: microsoft
+  page: "Accessibility terms"
+  entry: "suffers from"
+  kind: existence
+  wrong: "suffers? from|victim of|affected by"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not describe people as suffering from or victims of a condition."
+- source: microsoft
+  page: "Accessibility terms"
+  entry: "normal person"
+  kind: existence
+  wrong: "normal person|healthy person"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use person without a disability."
+- source: microsoft
+  page: "Accessibility terms"
+  entry: "Asperger's"
+  kind: existence
+  wrong: "Asperger's"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use; use person with autism or functional needs."
+- source: microsoft
+  page: "Accessibility terms"
+  entry: "amputee"
+  kind: existence
+  wrong: "amputee"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use person with an amputation or limb difference."
+- source: microsoft
+  page: "AI and bot terms"
+  entry: "artificial intelligence"
+  kind: substitution
+  wrong: "artificial intelligence"
+  right: "AI"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not spell out artificial intelligence."
+- source: microsoft
+  page: "AI and bot terms"
+  entry: "smart technology"
+  kind: substitution
+  wrong: "smart technology"
+  right: "intelligent technology"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use intelligent technology."
+- source: microsoft
+  page: "AI and bot terms"
+  entry: "social chatbot"
+  kind: substitution
+  wrong: "emotional chatbot|personified chatbot"
+  right: "social chatbot"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use social chatbot."
+- source: microsoft
+  page: "AI and bot terms"
+  entry: "CaaP casing"
+  kind: casing
+  wrong: "CAAP"
+  right: "CaaP"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not capitalize CaaP as CAAP."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "on-premises"
+  kind: substitution
+  wrong: "on-premise(?!s)"
+  right: "on-premises"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Premises is plural."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "off-premises"
+  kind: substitution
+  wrong: "off-premise(?!s)"
+  right: "off-premises"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Premises is plural."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "on-premises hyphen"
+  kind: substitution
+  wrong: "on premises"
+  right: "on-premises"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate in all positions."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "off-premises hyphen"
+  kind: substitution
+  wrong: "off premises"
+  right: "off-premises"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate in all positions."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "multicloud"
+  kind: substitution
+  wrong: "multi-cloud"
+  right: "multicloud"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "One word, no hyphen."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "multitenant"
+  kind: substitution
+  wrong: "multi-tenant"
+  right: "multitenant"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "One word, no hyphen."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "multitenancy"
+  kind: substitution
+  wrong: "multi-tenancy"
+  right: "multitenancy"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "One word, no hyphen."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "cross-tenant"
+  kind: substitution
+  wrong: "cross tenant"
+  right: "cross-tenant"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate in all positions."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "IaaS"
+  kind: casing
+  wrong: "IAAS"
+  right: "IaaS"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not capitalize as IAAS."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "PaaS"
+  kind: casing
+  wrong: "PAAS"
+  right: "PaaS"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not capitalize as PAAS."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "SaaS"
+  kind: casing
+  wrong: "SAAS"
+  right: "SaaS"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not capitalize as SAAS."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "ITaaS"
+  kind: casing
+  wrong: "ITAAS"
+  right: "ITaaS"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not capitalize as ITAAS."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "CDN"
+  kind: substitution
+  wrong: "CDN"
+  right: "content delivery network"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Always spell out content delivery network."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "hoster"
+  kind: existence
+  wrong: "hoster"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use hoster."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "community cloud"
+  kind: existence
+  wrong: "community cloud"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Never use; use hybrid cloud, private cloud, or hosted private cloud."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "cloud OS"
+  kind: existence
+  wrong: "cloud OS"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use; use platform as a service (PaaS)."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "born in the cloud"
+  kind: existence
+  wrong: "born in the cloud|cloud-born"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use."
+- source: microsoft
+  page: "Cloud-computing terms"
+  entry: "edge"
+  kind: substitution
+  wrong: "on the edge"
+  right: "at the edge"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Use at the edge for edge computing."
+- source: microsoft
+  page: "abort, abortion"
+  entry: "abortion"
+  kind: existence
+  wrong: "abortion"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Never use."
+- source: microsoft
+  page: "abort, abortion"
+  entry: "abort"
+  kind: existence
+  wrong: "abort(?:s|ed|ing)?"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Avoid abort for general audiences; use End, Close, Stop, or Cancel."
+- source: microsoft
+  page: "above"
+  entry: "above"
+  kind: existence
+  wrong: "the above\\b|the below\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use above or below as adjectives; use a link, previous, preceding, later, or following."
+- source: microsoft
+  page: "above"
+  entry: "above after noun"
+  kind: existence
+  wrong: "(?:code|section|text|table|figure|example|information) (?:above|below)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use above or below after a noun; use a link or earlier/later."
+- source: microsoft
+  page: "actionable"
+  entry: "actionable"
+  kind: existence
+  wrong: "actionable"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use unless there is no other choice."
+- source: microsoft
+  page: "administer"
+  entry: "administer"
+  kind: substitution
+  wrong: "administrate"
+  right: "administer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use administer."
+- source: microsoft
+  page: "afterward"
+  entry: "afterward"
+  kind: substitution
+  wrong: "afterwards"
+  right: "afterward"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use afterward."
+- source: microsoft
+  page: "allow, allows"
+  entry: "allows you to"
+  kind: existence
+  wrong: "(?:allows|enables|lets) you(?: to)?|(?:allow|enable|let) you to"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid saying the product allows, enables, or lets the customer; rewrite from the customer's view."
+- source: microsoft
+  page: "allow list"
+  entry: "allowlist"
+  kind: substitution
+  wrong: "allow-?list"
+  right: "allow list"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words, lowercase."
+- source: microsoft
+  page: "block list"
+  entry: "blocklist"
+  kind: substitution
+  wrong: "block-?list"
+  right: "block list"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words, lowercase."
+- source: microsoft
+  page: "blacklist"
+  entry: "blacklist"
+  kind: substitution
+  wrong: "(?i:blacklist)"
+  right: "block list"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Never use blacklist."
+- source: microsoft
+  page: "whitelist"
+  entry: "whitelist"
+  kind: substitution
+  wrong: "(?i:whitelist)"
+  right: "allow list"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Never use whitelist."
+- source: microsoft
+  page: "alphabetical"
+  entry: "alphabetical"
+  kind: substitution
+  wrong: "alphabetic(?!al)"
+  right: "alphabetical"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use alphabetical."
+- source: microsoft
+  page: "alphanumeric"
+  entry: "alphanumerical"
+  kind: substitution
+  wrong: "alphanumerical"
+  right: "alphanumeric"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use alphanumeric."
+- source: microsoft
+  page: "and so on"
+  entry: "and so on"
+  kind: existence
+  wrong: "and so on|and so forth"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use; be specific or use such as."
+- source: microsoft
+  page: "and/or"
+  entry: "and/or"
+  kind: existence
+  wrong: "and/or"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Avoid unless it avoids long wording; usually or suffices."
+- source: microsoft
+  page: "ampersand (&)"
+  entry: "ampersand"
+  kind: existence
+  wrong: "\\s&\\s"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use & in place of and in text or headings, except to match UI."
+- source: microsoft
+  page: "antialiasing"
+  entry: "antialiasing"
+  kind: substitution
+  wrong: "anti-aliasing"
+  right: "antialiasing"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate."
+- source: microsoft
+  page: "app, application"
+  entry: "application program"
+  kind: substitution
+  wrong: "application program"
+  right: "program"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use application program."
+- source: microsoft
+  page: "application developer, app developer"
+  entry: "application developer"
+  kind: substitution
+  wrong: "(?:application|applications|app) developer"
+  right: "software developer"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use software developer, web developer, developer, or programmer."
+- source: microsoft
+  page: "application file, app file"
+  entry: "application file"
+  kind: substitution
+  wrong: "(?:application|app) file"
+  right: "program file"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use the file name, or program file."
+- source: microsoft
+  page: "appendix, appendices"
+  entry: "appendixes"
+  kind: substitution
+  wrong: "appendixes"
+  right: "appendices"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is appendices."
+- source: microsoft
+  page: "as well as"
+  entry: "as well as"
+  kind: existence
+  wrong: "as well as"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use as a synonym for and."
+- source: microsoft
+  page: "assure, ensure, insure"
+  entry: "assure"
+  kind: existence
+  wrong: "assure[sd]?|insure[sd]?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use ensure for make sure, insure for insurance, assure for state positively."
+- source: microsoft
+  page: "auto-"
+  entry: "auto- prefix"
+  kind: substitution
+  wrong: "auto-scale"
+  right: "autoscale"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate auto- words."
+- source: microsoft
+  page: "auto-"
+  entry: "auto- prefix"
+  kind: substitution
+  wrong: "auto-dial"
+  right: "autodial"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate auto- words."
+- source: microsoft
+  page: "bi-"
+  entry: "bi- prefix"
+  kind: substitution
+  wrong: "bi-directional"
+  right: "bidirectional"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate bi- words."
+- source: microsoft
+  page: "bi-"
+  entry: "bi- prefix"
+  kind: substitution
+  wrong: "bi-modal"
+  right: "bimodal"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate bi- words."
+- source: microsoft
+  page: "bi-"
+  entry: "bi- prefix"
+  kind: substitution
+  wrong: "bi-monthly"
+  right: "bimonthly"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate bi- words."
+- source: microsoft
+  page: "co-"
+  entry: "co- prefix"
+  kind: substitution
+  wrong: "co-author"
+  right: "coauthor"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate co- words."
+- source: microsoft
+  page: "co-"
+  entry: "co- prefix"
+  kind: substitution
+  wrong: "co-ordinate"
+  right: "coordinate"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate co- words."
+- source: microsoft
+  page: "cyber-"
+  entry: "cyber- prefix"
+  kind: substitution
+  wrong: "cyber-security"
+  right: "cybersecurity"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate cyber- words."
+- source: microsoft
+  page: "cyber-"
+  entry: "cyber- prefix"
+  kind: substitution
+  wrong: "cyber-space"
+  right: "cyberspace"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate cyber- words."
+- source: microsoft
+  page: "cyber-"
+  entry: "cyber- prefix"
+  kind: substitution
+  wrong: "cyber-attack"
+  right: "cyberattack"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate cyber- words."
+- source: microsoft
+  page: "audiobook"
+  entry: "audiobook"
+  kind: substitution
+  wrong: "audio book"
+  right: "audiobook"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: microsoft
+  page: "backlight"
+  entry: "backlight"
+  kind: substitution
+  wrong: "back light"
+  right: "backlight"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: microsoft
+  page: "blade"
+  entry: "blade"
+  kind: existence
+  wrong: "blade"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Do not use; use pane. Matches the word anywhere."
+- source: microsoft
+  page: "black box"
+  entry: "black box"
+  kind: existence
+  wrong: "black box"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use."
+- source: microsoft
+  page: "blue screen, bluescreen"
+  entry: "bluescreen"
+  kind: existence
+  wrong: "bluescreen"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use; say stop error."
+- source: microsoft
+  page: "bold"
+  entry: "bolded"
+  kind: substitution
+  wrong: "bolded|boldfaced?"
+  right: "bold"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use bold only as an adjective."
+- source: microsoft
+  page: "bookmark"
+  entry: "bookmark"
+  kind: existence
+  wrong: "bookmark"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use favorite for a saved site; bookmark is one word otherwise."
+- source: microsoft
+  page: "Bluetooth"
+  entry: "Bluetooth"
+  kind: casing
+  wrong: "bluetooth|BlueTooth"
+  right: "Bluetooth"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always capitalize Bluetooth."
+- source: microsoft
+  page: "Blu-ray Disc"
+  entry: "Blu-ray"
+  kind: casing
+  wrong: "Blu-Ray|BluRay|Bluray"
+  right: "Blu-ray"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell and capitalize Blu-ray."
+- source: microsoft
+  page: "Boolean"
+  entry: "Boolean"
+  kind: casing
+  wrong: "boolean"
+  right: "Boolean"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Always capitalize Boolean; skip code identifiers."
+- source: microsoft
+  page: "bottom left, bottom right"
+  entry: "bottom left"
+  kind: substitution
+  wrong: "bottom left"
+  right: "lower left"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use lower left."
+- source: microsoft
+  page: "bottom left, bottom right"
+  entry: "bottom right"
+  kind: substitution
+  wrong: "bottom right"
+  right: "lower right"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use lower right."
+- source: microsoft
+  page: "breakpoint"
+  entry: "breakpoint"
+  kind: substitution
+  wrong: "break point"
+  right: "breakpoint"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: microsoft
+  page: "broadcast"
+  entry: "broadcasted"
+  kind: substitution
+  wrong: "broadcasted"
+  right: "broadcast"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Past tense is broadcast."
+- source: microsoft
+  page: "blog, blogger, blogroll, weblog"
+  entry: "weblog"
+  kind: substitution
+  wrong: "weblog"
+  right: "blog"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use weblog."
+- source: microsoft
+  page: "bug fix"
+  entry: "bug fix"
+  kind: substitution
+  wrong: "bug fix(?:es)?"
+  right: "software update"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use software update."
+- source: microsoft
+  page: "C, C++, C#"
+  entry: "C-based"
+  kind: existence
+  wrong: "C-based|C-callable|C\\+\\+-based|C#-based"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not form hyphenated modifiers with C, C++, C#."
+- source: microsoft
+  page: "call back, callback"
+  entry: "callback"
+  kind: existence
+  wrong: "call back function"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Callback function is the term; callback is the noun or adjective."
+- source: microsoft
+  page: "can, may"
+  entry: "may"
+  kind: existence
+  wrong: "may"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Avoid may for possibility; use might. Matches the month only if lowercase."
+- source: microsoft
+  page: "cancel, canceled, canceling, cancellation"
+  entry: "cancelled"
+  kind: substitution
+  wrong: "cancelled"
+  right: "canceled"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use one l in canceled."
+- source: microsoft
+  page: "cancel, canceled, canceling, cancellation"
+  entry: "cancelling"
+  kind: substitution
+  wrong: "cancelling"
+  right: "canceling"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use one l in canceling."
+- source: microsoft
+  page: "catalog"
+  entry: "catalogue"
+  kind: substitution
+  wrong: "catalogue"
+  right: "catalog"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use catalog."
+- source: microsoft
+  page: "center on"
+  entry: "center around"
+  kind: substitution
+  wrong: "center around"
+  right: "center on"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use center on."
+- source: microsoft
+  page: "cell phone, cellular phone"
+  entry: "cell phone"
+  kind: substitution
+  wrong: "cell phone|cellular phone"
+  right: "phone"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use."
+- source: microsoft
+  page: "check, checkbox, check mark"
+  entry: "check box"
+  kind: substitution
+  wrong: "check box"
+  right: "checkbox"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "One word in UI."
+- source: microsoft
+  page: "check, checkbox, check mark"
+  entry: "uncheck"
+  kind: substitution
+  wrong: "uncheck(?:ed)?|unmark(?:ed)?"
+  right: "clear"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Use select and clear with checkboxes."
+- source: microsoft
+  page: "deselect"
+  entry: "deselect"
+  kind: existence
+  wrong: "deselect(?:ed)?"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Use clear for checkboxes and cancel the selection otherwise."
+- source: microsoft
+  page: "child folder"
+  entry: "child folder"
+  kind: substitution
+  wrong: "child folder"
+  right: "subfolder"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use subfolder, subdirectory, or folder."
+- source: microsoft
+  page: "client/server"
+  entry: "client-server"
+  kind: substitution
+  wrong: "client-server"
+  right: "client/server"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Always use the slash."
+- source: microsoft
+  page: "clipboard"
+  entry: "Windows clipboard"
+  kind: substitution
+  wrong: "Windows clipboard"
+  right: "clipboard"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not precede clipboard with Windows."
+- source: microsoft
+  page: "clipboard"
+  entry: "onto the clipboard"
+  kind: substitution
+  wrong: "onto the clipboard"
+  right: "to the clipboard"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Material is copied to the clipboard."
+- source: microsoft
+  page: "codec"
+  entry: "codec"
+  kind: existence
+  wrong: "compressor/decompressor|coder/decoder"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not spell out codec."
+- source: microsoft
+  page: "column format"
+  entry: "columnar"
+  kind: substitution
+  wrong: "columnar|columnlike"
+  right: "column format"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use column format."
+- source: microsoft
+  page: "command button"
+  entry: "action button"
+  kind: existence
+  wrong: "push button|action button"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not call a command button an action button or push button."
+- source: microsoft
+  page: "command line, command-line"
+  entry: "on the command line"
+  kind: existence
+  wrong: "on (?:a|the) command line"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Customers enter commands at a command prompt, not on a command line."
+- source: microsoft
+  page: "command prompt"
+  entry: "command prompt"
+  kind: substitution
+  wrong: "C prompt|command-line prompt"
+  right: "command prompt"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use command prompt."
+- source: microsoft
+  page: "command prompt"
+  entry: "system prompt"
+  kind: existence
+  wrong: "system prompt"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Use command prompt for a command prompt; AI uses of system prompt are fine."
+- source: microsoft
+  page: "context menu"
+  entry: "context menu"
+  kind: existence
+  wrong: "context menu"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Use shortcut menu except in developer content."
+- source: microsoft
+  page: "contiguous selection"
+  entry: "contiguous selection"
+  kind: substitution
+  wrong: "contiguous selection"
+  right: "multiple selection"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use multiple selection or adjacent selection."
+- source: microsoft
+  page: "Control Panel"
+  entry: "the Control Panel"
+  kind: substitution
+  wrong: "the Control Panel"
+  right: "Control Panel"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "No article before Control Panel."
+- source: microsoft
+  page: "-core"
+  entry: "-core"
+  kind: existence
+  wrong: "(?:single|dual|multi|quad|hexa|octa) core (?:processors?|CPUs?)"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate core adjectives such as dual-core."
+- source: microsoft
+  page: "corrupted"
+  entry: "corrupted"
+  kind: existence
+  wrong: "corrupt(?:ed)?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid corrupt; describe the file as damaged and offer repair."
+- source: microsoft
+  page: "Far East"
+  entry: "Far East"
+  kind: substitution
+  wrong: "Far East"
+  right: "East Asia"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use East Asia or Asia."
+- source: microsoft
+  page: "country or region"
+  entry: "geo"
+  kind: existence
+  wrong: "geography|geo"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use as a synonym for country or region."
+- source: microsoft
+  page: "crash"
+  entry: "crash"
+  kind: existence
+  wrong: "crash(?:es|ed|ing)?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use; use fail or stop responding."
+- source: microsoft
+  page: "cut, cut-and-paste"
+  entry: "cut"
+  kind: existence
+  wrong: "cut-and-replace"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use as a noun or verb."
+- source: microsoft
+  page: "data, datum"
+  entry: "datum"
+  kind: existence
+  wrong: "datum"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use datum."
+- source: microsoft
+  page: "data, datum"
+  entry: "data are"
+  kind: substitution
+  wrong: "data are"
+  right: "data is"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Always use data with a singular verb."
+- source: microsoft
+  page: "data, datum"
+  entry: "data were"
+  kind: substitution
+  wrong: "data were"
+  right: "data was"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Always use data with a singular verb."
+- source: microsoft
+  page: "data record"
+  entry: "data record"
+  kind: substitution
+  wrong: "data record"
+  right: "record"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use record."
+- source: microsoft
+  page: "database"
+  entry: "data base"
+  kind: substitution
+  wrong: "data base"
+  right: "database"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: microsoft
+  page: "datacenter"
+  entry: "data center"
+  kind: substitution
+  wrong: "data center"
+  right: "datacenter"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+- source: microsoft
+  page: "datasheet"
+  entry: "data sheet"
+  kind: substitution
+  wrong: "data sheet"
+  right: "datasheet"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: microsoft
+  page: "datagram"
+  entry: "data gram"
+  kind: substitution
+  wrong: "data gram"
+  right: "datagram"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: microsoft
+  page: "data binding"
+  entry: "databinding"
+  kind: substitution
+  wrong: "databinding"
+  right: "data binding"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: microsoft
+  page: "code point"
+  entry: "codepoint"
+  kind: substitution
+  wrong: "codepoint"
+  right: "code point"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: microsoft
+  page: "default"
+  entry: "defaults to"
+  kind: existence
+  wrong: "default(?:s|ed|ing)? to"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Do not use default as a verb."
+- source: microsoft
+  page: "defragment"
+  entry: "defrag"
+  kind: substitution
+  wrong: "defrag(?!ment)"
+  right: "defragment"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not abbreviate to defrag."
+- source: microsoft
+  page: "deinstall"
+  entry: "deinstall"
+  kind: existence
+  wrong: "deinstall(?:s|ed|ing)?"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Do not use; use remove or uninstall."
+- source: microsoft
+  page: "demilitarized zone (DMZ)"
+  entry: "DMZ"
+  kind: substitution
+  wrong: "demilitarized zone|DMZ"
+  right: "perimeter network"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use perimeter network."
+- source: microsoft
+  page: "deprecated"
+  entry: "deprecated"
+  kind: existence
+  wrong: "deprecated"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid in technical content; use obsolete for general audiences."
+- source: microsoft
+  page: "destination drive, destination file"
+  entry: "target drive"
+  kind: existence
+  wrong: "target drive|target file"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use target drive or target file."
+- source: microsoft
+  page: "DevOps"
+  entry: "DevOps"
+  kind: casing
+  wrong: "Devops|devops|DEVOPS"
+  right: "DevOps"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize as DevOps."
+- source: microsoft
+  page: "dialog box, dialog, dialogue"
+  entry: "dialogue box"
+  kind: substitution
+  wrong: "dialogue box"
+  right: "dialog box"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use dialog box."
+- source: microsoft
+  page: "dial-up"
+  entry: "dialup"
+  kind: substitution
+  wrong: "dialup"
+  right: "dial-up"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenate dial-up."
+- source: microsoft
+  page: "different"
+  entry: "different to"
+  kind: substitution
+  wrong: "different to"
+  right: "different from"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Use different from."
+- source: microsoft
+  page: "disable, disables, disabled (functionality)"
+  entry: "disable"
+  kind: existence
+  wrong: "disable[sd]?"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "For functionality use turn off or not available; avoid unless matching the UI."
+- source: microsoft
+  page: "enable, enables, enabled"
+  entry: "enable"
+  kind: existence
+  wrong: "enable[sd]?"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "For functionality use turn on or available; avoid unless matching the UI."
+- source: microsoft
+  page: "disabled (person)"
+  entry: "disabled person"
+  kind: existence
+  wrong: "disabled (?:person|people|user|users|employee|employees)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use person with a disability, unless the audience prefers otherwise."
+- source: microsoft
+  page: "DNS"
+  entry: "Domain Name Server"
+  kind: substitution
+  wrong: "Domain Name Server"
+  right: "Domain Name System"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Spell out as Domain Name System."
+- source: microsoft
+  page: "DNS"
+  entry: "dynamic DNS"
+  kind: existence
+  wrong: "dynamic DNS|DDNS"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use."
+- source: microsoft
+  page: "dot-com"
+  entry: "dot-com"
+  kind: existence
+  wrong: "dot-com|dotcom|dot com"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use."
+- source: microsoft
+  page: "drive name"
+  entry: "drive designator"
+  kind: substitution
+  wrong: "drive specification|drive designator|drive designation"
+  right: "drive name"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use drive name."
+- source: microsoft
+  page: "dropdown"
+  entry: "dropdown"
+  kind: substitution
+  wrong: "drop-down|drop down"
+  right: "dropdown"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "One word; use as an adjective only."
+- source: microsoft
+  page: "DVD"
+  entry: "DVD disc"
+  kind: existence
+  wrong: "DVD disc|DVD-ROM disc"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Redundant; use DVD."
+- source: microsoft
+  page: "DVD"
+  entry: "DVD player"
+  kind: substitution
+  wrong: "DVD player"
+  right: "DVD drive"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Refer to the drive as the DVD drive."
+- source: microsoft
+  page: "e.g."
+  entry: "e.g."
+  kind: existence
+  wrong: "e\\.g(?=\\.)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use; use for example, such as, or like."
+- source: microsoft
+  page: "e-book"
+  entry: "ebook"
+  kind: substitution
+  wrong: "ebook|eBook"
+  right: "e-book"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenate e-book."
+- source: microsoft
+  page: "e-commerce"
+  entry: "ecommerce"
+  kind: substitution
+  wrong: "ecommerce|eCommerce"
+  right: "e-commerce"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenate e-commerce."
+- source: microsoft
+  page: "e-discovery"
+  entry: "ediscovery"
+  kind: substitution
+  wrong: "ediscovery|eDiscovery"
+  right: "e-discovery"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenate e-discovery."
+- source: microsoft
+  page: "e-learning"
+  entry: "elearning"
+  kind: substitution
+  wrong: "elearning|eLearning"
+  right: "e-learning"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenate e-learning."
+- source: microsoft
+  page: "e-sports"
+  entry: "esports"
+  kind: substitution
+  wrong: "esports|eSports"
+  right: "e-sports"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always hyphenate e-sports."
+- source: microsoft
+  page: "edutainment"
+  entry: "edutainment"
+  kind: existence
+  wrong: "edutainment"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use."
+- source: microsoft
+  page: "e-form, form"
+  entry: "e-form"
+  kind: substitution
+  wrong: "e-form"
+  right: "form"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use form."
+- source: microsoft
+  page: "either/or"
+  entry: "either/or"
+  kind: existence
+  wrong: "either/or"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use; write a complete phrase."
+- source: microsoft
+  page: "email"
+  entry: "e-mail"
+  kind: substitution
+  wrong: "e-mail|eMail|e-Mail"
+  right: "email"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Never hyphenate email or capitalize the m."
+- source: microsoft
+  page: "email"
+  entry: "E-mail"
+  kind: substitution
+  wrong: "E-mail|E-Mail"
+  right: "Email"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Never hyphenate email."
+- source: microsoft
+  page: "embed"
+  entry: "imbed"
+  kind: substitution
+  wrong: "imbed"
+  right: "embed"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use embed."
+- source: microsoft
+  page: "End-User License Agreement (EULA)"
+  entry: "EULA"
+  kind: existence
+  wrong: "EULA|End-User License Agreement"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use Microsoft Software License Terms."
+- source: microsoft
+  page: "entry field"
+  entry: "entry field"
+  kind: existence
+  wrong: "entry field"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Refer to the box by its label."
+- source: microsoft
+  page: "et al."
+  entry: "et al."
+  kind: substitution
+  wrong: "et al(?=\\.)"
+  right: "and others"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use and others except in citations with three or more authors."
+- source: microsoft
+  page: "etc."
+  entry: "etc."
+  kind: existence
+  wrong: "etc(?=\\.)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use; be specific or use such as."
+- source: microsoft
+  page: "executable, .exe"
+  entry: "an .exe"
+  kind: substitution
+  wrong: "a \\.exe"
+  right: "an .exe"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use an before .exe."
+- source: microsoft
+  page: "execute"
+  entry: "execute"
+  kind: existence
+  wrong: "execut(?:e|es|ed|ing)"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Do not use except to match the UI; use run."
+- source: microsoft
+  page: "extension, file name extension"
+  entry: "file extension"
+  kind: substitution
+  wrong: "file extension"
+  right: "file name extension"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Use file name extension."
+- source: microsoft
+  page: "far-left, far-right"
+  entry: "far-left"
+  kind: substitution
+  wrong: "far-left"
+  right: "leftmost"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use leftmost."
+- source: microsoft
+  page: "far-left, far-right"
+  entry: "far-right"
+  kind: substitution
+  wrong: "far-right"
+  right: "rightmost"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use rightmost."
+- source: microsoft
+  page: "File Explorer"
+  entry: "Windows Explorer"
+  kind: substitution
+  wrong: "Windows Explorer"
+  right: "File Explorer"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Use File Explorer."
+- source: microsoft
+  page: "File Explorer"
+  entry: "the File Explorer"
+  kind: substitution
+  wrong: "the File Explorer"
+  right: "File Explorer"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "No article before File Explorer."
+- source: microsoft
+  page: "file name"
+  entry: "filename"
+  kind: existence
+  wrong: "filename"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Two words, except for programming terms."
+- source: microsoft
+  page: "Control Panel"
+  entry: "applet"
+  kind: existence
+  wrong: "control panel applet"
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: "Do not call control panel items applets."
+- source: microsoft
+  page: "What's new"
+  entry: "hyperlink"
+  kind: substitution
+  wrong: "hyperlink"
+  right: "link"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Guide replaced hyperlink with link throughout."
+- source: microsoft
+  page: "What's new"
+  entry: "sign into"
+  kind: substitution
+  wrong: "sign into"
+  right: "sign in to"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use sign into."
+- source: microsoft
+  page: "What's new"
+  entry: "log into"
+  kind: substitution
+  wrong: "log into"
+  right: "log in to"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use log into."
+- source: microsoft
+  page: "What's new"
+  entry: "regular type"
+  kind: substitution
+  wrong: "regular type"
+  right: "regular font"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use regular font for text that is neither bold nor italic."
+- source: microsoft
+  page: "What's new"
+  entry: "plugin"
+  kind: substitution
+  wrong: "plug-in"
+  right: "plugin"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "Spelled as one word."
+- source: microsoft
+  page: "What's new"
+  entry: "timeout"
+  kind: substitution
+  wrong: "time-out"
+  right: "timeout"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "One word, unhyphenated, noun or adjective."
+- source: microsoft
+  page: "What's new"
+  entry: "lifecycle"
+  kind: substitution
+  wrong: "life cycle|life-cycle"
+  right: "lifecycle"
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+- source: microsoft
+  page: "What's new"
+  entry: "navigate"
+  kind: existence
+  wrong: "navigat(?:e|es|ed|ing|ion)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Guide advises avoiding navigate; use more specific verbs."
+- source: microsoft
+  page: "Procedures and instructions checklist"
+  entry: "right-click"
+  kind: existence
+  wrong: "right-click"
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: "Avoid right-click; use an input-neutral verb."

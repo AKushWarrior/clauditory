@@ -1,0 +1,123 @@
+- source: chicago
+  page: 801
+  entry: "13.7 DOIs"
+  kind: existence
+  wrong: "DOI:\\s?10\\."
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: "Avoid the old 'DOI:' prefix form; give the DOI as an https://doi.org/ URL."
+
+- source: chicago
+  page: 814
+  entry: "13.37 ibid."
+  kind: existence
+  wrong: "(?i)ibid\\."
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: "Chicago prefers shortened citations over ibid., which can obscure the source."
+
+- source: chicago
+  page: 815
+  entry: "13.38 idem"
+  kind: existence
+  wrong: "(?i)idem"
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: "Discouraged in notes; use shortened author and title forms instead."
+
+- source: chicago
+  page: 815
+  entry: "13.39 op. cit."
+  kind: existence
+  wrong: "[Oo]p\\. cit\\."
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: "Disallowed; use the short-title form of the citation."
+
+- source: chicago
+  page: 815
+  entry: "13.39 loc. cit."
+  kind: existence
+  wrong: "[Ll]oc\\. cit\\."
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: "Disallowed; use the short-title form of the citation."
+
+- source: chicago
+  page: 834
+  entry: "13.68 Selected bibliography"
+  kind: substitution
+  wrong: "Select Bibliography"
+  right: "Selected Bibliography"
+  domain: wording
+  fix: safe
+  american: true
+  context: citations
+  note: "Selected Bibliography is preferred as the heading over Select Bibliography."
+
+- source: chicago
+  page: 845
+  entry: "13.122 author-date syntax"
+  kind: existence
+  wrong: "in (?!(?:January|February|March|April|May|June|July|August|September|October|November|December)\\b)[A-Z][a-z]+ \\d{4}\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: citations
+  note: "In running text prefer 'in Smith (1999)' over 'in Smith 1999'. Check it is a citation."
+
+- source: chicago
+  page: 890
+  entry: "14.36 self-published"
+  kind: substitution
+  wrong: "self-published"
+  right: "published by the author"
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: "In source citations, 'published by the author' stands in for the publisher; term is avoided."
+
+- source: chicago
+  page: 894
+  entry: "14.45 forthcoming"
+  kind: substitution
+  wrong: "in press"
+  right: "forthcoming"
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: "Forthcoming is the more inclusive term for works not yet dated; in press applies only to typeset works."
+
+- source: chicago
+  page: 896
+  entry: "14.48 f. page references"
+  kind: existence
+  wrong: "\\d+f\\.(?!f)"
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: "Singular f. is replaced by an explicit range such as 140-41."
+
+- source: chicago
+  page: 897
+  entry: "14.55 line numbers"
+  kind: existence
+  wrong: "ll?\\.\\s\\d"
+  domain: wording
+  fix: none
+  american: true
+  context: citations
+  note: "Avoid l. and ll. for lines since they resemble 1 and 11; write line or lines."

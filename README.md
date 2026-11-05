@@ -9,7 +9,7 @@ The plugin contains:
 - **The technical-writing skill** (`chat/skills/technical-writing`), which adds rules for documentation, instructions, code comments, error messages, commit messages, and pull requests.
 - **The spawn-research-subagent skill** (`chat/skills/spawn-research-subagent`), which splits research into parallel subagents and checks what they bring back.
 
-The repository also holds **clauditory-lint** (`lint/`), a prose linter built on Vale that checks text against the rules a program can test, ranks the style guides behind each rule, and fixes the mechanical problems. The plugin runs it after Claude writes a prose file, when the linter is installed.
+The writing-style skill also ships **clauditory-lint** (`lint/`), a prose linter with Vale compiled in. It checks text against the rules a program can test, from the skills' own revision passes, a catalog of machine-writing tells, and the word lists of the major style guides, and it fixes the mechanical problems. The skill tells the agent to run it before sending or saving substantial text, and the plugin also runs it after Claude writes a prose file.
 
 ## Install
 
@@ -24,14 +24,7 @@ Run these two commands in Claude Code:
 
 The plugin adds the three skills and applies the system prompt as an output style while the plugin is enabled. The style keeps Claude Code's built-in coding instructions. To turn the system prompt off, disable the plugin.
 
-The plugin also adds a hook that lints each Markdown or text file Claude writes. The hook does nothing until clauditory-lint is on your PATH. To install the linter, which needs Go 1.24 or later, run these commands:
-
-```
-git clone https://github.com/AKushWarrior/clauditory
-clauditory/bin/clauditory install-lint
-```
-
-See `lint/README.md` for how the linter ranks its sources and how to run it by hand.
+The plugin also adds a hook that lints each Markdown or text file Claude writes and passes problems back to Claude. The linter ships inside the plugin, so there's nothing else to install. See `lint/README.md` to run it by hand.
 
 ### Claude apps (claude.ai and desktop)
 
@@ -57,7 +50,7 @@ clauditory/bin/clauditory prompt >> ~/.codex/AGENTS.md
 
 ## Repository layout
 
-Source artifacts live under `chat/`. The installable plugin in `plugins/clauditory` is generated from them by `bin/clauditory build`, which copies each skill without its `references` folder or changelog and turns the system prompt into an output style. It also copies the linter's hook from `lint/hooks`. Run `bin/clauditory build --check` to confirm the plugin matches its sources. `AGENTS.md` describes the layout, the reference-file format, the versioning rule, and the house rules for writing and committing.
+Source artifacts live under `chat/`. The installable plugin in `plugins/clauditory` is generated from them by `bin/clauditory build`, which copies each skill without its `references` folder or changelog and turns the system prompt into an output style. It also builds the linter for every platform into the writing-style skill and copies the linter's hook from `lint/hooks`. Run `bin/clauditory build --check` to confirm the plugin matches its sources. `AGENTS.md` describes the layout, the reference-file format, the versioning rule, and the house rules for writing and committing.
 
 ## License
 

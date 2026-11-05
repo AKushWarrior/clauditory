@@ -20,15 +20,18 @@ import (
 //go:embed rules.yml
 var registryYAML []byte
 
+//go:embed rules.gen.yml
+var generatedYAML []byte
+
 //go:embed all:styles
 var stylesFS embed.FS
 
 // Version is the linter's version. Raise it with the same semantic-versioning
 // rule the skills use, and record the change in CHANGELOG.md.
-const Version = "1.0.0"
+const Version = "2.0.0"
 
-// Tier names, indexed by rank.
-var TierNames = []string{"owner", "primary", "secondary", "tertiary", "unranked"}
+// unranked is the rank of a source the domain's order doesn't list.
+const unranked = 99
 
 // RuleMeta is one entry in rules.yml.
 type RuleMeta struct {
@@ -40,39 +43,53 @@ type RuleMeta struct {
 	Fixer   string   `yaml:"fixer"`
 	Ignore  []string `yaml:"ignore"`
 	Skip    string   `yaml:"skip"`
+	Literal bool     `yaml:"literal"`
+	Level   string   `yaml:"level"`
 }
 
 // Registry is the parsed rules.yml.
 type Registry struct {
-	Owner     string              `yaml:"owner"`
-	Hierarchy map[string][]string `yaml:"hierarchy"`
-	Styles    map[string]struct {
+	Owner  string              `yaml:"owner"`
+	Order  map[string][]string `yaml:"order"`
+	Styles map[string]struct {
 		Domain string `yaml:"domain"`
+		Level  string `yaml:"level"`
 	} `yaml:"styles"`
 	Rules map[string]RuleMeta `yaml:"rules"`
 }
 
 // Rule is a rule after the hierarchy has been applied.
 type Rule struct {
-	Name   string
-	Style  string
-	Domain string
-	Topic  string
-	Fix    string
-	Fixer  string
-	Rank   int
-	Off    string
-	Ignore map[string]bool
-	Skip   *regexp.Regexp
-	opp    []string
+	Name    string
+	Style   string
+	Domain  string
+	Topic   string
+	Fix     string
+	Fixer   string
+	Rank    int
+	Off     string
+	Level   string
+	Ignore  map[string]bool
+	Skip    *regexp.Regexp
+	literal bool
+	opp     []string
 }
 
-// Tier returns the rule's tier name.
-func (r *Rule) Tier() string { return TierNames[r.Rank] }
+// RankLabel describes the rule's rank for the rules listing.
+func (r *Rule) RankLabel() string {
+	switch r.Rank {
+	case 0:
+		return "owner"
+	case unranked:
+		return "-"
+	}
+	return fmt.Sprint(r.Rank)
+}
 
 // Options change how the registry resolves.
 type Options struct {
 	Spelling bool // turn on RedHat.Spelling
+	Commit   bool // the text is a commit message; turn on AITellsCommits
 }
 
 // Ruleset is the resolved set of rules.
@@ -86,6 +103,17 @@ func Load(opt Options) (*Ruleset, error) {
 	var reg Registry
 	if err := yaml.Unmarshal(registryYAML, &reg); err != nil {
 		return nil, fmt.Errorf("rules.yml: %w", err)
+	}
+	var gen struct {
+		Rules map[string]RuleMeta `yaml:"rules"`
+	}
+	if err := yaml.Unmarshal(generatedYAML, &gen); err != nil {
+		return nil, fmt.Errorf("rules.gen.yml: %w", err)
+	}
+	for k, v := range gen.Rules {
+		if _, dup := reg.Rules[k]; !dup {
+			reg.Rules[k] = v
+		}
 	}
 	rs := &Ruleset{Rules: map[string]*Rule{}, reg: &reg}
 	styles, err := fs.ReadDir(stylesFS, "styles")
@@ -108,13 +136,25 @@ func Load(opt Options) (*Ruleset, error) {
 			rs.Rules[name] = rs.newRule(name, st.Name())
 		}
 	}
-	for name := range reg.Rules {
-		if _, ok := rs.Rules[name]; !ok {
+	for name, m := range reg.Rules {
+		if _, ok := rs.Rules[name]; ok {
+			continue
+		}
+		if !m.Literal {
 			return nil, fmt.Errorf("rules.yml names %s, which has no rule file", name)
 		}
+		r := rs.newRule(name, strings.SplitN(name, ".", 2)[0])
+		r.literal = true
+		rs.Rules[name] = r
 	}
 	if opt.Spelling {
 		rs.Rules["RedHat.Spelling"].Off = ""
+	}
+	for name, r := range rs.Rules {
+		if r.Style == "AITellsCommits" && !opt.Commit && r.Off == "" {
+			r.Off = "Applies only to commit messages; pass --commit."
+		}
+		_ = name
 	}
 	rs.applyOpposition()
 	return rs, nil
@@ -133,6 +173,10 @@ func (rs *Ruleset) newRule(name, style string) *Rule {
 	if r.Domain == "" {
 		r.Domain = rs.reg.Styles[style].Domain
 	}
+	r.Level = m.Level
+	if r.Level == "" {
+		r.Level = rs.reg.Styles[style].Level
+	}
 	if r.Fix == "" {
 		r.Fix = "none"
 	}
@@ -140,18 +184,18 @@ func (rs *Ruleset) newRule(name, style string) *Rule {
 	return r
 }
 
-// rank places a source in a domain: 0 for the owner, 1 to 3 for the listed
-// sources, and 4 for a source the domain doesn't list.
+// rank places a source in a domain: 0 for the owner, 1 and up for the listed
+// sources in order, and unranked for a source the domain doesn't list.
 func (rs *Ruleset) rank(style, domain string) int {
 	if style == rs.reg.Owner {
 		return 0
 	}
-	for i, s := range rs.reg.Hierarchy[domain] {
+	for i, s := range rs.reg.Order[domain] {
 		if s == style {
 			return i + 1
 		}
 	}
-	return len(TierNames) - 1
+	return unranked
 }
 
 // applyOpposition turns off the worse-ranked side of each pair of rules that
@@ -174,8 +218,7 @@ func (rs *Ruleset) applyOpposition() {
 			if b.Rank > a.Rank {
 				loser, winner = b, a
 			}
-			loser.Off = fmt.Sprintf("Conflicts with %s, which ranks higher (%s %s source in %s).",
-				winner.Name, winner.Style, winner.Tier(), winner.Domain)
+			loser.Off = fmt.Sprintf("Conflicts with %s, which wins in %s.", winner.Name, winner.Domain)
 		}
 	}
 }
@@ -217,7 +260,7 @@ func (rs *Ruleset) Get(name string) *Rule {
 		return r
 	}
 	style := strings.SplitN(name, ".", 2)[0]
-	return &Rule{Name: name, Style: style, Domain: "wording", Fix: "none", Rank: len(TierNames) - 1, Ignore: map[string]bool{}}
+	return &Rule{Name: name, Style: style, Domain: "wording", Fix: "none", Rank: unranked, Ignore: map[string]bool{}}
 }
 
 // Order lists the styles from the owner down, for the Vale config.
@@ -225,7 +268,7 @@ func (rs *Ruleset) Order() []string {
 	seen := map[string]bool{rs.reg.Owner: true}
 	out := []string{rs.reg.Owner}
 	for _, d := range []string{"grammar", "wording", "technical"} {
-		for _, s := range rs.reg.Hierarchy[d] {
+		for _, s := range rs.reg.Order[d] {
 			if !seen[s] {
 				seen[s] = true
 				out = append(out, s)
@@ -239,7 +282,14 @@ func (rs *Ruleset) Order() []string {
 		}
 	}
 	sort.Strings(rest)
-	return append(out, rest...)
+	out = append(out, rest...)
+	var have []string
+	for _, s := range out {
+		if _, err := fs.Stat(stylesFS, "styles/"+s); err == nil {
+			have = append(have, s)
+		}
+	}
+	return have
 }
 
 // WriteConfig extracts the styles into a cache directory and writes a Vale
@@ -247,6 +297,7 @@ func (rs *Ruleset) Order() []string {
 func (rs *Ruleset) WriteConfig() (string, error) {
 	h := sha256.New()
 	h.Write(registryYAML)
+	h.Write(generatedYAML)
 	fs.WalkDir(stylesFS, "styles", func(p string, d fs.DirEntry, err error) error {
 		if err == nil && !d.IsDir() {
 			b, _ := stylesFS.ReadFile(p)
@@ -291,7 +342,9 @@ func (rs *Ruleset) WriteConfig() (string, error) {
 	fmt.Fprintf(&b, "StylesPath = %s\nMinAlertLevel = suggestion\n\n[*]\nBasedOnStyles = %s\n",
 		filepath.Join(dir, "styles"), strings.Join(rs.Order(), ", "))
 	for _, r := range rs.Disabled() {
-		fmt.Fprintf(&b, "%s = NO\n", r.Name)
+		if !r.literal {
+			fmt.Fprintf(&b, "%s = NO\n", r.Name)
+		}
 	}
 	ini := filepath.Join(dir, "vale-"+shortHash(b.String())+".ini")
 	if err := os.WriteFile(ini, []byte(b.String()), 0o644); err != nil {

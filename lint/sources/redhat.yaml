@@ -1,0 +1,1776 @@
+- source: redhat
+  page: "Language.txt: Dates and Times"
+  entry: "AM and PM with periods"
+  kind: existence
+  wrong: "[ap]\\.m(?=\\.)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Times of day use uppercase AM or PM without periods."
+- source: redhat
+  page: "Language.txt: Dates and Times"
+  entry: "12 PM"
+  kind: substitution
+  wrong: "12 [Pp][Mm]"
+  right: "noon"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use noon, not 12 PM."
+- source: redhat
+  page: "Language.txt: Dates and Times"
+  entry: "12 AM"
+  kind: substitution
+  wrong: "12 [Aa][Mm]"
+  right: "midnight"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use midnight, not 12 AM."
+- source: redhat
+  page: "Language.txt: Dates and Times"
+  entry: "All-numeric dates"
+  kind: existence
+  wrong: "\\d{1,2}/\\d{1,2}/\\d{2,4}"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Write the month as a word; all-numeric dates are ambiguous across locales."
+- source: redhat
+  page: "Language.txt: Numbers"
+  entry: "Comma in four-digit numbers"
+  kind: existence
+  wrong: "(?<![\\d,.])\\d,\\d{3}(?![\\d,])"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Four-digit numbers take no comma; use commas from five digits up."
+- source: redhat
+  page: "Language.txt: Phone numbers"
+  entry: "Phone number punctuation"
+  kind: existence
+  wrong: "\\d{3}[-.]\\d{3}[-.]\\d{4}"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Separate phone number groups with spaces, not dashes or dots."
+- source: redhat
+  page: "G.txt: GB"
+  entry: "No space before unit"
+  kind: existence
+  wrong: "\\d+(?:\\.\\d+)?(?:KB|kB|MB|GB|TB|PB|Kbps|kbps|Mbps|Gbps|KBps|MBps|GbE|bpp)"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Put a space between a numeral and its unit of measurement."
+- source: redhat
+  page: "E.txt: e.g."
+  entry: "e.g. abbreviation"
+  kind: existence
+  wrong: "e\\.g(?=\\.)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Write out 'for example' instead of the Latin abbreviation."
+- source: redhat
+  page: "I.txt: i.e."
+  entry: "i.e. abbreviation"
+  kind: existence
+  wrong: "i\\.e(?=\\.)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Write out 'that is' instead of the Latin abbreviation."
+- source: redhat
+  page: "Punctuation.txt: Parentheses"
+  entry: "(s) for plural"
+  kind: existence
+  wrong: "\\w+\\(s(?=\\))"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Do not use (s) for plurals; make the noun plural."
+- source: redhat
+  page: "I.txt: indexes"
+  entry: "indices"
+  kind: substitution
+  wrong: "indices"
+  right: "indexes"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "US spelling plural is indexes (mathematical usage may differ)."
+- source: redhat
+  page: "Design.txt: Plurals"
+  entry: "Apostrophe in acronym plural or possessive"
+  kind: existence
+  wrong: "\\b[A-Z]{2,}'s?\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Form acronym plurals without an apostrophe and avoid possessives on abbreviations."
+- source: redhat
+  page: "Grammar.txt: Possessives"
+  entry: "Possessive product names"
+  kind: existence
+  wrong: "(?:OpenShift|Kubernetes|Linux|Ansible|Satellite|Fedora|Podman|Quarkus|Insights)'s"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Do not use possessives with product names; use the name as a modifier."
+- source: redhat
+  page: "Design.txt: Using Company, Product, and Brand Names Correctly"
+  entry: "Red Hat Inc."
+  kind: existence
+  wrong: "Red Hat,? Inc\\.?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Omit Inc. after Red Hat except in legal documents."
+- source: redhat
+  page: "Design.txt: Using Version Numbers Correctly"
+  entry: "Dot-oh release numbers"
+  kind: existence
+  wrong: "(?:Red Hat Enterprise Linux|RHEL|Red Hat OpenShift Container Platform|JBoss Enterprise Application Platform) \\d+\\.0"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use only the major version for Red Hat products, not dot-oh."
+- source: redhat
+  page: "A.txt: architect"
+  entry: "architect as verb"
+  kind: existence
+  wrong: "re-?architect(?:s|ed|ing)?|architecting"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use architect as a verb; use design, build, or create."
+- source: redhat
+  page: "B.txt: biannual, bimonthly, biweekly, semiweekly, semimonthly"
+  entry: "Ambiguous periodic terms"
+  kind: existence
+  wrong: "bi-?annual|bi-?monthly|bi-?weekly|semi-?weekly|semi-?monthly"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid; write 'every two weeks' or 'twice a week' instead."
+- source: redhat
+  page: "B.txt: big data"
+  entry: "Big Data capitalization"
+  kind: casing
+  wrong: "Big Data"
+  right: "big data"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase big data except at sentence start or in product names."
+- source: redhat
+  page: "B.txt: Britain"
+  entry: "Britain, British"
+  kind: existence
+  wrong: "Britain|British"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use UK for the country and English for the language."
+- source: redhat
+  page: "B.txt: button"
+  entry: "pushbutton"
+  kind: substitution
+  wrong: "push-?button(?! automation)"
+  right: "button"
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: "Call a UI button a button, not a pushbutton."
+- source: redhat
+  page: "P.txt: push-button automation, turn-key automation"
+  entry: "push-button automation"
+  kind: existence
+  wrong: "push-button automation|turn-?key automation"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Metaphor; name the actual automation, such as self-service or single-step."
+- source: redhat
+  page: "C.txt: clobber, clobbered"
+  entry: "clobber"
+  kind: existence
+  wrong: "clobber(?:s|ed|ing)?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid; use altered, invalidated, or overwritten."
+- source: redhat
+  page: "C.txt: code base"
+  entry: "codebase"
+  kind: substitution
+  wrong: "codebase"
+  right: "code base"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words, except for codebase.com."
+- source: redhat
+  page: "C.txt: command button"
+  entry: "command button"
+  kind: substitution
+  wrong: "command buttons?"
+  right: "button"
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: "Use button, not command button."
+- source: redhat
+  page: "C.txt: commodity"
+  entry: "commodity hardware"
+  kind: existence
+  wrong: "commodity(?= (?:hardware|servers?|storage|x86))"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid; use volume or industry-standard."
+- source: redhat
+  page: "C.txt: crash"
+  entry: "crash"
+  kind: existence
+  wrong: "crash(?:es|ed|ing)?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Prefer fail unless you can justify crash."
+- source: redhat
+  page: "D.txt: data source"
+  entry: "datasource"
+  kind: substitution
+  wrong: "datasource"
+  right: "data source"
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: "Two words unless a proper noun, argument, or variable."
+- source: redhat
+  page: "D.txt: data store, datastore"
+  entry: "datastore"
+  kind: substitution
+  wrong: "datastore"
+  right: "data store"
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: "Two words except in VMware context."
+- source: redhat
+  page: "D.txt: data type"
+  entry: "datatype"
+  kind: substitution
+  wrong: "datatype|data-type"
+  right: "data type"
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: "Two words unless a variable name or literal value."
+- source: redhat
+  page: "D.txt: dialog box"
+  entry: "dialogue box"
+  kind: substitution
+  wrong: "dialogue box"
+  right: "dialog box"
+  domain: technical
+  fix: safe
+  american: true
+  context: technical
+  note: "Use dialog box, not dialogue box."
+- source: redhat
+  page: "F.txt: floppy disk"
+  entry: "floppy disk"
+  kind: substitution
+  wrong: "floppy disk"
+  right: "diskette"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use diskette and state its size. Conflicts with TermsErrors virtual diskette rule."
+- source: redhat
+  page: "F.txt: floppy drive"
+  entry: "floppy drive"
+  kind: substitution
+  wrong: "floppy drive"
+  right: "diskette drive"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use diskette drive."
+- source: redhat
+  page: "R.txt: right-click"
+  entry: "right click"
+  kind: substitution
+  wrong: "right click"
+  right: "right-click"
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: "Hyphenate the verb right-click."
+- source: redhat
+  page: "L.txt: left-click"
+  entry: "left click"
+  kind: substitution
+  wrong: "left click|leftclick"
+  right: "left-click"
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: "Hyphenate the verb left-click."
+- source: redhat
+  page: "E.txt: earlier"
+  entry: "older release"
+  kind: substitution
+  wrong: "older(?= (?:versions?|releases?|kernels?))"
+  right: "earlier"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "For product releases use earlier, not older."
+- source: redhat
+  page: "L.txt: later"
+  entry: "newer release"
+  kind: substitution
+  wrong: "newer(?= (?:versions?|releases?|kernels?))"
+  right: "later"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "For product releases use later, not newer."
+- source: redhat
+  page: "E.txt: essentially"
+  entry: "essentially"
+  kind: existence
+  wrong: "essentially"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use; filler word."
+- source: redhat
+  page: "T.txt: totally"
+  entry: "totally"
+  kind: existence
+  wrong: "totally"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use; filler word."
+- source: redhat
+  page: "S.txt: simply"
+  entry: "simply"
+  kind: existence
+  wrong: "simply"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use; filler word."
+- source: redhat
+  page: "J.txt: just"
+  entry: "just"
+  kind: existence
+  wrong: "just"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use sparingly; usually omit. Common false positives."
+- source: redhat
+  page: "V.txt: very"
+  entry: "Intensifiers"
+  kind: existence
+  wrong: "very|actually|really"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Avoid intensifiers and redundant words that add nothing."
+- source: redhat
+  page: "E.txt: Ethernet"
+  entry: "ethernet"
+  kind: casing
+  wrong: "ethernet"
+  right: "Ethernet"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Always capitalize Ethernet (may appear lowercase in code values)."
+- source: redhat
+  page: "F.txt: fail over"
+  entry: "fail-over"
+  kind: substitution
+  wrong: "fail-over"
+  right: "failover"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No hyphenated form is recognized."
+- source: redhat
+  page: "F.txt: fail back"
+  entry: "fail-back"
+  kind: substitution
+  wrong: "fail-back"
+  right: "failback"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No hyphenated form is recognized."
+- source: redhat
+  page: "F.txt: fiber"
+  entry: "fibre"
+  kind: casing
+  wrong: "fibre"
+  right: "fiber"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use fiber except in Fibre Channel."
+- source: redhat
+  page: "F.txt: FAQ"
+  entry: "a FAQ"
+  kind: substitution
+  wrong: "a FAQ"
+  right: "an FAQ"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "FAQ is read letter by letter, so it takes an."
+- source: redhat
+  page: "F.txt: fine-tune, fine-tuning"
+  entry: "fine tuning"
+  kind: substitution
+  wrong: "fine tuning"
+  right: "fine-tuning"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Always hyphenate when describing further training of an LLM."
+- source: redhat
+  page: "F.txt: fine-tune, fine-tuning"
+  entry: "fine tune"
+  kind: substitution
+  wrong: "fine tune"
+  right: "fine-tune"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Always hyphenate when describing further training of an LLM."
+- source: redhat
+  page: "F.txt: frictionless"
+  entry: "frictionless"
+  kind: existence
+  wrong: "frictionless"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid; jargon and inaccurate. Describe the real improvement."
+- source: redhat
+  page: "F.txt: fortnight"
+  entry: "fortnight"
+  kind: existence
+  wrong: "fortnight"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid; use two weeks."
+- source: redhat
+  page: "G.txt: got"
+  entry: "got"
+  kind: existence
+  wrong: "got"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use."
+- source: redhat
+  page: "G.txt: GEO, geo"
+  entry: "GEO"
+  kind: existence
+  wrong: "GEO"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use; write region or geographical location."
+- source: redhat
+  page: "G.txt: GigE"
+  entry: "GigE"
+  kind: substitution
+  wrong: "GigE"
+  right: "GbE"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use GbE for Gigabit Ethernet."
+- source: redhat
+  page: "H.txt: hard disk"
+  entry: "harddisk"
+  kind: substitution
+  wrong: "harddisk|hard-disk"
+  right: "hard disk"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write hard disk as two words."
+- source: redhat
+  page: "H.txt: hard disk drive"
+  entry: "harddrive"
+  kind: substitution
+  wrong: "harddrive|hard-drive"
+  right: "hard disk drive"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use hard disk drive."
+- source: redhat
+  page: "H.txt: hard copy"
+  entry: "hardcopy"
+  kind: substitution
+  wrong: "hardcopy"
+  right: "printed"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use; write printed. Conflicts with TermsErrors hard copy rule."
+- source: redhat
+  page: "H.txt: he/she"
+  entry: "he/she"
+  kind: existence
+  wrong: "he/she|s/he|he or she|his/her|his or her|him/her|him or her"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use they or rewrite; avoid gendered pronoun pairs."
+- source: redhat
+  page: "H.txt: home page"
+  entry: "homepage"
+  kind: substitution
+  wrong: "homepage"
+  right: "home page"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: redhat
+  page: "I.txt: interesting"
+  entry: "interesting"
+  kind: existence
+  wrong: "interesting"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid; show why something matters or use a Note admonition."
+- source: redhat
+  page: "I.txt: internet"
+  entry: "Internet capitalization"
+  kind: casing
+  wrong: "Internet(?! of Things| Protocol| Explorer| Engineering| Assigned| Archive| Society| Systems| Control| Information| Key| Security)"
+  right: "internet"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase internet; sentence start and proper names are exceptions."
+- source: redhat
+  page: "Design.txt: Making Recommendations"
+  entry: "it is recommended"
+  kind: existence
+  wrong: "(?i)it is recommended"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Write 'Red Hat recommends' instead of the indirect form."
+- source: redhat
+  page: "J.txt: JavaScript"
+  entry: "Javascript"
+  kind: casing
+  wrong: "Javascript"
+  right: "JavaScript"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize the S in JavaScript."
+- source: redhat
+  page: "K.txt: key-value"
+  entry: "key/value"
+  kind: substitution
+  wrong: "key/value"
+  right: "key-value"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use key-value, not key/value (Slash.yml exempts key/value)."
+- source: redhat
+  page: "L.txt: license"
+  entry: "licence"
+  kind: substitution
+  wrong: "licence"
+  right: "license"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One spelling for noun and verb."
+- source: redhat
+  page: "L.txt: license"
+  entry: "licences"
+  kind: substitution
+  wrong: "licences"
+  right: "licenses"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One spelling for noun and verb."
+- source: redhat
+  page: "L.txt: lifecycle"
+  entry: "life cycle"
+  kind: substitution
+  wrong: "life cycle"
+  right: "lifecycle"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Write lifecycle as one word unless a product name uses two."
+- source: redhat
+  page: "L.txt: log out of"
+  entry: "log out from"
+  kind: substitution
+  wrong: "log out from"
+  right: "log out of"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use log out of."
+- source: redhat
+  page: "M.txt: make sure"
+  entry: "make sure"
+  kind: existence
+  wrong: "make sure"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Consider verify or ensure."
+- source: redhat
+  page: "M.txt: misconfigure"
+  entry: "misconfigure"
+  kind: existence
+  wrong: "misconfigur(?:e|es|ed|ing)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid if possible; common but not standard."
+- source: redhat
+  page: "N.txt: named"
+  entry: "called for named items"
+  kind: existence
+  wrong: "(?:files?|directory|directories|folders?|users?|groups?|tasks?|scripts?|variables?|volumes?|projects?|namespaces?|roles?) called"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use named, not called, for designating files and objects."
+- source: redhat
+  page: "N.txt: needs, needs to be, need to"
+  entry: "need to"
+  kind: existence
+  wrong: "needs? to(?: be)?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid when possible; use must or required. Noisy."
+- source: redhat
+  page: "N.txt: non-real-time"
+  entry: "non-real-time"
+  kind: substitution
+  wrong: "nonreal[- ]time|non real[- ]time|non-real time"
+  right: "non-real-time"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate in both places."
+- source: redhat
+  page: "N.txt: number sign"
+  entry: "pound sign"
+  kind: existence
+  wrong: "pound sign|pound character|hash sign|hash mark|hash symbol|hash character|octothorpe"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use number sign for the # character."
+- source: redhat
+  page: "O.txt: object-oriented"
+  entry: "object oriented"
+  kind: substitution
+  wrong: "object oriented|objectoriented|object-orientated"
+  right: "object-oriented"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenate object-oriented."
+- source: redhat
+  page: "O.txt: offline"
+  entry: "off-line"
+  kind: substitution
+  wrong: "off-line"
+  right: "offline"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: redhat
+  page: "O.txt: on-the-fly"
+  entry: "on-the-fly"
+  kind: substitution
+  wrong: "on-the-fly"
+  right: "dynamically"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Idiom; use dynamically, as needed, or in real time."
+- source: redhat
+  page: "O.txt: OpenOffice"
+  entry: "Openoffice"
+  kind: substitution
+  wrong: "Openoffice|Open Office"
+  right: "OpenOffice"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Correct form is OpenOffice."
+- source: redhat
+  page: "L.txt: LibreOffice"
+  entry: "Libreoffice"
+  kind: substitution
+  wrong: "Libreoffice|Libre Office"
+  right: "LibreOffice"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Correct form is LibreOffice."
+- source: redhat
+  page: "O.txt: out-of-date"
+  entry: "out of date"
+  kind: substitution
+  wrong: "out of date"
+  right: "out-of-date"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate before and after a noun."
+- source: redhat
+  page: "U.txt: up-to-date"
+  entry: "up to date"
+  kind: substitution
+  wrong: "up to date"
+  right: "up-to-date"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate before and after a noun."
+- source: redhat
+  page: "U.txt: undercloud"
+  entry: "Undercloud"
+  kind: casing
+  wrong: "Undercloud"
+  right: "undercloud"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Always lowercase; a concept, not a product."
+- source: redhat
+  page: "P.txt: plug-in"
+  entry: "plugin"
+  kind: substitution
+  wrong: "plugin"
+  right: "plug-in"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Guide hyphenates plug-in; conflicts with Hyphens.yml which prefers plugin."
+- source: redhat
+  page: "P.txt: plug-in"
+  entry: "plugins"
+  kind: substitution
+  wrong: "plugins"
+  right: "plug-ins"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Guide hyphenates plug-in; conflicts with Hyphens.yml which prefers plugin."
+- source: redhat
+  page: "S.txt: stand-alone"
+  entry: "standalone"
+  kind: substitution
+  wrong: "standalone"
+  right: "stand-alone"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Guide hyphenates stand-alone; conflicts with Hyphens.yml which prefers standalone."
+- source: redhat
+  page: "P.txt: print queue"
+  entry: "printer queue"
+  kind: substitution
+  wrong: "printer queue"
+  right: "print queue"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use print queue."
+- source: redhat
+  page: "R.txt: reboot"
+  entry: "re-boot"
+  kind: substitution
+  wrong: "re-boot"
+  right: "reboot"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: redhat
+  page: "S.txt: see"
+  entry: "see as cross-reference"
+  kind: existence
+  wrong: "[Ss]ee also|See (?:Chapter|Section|Table|Figure|Appendix)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "For references, write 'Refer to', not 'see'."
+- source: redhat
+  page: "S.txt: screenshot"
+  entry: "screen shot"
+  kind: substitution
+  wrong: "screen shot|screen-shot"
+  right: "screenshot"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: redhat
+  page: "S.txt: shut down"
+  entry: "shut-down"
+  kind: substitution
+  wrong: "shut-down"
+  right: "shut down"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not hyphenate; shutdown only for the command."
+- source: redhat
+  page: "S.txt: skill set"
+  entry: "skill set"
+  kind: substitution
+  wrong: "skill-?set|skill set"
+  right: "skills"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Avoid skill set; use skills or knowledge."
+- source: redhat
+  page: "S.txt: smart card"
+  entry: "smart-card"
+  kind: substitution
+  wrong: "smart-card"
+  right: "smart card"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words, no hyphen."
+- source: redhat
+  page: "S.txt: SQL"
+  entry: "a SQL"
+  kind: substitution
+  wrong: "a SQL(?! Server)"
+  right: "an SQL"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "ISO SQL is read letter by letter, so it takes an."
+- source: redhat
+  page: "S.txt: SHA-1, SHA-2"
+  entry: "a SHA"
+  kind: substitution
+  wrong: "a SHA"
+  right: "an SHA"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Guide says SHA requires an as the article."
+- source: redhat
+  page: "S.txt: squad"
+  entry: "squad, tribe"
+  kind: existence
+  wrong: "squads?|tribes?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use for a task group; use team or group."
+- source: redhat
+  page: "T.txt: taskbar"
+  entry: "task bar"
+  kind: substitution
+  wrong: "task bar|task-bar"
+  right: "taskbar"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: redhat
+  page: "T.txt: telco"
+  entry: "telecom"
+  kind: substitution
+  wrong: "telecom"
+  right: "telco"
+  domain: wording
+  fix: review
+  american: true
+  context: telecommunications
+  note: "Use telco, not telecom."
+- source: redhat
+  page: "T.txt: toolbar"
+  entry: "tool-bar"
+  kind: substitution
+  wrong: "tool-bar"
+  right: "toolbar"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: redhat
+  page: "T.txt: troubleshoot"
+  entry: "trouble-shoot"
+  kind: substitution
+  wrong: "trouble-shoot"
+  right: "troubleshoot"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: redhat
+  page: "T.txt: tooltip"
+  entry: "hover help"
+  kind: substitution
+  wrong: "hover help"
+  right: "tooltip"
+  domain: technical
+  fix: safe
+  american: true
+  context: technical
+  note: "Do not use hover help; use tooltip."
+- source: redhat
+  page: "U.txt: UNIX"
+  entry: "UNIX-like"
+  kind: existence
+  wrong: "UNIX-like|Unix-like"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Write 'Linux, UNIX, and similar operating systems' instead."
+- source: redhat
+  page: "U.txt: user space"
+  entry: "userspace"
+  kind: substitution
+  wrong: "userspace"
+  right: "user space"
+  domain: wording
+  fix: review
+  american: true
+  context: technical
+  note: "Noun is two words; adjective is user-space."
+- source: redhat
+  page: "U.txt: username"
+  entry: "user name"
+  kind: substitution
+  wrong: "user name|user-name"
+  right: "username"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Usually one word."
+- source: redhat
+  page: "U.txt: user interface"
+  entry: "user-interface"
+  kind: substitution
+  wrong: "user-interface|userinterface"
+  right: "user interface"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words, no hyphen."
+- source: redhat
+  page: "W.txt: web page"
+  entry: "webpage"
+  kind: substitution
+  wrong: "webpage"
+  right: "web page"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: redhat
+  page: "W.txt: whether"
+  entry: "if for whether"
+  kind: existence
+  wrong: "(?i)(?:check|determine|verify|see|test|decide|know|confirm|ask|wonder|learn) if"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Use whether, not if, for a choice or alternatives."
+- source: redhat
+  page: "W.txt: will"
+  entry: "will"
+  kind: existence
+  wrong: "will"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Avoid future tense; use simple present. Noisy."
+- source: redhat
+  page: "W.txt: we suggest"
+  entry: "we suggest"
+  kind: existence
+  wrong: "we suggest"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use a direct construction or 'Red Hat recommends'."
+- source: redhat
+  page: "Grammar.txt: Pronouns and Gender References"
+  entry: "First person"
+  kind: existence
+  wrong: "(?i)(?:we|our|ours|ourselves)"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Avoid first person; use you or Red Hat."
+- source: redhat
+  page: "XYZ.txt: X Windows"
+  entry: "X Windows"
+  kind: substitution
+  wrong: "X Windows"
+  right: "X Window System"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "X Windows is incorrect."
+- source: redhat
+  page: "XYZ.txt: ZIP Code"
+  entry: "zip code"
+  kind: existence
+  wrong: "[Zz]ip [Cc]ode|zipcode"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use ZIP Code only for US addresses; otherwise postal code."
+- source: redhat
+  page: "A.txt: AArch64, aarch64"
+  entry: "Aarch64"
+  kind: casing
+  wrong: "Aarch64|AARCH64"
+  right: "AArch64"
+  domain: technical
+  fix: safe
+  american: true
+  context: technical
+  note: "Use AArch64 in prose, lowercase only for objects."
+- source: redhat
+  page: "0-9.txt: 3-D"
+  entry: "3D"
+  kind: casing
+  wrong: "3D|3-d"
+  right: "3-D"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Write 3-D."
+- source: redhat
+  page: "A.txt: all-in-one"
+  entry: "all in one"
+  kind: substitution
+  wrong: "all in one"
+  right: "all-in-one"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate as noun or adjective; may flag normal phrases."
+- source: redhat
+  page: "A.txt: as-a-Service"
+  entry: "as-a-service lowercase"
+  kind: casing
+  wrong: "as-a-service"
+  right: "as-a-Service"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize Service in as-a-Service terms."
+- source: redhat
+  page: "A.txt: as-a-Service"
+  entry: "as a Service unhyphenated"
+  kind: existence
+  wrong: "(?:Infrastructure|Platform|Software|Containers?|Functions?|Backend|Storage|Security|Desktop|Database|Data|Metal) as a [Ss]ervice"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate written-out terms: Platform-as-a-Service."
+- source: redhat
+  page: "I.txt: Infrastructure as Code (IaC)"
+  entry: "Infrastructure as code casing"
+  kind: casing
+  wrong: "infrastructure as code|Infrastructure as code|Infrastructure-as-Code|Infrastructure-as-code|infrastructure-as-code"
+  right: "Infrastructure as Code"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Uppercase I and C, unhyphenated."
+- source: redhat
+  page: "A.txt: as Code"
+  entry: "as Code hyphenated"
+  kind: existence
+  wrong: "(?:Configuration|Policy)-as-(?:Code|code)|(?:Configuration|Policy) as code"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use Configuration as Code, Policy as Code: capitalized, not hyphenated."
+- source: redhat
+  page: "A.txt: artificial intelligence (AI)"
+  entry: "artificial-intelligence"
+  kind: substitution
+  wrong: "artificial-intelligence"
+  right: "artificial intelligence"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate, even as a modifier."
+- source: redhat
+  page: "M.txt: machine learning"
+  entry: "machine-learning"
+  kind: substitution
+  wrong: "machine-learning"
+  right: "machine learning"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate, even as a modifier."
+- source: redhat
+  page: "D.txt: deep learning"
+  entry: "deep-learning"
+  kind: substitution
+  wrong: "deep-learning"
+  right: "deep learning"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate, even as a modifier."
+- source: redhat
+  page: "B.txt: big data"
+  entry: "big-data"
+  kind: substitution
+  wrong: "big-data"
+  right: "big data"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Never hyphenate big data."
+- source: redhat
+  page: "L.txt: large language model (LLM)"
+  entry: "large-language model"
+  kind: substitution
+  wrong: "large-language(?= model)"
+  right: "large language"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate the spelled-out term."
+- source: redhat
+  page: "S.txt: small language model (SLM)"
+  entry: "small-language model"
+  kind: substitution
+  wrong: "small-language(?= model)"
+  right: "small language"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate the spelled-out term."
+- source: redhat
+  page: "P.txt: performance tune"
+  entry: "performance-tuning"
+  kind: substitution
+  wrong: "performance-tun(?:e|ing)"
+  right: "performance tuning"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not hyphenate, even as a modifier."
+- source: redhat
+  page: "N.txt: natural language processing (NLP)"
+  entry: "natural-language processing"
+  kind: substitution
+  wrong: "natural-language(?= processing)"
+  right: "natural language"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not hyphenate."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "at this point in time"
+  kind: substitution
+  wrong: "at this point in time"
+  right: "now"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use now."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "in concert with"
+  kind: substitution
+  wrong: "in concert with"
+  right: "with"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use with."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "right before"
+  kind: substitution
+  wrong: "right before"
+  right: "immediately before"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer immediately before."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "paradigm"
+  kind: existence
+  wrong: "paradigm"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid; use model or standard."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "value-added"
+  kind: substitution
+  wrong: "value-added"
+  right: "added value"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Jargon; say added value or valuable."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "pre-baked"
+  kind: substitution
+  wrong: "pre-?baked"
+  right: "preconfigured"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Slang for prepared beforehand."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "if you want"
+  kind: existence
+  wrong: "if you (?:want|wish)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Rewrite as 'To <action>'."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "first come, first served"
+  kind: substitution
+  wrong: "first come,? first serve"
+  right: "first come, first served"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use 'served' to keep the verb function."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "Slang without replacement"
+  kind: existence
+  wrong: "administrivia|apples to apples|at the end of the day|automagic(?:al(?:ly)?)?|bleeding edge|boil the ocean|bucketize|center of competency|core competency|data points?|drop the ball|double-(?:edged|bladed) sword|dog ?food(?:ing)?|enterprise-ready|exceed your expectations|flog a dead horse|fly by the seat of your pants|frame it up|going-forward basis|happy path|harness the power|have a crack at|jump right in|in a pinch|kettle of fish|low-hanging fruit|meet your needs|net-net|niche focus|on the same page|over the wire|performant|piggyback|productize|ready to rumble|rest on your laurels|shoot yourself in the foot|shy of|solutions?-based|solution stack|stovepipe|think outside the box|tunnel vision|under the covers|upskill"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Slang, jargon, or idiom the guide says to avoid or rephrase."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "dig deeper"
+  kind: existence
+  wrong: "(?:dig|delve) deeper"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Translates poorly; point readers to detailed information instead."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "frown upon"
+  kind: existence
+  wrong: "frown(?:s|ed|ing)? (?:up)?on"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Write 'is not recommended' instead."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "lights-on"
+  kind: existence
+  wrong: "lights[- ]on"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Jargon; avoid."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "silo"
+  kind: existence
+  wrong: "silo(?:s|ed)?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use stand-alone, confined, or separated."
+- source: redhat
+  page: "Language.txt: Identifying and Avoiding Slang"
+  entry: "synergy"
+  kind: existence
+  wrong: "synerg(?:y|istic)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Jargon; use cooperative or working together."
+- source: redhat
+  page: "Language.txt: Inclusive Language"
+  entry: "guru, ninja, rockstar"
+  kind: existence
+  wrong: "guru|ninja|rock ?star"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid superlative job-title terms."
+- source: redhat
+  page: "Language.txt: Avoiding Redundant Words"
+  entry: "revert back"
+  kind: substitution
+  wrong: "revert back"
+  right: "revert"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Redundant word."
+- source: redhat
+  page: "Language.txt: Avoiding Redundant Words"
+  entry: "located on"
+  kind: existence
+  wrong: "located on"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Usually redundant; write on."
+- source: redhat
+  page: "Language.txt: Phrasal Verbs"
+  entry: "fill out"
+  kind: substitution
+  wrong: "fill out"
+  right: "complete"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer one-word verb."
+- source: redhat
+  page: "Language.txt: Avoid Stating that Something Is Easy"
+  entry: "user-friendly, easy to use"
+  kind: existence
+  wrong: "user[- ]friendly|easy[- ]to[- ]use|makes it easy|relatively simple"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not claim ease; describe how to perform the task."
+- source: redhat
+  page: "Language.txt: Use of There Is and There Are"
+  entry: "there is, there are"
+  kind: existence
+  wrong: "[Tt]here (?:is|are|might be)"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Avoid; the subject is unclear."
+- source: redhat
+  page: "Language.txt: Slang"
+  entry: "is designed to"
+  kind: existence
+  wrong: "(?:is|are) designed to"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "State what the product does instead."
+- source: redhat
+  page: "Language.txt: Use of Allow"
+  entry: "allows administrators"
+  kind: existence
+  wrong: "allow(?:s|ing)? (?:administrators|developers|organizations|admins|applications)"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Except for permission, use enable or rewrite around the actor."
+- source: redhat
+  page: "Language.txt: Avoid May and Should"
+  entry: "should"
+  kind: existence
+  wrong: "should"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Ambiguous; use must for requirements, or recommended."
+- source: redhat
+  page: "Language.txt: Anthropomorphism"
+  entry: "Anthropomorphism"
+  kind: existence
+  wrong: "(?:server|proxy|client|service|system|daemon|application|process|node|host|tool|script|program|computer|laptop)s? (?:is |are )?(?:talks?|talking|complains?|complaining|refuses?|refusing|thinks?|thinking) "
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not give human qualities to software or machines."
+- source: redhat
+  page: "Grammar.txt: Countable Nouns"
+  entry: "less with countable nouns"
+  kind: substitution
+  wrong: "less(?= (?:items|files|users|errors|opportunities|packages|servers|nodes|steps|options|words|lines|requests))"
+  right: "fewer"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Use fewer with countable nouns."
+- source: redhat
+  page: "Grammar.txt: Countable Nouns"
+  entry: "amount of countable nouns"
+  kind: substitution
+  wrong: "amount of(?= (?:files|items|words|users|lines|packages|nodes|servers|errors|requests))"
+  right: "number of"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Use number with countable nouns."
+- source: redhat
+  page: "Grammar.txt: Use of Following"
+  entry: "the following with no noun"
+  kind: existence
+  wrong: "the following(?=[:.])"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Use following with a noun."
+- source: redhat
+  page: "Grammar.txt: Hyphenation"
+  entry: "Hyphen after -ly adverb"
+  kind: existence
+  wrong: "(?i)(?!(?:early|daily|weekly|monthly|yearly|family|friendly|only|likely|unlikely|costly|lovely|lonely|assembly|supply|apply|reply|italy|belly|jelly|rally|ally|bully|holy|ugly|silly|lily|chilly|elderly|orderly|timely|deadly|lively|homely|kindly|manly|worldly|oily|curly|surly|sly|fly|ply|july|rely|multiply|comply|imply|butterfly|dragonfly|firefly|hourly|nightly|quarterly)-)[A-Za-z]{2,}ly-[a-z]+"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Do not hyphenate a compound with an -ly adverb."
+- source: redhat
+  page: "Grammar.txt: Hyphenation"
+  entry: "Hyphenated common prefixes"
+  kind: existence
+  wrong: "(?:multi|non|sub|semi|pre|inter|intra|micro|mini|over|under|post|pseudo|counter|extra|hyper|infra)-(?!case|\\d)[a-z]{3,}"
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Prefixed words are usually closed; hyphenate only for clarity. Many exceptions."
+- source: redhat
+  page: "Design.txt: Heading Styles"
+  entry: "Click the X button"
+  kind: existence
+  wrong: "[Cc]lick the [A-Z][\\w ]* button"
+  domain: technical
+  fix: none
+  american: true
+  context: technical
+  note: "Omit the element type: write Click Save, not Click the Save button."
+- source: redhat
+  page: "Design.txt: Documenting Command Terminology and Syntax"
+  entry: "flag for option"
+  kind: existence
+  wrong: "(?:command-line|command line|CLI) flags?"
+  domain: technical
+  fix: none
+  american: true
+  context: technical
+  note: "Never call POSIX command-line options flags."
+- source: redhat
+  page: "Punctuation.txt: Keyboard Keys"
+  entry: "Ctrl-S key combo"
+  kind: existence
+  wrong: "(?:Ctrl|Alt|Shift|Cmd)-(?!click)[A-Z]"
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: "Join keys with a plus sign, such as Ctrl+S."
+- source: redhat
+  page: "Punctuation.txt: Keyboard Keys"
+  entry: "Enter key"
+  kind: existence
+  wrong: "(?:[Pp]ress|[Hh]it|[Tt]ype) (?:the )?(?:Enter|Esc|Tab|Return|Delete|Backspace|Shift|Ctrl|Alt) key"
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: "The word key is unnecessary when naming a key."
+- source: redhat
+  page: "Design.txt: Referencing Other Internet Sites"
+  entry: "click here"
+  kind: existence
+  wrong: "(?:[Cc]lick|[Gg]o|[Rr]efer) here"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use meaningful link text instead of 'here'."
+- source: redhat
+  page: "Design.txt: Using Escalated Privileges Correctly"
+  entry: "become root"
+  kind: existence
+  wrong: "become root"
+  domain: technical
+  fix: review
+  american: true
+  context: technical
+  note: "Write 'become the root user'."
+- source: redhat
+  page: "D.txt: digital transformation"
+  entry: "digital transformation"
+  kind: existence
+  wrong: "digital transformation"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid; vague. Define on first use if required."
+- source: redhat
+  page: "I.txt: Internet of Things (IoT)"
+  entry: "Internet of things"
+  kind: casing
+  wrong: "Internet of things"
+  right: "Internet of Things"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize Internet of Things."
+- source: redhat
+  page: "U.txt: UID"
+  entry: "User ID"
+  kind: casing
+  wrong: "User ID"
+  right: "user ID"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use user ID or UID except for UI labels."
+- source: redhat
+  page: "B.txt: Boolean"
+  entry: "boolean lowercase"
+  kind: casing
+  wrong: "boolean"
+  right: "Boolean"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Capitalize Boolean except for API primitive types in code."
+- source: redhat
+  page: "V.txt: VNIC"
+  entry: "vNIC"
+  kind: substitution
+  wrong: "vNIC"
+  right: "VNIC"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Guide uppercases VNIC; conflicts with CaseSensitiveTerms which prefers vNIC."
+- source: redhat
+  page: "S.txt: softcopy"
+  entry: "softcopy"
+  kind: substitution
+  wrong: "softcopy"
+  right: "online"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Do not use softcopy; conflicts with TermsErrors soft copy rule."
+- source: redhat
+  page: "R.txt: RPM"
+  entry: "RPM file"
+  kind: substitution
+  wrong: "RPM files"
+  right: "RPM packages"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Refer to RPM packages, not RPM files."
+- source: redhat
+  page: "R.txt: RPM"
+  entry: "RPM file singular"
+  kind: substitution
+  wrong: "RPM file"
+  right: "RPM package"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Refer to RPM packages, not RPM files."

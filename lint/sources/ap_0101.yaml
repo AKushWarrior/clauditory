@@ -1,0 +1,1565 @@
+- source: ap
+  page: 102
+  entry: "arch-"
+  kind: existence
+  wrong: 'arch-(?=[a-z])'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No hyphen after arch- unless a capitalized word follows (archenemy, archrival, arch-Republican)."
+
+- source: ap
+  page: 105
+  entry: "archaeology"
+  kind: substitution
+  wrong: "archeology"
+  right: "archaeology"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Headword spelling is archaeology."
+
+- source: ap
+  page: 105
+  entry: "arctic"
+  kind: casing
+  wrong: "arctic circle"
+  right: "Arctic Circle"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize Arctic in the region's proper names (Arctic Circle)."
+
+- source: ap
+  page: 105
+  entry: "arctic"
+  kind: casing
+  wrong: "arctic fox"
+  right: "Arctic fox"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Entry lists Arctic Fox as a proper name; lowercase fox is common in nature writing, so review."
+
+- source: ap
+  page: 105
+  entry: "arctic"
+  kind: casing
+  wrong: "arctic ocean"
+  right: "Arctic Ocean"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize Arctic in Arctic Ocean."
+
+- source: ap
+  page: 105
+  entry: "army"
+  kind: casing
+  wrong: 'U\.S\. army'
+  right: "U.S. Army"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize Army when it names U.S. forces."
+
+- source: ap
+  page: 105
+  entry: "arrest"
+  kind: existence
+  wrong: 'arrested for (killing|murdering|murder|robbing|stealing|assaulting)'
+  domain: wording
+  fix: none
+  american: true
+  context: journalism
+  note: "Prefer arrested on a charge of or on suspicion of, to avoid implying guilt before trial."
+
+- source: ap
+  page: 107
+  entry: "assistant"
+  kind: existence
+  wrong: 'Asst\.|asst\.'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not abbreviate assistant; spell it out."
+
+- source: ap
+  page: 107
+  entry: "associate"
+  kind: existence
+  wrong: 'Assoc\.'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Never abbreviate associate in titles."
+
+- source: ap
+  page: 108
+  entry: "Association"
+  kind: existence
+  wrong: 'Assn\.|Assoc\.'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not abbreviate Association in proper names."
+
+- source: ap
+  page: 108
+  entry: "asymptomatic"
+  kind: existence
+  wrong: "asymptomatic"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Medical jargon; prefer no symptoms or without symptoms."
+
+- source: ap
+  page: 109
+  entry: "at large"
+  kind: existence
+  wrong: '(?<!ambassador-)at-large'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Usually two words (council member at large); hyphenate only in ambassador-at-large."
+
+- source: ap
+  page: 109
+  entry: "ATM"
+  kind: substitution
+  wrong: "ATM machine"
+  right: "ATM"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "ATM already means machine; drop the redundant word."
+
+- source: ap
+  page: 109
+  entry: "attention-deficit/hyperactivity disorder"
+  kind: existence
+  wrong: '(?i)attention[- ]deficit disorder'
+  domain: wording
+  fix: none
+  american: true
+  context: health
+  note: "Outdated term; use ADHD or attention-deficit/hyperactivity disorder."
+
+- source: ap
+  page: 109
+  entry: "attorney general"
+  kind: existence
+  wrong: 'Atty\.? Gen\.|Att\. Gen\.'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Never abbreviate attorney general."
+
+- source: ap
+  page: 110
+  entry: "attorney general"
+  kind: substitution
+  wrong: "attorney generals"
+  right: "attorneys general"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Plural of attorney general is attorneys general."
+
+- source: ap
+  page: 110
+  entry: "attorney, lawyer"
+  kind: existence
+  wrong: 'Atty\.|atty\.'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not abbreviate attorney."
+
+- source: ap
+  page: 111
+  entry: "autism spectrum disorder, autism"
+  kind: existence
+  wrong: 'ASD'
+  domain: wording
+  fix: none
+  american: true
+  context: health
+  note: "Do not use the ASD abbreviation for autism."
+
+- source: ap
+  page: 111
+  entry: "autism spectrum disorder, autism"
+  kind: existence
+  wrong: 'on the spectrum'
+  domain: wording
+  fix: none
+  american: true
+  context: health
+  note: "Do not describe someone as on the spectrum."
+
+- source: ap
+  page: 111
+  entry: "autism spectrum disorder, autism"
+  kind: existence
+  wrong: '(?i)an autistic|autistics'
+  domain: wording
+  fix: none
+  american: true
+  context: health
+  note: "Avoid autistic as a noun unless the person uses it for themself."
+
+- source: ap
+  page: 111
+  entry: "autism spectrum disorder, autism"
+  kind: existence
+  wrong: "Asperger['’]s syndrome"
+  domain: wording
+  fix: none
+  american: true
+  context: health
+  note: "Avoid unless the person or family uses it; explain it is a form of autism."
+
+- source: ap
+  page: 111
+  entry: "autonomous vehicles"
+  kind: existence
+  wrong: '(?i)driverless'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use only when no human backup driver exists; prefer autonomous or self-driving."
+
+- source: ap
+  page: 112
+  entry: "autonomous vehicles"
+  kind: existence
+  wrong: '(?i)semi-autonomous'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Implies self-driving; use partially automated for driver-assist systems."
+
+- source: ap
+  page: 112
+  entry: "autoworker, autoworkers"
+  kind: substitution
+  wrong: "auto worker"
+  right: "autoworker"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word generically; United Auto Workers is the union name."
+
+- source: ap
+  page: 112
+  entry: "autoworker, autoworkers"
+  kind: substitution
+  wrong: "auto workers"
+  right: "autoworkers"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word generically; United Auto Workers is the union name."
+
+- source: ap
+  page: 113
+  entry: "ax"
+  kind: substitution
+  wrong: "axe"
+  right: "ax"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spell ax, not axe; verb forms are ax, axed, axing."
+
+- source: ap
+  page: 114
+  entry: "baby bump"
+  kind: existence
+  wrong: 'baby bump'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid this phrase for a pregnant woman's abdomen."
+
+- source: ap
+  page: 114
+  entry: "babysit, babysitting, babysat, babysitter"
+  kind: substitution
+  wrong: 'baby[- ]sit'
+  right: "babysit"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 114
+  entry: "babysit, babysitting, babysat, babysitter"
+  kind: substitution
+  wrong: 'baby[- ]sitting'
+  right: "babysitting"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 114
+  entry: "babysit, babysitting, babysat, babysitter"
+  kind: substitution
+  wrong: 'baby[- ]sitter'
+  right: "babysitter"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 114
+  entry: "babysit, babysitting, babysat, babysitter"
+  kind: substitution
+  wrong: 'baby[- ]sat'
+  right: "babysat"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 114
+  entry: "backward"
+  kind: substitution
+  wrong: "backwards"
+  right: "backward"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use backward, not backwards."
+
+- source: ap
+  page: 115
+  entry: "bad, badly"
+  kind: substitution
+  wrong: "feel badly"
+  right: "feel bad"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Bad is the adjective for health or emotion; badly would mean impaired touch."
+
+- source: ap
+  page: 116
+  entry: "ballclub, ballpark, ballplayer, ballroom"
+  kind: substitution
+  wrong: "ball club"
+  right: "ballclub"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 116
+  entry: "ballclub, ballpark, ballplayer, ballroom"
+  kind: substitution
+  wrong: "ball park"
+  right: "ballpark"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 116
+  entry: "ballclub, ballpark, ballplayer, ballroom"
+  kind: substitution
+  wrong: "ball player"
+  right: "ballplayer"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 116
+  entry: "ballclub, ballpark, ballplayer, ballroom"
+  kind: substitution
+  wrong: "ball room"
+  right: "ballroom"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 116
+  entry: "Band-Aid"
+  kind: casing
+  wrong: "band-aid"
+  right: "Band-Aid"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Trademark; capitalize, or use adhesive bandage for the generic."
+
+- source: ap
+  page: 121
+  entry: "bed-and-breakfast"
+  kind: substitution
+  wrong: "bed and breakfast"
+  right: "bed-and-breakfast"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenated as the lodging term."
+
+- source: ap
+  page: 122
+  entry: "benefit, benefited, benefiting"
+  kind: substitution
+  wrong: "benefitted"
+  right: "benefited"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single t in the past tense."
+
+- source: ap
+  page: 122
+  entry: "benefit, benefited, benefiting"
+  kind: substitution
+  wrong: "benefitting"
+  right: "benefiting"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single t in the present participle."
+
+- source: ap
+  page: 123
+  entry: "bestseller, bestselling"
+  kind: substitution
+  wrong: 'best[- ]seller'
+  right: "bestseller"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word, no hyphen."
+
+- source: ap
+  page: 123
+  entry: "bestseller, bestselling"
+  kind: substitution
+  wrong: 'best[- ]selling'
+  right: "bestselling"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word, no hyphen."
+
+- source: ap
+  page: 123
+  entry: "betting odds"
+  kind: existence
+  wrong: '\d+ to \d+ odds'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Write betting odds as figures with a hyphen: 5-4, 3-2."
+
+- source: ap
+  page: 123
+  entry: "bi-"
+  kind: existence
+  wrong: 'bi-(?=[a-z])'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Generally no hyphen after bi- (bifocal, bilateral, bimonthly, bipartisan)."
+
+- source: ap
+  page: 127
+  entry: "Big Tech"
+  kind: casing
+  wrong: "big tech"
+  right: "Big Tech"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize when used as the colloquial name for dominant technology companies."
+
+- source: ap
+  page: 127
+  entry: "Big Tech"
+  kind: existence
+  wrong: 'FAANG|GAFAM|GAFA'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid investor jargon acronyms for big technology firms."
+
+- source: ap
+  page: 129
+  entry: "bipolar disorder"
+  kind: existence
+  wrong: '(?i)manic[- ]depressive illness|manic depression'
+  domain: wording
+  fix: none
+  american: true
+  context: health
+  note: "Do not use these terms; use bipolar disorder."
+
+- source: ap
+  page: 131
+  entry: "bloodbath"
+  kind: substitution
+  wrong: 'blood[- ]bath'
+  right: "bloodbath"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word, an exception to the dictionary."
+
+- source: ap
+  page: 132
+  entry: "Blu-ray Disc"
+  kind: casing
+  wrong: "Blu-Ray"
+  right: "Blu-ray"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Lowercase r in ray."
+
+- source: ap
+  page: 132
+  entry: "board of directors, board of trustees"
+  kind: casing
+  wrong: "Board of Directors"
+  right: "board of directors"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Always lowercase."
+
+- source: ap
+  page: 132
+  entry: "board of directors, board of trustees"
+  kind: casing
+  wrong: "Board of Trustees"
+  right: "board of trustees"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Always lowercase."
+
+- source: ap
+  page: 133
+  entry: "Bosnia-Herzegovina"
+  kind: substitution
+  wrong: 'Bosnia (and|&) Herzegovina'
+  right: "Bosnia-Herzegovina"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated country name."
+
+- source: ap
+  page: 133
+  entry: "Bosniak, Bosniaks"
+  kind: substitution
+  wrong: "Bosnian Muslims"
+  right: "Bosniaks"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use Bosniaks for the ethnic group, not Bosnian Muslims."
+
+- source: ap
+  page: 134
+  entry: "Bosporus, the"
+  kind: substitution
+  wrong: "Bosporus Strait"
+  right: "Bosporus"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Not Bosporus Strait."
+
+- source: ap
+  page: 134
+  entry: "boycott, embargo"
+  kind: substitution
+  wrong: "embargos"
+  right: "embargoes"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is embargoes."
+
+- source: ap
+  page: 135
+  entry: "brain injury, traumatic brain injury, brain damage, brain-damaged"
+  kind: existence
+  wrong: 'TBI'
+  domain: wording
+  fix: none
+  american: true
+  context: health
+  note: "Do not use TBI except in direct quotes; spell out traumatic brain injury."
+
+- source: ap
+  page: 136
+  entry: "break-in, breakup, breastfeed"
+  kind: substitution
+  wrong: 'breast-feed'
+  right: "breastfeed"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word, no hyphen."
+
+- source: ap
+  page: 136
+  entry: "break-in, breakup, breastfeed"
+  kind: substitution
+  wrong: 'breast-feeding'
+  right: "breastfeeding"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word, no hyphen."
+
+- source: ap
+  page: 136
+  entry: "break-in, breakup, breastfeed"
+  kind: substitution
+  wrong: 'breast-fed'
+  right: "breastfed"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word, no hyphen."
+
+- source: ap
+  page: 136
+  entry: "Breathalyzer"
+  kind: casing
+  wrong: "breathalyzer"
+  right: "Breathalyzer"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Trademark; capitalize, or use a generic device description."
+
+- source: ap
+  page: 136
+  entry: "Brexit"
+  kind: existence
+  wrong: '["“]Brexit["”]'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "No quotation marks around Brexit; explain the term instead."
+
+- source: ap
+  page: 137
+  entry: "British thermal unit"
+  kind: casing
+  wrong: "BTU"
+  right: "Btu"
+  domain: wording
+  fix: safe
+  american: true
+  context: science
+  note: "Abbreviation is Btu, same in singular and plural."
+
+- source: ap
+  page: 137
+  entry: "British thermal unit"
+  kind: casing
+  wrong: "BTUs"
+  right: "Btu"
+  domain: wording
+  fix: safe
+  american: true
+  context: science
+  note: "Btu has no plural s."
+
+- source: ap
+  page: 137
+  entry: "broadcast"
+  kind: substitution
+  wrong: "broadcasted"
+  right: "broadcast"
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "Past tense is broadcast."
+
+- source: ap
+  page: 137
+  entry: "Bubble Wrap"
+  kind: casing
+  wrong: "bubble wrap"
+  right: "Bubble Wrap"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Registered trademark; prefer cushioning or packaging material for the generic."
+
+- source: ap
+  page: 138
+  entry: "buildup (n. and adj.)"
+  kind: substitution
+  wrong: "build-up"
+  right: "buildup"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word as noun and adjective; verb is build up."
+
+- source: ap
+  page: 138
+  entry: "bull's-eye"
+  kind: substitution
+  wrong: "bull's eye|bullseye|bulls-eye"
+  right: "bull's-eye"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated with apostrophe."
+
+- source: ap
+  page: 139
+  entry: "bus, buses"
+  kind: substitution
+  wrong: "bussed"
+  right: "bused"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Verb forms are bus, bused, busing; bussed is only for kissing."
+
+- source: ap
+  page: 139
+  entry: "bus, buses"
+  kind: substitution
+  wrong: "bussing"
+  right: "busing"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Verb forms are bus, bused, busing; bussing is only for kissing."
+
+- source: ap
+  page: 139
+  entry: "by-"
+  kind: existence
+  wrong: 'by-(?!election\b)(?=[a-z])'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Generally no hyphen after by- (byline, bypass, byproduct, bystreet); by-election is an exception."
+
+- source: ap
+  page: 143
+  entry: "campaign manager"
+  kind: casing
+  wrong: "Campaign Manager"
+  right: "campaign manager"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Not a formal title; always lowercase."
+
+- source: ap
+  page: 144
+  entry: "cancel, canceled, canceling, cancellation"
+  kind: substitution
+  wrong: "cancelled"
+  right: "canceled"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single l in the past tense."
+
+- source: ap
+  page: 144
+  entry: "cancel, canceled, canceling, cancellation"
+  kind: substitution
+  wrong: "cancelling"
+  right: "canceling"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single l in the participle."
+
+- source: ap
+  page: 148
+  entry: "cardholder, credit card holder"
+  kind: substitution
+  wrong: '(?<!credit )card holder'
+  right: "cardholder"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Cardholder is one word; credit card holder is three words."
+
+- source: ap
+  page: 148
+  entry: "cash or collect on delivery"
+  kind: substitution
+  wrong: 'C\.O\.D\.'
+  right: "c.o.d."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Lowercase c.o.d. with periods."
+
+- source: ap
+  page: 149
+  entry: "casualties"
+  kind: existence
+  wrong: '(?i)casualties'
+  domain: wording
+  fix: none
+  american: true
+  context: journalism
+  note: "Vague between injuries and deaths; be specific."
+
+- source: ap
+  page: 150
+  entry: "cease-fire, cease-fires"
+  kind: substitution
+  wrong: "ceasefire"
+  right: "cease-fire"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated as noun and adjective."
+
+- source: ap
+  page: 150
+  entry: "cease-fire, cease-fires"
+  kind: substitution
+  wrong: "ceasefires"
+  right: "cease-fires"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated plural."
+
+- source: ap
+  page: 151
+  entry: "cellphone"
+  kind: substitution
+  wrong: 'cell[- ]phone'
+  right: "cellphone"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 151
+  entry: "Celsius"
+  kind: substitution
+  wrong: "centigrade"
+  right: "Celsius"
+  domain: wording
+  fix: safe
+  american: true
+  context: science
+  note: "Use Celsius for the metric temperature scale."
+
+- source: ap
+  page: 151
+  entry: "Celsius"
+  kind: existence
+  wrong: '\d\s?°\s?C'
+  domain: grammar
+  fix: none
+  american: true
+  context: science
+  note: "Write 40 degrees Celsius or 40 C (space, no period), not with a degree sign."
+
+- source: ap
+  page: 152
+  entry: "cents"
+  kind: existence
+  wrong: '\d+\s?¢'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Spell out cents in lowercase with numerals: 5 cents; no cent symbol."
+
+- source: ap
+  page: 152
+  entry: "century"
+  kind: existence
+  wrong: '[1-9](st|nd|rd|th) century'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Spell out numbers under 10: the first century; use numerals from 10 up."
+
+- source: ap
+  page: 153
+  entry: "CES"
+  kind: existence
+  wrong: 'Consumer Electronics Show'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use the former name; call it CES."
+
+- source: ap
+  page: 153
+  entry: "chair, chairperson, chairman, chairwoman"
+  kind: existence
+  wrong: '(?i)chair(man|woman)'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Prefer chair or chairperson unless an organization specifies -man or -woman."
+
+- source: ap
+  page: 154
+  entry: "chapters"
+  kind: existence
+  wrong: 'Chapter [IVXL]+'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Always use Arabic figures for chapter numbers."
+
+- source: ap
+  page: 154
+  entry: "chapters"
+  kind: existence
+  wrong: 'chapter \d+'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Capitalize chapter when used with a numeral."
+
+- source: ap
+  page: 154
+  entry: "checkup (n.) check up (v.)"
+  kind: substitution
+  wrong: "check-up"
+  right: "checkup"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word as noun."
+
+- source: ap
+  page: 154
+  entry: "Chevy"
+  kind: substitution
+  wrong: "Chevie|Chevvy"
+  right: "Chevy"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Correct spelling of the Chevrolet nickname."
+
+- source: ap
+  page: 156
+  entry: "chickenpox"
+  kind: substitution
+  wrong: "chicken pox"
+  right: "chickenpox"
+  domain: wording
+  fix: safe
+  american: true
+  context: health
+  note: "One word."
+
+- source: ap
+  page: 156
+  entry: "child care"
+  kind: substitution
+  wrong: 'child-care|childcare'
+  right: "child care"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words, no hyphen, in all cases."
+
+- source: ap
+  page: 156
+  entry: "child-free, childless"
+  kind: existence
+  wrong: '(?i)child-free|childless'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid as loaded; say has no children."
+
+- source: ap
+  page: 156
+  entry: "China"
+  kind: existence
+  wrong: 'Red China|Communist China'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use only in direct quotations or when distinguishing the mainland from Taiwan."
+
+- source: ap
+  page: 158
+  entry: "chipmaker (n.) chipmaking (adj.)"
+  kind: substitution
+  wrong: 'chip[- ]maker'
+  right: "chipmaker"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 158
+  entry: "chipmaker (n.) chipmaking (adj.)"
+  kind: substitution
+  wrong: 'chip[- ]making'
+  right: "chipmaking"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 158
+  entry: "Christmas, Christmas Day"
+  kind: substitution
+  wrong: "Xmas"
+  right: "Christmas"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Never abbreviate Christmas."
+
+- source: ap
+  page: 158
+  entry: "Christmastime"
+  kind: substitution
+  wrong: "Christmas time"
+  right: "Christmastime"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 158
+  entry: "Christmas tree"
+  kind: existence
+  wrong: '(?<!National )Christmas (Tree|Card|Wreath|Carol)'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase tree, card, wreath, carol after Christmas; National Christmas Tree is the exception."
+
+- source: ap
+  page: 159
+  entry: "Church of Jesus Christ of Latter-day Saints, The"
+  kind: existence
+  wrong: '(Mormon|LDS) [Cc]hurch'
+  domain: wording
+  fix: none
+  american: true
+  context: religion
+  note: "Church now prefers its full name; use full name first, with explanation if needed."
+
+- source: ap
+  page: 162
+  entry: "citywide"
+  kind: substitution
+  wrong: 'city[- ]wide'
+  right: "citywide"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+
+- source: ap
+  page: 163
+  entry: "climate change"
+  kind: existence
+  wrong: '(?i)climate (change )?(deniers?|skeptics?|doubters?)'
+  domain: wording
+  fix: none
+  american: true
+  context: science
+  note: "Do not use these labels; describe the person's specific beliefs."
+
+- source: ap
+  page: 164
+  entry: "clinically dead, clinical death"
+  kind: existence
+  wrong: '(?i)clinically dead|clinical death'
+  domain: wording
+  fix: none
+  american: true
+  context: health
+  note: "Avoid; no standard definition. Seek explanation if a medical professional uses it."
+
+- source: ap
+  page: 165
+  entry: "co-"
+  kind: existence
+  wrong: '(coauthor|cochair|codefendant|cohost|coowner|copartner|copilot|corespondent|cosigner|cosponsor|costar|coworker)s?'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Keep the hyphen for co- occupation or status words (co-author, co-host, co-star, co-worker)."
+
+- source: ap
+  page: 165
+  entry: "co-"
+  kind: existence
+  wrong: 'co-(education|equal|exist(ence|ent|ing)?|operat(e|ed|es|ion|ive)|ordinat(e|ed|es|ion)|pay)'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No hyphen in other co- words (coeducation, coexist, cooperate, coordinate, copay)."
+
+- source: ap
+  page: 173
+  entry: "Coast Guard"
+  kind: existence
+  wrong: 'USCG'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use the USCG abbreviation except in quotes."
+
+- source: ap
+  page: 173
+  entry: "c.o.d."
+  kind: substitution
+  wrong: 'C\.O\.D\.'
+  right: "c.o.d."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Preferred in all references, lowercase with periods."
+
+- source: ap
+  page: 174
+  entry: "Cold War"
+  kind: casing
+  wrong: "cold war"
+  right: "Cold War"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize for the post-World War II U.S.-Soviet rivalry only."
+
+- source: ap
+  page: 175
+  entry: "collectibles"
+  kind: substitution
+  wrong: "collector's item"
+  right: "collectors' item"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural possessive, listed as collectors' item."
+
+- source: ap
+  page: 177
+  entry: "combat, combated, combating"
+  kind: substitution
+  wrong: "combatted"
+  right: "combated"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single t in past tense."
+
+- source: ap
+  page: 177
+  entry: "combat, combated, combating"
+  kind: substitution
+  wrong: "combatting"
+  right: "combating"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single t in participle."
+
+- source: ap
+  page: 181
+  entry: "company names"
+  kind: existence
+  wrong: ', (Inc|Ltd)(?=\.)'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "No comma before Inc. or Ltd., even if the formal name has one."
+
+- source: ap
+  page: 182
+  entry: "company names"
+  kind: casing
+  wrong: "IKEA"
+  right: "Ikea"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "All-caps names only when letters are pronounced individually."
+
+- source: ap
+  page: 182
+  entry: "company names"
+  kind: casing
+  wrong: "USA TODAY"
+  right: "USA Today"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Avoid all-caps company names."
+
+- source: ap
+  page: 182
+  entry: "company names"
+  kind: existence
+  wrong: 'Yahoo(?=!)'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Drop exclamation points and similar symbols from company names: Yahoo."
+
+- source: ap
+  page: 182
+  entry: "company names"
+  kind: substitution
+  wrong: 'E\*Trade'
+  right: "E-Trade"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Do not use asterisks in contrived company spellings."
+
+- source: ap
+  page: 182
+  entry: "FedEx"
+  kind: casing
+  wrong: 'Fed Ex|Fedex|FEDEX'
+  right: "FedEx"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No space, capital E."
+
+- source: ap
+  page: 183
+  entry: "Walmart Inc."
+  kind: substitution
+  wrong: "Wal-Mart"
+  right: "Walmart"
+  domain: wording
+  fix: review
+  american: true
+  context: business
+  note: "Legal name changed from Wal-Mart Stores Inc. in 2018."
+
+- source: ap
+  page: 184
+  entry: "compose, comprise, constitute"
+  kind: substitution
+  wrong: "comprised of"
+  right: "composed of"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Comprise takes a direct object in the active voice; use composed of."
+
+- source: ap
+  page: 187
+  entry: "concentration camps"
+  kind: existence
+  wrong: '(?i)Polish (death|concentration) camps|(death|concentration) camps in Poland'
+  domain: wording
+  fix: none
+  american: true
+  context: history
+  note: "Specify Nazi German occupation, as in death camps in Nazi Germany-occupied Poland."
+
+- source: ap
+  page: 188
+  entry: "congressman, congresswoman"
+  kind: existence
+  wrong: '(?i)congressperson'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not use; use U.S. representative or member of Congress."
+
+- source: ap
+  page: 190
+  entry: "constitutional amendments, clauses"
+  kind: existence
+  wrong: '(Commerce|Due Process|Equal Protection|Supremacy|Free Speech|Free Exercise|Establishment) Clause'
+  domain: wording
+  fix: review
+  american: true
+  context: legal
+  note: "Lowercase clause names in the Constitution: the due process clause."
+
+- source: ap
+  page: 191
+  entry: "consumer price index"
+  kind: existence
+  wrong: '(?i)cost-of-living index'
+  domain: wording
+  fix: none
+  american: true
+  context: business
+  note: "CPI should not be called a cost-of-living index."
+
+- source: ap
+  page: 192
+  entry: "consumer price index"
+  kind: existence
+  wrong: '(?i)chained CPI'
+  domain: wording
+  fix: none
+  american: true
+  context: business
+  note: "Use chained consumer price index, not chained CPI."
+
+- source: ap
+  page: 192
+  entry: "consumer price index"
+  kind: existence
+  wrong: 'CPI'
+  domain: wording
+  fix: none
+  american: true
+  context: business
+  note: "Confine the abbreviation to quoted material; use the index on second reference."
+
+- source: ap
+  page: 194
+  entry: "controversial"
+  kind: existence
+  wrong: '(?i)controversial'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Overused and usually unnecessary."
+
+- source: ap
+  page: 195
+  entry: "convict"
+  kind: substitution
+  wrong: "convicted for"
+  right: "convicted of"
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Follow convict with of, not for."
+
+- source: ap
+  page: 196
+  entry: "coronaviruses"
+  kind: casing
+  wrong: 'Covid-19|COVID19|Covid19'
+  right: "COVID-19"
+  domain: wording
+  fix: safe
+  american: true
+  context: health
+  note: "Disease name is all caps with hyphen."
+
+- source: ap
+  page: 196
+  entry: "coronaviruses"
+  kind: existence
+  wrong: 'a virus called COVID-19'
+  domain: wording
+  fix: none
+  american: true
+  context: health
+  note: "COVID-19 names the disease, not the virus."
+
+- source: ap
+  page: 196
+  entry: "coronaviruses"
+  kind: existence
+  wrong: 'SARS-CoV-2'
+  domain: wording
+  fix: none
+  american: true
+  context: health
+  note: "Avoid this virus name in general copy."
+
+- source: ap
+  page: 196
+  entry: "coronaviruses"
+  kind: casing
+  wrong: "Omicron variant"
+  right: "omicron variant"
+  domain: wording
+  fix: review
+  american: true
+  context: health
+  note: "Lowercase variant names."
+
+- source: ap
+  page: 196
+  entry: "coronaviruses"
+  kind: casing
+  wrong: "Delta variant"
+  right: "delta variant"
+  domain: wording
+  fix: review
+  american: true
+  context: health
+  note: "Lowercase variant names."
+
+- source: ap
+  page: 197
+  entry: "cost of living"
+  kind: existence
+  wrong: 'cost of living (raise|adjustment|increase|allowance)'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Hyphenate as a compound modifier: cost-of-living raise."
+
+- source: ap
+  page: 198
+  entry: "Council of Economic Advisers"
+  kind: substitution
+  wrong: "Council of Economic Advisors"
+  right: "Council of Economic Advisers"
+  domain: wording
+  fix: safe
+  american: true
+  context: government
+  note: "Official spelling uses -ers."
+
+- source: ap
+  page: 198
+  entry: "counter-"
+  kind: existence
+  wrong: 'counter-(?=[a-z])'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Generally no hyphen after counter- (counteract, counterfoil, countercharge)."

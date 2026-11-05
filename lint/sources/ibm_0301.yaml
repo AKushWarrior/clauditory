@@ -1,0 +1,4130 @@
+- source: ibm
+  page: 327
+  entry: "24x7"
+  kind: existence
+  wrong: "24/7"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use 24x7 for nonstop operation, or descriptive wording, not 24/7."
+- source: ibm
+  page: 327
+  entry: "32-bit Windows operating system"
+  kind: substitution
+  wrong: "32-bit Windows operating system"
+  right: "Windows 32-bit operating system"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Put 32-bit after Windows."
+- source: ibm
+  page: 328
+  entry: "abort"
+  kind: substitution
+  wrong: "abort(?:s|ed|ing)?"
+  right: "cancel"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use cancel, stop, or end instead of abort."
+- source: ibm
+  page: 328
+  entry: "above"
+  kind: existence
+  wrong: "the above (?=[a-z]+\\b)"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not point to earlier text with above; use previous or preceding."
+- source: ibm
+  page: 328
+  entry: "acknowledgment"
+  kind: substitution
+  wrong: "acknowledgement"
+  right: "acknowledgment"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell without the middle e."
+- source: ibm
+  page: 328
+  entry: "actionable"
+  kind: existence
+  wrong: "actionable"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Avoid actionable except in the legal sense of grounds for a suit."
+- source: ibm
+  page: 328
+  entry: "adaptor"
+  kind: substitution
+  wrong: "adaptor"
+  right: "adapter"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell adapter, not adaptor."
+- source: ibm
+  page: 328
+  entry: "add-on"
+  kind: substitution
+  wrong: "add on(?=s?\\b)"
+  right: "add-on"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Add-on is hyphenated."
+- source: ibm
+  page: 329
+  entry: "administrate"
+  kind: substitution
+  wrong: "administrate"
+  right: "administer"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use administer."
+- source: ibm
+  page: 329
+  entry: "afterward"
+  kind: substitution
+  wrong: "afterwards"
+  right: "afterward"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No final s on afterward."
+- source: ibm
+  page: 329
+  entry: "all caps"
+  kind: substitution
+  wrong: "all caps"
+  right: "uppercase"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use uppercase."
+- source: ibm
+  page: 329
+  entry: "alphameric"
+  kind: substitution
+  wrong: "alphameric(?:al)?|alphanumerical"
+  right: "alphanumeric"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use alphanumeric."
+- source: ibm
+  page: 330
+  entry: "a.m."
+  kind: casing
+  wrong: "A\\.M\\."
+  right: "a.m."
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Lowercase a.m. with periods."
+- source: ibm
+  page: 330
+  entry: "analogue"
+  kind: substitution
+  wrong: "analogue"
+  right: "analog"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell analog."
+- source: ibm
+  page: 330
+  entry: "and/or"
+  kind: existence
+  wrong: "and/or"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not use and/or; write a or b, or a, b, or both."
+- source: ibm
+  page: 330
+  entry: "USASI"
+  kind: substitution
+  wrong: "USASI"
+  right: "ANSI"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use ANSI, not USASI."
+- source: ibm
+  page: 332
+  entry: "USASCII"
+  kind: substitution
+  wrong: "USASCII"
+  right: "ASCII"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write ASCII, not USASCII."
+- source: ibm
+  page: 331
+  entry: "appendixes"
+  kind: substitution
+  wrong: "appendices"
+  right: "appendixes"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Plural is appendixes."
+- source: ibm
+  page: 331
+  entry: "application program interface"
+  kind: substitution
+  wrong: "application program interface"
+  right: "application programming interface"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use application programming interface."
+- source: ibm
+  page: 331
+  entry: "artefact"
+  kind: substitution
+  wrong: "artefact"
+  right: "artifact"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell artifact."
+- source: ibm
+  page: 331
+  entry: "article-based information"
+  kind: substitution
+  wrong: "article-based information"
+  right: "topic-based information"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use topic-based information."
+- source: ibm
+  page: 331
+  entry: "as long as"
+  kind: existence
+  wrong: "as long as"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Avoid as long as for conditions; use if or provided that."
+- source: ibm
+  page: 332
+  entry: "as per"
+  kind: substitution
+  wrong: "as per"
+  right: "according to"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use according to, as, or as in."
+- source: ibm
+  page: 332
+  entry: "attention notice"
+  kind: substitution
+  wrong: "warning notice"
+  right: "attention notice"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use attention notice."
+- source: ibm
+  page: 332
+  entry: "auxiliary storage"
+  kind: substitution
+  wrong: "(?:offline|secondary) storage"
+  right: "auxiliary storage"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use auxiliary storage."
+- source: ibm
+  page: 333
+  entry: "back-up"
+  kind: substitution
+  wrong: "back-up"
+  right: "backup"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write backup, one word."
+- source: ibm
+  page: 333
+  entry: "back-level"
+  kind: substitution
+  wrong: "back-?level"
+  right: "earlier"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use earlier, previous, or not at the latest level."
+- source: ibm
+  page: 333
+  entry: "backside"
+  kind: substitution
+  wrong: "backside"
+  right: "back"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use back or rear."
+- source: ibm
+  page: 333
+  entry: "backward compatible"
+  kind: substitution
+  wrong: "backward[- ]compatible"
+  right: "compatible with earlier versions"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use compatible with earlier versions."
+- source: ibm
+  page: 333
+  entry: "bench-mark"
+  kind: substitution
+  wrong: "bench-mark"
+  right: "benchmark"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write benchmark, one word."
+- source: ibm
+  page: 333
+  entry: "best practice"
+  kind: existence
+  wrong: "best practices?"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Avoid best practice; tell readers what to do."
+- source: ibm
+  page: 334
+  entry: "billion"
+  kind: substitution
+  wrong: "billion"
+  right: "1,000,000,000"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Billion differs by country; use the figure."
+- source: ibm
+  page: 334
+  entry: "blue screen of death"
+  kind: substitution
+  wrong: "blue screen of death"
+  right: "stop error"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use stop error."
+- source: ibm
+  page: 336
+  entry: "BSOD"
+  kind: substitution
+  wrong: "BSOD"
+  right: "stop error"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use stop error."
+- source: ibm
+  page: 335
+  entry: "bottom left"
+  kind: substitution
+  wrong: "bottom left"
+  right: "lower left"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use lower left for interface locations."
+- source: ibm
+  page: 335
+  entry: "bottom right"
+  kind: substitution
+  wrong: "bottom right"
+  right: "lower right"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use lower right for interface locations."
+- source: ibm
+  page: 335
+  entry: "bottom-left"
+  kind: substitution
+  wrong: "bottom-left"
+  right: "lower-left"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use lower-left for interface locations."
+- source: ibm
+  page: 335
+  entry: "bottom-right"
+  kind: substitution
+  wrong: "bottom-right"
+  right: "lower-right"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use lower-right for interface locations."
+- source: ibm
+  page: 335
+  entry: "branch"
+  kind: substitution
+  wrong: "branch"
+  right: "section"
+  domain: technical
+  fix: none
+  american: true
+  context: "technical"
+  note: "For navigation-tree groups use section."
+- source: ibm
+  page: 336
+  entry: "bring up"
+  kind: substitution
+  wrong: "bring up"
+  right: "start"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Ambiguous; use start, open, or turn on."
+- source: ibm
+  page: 336
+  entry: "busmaster"
+  kind: substitution
+  wrong: "busmaster"
+  right: "bus master"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two words."
+- source: ibm
+  page: 336
+  entry: "busses"
+  kind: substitution
+  wrong: "busses"
+  right: "buses"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Plural of bus is buses."
+- source: ibm
+  page: 336
+  entry: "B2B"
+  kind: existence
+  wrong: "B2[BCE]\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Spell out business-to-business, -consumer, or -employee in technical writing."
+- source: ibm
+  page: 337
+  entry: "can not"
+  kind: substitution
+  wrong: "can not"
+  right: "cannot"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write cannot."
+- source: ibm
+  page: 337
+  entry: "cancelled"
+  kind: substitution
+  wrong: "cancell(?:ed|ing)"
+  right: "canceled"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use single l: canceled, canceling."
+- source: ibm
+  page: 337
+  entry: "cancellation"
+  kind: substitution
+  wrong: "cancelation"
+  right: "cancellation"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Cancellation keeps double l."
+- source: ibm
+  page: 338
+  entry: "canned"
+  kind: existence
+  wrong: "canned"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Too vague; use preplanned, preconfigured, or predefined."
+- source: ibm
+  page: 338
+  entry: "catalog"
+  kind: substitution
+  wrong: "catalogue"
+  right: "catalog"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell catalog."
+- source: ibm
+  page: 338
+  entry: "catastrophic error"
+  kind: substitution
+  wrong: "catastrophic error"
+  right: "unrecoverable error"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use unrecoverable error."
+- source: ibm
+  page: 338
+  entry: "CBE"
+  kind: existence
+  wrong: "CBE\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Do not use the abbreviation CBE; it is another company trademark."
+- source: ibm
+  page: 339
+  entry: "central electronic complex"
+  kind: substitution
+  wrong: "central electronic complex"
+  right: "central processor complex"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use central processor complex or CPC."
+- source: ibm
+  page: 339
+  entry: "CEC"
+  kind: substitution
+  wrong: "CEC\\b"
+  right: "CPC"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use CPC."
+- source: ibm
+  page: 339
+  entry: "check box"
+  kind: substitution
+  wrong: "checkbox"
+  right: "check box"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 339
+  entry: "check mark"
+  kind: substitution
+  wrong: "checkmark"
+  right: "check mark"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two words."
+- source: ibm
+  page: 339
+  entry: "checklist"
+  kind: substitution
+  wrong: "check list"
+  right: "checklist"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 340
+  entry: "chip set"
+  kind: substitution
+  wrong: "chipset"
+  right: "chip set"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 340
+  entry: "choose"
+  kind: existence
+  wrong: "choose (?:the )?(?:OK|Cancel)\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use click for push buttons and menu commands, not choose."
+- source: ibm
+  page: 340
+  entry: "Christian name"
+  kind: substitution
+  wrong: "Christian name"
+  right: "given name"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use given name."
+- source: ibm
+  page: 340
+  entry: "unselect"
+  kind: substitution
+  wrong: "unselect"
+  right: "clear"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "For check boxes use clear; elsewhere deselect."
+- source: ibm
+  page: 340
+  entry: "click on"
+  kind: substitution
+  wrong: "click on"
+  right: "click"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Write click, not click on."
+- source: ibm
+  page: 341
+  entry: "client/server"
+  kind: substitution
+  wrong: "client-server"
+  right: "client/server"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use a slash."
+- source: ibm
+  page: 341
+  entry: "cold boot"
+  kind: substitution
+  wrong: "cold boot"
+  right: "cold start"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use cold start."
+- source: ibm
+  page: 341
+  entry: "command console"
+  kind: existence
+  wrong: "command console"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use command prompt (Windows) or command line."
+- source: ibm
+  page: 342
+  entry: "CommServer"
+  kind: substitution
+  wrong: "CommServer"
+  right: "Communications Server"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use Communications Server."
+- source: ibm
+  page: 342
+  entry: "componentization"
+  kind: existence
+  wrong: "componentiz(?:ation|e)"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Jargon; use component-based development or similar."
+- source: ibm
+  page: 343
+  entry: "comprised of"
+  kind: substitution
+  wrong: "comprised of"
+  right: "consists of"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use consists of or composed of."
+- source: ibm
+  page: 343
+  entry: "concurrent peripheral processing"
+  kind: substitution
+  wrong: "concurrent peripheral processing"
+  right: "spooling"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use spooling."
+- source: ibm
+  page: 343
+  entry: "congratulations"
+  kind: existence
+  wrong: "congratulations"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not use; state the task completed."
+- source: ibm
+  page: 343
+  entry: "consumability"
+  kind: existence
+  wrong: "consumability"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not use in technical information."
+- source: ibm
+  page: 344
+  entry: "context menu"
+  kind: substitution
+  wrong: "context menu"
+  right: "menu"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use menu, or pop-up menu to stress behavior."
+- source: ibm
+  page: 344
+  entry: "contextual help"
+  kind: existence
+  wrong: "contextual help"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use help, or context-sensitive help when describing authoring."
+- source: ibm
+  page: 344
+  entry: "control-click"
+  kind: substitution
+  wrong: "[Cc]ontrol-click"
+  right: "press Control and click"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Spell out the key press."
+- source: ibm
+  page: 344
+  entry: "convertor"
+  kind: substitution
+  wrong: "convertor"
+  right: "converter"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell converter."
+- source: ibm
+  page: 345
+  entry: "crash"
+  kind: existence
+  wrong: "crash(?:es|ed|ing)?"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use a more specific term such as fail."
+- source: ibm
+  page: 345
+  entry: "CRUD"
+  kind: substitution
+  wrong: "CRUD"
+  right: "create, retrieve, update, and delete"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Spell out CRUD."
+- source: ibm
+  page: 345
+  entry: "Ctrl-click"
+  kind: substitution
+  wrong: "Ctrl-click"
+  right: "press Ctrl and click"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Spell out the key press."
+- source: ibm
+  page: 345
+  entry: "CS/2"
+  kind: existence
+  wrong: "CS/(?:2|390|AIX|NT)"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use Communications Server for the platform instead of CS/xx."
+- source: ibm
+  page: 346
+  entry: "database"
+  kind: substitution
+  wrong: "data base"
+  right: "database"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 346
+  entry: "datum"
+  kind: substitution
+  wrong: "datum"
+  right: "data"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use data as a singular noun."
+- source: ibm
+  page: 347
+  entry: "daughterboard"
+  kind: substitution
+  wrong: "daughterboard"
+  right: "adapter"
+  domain: technical
+  fix: none
+  american: true
+  context: "technical"
+  note: "Name the plug-in adapter specifically."
+- source: ibm
+  page: 347
+  entry: "daylight saving time"
+  kind: substitution
+  wrong: "daylight savings time"
+  right: "daylight saving time"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Singular saving, lowercase."
+- source: ibm
+  page: 347
+  entry: "ddname"
+  kind: casing
+  wrong: "DDNAME"
+  right: "ddname"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Lowercase ddname."
+- source: ibm
+  page: 347
+  entry: "deconfigure"
+  kind: substitution
+  wrong: "deconfigure"
+  right: "unconfigure"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use unconfigure."
+- source: ibm
+  page: 347
+  entry: "deinstall"
+  kind: substitution
+  wrong: "deinstall(?:ation)?"
+  right: "uninstall"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use uninstall and uninstallation."
+- source: ibm
+  page: 347
+  entry: "demilitarized zone"
+  kind: substitution
+  wrong: "demilitarized zone"
+  right: "DMZ"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use DMZ."
+- source: ibm
+  page: 347
+  entry: "demo"
+  kind: substitution
+  wrong: "demo(?!s?\\w)"
+  right: "demonstration"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use demonstrate or demonstration outside marketing."
+- source: ibm
+  page: 347
+  entry: "decompress"
+  kind: substitution
+  wrong: "decompress"
+  right: "extract"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use extract for restoring compressed files."
+- source: ibm
+  page: 348
+  entry: "demon"
+  kind: substitution
+  wrong: "demon"
+  right: "daemon"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use daemon for unattended programs."
+- source: ibm
+  page: 348
+  entry: "deregister"
+  kind: substitution
+  wrong: "deregister"
+  right: "unregister"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use unregister."
+- source: ibm
+  page: 348
+  entry: "descendent"
+  kind: substitution
+  wrong: "descendent"
+  right: "descendant"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell descendant."
+- source: ibm
+  page: 348
+  entry: "desire"
+  kind: substitution
+  wrong: "desire"
+  right: "want"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use want."
+- source: ibm
+  page: 348
+  entry: "desired"
+  kind: existence
+  wrong: "desired"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use required or the item that you want."
+- source: ibm
+  page: 348
+  entry: "depress"
+  kind: existence
+  wrong: "depress(?:ed|ing)? (?:the )?(?:key|button|latch)"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use press, not depress."
+- source: ibm
+  page: 349
+  entry: "dimmed"
+  kind: existence
+  wrong: "dimmed|grayed out|grayed"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use disabled or unavailable."
+- source: ibm
+  page: 349
+  entry: "dialogue box"
+  kind: substitution
+  wrong: "dialogue box"
+  right: "dialog box"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use dialog box, spelled without ue."
+- source: ibm
+  page: 350
+  entry: "dismount"
+  kind: substitution
+  wrong: "dismount"
+  right: "demount"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use demount (unmount for UNIX)."
+- source: ibm
+  page: 350
+  entry: "double quote"
+  kind: substitution
+  wrong: "double quote(?: mark)?"
+  right: "double quotation mark"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use double quotation mark."
+- source: ibm
+  page: 351
+  entry: "double-click on"
+  kind: substitution
+  wrong: "double-click on"
+  right: "double-click"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Write double-click, not double-click on."
+- source: ibm
+  page: 351
+  entry: "downlevel"
+  kind: substitution
+  wrong: "down-?level"
+  right: "earlier"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use earlier, previous, or not at the latest level."
+- source: ibm
+  page: 351
+  entry: "downward compatible"
+  kind: substitution
+  wrong: "downward compatible"
+  right: "compatible with earlier versions"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use compatible with earlier versions."
+- source: ibm
+  page: 351
+  entry: "drag and drop"
+  kind: substitution
+  wrong: "drag and drop(?! (?:operation|support|feature))"
+  right: "drag"
+  domain: technical
+  fix: none
+  american: true
+  context: "technical"
+  note: "As a verb use drag; hyphenate as adjective."
+- source: ibm
+  page: 351
+  entry: "drill up"
+  kind: existence
+  wrong: "drill up"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Jargon; use navigate."
+- source: ibm
+  page: 351
+  entry: "dumpfile"
+  kind: substitution
+  wrong: "dumpfile"
+  right: "dump file"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 352
+  entry: "ebook"
+  kind: substitution
+  wrong: "e-book"
+  right: "ebook"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write ebook."
+- source: ibm
+  page: 352
+  entry: "e-commerce"
+  kind: substitution
+  wrong: "e-?commerce"
+  right: "online business"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Avoid e-commerce outside product names."
+- source: ibm
+  page: 352
+  entry: "e-mail"
+  kind: substitution
+  wrong: "e-mail"
+  right: "email"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write email."
+- source: ibm
+  page: 352
+  entry: "e.g."
+  kind: substitution
+  wrong: "e\\.g\\."
+  right: "for example"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use for example."
+- source: ibm
+  page: 352
+  entry: "e-fix"
+  kind: substitution
+  wrong: "e-?[Ff]ix"
+  right: "fix"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use fix, interim fix, or similar."
+- source: ibm
+  page: 353
+  entry: "end user"
+  kind: substitution
+  wrong: "end user"
+  right: "user"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use user."
+- source: ibm
+  page: 353
+  entry: "end-user interface"
+  kind: substitution
+  wrong: "end-user interface"
+  right: "graphical interface"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use graphical interface or interface."
+- source: ibm
+  page: 353
+  entry: "embed"
+  kind: substitution
+  wrong: "imbed"
+  right: "embed"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell embed."
+- source: ibm
+  page: 353
+  entry: "email"
+  kind: existence
+  wrong: "(?:to|will|can|please) email\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Do not use email as a verb."
+- source: ibm
+  page: 354
+  entry: "etc."
+  kind: substitution
+  wrong: "etc\\."
+  right: "and so on"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use and so on for clear sequences."
+- source: ibm
+  page: 354
+  entry: "EUI"
+  kind: substitution
+  wrong: "EUI\\b"
+  right: "graphical user interface"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Do not use EUI."
+- source: ibm
+  page: 354
+  entry: "euro"
+  kind: existence
+  wrong: "Euros?\\b(?! [A-Z])"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Euro is lowercase."
+- source: ibm
+  page: 356
+  entry: "first name"
+  kind: substitution
+  wrong: "first name"
+  right: "given name"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use given name."
+- source: ibm
+  page: 356
+  entry: "fixed disk drive"
+  kind: substitution
+  wrong: "fixed disk drive"
+  right: "hard disk drive"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use hard disk drive."
+- source: ibm
+  page: 356
+  entry: "flash storage"
+  kind: substitution
+  wrong: "flash storage"
+  right: "flash memory"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use flash memory."
+- source: ibm
+  page: 356
+  entry: "floppy"
+  kind: substitution
+  wrong: "floppy(?: disk| drive)?"
+  right: "diskette"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use diskette and diskette drive."
+- source: ibm
+  page: 357
+  entry: "fluorescent"
+  kind: substitution
+  wrong: "florescent"
+  right: "fluorescent"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Lighting is fluorescent."
+- source: ibm
+  page: 357
+  entry: "FOD"
+  kind: substitution
+  wrong: "FOD\\b"
+  right: "Files On-Demand"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Do not use FOD."
+- source: ibm
+  page: 357
+  entry: "foo"
+  kind: existence
+  wrong: "foobar|\\bfoo\\b|fubar"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not use; derives from a profanity acronym."
+- source: ibm
+  page: 357
+  entry: "for instance"
+  kind: substitution
+  wrong: "for instance"
+  right: "for example"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use for example."
+- source: ibm
+  page: 357
+  entry: "forward compatible"
+  kind: substitution
+  wrong: "forward[- ]compatible"
+  right: "compatible with later versions"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use compatible with later versions."
+- source: ibm
+  page: 357
+  entry: "free"
+  kind: existence
+  wrong: "free(?= of charge| trial| offer)"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Avoid free for money; use at no cost."
+- source: ibm
+  page: 357
+  entry: "fullword"
+  kind: substitution
+  wrong: "full word"
+  right: "fullword"
+  domain: technical
+  fix: none
+  american: true
+  context: "technical"
+  note: "One word."
+- source: ibm
+  page: 355
+  entry: "firewall"
+  kind: substitution
+  wrong: "fire wall"
+  right: "firewall"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "One word."
+- source: ibm
+  page: 355
+  entry: "file system"
+  kind: substitution
+  wrong: "filesystem"
+  right: "file system"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 355
+  entry: "file name"
+  kind: substitution
+  wrong: "filename"
+  right: "file name"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Two words except as a variable."
+- source: ibm
+  page: 355
+  entry: "file type"
+  kind: substitution
+  wrong: "filetype"
+  right: "file type"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Two words except as a variable."
+- source: ibm
+  page: 355
+  entry: "file mode"
+  kind: substitution
+  wrong: "filemode"
+  right: "file mode"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Two words except as a variable."
+- source: ibm
+  page: 355
+  entry: "fill in"
+  kind: substitution
+  wrong: "fill in"
+  right: "complete"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use complete, enter, or specify."
+- source: ibm
+  page: 359
+  entry: "gray"
+  kind: substitution
+  wrong: "grey"
+  right: "gray"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell gray."
+- source: ibm
+  page: 359
+  entry: "green screen"
+  kind: existence
+  wrong: "green screen"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use character-based interface or 3270 or 5250 application."
+- source: ibm
+  page: 359
+  entry: "hardcopy"
+  kind: substitution
+  wrong: "hard copy"
+  right: "hardcopy"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "One word."
+- source: ibm
+  page: 359
+  entry: "hard boot"
+  kind: substitution
+  wrong: "hard boot"
+  right: "restart"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use restart or turn off and on."
+- source: ibm
+  page: 360
+  entry: "hard drive"
+  kind: substitution
+  wrong: "hard drive"
+  right: "hard disk drive"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use hard disk or hard disk drive."
+- source: ibm
+  page: 360
+  entry: "hard file"
+  kind: substitution
+  wrong: "hard file"
+  right: "hard disk drive"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use hard disk or hard disk drive."
+- source: ibm
+  page: 360
+  entry: "hash"
+  kind: substitution
+  wrong: "hash sign"
+  right: "number sign"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use number sign for #."
+- source: ibm
+  page: 360
+  entry: "hit"
+  kind: substitution
+  wrong: "hit (?:the )?(?:Enter|Return|Esc|key|keys)"
+  right: "press"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use press or type."
+- source: ibm
+  page: 361
+  entry: "HOWTO"
+  kind: substitution
+  wrong: "HOWTO"
+  right: "how-to"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use how-to only as an adjective."
+- source: ibm
+  page: 361
+  entry: "i.e."
+  kind: substitution
+  wrong: "i\\.e\\."
+  right: "that is"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use that is."
+- source: ibm
+  page: 361
+  entry: "host name"
+  kind: substitution
+  wrong: "hostname"
+  right: "host name"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Two words except as a variable."
+- source: ibm
+  page: 361
+  entry: "heat sink"
+  kind: substitution
+  wrong: "heatsink"
+  right: "heat sink"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two words."
+- source: ibm
+  page: 362
+  entry: "i-fix"
+  kind: substitution
+  wrong: "i-?[Ff]ix|iFix"
+  right: "interim fix"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use interim fix."
+- source: ibm
+  page: 362
+  entry: "in depth"
+  kind: substitution
+  wrong: "in depth(?= (?:analysis|look|review|study|discussion))"
+  right: "in-depth"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate in-depth."
+- source: ibm
+  page: 362
+  entry: "in line"
+  kind: substitution
+  wrong: "in line(?= (?:comment|code|function|style|element))"
+  right: "inline"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Write inline."
+- source: ibm
+  page: 362
+  entry: "impact"
+  kind: substitution
+  wrong: "impact(?:s|ed|ing)?"
+  right: "affect"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use affect unless striking forcefully."
+- source: ibm
+  page: 362
+  entry: "in conjunction with"
+  kind: substitution
+  wrong: "in conjunction with"
+  right: "with"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use with."
+- source: ibm
+  page: 362
+  entry: "illegal"
+  kind: existence
+  wrong: "illegal"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use only for legal matters; otherwise invalid or not allowed."
+- source: ibm
+  page: 327
+  entry: "24x7"
+  kind: existence
+  wrong: "24/7"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use 24x7 for nonstop operation, or descriptive wording, not 24/7."
+- source: ibm
+  page: 329
+  entry: "allow"
+  kind: existence
+  wrong: "\\b(?:allows|enables|lets|permits) you to\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Avoid objects granting abilities; use you can use the product to."
+- source: ibm
+  page: 332
+  entry: "ASCII"
+  kind: substitution
+  wrong: "Ascii|ascii"
+  right: "ASCII"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Uppercase ASCII."
+- source: ibm
+  page: 336
+  entry: "Btu"
+  kind: casing
+  wrong: "BTU"
+  right: "Btu"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Abbreviate British thermal unit as Btu."
+- source: ibm
+  page: 354
+  entry: "Ethernet"
+  kind: casing
+  wrong: "ethernet"
+  right: "Ethernet"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Capitalize Ethernet."
+- source: ibm
+  page: 355
+  entry: "fax"
+  kind: casing
+  wrong: "FAX"
+  right: "fax"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Write fax in lowercase."
+- source: ibm
+  page: 359
+  entry: "group ID"
+  kind: casing
+  wrong: "group [Ii]d"
+  right: "group ID"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write ID in uppercase."
+- source: ibm
+  page: 361
+  entry: "host ID"
+  kind: casing
+  wrong: "host [Ii]d"
+  right: "host ID"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write ID in uppercase."
+- source: ibm
+  page: 361
+  entry: "ID"
+  kind: casing
+  wrong: "user [Ii]d"
+  right: "user ID"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write ID in uppercase."
+- source: ibm
+  page: 349
+  entry: "designed to"
+  kind: existence
+  wrong: "is designed to"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Prefer a direct statement of what the product does."
+- source: ibm
+  page: 350
+  entry: "discuss"
+  kind: existence
+  wrong: "discusses"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Say contains information about, not discusses."
+- source: ibm
+  page: 350
+  entry: "domestic"
+  kind: existence
+  wrong: "domestic|foreign"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Name countries instead of domestic or foreign."
+- source: ibm
+  page: 350
+  entry: "dotted decimal"
+  kind: substitution
+  wrong: "dotted-decimal"
+  right: "dotted decimal"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Not hyphenated."
+- source: ibm
+  page: 350
+  entry: "double-byte"
+  kind: substitution
+  wrong: "double byte"
+  right: "double-byte"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Hyphenate double-byte."
+- source: ibm
+  page: 351
+  entry: "downtime"
+  kind: substitution
+  wrong: "down time"
+  right: "downtime"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 354
+  entry: "execute"
+  kind: existence
+  wrong: "execut(?:e|es|ed|ing)\\b"
+  domain: technical
+  fix: none
+  american: true
+  context: "technical"
+  note: "Prefer run, issue, start, or enter."
+- source: ibm
+  page: 358
+  entry: "functionality"
+  kind: existence
+  wrong: "functionality"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Prefer functions or a simpler term."
+- source: ibm
+  page: 358
+  entry: "geography"
+  kind: existence
+  wrong: "geographies"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not use for geographical areas; write worldwide."
+- source: ibm
+  page: 360
+  entry: "higher"
+  kind: substitution
+  wrong: "higher (?:version|release)"
+  right: "later version"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use later for versions."
+- source: ibm
+  page: 370
+  entry: "lower"
+  kind: substitution
+  wrong: "lower (?:version|release)"
+  right: "earlier version"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use earlier for versions."
+- source: ibm
+  page: 361
+  entry: "tooltip"
+  kind: existence
+  wrong: "tool-?tips?"
+  domain: technical
+  fix: none
+  american: true
+  context: "technical"
+  note: "Use hover help for rich explanatory text."
+- source: ibm
+  page: 360
+  entry: "have to"
+  kind: existence
+  wrong: "(?:you|users?) have to"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use must for requirements."
+- source: ibm
+  page: 374
+  entry: "need to"
+  kind: existence
+  wrong: "(?:you|users?) need to"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use must for requirements."
+- source: ibm
+  page: 362
+  entry: "in order to"
+  kind: substitution
+  wrong: "in order to"
+  right: "to"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use to."
+- source: ibm
+  page: 362
+  entry: "in other words"
+  kind: existence
+  wrong: "in other words"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use for example or that is."
+- source: ibm
+  page: 363
+  entry: "in spite of"
+  kind: substitution
+  wrong: "in spite of"
+  right: "despite"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use regardless of or despite."
+- source: ibm
+  page: 363
+  entry: "in the event"
+  kind: existence
+  wrong: "in the event(?! of)"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use in case, if, or when."
+- source: ibm
+  page: 363
+  entry: "in-line"
+  kind: substitution
+  wrong: "in-line"
+  right: "inline"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Write inline."
+- source: ibm
+  page: 363
+  entry: "inactivate"
+  kind: substitution
+  wrong: "inactivate"
+  right: "deactivate"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use deactivate."
+- source: ibm
+  page: 363
+  entry: "inch-pound"
+  kind: substitution
+  wrong: "inch pound"
+  right: "inch-pound"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Hyphenate."
+- source: ibm
+  page: 363
+  entry: "indexes"
+  kind: substitution
+  wrong: "indices"
+  right: "indexes"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use indexes unless mathematical."
+- source: ibm
+  page: 363
+  entry: "info center"
+  kind: substitution
+  wrong: "info ?center"
+  right: "information center"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use information center."
+- source: ibm
+  page: 363
+  entry: "infopop"
+  kind: substitution
+  wrong: "infopop"
+  right: "pop-up help"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use pop-up help."
+- source: ibm
+  page: 363
+  entry: "information on"
+  kind: substitution
+  wrong: "information on"
+  right: "information about"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use information about."
+- source: ibm
+  page: 364
+  entry: "initial caps"
+  kind: substitution
+  wrong: "initial caps"
+  right: "initial capital letters"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Do not abbreviate."
+- source: ibm
+  page: 364
+  entry: "input-output"
+  kind: substitution
+  wrong: "input-output"
+  right: "input/output"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use a slash."
+- source: ibm
+  page: 364
+  entry: "insure"
+  kind: substitution
+  wrong: "insure"
+  right: "ensure"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use ensure outside insurance."
+- source: ibm
+  page: 364
+  entry: "Internet address"
+  kind: substitution
+  wrong: "Internet address"
+  right: "IP address"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use IP address."
+- source: ibm
+  page: 365
+  entry: "irrecoverable"
+  kind: substitution
+  wrong: "irrecoverable|nonrecoverable"
+  right: "unrecoverable"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use unrecoverable."
+- source: ibm
+  page: 365
+  entry: "JavaBean"
+  kind: substitution
+  wrong: "JavaBean(?!s)"
+  right: "JavaBeans"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use JavaBeans."
+- source: ibm
+  page: 366
+  entry: "joblog"
+  kind: substitution
+  wrong: "joblog"
+  right: "job log"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 366
+  entry: "jobstream"
+  kind: substitution
+  wrong: "jobstream"
+  right: "job stream"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 366
+  entry: "judgment"
+  kind: substitution
+  wrong: "judgement"
+  right: "judgment"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell judgment."
+- source: ibm
+  page: 366
+  entry: "kbps"
+  kind: casing
+  wrong: "Kbps"
+  right: "kbps"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Lowercase k means 1000."
+- source: ibm
+  page: 367
+  entry: "labeled"
+  kind: substitution
+  wrong: "labell(?:ed|ing)"
+  right: "labeled"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One l."
+- source: ibm
+  page: 367
+  entry: "laptop"
+  kind: substitution
+  wrong: "laptop"
+  right: "notebook"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use notebook for mobile computers."
+- source: ibm
+  page: 367
+  entry: "last name"
+  kind: substitution
+  wrong: "last name"
+  right: "surname"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use surname."
+- source: ibm
+  page: 367
+  entry: "keystore"
+  kind: substitution
+  wrong: "key store"
+  right: "keystore"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "One word."
+- source: ibm
+  page: 368
+  entry: "left-hand"
+  kind: substitution
+  wrong: "left-hand"
+  right: "left"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use left."
+- source: ibm
+  page: 368
+  entry: "left-justify"
+  kind: substitution
+  wrong: "left-justif(?:y|ied)"
+  right: "left-align"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use left-align or left-aligned."
+- source: ibm
+  page: 368
+  entry: "legacy"
+  kind: existence
+  wrong: "legacy"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Avoid legacy for older products; use existing, earlier, or similar."
+- source: ibm
+  page: 368
+  entry: "leverage"
+  kind: substitution
+  wrong: "leverage"
+  right: "use"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use use in technical information."
+- source: ibm
+  page: 368
+  entry: "program product"
+  kind: substitution
+  wrong: "program product"
+  right: "licensed program"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use licensed program."
+- source: ibm
+  page: 369
+  entry: "line cord"
+  kind: substitution
+  wrong: "line cord"
+  right: "power cord"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use power cord or cable."
+- source: ibm
+  page: 369
+  entry: "Linux"
+  kind: casing
+  wrong: "linux"
+  right: "Linux"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Capitalize Linux."
+- source: ibm
+  page: 369
+  entry: "log into"
+  kind: substitution
+  wrong: "log into"
+  right: "log in to"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use log in to."
+- source: ibm
+  page: 370
+  entry: "log off of"
+  kind: substitution
+  wrong: "log off of"
+  right: "log off from"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use log off from."
+- source: ibm
+  page: 370
+  entry: "logfile"
+  kind: substitution
+  wrong: "logfile"
+  right: "log file"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 369
+  entry: "loadtime"
+  kind: substitution
+  wrong: "loadtime"
+  right: "load time"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 370
+  entry: "look and feel"
+  kind: existence
+  wrong: "look and feel"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Say specifically what you mean."
+- source: ibm
+  page: 370
+  entry: "lowercase"
+  kind: substitution
+  wrong: "lower-case"
+  right: "lowercase"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 371
+  entry: "main directory"
+  kind: substitution
+  wrong: "main directory"
+  right: "root directory"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use root directory."
+- source: ibm
+  page: 371
+  entry: "marketing rep"
+  kind: substitution
+  wrong: "marketing rep(?!\\w)"
+  right: "marketing representative"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell out representative."
+- source: ibm
+  page: 371
+  entry: "mashup"
+  kind: substitution
+  wrong: "mash-up"
+  right: "mashup"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 371
+  entry: "makefile"
+  kind: substitution
+  wrong: "make file"
+  right: "makefile"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "One word."
+- source: ibm
+  page: 371
+  entry: "slave"
+  kind: existence
+  wrong: "slaves?"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use subordinate for controlled devices (UNIX excepted)."
+- source: ibm
+  page: 371
+  entry: "memory stick"
+  kind: existence
+  wrong: "memory stick"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Sony trademark; use USB flash drive."
+- source: ibm
+  page: 371
+  entry: "may"
+  kind: existence
+  wrong: "may"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use may only for permission; otherwise can or might."
+- source: ibm
+  page: 372
+  entry: "metadata"
+  kind: substitution
+  wrong: "meta-data"
+  right: "metadata"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen."
+- source: ibm
+  page: 372
+  entry: "microcomputer"
+  kind: substitution
+  wrong: "microcomputer"
+  right: "personal computer"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use personal computer."
+- source: ibm
+  page: 372
+  entry: "midmarket"
+  kind: substitution
+  wrong: "mid-market"
+  right: "midmarket"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 372
+  entry: "motherboard"
+  kind: substitution
+  wrong: "motherboard"
+  right: "system board"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use system board."
+- source: ibm
+  page: 372
+  entry: "mouse over"
+  kind: substitution
+  wrong: "mouse over"
+  right: "point to"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use point to."
+- source: ibm
+  page: 372
+  entry: "mouse button 1"
+  kind: substitution
+  wrong: "mouse button 1"
+  right: "left mouse button"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use left mouse button."
+- source: ibm
+  page: 372
+  entry: "mouse button 2"
+  kind: substitution
+  wrong: "mouse button 2"
+  right: "right mouse button"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use right mouse button."
+- source: ibm
+  page: 372
+  entry: "mount point"
+  kind: substitution
+  wrong: "mountpoint"
+  right: "mount point"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 373
+  entry: "multijobbing"
+  kind: substitution
+  wrong: "multijobbing"
+  right: "multitasking"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use multitasking."
+- source: ibm
+  page: 373
+  entry: "multitiered"
+  kind: substitution
+  wrong: "multi-tier(?:ed)?"
+  right: "multitiered"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "One word."
+- source: ibm
+  page: 373
+  entry: "multimedia"
+  kind: substitution
+  wrong: "multi-media"
+  right: "multimedia"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 373
+  entry: "multichannel"
+  kind: substitution
+  wrong: "multi-channel"
+  right: "multichannel"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 373
+  entry: "name server"
+  kind: substitution
+  wrong: "nameserver"
+  right: "name server"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 374
+  entry: "network-centric computing"
+  kind: substitution
+  wrong: "network-centric computing"
+  right: "network computing"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use network computing."
+- source: ibm
+  page: 375
+  entry: "newline"
+  kind: substitution
+  wrong: "new-line"
+  right: "newline"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "One word."
+- source: ibm
+  page: 375
+  entry: "no."
+  kind: existence
+  wrong: "\\b[Nn]o\\.(?= ?\\d)"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Spell out number instead of no."
+- source: ibm
+  page: 375
+  entry: "nonpaged"
+  kind: substitution
+  wrong: "nonpaged"
+  right: "nonpageable"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use nonpageable."
+- source: ibm
+  page: 376
+  entry: "numeric"
+  kind: substitution
+  wrong: "numerical"
+  right: "numeric"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use numeric."
+- source: ibm
+  page: 376
+  entry: "offline"
+  kind: substitution
+  wrong: "off-line"
+  right: "offline"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 376
+  entry: "offload"
+  kind: substitution
+  wrong: "off-load"
+  right: "offload"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 376
+  entry: "okay"
+  kind: substitution
+  wrong: "okay"
+  right: "OK"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use OK for interface text only."
+- source: ibm
+  page: 377
+  entry: "on-line"
+  kind: substitution
+  wrong: "on-line"
+  right: "online"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write online."
+- source: ibm
+  page: 377
+  entry: "on-ramp"
+  kind: existence
+  wrong: "on[- ]ramp"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Colloquial; use a plain description."
+- source: ibm
+  page: 377
+  entry: "on the other hand"
+  kind: existence
+  wrong: "on the other hand"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use however, alternatively, or conversely."
+- source: ibm
+  page: 377
+  entry: "onsite"
+  kind: substitution
+  wrong: "onsite"
+  right: "on-site"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Hyphenate."
+- source: ibm
+  page: 377
+  entry: "orientate"
+  kind: substitution
+  wrong: "orientate"
+  right: "orient"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use orient."
+- source: ibm
+  page: 378
+  entry: "out-of-the-box"
+  kind: existence
+  wrong: "out-of-the-box"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use wording suited to the noun, such as default settings."
+- source: ibm
+  page: 378
+  entry: "p.m."
+  kind: casing
+  wrong: "P\\.M\\."
+  right: "p.m."
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Lowercase p.m. with periods."
+- source: ibm
+  page: 378
+  entry: "parent task"
+  kind: substitution
+  wrong: "parent task"
+  right: "parent process"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use parent process."
+- source: ibm
+  page: 379
+  entry: "path name"
+  kind: substitution
+  wrong: "pathname"
+  right: "path name"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 379
+  entry: "PCOMM"
+  kind: substitution
+  wrong: "PCOMM"
+  right: "Personal Communications"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use Personal Communications."
+- source: ibm
+  page: 379
+  entry: "perimeter network"
+  kind: substitution
+  wrong: "perimeter network"
+  right: "DMZ"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use DMZ."
+- source: ibm
+  page: 379
+  entry: "phone"
+  kind: substitution
+  wrong: "phone"
+  right: "telephone"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use telephone, cell phone, or mobile phone."
+- source: ibm
+  page: 380
+  entry: "planar board"
+  kind: substitution
+  wrong: "planar board"
+  right: "system board"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use system board."
+- source: ibm
+  page: 380
+  entry: "please"
+  kind: existence
+  wrong: "please"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Politeness words are not used in technical information."
+- source: ibm
+  page: 380
+  entry: "Plug and Play"
+  kind: casing
+  wrong: "plug and play"
+  right: "Plug and Play"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Capitalize as shown."
+- source: ibm
+  page: 380
+  entry: "plug-in"
+  kind: substitution
+  wrong: "plugin"
+  right: "plug-in"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Hyphenate plug-in."
+- source: ibm
+  page: 380
+  entry: "pop-up blocker"
+  kind: existence
+  wrong: "pop-up (?:blocker|killer)"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use software to block pop-up ad windows."
+- source: ibm
+  page: 327
+  entry: "24x7"
+  kind: existence
+  wrong: "24/7"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use 24x7 for nonstop operation, or descriptive wording, not 24/7."
+- source: ibm
+  page: 380
+  entry: "post-requisite"
+  kind: substitution
+  wrong: "post-requisite"
+  right: "postrequisite"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen."
+- source: ibm
+  page: 381
+  entry: "pre-requisite"
+  kind: substitution
+  wrong: "pre-requisite"
+  right: "prerequisite"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen."
+- source: ibm
+  page: 381
+  entry: "power down"
+  kind: substitution
+  wrong: "power down"
+  right: "power off"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use power off or turn off."
+- source: ibm
+  page: 381
+  entry: "preload"
+  kind: substitution
+  wrong: "preload(?:ed|s)?"
+  right: "preinstall"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use preinstall, preinstalled, or preinstalled software."
+- source: ibm
+  page: 381
+  entry: "prepend"
+  kind: substitution
+  wrong: "prepend"
+  right: "add a prefix to"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use add a prefix to."
+- source: ibm
+  page: 382
+  entry: "press"
+  kind: existence
+  wrong: "(?:punch|strike) (?:the )?keys?\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use press or type for keys."
+- source: ibm
+  page: 382
+  entry: "preventive"
+  kind: substitution
+  wrong: "preventative"
+  right: "preventive"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use preventive."
+- source: ibm
+  page: 382
+  entry: "prior to"
+  kind: substitution
+  wrong: "prior to"
+  right: "before"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use before."
+- source: ibm
+  page: 382
+  entry: "programmed operator"
+  kind: substitution
+  wrong: "programmed operator"
+  right: "program operator"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use program operator."
+- source: ibm
+  page: 382
+  entry: "PWS"
+  kind: substitution
+  wrong: "PWS\\b"
+  right: "programmable workstation"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use programmable workstation."
+- source: ibm
+  page: 382
+  entry: "pub/sub"
+  kind: substitution
+  wrong: "pub/sub"
+  right: "publish/subscribe"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Spell out publish/subscribe."
+- source: ibm
+  page: 382
+  entry: "pulldown"
+  kind: substitution
+  wrong: "pulldown"
+  right: "pull-down"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use pull-down only when specifying menu type."
+- source: ibm
+  page: 383
+  entry: "quote mark"
+  kind: substitution
+  wrong: "quote marks?"
+  right: "quotation mark"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use quotation mark."
+- source: ibm
+  page: 383
+  entry: "re-occur"
+  kind: substitution
+  wrong: "re-?occur"
+  right: "recur"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use recur."
+- source: ibm
+  page: 384
+  entry: "re-create"
+  kind: substitution
+  wrong: "recreate"
+  right: "re-create"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate re-create for creating again."
+- source: ibm
+  page: 384
+  entry: "requestor"
+  kind: substitution
+  wrong: "requestor"
+  right: "requester"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell requester."
+- source: ibm
+  page: 384
+  entry: "respective"
+  kind: existence
+  wrong: "respective"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Rewrite to avoid respective."
+- source: ibm
+  page: 385
+  entry: "respectively"
+  kind: existence
+  wrong: "respectively"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Rewrite to avoid respectively."
+- source: ibm
+  page: 385
+  entry: "retry"
+  kind: existence
+  wrong: "retry"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use try again as a verb."
+- source: ibm
+  page: 385
+  entry: "right-hand"
+  kind: substitution
+  wrong: "right-hand"
+  right: "right"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use right."
+- source: ibm
+  page: 385
+  entry: "right-justify"
+  kind: substitution
+  wrong: "right-justif(?:y|ied)"
+  right: "right-align"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use right-align or right-aligned."
+- source: ibm
+  page: 385
+  entry: "right double-click"
+  kind: substitution
+  wrong: "right double-click"
+  right: "double right-click"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Reverse the order."
+- source: ibm
+  page: 386
+  entry: "road map"
+  kind: substitution
+  wrong: "roadmap"
+  right: "road map"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Two words."
+- source: ibm
+  page: 386
+  entry: "round-robin task dispatching"
+  kind: substitution
+  wrong: "round-robin task dispatching"
+  right: "round-robin scheduling"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use round-robin scheduling."
+- source: ibm
+  page: 386
+  entry: "rule set"
+  kind: substitution
+  wrong: "ruleset"
+  right: "rule set"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 387
+  entry: "sales representative"
+  kind: substitution
+  wrong: "sales representative"
+  right: "marketing representative"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use marketing representative."
+- source: ibm
+  page: 387
+  entry: "sanity check"
+  kind: existence
+  wrong: "sanity check"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Jargon; explain what is being tested."
+- source: ibm
+  page: 387
+  entry: "schemas"
+  kind: substitution
+  wrong: "schemata"
+  right: "schemas"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use schemas."
+- source: ibm
+  page: 387
+  entry: "screen capture"
+  kind: substitution
+  wrong: "screen ?shot|screencap|screen cap"
+  right: "screen capture"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use screen capture."
+- source: ibm
+  page: 387
+  entry: "second name"
+  kind: substitution
+  wrong: "second name"
+  right: "surname"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use surname."
+- source: ibm
+  page: 388
+  entry: "shift-click"
+  kind: substitution
+  wrong: "[Ss]hift-click"
+  right: "press Shift and click"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Spell out the key press."
+- source: ibm
+  page: 388
+  entry: "ship"
+  kind: substitution
+  wrong: "shipped with"
+  right: "included with"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Say included, not shipped."
+- source: ibm
+  page: 388
+  entry: "shortcut menu"
+  kind: substitution
+  wrong: "shortcut menu"
+  right: "menu"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use menu."
+- source: ibm
+  page: 389
+  entry: "signon"
+  kind: substitution
+  wrong: "signon"
+  right: "sign-on"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use sign-on or sign on."
+- source: ibm
+  page: 389
+  entry: "Simple Object Access Protocol"
+  kind: substitution
+  wrong: "Simple Object Access Protocol"
+  right: "SOAP"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Do not spell out SOAP."
+- source: ibm
+  page: 389
+  entry: "simply"
+  kind: existence
+  wrong: "simply"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Usually superfluous."
+- source: ibm
+  page: 390
+  entry: "single quote"
+  kind: substitution
+  wrong: "single quote(?: mark)?"
+  right: "single quotation mark"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use single quotation mark."
+- source: ibm
+  page: 390
+  entry: "socket interface"
+  kind: substitution
+  wrong: "sockets interface"
+  right: "socket interface"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Singular socket."
+- source: ibm
+  page: 390
+  entry: "soft boot"
+  kind: substitution
+  wrong: "soft boot"
+  right: "restart"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Say press Ctrl+Alt+Del to restart."
+- source: ibm
+  page: 390
+  entry: "softcopy"
+  kind: substitution
+  wrong: "soft copy"
+  right: "softcopy"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "One word."
+- source: ibm
+  page: 390
+  entry: "SOA"
+  kind: substitution
+  wrong: "a SOA"
+  right: "an SOA"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use an before SOA."
+- source: ibm
+  page: 391
+  entry: "SQL"
+  kind: substitution
+  wrong: "a SQL"
+  right: "an SQL"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use an before SQL."
+- source: ibm
+  page: 391
+  entry: "stand-alone"
+  kind: substitution
+  wrong: "standalone"
+  right: "stand-alone"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate."
+- source: ibm
+  page: 391
+  entry: "spawn"
+  kind: existence
+  wrong: "spawn(?:s|ed|ing)? (?:a |the )?process"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use create for processes."
+- source: ibm
+  page: 392
+  entry: "supersede"
+  kind: substitution
+  wrong: "supercede"
+  right: "supersede"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell supersede."
+- source: ibm
+  page: 392
+  entry: "sync"
+  kind: substitution
+  wrong: "synch(?:ed|ing)?\\b"
+  right: "sync"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Spell sync, not synch."
+- source: ibm
+  page: 392
+  entry: "system engineer"
+  kind: substitution
+  wrong: "systems engineer"
+  right: "system engineer"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use singular system."
+- source: ibm
+  page: 392
+  entry: "system programmer"
+  kind: substitution
+  wrong: "systems programmer"
+  right: "system programmer"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use singular system."
+- source: ibm
+  page: 392
+  entry: "subtopic"
+  kind: substitution
+  wrong: "sub-topic"
+  right: "subtopic"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 392
+  entry: "sunset"
+  kind: existence
+  wrong: "sunset(?:s|ted|ting)? (?:the |a |this )"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use withdraw from service or discontinue."
+- source: ibm
+  page: 393
+  entry: "tarball"
+  kind: substitution
+  wrong: "tarball"
+  right: "tar file"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use tar file."
+- source: ibm
+  page: 393
+  entry: "TCP/IP network"
+  kind: substitution
+  wrong: "TCP/IP network"
+  right: "IP network"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use IP network."
+- source: ibm
+  page: 393
+  entry: "tech preview"
+  kind: substitution
+  wrong: "tech preview"
+  right: "technology preview"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Do not abbreviate."
+- source: ibm
+  page: 393
+  entry: "table space"
+  kind: substitution
+  wrong: "tablespace"
+  right: "table space"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 394
+  entry: "terminate"
+  kind: existence
+  wrong: "terminat(?:e|es|ed|ing)\\b"
+  domain: technical
+  fix: none
+  american: true
+  context: "technical"
+  note: "Use end or stop for stopping a program."
+- source: ibm
+  page: 394
+  entry: "thank you"
+  kind: existence
+  wrong: "thank you"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Politeness words are not used in technical information."
+- source: ibm
+  page: 394
+  entry: "test case"
+  kind: substitution
+  wrong: "testcase"
+  right: "test case"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 395
+  entry: "thru"
+  kind: substitution
+  wrong: "thru"
+  right: "through"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use through."
+- source: ibm
+  page: 395
+  entry: "time-out"
+  kind: substitution
+  wrong: "time-out"
+  right: "timeout"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "One word."
+- source: ibm
+  page: 395
+  entry: "timeslice"
+  kind: substitution
+  wrong: "timeslice"
+  right: "time slice"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Two words."
+- source: ibm
+  page: 395
+  entry: "toggle on"
+  kind: substitution
+  wrong: "toggle (?:on|off)\\b"
+  right: "toggle"
+  domain: technical
+  fix: none
+  american: true
+  context: "technical"
+  note: "Use toggle."
+- source: ibm
+  page: 395
+  entry: "thumbstick"
+  kind: substitution
+  wrong: "thumbstick"
+  right: "USB flash drive"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use USB flash drive."
+- source: ibm
+  page: 396
+  entry: "ToolTip"
+  kind: casing
+  wrong: "ToolTip"
+  right: "tooltip"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Lowercase one word."
+- source: ibm
+  page: 396
+  entry: "top left"
+  kind: substitution
+  wrong: "top left"
+  right: "upper left"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use upper left."
+- source: ibm
+  page: 396
+  entry: "top right"
+  kind: substitution
+  wrong: "top right"
+  right: "upper right"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use upper right."
+- source: ibm
+  page: 396
+  entry: "top-left"
+  kind: substitution
+  wrong: "top-left"
+  right: "upper-left"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use upper-left."
+- source: ibm
+  page: 396
+  entry: "top-right"
+  kind: substitution
+  wrong: "top-right"
+  right: "upper-right"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use upper-right."
+- source: ibm
+  page: 396
+  entry: "topic node"
+  kind: substitution
+  wrong: "topic node"
+  right: "topic"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use topic."
+- source: ibm
+  page: 397
+  entry: "totaled"
+  kind: substitution
+  wrong: "totall(?:ed|ing)"
+  right: "totaled"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One l."
+- source: ibm
+  page: 397
+  entry: "touchscreen"
+  kind: substitution
+  wrong: "touchscreen"
+  right: "touch-sensitive screen"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use touch-sensitive screen."
+- source: ibm
+  page: 397
+  entry: "toward"
+  kind: substitution
+  wrong: "towards"
+  right: "toward"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use toward."
+- source: ibm
+  page: 397
+  entry: "trillion"
+  kind: existence
+  wrong: "trillion"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use numerals; value differs by country."
+- source: ibm
+  page: 397
+  entry: "twistie"
+  kind: substitution
+  wrong: "twisty"
+  right: "twistie"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Spell twistie."
+- source: ibm
+  page: 397
+  entry: "TY-RAP"
+  kind: substitution
+  wrong: "TY-RAP"
+  right: "cable tie"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Trademark; use cable tie."
+- source: ibm
+  page: 327
+  entry: "24x7"
+  kind: existence
+  wrong: "24/7"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use 24x7 for nonstop operation, or descriptive wording, not 24/7."
+- source: ibm
+  page: 398
+  entry: "typo"
+  kind: substitution
+  wrong: "typos?"
+  right: "typing error"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use typing error or typographical error."
+- source: ibm
+  page: 398
+  entry: "UK"
+  kind: casing
+  wrong: "U\\.K\\."
+  right: "UK"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Write UK without periods."
+- source: ibm
+  page: 398
+  entry: "un-install"
+  kind: substitution
+  wrong: "un-install"
+  right: "uninstall"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write uninstall."
+- source: ibm
+  page: 398
+  entry: "unallocate"
+  kind: substitution
+  wrong: "unallocate"
+  right: "deallocate"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use deallocate."
+- source: ibm
+  page: 398
+  entry: "uncheck"
+  kind: substitution
+  wrong: "uncheck"
+  right: "clear"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use clear for removing a check mark."
+- source: ibm
+  page: 399
+  entry: "unjar"
+  kind: substitution
+  wrong: "unjar|untar|unzip"
+  right: "extract"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use extract for archives."
+- source: ibm
+  page: 399
+  entry: "updatable"
+  kind: existence
+  wrong: "updatable"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Rewrite as can be updated."
+- source: ibm
+  page: 399
+  entry: "updation"
+  kind: existence
+  wrong: "updation"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Not a word; use update."
+- source: ibm
+  page: 399
+  entry: "upgradeable"
+  kind: substitution
+  wrong: "upgradable"
+  right: "upgradeable"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell upgradeable."
+- source: ibm
+  page: 400
+  entry: "upward compatible"
+  kind: substitution
+  wrong: "upward compatible"
+  right: "compatible with later versions"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use compatible with later versions."
+- source: ibm
+  page: 400
+  entry: "US"
+  kind: casing
+  wrong: "U\\.S\\."
+  right: "US"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Write US without periods."
+- source: ibm
+  page: 400
+  entry: "useable"
+  kind: substitution
+  wrong: "useable"
+  right: "usable"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell usable."
+- source: ibm
+  page: 401
+  entry: "user-friendly"
+  kind: existence
+  wrong: "user-friendly"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not claim user-friendliness in technical documentation."
+- source: ibm
+  page: 401
+  entry: "user name"
+  kind: substitution
+  wrong: "username"
+  right: "user name"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Two words except as a variable."
+- source: ibm
+  page: 401
+  entry: "user ID"
+  kind: substitution
+  wrong: "userid"
+  right: "user ID"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Two words, uppercase ID, except as a variable."
+- source: ibm
+  page: 402
+  entry: "utilize"
+  kind: existence
+  wrong: "utili[sz](?:e|es|ed|ing)"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use use."
+- source: ibm
+  page: 402
+  entry: "Velcro"
+  kind: substitution
+  wrong: "Velcro"
+  right: "hook-and-loop fastener"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Trademark; use hook-and-loop fastener."
+- source: ibm
+  page: 402
+  entry: "version v"
+  kind: existence
+  wrong: "versioning"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Do not use versioning; say version control."
+- source: ibm
+  page: 402
+  entry: "vs."
+  kind: substitution
+  wrong: "vs\\.?"
+  right: "versus"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Spell out versus."
+- source: ibm
+  page: 402
+  entry: "voice mail"
+  kind: substitution
+  wrong: "voicemail"
+  right: "voice mail"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two words."
+- source: ibm
+  page: 403
+  entry: "virtual DOS machine"
+  kind: substitution
+  wrong: "virtual DOS machine"
+  right: "DOS session"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use DOS session."
+- source: ibm
+  page: 403
+  entry: "virtual-equals-real"
+  kind: substitution
+  wrong: "virtual-equals-real"
+  right: "nonpageable"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use nonpageable."
+- source: ibm
+  page: 403
+  entry: "virtual-equals-virtual"
+  kind: substitution
+  wrong: "virtual-equals-virtual"
+  right: "pageable"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use pageable."
+- source: ibm
+  page: 403
+  entry: "w/o"
+  kind: substitution
+  wrong: "w/o"
+  right: "without"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell out without."
+- source: ibm
+  page: 403
+  entry: "wait condition"
+  kind: substitution
+  wrong: "wait condition"
+  right: "wait state"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use wait state."
+- source: ibm
+  page: 403
+  entry: "warm boot"
+  kind: substitution
+  wrong: "warm boot"
+  right: "warm start"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use warm start."
+- source: ibm
+  page: 404
+  entry: "web"
+  kind: casing
+  wrong: "Web (?:page|site|server|browser|address)"
+  right: "web page"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Lowercase web (page)."
+- source: ibm
+  page: 404
+  entry: "website"
+  kind: substitution
+  wrong: "web site"
+  right: "website"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 404
+  entry: "Webinar"
+  kind: substitution
+  wrong: "Webinar"
+  right: "web seminar"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Trademark; use web seminar or web conference."
+- source: ibm
+  page: 404
+  entry: "webmistress"
+  kind: substitution
+  wrong: "webmistress"
+  right: "webmaster"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use webmaster."
+- source: ibm
+  page: 404
+  entry: "webmaster"
+  kind: casing
+  wrong: "Webmaster"
+  right: "webmaster"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase webmaster."
+- source: ibm
+  page: 404
+  entry: "web-enable"
+  kind: existence
+  wrong: "web-enable(?!d)"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Do not use as a verb; write enable for the web."
+- source: ibm
+  page: 404
+  entry: "whilst"
+  kind: substitution
+  wrong: "whilst"
+  right: "while"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use while."
+- source: ibm
+  page: 405
+  entry: "white paper"
+  kind: substitution
+  wrong: "whitepaper"
+  right: "white paper"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Two words."
+- source: ibm
+  page: 405
+  entry: "wildcard"
+  kind: substitution
+  wrong: "wild card"
+  right: "wildcard"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "One word."
+- source: ibm
+  page: 405
+  entry: "wiring closet"
+  kind: substitution
+  wrong: "wiring closet"
+  right: "telecommunications closet"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use telecommunications closet."
+- source: ibm
+  page: 405
+  entry: "wish"
+  kind: existence
+  wrong: "wish(?:es)? to\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use want."
+- source: ibm
+  page: 405
+  entry: "workaround"
+  kind: substitution
+  wrong: "work-around"
+  right: "workaround"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 406
+  entry: "workflow"
+  kind: substitution
+  wrong: "work flow"
+  right: "workflow"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 406
+  entry: "workgroup"
+  kind: substitution
+  wrong: "work group"
+  right: "workgroup"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "One word."
+- source: ibm
+  page: 406
+  entry: "workload"
+  kind: substitution
+  wrong: "work load"
+  right: "workload"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 406
+  entry: "workspace"
+  kind: substitution
+  wrong: "work space"
+  right: "workspace"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 406
+  entry: "workstation"
+  kind: substitution
+  wrong: "work station"
+  right: "workstation"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: ibm
+  page: 406
+  entry: "worldwide"
+  kind: substitution
+  wrong: "world-wide|world wide(?! [Ww]eb)"
+  right: "worldwide"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Write worldwide."
+- source: ibm
+  page: 406
+  entry: "X Window System"
+  kind: substitution
+  wrong: "X-Windows?(?: System)?"
+  right: "X Window System"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Write X Window System."
+- source: ibm
+  page: 407
+  entry: "zero out"
+  kind: substitution
+  wrong: "zero out"
+  right: "zero"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use zero."
+- source: ibm
+  page: 407
+  entry: "zeros"
+  kind: substitution
+  wrong: "zeroes"
+  right: "zeros"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell zeros."
+- source: ibm
+  page: 407
+  entry: "zip file"
+  kind: existence
+  wrong: "zipped file|zip file"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use archive or compressed file; ZIP is a trademark."
+- source: ibm
+  page: 407
+  entry: "zip file"
+  kind: casing
+  wrong: "\\.ZIP file"
+  right: ".zip file"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use lowercase .zip."
+- source: ibm
+  page: 407
+  entry: "Zulu time"
+  kind: substitution
+  wrong: "Zulu time"
+  right: "Coordinated Universal Time"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use Coordinated Universal Time."

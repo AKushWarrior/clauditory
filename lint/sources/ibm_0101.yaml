@@ -1,0 +1,358 @@
+- source: ibm
+  page: 114
+  entry: "Writing steps"
+  kind: existence
+  wrong: "(?i)please"
+  domain: technical
+  fix: none
+  american: true
+  context: technical documentation
+  note: Do not use please in instructions; politeness words are superfluous and culturally variable. Only for procedure text.
+- source: ibm
+  page: 138
+  entry: "Notes"
+  kind: existence
+  wrong: "Recommendation(?=:)"
+  domain: technical
+  fix: none
+  american: true
+  context: technical documentation
+  note: Avoid Recommendation as a note label; use labels like Tip, Important, Remember.
+- source: ibm
+  page: 158
+  entry: "Inline links"
+  kind: existence
+  wrong: "(?i)click here"
+  domain: technical
+  fix: none
+  american: true
+  context: technical documentation
+  note: Never use click here as link text; use meaningful descriptive link text.
+- source: ibm
+  page: 118
+  entry: "Figure captions and legends"
+  kind: existence
+  wrong: "(?m)^(?:Figure|Table) \\d+\\. .*\\b(?:figure|table|chart)$"
+  domain: technical
+  fix: none
+  american: true
+  context: technical documentation
+  note: Captions should not repeat figure, table, or chart, since the label already says it.
+- source: ibm
+  page: 177
+  entry: "References to web addresses"
+  kind: existence
+  wrong: "(?:URL|URI)s?"
+  domain: wording
+  fix: none
+  american: true
+  context: technical documentation
+  note: Avoid the abbreviations URL and URI; use web address, website, or web page.
+- source: ibm
+  page: 173
+  entry: "References within the same document"
+  kind: existence
+  wrong: "(?:Chap|Ch|Fig|Vol|Pt)\\.(?=\\s?\\d)"
+  domain: wording
+  fix: none
+  american: true
+  context: technical documentation
+  note: Do not abbreviate Chapter, Figure, Part, or Volume in cross-references.
+- source: ibm
+  page: 172
+  entry: "References within the same document"
+  kind: existence
+  wrong: "(?:see|See) (?:chapter|appendix|figure|table|part|volume) (?=\\d|[A-Z]\\b)"
+  domain: wording
+  fix: review
+  american: true
+  context: technical documentation
+  note: Capitalize Chapter, Appendix, Figure, Table, Part, Volume when used in a cross-reference.
+- source: ibm
+  page: 179
+  entry: "Formatting and punctuating web addresses"
+  kind: existence
+  wrong: "www\\.[\\w-]+(?:\\.[\\w-]+)*\\.(?:com|org|net)(?=/(?:[\\s.,;)]|$))"
+  domain: technical
+  fix: none
+  american: true
+  context: technical documentation
+  note: Do not end a web address with a forward slash.
+- source: ibm
+  page: 175
+  entry: "References to printed information"
+  kind: existence
+  wrong: "ISBN"
+  domain: technical
+  fix: none
+  american: true
+  context: technical documentation
+  note: Do not include an ISBN in references; it ties the reference to one edition.
+- source: ibm
+  page: 182
+  entry: "Expressing numbers"
+  kind: existence
+  wrong: "\\d+,\\d{1,2}(?=\\s?(?:cm|mm|in\\.|kg|m)\\b)"
+  domain: grammar
+  fix: review
+  american: true
+  context: technical documentation
+  note: Use a period, not a comma, as the decimal separator (4.6 cm, not 4,6 cm).
+- source: ibm
+  page: 183
+  entry: "Expressing numbers"
+  kind: existence
+  wrong: "\\d+'s"
+  domain: grammar
+  fix: review
+  american: true
+  context: technical documentation
+  note: Form plurals of numerals by adding s alone (1980s, 0s), no apostrophe.
+- source: ibm
+  page: 183
+  entry: "Expressing numbers"
+  kind: existence
+  wrong: "(?i)(?:twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety) (?:one|two|three|four|five|six|seven|eight|nine)"
+  domain: grammar
+  fix: review
+  american: true
+  context: technical documentation
+  note: Hyphenate spelled-out numbers 21 through 99 (twenty-four).
+- source: ibm
+  page: 183
+  entry: "Numerals versus words"
+  kind: existence
+  wrong: "(?i)(?:one|two|three|four|five|six|seven|eight|nine|ten) \\(\\d+(?=\\))"
+  domain: wording
+  fix: none
+  american: true
+  context: technical documentation
+  note: Do not give both the word and numeral for the same number (five (5)), except 0 and 1.
+- source: ibm
+  page: 184
+  entry: "Numerals versus words"
+  kind: existence
+  wrong: "(?<=[.!?] )\\d+(?= [a-z])"
+  domain: grammar
+  fix: none
+  american: true
+  context: technical documentation
+  note: Spell out a number that begins a sentence.
+- source: ibm
+  page: 184
+  entry: "Numerals versus words"
+  kind: existence
+  wrong: "(?:January|February|March|April|May|June|July|August|September|October|November|December) \\d{1,2}, \\d{4}"
+  domain: grammar
+  fix: none
+  american: false
+  context: technical documentation
+  note: IBM dates use day, spelled month, year (15 May 2011); conflicts with American order.
+- source: ibm
+  page: 185
+  entry: "Numerals versus words"
+  kind: existence
+  wrong: "(?i)(?:one|two|three|four|five|six|seven|eight|nine|ten|\\d+(?:\\.\\d+)?) (?:billion|trillion)"
+  domain: grammar
+  fix: none
+  american: true
+  context: technical documentation
+  note: Billion and trillion differ by country; write the amount as numerals (1,000,000,000).
+- source: ibm
+  page: 186
+  entry: "Separators in numbers"
+  kind: existence
+  wrong: "(?<![\\d,.])\\d,\\d{3}(?![\\d,])"
+  domain: grammar
+  fix: none
+  american: true
+  context: technical documentation
+  note: Omit the comma in four-digit numbers unless consistency with other numbers needs it; marketing content may keep it.
+- source: ibm
+  page: 187
+  entry: "Ranges of numbers"
+  kind: existence
+  wrong: "(?<![\\d-])\\d+-\\d+(?![\\d-])"
+  domain: grammar
+  fix: none
+  american: true
+  context: technical documentation
+  note: Show number ranges with a spaced hyphen (50 - 100). Many false hits on IDs and phone numbers.
+- source: ibm
+  page: 187
+  entry: "Ranges of numbers"
+  kind: existence
+  wrong: "(?i)between \\d+ and \\d+"
+  domain: grammar
+  fix: none
+  american: true
+  context: technical documentation
+  note: Avoid between ... and to show a range; use a spaced hyphen or from ... to.
+- source: ibm
+  page: 189
+  entry: "Fractions"
+  kind: existence
+  wrong: "\\d+ \\d/\\d+"
+  domain: grammar
+  fix: none
+  american: true
+  context: technical documentation
+  note: Hyphenate a whole number and numeric fraction (5-1/6); prefer decimals.
+- source: ibm
+  page: 189
+  entry: "Percentages"
+  kind: substitution
+  wrong: "(?<=\\d) percent"
+  right: "%"
+  domain: grammar
+  fix: review
+  american: true
+  context: technical documentation
+  note: Use numeral plus percent sign; spell out percent at sentence start or in marketing content.
+- source: ibm
+  page: 189
+  entry: "Percentages"
+  kind: existence
+  wrong: "\\d+(?= %)"
+  domain: grammar
+  fix: none
+  american: true
+  context: technical documentation
+  note: No space between numeral and percent sign.
+- source: ibm
+  page: 191
+  entry: "Different number bases"
+  kind: substitution
+  wrong: "hex(?= (?:value|number|string|digit|data|format|code)s?\\b)"
+  right: "hexadecimal"
+  domain: wording
+  fix: review
+  american: true
+  context: technical documentation
+  note: Use hex only for a specific hexadecimal number; write hexadecimal in running text.
+- source: ibm
+  page: 192
+  entry: "Number complements"
+  kind: existence
+  wrong: "(?i)(?:one|two|nine|ten)s complement"
+  domain: grammar
+  fix: review
+  american: true
+  context: technical documentation
+  note: Complements take an apostrophe s (two's complement, ten's complement).
+- source: ibm
+  page: 193
+  entry: "Multiplication"
+  kind: substitution
+  wrong: "(?<=\\d) x (?=\\d)"
+  right: " × "
+  domain: grammar
+  fix: review
+  american: true
+  context: technical documentation
+  note: Use the multiplication sign with a space each side for dimensions and products, not the letter x.
+- source: ibm
+  page: 194
+  entry: "Units of measurement"
+  kind: existence
+  wrong: "\\d+(?:\\.\\d+)?(?:mm|cm|km|kg|MB|GB|TB|KB|kB|MHz|GHz|kHz|ms|lb|ft)"
+  domain: grammar
+  fix: review
+  american: true
+  context: technical documentation
+  note: Put a space between number and unit abbreviation (600 MHz, not 600MHz).
+- source: ibm
+  page: 198
+  entry: "Multiplier prefixes for units of measurement"
+  kind: existence
+  wrong: "\\d+-(?:KB|MB|GB|TB|mm|cm|kg|MHz|GHz)"
+  domain: grammar
+  fix: review
+  american: true
+  context: technical documentation
+  note: No hyphen between number and unit abbreviation, even as adjective (32 KB cluster).
+- source: ibm
+  page: 195
+  entry: "Units of time"
+  kind: substitution
+  wrong: "mins"
+  right: "minutes"
+  domain: wording
+  fix: review
+  american: true
+  context: technical documentation
+  note: In running text do not abbreviate units of time; if forced, use min. with period.
+- source: ibm
+  page: 195
+  entry: "Units of time"
+  kind: substitution
+  wrong: "secs"
+  right: "seconds"
+  domain: wording
+  fix: review
+  american: true
+  context: technical documentation
+  note: Spell out seconds in text; abbreviation is sec. or SI s.
+- source: ibm
+  page: 195
+  entry: "Units of time"
+  kind: substitution
+  wrong: "hrs"
+  right: "hours"
+  domain: wording
+  fix: review
+  american: true
+  context: technical documentation
+  note: Spell out hours in text; abbreviation is hr. with a period.
+- source: ibm
+  page: 195
+  entry: "Units of time"
+  kind: substitution
+  wrong: "yrs"
+  right: "years"
+  domain: wording
+  fix: review
+  american: true
+  context: technical documentation
+  note: Spell out years in text; abbreviation is yr. with a period.
+- source: ibm
+  page: 195
+  entry: "Units of time"
+  kind: substitution
+  wrong: "msecs"
+  right: "ms"
+  domain: wording
+  fix: review
+  american: true
+  context: technical documentation
+  note: Use ms for milliseconds, with a space after the number (23 ms).
+- source: ibm
+  page: 195
+  entry: "Feet and inches"
+  kind: existence
+  wrong: "\\d+'\\d{1,2}(?=\")"
+  domain: grammar
+  fix: none
+  american: true
+  context: technical documentation
+  note: Do not use quotation marks for feet and inches; write ft and in. or spell out.
+- source: ibm
+  page: 196
+  entry: "Temperatures"
+  kind: existence
+  wrong: "\\d+\\s°|°\\s[CF]"
+  domain: grammar
+  fix: review
+  american: true
+  context: technical documentation
+  note: No space before or after the degree symbol (100°C).
+- source: ibm
+  page: 196
+  entry: "Tolerances"
+  kind: existence
+  wrong: "\\d\\s±|\\d±\\s\\d"
+  domain: grammar
+  fix: review
+  american: true
+  context: technical documentation
+  note: Place the plus-or-minus sign next to the tolerance with no spaces (50±5 V).

@@ -1,0 +1,459 @@
+- source: chicago
+  page: 708
+  entry: "11.25 African capitalization"
+  kind: substitution
+  wrong: 'KiSwahili|KISwahili|KIswahili'
+  right: "Kiswahili"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize African language names conventionally, with only the first letter capitalized."
+
+- source: chicago
+  page: 732
+  entry: "11.85 Arabic spelling"
+  kind: substitution
+  wrong: 'Ibn Sina'
+  right: "Avicenna"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Isolated mentions of well-known persons use the form familiar to English readers."
+
+- source: chicago
+  page: 732
+  entry: "11.85 Arabic spelling"
+  kind: substitution
+  wrong: 'Dimashq'
+  right: "Damascus"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use the English-familiar place name, not the Arabic transliteration."
+
+- source: chicago
+  page: 732
+  entry: "11.85 Arabic spelling"
+  kind: substitution
+  wrong: 'Makkah?'
+  right: "Mecca"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use the familiar English spelling Mecca."
+
+- source: chicago
+  page: 732
+  entry: "11.86 Arabic definite article"
+  kind: substitution
+  wrong: 'al (?=Qaeda|Qaida|Islam|Nafud|Safi)'
+  right: "al-"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Join the Arabic article al to its noun with a hyphen."
+
+- source: chicago
+  page: 735
+  entry: "11.89 Chinese romanization (Pinyin)"
+  kind: substitution
+  wrong: 'Peiping'
+  right: "Beijing"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use Pinyin place-names; old postal-atlas spelling is superseded."
+
+- source: chicago
+  page: 735
+  entry: "11.89 Chinese romanization (Pinyin)"
+  kind: substitution
+  wrong: 'Peking'
+  right: "Beijing"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Pinyin Beijing preferred; Peking duck, Peking University and similar fixed names are exceptions, so review each."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Common Chinese names"
+  kind: substitution
+  wrong: 'Mao Tse-tung'
+  right: "Mao Zedong"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Wade-Giles personal name replaced by Pinyin form."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Common Chinese names"
+  kind: substitution
+  wrong: "Teng Hsiao-p['’]?ing"
+  right: "Deng Xiaoping"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Wade-Giles personal name replaced by Pinyin form."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Common Chinese names"
+  kind: substitution
+  wrong: 'Hua Kuo-feng'
+  right: "Hua Guofeng"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Wade-Giles personal name replaced by Pinyin form."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Common Chinese names"
+  kind: substitution
+  wrong: 'Lin Piao'
+  right: "Lin Biao"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Wade-Giles personal name replaced by Pinyin form."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Common Chinese names"
+  kind: substitution
+  wrong: 'Lu Hsün'
+  right: "Lu Xun"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Wade-Giles personal name replaced by Pinyin form."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Common Chinese names"
+  kind: substitution
+  wrong: 'Fang Li-chih'
+  right: "Fang Lizhi"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Wade-Giles personal name replaced by Pinyin form."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Chinese dynasties"
+  kind: substitution
+  wrong: "Ch['’]in(?= dynasty)"
+  right: "Qin"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Pinyin Qin for the dynasty."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Chinese dynasties"
+  kind: substitution
+  wrong: "Ch['’]ing(?= dynasty)"
+  right: "Qing"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Pinyin Qing for the dynasty."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Chinese dynasties"
+  kind: substitution
+  wrong: "T['’]ang(?= dynasty)"
+  right: "Tang"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Pinyin Tang for the dynasty."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Chinese dynasties"
+  kind: substitution
+  wrong: 'Sung(?= dynasty)'
+  right: "Song"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Pinyin Song for the dynasty."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Chinese dynasties"
+  kind: substitution
+  wrong: 'Chou(?= dynasty)'
+  right: "Zhou"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Pinyin Zhou for the dynasty."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Chinese dynasties"
+  kind: substitution
+  wrong: 'Yüan(?= dynasty)'
+  right: "Yuan"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Pinyin Yuan for the dynasty."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Chinese geographic names"
+  kind: substitution
+  wrong: 'Kwangtung'
+  right: "Guangdong"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Postal-atlas spelling replaced by Pinyin."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Chinese geographic names"
+  kind: substitution
+  wrong: 'Soochow'
+  right: "Suzhou"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Postal-atlas spelling replaced by Pinyin."
+
+- source: chicago
+  page: 736
+  entry: "11.92 Chinese geographic names"
+  kind: substitution
+  wrong: 'Dairen'
+  right: "Dalian"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Postal-atlas spelling replaced by Pinyin."
+
+- source: chicago
+  page: 736
+  entry: "11.94 Modified Hepburn"
+  kind: substitution
+  wrong: 'Tōkyō'
+  right: "Tokyo"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Well-known Japanese place-names omit macrons unless pronunciation matters."
+
+- source: chicago
+  page: 736
+  entry: "11.94 Modified Hepburn"
+  kind: substitution
+  wrong: 'Hokkaidō'
+  right: "Hokkaido"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Well-known Japanese place-names omit macrons unless pronunciation matters."
+
+- source: chicago
+  page: 736
+  entry: "11.94 Modified Hepburn"
+  kind: substitution
+  wrong: 'Kōbe'
+  right: "Kobe"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Well-known Japanese place-names omit macrons unless pronunciation matters."
+
+- source: chicago
+  page: 736
+  entry: "11.94 Modified Hepburn"
+  kind: substitution
+  wrong: 'shōgun'
+  right: "shogun"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Anglicized words like shogun lose macrons and italics."
+
+- source: chicago
+  page: 736
+  entry: "11.94 Modified Hepburn"
+  kind: substitution
+  wrong: 'daimyō'
+  right: "daimyo"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Anglicized words like daimyo lose macrons and italics."
+
+- source: chicago
+  page: 731
+  entry: "11.81 Diacritics in transliteration"
+  kind: substitution
+  wrong: 'Śiva'
+  right: "Shiva"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Nonspecialized works prefer the transliterated form without diacritics."
+
+- source: chicago
+  page: 731
+  entry: "11.81 Diacritics in transliteration"
+  kind: substitution
+  wrong: 'Viṣṇu'
+  right: "Vishnu"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Nonspecialized works prefer the transliterated form without diacritics."
+
+- source: chicago
+  page: 718
+  entry: "11.49 Indigenous languages (capitalization)"
+  kind: casing
+  wrong: 'indigenous(?= (?:peoples?|languages?|cultures?|communities|nations?|writers?|authors?)\b)'
+  right: "Indigenous"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize Indigenous when referring to peoples and their cultures; the guide capitalizes it throughout."
+
+- source: chicago
+  page: 750
+  entry: "11.135 Signed languages"
+  kind: substitution
+  wrong: '[Dd]eaf[- ]blind(?= (?:people|person|signers?|community))'
+  right: "deafblind"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Deafblind is one word when describing people who are both deaf and blind."
+
+- source: chicago
+  page: 759
+  entry: "12.14 Comma to introduce a quotation"
+  kind: existence
+  wrong: '\b(?:said|replied|asked|wrote|answered)\s+[“"]'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "A comma normally follows said, replied, asked, wrote before a quotation that stands as its own sentence."
+
+- source: chicago
+  page: 760
+  entry: "12.15 No comma to introduce a quotation"
+  kind: existence
+  wrong: '\bthat,\s+[“"]'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "No comma when a quotation is integrated into the sentence, for example after that."
+
+- source: chicago
+  page: 773
+  entry: "12.42 Speaker tags"
+  kind: existence
+  wrong: '[”"]\s+(?:asked|said|replied|answered)\s+(?:he|she|they)\b'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Inverting a speaker tag with a pronoun is usually best avoided; name the speaker or put the tag first."
+
+- source: chicago
+  page: 773
+  entry: "12.42 Speaker tags"
+  kind: existence
+  wrong: '[”"],?\s+(?:he|she|they|I)\s+(?:frowned|smiled|grinned|nodded|shrugged|winked|smirked|grimaced)\b'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Avoid verbs that cannot describe speech as speaker tags; use a separate action sentence or a participle."
+
+- source: chicago
+  page: 776
+  entry: "12.47 Single-word speech"
+  kind: existence
+  wrong: '(?i)[“"](?:yes|no|where|how|why)[”"]'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Single words such as yes, no, why are not put in quotation marks outside quoted dialogue."
+
+- source: chicago
+  page: 767
+  entry: "12.30 Quotations within quotations"
+  kind: existence
+  wrong: '“[^“”\n]{1,300}“'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Inside double quotation marks use single marks for the nested quotation (American style)."
+
+- source: chicago
+  page: 782
+  entry: "12.59 Ellipses defined"
+  kind: existence
+  wrong: '(?<![.\s])\.\.\.(?!\.)'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Chicago ellipsis is three spaced periods, not three run-together dots."
+
+- source: chicago
+  page: 786
+  entry: "12.68 Spaced periods versus the ellipsis character"
+  kind: existence
+  wrong: '…'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Copyeditors replace the ellipsis character with spaced periods and nonbreaking spaces; consistency within a document matters."

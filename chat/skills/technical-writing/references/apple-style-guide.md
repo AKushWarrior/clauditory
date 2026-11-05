@@ -150,7 +150,7 @@ It leaves out Apple's advice against foo, bar, and baz in examples, its notes an
 
 ## Conflicts with other references
 
-AGENTS.md ranks the news manuals, Chicago, and the New Oxford Style Manual above the technical guides, and the owner's choices (no em dashes, the serial comma, and the revision-pass bans) above every source. Writing-style wins where technical-writing disagrees with it. Apple is listed third among the technical guides; the files in this folder differ on whether that list is a ranking (red-hat-technical-writing-style-guide.md reads it as one, ibm-style-guide.md does not), but none of the conflicts below turns on the answer.
+Each entry below records the form the skill chose and the reason for it. The owner's choices (no em dashes, the serial comma, and the revision-pass bans) override every source, and writing-style wins where technical-writing disagrees with it. The skill sets no order among the technical guides.
 
 **Recommendations (red-hat-technical-writing-style-guide.md, google-developer-style-guide.md, microsoft-writing-style-guide.md).** Apple prefers the impersonal it's recommended and rejects we recommend. Red Hat's rule, which the skill follows, rules out the impersonal form and names who recommends; Google and Microsoft accept we recommend. Apple stands alone among the technical guides, and the skill resolves against it.
 
@@ -162,7 +162,7 @@ AGENTS.md ranks the news manuals, Chicago, and the New Oxford Style Manual above
 
 **May for possibility (ibm-style-guide.md, red-hat-technical-writing-style-guide.md).** Apple uses may for possibility as well as permission. IBM and Red Hat keep it for permission, and the skill follows them.
 
-**User name and username; webpage and web page (oxford-dictionary-for-writers.md, oxford-new-harts-rules.md, google-developer-style-guide.md).** Apple writes user name as two words, against the Oxford dictionary, Google, and the skill. It writes webpage as one word, against the Oxford sources and the skill, though Google and Microsoft agree with Apple on that word. In both cases the skill follows the Oxford dictionary, which ranks above the technical guides.
+**User name and username; webpage and web page (oxford-dictionary-for-writers.md, oxford-new-harts-rules.md, google-developer-style-guide.md).** Apple writes user name as two words, against the Oxford dictionary, Google, and the skill. It writes webpage as one word, against the Oxford sources and the skill, though Google and Microsoft agree with Apple on that word. In both cases the skill follows the Oxford dictionary, which the skills consult for the spelling of individual words; on web page, IBM and Red Hat agree with it.
 
 **Binary units (oxford-dictionary-for-writers.md, oxford-new-harts-rules.md, google-developer-style-guide.md, microsoft-writing-style-guide.md).** Apple lets context decide whether GB means a power of ten or of two. Google and Microsoft use GiB for the binary unit, and Hart's reports the IEC prefixes; the skill follows them. oxford-dictionary-for-writers.md says that none of the technical references its author read discusses the point; Apple, Google, and Microsoft all do.
 

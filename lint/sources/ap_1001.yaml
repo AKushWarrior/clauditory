@@ -1,0 +1,1422 @@
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: airball|air-ball
+  right: air ball
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: Two words.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: alley oop
+  right: alley-oop
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: Hyphenate.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: back board|back-board
+  right: backboard
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: One word.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: front court|front-court
+  right: frontcourt
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: One word.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: full court press
+  right: full-court press
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: Hyphenate the compound.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: half court pass
+  right: half-court pass
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: Hyphenate the compound.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: free throw line
+  right: free-throw line
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: Hyphenate free-throw line.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: goal tending|goal-tending
+  right: goaltending
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: One word.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: jumpshot|jump-shot
+  right: jump shot
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: Two words.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: lay-up
+  right: layup
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: One word, no hyphen.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: pivot man|pivot-man
+  right: pivotman
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: One word.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: substitution
+  wrong: tip-off
+  right: tipoff
+  domain: wording
+  fix: safe
+  american: true
+  context: basketball
+  note: Noun and adjective are one word.
+- source: ap
+  page: 1017
+  entry: football
+  kind: substitution
+  wrong: corner back|corner-back
+  right: cornerback
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word.
+- source: ap
+  page: 1017
+  entry: football
+  kind: substitution
+  wrong: full back|full-back
+  right: fullback
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word.
+- source: ap
+  page: 1017
+  entry: football
+  kind: substitution
+  wrong: half back|half-back
+  right: halfback
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word.
+- source: ap
+  page: 1017
+  entry: football
+  kind: substitution
+  wrong: hand-off
+  right: handoff
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word for the noun.
+- source: ap
+  page: 1017
+  entry: football
+  kind: substitution
+  wrong: kick-off
+  right: kickoff
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: Noun and adjective are one word.
+- source: ap
+  page: 1017
+  entry: football
+  kind: substitution
+  wrong: line backer|line-backer
+  right: linebacker
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word.
+- source: ap
+  page: 1017
+  entry: football
+  kind: substitution
+  wrong: line man
+  right: lineman
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word.
+- source: ap
+  page: 1017
+  entry: football
+  kind: substitution
+  wrong: on-side kick|onsides kick
+  right: onside kick
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: Two words, no hyphen, no s.
+- source: ap
+  page: 1018
+  entry: football
+  kind: substitution
+  wrong: placekicker|place kicker
+  right: place-kicker
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: Hyphenate.
+- source: ap
+  page: 1018
+  entry: football
+  kind: substitution
+  wrong: quarter back|quarter-back
+  right: quarterback
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word.
+- source: ap
+  page: 1018
+  entry: football
+  kind: substitution
+  wrong: tail back|tail-back
+  right: tailback
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word.
+- source: ap
+  page: 1018
+  entry: football
+  kind: substitution
+  wrong: touch back|touch-back
+  right: touchback
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word.
+- source: ap
+  page: 1018
+  entry: football
+  kind: substitution
+  wrong: touch down|touch-down
+  right: touchdown
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word.
+- source: ap
+  page: 1018
+  entry: football
+  kind: substitution
+  wrong: wide out|wide-out
+  right: wideout
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word.
+- source: ap
+  page: 1018
+  entry: football
+  kind: substitution
+  wrong: play-off
+  right: playoff
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: Noun and adjective are one word; verb is play off.
+- source: ap
+  page: 1025
+  entry: hockey
+  kind: substitution
+  wrong: face-off
+  right: faceoff
+  domain: wording
+  fix: safe
+  american: true
+  context: hockey
+  note: Noun and adjective are one word.
+- source: ap
+  page: 1025
+  entry: hockey
+  kind: substitution
+  wrong: goalpost|goal-post
+  right: goal post
+  domain: wording
+  fix: review
+  american: true
+  context: hockey
+  note: Two words.
+- source: ap
+  page: 1025
+  entry: hockey
+  kind: substitution
+  wrong: power play goal
+  right: power-play goal
+  domain: wording
+  fix: safe
+  american: true
+  context: hockey
+  note: Hyphenate the modifier.
+- source: ap
+  page: 1025
+  entry: hockey
+  kind: substitution
+  wrong: shorthanded|short handed
+  right: short-handed
+  domain: wording
+  fix: safe
+  american: true
+  context: hockey
+  note: Hyphenate.
+- source: ap
+  page: 1025
+  entry: hockey
+  kind: substitution
+  wrong: slapshot|slap-shot
+  right: slap shot
+  domain: wording
+  fix: safe
+  american: true
+  context: hockey
+  note: Two words.
+- source: ap
+  page: 1022
+  entry: game day
+  kind: substitution
+  wrong: gameday
+  right: game day
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Two words unless part of a formal name.
+- source: ap
+  page: 1022
+  entry: game plan
+  kind: substitution
+  wrong: gameplan
+  right: game plan
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: ap
+  page: 1025
+  entry: halftime
+  kind: substitution
+  wrong: half-time|half time
+  right: halftime
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1025
+  entry: heatstroke
+  kind: substitution
+  wrong: heat stroke|heat-stroke
+  right: heatstroke
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1031
+  entry: left hand, left-handed
+  kind: substitution
+  wrong: lefthanded|left handed
+  right: left-handed
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate the adjective.
+- source: ap
+  page: 1031
+  entry: left-hander
+  kind: substitution
+  wrong: lefthander|left hander
+  right: left-hander
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate the noun.
+- source: ap
+  page: 1036
+  entry: right-handed
+  kind: substitution
+  wrong: righthanded|right handed
+  right: right-handed
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate the adjective.
+- source: ap
+  page: 1036
+  entry: right-hander
+  kind: substitution
+  wrong: righthander|right hander
+  right: right-hander
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate the noun.
+- source: ap
+  page: 1031
+  entry: long shot
+  kind: substitution
+  wrong: longshot|long-shot
+  right: long shot
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words for the big underdog.
+- source: ap
+  page: 1031
+  entry: knuckleball
+  kind: substitution
+  wrong: knuckle ball|knuckle-ball
+  right: knuckleball
+  domain: wording
+  fix: safe
+  american: true
+  context: baseball
+  note: One word, an exception to the dictionary.
+- source: ap
+  page: 1032
+  entry: midcourt, midfield
+  kind: substitution
+  wrong: mid-court|mid court|mid-field|mid field
+  right: midcourt
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Midcourt and midfield are one word each.
+- source: ap
+  page: 1032
+  entry: minicamp
+  kind: substitution
+  wrong: mini-camp|mini camp
+  right: minicamp
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: One word.
+- source: ap
+  page: 1032
+  entry: motor sports
+  kind: substitution
+  wrong: motorsports
+  right: motor sports
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Two words unless an official name differs.
+- source: ap
+  page: 1033
+  entry: nonconference
+  kind: substitution
+  wrong: non-conference
+  right: nonconference
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: ap
+  page: 1034
+  entry: offseason
+  kind: substitution
+  wrong: off-season|off season
+  right: offseason
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: ap
+  page: 1034
+  entry: pari-mutuel
+  kind: substitution
+  wrong: parimutuel|pari mutuel
+  right: pari-mutuel
+  domain: wording
+  fix: safe
+  american: true
+  context: horse racing
+  note: Hyphenated.
+- source: ap
+  page: 1035
+  entry: postgame, pregame
+  kind: substitution
+  wrong: post-game|post game
+  right: postgame
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1035
+  entry: postgame, pregame
+  kind: substitution
+  wrong: pre-game|pre game
+  right: pregame
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 1035
+  entry: postseason, preseason
+  kind: substitution
+  wrong: post-season|post season
+  right: postseason
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: ap
+  page: 1035
+  entry: postseason, preseason
+  kind: substitution
+  wrong: pre-season|pre season
+  right: preseason
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: ap
+  page: 1035
+  entry: racket
+  kind: substitution
+  wrong: racquet
+  right: racket
+  domain: wording
+  fix: review
+  american: true
+  context: tennis
+  note: Racket for tennis and badminton; racquetball stays separate.
+- source: ap
+  page: 1036
+  entry: runner-up
+  kind: substitution
+  wrong: runnerup|runner up
+  right: runner-up
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate; plural is runners-up.
+- source: ap
+  page: 1037
+  entry: shoestring catch
+  kind: substitution
+  wrong: shoe-string catch|shoe string catch
+  right: shoestring catch
+  domain: wording
+  fix: safe
+  american: true
+  context: baseball
+  note: One word.
+- source: ap
+  page: 1037
+  entry: ski
+  kind: substitution
+  wrong: skiied
+  right: skied
+  domain: wording
+  fix: safe
+  american: true
+  context: skiing
+  note: Past tense of ski.
+- source: ap
+  page: 1041
+  entry: speedskating
+  kind: substitution
+  wrong: speed skating|speed-skating
+  right: speedskating
+  domain: wording
+  fix: review
+  american: true
+  context: speedskating
+  note: One word.
+- source: ap
+  page: 1042
+  entry: sportsbook
+  kind: substitution
+  wrong: sports book|sports-book
+  right: sportsbook
+  domain: wording
+  fix: safe
+  american: true
+  context: betting
+  note: One word unless a formal name.
+- source: ap
+  page: 1043
+  entry: sports writer
+  kind: substitution
+  wrong: sportswriter
+  right: sports writer
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words, an exception to the dictionary.
+- source: ap
+  page: 1044
+  entry: tennis
+  kind: substitution
+  wrong: tie-breaker|tie breaker
+  right: tiebreaker
+  domain: wording
+  fix: safe
+  american: true
+  context: tennis
+  note: One word.
+- source: ap
+  page: 1046
+  entry: up-tempo
+  kind: substitution
+  wrong: uptempo|up tempo
+  right: up-tempo
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenated.
+- source: ap
+  page: 1047
+  entry: warmup
+  kind: substitution
+  wrong: warm-up
+  right: warmup
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Noun is warmup; verb is warm up.
+- source: ap
+  page: 1047
+  entry: weightlifting
+  kind: substitution
+  wrong: weight lifting|weight-lifting
+  right: weightlifting
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word for the sport.
+- source: ap
+  page: 1047
+  entry: wild card
+  kind: substitution
+  wrong: wildcard
+  right: wild card
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Noun is two words; adjective is wild-card.
+- source: ap
+  page: 1011
+  entry: bowl games
+  kind: casing
+  wrong: cotton bowl
+  right: Cotton Bowl
+  domain: wording
+  fix: review
+  american: true
+  context: college football
+  note: Capitalize bowl game names.
+- source: ap
+  page: 1011
+  entry: bowl games
+  kind: casing
+  wrong: orange bowl
+  right: Orange Bowl
+  domain: wording
+  fix: review
+  american: true
+  context: college football
+  note: Capitalize bowl game names.
+- source: ap
+  page: 1011
+  entry: bowl games
+  kind: casing
+  wrong: rose bowl
+  right: Rose Bowl
+  domain: wording
+  fix: review
+  american: true
+  context: college football
+  note: Capitalize bowl game names.
+- source: ap
+  page: 1011
+  entry: bowl games
+  kind: casing
+  wrong: sugar bowl
+  right: Sugar Bowl
+  domain: wording
+  fix: review
+  american: true
+  context: college football
+  note: Capitalize bowl game names.
+- source: ap
+  page: 1011
+  entry: bowl games
+  kind: casing
+  wrong: fiesta bowl
+  right: Fiesta Bowl
+  domain: wording
+  fix: review
+  american: true
+  context: college football
+  note: Capitalize bowl game names.
+- source: ap
+  page: 1011
+  entry: bowl games
+  kind: casing
+  wrong: peach bowl
+  right: Peach Bowl
+  domain: wording
+  fix: review
+  american: true
+  context: college football
+  note: Capitalize bowl game names.
+- source: ap
+  page: 1006
+  entry: basketball
+  kind: casing
+  wrong: sweet 16|sweet sixteen|Sweet Sixteen
+  right: Sweet 16
+  domain: wording
+  fix: review
+  american: true
+  context: college basketball
+  note: Use Sweet 16 for the regional semifinals.
+- source: ap
+  page: 1006
+  entry: basketball
+  kind: casing
+  wrong: elite eight|Elite 8
+  right: Elite Eight
+  domain: wording
+  fix: review
+  american: true
+  context: college basketball
+  note: Use Elite Eight for regional finals.
+- source: ap
+  page: 1006
+  entry: basketball
+  kind: casing
+  wrong: final four|Final 4
+  right: Final Four
+  domain: wording
+  fix: review
+  american: true
+  context: college basketball
+  note: Use Final Four for national semifinals.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: casing
+  wrong: NBA finals
+  right: NBA Finals
+  domain: wording
+  fix: review
+  american: true
+  context: basketball
+  note: Capitalize NBA Finals.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: casing
+  wrong: Eastern Conference Finals
+  right: Eastern Conference finals
+  domain: wording
+  fix: review
+  american: true
+  context: basketball
+  note: Conference finals stays lowercase.
+- source: ap
+  page: 1005
+  entry: basketball
+  kind: casing
+  wrong: Western Conference Finals
+  right: Western Conference finals
+  domain: wording
+  fix: review
+  american: true
+  context: basketball
+  note: Conference finals stays lowercase.
+- source: ap
+  page: 1018
+  entry: football
+  kind: casing
+  wrong: NFC Championship Game
+  right: NFC championship game
+  domain: wording
+  fix: review
+  american: true
+  context: football
+  note: Lowercase championship game.
+- source: ap
+  page: 1018
+  entry: football
+  kind: casing
+  wrong: AFC Championship Game
+  right: AFC championship game
+  domain: wording
+  fix: review
+  american: true
+  context: football
+  note: Lowercase championship game.
+- source: ap
+  page: 1023
+  entry: golf
+  kind: casing
+  wrong: PGA tour
+  right: PGA Tour
+  domain: wording
+  fix: review
+  american: true
+  context: golf
+  note: Capitalize PGA Tour on first reference.
+- source: ap
+  page: 1018
+  entry: football
+  kind: casing
+  wrong: Wild Card round|Wild-Card round
+  right: wild-card round
+  domain: wording
+  fix: review
+  american: true
+  context: football
+  note: Playoff round is lowercase.
+- source: ap
+  page: 1018
+  entry: football
+  kind: casing
+  wrong: Divisional Round
+  right: divisional round
+  domain: wording
+  fix: review
+  american: true
+  context: football
+  note: Playoff round is lowercase.
+- source: ap
+  page: 1017
+  entry: figure skating
+  kind: casing
+  wrong: Double Axel
+  right: double axel
+  domain: wording
+  fix: review
+  american: true
+  context: figure skating
+  note: Jumps and spins are lowercase even if eponymous.
+- source: ap
+  page: 1017
+  entry: figure skating
+  kind: casing
+  wrong: Triple Lutz
+  right: triple lutz
+  domain: wording
+  fix: review
+  american: true
+  context: figure skating
+  note: Jumps and spins are lowercase.
+- source: ap
+  page: 1017
+  entry: figure skating
+  kind: casing
+  wrong: Triple Salchow
+  right: triple salchow
+  domain: wording
+  fix: review
+  american: true
+  context: figure skating
+  note: Jumps and spins are lowercase.
+- source: ap
+  page: 1017
+  entry: figure skating
+  kind: casing
+  wrong: Triple Flip
+  right: triple flip
+  domain: wording
+  fix: review
+  american: true
+  context: figure skating
+  note: Jumps and spins are lowercase.
+- source: ap
+  page: 1017
+  entry: figure skating
+  kind: casing
+  wrong: Sit Spin
+  right: sit spin
+  domain: wording
+  fix: review
+  american: true
+  context: figure skating
+  note: Spins are lowercase.
+- source: ap
+  page: 1017
+  entry: figure skating
+  kind: casing
+  wrong: Camel Spin
+  right: camel spin
+  domain: wording
+  fix: review
+  american: true
+  context: figure skating
+  note: Spins are lowercase.
+- source: ap
+  page: 1017
+  entry: figure skating
+  kind: casing
+  wrong: Death Spiral
+  right: death spiral
+  domain: wording
+  fix: review
+  american: true
+  context: figure skating
+  note: Spins are lowercase.
+- source: ap
+  page: 1031
+  entry: Kentucky Derby
+  kind: casing
+  wrong: Derbies
+  right: Derbys
+  domain: wording
+  fix: review
+  american: true
+  context: horse racing
+  note: Plural is Derbys.
+- source: ap
+  page: 1013
+  entry: cross-country
+  kind: substitution
+  wrong: cross country(?! (?:skiing|team|meet|race|run|runner))
+  right: cross-country
+  domain: wording
+  fix: review
+  american: true
+  context: track
+  note: Hyphenate for the sport; noun use like 'drive cross country' is separate.
+- source: ap
+  page: 1013
+  entry: cross-country skiing
+  kind: substitution
+  wrong: cross country skiing
+  right: cross-country skiing
+  domain: wording
+  fix: safe
+  american: true
+  context: skiing
+  note: Hyphenate cross-country.
+- source: ap
+  page: 1013
+  entry: College Football Playoff
+  kind: substitution
+  wrong: College Football Playoffs
+  right: College Football Playoff
+  domain: wording
+  fix: safe
+  american: true
+  context: college football
+  note: Singular Playoff.
+- source: ap
+  page: 1024
+  entry: Group of Five
+  kind: substitution
+  wrong: Group of 5
+  right: Group of Five
+  domain: wording
+  fix: safe
+  american: true
+  context: college football
+  note: Spell out the number.
+- source: ap
+  page: 1035
+  entry: Power Five
+  kind: substitution
+  wrong: Power 5
+  right: Power Five
+  domain: wording
+  fix: safe
+  american: true
+  context: college football
+  note: Spell out the number.
+- source: ap
+  page: 1033
+  entry: New Year's Six
+  kind: substitution
+  wrong: New Year['’]s 6
+  right: New Year's Six
+  domain: wording
+  fix: safe
+  american: true
+  context: college football
+  note: Spell out the number.
+- source: ap
+  page: 1026
+  entry: Stanley Cup
+  kind: substitution
+  wrong: Stanley Cups
+  right: Stanley Cup
+  domain: wording
+  fix: review
+  american: true
+  context: hockey
+  note: Singular trophy; never plural.
+- source: ap
+  page: 1026
+  entry: Stanley Cup
+  kind: substitution
+  wrong: Stanley Cup Finals
+  right: Stanley Cup Final
+  domain: wording
+  fix: safe
+  american: true
+  context: hockey
+  note: Final is singular.
+- source: ap
+  page: 1040
+  entry: world cup
+  kind: substitution
+  wrong: World Cup Finals
+  right: World Cup
+  domain: wording
+  fix: safe
+  american: true
+  context: soccer
+  note: Not World Cup Finals.
+- source: ap
+  page: 1039
+  entry: premier league
+  kind: substitution
+  wrong: Premiership|Barclay['’]?s Premier League
+  right: Premier League
+  domain: wording
+  fix: review
+  american: true
+  context: soccer
+  note: Use Premier League, not Premiership or sponsor name.
+- source: ap
+  page: 1039
+  entry: league cup
+  kind: existence
+  wrong: Carling Cup
+  domain: wording
+  fix: none
+  american: true
+  context: soccer
+  note: Do not use the sponsor name for the League Cup.
+- source: ap
+  page: 1038
+  entry: copa america
+  kind: substitution
+  wrong: America Cup|Copa América
+  right: Copa America
+  domain: wording
+  fix: review
+  american: true
+  context: soccer
+  note: Use the Spanish name Copa America.
+- source: ap
+  page: 1038
+  entry: copa libertadores
+  kind: substitution
+  wrong: Liberators Cup
+  right: Copa Libertadores
+  domain: wording
+  fix: safe
+  american: true
+  context: soccer
+  note: Use the Spanish name.
+- source: ap
+  page: 1038
+  entry: defender
+  kind: existence
+  wrong: defensemen?
+  domain: wording
+  fix: none
+  american: true
+  context: soccer
+  note: In soccer say defender; hockey keeps defenseman, so check context.
+- source: ap
+  page: 1039
+  entry: goalkeeper
+  kind: existence
+  wrong: goaltenders?
+  domain: wording
+  fix: none
+  american: true
+  context: soccer
+  note: In soccer say goalkeeper or goalie.
+- source: ap
+  page: 1029
+  entry: mutuel field
+  kind: substitution
+  wrong: mutual field
+  right: mutuel field
+  domain: wording
+  fix: safe
+  american: true
+  context: horse racing
+  note: Mutuel, not mutual.
+- source: ap
+  page: 1029
+  entry: graded stakes
+  kind: existence
+  wrong: Grade (?:I{1,3})
+  domain: wording
+  fix: none
+  american: true
+  context: horse racing
+  note: Use Arabic numerals for grade levels.
+- source: ap
+  page: 1028
+  entry: furlong
+  kind: existence
+  wrong: '[1-7] furlongs?'
+  domain: wording
+  fix: none
+  american: true
+  context: horse racing
+  note: Spell out furlong counts through seven.
+- source: ap
+  page: 1024
+  entry: Grey Cup
+  kind: substitution
+  wrong: Gray Cup
+  right: Grey Cup
+  domain: wording
+  fix: safe
+  american: true
+  context: football
+  note: Spelled Grey.
+- source: ap
+  page: 1022
+  entry: golf
+  kind: substitution
+  wrong: greens fee
+  right: green fee
+  domain: wording
+  fix: safe
+  american: true
+  context: golf
+  note: Green fee, not greens fee.
+- source: ap
+  page: 1022
+  entry: golf
+  kind: substitution
+  wrong: bogied
+  right: bogeyed
+  domain: wording
+  fix: safe
+  american: true
+  context: golf
+  note: Past tense of bogey.
+- source: ap
+  page: 1022
+  entry: golf
+  kind: substitution
+  wrong: caddy
+  right: caddie
+  domain: wording
+  fix: review
+  american: true
+  context: golf
+  note: Golf term is caddie.
+- source: ap
+  page: 1031
+  entry: Ladies Professional Golf Association
+  kind: substitution
+  wrong: Ladies['’] Professional Golf Association
+  right: Ladies Professional Golf Association
+  domain: wording
+  fix: safe
+  american: true
+  context: golf
+  note: No apostrophe after Ladies.
+- source: ap
+  page: 1022
+  entry: golf
+  kind: substitution
+  wrong: Professional Golfers Association
+  right: Professional Golfers' Association
+  domain: wording
+  fix: safe
+  american: true
+  context: golf
+  note: Apostrophe after Golfers.
+- source: ap
+  page: 1009
+  entry: betting odds
+  kind: existence
+  wrong: \d+ to \d+(?= odds)|odds (?:of|were) \d+ to \d+
+  domain: wording
+  fix: none
+  american: true
+  context: betting
+  note: 'Hyphenate ''to'' in odds constructions: 3-to-2 odds.'
+- source: ap
+  page: 1034
+  entry: over/under
+  kind: substitution
+  wrong: over-under
+  right: over/under
+  domain: wording
+  fix: review
+  american: true
+  context: betting
+  note: Use a slash for the betting term.
+- source: ap
+  page: 1011
+  entry: outpointed
+  kind: existence
+  wrong: outdecisioned
+  domain: wording
+  fix: none
+  american: true
+  context: boxing
+  note: Use outpointed instead.
+- source: ap
+  page: 1011
+  entry: knockout
+  kind: substitution
+  wrong: knock-out
+  right: knockout
+  domain: wording
+  fix: safe
+  american: true
+  context: boxing
+  note: Knockout noun, knock out verb.
+- source: ap
+  page: 1011
+  entry: boxing
+  kind: existence
+  wrong: technical knockout
+  domain: wording
+  fix: none
+  american: true
+  context: boxing
+  note: Say the winner stopped the loser; TKO is not a thing in most jurisdictions.
+- source: ap
+  page: 1035
+  entry: record
+  kind: existence
+  wrong: new record
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Redundant; avoid new record.
+- source: ap
+  page: 1034
+  entry: performance-enhancing drugs
+  kind: existence
+  wrong: PEDs?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid PED abbreviation outside quotes; be specific.
+- source: ap
+  page: 1046
+  entry: untracked
+  kind: existence
+  wrong: untracked
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid for a team now playing well; say back on track.
+- source: ap
+  page: 1043
+  entry: table tennis
+  kind: existence
+  wrong: ping[- ]?pong
+  domain: wording
+  fix: none
+  american: true
+  context: table tennis
+  note: Use table tennis; Ping-Pong is the trademark.
+- source: ap
+  page: 1044
+  entry: tennis
+  kind: substitution
+  wrong: double faulted
+  right: double-faulted
+  domain: wording
+  fix: review
+  american: true
+  context: tennis
+  note: Hyphenate.
+- source: ap
+  page: 1044
+  entry: tennis
+  kind: substitution
+  wrong: double fault\b
+  right: double-fault
+  domain: wording
+  fix: review
+  american: true
+  context: tennis
+  note: Hyphenate.
+- source: ap
+  page: 1018
+  entry: super bowl
+  kind: existence
+  wrong: Super Bowl (?:[IVXL]{1,6})
+  domain: wording
+  fix: none
+  american: true
+  context: football
+  note: Use the year of the game, not Roman numerals.
+- source: ap
+  page: 1021
+  entry: fractions
+  kind: existence
+  wrong: '[½⅓⅔¼¾⅛]'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Write fractions with a slash, not single fraction characters.
+- source: ap
+  page: 1021
+  entry: fractions
+  kind: existence
+  wrong: \d+-\d+/\d+
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Separate whole number and fraction with a space, not a hyphen.
+- source: ap
+  page: 1018
+  entry: football
+  kind: existence
+  wrong: \d+ yard (?:line|pass|gain|run)
+  domain: wording
+  fix: none
+  american: true
+  context: football
+  note: 'Hyphenate figure-based modifier: 5-yard line.'
+- source: ap
+  page: 1018
+  entry: football
+  kind: existence
+  wrong: fourth and \d+ play
+  domain: wording
+  fix: none
+  american: true
+  context: football
+  note: Use fourth-and-2 form with hyphens.
+- source: ap
+  page: 1022
+  entry: golf
+  kind: existence
+  wrong: \b\d+ (?:iron|wood|hybrid)\b
+  domain: wording
+  fix: none
+  american: true
+  context: golf
+  note: 'Hyphenate club ratings: 5-iron, 4-wood, 3-hybrid.'
+- source: ap
+  page: 1044
+  entry: titles
+  kind: existence
+  wrong: (?<=[a-z,] )(?:Coach|Forward|General Manager|Team Doctor)(?= [A-Z][a-z]+)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Informal sports titles stay lowercase before names.

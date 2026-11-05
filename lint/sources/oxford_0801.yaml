@@ -1,0 +1,6989 @@
+- source: oxford
+  page: 801
+  entry: 'shamefaced'
+  kind: substitution
+  wrong: 'shame[- ]faced'
+  right: 'shamefaced'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 801
+  entry: 'shanty town'
+  kind: substitution
+  wrong: 'shantytown'
+  right: 'shanty town'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Two words in Oxford; American usage often closes it up.'
+- source: oxford
+  page: 801
+  entry: 'shaky'
+  kind: substitution
+  wrong: 'shakey'
+  right: 'shaky'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Spell without e; watch proper names.'
+- source: oxford
+  page: 801
+  entry: 'Shangri-La'
+  kind: casing
+  wrong: 'Shangri-la'
+  right: 'Shangri-La'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Capital L, hyphenated.'
+- source: oxford
+  page: 802
+  entry: 'sharon fruit'
+  kind: casing
+  wrong: 'Sharon fruit'
+  right: 'sharon fruit'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Lower case sharon.'
+- source: oxford
+  page: 802
+  entry: 'sherbet'
+  kind: substitution
+  wrong: 'sherbert'
+  right: 'sherbet'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'No second r.'
+- source: oxford
+  page: 802
+  entry: 'shelf life'
+  kind: substitution
+  wrong: 'shelflife'
+  right: 'shelf life'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 802
+  entry: 'sheepdog'
+  kind: substitution
+  wrong: 'sheep[- ]dog'
+  right: 'sheepdog'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 802
+  entry: 'sheepskin'
+  kind: substitution
+  wrong: 'sheep[- ]skin'
+  right: 'sheepskin'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 802
+  entry: 'sheriff'
+  kind: substitution
+  wrong: 'sherrif|sherriff'
+  right: 'sheriff'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'One r, two fs.'
+- source: oxford
+  page: 803
+  entry: 'shiny'
+  kind: substitution
+  wrong: 'shiney'
+  right: 'shiny'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -y not -ey.'
+- source: oxford
+  page: 803
+  entry: 'shipwreck'
+  kind: substitution
+  wrong: 'ship[- ]wreck'
+  right: 'shipwreck'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: shipwreck.'
+- source: oxford
+  page: 803
+  entry: 'shipyard'
+  kind: substitution
+  wrong: 'ship[- ]yard'
+  right: 'shipyard'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: shipyard.'
+- source: oxford
+  page: 803
+  entry: 'shirtsleeve'
+  kind: substitution
+  wrong: 'shirt[- ]sleeve'
+  right: 'shirtsleeve'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'British one-word form.'
+- source: oxford
+  page: 803
+  entry: 'shoelace'
+  kind: substitution
+  wrong: 'shoe[- ]lace'
+  right: 'shoelace'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: shoelace.'
+- source: oxford
+  page: 803
+  entry: 'shoestring'
+  kind: substitution
+  wrong: 'shoe[- ]string'
+  right: 'shoestring'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: shoestring.'
+- source: oxford
+  page: 803
+  entry: 'shopkeeper'
+  kind: substitution
+  wrong: 'shop[- ]keeper'
+  right: 'shopkeeper'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: shopkeeper.'
+- source: oxford
+  page: 803
+  entry: 'shoplifting'
+  kind: substitution
+  wrong: 'shop[- ]lifting'
+  right: 'shoplifting'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 803
+  entry: 'shortcoming'
+  kind: substitution
+  wrong: 'short[- ]coming'
+  right: 'shortcoming'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: shortcoming.'
+- source: oxford
+  page: 803
+  entry: 'shortfall'
+  kind: substitution
+  wrong: 'short[- ]fall'
+  right: 'shortfall'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: shortfall.'
+- source: oxford
+  page: 803
+  entry: 'shorthand'
+  kind: substitution
+  wrong: 'short[- ]hand(?!ed)'
+  right: 'shorthand'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word; short-handed is separate.'
+- source: oxford
+  page: 803
+  entry: 'short-lived'
+  kind: substitution
+  wrong: 'short lived|shortlived'
+  right: 'short-lived'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 803
+  entry: 'short-sighted'
+  kind: substitution
+  wrong: 'short sighted|shortsighted'
+  right: 'short-sighted'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Hyphenated in Oxford.'
+- source: oxford
+  page: 803
+  entry: 'short-staffed'
+  kind: substitution
+  wrong: 'short staffed|shortstaffed'
+  right: 'short-staffed'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 803
+  entry: 'shortcut'
+  kind: substitution
+  wrong: 'short[- ]cut'
+  right: 'shortcut'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: shortcut.'
+- source: oxford
+  page: 803
+  entry: 'shortlist'
+  kind: substitution
+  wrong: 'short[- ]list'
+  right: 'shortlist'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: shortlist.'
+- source: oxford
+  page: 803
+  entry: 'shin bone'
+  kind: substitution
+  wrong: 'shinbone'
+  right: 'shin bone'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Two words in Oxford.'
+- source: oxford
+  page: 803
+  entry: 'shoot-out'
+  kind: substitution
+  wrong: 'shootout'
+  right: 'shoot-out'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Hyphenated noun in Oxford.'
+- source: oxford
+  page: 804
+  entry: 'showcase'
+  kind: substitution
+  wrong: 'show[- ]case'
+  right: 'showcase'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: showcase.'
+- source: oxford
+  page: 804
+  entry: 'showpiece'
+  kind: substitution
+  wrong: 'show[- ]piece'
+  right: 'showpiece'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: showpiece.'
+- source: oxford
+  page: 804
+  entry: 'showroom'
+  kind: substitution
+  wrong: 'show[- ]room'
+  right: 'showroom'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: showroom.'
+- source: oxford
+  page: 805
+  entry: 'siege'
+  kind: substitution
+  wrong: 'seige'
+  right: 'siege'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell ie.'
+- source: oxford
+  page: 805
+  entry: 'sieve'
+  kind: substitution
+  wrong: 'seive'
+  right: 'sieve'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell ie.'
+- source: oxford
+  page: 805
+  entry: 'Siamese twins'
+  kind: substitution
+  wrong: 'Siamese twins'
+  right: 'conjoined twins'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Use conjoined twins.'
+- source: oxford
+  page: 805
+  entry: 'sidekick'
+  kind: substitution
+  wrong: 'side[- ]kick'
+  right: 'sidekick'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sidekick.'
+- source: oxford
+  page: 805
+  entry: 'sideswipe'
+  kind: substitution
+  wrong: 'side[- ]swipe'
+  right: 'sideswipe'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sideswipe.'
+- source: oxford
+  page: 805
+  entry: 'sidestep'
+  kind: substitution
+  wrong: 'side[- ]step'
+  right: 'sidestep'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 805
+  entry: 'sidewalk'
+  kind: substitution
+  wrong: 'side[- ]walk'
+  right: 'sidewalk'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sidewalk.'
+- source: oxford
+  page: 805
+  entry: 'sideways'
+  kind: substitution
+  wrong: 'side[- ]ways'
+  right: 'sideways'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sideways.'
+- source: oxford
+  page: 805
+  entry: 'sidetrack'
+  kind: substitution
+  wrong: 'side[- ]track'
+  right: 'sidetrack'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sidetrack.'
+- source: oxford
+  page: 805
+  entry: 'sightseeing'
+  kind: substitution
+  wrong: 'sight[- ]seeing'
+  right: 'sightseeing'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sightseeing.'
+- source: oxford
+  page: 805
+  entry: 'sickbed'
+  kind: substitution
+  wrong: 'sick[- ]bed'
+  right: 'sickbed'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sickbed.'
+- source: oxford
+  page: 805
+  entry: 'sickbay'
+  kind: substitution
+  wrong: 'sick bay'
+  right: 'sickbay'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 805
+  entry: 'sickroom'
+  kind: substitution
+  wrong: 'sick[- ]room'
+  right: 'sickroom'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sickroom.'
+- source: oxford
+  page: 805
+  entry: 'side effect'
+  kind: substitution
+  wrong: 'side-effect|sideeffect'
+  right: 'side effect'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 806
+  entry: 'signpost'
+  kind: substitution
+  wrong: 'sign[- ]post'
+  right: 'signpost'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: signpost.'
+- source: oxford
+  page: 806
+  entry: 'silkworm'
+  kind: substitution
+  wrong: 'silk[- ]worm'
+  right: 'silkworm'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: silkworm.'
+- source: oxford
+  page: 806
+  entry: 'simultaneous'
+  kind: substitution
+  wrong: 'simultanious'
+  right: 'simultaneous'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ious.'
+- source: oxford
+  page: 806
+  entry: 'simulator'
+  kind: substitution
+  wrong: 'simulater'
+  right: 'simulator'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -er.'
+- source: oxford
+  page: 807
+  entry: 'sixties'
+  kind: existence
+  wrong: '\d{3}0''s'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Decades take no apostrophe in the plural (1960s).'
+- source: oxford
+  page: 807
+  entry: 'Sinhalese'
+  kind: substitution
+  wrong: 'Cingalese'
+  right: 'Sinhalese'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Prefer Sinhalese.'
+- source: oxford
+  page: 808
+  entry: 'skateboard'
+  kind: substitution
+  wrong: 'skate[- ]board'
+  right: 'skateboard'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 808
+  entry: 'skiing'
+  kind: substitution
+  wrong: 'ski-ing'
+  right: 'skiing'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'No hyphen.'
+- source: oxford
+  page: 808
+  entry: 'skincare'
+  kind: substitution
+  wrong: 'skin care'
+  right: 'skincare'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 808
+  entry: 'skintight'
+  kind: substitution
+  wrong: 'skin[- ]tight'
+  right: 'skintight'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 808
+  entry: 'skydiving'
+  kind: substitution
+  wrong: 'sky[- ]diving'
+  right: 'skydiving'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 808
+  entry: 'skyscraper'
+  kind: substitution
+  wrong: 'sky[- ]scraper'
+  right: 'skyscraper'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: skyscraper.'
+- source: oxford
+  page: 808
+  entry: 'skyrocket'
+  kind: substitution
+  wrong: 'sky[- ]rocket'
+  right: 'skyrocket'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: skyrocket.'
+- source: oxford
+  page: 808
+  entry: 'skyline'
+  kind: substitution
+  wrong: 'sky line|sky-line'
+  right: 'skyline'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 808
+  entry: 'slapdash'
+  kind: substitution
+  wrong: 'slap[- ]dash'
+  right: 'slapdash'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 808
+  entry: 'slapstick'
+  kind: substitution
+  wrong: 'slap[- ]stick'
+  right: 'slapstick'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 808
+  entry: 'slaughterhouse'
+  kind: substitution
+  wrong: 'slaughte[- ]rhouse'
+  right: 'slaughterhouse'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: slaughterhouse.'
+- source: oxford
+  page: 808
+  entry: 'sledgehammer'
+  kind: substitution
+  wrong: 'sledge[- ]hammer'
+  right: 'sledgehammer'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sledgehammer.'
+- source: oxford
+  page: 808
+  entry: 'sleight of hand'
+  kind: substitution
+  wrong: 'slight of hand'
+  right: 'sleight of hand'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell sleight.'
+- source: oxford
+  page: 808
+  entry: 'skid row'
+  kind: casing
+  wrong: 'Skid Row'
+  right: 'skid row'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Two words, lower case.'
+- source: oxford
+  page: 809
+  entry: 'slimline'
+  kind: substitution
+  wrong: 'slim[- ]line'
+  right: 'slimline'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 809
+  entry: 'slingshot'
+  kind: substitution
+  wrong: 'sling[- ]shot'
+  right: 'slingshot'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: slingshot.'
+- source: oxford
+  page: 809
+  entry: 'small-minded'
+  kind: substitution
+  wrong: 'small minded|smallminded'
+  right: 'small-minded'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 809
+  entry: 'smallpox'
+  kind: substitution
+  wrong: 'small[- ]pox'
+  right: 'smallpox'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: smallpox.'
+- source: oxford
+  page: 809
+  entry: 'smartphone'
+  kind: substitution
+  wrong: 'smart[- ]phone'
+  right: 'smartphone'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: smartphone.'
+- source: oxford
+  page: 809
+  entry: 'smoky'
+  kind: substitution
+  wrong: 'smokey'
+  right: 'smoky'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Spell -y; proper names differ.'
+- source: oxford
+  page: 809
+  entry: 'smoothie'
+  kind: substitution
+  wrong: 'smoothy'
+  right: 'smoothie'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Spell -ie.'
+- source: oxford
+  page: 810
+  entry: 'snaky'
+  kind: substitution
+  wrong: 'snakey'
+  right: 'snaky'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -y.'
+- source: oxford
+  page: 810
+  entry: 'snapshot'
+  kind: substitution
+  wrong: 'snap[- ]shot'
+  right: 'snapshot'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: snapshot.'
+- source: oxford
+  page: 810
+  entry: 'snowboard'
+  kind: substitution
+  wrong: 'snow[- ]board'
+  right: 'snowboard'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: snowboard.'
+- source: oxford
+  page: 810
+  entry: 'snowflake'
+  kind: substitution
+  wrong: 'snow[- ]flake'
+  right: 'snowflake'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: snowflake.'
+- source: oxford
+  page: 810
+  entry: 'snowstorm'
+  kind: substitution
+  wrong: 'snow[- ]storm'
+  right: 'snowstorm'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: snowstorm.'
+- source: oxford
+  page: 810
+  entry: 'snowman'
+  kind: substitution
+  wrong: 'snow[- ]man'
+  right: 'snowman'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: snowman.'
+- source: oxford
+  page: 810
+  entry: 'soapbox'
+  kind: substitution
+  wrong: 'soap[- ]box'
+  right: 'soapbox'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: soapbox.'
+- source: oxford
+  page: 810
+  entry: 'socio-economic'
+  kind: substitution
+  wrong: 'socioeconomic'
+  right: 'socio-economic'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Hyphenated in Oxford.'
+- source: oxford
+  page: 810
+  entry: 'sociocultural'
+  kind: substitution
+  wrong: 'socio-cultural'
+  right: 'sociocultural'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 810
+  entry: 'sociopolitical'
+  kind: substitution
+  wrong: 'socio-political'
+  right: 'sociopolitical'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 811
+  entry: 'softball'
+  kind: substitution
+  wrong: 'soft[- ]ball'
+  right: 'softball'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: softball.'
+- source: oxford
+  page: 811
+  entry: 'somersault'
+  kind: substitution
+  wrong: 'summersault|summer[- ]sault'
+  right: 'somersault'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not summer-.'
+- source: oxford
+  page: 812
+  entry: 'songbook'
+  kind: substitution
+  wrong: 'song[- ]book'
+  right: 'songbook'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: songbook.'
+- source: oxford
+  page: 812
+  entry: 'songbird'
+  kind: substitution
+  wrong: 'song[- ]bird'
+  right: 'songbird'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: songbird.'
+- source: oxford
+  page: 812
+  entry: 'songwriter'
+  kind: substitution
+  wrong: 'song[- ]writer'
+  right: 'songwriter'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: songwriter.'
+- source: oxford
+  page: 812
+  entry: 'soulmate'
+  kind: substitution
+  wrong: 'soul mate'
+  right: 'soulmate'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 812
+  entry: 'soundproof'
+  kind: substitution
+  wrong: 'sound[- ]proof'
+  right: 'soundproof'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: soundproof.'
+- source: oxford
+  page: 813
+  entry: 'soundtrack'
+  kind: substitution
+  wrong: 'sound[- ]track'
+  right: 'soundtrack'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: soundtrack.'
+- source: oxford
+  page: 813
+  entry: 'sourdough'
+  kind: substitution
+  wrong: 'sour[- ]dough'
+  right: 'sourdough'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sourdough.'
+- source: oxford
+  page: 813
+  entry: 'southpaw'
+  kind: substitution
+  wrong: 'south[- ]paw'
+  right: 'southpaw'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: southpaw.'
+- source: oxford
+  page: 813
+  entry: 'southern hemisphere'
+  kind: casing
+  wrong: 'Southern Hemisphere'
+  right: 'southern hemisphere'
+  domain: wording
+  fix: none
+  american: false
+  context: general
+  note: 'Lower case.'
+- source: oxford
+  page: 813
+  entry: 'spacecraft'
+  kind: substitution
+  wrong: 'space[- ]craft'
+  right: 'spacecraft'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: spacecraft.'
+- source: oxford
+  page: 813
+  entry: 'spaceship'
+  kind: substitution
+  wrong: 'space[- ]ship'
+  right: 'spaceship'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: spaceship.'
+- source: oxford
+  page: 813
+  entry: 'spacewalk'
+  kind: substitution
+  wrong: 'space[- ]walk'
+  right: 'spacewalk'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: spacewalk.'
+- source: oxford
+  page: 813
+  entry: 'spaceman'
+  kind: substitution
+  wrong: 'space[- ]man'
+  right: 'spaceman'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: spaceman.'
+- source: oxford
+  page: 814
+  entry: 'spadework'
+  kind: substitution
+  wrong: 'spade[- ]work'
+  right: 'spadework'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: spadework.'
+- source: oxford
+  page: 814
+  entry: 'spaghetti'
+  kind: substitution
+  wrong: 'spagetti'
+  right: 'spaghetti'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -getti.'
+- source: oxford
+  page: 814
+  entry: 'spandex'
+  kind: casing
+  wrong: 'Spandex'
+  right: 'spandex'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Lower case.'
+- source: oxford
+  page: 814
+  entry: 'spastic'
+  kind: existence
+  wrong: 'spastic'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Avoid; use person with cerebral palsy where relevant.'
+- source: oxford
+  page: 814
+  entry: 'speakeasy'
+  kind: substitution
+  wrong: 'speak[- ]easy'
+  right: 'speakeasy'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: speakeasy.'
+- source: oxford
+  page: 814
+  entry: 'spearhead'
+  kind: substitution
+  wrong: 'spear[- ]head'
+  right: 'spearhead'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: spearhead.'
+- source: oxford
+  page: 814
+  entry: 'speech-impaired'
+  kind: existence
+  wrong: 'deaf and dumb|deaf-mute'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Prefer speech-impaired to dumb.'
+- source: oxford
+  page: 814
+  entry: 'speedboat'
+  kind: substitution
+  wrong: 'speed[- ]boat'
+  right: 'speedboat'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: speedboat.'
+- source: oxford
+  page: 814
+  entry: 'spew'
+  kind: substitution
+  wrong: 'spue'
+  right: 'spew'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Use spew.'
+- source: oxford
+  page: 815
+  entry: 'spicy'
+  kind: substitution
+  wrong: 'spicey'
+  right: 'spicy'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -y.'
+- source: oxford
+  page: 815
+  entry: 'spiky'
+  kind: substitution
+  wrong: 'spikey'
+  right: 'spiky'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -y.'
+- source: oxford
+  page: 815
+  entry: 'spiny'
+  kind: substitution
+  wrong: 'spiney'
+  right: 'spiny'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -y.'
+- source: oxford
+  page: 815
+  entry: 'spirt'
+  kind: substitution
+  wrong: 'spirt'
+  right: 'spurt'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Use spurt.'
+- source: oxford
+  page: 815
+  entry: 'spiderweb'
+  kind: substitution
+  wrong: 'spider web'
+  right: 'spiderweb'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 815
+  entry: 'spin-off'
+  kind: substitution
+  wrong: 'spinoff'
+  right: 'spin-off'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Hyphenated in Oxford.'
+- source: oxford
+  page: 815
+  entry: 'spoilsport'
+  kind: substitution
+  wrong: 'spoil[- ]sport'
+  right: 'spoilsport'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: spoilsport.'
+- source: oxford
+  page: 815
+  entry: 'spoonerism'
+  kind: casing
+  wrong: 'Spoonerism'
+  right: 'spoonerism'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Lower case.'
+- source: oxford
+  page: 815
+  entry: 'sportswear'
+  kind: substitution
+  wrong: 'sports[- ]wear'
+  right: 'sportswear'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sportswear.'
+- source: oxford
+  page: 815
+  entry: 'sport utility vehicle'
+  kind: substitution
+  wrong: 'sport-utility vehicle'
+  right: 'sport utility vehicle'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'No hyphen.'
+- source: oxford
+  page: 815
+  entry: 'spreadsheet'
+  kind: substitution
+  wrong: 'spread[- ]sheet'
+  right: 'spreadsheet'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: spreadsheet.'
+- source: oxford
+  page: 816
+  entry: 'sprightly'
+  kind: substitution
+  wrong: 'spritely'
+  right: 'sprightly'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Use sprightly.'
+- source: oxford
+  page: 816
+  entry: 'springboard'
+  kind: substitution
+  wrong: 'spring[- ]board'
+  right: 'springboard'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: springboard.'
+- source: oxford
+  page: 816
+  entry: 'springtime'
+  kind: substitution
+  wrong: 'spring[- ]time'
+  right: 'springtime'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: springtime.'
+- source: oxford
+  page: 816
+  entry: 'sputnik'
+  kind: casing
+  wrong: 'Sputnik'
+  right: 'sputnik'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Lower case.'
+- source: oxford
+  page: 816
+  entry: 'spyglass'
+  kind: substitution
+  wrong: 'spy[- ]glass'
+  right: 'spyglass'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: spyglass.'
+- source: oxford
+  page: 816
+  entry: 'spymaster'
+  kind: substitution
+  wrong: 'spy[- ]master'
+  right: 'spymaster'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: spymaster.'
+- source: oxford
+  page: 816
+  entry: 'squaw'
+  kind: existence
+  wrong: 'squaw'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Offensive; avoid.'
+- source: oxford
+  page: 817
+  entry: 'stagecoach'
+  kind: substitution
+  wrong: 'stage[- ]coach'
+  right: 'stagecoach'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stagecoach.'
+- source: oxford
+  page: 817
+  entry: 'stagehand'
+  kind: substitution
+  wrong: 'stage[- ]hand'
+  right: 'stagehand'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stagehand.'
+- source: oxford
+  page: 817
+  entry: 'stalemate'
+  kind: substitution
+  wrong: 'stale[- ]mate'
+  right: 'stalemate'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stalemate.'
+- source: oxford
+  page: 817
+  entry: 'stairwell'
+  kind: substitution
+  wrong: 'stair[- ]well'
+  right: 'stairwell'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stairwell.'
+- source: oxford
+  page: 817
+  entry: 'stairway'
+  kind: substitution
+  wrong: 'stair[- ]way'
+  right: 'stairway'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stairway.'
+- source: oxford
+  page: 817
+  entry: 'stakeholder'
+  kind: substitution
+  wrong: 'stake[- ]holder'
+  right: 'stakeholder'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stakeholder.'
+- source: oxford
+  page: 817
+  entry: 'standpoint'
+  kind: substitution
+  wrong: 'stand[- ]point'
+  right: 'standpoint'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: standpoint.'
+- source: oxford
+  page: 818
+  entry: 'stateroom'
+  kind: substitution
+  wrong: 'state[- ]room'
+  right: 'stateroom'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stateroom.'
+- source: oxford
+  page: 818
+  entry: 'starfish'
+  kind: substitution
+  wrong: 'star[- ]fish'
+  right: 'starfish'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: starfish.'
+- source: oxford
+  page: 818
+  entry: 'stargazer'
+  kind: substitution
+  wrong: 'star[- ]gazer'
+  right: 'stargazer'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stargazer.'
+- source: oxford
+  page: 818
+  entry: 'starship'
+  kind: substitution
+  wrong: 'star[- ]ship'
+  right: 'starship'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: starship.'
+- source: oxford
+  page: 818
+  entry: 'start-up'
+  kind: substitution
+  wrong: 'startup'
+  right: 'start-up'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Hyphenated noun in Oxford.'
+- source: oxford
+  page: 818
+  entry: 'steakhouse'
+  kind: substitution
+  wrong: 'steak[- ]house'
+  right: 'steakhouse'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: steakhouse.'
+- source: oxford
+  page: 818
+  entry: 'steamboat'
+  kind: substitution
+  wrong: 'steam[- ]boat'
+  right: 'steamboat'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: steamboat.'
+- source: oxford
+  page: 818
+  entry: 'steamroller'
+  kind: substitution
+  wrong: 'steam[- ]roller'
+  right: 'steamroller'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: steamroller.'
+- source: oxford
+  page: 818
+  entry: 'steamship'
+  kind: substitution
+  wrong: 'steam[- ]ship'
+  right: 'steamship'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: steamship.'
+- source: oxford
+  page: 818
+  entry: 'steeplechase'
+  kind: substitution
+  wrong: 'steeple[- ]chase'
+  right: 'steeplechase'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: steeplechase.'
+- source: oxford
+  page: 818
+  entry: 'steelworker'
+  kind: substitution
+  wrong: 'steel[- ]worker'
+  right: 'steelworker'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: steelworker.'
+- source: oxford
+  page: 819
+  entry: 'stepbrother'
+  kind: substitution
+  wrong: 'step[- ]brother'
+  right: 'stepbrother'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stepbrother.'
+- source: oxford
+  page: 819
+  entry: 'stepchild'
+  kind: substitution
+  wrong: 'step[- ]child'
+  right: 'stepchild'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stepchild.'
+- source: oxford
+  page: 819
+  entry: 'stepdaughter'
+  kind: substitution
+  wrong: 'step[- ]daughter'
+  right: 'stepdaughter'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stepdaughter.'
+- source: oxford
+  page: 819
+  entry: 'stepfather'
+  kind: substitution
+  wrong: 'step[- ]father'
+  right: 'stepfather'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stepfather.'
+- source: oxford
+  page: 819
+  entry: 'stepmother'
+  kind: substitution
+  wrong: 'step[- ]mother'
+  right: 'stepmother'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stepmother.'
+- source: oxford
+  page: 819
+  entry: 'stepson'
+  kind: substitution
+  wrong: 'step[- ]son'
+  right: 'stepson'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stepson.'
+- source: oxford
+  page: 819
+  entry: 'stepsister'
+  kind: substitution
+  wrong: 'step[- ]sister'
+  right: 'stepsister'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stepsister.'
+- source: oxford
+  page: 819
+  entry: 'stepladder'
+  kind: substitution
+  wrong: 'step[- ]ladder'
+  right: 'stepladder'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stepladder.'
+- source: oxford
+  page: 819
+  entry: 'step-parent'
+  kind: substitution
+  wrong: 'stepparent|step parent'
+  right: 'step-parent'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 820
+  entry: 'stockbroker'
+  kind: substitution
+  wrong: 'stock[- ]broker'
+  right: 'stockbroker'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stockbroker.'
+- source: oxford
+  page: 820
+  entry: 'stockholder'
+  kind: substitution
+  wrong: 'stock[- ]holder'
+  right: 'stockholder'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stockholder.'
+- source: oxford
+  page: 820
+  entry: 'stockpile'
+  kind: substitution
+  wrong: 'stock[- ]pile'
+  right: 'stockpile'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stockpile.'
+- source: oxford
+  page: 820
+  entry: 'stockroom'
+  kind: substitution
+  wrong: 'stock[- ]room'
+  right: 'stockroom'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stockroom.'
+- source: oxford
+  page: 820
+  entry: 'stocktaking'
+  kind: substitution
+  wrong: 'stock[- ]taking'
+  right: 'stocktaking'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stocktaking.'
+- source: oxford
+  page: 820
+  entry: 'stonemason'
+  kind: substitution
+  wrong: 'stone[- ]mason'
+  right: 'stonemason'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stonemason.'
+- source: oxford
+  page: 820
+  entry: 'stoneware'
+  kind: substitution
+  wrong: 'stone[- ]ware'
+  right: 'stoneware'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stoneware.'
+- source: oxford
+  page: 820
+  entry: 'stony'
+  kind: substitution
+  wrong: 'stoney'
+  right: 'stony'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Spell -y; proper names differ.'
+- source: oxford
+  page: 820
+  entry: 'stopcock'
+  kind: substitution
+  wrong: 'stop[- ]cock'
+  right: 'stopcock'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stopcock.'
+- source: oxford
+  page: 820
+  entry: 'stopgap'
+  kind: substitution
+  wrong: 'stop[- ]gap'
+  right: 'stopgap'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stopgap.'
+- source: oxford
+  page: 820
+  entry: 'stopwatch'
+  kind: substitution
+  wrong: 'stop[- ]watch'
+  right: 'stopwatch'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stopwatch.'
+- source: oxford
+  page: 820
+  entry: 'storeroom'
+  kind: substitution
+  wrong: 'store[- ]room'
+  right: 'storeroom'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: storeroom.'
+- source: oxford
+  page: 820
+  entry: 'storehouse'
+  kind: substitution
+  wrong: 'store[- ]house'
+  right: 'storehouse'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: storehouse.'
+- source: oxford
+  page: 820
+  entry: 'storyteller'
+  kind: substitution
+  wrong: 'story[- ]teller'
+  right: 'storyteller'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: storyteller.'
+- source: oxford
+  page: 820
+  entry: 'storyline'
+  kind: substitution
+  wrong: 'story[- ]line'
+  right: 'storyline'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: storyline.'
+- source: oxford
+  page: 820
+  entry: 'storyboard'
+  kind: substitution
+  wrong: 'story[- ]board'
+  right: 'storyboard'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: storyboard.'
+- source: oxford
+  page: 821
+  entry: 'straightforward'
+  kind: substitution
+  wrong: 'straight-forward'
+  right: 'straightforward'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 821
+  entry: 'stranglehold'
+  kind: substitution
+  wrong: 'strang[- ]lehold'
+  right: 'stranglehold'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stranglehold.'
+- source: oxford
+  page: 821
+  entry: 'streetcar'
+  kind: substitution
+  wrong: 'street[- ]car'
+  right: 'streetcar'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: streetcar.'
+- source: oxford
+  page: 821
+  entry: 'stripy'
+  kind: substitution
+  wrong: 'stripey'
+  right: 'stripy'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -y.'
+- source: oxford
+  page: 821
+  entry: 'striptease'
+  kind: substitution
+  wrong: 'strip[- ]tease'
+  right: 'striptease'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: striptease.'
+- source: oxford
+  page: 821
+  entry: 'stronghold'
+  kind: substitution
+  wrong: 'strong[- ]hold'
+  right: 'stronghold'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: stronghold.'
+- source: oxford
+  page: 821
+  entry: 'strongbox'
+  kind: substitution
+  wrong: 'strong[- ]box'
+  right: 'strongbox'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: strongbox.'
+- source: oxford
+  page: 821
+  entry: 'strychnine'
+  kind: substitution
+  wrong: 'strychnin'
+  right: 'strychnine'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -nin.'
+- source: oxford
+  page: 821
+  entry: 'stroganoff'
+  kind: casing
+  wrong: 'Stroganoff'
+  right: 'stroganoff'
+  domain: wording
+  fix: none
+  american: false
+  context: general
+  note: 'Lower case, often after the noun.'
+- source: oxford
+  page: 822
+  entry: 'stupefy'
+  kind: substitution
+  wrong: 'stupify'
+  right: 'stupefy'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -efy.'
+- source: oxford
+  page: 822
+  entry: 'subedit'
+  kind: substitution
+  wrong: 'sub[- ]edit'
+  right: 'subedit'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 822
+  entry: 'subcategory'
+  kind: substitution
+  wrong: 'sub[- ]category'
+  right: 'subcategory'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subcategory.'
+- source: oxford
+  page: 822
+  entry: 'subcommittee'
+  kind: substitution
+  wrong: 'sub[- ]committee'
+  right: 'subcommittee'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subcommittee.'
+- source: oxford
+  page: 822
+  entry: 'subcontinent'
+  kind: substitution
+  wrong: 'sub[- ]continent'
+  right: 'subcontinent'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subcontinent.'
+- source: oxford
+  page: 822
+  entry: 'subculture'
+  kind: substitution
+  wrong: 'sub[- ]culture'
+  right: 'subculture'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subculture.'
+- source: oxford
+  page: 822
+  entry: 'subdirectory'
+  kind: substitution
+  wrong: 'sub[- ]directory'
+  right: 'subdirectory'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subdirectory.'
+- source: oxford
+  page: 822
+  entry: 'subdivide'
+  kind: substitution
+  wrong: 'sub[- ]divide'
+  right: 'subdivide'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subdivide.'
+- source: oxford
+  page: 822
+  entry: 'subgroup'
+  kind: substitution
+  wrong: 'sub[- ]group'
+  right: 'subgroup'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subgroup.'
+- source: oxford
+  page: 822
+  entry: 'subhuman'
+  kind: substitution
+  wrong: 'sub[- ]human'
+  right: 'subhuman'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subhuman.'
+- source: oxford
+  page: 822
+  entry: 'sublease'
+  kind: substitution
+  wrong: 'sub[- ]lease'
+  right: 'sublease'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sublease.'
+- source: oxford
+  page: 822
+  entry: 'subplot'
+  kind: substitution
+  wrong: 'sub[- ]plot'
+  right: 'subplot'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subplot.'
+- source: oxford
+  page: 822
+  entry: 'subregion'
+  kind: substitution
+  wrong: 'sub[- ]region'
+  right: 'subregion'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subregion.'
+- source: oxford
+  page: 822
+  entry: 'subroutine'
+  kind: substitution
+  wrong: 'sub[- ]routine'
+  right: 'subroutine'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subroutine.'
+- source: oxford
+  page: 822
+  entry: 'subset'
+  kind: substitution
+  wrong: 'sub[- ]set'
+  right: 'subset'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subset.'
+- source: oxford
+  page: 822
+  entry: 'subsoil'
+  kind: substitution
+  wrong: 'sub[- ]soil'
+  right: 'subsoil'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subsoil.'
+- source: oxford
+  page: 822
+  entry: 'sub-Saharan'
+  kind: casing
+  wrong: 'sub-saharan|Sub-saharan|subsaharan'
+  right: 'sub-Saharan'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphen, lower sub, capital Saharan.'
+- source: oxford
+  page: 823
+  entry: 'subtitle'
+  kind: substitution
+  wrong: 'sub[- ]title'
+  right: 'subtitle'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subtitle.'
+- source: oxford
+  page: 823
+  entry: 'subtotal'
+  kind: substitution
+  wrong: 'sub[- ]total'
+  right: 'subtotal'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subtotal.'
+- source: oxford
+  page: 823
+  entry: 'subtropical'
+  kind: substitution
+  wrong: 'sub[- ]tropical'
+  right: 'subtropical'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subtropical.'
+- source: oxford
+  page: 823
+  entry: 'subway'
+  kind: substitution
+  wrong: 'sub[- ]way'
+  right: 'subway'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subway.'
+- source: oxford
+  page: 823
+  entry: 'subtext'
+  kind: substitution
+  wrong: 'sub[- ]text'
+  right: 'subtext'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subtext.'
+- source: oxford
+  page: 823
+  entry: 'substandard'
+  kind: substitution
+  wrong: 'sub[- ]standard'
+  right: 'substandard'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: substandard.'
+- source: oxford
+  page: 823
+  entry: 'subterranean'
+  kind: substitution
+  wrong: 'sub[- ]terranean'
+  right: 'subterranean'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subterranean.'
+- source: oxford
+  page: 822
+  entry: 'submenu'
+  kind: substitution
+  wrong: 'sub[- ]menu'
+  right: 'submenu'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: submenu.'
+- source: oxford
+  page: 822
+  entry: 'subsection'
+  kind: substitution
+  wrong: 'sub[- ]section'
+  right: 'subsection'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: subsection.'
+- source: oxford
+  page: 823
+  entry: 'suitcase'
+  kind: substitution
+  wrong: 'suit[- ]case'
+  right: 'suitcase'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: suitcase.'
+- source: oxford
+  page: 823
+  entry: 'suchlike'
+  kind: substitution
+  wrong: 'such like'
+  right: 'suchlike'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 824
+  entry: 'sunflower'
+  kind: substitution
+  wrong: 'sun[- ]flower'
+  right: 'sunflower'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sunflower.'
+- source: oxford
+  page: 824
+  entry: 'sunlight'
+  kind: substitution
+  wrong: 'sun[- ]light'
+  right: 'sunlight'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sunlight.'
+- source: oxford
+  page: 824
+  entry: 'sunburn'
+  kind: substitution
+  wrong: 'sun[- ]burn'
+  right: 'sunburn'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sunburn.'
+- source: oxford
+  page: 824
+  entry: 'sunshine'
+  kind: substitution
+  wrong: 'sun[- ]shine'
+  right: 'sunshine'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sunshine.'
+- source: oxford
+  page: 824
+  entry: 'sunscreen'
+  kind: substitution
+  wrong: 'sun[- ]screen'
+  right: 'sunscreen'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sunscreen.'
+- source: oxford
+  page: 824
+  entry: 'sunglasses'
+  kind: substitution
+  wrong: 'sun[- ]glasses'
+  right: 'sunglasses'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sunglasses.'
+- source: oxford
+  page: 824
+  entry: 'supersede'
+  kind: substitution
+  wrong: 'supercede'
+  right: 'supersede'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -cede.'
+- source: oxford
+  page: 824
+  entry: 'supervise'
+  kind: substitution
+  wrong: 'supervize'
+  right: 'supervise'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ize.'
+- source: oxford
+  page: 824
+  entry: 'supervisor'
+  kind: substitution
+  wrong: 'superviser|supervizor'
+  right: 'supervisor'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -er or -izor.'
+- source: oxford
+  page: 825
+  entry: 'surmise'
+  kind: substitution
+  wrong: 'surmize'
+  right: 'surmise'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ize.'
+- source: oxford
+  page: 825
+  entry: 'surprise'
+  kind: substitution
+  wrong: 'suprise|surprize'
+  right: 'surprise'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not sup- or -ize.'
+- source: oxford
+  page: 825
+  entry: 'surveillance'
+  kind: substitution
+  wrong: 'surveilance'
+  right: 'surveillance'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Two ls.'
+- source: oxford
+  page: 825
+  entry: 'surveyor'
+  kind: substitution
+  wrong: 'surveyer'
+  right: 'surveyor'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -er.'
+- source: oxford
+  page: 825
+  entry: 'survivor'
+  kind: substitution
+  wrong: 'surviver'
+  right: 'survivor'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -er.'
+- source: oxford
+  page: 825
+  entry: 'susceptible'
+  kind: substitution
+  wrong: 'susceptable'
+  right: 'susceptible'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -able.'
+- source: oxford
+  page: 825
+  entry: 'sweatband'
+  kind: substitution
+  wrong: 'sweat[- ]band'
+  right: 'sweatband'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sweatband.'
+- source: oxford
+  page: 825
+  entry: 'sweatpants'
+  kind: substitution
+  wrong: 'sweat[- ]pants'
+  right: 'sweatpants'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sweatpants.'
+- source: oxford
+  page: 825
+  entry: 'sweatshirt'
+  kind: substitution
+  wrong: 'sweat[- ]shirt'
+  right: 'sweatshirt'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sweatshirt.'
+- source: oxford
+  page: 825
+  entry: 'sweatshop'
+  kind: substitution
+  wrong: 'sweat[- ]shop'
+  right: 'sweatshop'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sweatshop.'
+- source: oxford
+  page: 826
+  entry: 'sweetheart'
+  kind: substitution
+  wrong: 'sweet[- ]heart'
+  right: 'sweetheart'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: sweetheart.'
+- source: oxford
+  page: 826
+  entry: 'sweet william'
+  kind: casing
+  wrong: 'Sweet William'
+  right: 'sweet william'
+  domain: wording
+  fix: none
+  american: false
+  context: general
+  note: 'Lower case for the garden plant.'
+- source: oxford
+  page: 826
+  entry: 'swimsuit'
+  kind: substitution
+  wrong: 'swim[- ]suit'
+  right: 'swimsuit'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: swimsuit.'
+- source: oxford
+  page: 826
+  entry: 'swimwear'
+  kind: substitution
+  wrong: 'swim[- ]wear'
+  right: 'swimwear'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: swimwear.'
+- source: oxford
+  page: 826
+  entry: 'switchboard'
+  kind: substitution
+  wrong: 'switch[- ]board'
+  right: 'switchboard'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: switchboard.'
+- source: oxford
+  page: 826
+  entry: 'switchblade'
+  kind: substitution
+  wrong: 'switch[- ]blade'
+  right: 'switchblade'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: switchblade.'
+- source: oxford
+  page: 828
+  entry: 'tablecloth'
+  kind: substitution
+  wrong: 'table[- ]cloth'
+  right: 'tablecloth'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tablecloth.'
+- source: oxford
+  page: 828
+  entry: 'tablespoon'
+  kind: substitution
+  wrong: 'table[- ]spoon'
+  right: 'tablespoon'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tablespoon.'
+- source: oxford
+  page: 828
+  entry: 'tabletop'
+  kind: substitution
+  wrong: 'table[- ]top'
+  right: 'tabletop'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tabletop.'
+- source: oxford
+  page: 828
+  entry: 'tableware'
+  kind: substitution
+  wrong: 'table[- ]ware'
+  right: 'tableware'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tableware.'
+- source: oxford
+  page: 828
+  entry: 'taboo'
+  kind: substitution
+  wrong: 'tabu'
+  right: 'taboo'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Use taboo except in anthropology.'
+- source: oxford
+  page: 828
+  entry: 'tae kwon do'
+  kind: substitution
+  wrong: 'taekwondo|tae-kwon-do'
+  right: 'tae kwon do'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Three words in Oxford.'
+- source: oxford
+  page: 828
+  entry: 'tagliatelle'
+  kind: substitution
+  wrong: 'tagliatelli'
+  right: 'tagliatelle'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -lli.'
+- source: oxford
+  page: 829
+  entry: 'tailgate'
+  kind: substitution
+  wrong: 'tail[- ]gate'
+  right: 'tailgate'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tailgate.'
+- source: oxford
+  page: 829
+  entry: 'tailpipe'
+  kind: substitution
+  wrong: 'tail[- ]pipe'
+  right: 'tailpipe'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tailpipe.'
+- source: oxford
+  page: 829
+  entry: 'tailwind'
+  kind: substitution
+  wrong: 'tail[- ]wind'
+  right: 'tailwind'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tailwind.'
+- source: oxford
+  page: 829
+  entry: 'takeaway'
+  kind: substitution
+  wrong: 'take-away'
+  right: 'takeaway'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'British noun, one word.'
+- source: oxford
+  page: 829
+  entry: 'takeover'
+  kind: substitution
+  wrong: 'take-over'
+  right: 'takeover'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Noun is one word.'
+- source: oxford
+  page: 831
+  entry: 'taste bud'
+  kind: substitution
+  wrong: 'tastebud'
+  right: 'taste bud'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 832
+  entry: 'teabag'
+  kind: substitution
+  wrong: 'tea bag'
+  right: 'teabag'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 832
+  entry: 'teacup'
+  kind: substitution
+  wrong: 'tea cup'
+  right: 'teacup'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 832
+  entry: 'teapot'
+  kind: substitution
+  wrong: 'tea[- ]pot'
+  right: 'teapot'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: teapot.'
+- source: oxford
+  page: 832
+  entry: 'teaspoon'
+  kind: substitution
+  wrong: 'tea[- ]spoon'
+  right: 'teaspoon'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: teaspoon.'
+- source: oxford
+  page: 832
+  entry: 'teatime'
+  kind: substitution
+  wrong: 'tea[- ]time'
+  right: 'teatime'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: teatime.'
+- source: oxford
+  page: 832
+  entry: 'teamwork'
+  kind: substitution
+  wrong: 'team[- ]work'
+  right: 'teamwork'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: teamwork.'
+- source: oxford
+  page: 832
+  entry: 'teammate'
+  kind: substitution
+  wrong: 'team[- ]mate'
+  right: 'teammate'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: teammate.'
+- source: oxford
+  page: 832
+  entry: 'teardrop'
+  kind: substitution
+  wrong: 'tear[- ]drop'
+  right: 'teardrop'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: teardrop.'
+- source: oxford
+  page: 832
+  entry: 'tease'
+  kind: substitution
+  wrong: 'teaze'
+  right: 'tease'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ze.'
+- source: oxford
+  page: 832
+  entry: 'teenage'
+  kind: substitution
+  wrong: 'teen age|teen-age'
+  right: 'teenage'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 832
+  entry: 'teenager'
+  kind: substitution
+  wrong: 'teen-ager'
+  right: 'teenager'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 832
+  entry: 'tee shirt'
+  kind: substitution
+  wrong: 'T shirt|Tshirt|tee[- ]shirt'
+  right: 'T-shirt'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write T-shirt.'
+- source: oxford
+  page: 832
+  entry: 'T-shirt'
+  kind: casing
+  wrong: 't-shirt'
+  right: 'T-shirt'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Capital T, hyphen.'
+- source: oxford
+  page: 832
+  entry: 'teleconference'
+  kind: substitution
+  wrong: 'tele[- ]conference'
+  right: 'teleconference'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: teleconference.'
+- source: oxford
+  page: 832
+  entry: 'telemarketing'
+  kind: substitution
+  wrong: 'tele[- ]marketing'
+  right: 'telemarketing'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: telemarketing.'
+- source: oxford
+  page: 832
+  entry: 'telltale'
+  kind: substitution
+  wrong: 'tell-tale|tell tale'
+  right: 'telltale'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 833
+  entry: 'televise'
+  kind: substitution
+  wrong: 'televize'
+  right: 'televise'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ize.'
+- source: oxford
+  page: 833
+  entry: 'tenet'
+  kind: substitution
+  wrong: 'tenent'
+  right: 'tenet'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ent.'
+- source: oxford
+  page: 833
+  entry: 'tenor'
+  kind: substitution
+  wrong: 'tenour'
+  right: 'tenor'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -our.'
+- source: oxford
+  page: 833
+  entry: 'tenpin bowling'
+  kind: substitution
+  wrong: 'ten-pin bowling'
+  right: 'tenpin bowling'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'No hyphen.'
+- source: oxford
+  page: 833
+  entry: 'temperance'
+  kind: substitution
+  wrong: 'temperence'
+  right: 'temperance'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ence.'
+- source: oxford
+  page: 833
+  entry: 'temporary'
+  kind: substitution
+  wrong: 'tempory'
+  right: 'temporary'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -pory.'
+- source: oxford
+  page: 833
+  entry: 'tendency'
+  kind: substitution
+  wrong: 'tendancy'
+  right: 'tendency'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ancy.'
+- source: oxford
+  page: 834
+  entry: 'terminator'
+  kind: substitution
+  wrong: 'terminater'
+  right: 'terminator'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -er.'
+- source: oxford
+  page: 834
+  entry: 'terracotta'
+  kind: substitution
+  wrong: 'terra[- ]cotta'
+  right: 'terracotta'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 835
+  entry: 'theorem'
+  kind: substitution
+  wrong: 'theorum'
+  right: 'theorem'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -um.'
+- source: oxford
+  page: 835
+  entry: 'therapeutic'
+  kind: substitution
+  wrong: 'theraputic'
+  right: 'therapeutic'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -put-.'
+- source: oxford
+  page: 835
+  entry: 'themself'
+  kind: existence
+  wrong: 'themself'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Avoid; use themselves, himself or herself.'
+- source: oxford
+  page: 836
+  entry: 'Third World'
+  kind: existence
+  wrong: 'Third[- ]World'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Developing countries is often preferred.'
+- source: oxford
+  page: 836
+  entry: 'thought-provoking'
+  kind: substitution
+  wrong: 'thought provoking'
+  right: 'thought-provoking'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 837
+  entry: 'three-dimensional'
+  kind: substitution
+  wrong: 'three dimensional'
+  right: 'three-dimensional'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 837
+  entry: 'threshold'
+  kind: substitution
+  wrong: 'threshhold'
+  right: 'threshold'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'One h.'
+- source: oxford
+  page: 837
+  entry: 'throughput'
+  kind: substitution
+  wrong: 'through-put|through put'
+  right: 'throughput'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 837
+  entry: 'throwaway'
+  kind: substitution
+  wrong: 'throw-away'
+  right: 'throwaway'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 837
+  entry: 'throwback'
+  kind: substitution
+  wrong: 'throw-back'
+  right: 'throwback'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 837
+  entry: 'thumbnail'
+  kind: substitution
+  wrong: 'thumb[- ]nail'
+  right: 'thumbnail'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: thumbnail.'
+- source: oxford
+  page: 837
+  entry: 'thumbprint'
+  kind: substitution
+  wrong: 'thumb[- ]print'
+  right: 'thumbprint'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: thumbprint.'
+- source: oxford
+  page: 837
+  entry: 'thumbtack'
+  kind: substitution
+  wrong: 'thumb[- ]tack'
+  right: 'thumbtack'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: thumbtack.'
+- source: oxford
+  page: 837
+  entry: 'thunderstorm'
+  kind: substitution
+  wrong: 'thunder[- ]storm'
+  right: 'thunderstorm'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: thunderstorm.'
+- source: oxford
+  page: 837
+  entry: 'thunderbolt'
+  kind: substitution
+  wrong: 'thunder[- ]bolt'
+  right: 'thunderbolt'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: thunderbolt.'
+- source: oxford
+  page: 837
+  entry: 'thundercloud'
+  kind: substitution
+  wrong: 'thunder[- ]cloud'
+  right: 'thundercloud'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: thundercloud.'
+- source: oxford
+  page: 838
+  entry: 'tie-dye'
+  kind: substitution
+  wrong: 'tie dye|tiedye'
+  right: 'tie-dye'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 838
+  entry: 'tiebreaker'
+  kind: substitution
+  wrong: 'tie[- ]breaker'
+  right: 'tiebreaker'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tiebreaker.'
+- source: oxford
+  page: 838
+  entry: 'tightrope'
+  kind: substitution
+  wrong: 'tight[- ]rope'
+  right: 'tightrope'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tightrope.'
+- source: oxford
+  page: 838
+  entry: 'tiptoe'
+  kind: substitution
+  wrong: 'tip[- ]toe'
+  right: 'tiptoe'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tiptoe.'
+- source: oxford
+  page: 838
+  entry: 'time-consuming'
+  kind: substitution
+  wrong: 'time consuming'
+  right: 'time-consuming'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 838
+  entry: 'time frame'
+  kind: substitution
+  wrong: 'timeframe'
+  right: 'time frame'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words in Oxford.'
+- source: oxford
+  page: 838
+  entry: 'timekeeper'
+  kind: substitution
+  wrong: 'time[- ]keeper'
+  right: 'timekeeper'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: timekeeper.'
+- source: oxford
+  page: 838
+  entry: 'time lag'
+  kind: substitution
+  wrong: 'timelag|time-lag'
+  right: 'time lag'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 838
+  entry: 'timeline'
+  kind: substitution
+  wrong: 'time[- ]line'
+  right: 'timeline'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: timeline.'
+- source: oxford
+  page: 838
+  entry: 'timescale'
+  kind: substitution
+  wrong: 'time scale'
+  right: 'timescale'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 838
+  entry: 'timetable'
+  kind: substitution
+  wrong: 'time[- ]table'
+  right: 'timetable'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: timetable.'
+- source: oxford
+  page: 838
+  entry: 'time zone'
+  kind: substitution
+  wrong: 'timezone'
+  right: 'time zone'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 839
+  entry: 'tinfoil'
+  kind: substitution
+  wrong: 'tin[- ]foil'
+  right: 'tinfoil'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 839
+  entry: 'tip-top'
+  kind: substitution
+  wrong: 'tiptop|tip top'
+  right: 'tip-top'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Hyphenated in Oxford.'
+- source: oxford
+  page: 839
+  entry: 'titillate'
+  kind: substitution
+  wrong: 'titilate'
+  right: 'titillate'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Two ls.'
+- source: oxford
+  page: 839
+  entry: 'titivate'
+  kind: substitution
+  wrong: 'tittivate'
+  right: 'titivate'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not titt-.'
+- source: oxford
+  page: 839
+  entry: 'tit for tat'
+  kind: substitution
+  wrong: 'tit-for-tat'
+  right: 'tit for tat'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Three words, no hyphens.'
+- source: oxford
+  page: 839
+  entry: 'T-junction'
+  kind: casing
+  wrong: 't-junction|T junction'
+  right: 'T-junction'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Capital T with a hyphen.'
+- source: oxford
+  page: 840
+  entry: 'toboggan'
+  kind: substitution
+  wrong: 'tobogan'
+  right: 'toboggan'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Two gs.'
+- source: oxford
+  page: 840
+  entry: 'toccata'
+  kind: substitution
+  wrong: 'tocata'
+  right: 'toccata'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Two cs.'
+- source: oxford
+  page: 840
+  entry: 'tomboy'
+  kind: substitution
+  wrong: 'tom[- ]boy'
+  right: 'tomboy'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tomboy.'
+- source: oxford
+  page: 840
+  entry: 'tomcat'
+  kind: substitution
+  wrong: 'tom[- ]cat'
+  right: 'tomcat'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tomcat.'
+- source: oxford
+  page: 840
+  entry: 'tommy gun'
+  kind: casing
+  wrong: 'Tommy gun'
+  right: 'tommy gun'
+  domain: wording
+  fix: none
+  american: false
+  context: general
+  note: 'Lower case.'
+- source: oxford
+  page: 840
+  entry: 'tomato'
+  kind: substitution
+  wrong: 'tomatos'
+  right: 'tomatoes'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Plural takes -es.'
+- source: oxford
+  page: 840
+  entry: 'tombstone'
+  kind: substitution
+  wrong: 'tomb[- ]stone'
+  right: 'tombstone'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tombstone.'
+- source: oxford
+  page: 840
+  entry: 'tom-tom'
+  kind: substitution
+  wrong: 'tomtom|tom tom'
+  right: 'tom-tom'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 840
+  entry: 'tone-deaf'
+  kind: substitution
+  wrong: 'tone deaf'
+  right: 'tone-deaf'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate as modifier.'
+- source: oxford
+  page: 840
+  entry: 'toffee'
+  kind: substitution
+  wrong: 'toffy'
+  right: 'toffee'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell toffee.'
+- source: oxford
+  page: 840
+  entry: 'tonsillectomy'
+  kind: substitution
+  wrong: 'tonsilectomy'
+  right: 'tonsillectomy'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Two ls.'
+- source: oxford
+  page: 840
+  entry: 'tonsillitis'
+  kind: substitution
+  wrong: 'tonsilitis'
+  right: 'tonsillitis'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Two ls.'
+- source: oxford
+  page: 840
+  entry: 'tollbooth'
+  kind: substitution
+  wrong: 'toll booth'
+  right: 'tollbooth'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 830
+  entry: 'Tannoy'
+  kind: existence
+  wrong: 'Tannoy'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Trademark; generic term is public address system.'
+- source: oxford
+  page: 830
+  entry: 'Tampax'
+  kind: existence
+  wrong: 'Tampax'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Trademark; generic term is tampon.'
+- source: oxford
+  page: 832
+  entry: 'Teflon'
+  kind: existence
+  wrong: 'Teflon'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Trademark; generic is non-stick coating.'
+- source: oxford
+  page: 836
+  entry: 'Thermos'
+  kind: existence
+  wrong: 'Thermos'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Trademark; generic is vacuum flask.'
+- source: oxford
+  page: 839
+  entry: 'Tipp-Ex'
+  kind: existence
+  wrong: 'Tipp-Ex'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Trademark; generic is correction fluid.'
+- source: oxford
+  page: 846
+  entry: 'Tupperware'
+  kind: existence
+  wrong: 'Tupperware'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Trademark; generic is plastic storage containers.'
+- source: oxford
+  page: 855
+  entry: 'Vaseline'
+  kind: existence
+  wrong: 'Vaseline'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Trademark; generic is petroleum jelly.'
+- source: oxford
+  page: 854
+  entry: 'Valium'
+  kind: existence
+  wrong: 'Valium'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Trademark; generic is diazepam.'
+- source: oxford
+  page: 856
+  entry: 'Velcro'
+  kind: existence
+  wrong: 'Velcro'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Trademark; generic is hook-and-loop fastener.'
+- source: oxford
+  page: 841
+  entry: 'tony'
+  kind: substitution
+  wrong: 'toney'
+  right: 'tony'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Spell -y.'
+- source: oxford
+  page: 841
+  entry: 'toolbar'
+  kind: substitution
+  wrong: 'tool[- ]bar'
+  right: 'toolbar'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: toolbar.'
+- source: oxford
+  page: 841
+  entry: 'toolbox'
+  kind: substitution
+  wrong: 'tool[- ]box'
+  right: 'toolbox'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: toolbox.'
+- source: oxford
+  page: 841
+  entry: 'toolkit'
+  kind: substitution
+  wrong: 'tool[- ]kit'
+  right: 'toolkit'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: toolkit.'
+- source: oxford
+  page: 841
+  entry: 'toothache'
+  kind: substitution
+  wrong: 'tooth[- ]ache'
+  right: 'toothache'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: toothache.'
+- source: oxford
+  page: 841
+  entry: 'toothbrush'
+  kind: substitution
+  wrong: 'tooth[- ]brush'
+  right: 'toothbrush'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: toothbrush.'
+- source: oxford
+  page: 841
+  entry: 'toothpaste'
+  kind: substitution
+  wrong: 'tooth[- ]paste'
+  right: 'toothpaste'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: toothpaste.'
+- source: oxford
+  page: 841
+  entry: 'toothpick'
+  kind: substitution
+  wrong: 'tooth[- ]pick'
+  right: 'toothpick'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: toothpick.'
+- source: oxford
+  page: 841
+  entry: 'top-heavy'
+  kind: substitution
+  wrong: 'top heavy'
+  right: 'top-heavy'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate as modifier.'
+- source: oxford
+  page: 841
+  entry: 'top-notch'
+  kind: substitution
+  wrong: 'top notch|topnotch'
+  right: 'top-notch'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 841
+  entry: 'topsoil'
+  kind: substitution
+  wrong: 'top[- ]soil'
+  right: 'topsoil'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: topsoil.'
+- source: oxford
+  page: 841
+  entry: 'tormentor'
+  kind: substitution
+  wrong: 'tormenter'
+  right: 'tormentor'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -er.'
+- source: oxford
+  page: 841
+  entry: 'tornado'
+  kind: substitution
+  wrong: 'tornados'
+  right: 'tornadoes'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Plural is tornadoes.'
+- source: oxford
+  page: 841
+  entry: 'touchdown'
+  kind: substitution
+  wrong: 'touch-down'
+  right: 'touchdown'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 841
+  entry: 'touchstone'
+  kind: substitution
+  wrong: 'touch[- ]stone'
+  right: 'touchstone'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: touchstone.'
+- source: oxford
+  page: 841
+  entry: 'toupee'
+  kind: substitution
+  wrong: 'toupet'
+  right: 'toupee'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -et.'
+- source: oxford
+  page: 842
+  entry: 'town hall'
+  kind: substitution
+  wrong: 'townhall'
+  right: 'town hall'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 842
+  entry: 'towpath'
+  kind: substitution
+  wrong: 'tow[- ]path'
+  right: 'towpath'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: towpath.'
+- source: oxford
+  page: 842
+  entry: 'toxin'
+  kind: substitution
+  wrong: 'toxine'
+  right: 'toxin'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ine.'
+- source: oxford
+  page: 842
+  entry: 'traceable'
+  kind: substitution
+  wrong: 'tracable'
+  right: 'traceable'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -cable.'
+- source: oxford
+  page: 842
+  entry: 'tradable'
+  kind: substitution
+  wrong: 'tradeable'
+  right: 'tradable'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Not -eable.'
+- source: oxford
+  page: 842
+  entry: 'trademark'
+  kind: substitution
+  wrong: 'trade[- ]mark'
+  right: 'trademark'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word in general use.'
+- source: oxford
+  page: 842
+  entry: 'trade-off'
+  kind: substitution
+  wrong: 'tradeoff'
+  right: 'trade-off'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenated noun.'
+- source: oxford
+  page: 842
+  entry: 'trailblazer'
+  kind: substitution
+  wrong: 'trail[- ]blazer'
+  right: 'trailblazer'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 842
+  entry: 'train station'
+  kind: existence
+  wrong: 'train station'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Prefer station or railway station.'
+- source: oxford
+  page: 842
+  entry: 'traipse'
+  kind: substitution
+  wrong: 'trapse'
+  right: 'traipse'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not trapse.'
+- source: oxford
+  page: 842
+  entry: 'trampoline'
+  kind: substitution
+  wrong: 'trampolene'
+  right: 'trampoline'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ene.'
+- source: oxford
+  page: 843
+  entry: 'transatlantic'
+  kind: substitution
+  wrong: 'trans-Atlantic|trans-atlantic|trans Atlantic'
+  right: 'transatlantic'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word, no capital.'
+- source: oxford
+  page: 843
+  entry: 'transcontinental'
+  kind: substitution
+  wrong: 'trans-continental'
+  right: 'transcontinental'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 843
+  entry: 'trans-fatty acid'
+  kind: substitution
+  wrong: 'transfatty acid|trans fatty acid'
+  right: 'trans-fatty acid'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One hyphen.'
+- source: oxford
+  page: 843
+  entry: 'translatable'
+  kind: substitution
+  wrong: 'translateable'
+  right: 'translatable'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -eable.'
+- source: oxford
+  page: 843
+  entry: 'translator'
+  kind: substitution
+  wrong: 'translater'
+  right: 'translator'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -er.'
+- source: oxford
+  page: 843
+  entry: 'transparent'
+  kind: substitution
+  wrong: 'transparant'
+  right: 'transparent'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -an-.'
+- source: oxford
+  page: 843
+  entry: 'trans-Pacific'
+  kind: casing
+  wrong: 'trans-pacific|transpacific'
+  right: 'trans-Pacific'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Hyphen, one capital.'
+- source: oxford
+  page: 843
+  entry: 'trapdoor'
+  kind: substitution
+  wrong: 'trap[- ]door'
+  right: 'trapdoor'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: trapdoor.'
+- source: oxford
+  page: 843
+  entry: 'travelogue'
+  kind: substitution
+  wrong: 'travelog'
+  right: 'travelogue'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -log.'
+- source: oxford
+  page: 843
+  entry: 'treadmill'
+  kind: substitution
+  wrong: 'tread[- ]mill'
+  right: 'treadmill'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: treadmill.'
+- source: oxford
+  page: 843
+  entry: 'treatise'
+  kind: substitution
+  wrong: 'treatize'
+  right: 'treatise'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ize.'
+- source: oxford
+  page: 843
+  entry: 'treetop'
+  kind: substitution
+  wrong: 'tree[- ]top'
+  right: 'treetop'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: treetop.'
+- source: oxford
+  page: 843
+  entry: 'trek'
+  kind: substitution
+  wrong: 'treck'
+  right: 'trek'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not treck.'
+- source: oxford
+  page: 844
+  entry: 'tremor'
+  kind: substitution
+  wrong: 'tremour'
+  right: 'tremor'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -our.'
+- source: oxford
+  page: 844
+  entry: 'trench coat'
+  kind: substitution
+  wrong: 'trenchcoat'
+  right: 'trench coat'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 844
+  entry: 'trendsetter'
+  kind: substitution
+  wrong: 'trend[- ]setter'
+  right: 'trendsetter'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: trendsetter.'
+- source: oxford
+  page: 844
+  entry: 'trigger-happy'
+  kind: substitution
+  wrong: 'trigger happy'
+  right: 'trigger-happy'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 845
+  entry: 'trolley'
+  kind: substitution
+  wrong: 'trolly'
+  right: 'trolley'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ly.'
+- source: oxford
+  page: 845
+  entry: 'troublemaker'
+  kind: substitution
+  wrong: 'trouble[- ]maker'
+  right: 'troublemaker'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: troublemaker.'
+- source: oxford
+  page: 845
+  entry: 'troubleshooter'
+  kind: substitution
+  wrong: 'trouble[- ]shooter'
+  right: 'troubleshooter'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: troubleshooter.'
+- source: oxford
+  page: 845
+  entry: 'tropic of Cancer'
+  kind: casing
+  wrong: 'Tropic of Cancer'
+  right: 'tropic of Cancer'
+  domain: wording
+  fix: none
+  american: false
+  context: general
+  note: 'Lower-case tropic in Oxford.'
+- source: oxford
+  page: 846
+  entry: 'tug of war'
+  kind: substitution
+  wrong: 'tug-of-war'
+  right: 'tug of war'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Three words in Oxford.'
+- source: oxford
+  page: 846
+  entry: 'tumbledown'
+  kind: substitution
+  wrong: 'tumble-down'
+  right: 'tumbledown'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 846
+  entry: 'tumbleweed'
+  kind: substitution
+  wrong: 'tumble[- ]weed'
+  right: 'tumbleweed'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: tumbleweed.'
+- source: oxford
+  page: 846
+  entry: 'tunable'
+  kind: substitution
+  wrong: 'tuneable'
+  right: 'tunable'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Not -eable.'
+- source: oxford
+  page: 846
+  entry: 'turbocharger'
+  kind: substitution
+  wrong: 'turbo[- ]charger'
+  right: 'turbocharger'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: turbocharger.'
+- source: oxford
+  page: 847
+  entry: 'turbulence'
+  kind: substitution
+  wrong: 'turbulance'
+  right: 'turbulence'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ance.'
+- source: oxford
+  page: 847
+  entry: 'turbulent'
+  kind: substitution
+  wrong: 'turbulant'
+  right: 'turbulent'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ant.'
+- source: oxford
+  page: 847
+  entry: 'turncoat'
+  kind: substitution
+  wrong: 'turn[- ]coat'
+  right: 'turncoat'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: turncoat.'
+- source: oxford
+  page: 847
+  entry: 'turnkey'
+  kind: substitution
+  wrong: 'turn[- ]key'
+  right: 'turnkey'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: turnkey.'
+- source: oxford
+  page: 847
+  entry: 'turntable'
+  kind: substitution
+  wrong: 'turn[- ]table'
+  right: 'turntable'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: turntable.'
+- source: oxford
+  page: 847
+  entry: 'turnstile'
+  kind: substitution
+  wrong: 'turn[- ]stile'
+  right: 'turnstile'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: turnstile.'
+- source: oxford
+  page: 847
+  entry: 'turtleneck'
+  kind: substitution
+  wrong: 'turtle[- ]neck'
+  right: 'turtleneck'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: turtleneck.'
+- source: oxford
+  page: 847
+  entry: 'Turkish delight'
+  kind: casing
+  wrong: 'Turkish Delight'
+  right: 'Turkish delight'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One capital only.'
+- source: oxford
+  page: 848
+  entry: 'compound numbers'
+  kind: existence
+  wrong: '(?:twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety) (?:one|two|three|four|five|six|seven|eight|nine)'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate compound numbers (twenty-one); check for separate quantities.'
+- source: oxford
+  page: 848
+  entry: 'twerp'
+  kind: substitution
+  wrong: 'twirp'
+  right: 'twerp'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not twirp.'
+- source: oxford
+  page: 848
+  entry: 'two-dimensional'
+  kind: substitution
+  wrong: 'two dimensional'
+  right: 'two-dimensional'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 848
+  entry: 'typeface'
+  kind: substitution
+  wrong: 'type[- ]face'
+  right: 'typeface'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 848
+  entry: 'typesetter'
+  kind: substitution
+  wrong: 'type[- ]setter'
+  right: 'typesetter'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 848
+  entry: 'typewriter'
+  kind: substitution
+  wrong: 'type[- ]writer'
+  right: 'typewriter'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 848
+  entry: 'tyrannosaurus'
+  kind: casing
+  wrong: 'Tyrannosaurus Rex|tyrannosaurus rex'
+  right: 'Tyrannosaurus rex'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One capital in the species name.'
+- source: oxford
+  page: 849
+  entry: 'U-bend'
+  kind: casing
+  wrong: 'u-bend|U bend'
+  right: 'U-bend'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Capital U with hyphen.'
+- source: oxford
+  page: 849
+  entry: 'U-boat'
+  kind: casing
+  wrong: 'u-boat|U boat'
+  right: 'U-boat'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Capital U with hyphen.'
+- source: oxford
+  page: 849
+  entry: 'Ukraine'
+  kind: substitution
+  wrong: '[Tt]he Ukraine'
+  right: 'Ukraine'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'No definite article.'
+- source: oxford
+  page: 853
+  entry: 'U-turn'
+  kind: casing
+  wrong: 'u-turn|U turn'
+  right: 'U-turn'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Capital U with hyphen.'
+- source: oxford
+  page: 850
+  entry: 'ultraviolet'
+  kind: substitution
+  wrong: 'ultra[- ]violet'
+  right: 'ultraviolet'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 850
+  entry: 'ultrasound'
+  kind: substitution
+  wrong: 'ultra[- ]sound'
+  right: 'ultrasound'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 850
+  entry: 'ultrasonic'
+  kind: substitution
+  wrong: 'ultra[- ]sonic'
+  right: 'ultrasonic'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 850
+  entry: 'unbiased'
+  kind: substitution
+  wrong: 'unbiassed'
+  right: 'unbiased'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'One s.'
+- source: oxford
+  page: 850
+  entry: 'unbridgeable'
+  kind: substitution
+  wrong: 'unbridgable'
+  right: 'unbridgeable'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -gable.'
+- source: oxford
+  page: 850
+  entry: 'unchristian'
+  kind: substitution
+  wrong: 'un-christian|un christian'
+  right: 'unchristian'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 850
+  entry: 'un-American'
+  kind: casing
+  wrong: 'unamerican|un-american'
+  right: 'un-American'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphen and capital A.'
+- source: oxford
+  page: 850
+  entry: 'un-English'
+  kind: casing
+  wrong: 'unenglish|un-english'
+  right: 'un-English'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphen and capital E.'
+- source: oxford
+  page: 850
+  entry: 'underage'
+  kind: substitution
+  wrong: 'under-age'
+  right: 'underage'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 850
+  entry: 'undercover'
+  kind: substitution
+  wrong: 'under-cover'
+  right: 'undercover'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 850
+  entry: 'underrate'
+  kind: substitution
+  wrong: 'under-rate'
+  right: 'underrate'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 850
+  entry: 'undersecretary'
+  kind: substitution
+  wrong: 'under-secretary|under secretary'
+  right: 'undersecretary'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 850
+  entry: 'underweight'
+  kind: substitution
+  wrong: 'under-weight'
+  right: 'underweight'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 851
+  entry: 'unforeseen'
+  kind: substitution
+  wrong: 'unforseen'
+  right: 'unforeseen'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -fors-.'
+- source: oxford
+  page: 851
+  entry: 'unforeseeable'
+  kind: substitution
+  wrong: 'unforseeable'
+  right: 'unforeseeable'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -fors-.'
+- source: oxford
+  page: 851
+  entry: 'University College London'
+  kind: substitution
+  wrong: 'University College, London'
+  right: 'University College London'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'No comma.'
+- source: oxford
+  page: 850
+  entry: 'UNO'
+  kind: substitution
+  wrong: 'UNO'
+  right: 'UN'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Use UN for the United Nations; UNO is also a card game.'
+- source: oxford
+  page: 852
+  entry: 'up-and-coming'
+  kind: substitution
+  wrong: 'up and coming'
+  right: 'up-and-coming'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate as modifier.'
+- source: oxford
+  page: 852
+  entry: 'upmarket'
+  kind: substitution
+  wrong: 'up-market|up market'
+  right: 'upmarket'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 852
+  entry: 'upstream'
+  kind: substitution
+  wrong: 'up[- ]stream'
+  right: 'upstream'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 852
+  entry: 'upturn'
+  kind: substitution
+  wrong: 'up-turn'
+  right: 'upturn'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 852
+  entry: 'upwardly mobile'
+  kind: substitution
+  wrong: 'upwardly-mobile'
+  right: 'upwardly mobile'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'No hyphen.'
+- source: oxford
+  page: 853
+  entry: 'user-friendly'
+  kind: substitution
+  wrong: 'user friendly'
+  right: 'user-friendly'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate as modifier.'
+- source: oxford
+  page: 853
+  entry: 'username'
+  kind: substitution
+  wrong: 'user[- ]name'
+  right: 'username'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 853
+  entry: 'Usenet'
+  kind: casing
+  wrong: 'usenet|USENET'
+  right: 'Usenet'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Capitalize initial only.'
+- source: oxford
+  page: 854
+  entry: 'vacillate'
+  kind: substitution
+  wrong: 'vaccilate|vacilate'
+  right: 'vacillate'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'One c, two ls.'
+- source: oxford
+  page: 854
+  entry: 'vaccinate'
+  kind: substitution
+  wrong: 'vacinate'
+  right: 'vaccinate'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Two cs.'
+- source: oxford
+  page: 854
+  entry: 'vaccine'
+  kind: substitution
+  wrong: 'vacine'
+  right: 'vaccine'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Two cs.'
+- source: oxford
+  page: 854
+  entry: 'value added tax'
+  kind: substitution
+  wrong: 'value-added tax'
+  right: 'value added tax'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Three words in Oxford.'
+- source: oxford
+  page: 856
+  entry: 'VE Day'
+  kind: substitution
+  wrong: 'VE-Day|V-E Day'
+  right: 'VE Day'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'No hyphen.'
+- source: oxford
+  page: 856
+  entry: 'vengeance'
+  kind: substitution
+  wrong: 'vengance'
+  right: 'vengeance'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -gance.'
+- source: oxford
+  page: 856
+  entry: 'ventilator'
+  kind: substitution
+  wrong: 'ventilater'
+  right: 'ventilator'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -er.'
+- source: oxford
+  page: 856
+  entry: 'venetian blind'
+  kind: casing
+  wrong: 'Venetian blind'
+  right: 'venetian blind'
+  domain: wording
+  fix: none
+  american: false
+  context: general
+  note: 'Lower case.'
+- source: oxford
+  page: 857
+  entry: 'vermilion'
+  kind: substitution
+  wrong: 'vermillion'
+  right: 'vermilion'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ll-.'
+- source: oxford
+  page: 857
+  entry: 'verdigris'
+  kind: substitution
+  wrong: 'verdegris|verde-gris'
+  right: 'verdigris'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not verde-.'
+- source: oxford
+  page: 858
+  entry: 'vice president'
+  kind: substitution
+  wrong: 'vicepresident|vice-president'
+  right: 'vice president'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 858
+  entry: 'vice chairman'
+  kind: substitution
+  wrong: 'vice-chairman|vicechairman'
+  right: 'vice chairman'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 858
+  entry: 'vice chancellor'
+  kind: substitution
+  wrong: 'vice-chancellor|vicechancellor'
+  right: 'vice chancellor'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 858
+  entry: 'vice versa'
+  kind: substitution
+  wrong: 'viceversa|vice-versa'
+  right: 'vice versa'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 858
+  entry: 'vigorous'
+  kind: substitution
+  wrong: 'vigourous'
+  right: 'vigorous'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -our-.'
+- source: oxford
+  page: 859
+  entry: 'vilify'
+  kind: substitution
+  wrong: 'villify'
+  right: 'vilify'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -ll-.'
+- source: oxford
+  page: 859
+  entry: 'vineyard'
+  kind: substitution
+  wrong: 'vinyard'
+  right: 'vineyard'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not vin-.'
+- source: oxford
+  page: 859
+  entry: 'violator'
+  kind: substitution
+  wrong: 'violater'
+  right: 'violator'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -er.'
+- source: oxford
+  page: 858
+  entry: 'vibrator'
+  kind: substitution
+  wrong: 'vibrater'
+  right: 'vibrator'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -er.'
+- source: oxford
+  page: 859
+  entry: 'videoconference'
+  kind: substitution
+  wrong: 'video[- ]conference'
+  right: 'videoconference'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 859
+  entry: 'video game'
+  kind: substitution
+  wrong: 'videogame'
+  right: 'video game'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 859
+  entry: 'videotape'
+  kind: substitution
+  wrong: 'video[- ]tape'
+  right: 'videotape'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 859
+  entry: 'viewfinder'
+  kind: substitution
+  wrong: 'view[- ]finder'
+  right: 'viewfinder'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: viewfinder.'
+- source: oxford
+  page: 859
+  entry: 'viewpoint'
+  kind: substitution
+  wrong: 'view[- ]point'
+  right: 'viewpoint'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: viewpoint.'
+- source: oxford
+  page: 859
+  entry: 'viewport'
+  kind: substitution
+  wrong: 'view[- ]port'
+  right: 'viewport'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: viewport.'
+- source: oxford
+  page: 860
+  entry: 'vis-à-vis'
+  kind: substitution
+  wrong: 'vis a vis|vis-a-vis'
+  right: 'vis-à-vis'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphens and accent.'
+- source: oxford
+  page: 860
+  entry: 'vocal cords'
+  kind: substitution
+  wrong: 'vocal chords'
+  right: 'vocal cords'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Cords, not chords.'
+- source: oxford
+  page: 860
+  entry: 'V-neck'
+  kind: casing
+  wrong: 'v-neck|V neck'
+  right: 'V-neck'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Capital V with hyphen.'
+- source: oxford
+  page: 861
+  entry: 'voicemail'
+  kind: substitution
+  wrong: 'voice[- ]mail'
+  right: 'voicemail'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 861
+  entry: 'voice-over'
+  kind: substitution
+  wrong: 'voiceover|voice over'
+  right: 'voice-over'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Hyphenated noun in Oxford.'
+- source: oxford
+  page: 861
+  entry: 'volleyball'
+  kind: substitution
+  wrong: 'volle[- ]yball'
+  right: 'volleyball'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: volleyball.'
+- source: oxford
+  page: 862
+  entry: 'V-sign'
+  kind: casing
+  wrong: 'v-sign|V sign'
+  right: 'V-sign'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Capital V with hyphen.'
+- source: oxford
+  page: 863
+  entry: 'wobble'
+  kind: substitution
+  wrong: 'wabble'
+  right: 'wobble'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Use wobble.'
+- source: oxford
+  page: 863
+  entry: 'wage earner'
+  kind: substitution
+  wrong: 'wageearner|wage-earner'
+  right: 'wage earner'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 863
+  entry: 'waistcoat'
+  kind: substitution
+  wrong: 'waist[- ]coat'
+  right: 'waistcoat'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waistcoat.'
+- source: oxford
+  page: 863
+  entry: 'waistband'
+  kind: substitution
+  wrong: 'waist[- ]band'
+  right: 'waistband'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waistband.'
+- source: oxford
+  page: 863
+  entry: 'waistline'
+  kind: substitution
+  wrong: 'waist[- ]line'
+  right: 'waistline'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waistline.'
+- source: oxford
+  page: 863
+  entry: 'walkie-talkie'
+  kind: substitution
+  wrong: 'walkie talkie|walkietalkie|walky-talky'
+  right: 'walkie-talkie'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 863
+  entry: 'Waldorf salad'
+  kind: casing
+  wrong: 'Waldorf Salad'
+  right: 'Waldorf salad'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One capital.'
+- source: oxford
+  page: 864
+  entry: 'walkway'
+  kind: substitution
+  wrong: 'walk[- ]way'
+  right: 'walkway'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: walkway.'
+- source: oxford
+  page: 864
+  entry: 'wallflower'
+  kind: substitution
+  wrong: 'wall[- ]flower'
+  right: 'wallflower'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wallflower.'
+- source: oxford
+  page: 864
+  entry: 'wallpaper'
+  kind: substitution
+  wrong: 'wall[- ]paper'
+  right: 'wallpaper'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wallpaper.'
+- source: oxford
+  page: 864
+  entry: 'wannabe'
+  kind: substitution
+  wrong: 'wannabee'
+  right: 'wannabe'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -bee.'
+- source: oxford
+  page: 864
+  entry: 'warhead'
+  kind: substitution
+  wrong: 'war[- ]head'
+  right: 'warhead'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: warhead.'
+- source: oxford
+  page: 864
+  entry: 'warhorse'
+  kind: substitution
+  wrong: 'war[- ]horse'
+  right: 'warhorse'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: warhorse.'
+- source: oxford
+  page: 864
+  entry: 'warlord'
+  kind: substitution
+  wrong: 'war[- ]lord'
+  right: 'warlord'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: warlord.'
+- source: oxford
+  page: 864
+  entry: 'warmonger'
+  kind: substitution
+  wrong: 'war[- ]monger'
+  right: 'warmonger'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: warmonger.'
+- source: oxford
+  page: 864
+  entry: 'warlike'
+  kind: substitution
+  wrong: 'war[- ]like'
+  right: 'warlike'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: warlike.'
+- source: oxford
+  page: 864
+  entry: 'warpath'
+  kind: substitution
+  wrong: 'war[- ]path'
+  right: 'warpath'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: warpath.'
+- source: oxford
+  page: 864
+  entry: 'warplane'
+  kind: substitution
+  wrong: 'war[- ]plane'
+  right: 'warplane'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: warplane.'
+- source: oxford
+  page: 864
+  entry: 'warship'
+  kind: substitution
+  wrong: 'war[- ]ship'
+  right: 'warship'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: warship.'
+- source: oxford
+  page: 864
+  entry: 'wartime'
+  kind: substitution
+  wrong: 'war[- ]time'
+  right: 'wartime'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wartime.'
+- source: oxford
+  page: 864
+  entry: 'war-torn'
+  kind: substitution
+  wrong: 'war torn'
+  right: 'war-torn'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 864
+  entry: 'Walpurgis night'
+  kind: casing
+  wrong: 'Walpurgis Night'
+  right: 'Walpurgis night'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Lower-case night.'
+- source: oxford
+  page: 865
+  entry: 'washbasin'
+  kind: substitution
+  wrong: 'wash[- ]basin'
+  right: 'washbasin'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: washbasin.'
+- source: oxford
+  page: 865
+  entry: 'washroom'
+  kind: substitution
+  wrong: 'wash[- ]room'
+  right: 'washroom'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: washroom.'
+- source: oxford
+  page: 865
+  entry: 'washtub'
+  kind: substitution
+  wrong: 'wash[- ]tub'
+  right: 'washtub'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: washtub.'
+- source: oxford
+  page: 865
+  entry: 'wastebasket'
+  kind: substitution
+  wrong: 'waste[- ]basket'
+  right: 'wastebasket'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wastebasket.'
+- source: oxford
+  page: 865
+  entry: 'wasteland'
+  kind: substitution
+  wrong: 'waste[- ]land'
+  right: 'wasteland'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wasteland.'
+- source: oxford
+  page: 865
+  entry: 'watchdog'
+  kind: substitution
+  wrong: 'watch[- ]dog'
+  right: 'watchdog'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: watchdog.'
+- source: oxford
+  page: 865
+  entry: 'watchtower'
+  kind: substitution
+  wrong: 'watch[- ]tower'
+  right: 'watchtower'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: watchtower.'
+- source: oxford
+  page: 865
+  entry: 'watchmaker'
+  kind: substitution
+  wrong: 'watch[- ]maker'
+  right: 'watchmaker'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: watchmaker.'
+- source: oxford
+  page: 865
+  entry: 'watchword'
+  kind: substitution
+  wrong: 'watch[- ]word'
+  right: 'watchword'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: watchword.'
+- source: oxford
+  page: 865
+  entry: 'waterbed'
+  kind: substitution
+  wrong: 'water[- ]bed'
+  right: 'waterbed'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waterbed.'
+- source: oxford
+  page: 865
+  entry: 'waterborne'
+  kind: substitution
+  wrong: 'water[- ]borne'
+  right: 'waterborne'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waterborne.'
+- source: oxford
+  page: 865
+  entry: 'waterfall'
+  kind: substitution
+  wrong: 'water[- ]fall'
+  right: 'waterfall'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waterfall.'
+- source: oxford
+  page: 865
+  entry: 'waterfront'
+  kind: substitution
+  wrong: 'water[- ]front'
+  right: 'waterfront'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waterfront.'
+- source: oxford
+  page: 865
+  entry: 'watercourse'
+  kind: substitution
+  wrong: 'water[- ]course'
+  right: 'watercourse'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: watercourse.'
+- source: oxford
+  page: 865
+  entry: 'watercress'
+  kind: substitution
+  wrong: 'water[- ]cress'
+  right: 'watercress'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: watercress.'
+- source: oxford
+  page: 865
+  entry: 'waterfowl'
+  kind: substitution
+  wrong: 'water[- ]fowl'
+  right: 'waterfowl'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waterfowl.'
+- source: oxford
+  page: 865
+  entry: 'waterlogged'
+  kind: substitution
+  wrong: 'water[- ]logged'
+  right: 'waterlogged'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waterlogged.'
+- source: oxford
+  page: 865
+  entry: 'watermark'
+  kind: substitution
+  wrong: 'water[- ]mark'
+  right: 'watermark'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: watermark.'
+- source: oxford
+  page: 865
+  entry: 'watermelon'
+  kind: substitution
+  wrong: 'water[- ]melon'
+  right: 'watermelon'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: watermelon.'
+- source: oxford
+  page: 865
+  entry: 'waterproof'
+  kind: substitution
+  wrong: 'water[- ]proof'
+  right: 'waterproof'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waterproof.'
+- source: oxford
+  page: 865
+  entry: 'water-resistant'
+  kind: substitution
+  wrong: 'water resistant|waterresistant'
+  right: 'water-resistant'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 865
+  entry: 'watershed'
+  kind: substitution
+  wrong: 'water[- ]shed'
+  right: 'watershed'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: watershed.'
+- source: oxford
+  page: 865
+  entry: 'watertight'
+  kind: substitution
+  wrong: 'water[- ]tight'
+  right: 'watertight'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: watertight.'
+- source: oxford
+  page: 865
+  entry: 'waterway'
+  kind: substitution
+  wrong: 'water[- ]way'
+  right: 'waterway'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waterway.'
+- source: oxford
+  page: 865
+  entry: 'waterwheel'
+  kind: substitution
+  wrong: 'water[- ]wheel'
+  right: 'waterwheel'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waterwheel.'
+- source: oxford
+  page: 865
+  entry: 'wavy'
+  kind: substitution
+  wrong: 'wavey'
+  right: 'wavy'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -y.'
+- source: oxford
+  page: 865
+  entry: 'waybill'
+  kind: substitution
+  wrong: 'way[- ]bill'
+  right: 'waybill'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waybill.'
+- source: oxford
+  page: 865
+  entry: 'waypoint'
+  kind: substitution
+  wrong: 'way[- ]point'
+  right: 'waypoint'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: waypoint.'
+- source: oxford
+  page: 866
+  entry: 'weather-beaten'
+  kind: substitution
+  wrong: 'weather beaten'
+  right: 'weather-beaten'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 866
+  entry: 'weathercock'
+  kind: substitution
+  wrong: 'weather[- ]cock'
+  right: 'weathercock'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: weathercock.'
+- source: oxford
+  page: 866
+  entry: 'weatherproof'
+  kind: substitution
+  wrong: 'weather[- ]proof'
+  right: 'weatherproof'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: weatherproof.'
+- source: oxford
+  page: 866
+  entry: 'weathervane'
+  kind: substitution
+  wrong: 'weather[- ]vane'
+  right: 'weathervane'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: weathervane.'
+- source: oxford
+  page: 866
+  entry: 'webcam'
+  kind: substitution
+  wrong: 'web[- ]cam'
+  right: 'webcam'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word, lower case.'
+- source: oxford
+  page: 866
+  entry: 'webmaster'
+  kind: substitution
+  wrong: 'web[- ]master'
+  right: 'webmaster'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: webmaster.'
+- source: oxford
+  page: 866
+  entry: 'web page'
+  kind: substitution
+  wrong: 'webpage'
+  right: 'web page'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Two words, lower case.'
+- source: oxford
+  page: 866
+  entry: 'web page'
+  kind: casing
+  wrong: 'Web page|Web Page'
+  right: 'web page'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Lower-case web.'
+- source: oxford
+  page: 866
+  entry: 'website'
+  kind: substitution
+  wrong: 'web site|Web site|web-site'
+  right: 'website'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word, lower case.'
+- source: oxford
+  page: 866
+  entry: 'website'
+  kind: casing
+  wrong: 'Website'
+  right: 'website'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Lower case.'
+- source: oxford
+  page: 866
+  entry: 'weekend'
+  kind: substitution
+  wrong: 'week[- ]end'
+  right: 'weekend'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: weekend.'
+- source: oxford
+  page: 866
+  entry: 'weekday'
+  kind: substitution
+  wrong: 'week[- ]day'
+  right: 'weekday'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: weekday.'
+- source: oxford
+  page: 866
+  entry: 'weightlifting'
+  kind: substitution
+  wrong: 'weight[- ]lifting'
+  right: 'weightlifting'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: weightlifting.'
+- source: oxford
+  page: 866
+  entry: 'weird'
+  kind: substitution
+  wrong: 'wierd'
+  right: 'weird'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell ei.'
+- source: oxford
+  page: 866
+  entry: 'welfare state'
+  kind: casing
+  wrong: 'Welfare State'
+  right: 'welfare state'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Lower case.'
+- source: oxford
+  page: 866
+  entry: 'well-being'
+  kind: substitution
+  wrong: 'wellbeing|well being'
+  right: 'well-being'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 867
+  entry: 'wellington'
+  kind: casing
+  wrong: 'Wellington boot'
+  right: 'wellington boot'
+  domain: wording
+  fix: none
+  american: false
+  context: general
+  note: 'Lower-case wellington for the boot.'
+- source: oxford
+  page: 867
+  entry: 'well-nigh'
+  kind: substitution
+  wrong: 'well nigh'
+  right: 'well-nigh'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 867
+  entry: 'wellspring'
+  kind: substitution
+  wrong: 'well[- ]spring'
+  right: 'wellspring'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wellspring.'
+- source: oxford
+  page: 867
+  entry: 'well-to-do'
+  kind: substitution
+  wrong: 'well to do'
+  right: 'well-to-do'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 867
+  entry: 'well-wisher'
+  kind: substitution
+  wrong: 'well wisher|wellwisher'
+  right: 'well-wisher'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 867
+  entry: 'welterweight'
+  kind: substitution
+  wrong: 'welter[- ]weight'
+  right: 'welterweight'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: welterweight.'
+- source: oxford
+  page: 867
+  entry: 'western hemisphere'
+  kind: casing
+  wrong: 'Western Hemisphere'
+  right: 'western hemisphere'
+  domain: wording
+  fix: none
+  american: false
+  context: general
+  note: 'Lower case.'
+- source: oxford
+  page: 867
+  entry: 'wetsuit'
+  kind: substitution
+  wrong: 'wet[- ]suit'
+  right: 'wetsuit'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wetsuit.'
+- source: oxford
+  page: 868
+  entry: 'whatsoever'
+  kind: substitution
+  wrong: 'what so ever'
+  right: 'whatsoever'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 868
+  entry: 'wheelbarrow'
+  kind: substitution
+  wrong: 'wheel[- ]barrow'
+  right: 'wheelbarrow'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wheelbarrow.'
+- source: oxford
+  page: 868
+  entry: 'wheelchair'
+  kind: substitution
+  wrong: 'wheel[- ]chair'
+  right: 'wheelchair'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wheelchair.'
+- source: oxford
+  page: 868
+  entry: 'wheelbase'
+  kind: substitution
+  wrong: 'wheel[- ]base'
+  right: 'wheelbase'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wheelbase.'
+- source: oxford
+  page: 868
+  entry: 'wheeler-dealer'
+  kind: substitution
+  wrong: 'wheeler dealer'
+  right: 'wheeler-dealer'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 868
+  entry: 'whence'
+  kind: substitution
+  wrong: 'from whence'
+  right: 'whence'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'From whence is redundant.'
+- source: oxford
+  page: 868
+  entry: 'wherewithal'
+  kind: substitution
+  wrong: 'wherewithall'
+  right: 'wherewithal'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not -all.'
+- source: oxford
+  page: 868
+  entry: 'whilst'
+  kind: substitution
+  wrong: 'whilst'
+  right: 'while'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Prefer while.'
+- source: oxford
+  page: 868
+  entry: 'whinny'
+  kind: substitution
+  wrong: 'whinney'
+  right: 'whinny'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -y.'
+- source: oxford
+  page: 868
+  entry: 'whippersnapper'
+  kind: substitution
+  wrong: 'whipper[- ]snapper'
+  right: 'whippersnapper'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 868
+  entry: 'whitecap'
+  kind: substitution
+  wrong: 'white[- ]cap'
+  right: 'whitecap'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: whitecap.'
+- source: oxford
+  page: 868
+  entry: 'whiteboard'
+  kind: substitution
+  wrong: 'white[- ]board'
+  right: 'whiteboard'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: whiteboard.'
+- source: oxford
+  page: 868
+  entry: 'whitewash'
+  kind: substitution
+  wrong: 'white[- ]wash'
+  right: 'whitewash'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: whitewash.'
+- source: oxford
+  page: 869
+  entry: 'wholehearted'
+  kind: substitution
+  wrong: 'whole-hearted|whole hearted'
+  right: 'wholehearted'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 869
+  entry: 'wholegrain'
+  kind: substitution
+  wrong: 'whole[- ]grain'
+  right: 'wholegrain'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 869
+  entry: 'wholemeal'
+  kind: substitution
+  wrong: 'whole[- ]meal'
+  right: 'wholemeal'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'One word in Oxford.'
+- source: oxford
+  page: 869
+  entry: 'whoopee cushion'
+  kind: substitution
+  wrong: 'whoopie cushion'
+  right: 'whoopee cushion'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Spell -ee.'
+- source: oxford
+  page: 869
+  entry: 'whooping cough'
+  kind: substitution
+  wrong: 'hooping cough'
+  right: 'whooping cough'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Starts with wh.'
+- source: oxford
+  page: 869
+  entry: 'wicketkeeper'
+  kind: substitution
+  wrong: 'wicket[- ]keeper'
+  right: 'wicketkeeper'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 869
+  entry: 'widescreen'
+  kind: substitution
+  wrong: 'wide[- ]screen'
+  right: 'widescreen'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 869
+  entry: 'widespread'
+  kind: substitution
+  wrong: 'wide-spread|wide spread'
+  right: 'widespread'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 869
+  entry: 'wildfire'
+  kind: substitution
+  wrong: 'wild[- ]fire'
+  right: 'wildfire'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wildfire.'
+- source: oxford
+  page: 869
+  entry: 'wild flower'
+  kind: substitution
+  wrong: 'wildflower'
+  right: 'wild flower'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Two words in Oxford.'
+- source: oxford
+  page: 869
+  entry: 'wildlife'
+  kind: substitution
+  wrong: 'wild[- ]life'
+  right: 'wildlife'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wildlife.'
+- source: oxford
+  page: 869
+  entry: 'willpower'
+  kind: substitution
+  wrong: 'will[- ]power'
+  right: 'willpower'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: willpower.'
+- source: oxford
+  page: 869
+  entry: 'Wi-Fi'
+  kind: casing
+  wrong: 'wifi|WiFi|Wi-fi|wi-fi|Wifi'
+  right: 'Wi-Fi'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Capital W and F with hyphen.'
+- source: oxford
+  page: 870
+  entry: 'windbreak'
+  kind: substitution
+  wrong: 'wind[- ]break'
+  right: 'windbreak'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: windbreak.'
+- source: oxford
+  page: 870
+  entry: 'windbag'
+  kind: substitution
+  wrong: 'wind[- ]bag'
+  right: 'windbag'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: windbag.'
+- source: oxford
+  page: 870
+  entry: 'wind chill'
+  kind: substitution
+  wrong: 'wind-chill|windchill'
+  right: 'wind chill'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 870
+  entry: 'windfall'
+  kind: substitution
+  wrong: 'wind[- ]fall'
+  right: 'windfall'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: windfall.'
+- source: oxford
+  page: 870
+  entry: 'wind farm'
+  kind: substitution
+  wrong: 'windfarm'
+  right: 'wind farm'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 870
+  entry: 'windmill'
+  kind: substitution
+  wrong: 'wind[- ]mill'
+  right: 'windmill'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: windmill.'
+- source: oxford
+  page: 870
+  entry: 'windowpane'
+  kind: substitution
+  wrong: 'window[- ]pane'
+  right: 'windowpane'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: windowpane.'
+- source: oxford
+  page: 870
+  entry: 'windowsill'
+  kind: substitution
+  wrong: 'window[- ]sill'
+  right: 'windowsill'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: windowsill.'
+- source: oxford
+  page: 870
+  entry: 'windpipe'
+  kind: substitution
+  wrong: 'wind[- ]pipe'
+  right: 'windpipe'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: windpipe.'
+- source: oxford
+  page: 870
+  entry: 'windproof'
+  kind: substitution
+  wrong: 'wind[- ]proof'
+  right: 'windproof'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: windproof.'
+- source: oxford
+  page: 870
+  entry: 'windsurfing'
+  kind: substitution
+  wrong: 'wind[- ]surfing'
+  right: 'windsurfing'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: windsurfing.'
+- source: oxford
+  page: 870
+  entry: 'windswept'
+  kind: substitution
+  wrong: 'wind[- ]swept'
+  right: 'windswept'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: windswept.'
+- source: oxford
+  page: 870
+  entry: 'windstorm'
+  kind: substitution
+  wrong: 'wind[- ]storm'
+  right: 'windstorm'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: windstorm.'
+- source: oxford
+  page: 870
+  entry: 'winemaker'
+  kind: substitution
+  wrong: 'wine[- ]maker'
+  right: 'winemaker'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: winemaker.'
+- source: oxford
+  page: 870
+  entry: 'wingspan'
+  kind: substitution
+  wrong: 'wing[- ]span'
+  right: 'wingspan'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wingspan.'
+- source: oxford
+  page: 870
+  entry: 'wintertime'
+  kind: substitution
+  wrong: 'winter[- ]time'
+  right: 'wintertime'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wintertime.'
+- source: oxford
+  page: 870
+  entry: 'wiretapping'
+  kind: substitution
+  wrong: 'wire[- ]tapping'
+  right: 'wiretapping'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wiretapping.'
+- source: oxford
+  page: 870
+  entry: 'wiry'
+  kind: substitution
+  wrong: 'wirey'
+  right: 'wiry'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -y.'
+- source: oxford
+  page: 870
+  entry: 'wisecrack'
+  kind: substitution
+  wrong: 'wise[- ]crack'
+  right: 'wisecrack'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wisecrack.'
+- source: oxford
+  page: 870
+  entry: 'wishbone'
+  kind: substitution
+  wrong: 'wish[- ]bone'
+  right: 'wishbone'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wishbone.'
+- source: oxford
+  page: 870
+  entry: 'witches'' sabbath'
+  kind: casing
+  wrong: 'Witches'' Sabbath|Witches Sabbath|witches sabbath'
+  right: 'witches'' sabbath'
+  domain: wording
+  fix: none
+  american: false
+  context: general
+  note: 'Lower case with apostrophe after s.'
+- source: oxford
+  page: 870
+  entry: 'witchetty grub'
+  kind: substitution
+  wrong: 'witchety grub'
+  right: 'witchetty grub'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -etty.'
+- source: oxford
+  page: 870
+  entry: 'withhold'
+  kind: substitution
+  wrong: 'withold'
+  right: 'withhold'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Two hs.'
+- source: oxford
+  page: 870
+  entry: 'wizened'
+  kind: substitution
+  wrong: 'weazened'
+  right: 'wizened'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not weaz-.'
+- source: oxford
+  page: 871
+  entry: 'wonderland'
+  kind: substitution
+  wrong: 'wonder[- ]land'
+  right: 'wonderland'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wonderland.'
+- source: oxford
+  page: 871
+  entry: 'wondrous'
+  kind: substitution
+  wrong: 'wonderous'
+  right: 'wondrous'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not wonder-.'
+- source: oxford
+  page: 871
+  entry: 'woodblock'
+  kind: substitution
+  wrong: 'wood[- ]block'
+  right: 'woodblock'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: woodblock.'
+- source: oxford
+  page: 871
+  entry: 'woodcut'
+  kind: substitution
+  wrong: 'wood[- ]cut'
+  right: 'woodcut'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: woodcut.'
+- source: oxford
+  page: 871
+  entry: 'woodland'
+  kind: substitution
+  wrong: 'wood[- ]land'
+  right: 'woodland'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: woodland.'
+- source: oxford
+  page: 871
+  entry: 'woodshed'
+  kind: substitution
+  wrong: 'wood[- ]shed'
+  right: 'woodshed'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: woodshed.'
+- source: oxford
+  page: 871
+  entry: 'woodwind'
+  kind: substitution
+  wrong: 'wood[- ]wind'
+  right: 'woodwind'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: woodwind.'
+- source: oxford
+  page: 871
+  entry: 'woodworm'
+  kind: substitution
+  wrong: 'wood[- ]worm'
+  right: 'woodworm'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: woodworm.'
+- source: oxford
+  page: 871
+  entry: 'wordplay'
+  kind: substitution
+  wrong: 'word[- ]play'
+  right: 'wordplay'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wordplay.'
+- source: oxford
+  page: 872
+  entry: 'wordsmith'
+  kind: substitution
+  wrong: 'word[- ]smith'
+  right: 'wordsmith'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wordsmith.'
+- source: oxford
+  page: 872
+  entry: 'workbench'
+  kind: substitution
+  wrong: 'work[- ]bench'
+  right: 'workbench'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: workbench.'
+- source: oxford
+  page: 872
+  entry: 'workbook'
+  kind: substitution
+  wrong: 'work[- ]book'
+  right: 'workbook'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: workbook.'
+- source: oxford
+  page: 872
+  entry: 'workflow'
+  kind: substitution
+  wrong: 'work[- ]flow'
+  right: 'workflow'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: workflow.'
+- source: oxford
+  page: 872
+  entry: 'workforce'
+  kind: substitution
+  wrong: 'work[- ]force'
+  right: 'workforce'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: workforce.'
+- source: oxford
+  page: 872
+  entry: 'workhorse'
+  kind: substitution
+  wrong: 'work[- ]horse'
+  right: 'workhorse'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: workhorse.'
+- source: oxford
+  page: 872
+  entry: 'workload'
+  kind: substitution
+  wrong: 'work[- ]load'
+  right: 'workload'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: workload.'
+- source: oxford
+  page: 872
+  entry: 'workmate'
+  kind: substitution
+  wrong: 'work[- ]mate'
+  right: 'workmate'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: workmate.'
+- source: oxford
+  page: 872
+  entry: 'workplace'
+  kind: substitution
+  wrong: 'work[- ]place'
+  right: 'workplace'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: workplace.'
+- source: oxford
+  page: 872
+  entry: 'worksheet'
+  kind: substitution
+  wrong: 'work[- ]sheet'
+  right: 'worksheet'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: worksheet.'
+- source: oxford
+  page: 872
+  entry: 'workshop'
+  kind: substitution
+  wrong: 'work[- ]shop'
+  right: 'workshop'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: workshop.'
+- source: oxford
+  page: 872
+  entry: 'workspace'
+  kind: substitution
+  wrong: 'work[- ]space'
+  right: 'workspace'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: workspace.'
+- source: oxford
+  page: 872
+  entry: 'workstation'
+  kind: substitution
+  wrong: 'work[- ]station'
+  right: 'workstation'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: workstation.'
+- source: oxford
+  page: 872
+  entry: 'world-class'
+  kind: substitution
+  wrong: 'world class'
+  right: 'world-class'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate as modifier.'
+- source: oxford
+  page: 872
+  entry: 'world-famous'
+  kind: substitution
+  wrong: 'world famous'
+  right: 'world-famous'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 872
+  entry: 'worldwide'
+  kind: substitution
+  wrong: 'world[- ]wide(?! web)'
+  right: 'worldwide'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 872
+  entry: 'World Wide Web'
+  kind: casing
+  wrong: 'worldwide web|World wide web|world wide web'
+  right: 'World Wide Web'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Three words, capitalized.'
+- source: oxford
+  page: 872
+  entry: 'wormhole'
+  kind: substitution
+  wrong: 'worm[- ]hole'
+  right: 'wormhole'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wormhole.'
+- source: oxford
+  page: 872
+  entry: 'worm''s-eye view'
+  kind: substitution
+  wrong: 'worms-eye view|worm''s eye view|worms eye view'
+  right: 'worm''s-eye view'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One hyphen and apostrophe before s.'
+- source: oxford
+  page: 872
+  entry: 'would-be'
+  kind: substitution
+  wrong: 'wouldbe'
+  right: 'would-be'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 872
+  entry: 'wrap-around'
+  kind: substitution
+  wrong: 'wraparound'
+  right: 'wrap-around'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Hyphenated in Oxford.'
+- source: oxford
+  page: 872
+  entry: 'wrinkly'
+  kind: substitution
+  wrong: 'wrinkley'
+  right: 'wrinkly'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Spell -y.'
+- source: oxford
+  page: 872
+  entry: 'wristwatch'
+  kind: substitution
+  wrong: 'wrist[- ]watch'
+  right: 'wristwatch'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wristwatch.'
+- source: oxford
+  page: 872
+  entry: 'wristband'
+  kind: substitution
+  wrong: 'wrist[- ]band'
+  right: 'wristband'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: wristband.'
+- source: oxford
+  page: 872
+  entry: 'writable'
+  kind: substitution
+  wrong: 'writeable'
+  right: 'writable'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Not -eable.'
+- source: oxford
+  page: 872
+  entry: 'write-off'
+  kind: substitution
+  wrong: 'writeoff'
+  right: 'write-off'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenated noun.'
+- source: oxford
+  page: 872
+  entry: 'writer-in-residence'
+  kind: substitution
+  wrong: 'writer in residence'
+  right: 'writer-in-residence'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 872
+  entry: 'write-up'
+  kind: substitution
+  wrong: 'writeup'
+  right: 'write-up'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenated noun.'
+- source: oxford
+  page: 873
+  entry: 'wrongdoer'
+  kind: substitution
+  wrong: 'wrong[- ]doer'
+  right: 'wrongdoer'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 873
+  entry: 'wrongdoing'
+  kind: substitution
+  wrong: 'wrong[- ]doing'
+  right: 'wrongdoing'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word.'
+- source: oxford
+  page: 873
+  entry: 'wrong-headed'
+  kind: substitution
+  wrong: 'wrongheaded|wrong headed'
+  right: 'wrong-headed'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Hyphenated in Oxford.'
+- source: oxford
+  page: 873
+  entry: 'wunderkind'
+  kind: substitution
+  wrong: 'wonderkind'
+  right: 'wunderkind'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not won-.'
+- source: oxford
+  page: 873
+  entry: 'wyvern'
+  kind: substitution
+  wrong: 'wivern'
+  right: 'wyvern'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not wiv-.'
+- source: oxford
+  page: 874
+  entry: 'X chromosome'
+  kind: substitution
+  wrong: 'X-chromosome|x chromosome'
+  right: 'X chromosome'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Capital X, two words.'
+- source: oxford
+  page: 874
+  entry: 'X-ray'
+  kind: casing
+  wrong: 'x-ray|X ray|Xray'
+  right: 'X-ray'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Capital X with hyphen.'
+- source: oxford
+  page: 874
+  entry: 'X-rated'
+  kind: casing
+  wrong: 'x-rated|X rated'
+  right: 'X-rated'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Capital X with hyphen.'
+- source: oxford
+  page: 875
+  entry: 'Yahweh'
+  kind: substitution
+  wrong: 'Jahweh'
+  right: 'Yahweh'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Not Jahweh.'
+- source: oxford
+  page: 875
+  entry: 'yardarm'
+  kind: substitution
+  wrong: 'yard[- ]arm'
+  right: 'yardarm'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: yardarm.'
+- source: oxford
+  page: 875
+  entry: 'yardstick'
+  kind: substitution
+  wrong: 'yard[- ]stick'
+  right: 'yardstick'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: yardstick.'
+- source: oxford
+  page: 875
+  entry: 'year end'
+  kind: substitution
+  wrong: 'yearend'
+  right: 'year end'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: 'Two words.'
+- source: oxford
+  page: 875
+  entry: 'year-on-year'
+  kind: substitution
+  wrong: 'year on year'
+  right: 'year-on-year'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 875
+  entry: 'year-round'
+  kind: substitution
+  wrong: 'year round'
+  right: 'year-round'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 875
+  entry: 'yearbook'
+  kind: substitution
+  wrong: 'year[- ]book'
+  right: 'yearbook'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: yearbook.'
+- source: oxford
+  page: 875
+  entry: 'yes-man'
+  kind: substitution
+  wrong: 'yesman|yes man'
+  right: 'yes-man'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 875
+  entry: 'yo-yo'
+  kind: substitution
+  wrong: 'yoyo|yo yo'
+  right: 'yo-yo'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Hyphenate.'
+- source: oxford
+  page: 876
+  entry: 'yours'
+  kind: substitution
+  wrong: 'your''s'
+  right: 'yours'
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'No apostrophe.'
+- source: oxford
+  page: 877
+  entry: 'zeitgeist'
+  kind: casing
+  wrong: 'Zeitgeist'
+  right: 'zeitgeist'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Lower case, not italic.'
+- source: oxford
+  page: 878
+  entry: 'zigzag'
+  kind: substitution
+  wrong: 'zig[- ]zag'
+  right: 'zigzag'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: zigzag.'
+- source: oxford
+  page: 878
+  entry: 'zookeeper'
+  kind: substitution
+  wrong: 'zoo[- ]keeper'
+  right: 'zookeeper'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Write as one word: zookeeper.'
+- source: oxford
+  page: 896
+  entry: 'SI units'
+  kind: casing
+  wrong: '(?<=\d )(?:Km|KM)'
+  right: 'km'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Kilometre symbol is lower-case km.'
+- source: oxford
+  page: 896
+  entry: 'SI units'
+  kind: casing
+  wrong: '(?<=\d )(?:Kg|KG)'
+  right: 'kg'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Kilogram symbol is lower-case kg.'
+- source: oxford
+  page: 896
+  entry: 'SI units'
+  kind: existence
+  wrong: '(?<=\d )(?:Watts?|Joules?|Newtons?|Pascals?|Hertz|Volts?|Ohms?)'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'SI unit names written out are lower case.'

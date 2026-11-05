@@ -1,0 +1,2457 @@
+- source: ap
+  page: 1201
+  entry: "Calcutta"
+  kind: substitution
+  wrong: "Calcutta"
+  right: "Kolkata"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use the current city name Kolkata."
+- source: ap
+  page: 1201
+  entry: "caliber"
+  kind: substitution
+  wrong: "calibre"
+  right: "caliber"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American spelling caliber."
+- source: ap
+  page: 1201
+  entry: "Canada goose"
+  kind: substitution
+  wrong: "Canadian goose"
+  right: "Canada goose"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "The bird is a Canada goose."
+- source: ap
+  page: 1201
+  entry: "cancel"
+  kind: substitution
+  wrong: "cancelled"
+  right: "canceled"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single l in past tense."
+- source: ap
+  page: 1201
+  entry: "cancel"
+  kind: substitution
+  wrong: "cancelling"
+  right: "canceling"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single l in present participle."
+- source: ap
+  page: 1201
+  entry: "cancellation"
+  kind: substitution
+  wrong: "cancelation"
+  right: "cancellation"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Noun keeps double l."
+- source: ap
+  page: 1203
+  entry: "cardholder"
+  kind: substitution
+  wrong: "(?<!credit )card holder"
+  right: "cardholder"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word; credit card holder stays three words."
+- source: ap
+  page: 1204
+  entry: "casualties (nonpreferred)"
+  kind: existence
+  wrong: "casualties"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred alone; specify deaths and injuries instead. Judgment needed."
+- source: ap
+  page: 1204
+  entry: "cash or collect on delivery (nonpreferred)"
+  kind: substitution
+  wrong: "cash or collect on delivery"
+  right: "c.o.d."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Guide marks the spelled-out phrase nonpreferred; use c.o.d."
+- source: ap
+  page: 1204
+  entry: "caregiver, caretaker"
+  kind: substitution
+  wrong: "care[- ]giver"
+  right: "caregiver"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1204
+  entry: "catatonic (derogatory)"
+  kind: existence
+  wrong: "catatonic"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Derogatory in everyday descriptions of people; avoid unless clinical."
+- source: ap
+  page: 1205
+  entry: "Caucasian (nonpreferred)"
+  kind: existence
+  wrong: "Caucasian"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred as a racial term; use white or specific ethnicity."
+- source: ap
+  page: 1205
+  entry: "cease-fire"
+  kind: substitution
+  wrong: "cease ?fire"
+  right: "cease-fire"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1205
+  entry: "cellphone"
+  kind: substitution
+  wrong: "cell[- ]phone"
+  right: "cellphone"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1205
+  entry: "CT scan"
+  kind: substitution
+  wrong: "CAT scan"
+  right: "CT scan"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use CT scan."
+- source: ap
+  page: 1206
+  entry: "centigrade (nonpreferred)"
+  kind: substitution
+  wrong: "centigrade"
+  right: "Celsius"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Celsius."
+- source: ap
+  page: 1208
+  entry: "checkup"
+  kind: substitution
+  wrong: "check-up"
+  right: "checkup"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Noun is one word."
+- source: ap
+  page: 1208
+  entry: "chickenpox"
+  kind: substitution
+  wrong: "chicken[- ]pox"
+  right: "chickenpox"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1209
+  entry: "child care"
+  kind: substitution
+  wrong: "child-?care"
+  right: "child care"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 1209
+  entry: "child-free, childless (nonpreferred)"
+  kind: existence
+  wrong: "child-?free|childless"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; say a person has no children."
+- source: ap
+  page: 1209
+  entry: "child prostitute (nonpreferred)"
+  kind: existence
+  wrong: "child prostitutes?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; describe as sexual exploitation of a child."
+- source: ap
+  page: 1209
+  entry: "Chinese New Year (nonpreferred)"
+  kind: substitution
+  wrong: "Chinese New Year"
+  right: "Lunar New Year"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use Lunar New Year."
+- source: ap
+  page: 1209
+  entry: "chipmaker"
+  kind: substitution
+  wrong: "chip[- ]maker"
+  right: "chipmaker"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1209
+  entry: "chipmaking"
+  kind: substitution
+  wrong: "chip[- ]making"
+  right: "chipmaking"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1210
+  entry: "Christmas"
+  kind: casing
+  wrong: "christmas"
+  right: "Christmas"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize."
+- source: ap
+  page: 1210
+  entry: "Christmastime"
+  kind: substitution
+  wrong: "Christmas[- ]time"
+  right: "Christmastime"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1210
+  entry: "Christmas tree"
+  kind: casing
+  wrong: "Christmas Tree"
+  right: "Christmas tree"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase tree."
+- source: ap
+  page: 1210
+  entry: "Chromebook"
+  kind: casing
+  wrong: "chromebook"
+  right: "Chromebook"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalized trademark."
+- source: ap
+  page: 1210
+  entry: "churchgoer"
+  kind: substitution
+  wrong: "church[- ]goer"
+  right: "churchgoer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1211
+  entry: "citywide"
+  kind: substitution
+  wrong: "city[- ]wide"
+  right: "citywide"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1211
+  entry: "city fathers (nonpreferred)"
+  kind: substitution
+  wrong: "city fathers"
+  right: "city leaders"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Gendered; use city leaders."
+- source: ap
+  page: 1211
+  entry: "civil lawsuit (redundant)"
+  kind: substitution
+  wrong: "civil lawsuit"
+  right: "lawsuit"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lawsuit is already civil; drop the adjective."
+- source: ap
+  page: 1211
+  entry: "CJD (nonpreferred)"
+  kind: existence
+  wrong: "CJD"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred abbreviation for Creutzfeldt-Jakob disease."
+- source: ap
+  page: 1214
+  entry: "cocktail (drug mixture)"
+  kind: existence
+  wrong: "drug cocktails?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred for drug mixtures; describe the drugs."
+- source: ap
+  page: 1214
+  entry: "Cold War"
+  kind: casing
+  wrong: "cold war"
+  right: "Cold War"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize for the historical conflict."
+- source: ap
+  page: 1214
+  entry: "collectibles"
+  kind: substitution
+  wrong: "collectables"
+  right: "collectibles"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spell with i."
+- source: ap
+  page: 1215
+  entry: "colored (nonpreferred)"
+  kind: existence
+  wrong: "colored (?:people|persons?|folks|men|man|women|woman)"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred as a racial descriptor."
+- source: ap
+  page: 1215
+  entry: "combat"
+  kind: substitution
+  wrong: "combatted"
+  right: "combated"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single t in past tense."
+- source: ap
+  page: 1215
+  entry: "combat"
+  kind: substitution
+  wrong: "combatting"
+  right: "combating"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single t in present participle."
+- source: ap
+  page: 1216
+  entry: "commander in chief"
+  kind: substitution
+  wrong: "commander-in-chief"
+  right: "commander in chief"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "No hyphens."
+- source: ap
+  page: 1216
+  entry: "commit suicide"
+  kind: existence
+  wrong: "commit(?:s|ted|ting)? suicide"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Avoid the criminal framing; use died by suicide. Legal contexts may differ."
+- source: ap
+  page: 1218
+  entry: "compose, comprise, constitute"
+  kind: substitution
+  wrong: "comprised of"
+  right: "composed of"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Comprise means include; avoid comprised of."
+- source: ap
+  page: 1219
+  entry: "confidant (nonpreferred confidante)"
+  kind: substitution
+  wrong: "confidante"
+  right: "confidant"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use confidant for either gender."
+- source: ap
+  page: 1221
+  entry: "Consumer Electronics Show (nonpreferred)"
+  kind: substitution
+  wrong: "Consumer Electronics Show"
+  right: "CES"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use the abbreviation CES."
+- source: ap
+  page: 1221
+  entry: "contemptible"
+  kind: substitution
+  wrong: "contemptable"
+  right: "contemptible"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell with ible."
+- source: ap
+  page: 1222
+  entry: "cooperate"
+  kind: substitution
+  wrong: "co-operate"
+  right: "cooperate"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1222
+  entry: "cooperative"
+  kind: substitution
+  wrong: "co-operative"
+  right: "cooperative"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word; co-op is the short noun."
+- source: ap
+  page: 1223
+  entry: "co-respondent"
+  kind: substitution
+  wrong: "corespondent"
+  right: "co-respondent"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1223
+  entry: "Corn Belt"
+  kind: casing
+  wrong: "corn belt"
+  right: "Corn Belt"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize."
+- source: ap
+  page: 1224
+  entry: "Cotton Belt"
+  kind: casing
+  wrong: "cotton belt"
+  right: "Cotton Belt"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize."
+- source: ap
+  page: 1225
+  entry: "coup d'etat"
+  kind: substitution
+  wrong: "coup d['’]état"
+  right: "coup d'etat"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No accent mark."
+- source: ap
+  page: 1226
+  entry: "courthouse"
+  kind: substitution
+  wrong: "court[- ]house"
+  right: "courthouse"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1226
+  entry: "courtroom"
+  kind: substitution
+  wrong: "court[- ]room"
+  right: "courtroom"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1226
+  entry: "court-martial"
+  kind: substitution
+  wrong: "court martial"
+  right: "court-martial"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1226
+  entry: "court-martialed"
+  kind: substitution
+  wrong: "court-martialled"
+  right: "court-martialed"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single l."
+- source: ap
+  page: 1226
+  entry: "COVID-19"
+  kind: casing
+  wrong: "Covid-19|covid-19|COVID19|Covid 19"
+  right: "COVID-19"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "All caps with hyphen."
+- source: ap
+  page: 1226
+  entry: "coworking"
+  kind: substitution
+  wrong: "co-working"
+  right: "coworking"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1226
+  entry: "coworker"
+  kind: substitution
+  wrong: "co-worker"
+  right: "coworker"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1227
+  entry: "CPI (nonpreferred)"
+  kind: substitution
+  wrong: "CPI"
+  right: "consumer price index"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Spell out consumer price index. CPI may mean other things."
+- source: ap
+  page: 1227
+  entry: "crackhead (derogatory)"
+  kind: existence
+  wrong: "crackheads?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Derogatory for people who use drugs."
+- source: ap
+  page: 1228
+  entry: "crossfire"
+  kind: substitution
+  wrong: "cross[- ]fire"
+  right: "crossfire"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1228
+  entry: "cross-examination"
+  kind: substitution
+  wrong: "cross examination"
+  right: "cross-examination"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1228
+  entry: "cross-examine"
+  kind: substitution
+  wrong: "cross examine"
+  right: "cross-examine"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1228
+  entry: "CRT (nonpreferred)"
+  kind: existence
+  wrong: "CRT"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred for critical race theory; also means cathode ray tube."
+- source: ap
+  page: 1228
+  entry: "cryptocurrency"
+  kind: substitution
+  wrong: "crypto[- ]currency"
+  right: "cryptocurrency"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1228
+  entry: "cupful"
+  kind: substitution
+  wrong: "cupsful"
+  right: "cupfuls"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural is cupfuls."
+- source: ap
+  page: 1229
+  entry: "cyberattack"
+  kind: substitution
+  wrong: "cyber[- ]attack"
+  right: "cyberattack"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1232
+  entry: "dashcam"
+  kind: substitution
+  wrong: "dash[- ]cam"
+  right: "dashcam"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1232
+  entry: "database"
+  kind: substitution
+  wrong: "data[- ]base"
+  right: "database"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1232
+  entry: "databank"
+  kind: substitution
+  wrong: "data[- ]bank"
+  right: "databank"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1232
+  entry: "data center"
+  kind: substitution
+  wrong: "data-?centers?"
+  right: "data center"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 1233
+  entry: "daylight saving time"
+  kind: substitution
+  wrong: "daylight savings"
+  right: "daylight saving"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Singular saving."
+- source: ap
+  page: 1233
+  entry: "day care"
+  kind: substitution
+  wrong: "day-?care"
+  right: "day care"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 1233
+  entry: "daylong"
+  kind: substitution
+  wrong: "day[- ]long"
+  right: "daylong"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1233
+  entry: "dayslong"
+  kind: substitution
+  wrong: "days[- ]long"
+  right: "dayslong"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1233
+  entry: "daytime"
+  kind: substitution
+  wrong: "day[- ]time"
+  right: "daytime"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1234
+  entry: "dean's list"
+  kind: casing
+  wrong: "Dean['’]s List"
+  right: "dean's list"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase."
+- source: ap
+  page: 1234
+  entry: "deathbed"
+  kind: substitution
+  wrong: "death[- ]bed"
+  right: "deathbed"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1234
+  entry: "D-Day"
+  kind: casing
+  wrong: "D-day|d-day"
+  right: "D-Day"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capital D after hyphen."
+- source: ap
+  page: 1234
+  entry: "deaf and dumb (derogatory)"
+  kind: existence
+  wrong: "deaf and dumb|deaf[- ]mute|deaf[- ]and[- ]dumb"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Derogatory or nonpreferred; use deaf or hard of hearing."
+- source: ap
+  page: 1235
+  entry: "death with dignity (nonpreferred)"
+  kind: existence
+  wrong: "death with dignity"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred euphemism; see suicide guidance."
+- source: ap
+  page: 1235
+  entry: "Declaration of Independence"
+  kind: casing
+  wrong: "declaration of independence"
+  right: "Declaration of Independence"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize."
+- source: ap
+  page: 1236
+  entry: "deepfake"
+  kind: substitution
+  wrong: "deep[- ]fake"
+  right: "deepfake"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1236
+  entry: "defense"
+  kind: substitution
+  wrong: "defence"
+  right: "defense"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American spelling."
+- source: ap
+  page: 1236
+  entry: "defenseman (nonpreferred)"
+  kind: existence
+  wrong: "defensemen|defenseman"
+  domain: wording
+  fix: none
+  american: true
+  context: sports
+  note: "Nonpreferred in soccer; use defender."
+- source: ap
+  page: 1237
+  entry: "demented (nonpreferred)"
+  kind: existence
+  wrong: "demented"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; use dementia or person with dementia."
+- source: ap
+  page: 1238
+  entry: "dependent"
+  kind: substitution
+  wrong: "dependant"
+  right: "dependent"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Same spelling for noun and adjective."
+- source: ap
+  page: 1239
+  entry: "derelict (nonpreferred)"
+  kind: existence
+  wrong: "derelicts?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred for homeless people; also a ship or building term."
+- source: ap
+  page: 1239
+  entry: "detente"
+  kind: substitution
+  wrong: "détente"
+  right: "detente"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No accent mark."
+- source: ap
+  page: 1240
+  entry: "dew point"
+  kind: substitution
+  wrong: "dew-?point"
+  right: "dew point"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 1240
+  entry: "dietitian"
+  kind: substitution
+  wrong: "dietician"
+  right: "dietitian"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Spell with t."
+- source: ap
+  page: 1241
+  entry: "differently abled (nonpreferred)"
+  kind: existence
+  wrong: "differently[- ]abled"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred euphemism for disability."
+- source: ap
+  page: 1241
+  entry: "digitize"
+  kind: substitution
+  wrong: "digitalize"
+  right: "digitize"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use digitize."
+- source: ap
+  page: 1243
+  entry: "dissociate"
+  kind: substitution
+  wrong: "disassociate"
+  right: "dissociate"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Prefer dissociate."
+- source: ap
+  page: 1245
+  entry: "do's and don'ts"
+  kind: substitution
+  wrong: "dos and don['’]ts|do['’]s and dont['’]s|do['’]s and don['’]t['’]s"
+  right: "do's and don'ts"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Apostrophes in both words."
+- source: ap
+  page: 1246
+  entry: "down payment"
+  kind: substitution
+  wrong: "down-?payment"
+  right: "down payment"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 1246
+  entry: "Down syndrome"
+  kind: substitution
+  wrong: "Down['’]?s syndrome"
+  right: "Down syndrome"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No possessive."
+- source: ap
+  page: 1246
+  entry: "Down syndrome"
+  kind: casing
+  wrong: "down syndrome"
+  right: "Down syndrome"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capital D."
+- source: ap
+  page: 1247
+  entry: "drive-thru"
+  kind: substitution
+  wrong: "drive-through"
+  right: "drive-thru"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use drive-thru except in proper names."
+- source: ap
+  page: 1247
+  entry: "drop-down"
+  kind: substitution
+  wrong: "dropdown"
+  right: "drop-down"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1247
+  entry: "drugmaker"
+  kind: substitution
+  wrong: "drug[- ]maker"
+  right: "drugmaker"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1247
+  entry: "drugstore"
+  kind: substitution
+  wrong: "drug[- ]store"
+  right: "drugstore"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1247
+  entry: "drunks (nonpreferred)"
+  kind: existence
+  wrong: "drunks"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred noun; see alcoholic guidance."
+- source: ap
+  page: 1247
+  entry: "driver's license"
+  kind: substitution
+  wrong: "drivers['’]? license|driver license"
+  right: "driver's license"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Possessive driver's."
+- source: ap
+  page: 1248
+  entry: "duffel"
+  kind: substitution
+  wrong: "duffle"
+  right: "duffel"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spell duffel."
+- source: ap
+  page: 1250
+  entry: "earbuds"
+  kind: substitution
+  wrong: "ear[- ]buds"
+  right: "earbuds"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1250
+  entry: "earphones"
+  kind: substitution
+  wrong: "ear[- ]phones"
+  right: "earphones"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1250
+  entry: "headphones"
+  kind: substitution
+  wrong: "head[- ]phones"
+  right: "headphones"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1250
+  entry: "headsets"
+  kind: substitution
+  wrong: "head[- ]set"
+  right: "headset"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1251
+  entry: "e-book"
+  kind: substitution
+  wrong: "ebook|eBook"
+  right: "e-book"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenated, lowercase e."
+- source: ap
+  page: 1251
+  entry: "e-cigarette"
+  kind: substitution
+  wrong: "ecigarettes?"
+  right: "e-cigarette"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1251
+  entry: "e-reader"
+  kind: substitution
+  wrong: "ereaders?"
+  right: "e-reader"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1252
+  entry: "ecosystem"
+  kind: substitution
+  wrong: "eco[- ]system"
+  right: "ecosystem"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1252
+  entry: "ecotourism"
+  kind: substitution
+  wrong: "eco[- ]tourism"
+  right: "ecotourism"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1253
+  entry: "Election Day"
+  kind: casing
+  wrong: "election day"
+  right: "Election Day"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Capitalize for the national Election Day."
+- source: ap
+  page: 1253
+  entry: "Electoral College"
+  kind: casing
+  wrong: "electoral college"
+  right: "Electoral College"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize."
+- source: ap
+  page: 1254
+  entry: "El Nino"
+  kind: substitution
+  wrong: "El Niño"
+  right: "El Nino"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No tilde."
+- source: ap
+  page: 1254
+  entry: "La Nina"
+  kind: substitution
+  wrong: "La Niña"
+  right: "La Nina"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No tilde."
+- source: ap
+  page: 1254
+  entry: "email"
+  kind: substitution
+  wrong: "e-mail"
+  right: "email"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No hyphen."
+- source: ap
+  page: 1254
+  entry: "embargoes"
+  kind: substitution
+  wrong: "embargos"
+  right: "embargoes"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Plural spelled with es."
+- source: ap
+  page: 1254
+  entry: "emcee (nonpreferred)"
+  kind: existence
+  wrong: "emcee[sd]?|emceeing"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; use host or master of ceremonies."
+- source: ap
+  page: 1256
+  entry: "enroll"
+  kind: substitution
+  wrong: "enrol|enrolment"
+  right: "enroll"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Double l."
+- source: ap
+  page: 1256
+  entry: "enquire"
+  kind: substitution
+  wrong: "enquire"
+  right: "inquire"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Nonpreferred; use inquire."
+- source: ap
+  page: 1256
+  entry: "enquiry"
+  kind: substitution
+  wrong: "enquiry"
+  right: "inquiry"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Nonpreferred; use inquiry."
+- source: ap
+  page: 1256
+  entry: "en route"
+  kind: substitution
+  wrong: "en-route|enroute"
+  right: "en route"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 1257
+  entry: "equaled"
+  kind: substitution
+  wrong: "equalled"
+  right: "equaled"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single l."
+- source: ap
+  page: 1257
+  entry: "equaling"
+  kind: substitution
+  wrong: "equalling"
+  right: "equaling"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Single l."
+- source: ap
+  page: 1258
+  entry: "Eskimo (nonpreferred)"
+  kind: existence
+  wrong: "Eskimos?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; use Inuit or the specific people."
+- source: ap
+  page: 1259
+  entry: "ethnic cleansing (nonpreferred)"
+  kind: existence
+  wrong: "ethnic cleansing"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred euphemism."
+- source: ap
+  page: 1259
+  entry: "eurozone"
+  kind: casing
+  wrong: "Eurozone"
+  right: "eurozone"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase."
+- source: ap
+  page: 1259
+  entry: "euthanasia (nonpreferred)"
+  kind: existence
+  wrong: "euthanasia"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred for assisted dying; see suicide entry."
+- source: ap
+  page: 1260
+  entry: "e-wallet (nonpreferred)"
+  kind: substitution
+  wrong: "e-wallet"
+  right: "digital wallet"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use digital wallet or mobile wallet."
+- source: ap
+  page: 1260
+  entry: "eveningwear"
+  kind: substitution
+  wrong: "evening[- ]wear"
+  right: "eveningwear"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1261
+  entry: "execution-style (nonpreferred)"
+  kind: existence
+  wrong: "execution-style"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; describe the facts."
+- source: ap
+  page: 1262
+  entry: "eyewear"
+  kind: substitution
+  wrong: "eye[- ]wear"
+  right: "eyewear"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1263
+  entry: "fact-finding"
+  kind: substitution
+  wrong: "fact finding"
+  right: "fact-finding"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1264
+  entry: "fake pot (nonpreferred)"
+  kind: existence
+  wrong: "fake pot"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; use synthetic cannabinoids."
+- source: ap
+  page: 1265
+  entry: "farmworker"
+  kind: substitution
+  wrong: "farm[- ]worker"
+  right: "farmworker"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1265
+  entry: "far-ranging"
+  kind: substitution
+  wrong: "far ranging"
+  right: "far-ranging"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1265
+  entry: "farsighted"
+  kind: substitution
+  wrong: "far[- ]sighted"
+  right: "farsighted"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1268
+  entry: "Ferris wheel"
+  kind: casing
+  wrong: "ferris wheel"
+  right: "Ferris wheel"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize Ferris."
+- source: ap
+  page: 1268
+  entry: "ferryboat"
+  kind: substitution
+  wrong: "ferry[- ]boat"
+  right: "ferryboat"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1269
+  entry: "fiance"
+  kind: substitution
+  wrong: "fiancé"
+  right: "fiance"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No accent mark."
+- source: ap
+  page: 1269
+  entry: "fiancee"
+  kind: substitution
+  wrong: "fiancée"
+  right: "fiancee"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No accent mark."
+- source: ap
+  page: 1269
+  entry: "Fiberglas"
+  kind: substitution
+  wrong: "Fiberglas"
+  right: "fiberglass"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Trademark; use generic fiberglass unless referring to the brand."
+- source: ap
+  page: 1269
+  entry: "field goal"
+  kind: substitution
+  wrong: "fieldgoal"
+  right: "field goal"
+  domain: wording
+  fix: safe
+  american: true
+  context: sports
+  note: "Two words."
+- source: ap
+  page: 1269
+  entry: "field house"
+  kind: substitution
+  wrong: "fieldhouse|field-house"
+  right: "field house"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 1270
+  entry: "filmgoer"
+  kind: substitution
+  wrong: "film[- ]goer"
+  right: "filmgoer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1270
+  entry: "filmmaker"
+  kind: substitution
+  wrong: "film[- ]maker"
+  right: "filmmaker"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1271
+  entry: "fireman (nonpreferred)"
+  kind: substitution
+  wrong: "firemen"
+  right: "firefighters"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use firefighter."
+- source: ap
+  page: 1271
+  entry: "fireman (nonpreferred)"
+  kind: substitution
+  wrong: "fireman"
+  right: "firefighter"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use firefighter."
+- source: ap
+  page: 1271
+  entry: "firefight"
+  kind: substitution
+  wrong: "fire[- ]fight"
+  right: "firefight"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1272
+  entry: "first anniversary (nonpreferred)"
+  kind: existence
+  wrong: "first anniversary"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Redundant; the first anniversary is just the anniversary."
+- source: ap
+  page: 1272
+  entry: "first annual (nonpreferred)"
+  kind: existence
+  wrong: "first annual"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; an event is annual only after it repeats."
+- source: ap
+  page: 1272
+  entry: "firsthand"
+  kind: substitution
+  wrong: "first-hand"
+  right: "firsthand"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1273
+  entry: "flagpole"
+  kind: substitution
+  wrong: "flag[- ]pole"
+  right: "flagpole"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1273
+  entry: "flood plain"
+  kind: substitution
+  wrong: "floodplain"
+  right: "flood plain"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 1274
+  entry: "floodwaters"
+  kind: substitution
+  wrong: "flood[- ]waters"
+  right: "floodwaters"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1274
+  entry: "flophouse (nonpreferred)"
+  kind: existence
+  wrong: "flophouses?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; see homeless guidance."
+- source: ap
+  page: 1274
+  entry: "flu-like"
+  kind: substitution
+  wrong: "flulike|flu like"
+  right: "flu-like"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1276
+  entry: "formula, formulas"
+  kind: substitution
+  wrong: "formulae"
+  right: "formulas"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Plural formulas."
+- source: ap
+  page: 1277
+  entry: "4x4 (nonpreferred)"
+  kind: substitution
+  wrong: "4x4"
+  right: "four-wheel drive"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; write four-wheel drive."
+- source: ap
+  page: 1277
+  entry: "Founding Fathers"
+  kind: casing
+  wrong: "founding fathers"
+  right: "Founding Fathers"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize."
+- source: ap
+  page: 1277
+  entry: "401(k)"
+  kind: substitution
+  wrong: "401K|401-k"
+  right: "401(k)"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Parentheses around k."
+- source: ap
+  page: 1277
+  entry: "Fourth of July"
+  kind: substitution
+  wrong: "4th of July"
+  right: "Fourth of July"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spell out Fourth."
+- source: ap
+  page: 1278
+  entry: "freelancer"
+  kind: substitution
+  wrong: "free-lancer|free lancer"
+  right: "freelancer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1278
+  entry: "freelance"
+  kind: substitution
+  wrong: "free-lance|free lance"
+  right: "freelance"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1279
+  entry: "french fries"
+  kind: casing
+  wrong: "French fries|French Fries"
+  right: "french fries"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase french."
+- source: ap
+  page: 1279
+  entry: "frequent flyer"
+  kind: substitution
+  wrong: "frequent flier"
+  right: "frequent flyer"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spelled flyer."
+- source: ap
+  page: 1279
+  entry: "freshperson, freshwoman (nonpreferred)"
+  kind: substitution
+  wrong: "freshperson|freshwoman"
+  right: "first-year student"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use first-year student."
+- source: ap
+  page: 1279
+  entry: "frontcourt"
+  kind: substitution
+  wrong: "front court"
+  right: "frontcourt"
+  domain: wording
+  fix: review
+  american: true
+  context: sports
+  note: "One word in basketball."
+- source: ap
+  page: 1279
+  entry: "front-runner"
+  kind: substitution
+  wrong: "frontrunner|front runner"
+  right: "front-runner"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1280
+  entry: "fulfill"
+  kind: substitution
+  wrong: "fulfil"
+  right: "fulfill"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Double l."
+- source: ap
+  page: 1280
+  entry: "fulfillment"
+  kind: substitution
+  wrong: "fulfilment"
+  right: "fulfillment"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Double l."
+- source: ap
+  page: 1280
+  entry: "full-body scanner"
+  kind: substitution
+  wrong: "full body scanner"
+  right: "full-body scanner"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated modifier."
+- source: ap
+  page: 1280
+  entry: "full-court press"
+  kind: substitution
+  wrong: "full court press"
+  right: "full-court press"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated modifier."
+- source: ap
+  page: 1280
+  entry: "fundraising"
+  kind: substitution
+  wrong: "fund-raising|fund raising"
+  right: "fundraising"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1280
+  entry: "fundraiser"
+  kind: substitution
+  wrong: "fund-raiser|fund raiser"
+  right: "fundraiser"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1282
+  entry: "game plan"
+  kind: substitution
+  wrong: "gameplan"
+  right: "game plan"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words."
+- source: ap
+  page: 1283
+  entry: "gay lifestyle (nonpreferred)"
+  kind: existence
+  wrong: "gay lifestyle"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred phrase."
+- source: ap
+  page: 1283
+  entry: "gay marriage (nonpreferred)"
+  kind: substitution
+  wrong: "gay marriage"
+  right: "same-sex marriage"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use same-sex marriage."
+- source: ap
+  page: 1283
+  entry: "gender-bending (nonpreferred)"
+  kind: existence
+  wrong: "gender-bending"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; use gender-nonconforming."
+- source: ap
+  page: 1284
+  entry: "gender identity disorder (nonpreferred)"
+  kind: substitution
+  wrong: "gender identity disorder"
+  right: "gender dysphoria"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use gender dysphoria."
+- source: ap
+  page: 1284
+  entry: "gender-fluid"
+  kind: substitution
+  wrong: "gender ?fluid"
+  right: "gender-fluid"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1284
+  entry: "genderqueer"
+  kind: substitution
+  wrong: "gender[- ]queer"
+  right: "genderqueer"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1284
+  entry: "gender-nonconforming"
+  kind: substitution
+  wrong: "gender nonconforming"
+  right: "gender-nonconforming"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Hyphenated."
+- source: ap
+  page: 1285
+  entry: "geolocation"
+  kind: substitution
+  wrong: "geo[- ]location"
+  right: "geolocation"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1285
+  entry: "geotagging"
+  kind: substitution
+  wrong: "geo[- ]tagging"
+  right: "geotagging"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1286
+  entry: "glamour"
+  kind: substitution
+  wrong: "glamor"
+  right: "glamour"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Spell glamour; glamorous drops the u."
+- source: ap
+  page: 1286
+  entry: "globe-trotter"
+  kind: substitution
+  wrong: "globetrotter"
+  right: "globe-trotter"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenated; skip proper names like Harlem Globetrotters."
+- source: ap
+  page: 1287
+  entry: "Godspeed"
+  kind: casing
+  wrong: "godspeed"
+  right: "Godspeed"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize."
+- source: ap
+  page: 1288
+  entry: "good Samaritan"
+  kind: casing
+  wrong: "Good Samaritan"
+  right: "good Samaritan"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase good."
+- source: ap
+  page: 1290
+  entry: "grandfather"
+  kind: existence
+  wrong: "grand[- ](?:father|mother|ma|son|daughter|dad)s?"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Grandparent words are one word."
+- source: ap
+  page: 1291
+  entry: "grassroots"
+  kind: substitution
+  wrong: "grass roots"
+  right: "grassroots"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1291
+  entry: "great-grandfather"
+  kind: existence
+  wrong: "great grand(?:father|mother|son|daughter|parent|child)s?"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate after great."
+- source: ap
+  page: 1291
+  entry: "Great Depression"
+  kind: casing
+  wrong: "great depression"
+  right: "Great Depression"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize."
+- source: ap
+  page: 1291
+  entry: "Great Plains"
+  kind: casing
+  wrong: "great plains"
+  right: "Great Plains"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize."
+- source: ap
+  page: 1291
+  entry: "Great Recession"
+  kind: casing
+  wrong: "great recession"
+  right: "Great Recession"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Capitalize."
+- source: ap
+  page: 1292
+  entry: "gray"
+  kind: substitution
+  wrong: "grey(?!hound)"
+  right: "gray"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Use gray; greyhound keeps its spelling."
+- source: ap
+  page: 1292
+  entry: "groundswell"
+  kind: substitution
+  wrong: "ground[- ]swell"
+  right: "groundswell"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1293
+  entry: "guaranty (nonpreferred)"
+  kind: substitution
+  wrong: "guaranty"
+  right: "guarantee"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use guarantee."
+- source: ap
+  page: 1293
+  entry: "gunbattle, gunfight, gunfire, gunpoint"
+  kind: existence
+  wrong: "gun[- ](?:battle|fight|fire|point|powder|boat)s?"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Gun compounds are one word."
+- source: ap
+  page: 1294
+  entry: "gyp (derogatory)"
+  kind: existence
+  wrong: "gyp|gypped"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Derogatory; avoid."
+- source: ap
+  page: 1294
+  entry: "Gypsy (possibly derogatory)"
+  kind: existence
+  wrong: "Gypsy|Gypsies"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Possibly derogatory; use Romani or Roma. Gypsy moth is fine."
+- source: ap
+  page: 1295
+  entry: "half-time"
+  kind: substitution
+  wrong: "half-time"
+  right: "halftime"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1296
+  entry: "handicap (nonpreferred)"
+  kind: existence
+  wrong: "handicapped|handi-?capable"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred for people; use disabled. Golf handicap is fine."
+- source: ap
+  page: 1297
+  entry: "hard line"
+  kind: substitution
+  wrong: "hardliner"
+  right: "hard-liner"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenated noun."
+- source: ap
+  page: 1297
+  entry: "harelip (derogatory)"
+  kind: existence
+  wrong: "harelip"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Derogatory; use cleft lip."
+- source: ap
+  page: 1297
+  entry: "hashtag"
+  kind: substitution
+  wrong: "hash tag"
+  right: "hashtag"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1298
+  entry: "headscarf"
+  kind: substitution
+  wrong: "head scarf|head-scarf"
+  right: "headscarf"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1298
+  entry: "headwear"
+  kind: substitution
+  wrong: "head[- ]wear"
+  right: "headwear"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1298
+  entry: "health care"
+  kind: substitution
+  wrong: "healthcare|health-care"
+  right: "health care"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Two words except in proper names."
+- source: ap
+  page: 1299
+  entry: "heatstroke"
+  kind: substitution
+  wrong: "heat[- ]stroke"
+  right: "heatstroke"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "One word."
+- source: ap
+  page: 1299
+  entry: "Hells Angels"
+  kind: substitution
+  wrong: "Hell['’]s Angels"
+  right: "Hells Angels"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "No apostrophe."
+- source: ap
+  page: 1299
+  entry: "hemorrhage"
+  kind: substitution
+  wrong: "haemorrhage"
+  right: "hemorrhage"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "American spelling."
+- source: ap
+  page: 1300
+  entry: "hermaphrodite (nonpreferred)"
+  kind: existence
+  wrong: "hermaphrodites?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; use intersex."
+- source: ap
+  page: 1300
+  entry: "heroes"
+  kind: substitution
+  wrong: "heros"
+  right: "heroes"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Plural of hero."
+- source: ap
+  page: 1300
+  entry: "heroine (nonpreferred)"
+  kind: existence
+  wrong: "heroines?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred; use hero for any gender."
+- source: ap
+  page: 1300
+  entry: "HEV (nonpreferred)"
+  kind: existence
+  wrong: "HEV"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Nonpreferred abbreviation for hybrid electric vehicle."
+- source: ap
+  page: 1300
+  entry: "Hezbollah"
+  kind: substitution
+  wrong: "Hizbollah|Hizballah|Hizbullah|Hezbullah"
+  right: "Hezbollah"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Standard spelling."
+- source: ap
+  page: 1214
+  entry: "c.o.d."
+  kind: casing
+  wrong: "C\\.O\\.D\\.|COD"
+  right: "c.o.d."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase with periods."
+- source: ap
+  page: 1276
+  entry: "f.o.b."
+  kind: casing
+  wrong: "F\\.O\\.B\\."
+  right: "f.o.b."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Lowercase with periods."
+- source: ap
+  page: 1271
+  entry: "first lady"
+  kind: casing
+  wrong: "First Lady"
+  right: "first lady"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase unless in a formal title."
+- source: ap
+  page: 1271
+  entry: "first family"
+  kind: casing
+  wrong: "First Family"
+  right: "first family"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Lowercase."
+- source: ap
+  page: 1275
+  entry: "frisbee"
+  kind: existence
+  wrong: "[Ff]risbees?"
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Trademark; generic term is flying disc."
+- source: ap
+  page: 1235
+  entry: "dammit"
+  kind: substitution
+  wrong: "dammit"
+  right: "damn it"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Write as two words."
+- source: ap
+  page: 1232
+  entry: "darknet"
+  kind: substitution
+  wrong: "dark net"
+  right: "darknet"
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "One word."

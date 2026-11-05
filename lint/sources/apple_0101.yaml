@@ -1,0 +1,4352 @@
+- source: apple
+  page: 101
+  entry: "highlighted"
+  kind: substitution
+  wrong: "hilighted"
+  right: "highlighted"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Misspelling; use highlighted."
+- source: apple
+  page: 101
+  entry: "highlighted"
+  kind: existence
+  wrong: "(?:unhighlighted|dehighlighted)"
+  domain: technical
+  fix: review
+  american: true
+  context: "general"
+  note: "Say not highlighted instead of unhighlighted or dehighlighted."
+- source: apple
+  page: 101
+  entry: "hi-res"
+  kind: substitution
+  wrong: "hi-res"
+  right: "high-resolution"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Spell out high resolution or high-resolution; short form only in developer text or tight tables."
+- source: apple
+  page: 101
+  entry: "hit (n.)"
+  kind: existence
+  wrong: "search hits"
+  domain: technical
+  fix: review
+  american: true
+  context: "general"
+  note: "Use search results, not search hits."
+- source: apple
+  page: 101
+  entry: "hit (v.)"
+  kind: existence
+  wrong: "hit (?:the|a) (?:\\w+ )?(?:key|button)"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Tell users to press or tap, not hit."
+- source: apple
+  page: 101
+  entry: "hold down"
+  kind: substitution
+  wrong: "hold down"
+  right: "press and hold"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use press and hold for keys, buttons, mouse or trackpad."
+- source: apple
+  page: 101
+  entry: "Home button"
+  kind: existence
+  wrong: "hold (?:down )?the Home button"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Press the Home button; use double-click or triple-click for multiple presses."
+- source: apple
+  page: 102
+  entry: "Home Screen"
+  kind: casing
+  wrong: "home screen"
+  right: "Home Screen"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Capitalize Home Screen."
+- source: apple
+  page: 102
+  entry: "HomePod"
+  kind: existence
+  wrong: "the HomePod(?! (?:speakers?|you|that|with|is|has|in|on|to|and)\\b)"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple products"
+  note: "Avoid the article before HomePod in general references; your HomePod is fine."
+- source: apple
+  page: 102
+  entry: "home theater"
+  kind: substitution
+  wrong: "home theatres?"
+  right: "home theater"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "American spelling theater."
+- source: apple
+  page: 102
+  entry: "hostname"
+  kind: substitution
+  wrong: "host name"
+  right: "hostname"
+  domain: wording
+  fix: safe
+  american: true
+  context: "technical"
+  note: "One word."
+- source: apple
+  page: 103
+  entry: "hover (v.)"
+  kind: existence
+  wrong: "hover over"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use hold the pointer over or move the pointer to."
+- source: apple
+  page: 103
+  entry: "hover (v.)"
+  kind: existence
+  wrong: "hover the pointer over"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Do not use hover the pointer over."
+- source: apple
+  page: 103
+  entry: "Hover Text"
+  kind: casing
+  wrong: "hover text"
+  right: "Hover Text"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple products"
+  note: "Capitalize when naming the accessibility feature; may match generic tooltip text."
+- source: apple
+  page: 103
+  entry: "HTML"
+  kind: existence
+  wrong: "(?:in|an) HTML format"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "HTML is not a format; say in HTML or an HTML file."
+- source: apple
+  page: 103
+  entry: "HUD"
+  kind: substitution
+  wrong: "an HUD"
+  right: "a HUD"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use a before HUD."
+- source: apple
+  page: 104
+  entry: "hypertext link"
+  kind: substitution
+  wrong: "hypertext links?"
+  right: "link"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use link."
+- source: apple
+  page: 104
+  entry: "hyphenation"
+  kind: existence
+  wrong: "very-\\w+"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not hyphenate compounds that begin with very."
+- source: apple
+  page: 104
+  entry: "hyphenation"
+  kind: existence
+  wrong: "(?:recently|newly|highly|fully|widely|poorly|closely|freshly|clearly|easily|carefully|properly|currently|previously|automatically)-\\w+"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not hyphenate compounds with an -ly adverb."
+- source: apple
+  page: 104
+  entry: "hyphenation"
+  kind: existence
+  wrong: "\\d+-(?:KB|MB|GB|TB|kHz|MHz|GHz|mm|cm|kbit|Mbit)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "technical"
+  note: "Do not hyphenate numbers with abbreviated or metric units used as adjectives."
+- source: apple
+  page: 104
+  entry: "hyphenation"
+  kind: existence
+  wrong: "(?:upper|lower) (?:left|right) (?:corner|portion|side)"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate location compounds like lower-left corner."
+- source: apple
+  page: 105
+  entry: "iCloud"
+  kind: casing
+  wrong: "Icloud|ICloud"
+  right: "iCloud"
+  domain: wording
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Lowercase i, capital C."
+- source: apple
+  page: 105
+  entry: "iCloud"
+  kind: casing
+  wrong: "icloud(?!\\.com)"
+  right: "iCloud"
+  domain: wording
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Capitalize C; email addresses and URL paths stay lowercase."
+- source: apple
+  page: 105
+  entry: "iCloud"
+  kind: existence
+  wrong: "iCloud account"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Do not use iCloud account."
+- source: apple
+  page: 105
+  entry: "iCloud"
+  kind: existence
+  wrong: "sign(?:s|ed|ing)? (?:in|out) (?:to|of) iCloud(?!\\.com)"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Users sign in to an Apple Account, not to iCloud (except iCloud.com)."
+- source: apple
+  page: 105
+  entry: "iCloud"
+  kind: existence
+  wrong: "iCloud (?:service|web app)s?"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Avoid calling iCloud or its features services or web apps."
+- source: apple
+  page: 106
+  entry: "iCloud Photo Library"
+  kind: substitution
+  wrong: "iCloud Photo Library"
+  right: "iCloud Photos"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use iCloud Photos."
+- source: apple
+  page: 106
+  entry: "iCloud Photo Sharing"
+  kind: substitution
+  wrong: "iCloud Photo Sharing"
+  right: "Shared Albums"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use Shared Albums."
+- source: apple
+  page: 106
+  entry: "iCloud+"
+  kind: substitution
+  wrong: "iCloud Plus"
+  right: "iCloud+"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use iCloud+, not iCloud Plus."
+- source: apple
+  page: 108
+  entry: "i.e."
+  kind: existence
+  wrong: "i\\.e\\."
+  domain: wording
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use that is instead of i.e."
+- source: apple
+  page: 108
+  entry: "if necessary"
+  kind: existence
+  wrong: "[Ii]f necessary"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Describe the circumstance instead of saying if necessary."
+- source: apple
+  page: 108
+  entry: "Image Wand"
+  kind: existence
+  wrong: "the Image Wand"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Do not precede Image Wand with the."
+- source: apple
+  page: 109
+  entry: "imbed"
+  kind: substitution
+  wrong: "imbed(?:s|ded|ding)?"
+  right: "embed"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use embed."
+- source: apple
+  page: 109
+  entry: "iMessage"
+  kind: existence
+  wrong: "an? iMessages?"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Users send a message; iMessage names only the service."
+- source: apple
+  page: 109
+  entry: "impairment"
+  kind: existence
+  wrong: "(?:visual|hearing|motor|cognitive|vision) impairments?"
+  domain: wording
+  fix: none
+  american: true
+  context: "inclusive writing"
+  note: "Prefer disability or the specific disability."
+- source: apple
+  page: 109
+  entry: "in-app purchase"
+  kind: substitution
+  wrong: "in app purchases?"
+  right: "in-app purchase"
+  domain: wording
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Hyphenate in-app."
+- source: apple
+  page: 109
+  entry: "in-app purchase"
+  kind: casing
+  wrong: "In-App Purchase"
+  right: "in-app purchase"
+  domain: wording
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Use lowercase."
+- source: apple
+  page: 110
+  entry: "incrementer"
+  kind: substitution
+  wrong: "incrementers?"
+  right: "stepper"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use stepper or name the arrows."
+- source: apple
+  page: 110
+  entry: "indexes"
+  kind: substitution
+  wrong: "indices"
+  right: "indexes"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Not indices unless mathematical indices."
+- source: apple
+  page: 110
+  entry: "indicator light"
+  kind: existence
+  wrong: "LED"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use light or indicator light; LED only when distinguishing from LCD."
+- source: apple
+  page: 110
+  entry: "Info window"
+  kind: substitution
+  wrong: "Get Info (?:window|box)|Info box"
+  right: "Info window"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use Info window."
+- source: apple
+  page: 110
+  entry: "infrared"
+  kind: substitution
+  wrong: "infra-red"
+  right: "infrared"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen."
+- source: apple
+  page: 110
+  entry: "inline"
+  kind: substitution
+  wrong: "in-line"
+  right: "inline"
+  domain: wording
+  fix: review
+  american: true
+  context: "technical"
+  note: "One word."
+- source: apple
+  page: 110
+  entry: "inkjet"
+  kind: substitution
+  wrong: "ink[- ]jet"
+  right: "inkjet"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 110
+  entry: "in order to"
+  kind: substitution
+  wrong: "in order to"
+  right: "to"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use just to unless needed."
+- source: apple
+  page: 110
+  entry: "input"
+  kind: existence
+  wrong: "\\b(?:to|will|can|should|must|you|then) input\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Avoid input as a verb; use enter or type."
+- source: apple
+  page: 110
+  entry: "interface"
+  kind: existence
+  wrong: "user interface"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use interface in user materials."
+- source: apple
+  page: 111
+  entry: "inside"
+  kind: substitution
+  wrong: "inside of"
+  right: "inside"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not inside of."
+- source: apple
+  page: 111
+  entry: "installation"
+  kind: substitution
+  wrong: "install process"
+  right: "installation process"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use installation as the noun."
+- source: apple
+  page: 112
+  entry: "Intel"
+  kind: existence
+  wrong: "Intel (?:Core |Xeon )?Macs?(?!-)"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Use Intel-based Mac, not Intel Mac."
+- source: apple
+  page: 112
+  entry: "internet"
+  kind: casing
+  wrong: "Internet(?! (?:Protocol|Explorer|Archive|Message|Service|Society|Connect|Sharing|Accounts|Relay|Engineering|Corporation)\\b)"
+  right: "internet"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase internet except in proper names; sentence-initial use may need review."
+- source: apple
+  page: 113
+  entry: "into, in to"
+  kind: substitution
+  wrong: "log into"
+  right: "log in to"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use in to when in belongs to the verb."
+- source: apple
+  page: 113
+  entry: "invite"
+  kind: existence
+  wrong: "(?:an|the|your|this|that|my|their) invites?\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use invitation, not invite, as a noun."
+- source: apple
+  page: 113
+  entry: "iOS"
+  kind: existence
+  wrong: "the iOS(?! (?:device|app|version|SDK|simulator|operating|\\d))"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple products"
+  note: "Use iOS without an article."
+- source: apple
+  page: 115
+  entry: "iPadOS"
+  kind: existence
+  wrong: "the iPadOS(?! (?:device|app|version|SDK|simulator|operating|\\d))"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple products"
+  note: "Use iPadOS without an article."
+- source: apple
+  page: 114
+  entry: "iPad"
+  kind: existence
+  wrong: "the iPad(?! (?:you|that|with|is|has|in|on|to|and|Pro|Air|mini|\\d))\\b"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple products"
+  note: "Avoid the article before iPad in general references."
+- source: apple
+  page: 114
+  entry: "iPad"
+  kind: existence
+  wrong: "\\d+(?:st|nd|rd|th)-gen\\b|iPad \\d+G\\b|iPod touch \\d+G\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Spell out generation; do not shorten to gen or G."
+- source: apple
+  page: 116
+  entry: "iPhone"
+  kind: existence
+  wrong: "the iPhone(?! (?:you|that|with|is|has|in|on|to|and|Pro|Plus|SE|Air|mini|X|\\d))\\b"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple products"
+  note: "Avoid the article before iPhone in general references."
+- source: apple
+  page: 116
+  entry: "iPhone XR"
+  kind: casing
+  wrong: "iPhone Xr"
+  right: "iPhone XR"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use uppercase R."
+- source: apple
+  page: 116
+  entry: "iPhone XS"
+  kind: casing
+  wrong: "iPhone Xs"
+  right: "iPhone XS"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use uppercase S."
+- source: apple
+  page: 117
+  entry: "iPod"
+  kind: casing
+  wrong: "iPod Touch"
+  right: "iPod touch"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Lowercase touch even in headings."
+- source: apple
+  page: 117
+  entry: "ISP"
+  kind: substitution
+  wrong: "ISP provider"
+  right: "ISP"
+  domain: wording
+  fix: safe
+  american: true
+  context: "technical"
+  note: "ISP already includes provider."
+- source: apple
+  page: 118
+  entry: "iTunes Store"
+  kind: substitution
+  wrong: "iTunes (?:Music|App) Store"
+  right: "iTunes Store"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use iTunes Store."
+- source: apple
+  page: 119
+  entry: "KB"
+  kind: existence
+  wrong: "\\d(?:KB|MB|GB|TB|kHz|MHz|GHz|kbit|Mbit)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "technical"
+  note: "Put a space between numeral and unit abbreviation."
+- source: apple
+  page: 120
+  entry: "keyboard equivalent"
+  kind: substitution
+  wrong: "keyboard equivalents?"
+  right: "keyboard shortcut"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use keyboard shortcut."
+- source: apple
+  page: 120
+  entry: "keyboard icon"
+  kind: existence
+  wrong: "script (?:symbol|icon)"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Use keyboard icon."
+- source: apple
+  page: 120
+  entry: "key, keys"
+  kind: existence
+  wrong: "\\b(?:control|option|command|shift|escape|esc) key"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Capitalize modifier key names (Control key)."
+- source: apple
+  page: 120
+  entry: "key, keys"
+  kind: existence
+  wrong: "\\b(?:Control|Option|Shift|Command|Fn)\\+\\w+"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use hyphens in key combinations; plus signs only in key graphics."
+- source: apple
+  page: 121
+  entry: "keypad"
+  kind: substitution
+  wrong: "numeric keyboard"
+  right: "numeric keypad"
+  domain: technical
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use keypad."
+- source: apple
+  page: 121
+  entry: "keypress"
+  kind: substitution
+  wrong: "key[- ]press(?:es)?"
+  right: "keypress"
+  domain: wording
+  fix: review
+  american: true
+  context: "technical"
+  note: "One word."
+- source: apple
+  page: 121
+  entry: "keystroke"
+  kind: substitution
+  wrong: "key[- ]strokes?"
+  right: "keystroke"
+  domain: wording
+  fix: review
+  american: true
+  context: "technical"
+  note: "One word."
+- source: apple
+  page: 122
+  entry: "kill"
+  kind: existence
+  wrong: "\\bkill(?:s|ed|ing)? (?:the |all |a |an )?(?:app|apps|process|processes|task|tasks|program|job)"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use force quit, end, stop or cancel instead of kill."
+- source: apple
+  page: 122
+  entry: "Korea"
+  kind: existence
+  wrong: "(?<!South )(?<!North )Korea(?!n)"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Specify South Korea or North Korea."
+- source: apple
+  page: 122
+  entry: "labeled"
+  kind: substitution
+  wrong: "labelled"
+  right: "labeled"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One l in American spelling."
+- source: apple
+  page: 122
+  entry: "labeled"
+  kind: substitution
+  wrong: "labelling"
+  right: "labeling"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One l in American spelling."
+- source: apple
+  page: 122
+  entry: "laptop"
+  kind: existence
+  wrong: "notebook(?: computers?)?"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use laptop, not notebook."
+- source: apple
+  page: 124
+  entry: "left-hand"
+  kind: substitution
+  wrong: "left-hand side|left hand side"
+  right: "left side"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use left side."
+- source: apple
+  page: 124
+  entry: "left-hand"
+  kind: existence
+  wrong: "left-hand"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use left except for left-hand pages."
+- source: apple
+  page: 124
+  entry: "leftmost"
+  kind: substitution
+  wrong: "left-most|left most"
+  right: "leftmost"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen."
+- source: apple
+  page: 124
+  entry: "less-than sign"
+  kind: substitution
+  wrong: "less-than symbol"
+  right: "less-than sign"
+  domain: wording
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use sign, not symbol."
+- source: apple
+  page: 125
+  entry: "level 2 cache"
+  kind: existence
+  wrong: "secondary cache|second-level cache"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use L2 cache."
+- source: apple
+  page: 125
+  entry: "lid"
+  kind: substitution
+  wrong: "clamshell"
+  right: "lid"
+  domain: technical
+  fix: none
+  american: true
+  context: "general"
+  note: "Use lid for laptop or case lid."
+- source: apple
+  page: 125
+  entry: "LiDAR"
+  kind: casing
+  wrong: "Lidar|LIDAR|lidar"
+  right: "LiDAR"
+  domain: wording
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Capitalization LiDAR."
+- source: apple
+  page: 125
+  entry: "lifespan"
+  kind: substitution
+  wrong: "life[- ]span"
+  right: "lifespan"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 125
+  entry: "Light Seal"
+  kind: casing
+  wrong: "light seal"
+  right: "Light Seal"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple Vision Pro"
+  note: "Capitalize Light Seal for the Vision Pro component."
+- source: apple
+  page: 125
+  entry: "limited warranty"
+  kind: casing
+  wrong: "Limited Warranty"
+  right: "limited warranty"
+  domain: wording
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Lowercase."
+- source: apple
+  page: 125
+  entry: "link (n.)"
+  kind: existence
+  wrong: "follow (?:a|the|this|that) link"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use click a link."
+- source: apple
+  page: 126
+  entry: "Liquid Glass"
+  kind: existence
+  wrong: "the Liquid Glass"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Do not precede Liquid Glass with the."
+- source: apple
+  page: 128
+  entry: "livestream"
+  kind: existence
+  wrong: "HTTP (?:live streaming|live-streaming|Live-Streaming)"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Write HTTP Live Streaming."
+- source: apple
+  page: 128
+  entry: "localizable"
+  kind: existence
+  wrong: "(?:easily )?localizable"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not use localizable; say easy to localize."
+- source: apple
+  page: 129
+  entry: "localize (v.)"
+  kind: existence
+  wrong: "locali[sz]e(?:d|s)? (?:your |the |an? )?(?:app|software|product|website|content) to"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Localize takes for, not to."
+- source: apple
+  page: 129
+  entry: "Location Services"
+  kind: substitution
+  wrong: "Location Services are"
+  right: "Location Services is"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Singular."
+- source: apple
+  page: 129
+  entry: "Lock Screen"
+  kind: casing
+  wrong: "lock screen"
+  right: "Lock Screen"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple products"
+  note: "Capitalize for the Apple feature; generic uses may match."
+- source: apple
+  page: 129
+  entry: "logic board"
+  kind: existence
+  wrong: "mother ?board|main (?:circuit )?board"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Use logic board."
+- source: apple
+  page: 130
+  entry: "login"
+  kind: existence
+  wrong: "log on to|log on|log off(?: of)?"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use log in and log out."
+- source: apple
+  page: 130
+  entry: "login"
+  kind: substitution
+  wrong: "log out from"
+  right: "log out of"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "user materials"
+  note: "Users log out of a server."
+- source: apple
+  page: 130
+  entry: "long press"
+  kind: substitution
+  wrong: "long[- ]press"
+  right: "press and hold"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use press and hold or touch and hold in user materials; OK in developer text."
+- source: apple
+  page: 131
+  entry: "low bit"
+  kind: existence
+  wrong: "\\blo[- ]bit|\\blo[- ]order bit"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use low bit or low-order bit."
+- source: apple
+  page: 131
+  entry: "low resolution"
+  kind: substitution
+  wrong: "lo-res"
+  right: "low-res"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Not lo-res."
+- source: apple
+  page: 131
+  entry: "Low Power Mode"
+  kind: casing
+  wrong: "low power mode|Low power mode|Low Power mode"
+  right: "Low Power Mode"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Capitalize Low Power Mode."
+- source: apple
+  page: 131
+  entry: "lowercase"
+  kind: substitution
+  wrong: "lowercase and uppercase"
+  right: "uppercase and lowercase"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Order is uppercase first."
+- source: apple
+  page: 131
+  entry: "Mac"
+  kind: existence
+  wrong: "Macs\\b|Mac Pros\\b|Mac minis\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Mac is a trademark; use Mac computers, not plural."
+- source: apple
+  page: 131
+  entry: "Mac"
+  kind: existence
+  wrong: "Mac[’']s\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Do not use Mac in the possessive; say the Mac computer's."
+- source: apple
+  page: 132
+  entry: "Macao"
+  kind: substitution
+  wrong: "Macau"
+  right: "Macao"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use Macao."
+- source: apple
+  page: 132
+  entry: "Mac Catalyst"
+  kind: existence
+  wrong: "Mac Catalyst apps?"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Do not use Mac Catalyst as an adjective."
+- source: apple
+  page: 132
+  entry: "Mac operating systems"
+  kind: substitution
+  wrong: "Mac OS(?! X)"
+  right: "macOS"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Use macOS generically."
+- source: apple
+  page: 133
+  entry: "macOS"
+  kind: existence
+  wrong: "\\bon macOS"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Features are in macOS, not on macOS."
+- source: apple
+  page: 133
+  entry: "Mac OS Extended format"
+  kind: substitution
+  wrong: "HFS\\+"
+  right: "HFS Plus"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Use HFS Plus."
+- source: apple
+  page: 134
+  entry: "mailbox"
+  kind: substitution
+  wrong: "mail box(?:es)?"
+  right: "mailbox"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 135
+  entry: "male"
+  kind: existence
+  wrong: "\\b(?:male|female) (?:connector|endpoint|plug|end|socket|port)"
+  domain: wording
+  fix: review
+  american: true
+  context: "hardware"
+  note: "Avoid male/female for connectors; use plug or socket."
+- source: apple
+  page: 135
+  entry: "man"
+  kind: substitution
+  wrong: "manpower"
+  right: "workforce"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender neutral: staff or workforce."
+- source: apple
+  page: 135
+  entry: "man"
+  kind: substitution
+  wrong: "man[- ]hours"
+  right: "work hours"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender neutral."
+- source: apple
+  page: 135
+  entry: "man"
+  kind: substitution
+  wrong: "craftsmanship"
+  right: "craft"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Gender neutral."
+- source: apple
+  page: 135
+  entry: "man"
+  kind: substitution
+  wrong: "unmanned"
+  right: "unstaffed"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Gender neutral; may not suit aircraft."
+- source: apple
+  page: 135
+  entry: "Managed Apple ID"
+  kind: substitution
+  wrong: "Managed Apple IDs?"
+  right: "Managed Apple Account"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Renamed Managed Apple Account."
+- source: apple
+  page: 135
+  entry: "man-in-the-middle attack"
+  kind: existence
+  wrong: "man-in-the-middle"
+  domain: wording
+  fix: review
+  american: true
+  context: "security"
+  note: "Use intermediary attack or machine-in-the-middle attack."
+- source: apple
+  page: 135
+  entry: "manual"
+  kind: existence
+  wrong: "electronic manuals?"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Describe the delivery instead of electronic manual."
+- source: apple
+  page: 136
+  entry: "master branch"
+  kind: substitution
+  wrong: "master branch"
+  right: "main branch"
+  domain: technical
+  fix: review
+  american: true
+  context: "software"
+  note: "Use main branch."
+- source: apple
+  page: 136
+  entry: "master-detail"
+  kind: substitution
+  wrong: "master-detail"
+  right: "list-detail"
+  domain: technical
+  fix: review
+  american: true
+  context: "software"
+  note: "Use list-detail or navigation-detail."
+- source: apple
+  page: 136
+  entry: "master/slave"
+  kind: existence
+  wrong: "master/slave|master and slave|(?:master|slave) (?:device|process|node|drive)|\\bslaves?\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "software"
+  note: "Use primary/secondary and similar terms."
+- source: apple
+  page: 139
+  entry: "menus"
+  kind: existence
+  wrong: "drop-?down menus?|drop down menus?"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use menu or pull-down menu."
+- source: apple
+  page: 139
+  entry: "menu names"
+  kind: existence
+  wrong: "\\b(?:File|Edit|View|Window|Help|Format) Menu\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Lowercase menu after the name, as in Edit menu."
+- source: apple
+  page: 140
+  entry: "menus"
+  kind: existence
+  wrong: "contextual menus?"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use shortcut menu in user materials."
+- source: apple
+  page: 141
+  entry: "metadata"
+  kind: substitution
+  wrong: "meta data"
+  right: "metadata"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 141
+  entry: "microarchitecture"
+  kind: substitution
+  wrong: "micro-architecture|micro architecture"
+  right: "microarchitecture"
+  domain: wording
+  fix: safe
+  american: true
+  context: "technical"
+  note: "One word."
+- source: apple
+  page: 142
+  entry: "minus sign"
+  kind: substitution
+  wrong: "minus symbol"
+  right: "minus sign"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use sign, not symbol."
+- source: apple
+  page: 142
+  entry: "mobile phone"
+  kind: substitution
+  wrong: "cell ?phones?|cellular phones?"
+  right: "mobile phone"
+  domain: wording
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use mobile phone."
+- source: apple
+  page: 143
+  entry: "monitor depth"
+  kind: substitution
+  wrong: "monitor depth"
+  right: "color depth"
+  domain: technical
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use color depth."
+- source: apple
+  page: 143
+  entry: "monitor port"
+  kind: existence
+  wrong: "video port|video cable|monitor cord"
+  domain: technical
+  fix: review
+  american: true
+  context: "hardware"
+  note: "Use monitor port or cable, not video port or cable."
+- source: apple
+  page: 143
+  entry: "monospaced"
+  kind: substitution
+  wrong: "monospace(?!d)"
+  right: "fixed-width"
+  domain: technical
+  fix: review
+  american: true
+  context: "typography"
+  note: "Prefer fixed-width for fonts; monospaced acceptable."
+- source: apple
+  page: 144
+  entry: "mount (v.)"
+  kind: existence
+  wrong: "mount(?:s|ed|ing)? (?:the |a |your )?(?:disk|disk image|volume|server)"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Avoid mount in user materials; use open, make available, or connect to."
+- source: apple
+  page: 145
+  entry: "M-series chips"
+  kind: existence
+  wrong: "\\bM\\d+(?: (?:Pro|Max|Ultra))? (?:Macs?|iPads?|MacBooks?)\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Say Mac with the M5 chip, not M5 Mac."
+- source: apple
+  page: 146
+  entry: "multi (prefix)"
+  kind: existence
+  wrong: "multi-(?!i)[a-z]"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Close up multi- prefix except before i."
+- source: apple
+  page: 146
+  entry: "multiplication sign"
+  kind: substitution
+  wrong: "multiplication symbol"
+  right: "multiplication sign"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use sign, not symbol."
+- source: apple
+  page: 146
+  entry: "Multi-Touch"
+  kind: casing
+  wrong: "Multitouch|multitouch|multi-touch|Multi-touch"
+  right: "Multi-Touch"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Capitalize and hyphenate Multi-Touch."
+- source: apple
+  page: 146
+  entry: "native"
+  kind: existence
+  wrong: "native apps?"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Avoid native for apps; say designed for specific hardware or software."
+- source: apple
+  page: 147
+  entry: "non (prefix)"
+  kind: existence
+  wrong: "non-(?=[a-z])"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Close up non- unless before a proper noun or acronym."
+- source: apple
+  page: 147
+  entry: "nonce"
+  kind: substitution
+  wrong: "nonce"
+  right: "anti-replay value"
+  domain: technical
+  fix: none
+  american: true
+  context: "security"
+  note: "Use anti-replay value."
+- source: apple
+  page: 147
+  entry: "normal installation"
+  kind: substitution
+  wrong: "normal install\\b"
+  right: "normal installation"
+  domain: wording
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use installation."
+- source: apple
+  page: 147
+  entry: "normal user"
+  kind: substitution
+  wrong: "normal users?"
+  right: "standard user"
+  domain: technical
+  fix: none
+  american: true
+  context: "technical"
+  note: "Use standard user."
+- source: apple
+  page: 148
+  entry: "Notification Center"
+  kind: existence
+  wrong: "the Notification Center"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Do not precede with the."
+- source: apple
+  page: 148
+  entry: "numbers"
+  kind: existence
+  wrong: "\\b(?:1st|2nd|3rd|4th|5th|6th|7th|8th|9th)\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: "general"
+  note: "Spell out ordinals through ninth; exception for generation after model name."
+- source: apple
+  page: 149
+  entry: "numbers"
+  kind: existence
+  wrong: "\\b(?:19|20)\\d{2}[–-]\\d{2}\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Use full concluding number in ranges (2013–2019)."
+- source: apple
+  page: 149
+  entry: "numbers"
+  kind: existence
+  wrong: "(?<![\\d,.])\\d,\\d{3}(?![\\d,])"
+  domain: grammar
+  fix: none
+  american: true
+  context: "general"
+  note: "Four-digit numbers take no comma; commas start at five digits."
+- source: apple
+  page: 149
+  entry: "numbers"
+  kind: existence
+  wrong: "\\b\\d+['’]s\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Form number plurals with s, no apostrophe."
+- source: apple
+  page: 150
+  entry: "number sign"
+  kind: existence
+  wrong: "pound sign|number symbol"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use number sign for #."
+- source: apple
+  page: 150
+  entry: "numeric"
+  kind: substitution
+  wrong: "numerical(?! order)"
+  right: "numeric"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use numeric except numerical order."
+- source: apple
+  page: 151
+  entry: "offscreen"
+  kind: substitution
+  wrong: "off[- ]screen"
+  right: "offscreen"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 151
+  entry: "offsite"
+  kind: substitution
+  wrong: "off[- ]site"
+  right: "offsite"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 151
+  entry: "onscreen"
+  kind: substitution
+  wrong: "on[- ]screen"
+  right: "onscreen"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 151
+  entry: "onsite"
+  kind: substitution
+  wrong: "on[- ]site"
+  right: "onsite"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 151
+  entry: "OK"
+  kind: substitution
+  wrong: "okay"
+  right: "OK"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use OK."
+- source: apple
+  page: 151
+  entry: "once"
+  kind: existence
+  wrong: "Once you\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use after, not once, to mean after."
+- source: apple
+  page: 151
+  entry: "one-click"
+  kind: substitution
+  wrong: "1-[Cc]lick"
+  right: "one-click"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell out."
+- source: apple
+  page: 151
+  entry: "on/off switch"
+  kind: substitution
+  wrong: "on/off button"
+  right: "on/off switch"
+  domain: wording
+  fix: safe
+  american: true
+  context: "hardware"
+  note: "Use switch."
+- source: apple
+  page: 152
+  entry: "opening display"
+  kind: substitution
+  wrong: "splash screen"
+  right: "opening display"
+  domain: wording
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use opening display or startup screen."
+- source: apple
+  page: 152
+  entry: "open source"
+  kind: substitution
+  wrong: "open-source"
+  right: "open source"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "No hyphen."
+- source: apple
+  page: 152
+  entry: "optical drive"
+  kind: substitution
+  wrong: "(?:CD|DVD) drives?"
+  right: "optical drive"
+  domain: technical
+  fix: none
+  american: true
+  context: "hardware"
+  note: "Use optical drive generally."
+- source: apple
+  page: 152
+  entry: "Optic ID"
+  kind: existence
+  wrong: "the Optic ID"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Do not precede with the."
+- source: apple
+  page: 152
+  entry: "optionally"
+  kind: existence
+  wrong: "\\bOptionally\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Avoid optionally; say if you want to."
+- source: apple
+  page: 153
+  entry: "outside"
+  kind: substitution
+  wrong: "outside of"
+  right: "outside"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not outside of."
+- source: apple
+  page: 153
+  entry: "over"
+  kind: existence
+  wrong: "\\bover \\d[\\d,]*\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use more than for quantities."
+- source: apple
+  page: 153
+  entry: "pair, paired"
+  kind: existence
+  wrong: "pair(?:s|ed|ing)? to\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Pair with, not pair to."
+- source: apple
+  page: 153
+  entry: "pair, paired"
+  kind: substitution
+  wrong: "companion iPhone"
+  right: "paired iPhone"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use paired iPhone."
+- source: apple
+  page: 154
+  entry: "parental controls"
+  kind: substitution
+  wrong: "family controls"
+  right: "parental controls"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use parental controls."
+- source: apple
+  page: 154
+  entry: "passphrase"
+  kind: existence
+  wrong: "passphrases?"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use passcode, password, or passkey."
+- source: apple
+  page: 154
+  entry: "pasteboard"
+  kind: existence
+  wrong: "pasteboard"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use Clipboard in user materials."
+- source: apple
+  page: 156
+  entry: "PB"
+  kind: existence
+  wrong: "\\d(?:PB|EB)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "technical"
+  note: "Space between numeral and unit."
+- source: apple
+  page: 156
+  entry: "percent"
+  kind: existence
+  wrong: "\\d ?%"
+  domain: grammar
+  fix: none
+  american: true
+  context: "general"
+  note: "Write percent, not %, except in tables or spec lists."
+- source: apple
+  page: 157
+  entry: "phone numbers"
+  kind: existence
+  wrong: "\\(\\d{3}\\) ?\\d{3}-\\d{4}|\\b1[- ]\\d{3}-\\d{3}-\\d{4}|\\b\\d{3}\\.\\d{3}\\.\\d{4}\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "U.S. phone numbers use hyphens, no parentheses or leading 1."
+- source: apple
+  page: 157
+  entry: "phone numbers"
+  kind: existence
+  wrong: "800 numbers?"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use toll-free number."
+- source: apple
+  page: 157
+  entry: "Phillips screw"
+  kind: substitution
+  wrong: "Phillips-head"
+  right: "Phillips"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not Phillips-head."
+- source: apple
+  page: 157
+  entry: "photo"
+  kind: existence
+  wrong: "photographs?\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use photo."
+- source: apple
+  page: 158
+  entry: "Photo Stream"
+  kind: existence
+  wrong: "(?<!My )Photo Stream|photo stream"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Use My Photo Stream or iCloud Photos."
+- source: apple
+  page: 158
+  entry: "picker"
+  kind: existence
+  wrong: "(?:color|date) pickers?"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Describe what the user does instead of picker."
+- source: apple
+  page: 160
+  entry: "place card"
+  kind: substitution
+  wrong: "information card"
+  right: "place card"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple Maps"
+  note: "Use place card."
+- source: apple
+  page: 160
+  entry: "playhead"
+  kind: substitution
+  wrong: "play[- ]head"
+  right: "playhead"
+  domain: wording
+  fix: safe
+  american: true
+  context: "technical"
+  note: "One word."
+- source: apple
+  page: 161
+  entry: "please"
+  kind: existence
+  wrong: "\\bPlease (?:see|follow|note|refer|click|tap|select|choose|read|check)\\b|\\bplease (?:see|refer)\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Avoid please in instructions and cross-references."
+- source: apple
+  page: 161
+  entry: "plug-in"
+  kind: substitution
+  wrong: "plugins?"
+  right: "plug-in"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Always hyphenate plug-in (plural plug-ins); adjust s manually."
+- source: apple
+  page: 161
+  entry: "plurals"
+  kind: existence
+  wrong: "\\b[A-Za-z]+\\(s\\)"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Spell out singular and plural instead of (s)."
+- source: apple
+  page: 161
+  entry: "plurals"
+  kind: existence
+  wrong: "\\b(?:CD|DVD|USB|PDF|URL|PC|ID|SSD|API)['’]s\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Plural of an acronym takes s without an apostrophe."
+- source: apple
+  page: 162
+  entry: "plurals"
+  kind: existence
+  wrong: "\\b(?:iMacs|MacBook Pros|MacBook Airs|MacBooks)\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Trademarked product names are not pluralized; add a generic noun like computers."
+- source: apple
+  page: 162
+  entry: "plus sign"
+  kind: substitution
+  wrong: "plus symbol"
+  right: "plus sign"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use sign, not symbol."
+- source: apple
+  page: 162
+  entry: "p.m."
+  kind: existence
+  wrong: "\\d ?(?:AM|PM|am|pm|A\\.M\\.|P\\.M\\.)"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Write a.m. and p.m. with periods, lowercase, space before."
+- source: apple
+  page: 162
+  entry: "p.m."
+  kind: existence
+  wrong: "\\d[ap]\\.m\\."
+  domain: grammar
+  fix: safe
+  american: true
+  context: "general"
+  note: "Put a space between the numeral and a.m. or p.m."
+- source: apple
+  page: 162
+  entry: "pointer"
+  kind: existence
+  wrong: "\\bcursors?\\b"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use pointer for the arrow; insertion point for the text mark."
+- source: apple
+  page: 163
+  entry: "popover"
+  kind: existence
+  wrong: "popovers?"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Do not use popover in user materials."
+- source: apple
+  page: 163
+  entry: "portable computer"
+  kind: substitution
+  wrong: "portable computers?"
+  right: "laptop"
+  domain: wording
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Use laptop."
+- source: apple
+  page: 164
+  entry: "post (prefix)"
+  kind: existence
+  wrong: "post-(?!production)[a-z]"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Close up post- except before proper nouns or dates."
+- source: apple
+  page: 164
+  entry: "power adapter"
+  kind: existence
+  wrong: "AC adapters?"
+  domain: wording
+  fix: review
+  american: true
+  context: "hardware"
+  note: "Avoid AC adapter; use power adapter."
+- source: apple
+  page: 164
+  entry: "Power Nap"
+  kind: substitution
+  wrong: "PowerNap"
+  right: "Power Nap"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Two words."
+- source: apple
+  page: 164
+  entry: "power cable"
+  kind: casing
+  wrong: "Power Cable|Power Cord|Power Port"
+  right: "power cable"
+  domain: wording
+  fix: none
+  american: true
+  context: "hardware"
+  note: "Lowercase power cable, cord, port; adjust to the term."
+- source: apple
+  page: 164
+  entry: "power-down"
+  kind: existence
+  wrong: "power[ -](?:down|off|up)\\b|power on\\b(?! light)"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use turn on, turn off, shut down, start up."
+- source: apple
+  page: 165
+  entry: "pre (prefix)"
+  kind: existence
+  wrong: "pre-(?!order)[a-z]"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Close up pre- except before proper nouns or dates."
+- source: apple
+  page: 165
+  entry: "preinstalled"
+  kind: existence
+  wrong: "pre-?(?:installed|loaded)"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Avoid; say installed, loaded or included."
+- source: apple
+  page: 166
+  entry: "press"
+  kind: substitution
+  wrong: "press and drag"
+  right: "drag"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Say drag."
+- source: apple
+  page: 166
+  entry: "press"
+  kind: existence
+  wrong: "\\b(?:push|pushed|pushes) (?:the |a )?(?:\\w+ )?(?:key|button)\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use press, not push."
+- source: apple
+  page: 167
+  entry: "print (v.)"
+  kind: existence
+  wrong: "print out\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use print (verb) or printout (noun)."
+- source: apple
+  page: 167
+  entry: "Private Browsing"
+  kind: casing
+  wrong: "private browsing"
+  right: "Private Browsing"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple Safari"
+  note: "Capitalize the feature name."
+- source: apple
+  page: 167
+  entry: "Private Browsing"
+  kind: casing
+  wrong: "Private window|Private Browsing window"
+  right: "private window"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple Safari"
+  note: "Lowercase private window."
+- source: apple
+  page: 167
+  entry: "problem"
+  kind: existence
+  wrong: "known problem|fixes? that problem"
+  domain: wording
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use condition, issue or situation."
+- source: apple
+  page: 168
+  entry: "product names"
+  kind: existence
+  wrong: "\\bthe (?:AirPods(?: Max| Pro)?|AirTag|Apple Pencil|Apple TV (?:4K|HD)|Apple Vision Pro|Apple Watch(?: Ultra)?|HomePod(?: mini)?|iMac|MacBook(?: Air| Pro)?|Mac(?: mini| Pro| Studio)?|Magic (?:Keyboard|Mouse|Trackpad)|Pro Display XDR|Pro Stand|Studio Display)\\b(?! (?:you|that|with|is|has|in|on|to|and|or|app|App|if))"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple products"
+  note: "Omit the before these hardware names in general references."
+- source: apple
+  page: 168
+  entry: "product names"
+  kind: casing
+  wrong: "IPhone"
+  right: "iPhone"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Keep lowercase i even at sentence start."
+- source: apple
+  page: 168
+  entry: "product names"
+  kind: casing
+  wrong: "IPad"
+  right: "iPad"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Keep lowercase i."
+- source: apple
+  page: 168
+  entry: "product names"
+  kind: casing
+  wrong: "IPadOS"
+  right: "iPadOS"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Keep lowercase i."
+- source: apple
+  page: 168
+  entry: "product names"
+  kind: casing
+  wrong: "IPod"
+  right: "iPod"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Keep lowercase i."
+- source: apple
+  page: 168
+  entry: "product names"
+  kind: casing
+  wrong: "IMac"
+  right: "iMac"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Keep lowercase i."
+- source: apple
+  page: 168
+  entry: "product names"
+  kind: casing
+  wrong: "ITunes"
+  right: "iTunes"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Keep lowercase i."
+- source: apple
+  page: 168
+  entry: "product names"
+  kind: casing
+  wrong: "IMessage"
+  right: "iMessage"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Keep lowercase i."
+- source: apple
+  page: 168
+  entry: "product names"
+  kind: casing
+  wrong: "IOS"
+  right: "iOS"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Keep lowercase i; may match all-caps text."
+- source: apple
+  page: 170
+  entry: "pronouns"
+  kind: existence
+  wrong: "he or she|she or he|he/she|she/he|s/he|his or her|her or his|his/her|him or her|him/her"
+  domain: wording
+  fix: review
+  american: true
+  context: "inclusive writing"
+  note: "Use singular they or rewrite."
+- source: apple
+  page: 170
+  entry: "propeller"
+  kind: substitution
+  wrong: "propeller key"
+  right: "Command key"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use Command key."
+- source: apple
+  page: 171
+  entry: "push notification"
+  kind: existence
+  wrong: "push notifications?"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Say notification in user materials; push notification fine in developer text."
+- source: apple
+  page: 172
+  entry: "quad"
+  kind: substitution
+  wrong: "quad(?=band|channel|core|port)"
+  right: "quad-"
+  domain: wording
+  fix: review
+  american: true
+  context: "technical"
+  note: "Hyphenate quad compounds."
+- source: apple
+  page: 172
+  entry: "quality"
+  kind: existence
+  wrong: "\\b(?:high|broadcast|professional|low|good|poor|top) quality (?:video|audio|image|images|photo|photos|sound|print|content|recording|display)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate quality compound adjectives."
+- source: apple
+  page: 172
+  entry: "question-mark button"
+  kind: substitution
+  wrong: "question-mark button"
+  right: "Help button"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use Help button."
+- source: apple
+  page: 172
+  entry: "quick reference card"
+  kind: substitution
+  wrong: "quick-reference card"
+  right: "quick reference card"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen."
+- source: apple
+  page: 172
+  entry: "QuickTime Player"
+  kind: existence
+  wrong: "the QuickTime Player(?! app)\\b"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Do not precede QuickTime Player with the."
+- source: apple
+  page: 172
+  entry: "quotation marks"
+  kind: substitution
+  wrong: "quote marks"
+  right: "quotation marks"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use quotation marks."
+- source: apple
+  page: 172
+  entry: "quotation marks"
+  kind: existence
+  wrong: "[”\\\"][.,]"
+  domain: grammar
+  fix: none
+  american: true
+  context: "general"
+  note: "Periods and commas go inside quotation marks; matches code strings too."
+- source: apple
+  page: 172
+  entry: "quotation marks"
+  kind: existence
+  wrong: "[;:?!][”\\\"]"
+  domain: grammar
+  fix: none
+  american: true
+  context: "general"
+  note: "Semicolons, colons, question and exclamation marks go outside unless quoted."
+- source: apple
+  page: 173
+  entry: "radio button"
+  kind: existence
+  wrong: "radio buttons?"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Avoid radio button; say select an option."
+- source: apple
+  page: 174
+  entry: "real time"
+  kind: substitution
+  wrong: "realtime"
+  right: "real-time"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate adjective; two words as noun."
+- source: apple
+  page: 175
+  entry: "recommend"
+  kind: existence
+  wrong: "\\b[Ww]e recommend\\b|\\bApple recommends\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use it's recommended instead of we recommend."
+- source: apple
+  page: 175
+  entry: "redownload"
+  kind: substitution
+  wrong: "re-?download"
+  right: "download again"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use download again."
+- source: apple
+  page: 176
+  entry: "resizable"
+  kind: substitution
+  wrong: "resizeable"
+  right: "resizable"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spelling."
+- source: apple
+  page: 176
+  entry: "resolution"
+  kind: existence
+  wrong: "\\b\\d+ by \\d+ pixels?"
+  domain: grammar
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use x between resolution numbers, not by."
+- source: apple
+  page: 176
+  entry: "return character"
+  kind: substitution
+  wrong: "carriage return character"
+  right: "return character"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use return character."
+- source: apple
+  page: 123
+  entry: "left arrow"
+  kind: existence
+  wrong: "left arrow button|left-pointing arrow"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Call it the left arrow."
+- source: apple
+  page: 177
+  entry: "right arrow"
+  kind: existence
+  wrong: "right arrow button|right-pointing arrow"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Call it the right arrow."
+- source: apple
+  page: 177
+  entry: "right-hand"
+  kind: substitution
+  wrong: "right-hand side|right hand side"
+  right: "right side"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use right side."
+- source: apple
+  page: 177
+  entry: "right-hand"
+  kind: existence
+  wrong: "right-hand"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use right except for right-hand pages."
+- source: apple
+  page: 177
+  entry: "rightmost"
+  kind: substitution
+  wrong: "right-most|right most"
+  right: "rightmost"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 177
+  entry: "ringtone"
+  kind: substitution
+  wrong: "ring tones?"
+  right: "ringtone"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 177
+  entry: "road map"
+  kind: substitution
+  wrong: "roadmaps?"
+  right: "road map"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Two words."
+- source: apple
+  page: 178
+  entry: "rule of thumb"
+  kind: existence
+  wrong: "rules? of thumb"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use general rule, guideline or as a rule."
+- source: apple
+  page: 178
+  entry: "run (v.)"
+  kind: existence
+  wrong: "\\b(?:you(?:'|’)re|you are|is|are) running (?:iOS|iPadOS|macOS|watchOS|tvOS|OS X)"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use using or installed for OS versions."
+- source: apple
+  page: 179
+  entry: "safe mode"
+  kind: casing
+  wrong: "Safe Mode"
+  right: "safe mode"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Lowercase."
+- source: apple
+  page: 179
+  entry: "sample rate"
+  kind: substitution
+  wrong: "sampling rate"
+  right: "sample rate"
+  domain: wording
+  fix: safe
+  american: true
+  context: "audio"
+  note: "Use sample rate."
+- source: apple
+  page: 179
+  entry: "SAN"
+  kind: substitution
+  wrong: "an SAN"
+  right: "a SAN"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use a before SAN."
+- source: apple
+  page: 179
+  entry: "sanity check"
+  kind: existence
+  wrong: "sanity (?:check|test)s?"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use consistency check, logic check, final check."
+- source: apple
+  page: 179
+  entry: "sans serif"
+  kind: substitution
+  wrong: "sans-serif"
+  right: "sans serif"
+  domain: wording
+  fix: review
+  american: true
+  context: "typography"
+  note: "Two words, no hyphen."
+- source: apple
+  page: 179
+  entry: "scalable"
+  kind: substitution
+  wrong: "scaleab(?=le|ility)"
+  right: "scalab"
+  domain: wording
+  fix: review
+  american: true
+  context: "technical"
+  note: "Spell scalable, scalability."
+- source: apple
+  page: 179
+  entry: "screen saver"
+  kind: substitution
+  wrong: "screensavers?"
+  right: "screen saver"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Two words."
+- source: apple
+  page: 179
+  entry: "screenshot"
+  kind: substitution
+  wrong: "screen[- ]shots?"
+  right: "screenshot"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 180
+  entry: "seasons"
+  kind: existence
+  wrong: "\\b(?:this|next|last|early|late|every|in the) (?:spring|summer|fall|autumn|winter)\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Avoid season names for global audiences."
+- source: apple
+  page: 182
+  entry: "self"
+  kind: existence
+  wrong: "self (?=(?:paced|playing|running|service|test|powered|contained|sufficient|explanatory|signed|study)\\b)"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate terms beginning with self."
+- source: apple
+  page: 182
+  entry: "Setup Assistant"
+  kind: existence
+  wrong: "the Setup Assistant"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Do not precede Setup Assistant with the."
+- source: apple
+  page: 182
+  entry: "Shared Albums"
+  kind: substitution
+  wrong: "Shared iCloud Albums"
+  right: "Shared Albums"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use Shared Albums."
+- source: apple
+  page: 185
+  entry: "Shift lock"
+  kind: substitution
+  wrong: "Shift lock"
+  right: "Caps Lock"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use Caps Lock."
+- source: apple
+  page: 185
+  entry: "shortcut"
+  kind: substitution
+  wrong: "short-cuts?"
+  right: "shortcut"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 185
+  entry: "shows up"
+  kind: substitution
+  wrong: "shows? up"
+  right: "appears"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use appears."
+- source: apple
+  page: 185
+  entry: "sign"
+  kind: existence
+  wrong: "(?:division|equal|greater-than) symbol"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use sign, not symbol, for these terms."
+- source: apple
+  page: 185
+  entry: "signaled"
+  kind: substitution
+  wrong: "signalled"
+  right: "signaled"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "American single l."
+- source: apple
+  page: 185
+  entry: "signaling"
+  kind: substitution
+  wrong: "signalling"
+  right: "signaling"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "American single l."
+- source: apple
+  page: 185
+  entry: "sign-in"
+  kind: substitution
+  wrong: "sign into"
+  right: "sign in to"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use sign in to."
+- source: apple
+  page: 185
+  entry: "sign-in"
+  kind: existence
+  wrong: "sign (?:out from|off of|off from)"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Users sign out of accounts."
+- source: apple
+  page: 186
+  entry: "Sign in with Apple"
+  kind: casing
+  wrong: "Sign [Ii]n [Ww]ith Apple|Sign In with Apple|Sign in With Apple"
+  right: "Sign in with Apple"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Lowercase in."
+- source: apple
+  page: 186
+  entry: "SIM"
+  kind: substitution
+  wrong: "an SIM\\b"
+  right: "a SIM"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use a before SIM."
+- source: apple
+  page: 186
+  entry: "single"
+  kind: existence
+  wrong: "single (?:button|core|layer|precision|processor)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "technical"
+  note: "Hyphenate single compound adjectives."
+- source: apple
+  page: 186
+  entry: "single sign-on"
+  kind: substitution
+  wrong: "single sign on"
+  right: "single sign-on"
+  domain: grammar
+  fix: review
+  american: true
+  context: "technical"
+  note: "Hyphenate sign-on noun/adjective."
+- source: apple
+  page: 187
+  entry: "Siri Shortcuts"
+  kind: existence
+  wrong: "Siri shortcuts"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Capitalize Siri Shortcuts."
+- source: apple
+  page: 187
+  entry: "Siri Suggestions"
+  kind: existence
+  wrong: "Siri suggestions"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Capitalize Siri Suggestions."
+- source: apple
+  page: 187
+  entry: "size (adj.)"
+  kind: existence
+  wrong: "\\b(?:letter|medium|pocket|full|large|small|king)-sized\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Use compounds ending in -size, not -sized."
+- source: apple
+  page: 187
+  entry: "sleep"
+  kind: existence
+  wrong: "computer is (?:sleeping|asleep)"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Say the computer goes to sleep or is in sleep."
+- source: apple
+  page: 188
+  entry: "slide (v.)"
+  kind: existence
+  wrong: "slide (?:the )?(?:slider|switch|toggle)"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use drag the slider or tap the switch."
+- source: apple
+  page: 188
+  entry: "slideshow"
+  kind: substitution
+  wrong: "slide show"
+  right: "slideshow"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 188
+  entry: "smart"
+  kind: existence
+  wrong: "smart (?:album|collection|folder|group|mailbox|playlist)s?\\b"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple products"
+  note: "Capitalize Smart and the noun in feature names."
+- source: apple
+  page: 188
+  entry: "smart card"
+  kind: casing
+  wrong: "Smart Card"
+  right: "smart card"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Lowercase."
+- source: apple
+  page: 188
+  entry: "smartphone"
+  kind: substitution
+  wrong: "smart[- ]phones?"
+  right: "smartphone"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 189
+  entry: "smart TV"
+  kind: casing
+  wrong: "Smart TV|smart tv|Smart tv"
+  right: "smart TV"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase smart, capital TV."
+- source: apple
+  page: 189
+  entry: "SO-DIMM"
+  kind: substitution
+  wrong: "SODIMM|SO DIMM"
+  right: "SO-DIMM"
+  domain: technical
+  fix: safe
+  american: true
+  context: "hardware"
+  note: "Hyphenate."
+- source: apple
+  page: 189
+  entry: "softcover"
+  kind: substitution
+  wrong: "soft[- ]cover"
+  right: "softcover"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 190
+  entry: "software"
+  kind: existence
+  wrong: "software programs?"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use software alone."
+- source: apple
+  page: 190
+  entry: "software license agreement"
+  kind: substitution
+  wrong: "software licensing agreement"
+  right: "software license agreement"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use license."
+- source: apple
+  page: 190
+  entry: "soundtrack"
+  kind: substitution
+  wrong: "sound[- ]track"
+  right: "soundtrack"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 190
+  entry: "Space bar"
+  kind: substitution
+  wrong: "[Ss]pacebar|[Ss]pace-bar"
+  right: "Space bar"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Two words."
+- source: apple
+  page: 190
+  entry: "space character"
+  kind: existence
+  wrong: "blank characters?"
+  domain: wording
+  fix: review
+  american: true
+  context: "technical"
+  note: "Use space character."
+- source: apple
+  page: 190
+  entry: "speakerphone"
+  kind: substitution
+  wrong: "speaker phone"
+  right: "speakerphone"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 190
+  entry: "Spatial Audio"
+  kind: casing
+  wrong: "spatial audio"
+  right: "Spatial Audio"
+  domain: technical
+  fix: none
+  american: true
+  context: "Apple products"
+  note: "Capitalize when naming the Apple feature."
+- source: apple
+  page: 191
+  entry: "special effects"
+  kind: substitution
+  wrong: "special-effects"
+  right: "special effects"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No hyphen."
+- source: apple
+  page: 191
+  entry: "Split View"
+  kind: casing
+  wrong: "[Ss]plit view"
+  right: "Split View"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Capitalize the feature name."
+- source: apple
+  page: 191
+  entry: "SSD"
+  kind: substitution
+  wrong: "a SSD\\b"
+  right: "an SSD"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use an before SSD."
+- source: apple
+  page: 191
+  entry: "SSD"
+  kind: substitution
+  wrong: "SSD drives?"
+  right: "SSD"
+  domain: technical
+  fix: review
+  american: true
+  context: "technical"
+  note: "Do not add drive after SSD."
+- source: apple
+  page: 192
+  entry: "step"
+  kind: existence
+  wrong: "(?<=[a-z,;] )Steps? \\d+"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase step in references."
+- source: apple
+  page: 192
+  entry: "startup sound"
+  kind: substitution
+  wrong: "boot chime"
+  right: "startup sound"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Use startup sound."
+- source: apple
+  page: 194
+  entry: "style (of type)"
+  kind: substitution
+  wrong: "typestyle|type style"
+  right: "style"
+  domain: wording
+  fix: review
+  american: true
+  context: "typography"
+  note: "Use style."
+- source: apple
+  page: 194
+  entry: "sub (prefix)"
+  kind: existence
+  wrong: "sub-(?=[a-z])"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Close up words beginning with sub."
+- source: apple
+  page: 194
+  entry: "super (prefix)"
+  kind: existence
+  wrong: "super-(?=[a-z])"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Close up words beginning with super."
+- source: apple
+  page: 195
+  entry: "surround sound"
+  kind: substitution
+  wrong: "surround-sound"
+  right: "surround sound"
+  domain: wording
+  fix: safe
+  american: true
+  context: "audio"
+  note: "No hyphen."
+- source: apple
+  page: 196
+  entry: "switch on, switch off"
+  kind: existence
+  wrong: "switch(?:es|ed|ing)? (?:on|off)\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use turn on and turn off."
+- source: apple
+  page: 196
+  entry: "switch (v.)"
+  kind: existence
+  wrong: "\\btoggl(?:e|es|ed|ing)\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Do not use toggle to mean turn on or off."
+- source: apple
+  page: 197
+  entry: "sync"
+  kind: substitution
+  wrong: "synched"
+  right: "synced"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use sync forms."
+- source: apple
+  page: 197
+  entry: "sync"
+  kind: substitution
+  wrong: "synching"
+  right: "syncing"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use sync forms."
+- source: apple
+  page: 197
+  entry: "sync"
+  kind: substitution
+  wrong: "synch\\b"
+  right: "sync"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use sync."
+- source: apple
+  page: 197
+  entry: "sync"
+  kind: existence
+  wrong: "synchroni[sz]ation is turned"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Do not use synchronize or synchronization for sync."
+- source: apple
+  page: 198
+  entry: "system software"
+  kind: substitution
+  wrong: "systems software"
+  right: "system software"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not systems software."
+- source: apple
+  page: 198
+  entry: "systemwide"
+  kind: substitution
+  wrong: "system-wide|system wide"
+  right: "systemwide"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 198
+  entry: "system on a chip"
+  kind: substitution
+  wrong: "a SoC\\b"
+  right: "an SoC"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use an before SoC."
+- source: apple
+  page: 198
+  entry: "system"
+  kind: existence
+  wrong: "restart your system"
+  domain: wording
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use computer, not system, for the computer alone."
+- source: apple
+  page: 201
+  entry: "tap (n., v.)"
+  kind: substitution
+  wrong: "tap on"
+  right: "tap"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Do not use tap on; say tap."
+- source: apple
+  page: 201
+  entry: "tap and hold"
+  kind: substitution
+  wrong: "tap and hold"
+  right: "touch and hold"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Tap means quick touch; use touch and hold."
+- source: apple
+  page: 201
+  entry: "taptic"
+  kind: existence
+  wrong: "[Tt]aptic(?! Engine)"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Use only in the term Taptic Engine."
+- source: apple
+  page: 201
+  entry: "target disk mode"
+  kind: casing
+  wrong: "Target Disk Mode"
+  right: "target disk mode"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Lowercase."
+- source: apple
+  page: 202
+  entry: "Tbit"
+  kind: existence
+  wrong: "\\d(?:Tbit|Gbit)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "technical"
+  note: "Put a space between numeral and unit abbreviation."
+- source: apple
+  page: 202
+  entry: "telephone number"
+  kind: substitution
+  wrong: "telephone numbers?"
+  right: "phone number"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use phone number."
+- source: apple
+  page: 202
+  entry: "television"
+  kind: substitution
+  wrong: "television sets?|TV sets?"
+  right: "TV"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use TV."
+- source: apple
+  page: 202
+  entry: "temperatures"
+  kind: existence
+  wrong: "\\d°[CF]\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Put a space between degree symbol and C or F."
+- source: apple
+  page: 203
+  entry: "theater"
+  kind: substitution
+  wrong: "theatre"
+  right: "theater"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "American spelling; proper names may differ."
+- source: apple
+  page: 203
+  entry: "third party"
+  kind: substitution
+  wrong: "3rd[- ]party|\\b3P\\b"
+  right: "third-party"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Spell out third-party."
+- source: apple
+  page: 203
+  entry: "three-prong outlet"
+  kind: substitution
+  wrong: "three-prong outlets?"
+  right: "grounded outlet"
+  domain: wording
+  fix: review
+  american: true
+  context: "hardware"
+  note: "Use grounded outlet."
+- source: apple
+  page: 203
+  entry: "timecode"
+  kind: substitution
+  wrong: "time[- ]codes?"
+  right: "timecode"
+  domain: wording
+  fix: review
+  american: true
+  context: "video"
+  note: "One word."
+- source: apple
+  page: 203
+  entry: "timeline"
+  kind: substitution
+  wrong: "time line"
+  right: "timeline"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 204
+  entry: "time of day"
+  kind: existence
+  wrong: "\\d{1,2}:\\d{2} [ap]\\.m\\.-\\d"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Use an en dash or to in time ranges, not a hyphen."
+- source: apple
+  page: 204
+  entry: "time of day"
+  kind: existence
+  wrong: "\\bfrom \\d{1,2}(?::\\d{2})?[–-]\\d"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Do not use from with an en dash; use from X to Y."
+- source: apple
+  page: 204
+  entry: "time zone"
+  kind: existence
+  wrong: "(?:Pacific|Mountain|Central|Eastern) (?:Standard|Daylight) Time|(?:Pacific|Mountain|Central|Eastern) Time"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase time: Pacific time, eastern standard time."
+- source: apple
+  page: 204
+  entry: "time zone"
+  kind: substitution
+  wrong: "(?i:daylight savings time)"
+  right: "daylight saving time"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use daylight saving time."
+- source: apple
+  page: 204
+  entry: "timestamp"
+  kind: substitution
+  wrong: "time[- ]stamps?"
+  right: "timestamp"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 205
+  entry: "titled"
+  kind: existence
+  wrong: "\\b(?:book|chapter|article|document|section|song|file|report|essay|video|series|folder|album) entitled\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Use titled, not entitled."
+- source: apple
+  page: 205
+  entry: "Today View"
+  kind: existence
+  wrong: "the Today View"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Do not precede with the."
+- source: apple
+  page: 205
+  entry: "to-do"
+  kind: substitution
+  wrong: "to do list|todo list"
+  right: "to-do list"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate to-do."
+- source: apple
+  page: 205
+  entry: "toolbar"
+  kind: substitution
+  wrong: "tool bar"
+  right: "toolbar"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 205
+  entry: "toolkit"
+  kind: substitution
+  wrong: "tool kit"
+  right: "toolkit"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 205
+  entry: "tooltip"
+  kind: existence
+  wrong: "tool ?tips?"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use help tag in user materials; tooltip OK in developer text."
+- source: apple
+  page: 206
+  entry: "Touch Bar"
+  kind: existence
+  wrong: "on the Touch Bar"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Items are in the Touch Bar."
+- source: apple
+  page: 206
+  entry: "touchscreen"
+  kind: substitution
+  wrong: "touch[- ]screens?"
+  right: "touchscreen"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 206
+  entry: "toward"
+  kind: substitution
+  wrong: "towards"
+  right: "toward"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use toward."
+- source: apple
+  page: 206
+  entry: "trackpad"
+  kind: substitution
+  wrong: "track[- ]pads?"
+  right: "trackpad"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 207
+  entry: "trademarks"
+  kind: existence
+  wrong: "\\b(?:iPhone|iPad|iPod|Mac|MacBook|iMac|iTunes|iCloud|Apple Watch|AirPods|FaceTime|Siri|Safari|AirPlay)[®™]"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Omit trademark symbols for Apple names in text and headings."
+- source: apple
+  page: 208
+  entry: "troubleshoot"
+  kind: substitution
+  wrong: "trouble[- ]shoot"
+  right: "troubleshoot"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 208
+  entry: "troubleshoot"
+  kind: substitution
+  wrong: "trouble[- ]shooting"
+  right: "troubleshooting"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 209
+  entry: "type (n.)"
+  kind: existence
+  wrong: "typefaces?"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use font."
+- source: apple
+  page: 209
+  entry: "type size"
+  kind: substitution
+  wrong: "type sizes?"
+  right: "font size"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use size or font size."
+- source: apple
+  page: 209
+  entry: "UK"
+  kind: substitution
+  wrong: "U\\.K\\."
+  right: "UK"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "No periods."
+- source: apple
+  page: 209
+  entry: "ultra (prefix)"
+  kind: existence
+  wrong: "ultra-(?![aeiou])[a-z]"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Close up ultra- except before a vowel."
+- source: apple
+  page: 209
+  entry: "uncheck"
+  kind: existence
+  wrong: "unclick(?:s|ed|ing)?|unchecks?\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use deselect."
+- source: apple
+  page: 209
+  entry: "under"
+  kind: existence
+  wrong: "under (?:macOS|iOS|iPadOS|OS X|Mac OS|watchOS|tvOS|visionOS)"
+  domain: grammar
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Use in or with an operating system, not under."
+- source: apple
+  page: 209
+  entry: "under"
+  kind: existence
+  wrong: "under the [A-Z]\\w+ menu"
+  domain: grammar
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Menu items are in a menu, not under it."
+- source: apple
+  page: 210
+  entry: "unhighlight"
+  kind: existence
+  wrong: "unhighlight\\b"
+  domain: technical
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use deselect."
+- source: apple
+  page: 210
+  entry: "UNIX"
+  kind: casing
+  wrong: "Unix"
+  right: "UNIX"
+  domain: wording
+  fix: review
+  american: true
+  context: "technical"
+  note: "All caps."
+- source: apple
+  page: 211
+  entry: "upgradable"
+  kind: substitution
+  wrong: "upgradeable"
+  right: "upgradable"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Not upgradeable."
+- source: apple
+  page: 211
+  entry: "upward"
+  kind: substitution
+  wrong: "upwards"
+  right: "upward"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use upward."
+- source: apple
+  page: 211
+  entry: "update"
+  kind: existence
+  wrong: "maintenance releases?|dot releases?"
+  domain: wording
+  fix: review
+  american: true
+  context: "software"
+  note: "Use update for minor releases."
+- source: apple
+  page: 211
+  entry: "URL"
+  kind: substitution
+  wrong: "an URL"
+  right: "a URL"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "technical"
+  note: "Use a before URL."
+- source: apple
+  page: 211
+  entry: "U.S."
+  kind: existence
+  wrong: "\\bUS\\b"
+  domain: grammar
+  fix: none
+  american: true
+  context: "general"
+  note: "Use periods in U.S. as an adjective; matches all-caps text."
+- source: apple
+  page: 212
+  entry: "user group"
+  kind: substitution
+  wrong: "users group|user's group"
+  right: "user group"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use user group."
+- source: apple
+  page: 212
+  entry: "user name"
+  kind: substitution
+  wrong: "usernames?"
+  right: "user name"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Two words per guide."
+- source: apple
+  page: 213
+  entry: "version number"
+  kind: existence
+  wrong: "\\b(?:iOS|iPadOS|macOS|watchOS|tvOS|visionOS|Keynote|Pages|Numbers|Final Cut Pro|Xcode|Safari) (?:version|v\\.?) ?\\d"
+  domain: wording
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Omit the word version or v before version numbers."
+- source: apple
+  page: 213
+  entry: "version number"
+  kind: existence
+  wrong: "\\b\\d+\\.x\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Do not use x for any number outside developer text."
+- source: apple
+  page: 213
+  entry: "version number"
+  kind: existence
+  wrong: "\\b(?:iOS|iPadOS|macOS|watchOS|tvOS|visionOS) [\\d.]+ or (?:higher|newer|older|lower)\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Use later or earlier with version numbers."
+- source: apple
+  page: 214
+  entry: "versus"
+  kind: existence
+  wrong: "\\bvs\\b\\.?"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use versus or rewrite."
+- source: apple
+  page: 214
+  entry: "via"
+  kind: existence
+  wrong: "\\bvia\\b"
+  domain: wording
+  fix: none
+  american: true
+  context: "general"
+  note: "Use by, from, through, using or with; features names are exceptions."
+- source: apple
+  page: 214
+  entry: "video"
+  kind: substitution
+  wrong: "video tape|video-tape"
+  right: "videotape"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 215
+  entry: "VoiceOver"
+  kind: casing
+  wrong: "Voiceover|voiceOver"
+  right: "VoiceOver"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Capitalize the screen reader name."
+- source: apple
+  page: 215
+  entry: "Visual Look Up"
+  kind: casing
+  wrong: "Visual Lookup|Visual look up|Visual Look up|Visual LookUp"
+  right: "Visual Look Up"
+  domain: technical
+  fix: review
+  american: true
+  context: "Apple products"
+  note: "Spelling and capitalization."
+- source: apple
+  page: 215
+  entry: "virtual machine"
+  kind: casing
+  wrong: "Virtual Machine"
+  right: "virtual machine"
+  domain: wording
+  fix: review
+  american: true
+  context: "technical"
+  note: "Lowercase."
+- source: apple
+  page: 215
+  entry: "virtual memory"
+  kind: casing
+  wrong: "Virtual Memory"
+  right: "virtual memory"
+  domain: wording
+  fix: review
+  american: true
+  context: "technical"
+  note: "Lowercase."
+- source: apple
+  page: 215
+  entry: "visually impaired"
+  kind: existence
+  wrong: "visually impaired|hearing impaired"
+  domain: wording
+  fix: review
+  american: true
+  context: "inclusive writing"
+  note: "Avoid; say blind, low vision, deaf or hard of hearing."
+- source: apple
+  page: 215
+  entry: "visionOS"
+  kind: existence
+  wrong: "the visionOS"
+  domain: technical
+  fix: safe
+  american: true
+  context: "Apple products"
+  note: "Do not precede with the."
+- source: apple
+  page: 216
+  entry: "volume license"
+  kind: substitution
+  wrong: "volume-license"
+  right: "volume license"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "No hyphen."
+- source: apple
+  page: 216
+  entry: "volume licensing"
+  kind: substitution
+  wrong: "volume-licensing"
+  right: "volume licensing"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "No hyphen."
+- source: apple
+  page: 216
+  entry: "WAN"
+  kind: substitution
+  wrong: "wide-area network"
+  right: "wide area network"
+  domain: wording
+  fix: safe
+  american: true
+  context: "technical"
+  note: "No hyphen."
+- source: apple
+  page: 217
+  entry: "watchlist"
+  kind: substitution
+  wrong: "watch list"
+  right: "watchlist"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 217
+  entry: "waveform"
+  kind: substitution
+  wrong: "wave form"
+  right: "waveform"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 217
+  entry: "wavelength"
+  kind: substitution
+  wrong: "wave length"
+  right: "wavelength"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 217
+  entry: "web"
+  kind: existence
+  wrong: "Web(?= (?:app|browser|developer|server|page|site|address|cam|cast|mail))"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase web."
+- source: apple
+  page: 217
+  entry: "web"
+  kind: substitution
+  wrong: "web page"
+  right: "webpage"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 217
+  entry: "web"
+  kind: substitution
+  wrong: "web site"
+  right: "website"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 217
+  entry: "web"
+  kind: substitution
+  wrong: "web cam"
+  right: "webcam"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 217
+  entry: "web"
+  kind: substitution
+  wrong: "web cast"
+  right: "webcast"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 217
+  entry: "web"
+  kind: substitution
+  wrong: "web mail"
+  right: "webmail"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 218
+  entry: "wellbeing"
+  kind: substitution
+  wrong: "well-being"
+  right: "wellbeing"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "One word per guide."
+- source: apple
+  page: 218
+  entry: "wheelchair user"
+  kind: existence
+  wrong: "wheelchair[- ]bound|confined to (?:a )?wheelchairs?|handicapped"
+  domain: wording
+  fix: review
+  american: true
+  context: "inclusive writing"
+  note: "Say wheelchair user or person who uses a wheelchair."
+- source: apple
+  page: 218
+  entry: "whitelist"
+  kind: existence
+  wrong: "whitelists?|blacklists?"
+  domain: wording
+  fix: review
+  american: true
+  context: "inclusive writing"
+  note: "Do not use; choose allowlist or blocklist."
+- source: apple
+  page: 219
+  entry: "wide"
+  kind: existence
+  wrong: "wide (?:angle|format)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "general"
+  note: "Hyphenate compound adjectives beginning with wide."
+- source: apple
+  page: 219
+  entry: "wide"
+  kind: existence
+  wrong: "\\b(?:company|enterprise|industry|system|nation|campus)-wide\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Close up words ending in wide."
+- source: apple
+  page: 219
+  entry: "widescreen"
+  kind: substitution
+  wrong: "wide[- ]screen"
+  right: "widescreen"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "One word."
+- source: apple
+  page: 219
+  entry: "Wi-Fi"
+  kind: casing
+  wrong: "wifi|Wifi|wi-fi|WiFi|WIFI"
+  right: "Wi-Fi"
+  domain: technical
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use Wi-Fi."
+- source: apple
+  page: 219
+  entry: "wiggle"
+  kind: existence
+  wrong: "wiggl(?:e|es|ed|ing)\\b"
+  domain: technical
+  fix: none
+  american: true
+  context: "user materials"
+  note: "Use jiggle for icon motion."
+- source: apple
+  page: 220
+  entry: "wireless-enabled"
+  kind: substitution
+  wrong: "wirelessly-enabled"
+  right: "wireless-enabled"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Use wireless-enabled."
+- source: apple
+  page: 220
+  entry: "wish"
+  kind: substitution
+  wrong: "wish to"
+  right: "want to"
+  domain: wording
+  fix: review
+  american: true
+  context: "user materials"
+  note: "Use want."
+- source: apple
+  page: 220
+  entry: "work"
+  kind: existence
+  wrong: "work[- ](?:flow|force|group|place|shop|space|station)\\b"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Close up work compounds."
+- source: apple
+  page: 221
+  entry: "write"
+  kind: existence
+  wrong: "write a disk"
+  domain: technical
+  fix: review
+  american: true
+  context: "developer materials"
+  note: "Use write to a disk or write on a disk."
+- source: apple
+  page: 221
+  entry: "x"
+  kind: existence
+  wrong: "\\b\\d{3,4}x\\d{3,4}\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "technical"
+  note: "Write screen resolutions as 1024 x 768 with spaces."
+- source: apple
+  page: 221
+  entry: "x"
+  kind: existence
+  wrong: "\\d+ x speed"
+  domain: grammar
+  fix: review
+  american: true
+  context: "technical"
+  note: "Optical drive speed is 24x with no space."
+- source: apple
+  page: 222
+  entry: "zeros"
+  kind: substitution
+  wrong: "zeroes"
+  right: "zeros"
+  domain: wording
+  fix: safe
+  american: true
+  context: "general"
+  note: "Plural of zero is zeros."
+- source: apple
+  page: 222
+  entry: "zip code"
+  kind: casing
+  wrong: "ZIP [Cc]ode|Zip [Cc]ode"
+  right: "zip code"
+  domain: wording
+  fix: review
+  american: true
+  context: "general"
+  note: "Lowercase zip code."
+- source: apple
+  page: 223
+  entry: "Research words"
+  kind: existence
+  wrong: "grandfathered in"
+  domain: wording
+  fix: none
+  american: true
+  context: "inclusive writing"
+  note: "Idiom with oppressive origin; avoid."
+- source: apple
+  page: 224
+  entry: "violent terms"
+  kind: existence
+  wrong: "fall(?:s|ing)? through the cracks|on the same page|backseat driver"
+  domain: wording
+  fix: none
+  american: true
+  context: "inclusive writing"
+  note: "Avoid idioms that are hard to translate."
+- source: apple
+  page: 224
+  entry: "color terms"
+  kind: existence
+  wrong: "white[- ]hat|black[- ]hat|red team hacker"
+  domain: wording
+  fix: review
+  american: true
+  context: "inclusive writing"
+  note: "Do not use colors to convey good or bad qualities."
+- source: apple
+  page: 226
+  entry: "gender identity"
+  kind: existence
+  wrong: "men and women"
+  domain: wording
+  fix: none
+  american: true
+  context: "inclusive writing"
+  note: "Prefer gender-neutral wording like people when context allows."
+- source: apple
+  page: 227
+  entry: "ableist language"
+  kind: existence
+  wrong: "able-bodied"
+  domain: wording
+  fix: review
+  american: true
+  context: "inclusive writing"
+  note: "Say nondisabled person instead."
+- source: apple
+  page: 227
+  entry: "ableist language"
+  kind: existence
+  wrong: "that(?:'|’)s crazy|fall(?:s|en)? on deaf ears|turn(?:s|ed|ing)? a blind eye"
+  domain: wording
+  fix: review
+  american: true
+  context: "inclusive writing"
+  note: "Avoid idioms that send negative messages about disability."
+- source: apple
+  page: 228
+  entry: "terms about disability"
+  kind: existence
+  wrong: "differently[- ]abled|special needs|special abilities|handicapable|deaf[- ]mute|deaf and dumb"
+  domain: wording
+  fix: review
+  american: true
+  context: "inclusive writing"
+  note: "Avoid these terms about disability."
+- source: apple
+  page: 229
+  entry: "terms about disability"
+  kind: existence
+  wrong: "high-functioning|low-functioning|Asperger['’]?s|autism spectrum disorder|person with autism|people with autism|neurodiverse person"
+  domain: wording
+  fix: review
+  american: true
+  context: "inclusive writing"
+  note: "Avoid; use on the spectrum, autistic person, or neurodivergent person."
+- source: apple
+  page: 231
+  entry: "units"
+  kind: existence
+  wrong: "\\blbs\\b\\.?"
+  domain: grammar
+  fix: review
+  american: true
+  context: "measurement"
+  note: "Unit abbreviations stay singular: lb., not lbs."
+- source: apple
+  page: 231
+  entry: "units"
+  kind: existence
+  wrong: "\\b(?:m|km|ft|mi)/(?:second|sec|hour|hr)\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "measurement"
+  note: "Do not mix unit symbols and names."
+- source: apple
+  page: 233
+  entry: "gigahertz"
+  kind: casing
+  wrong: "ghz|Ghz|GHZ"
+  right: "GHz"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "measurement"
+  note: "Unit symbol is GHz."
+- source: apple
+  page: 234
+  entry: "kilohertz"
+  kind: casing
+  wrong: "khz|Khz|KHz|KHZ"
+  right: "kHz"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "measurement"
+  note: "Unit symbol is kHz."
+- source: apple
+  page: 234
+  entry: "megahertz"
+  kind: casing
+  wrong: "mhz|Mhz|MHZ"
+  right: "MHz"
+  domain: grammar
+  fix: safe
+  american: true
+  context: "measurement"
+  note: "Unit symbol is MHz."
+- source: apple
+  page: 233
+  entry: "gigabyte"
+  kind: casing
+  wrong: "(?<=\\d )gb|(?<=\\d)gb"
+  right: "GB"
+  domain: grammar
+  fix: review
+  american: true
+  context: "measurement"
+  note: "Unit symbol is GB."
+- source: apple
+  page: 236
+  entry: "terabyte"
+  kind: casing
+  wrong: "(?<=\\d )tb|(?<=\\d)tb"
+  right: "TB"
+  domain: grammar
+  fix: review
+  american: true
+  context: "measurement"
+  note: "Unit symbol is TB."
+- source: apple
+  page: 233
+  entry: "dots per inch"
+  kind: casing
+  wrong: "DPI"
+  right: "dpi"
+  domain: grammar
+  fix: review
+  american: true
+  context: "measurement"
+  note: "Unit abbreviation is lowercase dpi."
+- source: apple
+  page: 235
+  entry: "revolutions per minute"
+  kind: casing
+  wrong: "RPM"
+  right: "rpm"
+  domain: grammar
+  fix: review
+  american: true
+  context: "measurement"
+  note: "Unit abbreviation is lowercase rpm."
+- source: apple
+  page: 234
+  entry: "miles per hour"
+  kind: casing
+  wrong: "MPH"
+  right: "mph"
+  domain: grammar
+  fix: review
+  american: true
+  context: "measurement"
+  note: "Unit abbreviation is lowercase mph."
+- source: apple
+  page: 235
+  entry: "square foot"
+  kind: existence
+  wrong: "\\bsq ?ft\\b\\.?|\\bsqft\\b"
+  domain: grammar
+  fix: review
+  american: true
+  context: "measurement"
+  note: "Abbreviate as sq. ft. in tables."
+- source: apple
+  page: 235
+  entry: "pound"
+  kind: existence
+  wrong: "(?<=\\d )(?:lb|oz|yd|gal)(?![.\\w])"
+  domain: grammar
+  fix: review
+  american: true
+  context: "measurement"
+  note: "Nonmetric abbreviations take a period: lb., oz., yd., gal."
+- source: apple
+  page: 233
+  entry: "foot"
+  kind: existence
+  wrong: "(?<=\\d )ft(?![.\\w])"
+  domain: grammar
+  fix: review
+  american: true
+  context: "measurement"
+  note: "Abbreviate foot as ft."
+- source: apple
+  page: 235
+  entry: "year"
+  kind: existence
+  wrong: "(?<=\\d )(?:yrs?|mos?|mins?)(?![.\\w])"
+  domain: grammar
+  fix: none
+  american: true
+  context: "measurement"
+  note: "Time abbreviations in the guide take periods: yr., mo., min."
+- source: apple
+  page: 238
+  entry: "Placeholder names in text"
+  kind: existence
+  wrong: "\\bfoo(?:bar)?\\b|\\bbaz\\b"
+  domain: technical
+  fix: none
+  american: true
+  context: "developer materials"
+  note: "Avoid foo, bar, baz placeholder names; use descriptive names."
+- source: apple
+  page: 240
+  entry: "Currency"
+  kind: existence
+  wrong: "[$€£¥]\\s?\\d"
+  domain: grammar
+  fix: none
+  american: false
+  context: "international style"
+  note: "International style uses code after amount (1199 USD); conflicts with US usage."
+- source: apple
+  page: 241
+  entry: "Dates and times"
+  kind: existence
+  wrong: "\\b(?:January|February|March|April|May|June|July|August|September|October|November|December) \\d{1,2}, \\d{4}\\b"
+  domain: grammar
+  fix: none
+  american: false
+  context: "international style"
+  note: "International style prefers ISO 8601 dates like 2025-09-09."
+- source: apple
+  page: 241
+  entry: "Decimals"
+  kind: existence
+  wrong: "(?<![\\d,.])\\d{1,3}(?:,\\d{3})+(?![\\d,])"
+  domain: grammar
+  fix: none
+  american: false
+  context: "international style"
+  note: "International style uses a nonbreaking space, not a comma, in large numbers."

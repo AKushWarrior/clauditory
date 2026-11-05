@@ -36,32 +36,28 @@ func TestOpposition(t *testing.T) {
 
 func TestRanks(t *testing.T) {
 	rs := load(t)
-	want := map[string]string{
-		"House.EmDash":        "owner",
-		"Oxford.SerialComma":  "primary",
-		"NYT.Percent":         "primary",
-		"RedHat.TermsErrors":  "primary",
-		"AP.WhoForPeople":     "secondary",
-		"Chicago.Usage":       "secondary",
-		"Apple.ProductNames":  "secondary",
-		"Chicago.PronounCase": "tertiary",
-		"AP.Words":            "tertiary",
-		"Microsoft.Suspended": "tertiary",
-		"RedHat.PassiveVoice": "unranked",
+	want := map[string]int{
+		"House.EmDash":        0,
+		"Oxford.SerialComma":  1,
+		"NYT.Percent":         1,
+		"RedHat.TermsErrors":  1,
+		"AP.WhoForPeople":     2,
+		"Chicago.Usage":       2,
+		"Apple.ProductNames":  2,
+		"Chicago.PronounCase": 3,
+		"AP.Words":            3,
+		"Microsoft.Suspended": 5,
+		"RedHat.PassiveVoice": unranked,
 	}
-	for name, tier := range want {
-		if got := rs.Rules[name].Tier(); got != tier {
-			t.Errorf("%s: tier %s, want %s", name, got, tier)
+	for name, rank := range want {
+		if got := rs.Rules[name].Rank; got != rank {
+			t.Errorf("%s: rank %d, want %d", name, got, rank)
 		}
 	}
 }
 
 func TestFixSafe(t *testing.T) {
-	vale, err := FindVale()
-	if err != nil {
-		t.Skip(err)
-	}
-	l, err := NewLinter(load(t), vale)
+	l, err := NewLinter(load(t))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -81,5 +77,57 @@ func TestFixSafe(t *testing.T) {
 	}
 	if text != string(want) {
 		t.Errorf("fixed text:\n%s\nwant:\n%s", text, want)
+	}
+}
+
+func newTestLinter(t *testing.T) *Linter {
+	t.Helper()
+	l, err := NewLinter(load(t))
+	if err != nil {
+		t.Fatal(err)
+	}
+	return l
+}
+
+func checks(t *testing.T, l *Linter, text string) map[string]int {
+	t.Helper()
+	alerts, err := l.LintText(text, ".md")
+	if err != nil {
+		t.Fatal(err)
+	}
+	got := map[string]int{}
+	for _, a := range alerts {
+		got[a.Check]++
+	}
+	return got
+}
+
+// Every dash, and every run of hyphens standing in for one, is an error;
+// compounds, suspended hyphens, code, and horizontal rules are not.
+func TestDashes(t *testing.T) {
+	l := newTestLinter(t)
+	for _, s := range []string{"One -- two.", "One--two.", "One---two.", "One - two.", "One -two.",
+		"One- two.", "One — two.", "One–two.", "One ― two.", "Run lint --fix now."} {
+		if checks(t, l, s+"\n")["House.EmDash"] != 1 {
+			t.Errorf("%q: want one House.EmDash alert", s)
+		}
+	}
+	for _, s := range []string{"A well-known bug.", "Pre- and post-war data.", "The `a -- b` code.", "Text.\n\n---\n\nMore text."} {
+		if n := checks(t, l, s+"\n")["House.EmDash"]; n != 0 {
+			t.Errorf("%q: want no House.EmDash alert, got %d", s, n)
+		}
+	}
+}
+
+// The extracted word lists match whole words and phrases only, and skip code.
+func TestTerms(t *testing.T) {
+	l := newTestLinter(t)
+	ix := l.terms
+	if len(ix.folded)+len(ix.exact) < 1000 || len(ix.patterns) < 100 {
+		t.Fatalf("word lists look empty: %d folded, %d exact, %d patterns", len(ix.folded), len(ix.exact), len(ix.patterns))
+	}
+	m := mask("Use `irregardless` in code, see https://example.com/irregardless.\n```\nirregardless\n```\n", ".md")
+	if strings.Contains(m, "irregardless") {
+		t.Errorf("mask left code or a URL unmasked: %q", m)
 	}
 }

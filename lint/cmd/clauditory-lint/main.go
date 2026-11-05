@@ -18,7 +18,7 @@ import (
 
 const usage = `Usage:
   clauditory-lint [flags] [file ...]   lint files, or standard input with no file or "-"
-  clauditory-lint rules                list every rule with its source, domain, tier, and status
+  clauditory-lint rules                list every rule with its domain, fix setting, and status
   clauditory-lint hook                 run as a Claude Code PostToolUse hook
   clauditory-lint version              print the version
 
@@ -47,6 +47,7 @@ type lintFlags struct {
 	fail     string
 	ext      string
 	spelling bool
+	commit   bool
 }
 
 func cmdLint(args []string) int {
@@ -58,6 +59,7 @@ func cmdLint(args []string) int {
 	fs.StringVar(&f.fail, "fail", "error", "lowest severity that makes the exit status 1")
 	fs.StringVar(&f.ext, "ext", ".md", "file type to assume for standard input")
 	fs.BoolVar(&f.spelling, "spelling", false, "turn on the Red Hat spelling check")
+	fs.BoolVar(&f.commit, "commit", false, "the input is a commit message; also check commit-message tells")
 	fs.Usage = func() { fmt.Fprint(os.Stderr, usage); fs.PrintDefaults() }
 	// Let -fix appear without a value.
 	for i, a := range args {
@@ -72,7 +74,7 @@ func cmdLint(args []string) int {
 		fmt.Fprintln(os.Stderr, `--fix takes "safe" or "all"`)
 		return 2
 	}
-	l, err := newLinter(f.spelling)
+	l, err := newLinter(lint.Options{Spelling: f.spelling, Commit: f.commit})
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "clauditory-lint:", err)
 		return 2
@@ -107,7 +109,7 @@ func cmdLint(args []string) int {
 				}
 			}
 			if n > 0 {
-				fmt.Fprintf(os.Stderr, "%s: applied %d fixes\n", name(path), n)
+				fmt.Fprintf(os.Stderr, "%s: applied %d %s\n", name(path), n, plural(n, "fix", "fixes"))
 			}
 		}
 		out := os.Stdout
@@ -139,16 +141,12 @@ func cmdLint(args []string) int {
 	return status
 }
 
-func newLinter(spelling bool) (*lint.Linter, error) {
-	rs, err := lint.Load(lint.Options{Spelling: spelling})
+func newLinter(opt lint.Options) (*lint.Linter, error) {
+	rs, err := lint.Load(opt)
 	if err != nil {
 		return nil, err
 	}
-	vale, err := lint.FindVale()
-	if err != nil {
-		return nil, err
-	}
-	return lint.NewLinter(rs, vale)
+	return lint.NewLinter(rs)
 }
 
 func read(path, defExt string) (string, string, error) {
@@ -198,8 +196,8 @@ func printAlert(w io.Writer, path string, a *lint.Alert) {
 	} else if a.Fixable("all") {
 		fix = " [fixable with --fix=all]"
 	}
-	fmt.Fprintf(w, "%s:%d:%d: %s %s: %s (%s %s, %s)%s\n", path, a.Line, a.Span[0], a.Severity,
-		a.Check, a.Message, a.Rule.Style, a.Rule.Tier(), a.Rule.Domain, fix)
+	fmt.Fprintf(w, "%s:%d:%d: %s %s: %s%s\n", path, a.Line, a.Span[0], a.Severity,
+		a.Check, a.Message, fix)
 }
 
 type jsonAlert struct {
@@ -210,18 +208,17 @@ type jsonAlert struct {
 	Severity string `json:"severity"`
 	Rule     string `json:"rule"`
 	Source   string `json:"source"`
-	Domain   string `json:"domain"`
-	Tier     string `json:"tier"`
 	Message  string `json:"message"`
 	Match    string `json:"match"`
 	Fix      string `json:"fix,omitempty"`
 	Link     string `json:"link,omitempty"`
+	Entry    string `json:"entry,omitempty"`
 }
 
 func toJSON(path string, a *lint.Alert) jsonAlert {
 	j := jsonAlert{Path: path, Line: a.Line, Column: a.Span[0], End: a.Span[1], Severity: a.Severity,
-		Rule: a.Check, Source: a.Rule.Style, Domain: a.Rule.Domain, Tier: a.Rule.Tier(),
-		Message: a.Message, Match: a.Match, Link: a.Link}
+		Rule: a.Check, Source: a.Rule.Style,
+		Message: a.Message, Match: a.Match, Link: a.Link, Entry: a.Entry}
 	if a.Fixable("all") {
 		j.Fix, _ = a.Replacement()
 		if j.Fix == "" {
@@ -243,13 +240,13 @@ func cmdRules(args []string) int {
 		return 2
 	}
 	w := tabwriter.NewWriter(os.Stdout, 0, 0, 2, ' ', 0)
-	fmt.Fprintln(w, "RULE\tDOMAIN\tTIER\tFIX\tSTATUS")
+	fmt.Fprintln(w, "RULE\tDOMAIN\tRANK\tFIX\tSTATUS")
 	for _, r := range rs.Sorted() {
 		status := "on"
 		if r.Off != "" {
 			status = "off: " + r.Off
 		}
-		fmt.Fprintf(w, "%s\t%s\t%s\t%s\t%s\n", r.Name, r.Domain, r.Tier(), r.Fix, status)
+		fmt.Fprintf(w, "%s\t%s\t%s\t%s\t%s\n", r.Name, r.Domain, r.RankLabel(), r.Fix, status)
 	}
 	w.Flush()
 	return 0
@@ -281,7 +278,7 @@ func cmdHook() int {
 	if err != nil || strings.Contains(string(b), "clauditory-lint: off") {
 		return 0
 	}
-	l, err := newLinter(false)
+	l, err := newLinter(lint.Options{})
 	if err != nil {
 		return 0
 	}
@@ -302,9 +299,13 @@ func cmdHook() int {
 	if len(shown) == 0 {
 		return 0
 	}
-	fmt.Fprintf(os.Stderr, "clauditory-lint found %d style problems in %s.", len(shown), path)
+	fmt.Fprintf(os.Stderr, "clauditory-lint found %d style %s in %s.", len(shown), plural(len(shown), "problem", "problems"), path)
 	if fixable > 0 {
-		fmt.Fprintf(os.Stderr, " Running `clauditory-lint --fix %s` fixes %d of them.", path, fixable)
+		cmd := "clauditory-lint"
+		if l := os.Getenv("CLAUDITORY_LAUNCHER"); l != "" {
+			cmd = l
+		}
+		fmt.Fprintf(os.Stderr, " Running `%s --fix %s` fixes %d of them.", cmd, path, fixable)
 	}
 	fmt.Fprintln(os.Stderr, " Fix the rest where the rule applies; skip any that would make the sentence worse.")
 	for i, a := range shown {
@@ -315,4 +316,11 @@ func cmdHook() int {
 		printAlert(os.Stderr, filepath.Base(path), a)
 	}
 	return 2
+}
+
+func plural(n int, one, many string) string {
+	if n == 1 {
+		return one
+	}
+	return many
 }

@@ -140,7 +140,7 @@ The guide's authority is institutional: two decades of editorial rulings by a st
 
 ## What the skill applies
 
-The technical-writing skill takes more from this guide than the writing-style skill does, because the guide's rules were written for the same kinds of text: procedures, messages, and documentation about software. The guide ranks with the other technical guides, after the news manuals, Chicago, and Oxford, and writing-style wins wherever the two skills disagree. Page numbers are book pages.
+The technical-writing skill takes more from this guide than the writing-style skill does, because the guide's rules were written for the same kinds of text: procedures, messages, and documentation about software. Writing-style wins wherever the two skills disagree. Page numbers are book pages.
 
 **Section 1, instructions and procedures.** Five of the six bullets draw on chapter 3's procedure rules (pp. 84 to 90). A single action written as a sentence, not a one-item list, follows p. 87. Telling the reader where an action happens before describing it follows the guide's rule that location and purpose come before the action (p. 87); the goal-before-action bullet shares that rule with the Google guide, whose wording the skill follows more closely. Putting an explanation after the instruction in the same step, giving branching choices as bullets under one step, and starting an optional step with Optional follow pp. 87 to 88. Stopping at the last real action, with no step that only says the task is done, follows p. 89. Leaving please, thank you, and congratulations out of instructions and messages follows p. 87, p. 237, and the word usage entries for please, thank you, and congratulations (pp. 316, 353, 367). The skill's turn from if you want to X, you can into to X is its own.
 
@@ -184,7 +184,7 @@ The software-behavior bullet follows the anthropomorphism section (pp. 8 to 9): 
 
 These conflicts were checked against the reference files in chat/skills/writing-style/references, which cover the same sources as this folder.
 
-**Task headings (google-developer-style-guide.md, red-hat-technical-writing-style-guide.md, microsoft-writing-style-guide.md).** The guide uses gerunds for task headings. Google uses a bare infinitive verb and discourages an -ing opening because it translates inconsistently. Red Hat uses gerunds for larger units and allows imperatives for tasks, and Microsoft uses infinitive phrases. Among the technical guides no ranking settles the point, so the skill keeps Google's imperative form for consistency with its existing examples.
+**Task headings (google-developer-style-guide.md, red-hat-technical-writing-style-guide.md, microsoft-writing-style-guide.md).** The guide uses gerunds for task headings. Google uses a bare infinitive verb and discourages an -ing opening because it translates inconsistently. Red Hat uses gerunds for larger units and allows imperatives for tasks, and Microsoft uses infinitive phrases. The skill keeps Google's imperative form, because Google's reason (an -ing opening translates inconsistently) suits text for readers in many languages, and the form matches the skill's existing examples.
 
 **Overview and Introduction headings (red-hat-technical-writing-style-guide.md).** The guide recommends Introduction or Overview for a functional overview, in place of pseudo-task headings such as Understanding (p. 74). Red Hat rejects Overview or About used alone, and the skill follows Red Hat in avoiding bare headings. The two guides agree in rejecting the Understanding pattern.
 

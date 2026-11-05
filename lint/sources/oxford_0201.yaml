@@ -1,0 +1,548 @@
+- source: oxford
+  page: 201
+  entry: "e.g. and i.e. with comma"
+  kind: substitution
+  wrong: 'e\.g\.,'
+  right: "e.g."
+  domain: grammar
+  fix: review
+  american: false
+  context: general
+  note: "Oxford omits the comma after e.g.; US practice usually keeps it."
+- source: oxford
+  page: 201
+  entry: "e.g. and i.e. with comma"
+  kind: substitution
+  wrong: 'i\.e\.,'
+  right: "i.e."
+  domain: grammar
+  fix: review
+  american: false
+  context: general
+  note: "Oxford omits the comma after i.e.; US practice usually keeps it."
+- source: oxford
+  page: 201
+  entry: "e.g. and i.e. spacing"
+  kind: existence
+  wrong: 'e\. g\.|i\. e\.'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Write e.g. and i.e. in roman with two points and no internal spaces."
+- source: oxford
+  page: 201
+  entry: "&c."
+  kind: substitution
+  wrong: '&c\.'
+  right: "etc."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Use etc., not &c., except when reproducing historical typography."
+- source: oxford
+  page: 201
+  entry: "and etc."
+  kind: substitution
+  wrong: '(?i)and etc\.'
+  right: "etc."
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Etc. already contains the sense of 'and'; do not write 'and etc.'"
+- source: oxford
+  page: 201
+  entry: "etc. with e.g., including, such as"
+  kind: existence
+  wrong: '(?i)(?:such as|including|for example|e\.g\.)[^.;:\n]{1,100}\betc\.'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Do not close a list with etc. when it opens with such as, including, e.g."
+- source: oxford
+  page: 201
+  entry: "et al."
+  kind: substitution
+  wrong: 'et al(?![.a-z])'
+  right: "et al."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Et al. takes a full point as an abbreviation of et alii."
+- source: oxford
+  page: 202
+  entry: "circa abbreviation spacing"
+  kind: existence
+  wrong: '\bc\. ?(?=\d)'
+  domain: wording
+  fix: none
+  american: false
+  context: general
+  note: "Oxford sets c. close up to following figures (c.1020); US styles usually space or use ca."
+- source: oxford
+  page: 205
+  entry: "Numbers at start of sentence"
+  kind: existence
+  wrong: '(?m)(?:^|[.!?] )\d+ [a-z]'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Spell out a number that begins a sentence, or recast so it does not."
+- source: oxford
+  page: 206
+  entry: "Numerical street names"
+  kind: existence
+  wrong: '\d+(?:st|nd|rd|th) (?:Street|Avenue|Ave\.)'
+  domain: grammar
+  fix: none
+  american: false
+  context: general
+  note: "Oxford spells out ordinal numbers in street names (Sixth Avenue); AP style uses figures."
+- source: oxford
+  page: 207
+  entry: "Compound numbers"
+  kind: existence
+  wrong: '(?i)(?:twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety) (?:one|two|three|four|five|six|seven|eight|nine)\b'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Hyphenate compound numbers written in words, such as ninety-nine."
+- source: oxford
+  page: 207
+  entry: "Commas in large numbers"
+  kind: existence
+  wrong: '(?<![\d,.$£€/-])\d{5,}(?![\d,]|\.\d{3})'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "In non-technical text use commas in numbers of four or more figures; exempt years, pages, IDs."
+- source: oxford
+  page: 208
+  entry: "Range with from"
+  kind: existence
+  wrong: '(?i)\bfrom \d+ ?[-–—] ?\d+'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Use from X to Y or X-Y, never from X-Y."
+- source: oxford
+  page: 208
+  entry: "Range with between"
+  kind: existence
+  wrong: '(?i)\bbetween \d+ ?[-–—] ?\d+'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Use between X and Y, not between X-Y."
+- source: oxford
+  page: 209
+  entry: "Plural numerals without apostrophe"
+  kind: existence
+  wrong: '\b(?:1[0-9]|20)\d0''s\b'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Pluralize numbers without an apostrophe: 1960s."
+- source: oxford
+  page: 210
+  entry: "Half-compounds"
+  kind: existence
+  wrong: '(?i)\ba half (?:mile|dozen|hour|day|year|inch|pint)\b'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Hyphenate as a modifier: a half-mile, a half-dozen."
+- source: oxford
+  page: 210
+  entry: "Decimals below one"
+  kind: existence
+  wrong: '(?<![\d\w.])\.\d+\b'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Precede decimals below one with a zero (0.76); probabilities are an exception."
+- source: oxford
+  page: 211
+  entry: "per cent"
+  kind: substitution
+  wrong: 'per cent'
+  right: "percent"
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: "Oxford writes per cent in British use; the guide notes US English closes it up."
+- source: oxford
+  page: 211
+  entry: "Space between figure and unit"
+  kind: existence
+  wrong: '\d(?:mph|mm|cm|km|kg|mg|ml|lb|oz)\b'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Put a space between a figure and an abbreviated unit (13 mm)."
+- source: oxford
+  page: 211
+  entry: "Space before percent sign"
+  kind: existence
+  wrong: '\d %'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "The percent sign is commonly closed up to the figure."
+- source: oxford
+  page: 212
+  entry: "Currency symbol spacing"
+  kind: existence
+  wrong: '[£$€] \d'
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: "No space between a currency symbol and the figure."
+- source: oxford
+  page: 212
+  entry: "Small-unit currency"
+  kind: existence
+  wrong: '[£$]0\.\d\d\b'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Amounts under one unit are written 56p or 56 cents, not £0.56 or $0.56."
+- source: oxford
+  page: 212
+  entry: "Mixed pounds and pence"
+  kind: existence
+  wrong: '£\d+\.\d\dp\b'
+  domain: grammar
+  fix: safe
+  american: false
+  context: general
+  note: "Mixed amounts omit the pence abbreviation: £15.30, not £15.30p."
+- source: oxford
+  page: 213
+  entry: "o'clock with a.m./p.m."
+  kind: existence
+  wrong: '(?i)o''clock (?:a\.m\.|p\.m\.|am|pm)|(?:a\.m\.|p\.m\.) o''clock'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Never combine o'clock with a.m. or p.m."
+- source: oxford
+  page: 213
+  entry: "o'clock with figures"
+  kind: existence
+  wrong: '\b\d{1,2} o''clock'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: "Use o'clock only with the hour spelled in words (four o'clock)."
+- source: oxford
+  page: 213
+  entry: "a.m. and p.m. casing"
+  kind: casing
+  wrong: '(?<=\d )(?:AM|A\.M\.)'
+  right: "a.m."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Write a.m. in lower case roman with points."
+- source: oxford
+  page: 213
+  entry: "a.m. and p.m. casing"
+  kind: casing
+  wrong: '(?<=\d )(?:PM|P\.M\.)'
+  right: "p.m."
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "Write p.m. in lower case roman with points."
+- source: oxford
+  page: 213
+  entry: "Round hours with minutes"
+  kind: existence
+  wrong: '\b\d{1,2}[:.]00 ?(?:a\.m\.|p\.m\.|am|pm)'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: "For a round hour omit the minutes: 4 p.m., not 4.00 p.m."
+- source: oxford
+  page: 213
+  entry: "Time separator"
+  kind: existence
+  wrong: '\b\d{1,2}\.[1-5]\d ?(?:a\.m\.|p\.m\.)'
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: "Oxford allows a full point between hours and minutes; North American style uses a colon."
+- source: oxford
+  page: 214
+  entry: "Jr without point"
+  kind: substitution
+  wrong: 'Jr\.'
+  right: "Jr"
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: "Oxford styles Jr without a full point; US style keeps Jr."
+- source: oxford
+  page: 215
+  entry: "Ordinals in dates"
+  kind: existence
+  wrong: '\b\d{1,2}(?:st|nd|rd|th) (?:of )?(?:January|February|March|April|May|June|July|August|September|October|November|December)\b'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Dates use cardinal figures (12 August), not 12th August."
+- source: oxford
+  page: 215
+  entry: "Ordinals in dates"
+  kind: existence
+  wrong: '\b(?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}(?:st|nd|rd|th)\b'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "Dates use cardinal figures (August 12), not August 12th."
+- source: oxford
+  page: 215
+  entry: "Comma between month and year"
+  kind: existence
+  wrong: '\b(?:January|February|March|April|June|July|August|September|October|November|December), \d{4}\b'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: "No comma between month and year (June 1831)."
+- source: oxford
+  page: 215
+  entry: "All-figure dates"
+  kind: existence
+  wrong: '\b\d{1,2}/\d{1,2}/\d{2,4}\b'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Avoid all-figure dates in running text; they confuse British and US readers."
+- source: oxford
+  page: 216
+  entry: "Decades with apostrophe"
+  kind: existence
+  wrong: '(?<![A-Za-z0-9])[''’]\d0s\b'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Write the sixties or the 1960s, not the '60s."
+- source: oxford
+  page: 216
+  entry: "Adjectival century"
+  kind: existence
+  wrong: '(?i)\b(?:a|an) (?:\w+th|first|second|third) century (?!BC|AD|CE|BCE|ago)[a-z]+'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "Hyphenate a century used as a modifier: an eighth-century poem."
+- source: oxford
+  page: 217
+  entry: "AD placement"
+  kind: existence
+  wrong: '\b\d+ AD\b'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "AD goes before the numerals (AD 375); BC goes after."
+- source: oxford
+  page: 217
+  entry: "BC placement"
+  kind: existence
+  wrong: '\bBC \d+'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: "BC goes after the numerals (72 BC), not before."
+- source: oxford
+  page: 217
+  entry: "BC and AD without points"
+  kind: substitution
+  wrong: 'B\.C\.'
+  right: "BC"
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: "Oxford writes era abbreviations without points; AP uses B.C."
+- source: oxford
+  page: 217
+  entry: "BC and AD without points"
+  kind: substitution
+  wrong: 'A\.D\.'
+  right: "AD"
+  domain: wording
+  fix: review
+  american: false
+  context: general
+  note: "Oxford writes era abbreviations without points; AP uses A.D."
+- source: oxford
+  page: 272
+  entry: "In re"
+  kind: substitution
+  wrong: '\b[Ii]n re\b'
+  right: "Re"
+  domain: wording
+  fix: none
+  american: false
+  context: legal
+  note: "In case names use Re rather than In re or In the matter of."
+- source: oxford
+  page: 283
+  entry: "judgment"
+  kind: substitution
+  wrong: 'judgement'
+  right: "judgment"
+  domain: wording
+  fix: safe
+  american: true
+  context: legal
+  note: "Legal judgment has one e; US style uses judgment in all senses."
+- source: oxford
+  page: 286
+  entry: "Multiplication sign"
+  kind: existence
+  wrong: '\b\d+ x \d+\b'
+  domain: grammar
+  fix: none
+  american: true
+  context: science
+  note: "Use the multiplication sign (×), not roman x, between figures."
+- source: oxford
+  page: 286
+  entry: "Unit symbols not pluralized"
+  kind: existence
+  wrong: '\d ?(?:cms|kgs|mls|mms|kms|mgs)\b'
+  domain: wording
+  fix: review
+  american: true
+  context: science
+  note: "Unit symbols are never pluralized (cm, not cms)."
+- source: oxford
+  page: 288
+  entry: "Hour symbol"
+  kind: existence
+  wrong: '\b\d+ ?hrs?\b'
+  domain: wording
+  fix: none
+  american: true
+  context: science
+  note: "The unit symbol for hour is h, not hr."
+- source: oxford
+  page: 289
+  entry: "Eponymic en rules"
+  kind: substitution
+  wrong: 'Epstein-Barr'
+  right: "Epstein–Barr"
+  domain: grammar
+  fix: review
+  american: false
+  context: science
+  note: "Things named for two people join the surnames with an en rule."
+- source: oxford
+  page: 289
+  entry: "Eponymic en rules"
+  kind: substitution
+  wrong: 'Haber-Bosch'
+  right: "Haber–Bosch"
+  domain: grammar
+  fix: review
+  american: false
+  context: science
+  note: "Things named for two people join the surnames with an en rule."
+- source: oxford
+  page: 289
+  entry: "Eponymic en rules"
+  kind: substitution
+  wrong: 'Cheyne-Stokes'
+  right: "Cheyne–Stokes"
+  domain: grammar
+  fix: review
+  american: false
+  context: science
+  note: "Things named for two people join the surnames with an en rule."
+- source: oxford
+  page: 291
+  entry: "Temperature symbol"
+  kind: substitution
+  wrong: '°K\b'
+  right: "K"
+  domain: wording
+  fix: safe
+  american: true
+  context: science
+  note: "Do not use the degree symbol with kelvin."
+- source: oxford
+  page: 291
+  entry: "Degree symbol spacing"
+  kind: existence
+  wrong: '° [CF]\b'
+  domain: grammar
+  fix: review
+  american: true
+  context: science
+  note: "Print the degree symbol close up to its scale letter (°C)."
+- source: oxford
+  page: 299
+  entry: "Blood group"
+  kind: substitution
+  wrong: 'blood type'
+  right: "blood group"
+  domain: wording
+  fix: none
+  american: false
+  context: medical
+  note: "Oxford calls A a blood group, not a blood type; US usage differs."
+- source: oxford
+  page: 300
+  entry: "T cell"
+  kind: existence
+  wrong: '\bT-cells?\b(?= (?:is|are|was|were|has|have|and|of|in)\b)'
+  domain: wording
+  fix: none
+  american: true
+  context: medical
+  note: "T cell is hyphenated only as a modifier (T-cell receptor)."
+- source: oxford
+  page: 300
+  entry: "Person-first disease terms"
+  kind: existence
+  wrong: '(?i)\b(?:diabetics|epileptics)\b'
+  domain: wording
+  fix: none
+  american: true
+  context: medical
+  note: "Avoid nouns from disease names for patients; write people with diabetes."

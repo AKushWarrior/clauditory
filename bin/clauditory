@@ -15,22 +15,24 @@ Usage:
       Build a zip of a skill for upload to the Claude apps
       (default FILE: ./<skill-name>.zip).
   clauditory build [--check]
-      Regenerate plugins/clauditory from the skills under chat/skills and
-      the system prompt at chat/system/prompt.md. With --check, report
-      whether the plugin is out of date and change nothing.
+      Regenerate plugins/clauditory from the skills under chat/skills, the
+      system prompt at chat/system/prompt.md, and the linter under lint/.
+      With --check, report whether the plugin is out of date and change
+      nothing.
   clauditory prompt
       Print the chat system prompt, for pasting or appending elsewhere.
   clauditory lint [flags] [file ...]
-      Check prose with clauditory-lint, building it and Vale first if
-      needed (requires Go). Pass --fix to apply the mechanical fixes, and
-      run `clauditory lint --help` for the other flags.
-  clauditory install-lint [--dest DIR]
-      Build clauditory-lint and Vale and copy both into DIR (default
-      ~/.local/bin), where the plugin's hook can find them.
+      Check prose with clauditory-lint, built for this machine from lint/
+      (requires Go). Pass --fix to apply the mechanical fixes, and run
+      `clauditory lint --help` for the other flags.
 
 The references/ folder and CHANGELOG.md are left out of installs and
 packages, because they document the work for people and are not meant for
-an agent's context.
+an agent's context. A skill with a scripts/lint launcher gets the linter's
+compressed builds in scripts/bin: every platform for installs and the
+plugin, and Linux only for uploads to the Claude apps.
+
+Building the linter needs Go 1.25 or later and xz.
 EOF
 }
 
@@ -43,22 +45,50 @@ skill_dir() {
   echo "$dir"
 }
 
-# build_lint compiles clauditory-lint when its sources are newer than the
-# binary, and installs Vale beside it when no Vale is on the PATH.
-build_lint() {
-  local bin="$ROOT/lint/.bin"
-  if [[ ! -x "$bin/clauditory-lint" ]] || [[ -n "$(find "$ROOT/lint" -path "$bin" -prune -o \( -name '*.go' -o -name '*.yml' -o -name go.mod \) -newer "$bin/clauditory-lint" -print -quit)" ]]; then
-    command -v go >/dev/null 2>&1 || { echo "clauditory: building the linter needs Go 1.24 or later" >&2; exit 1; }
-    (cd "$ROOT/lint" && go build -o .bin/clauditory-lint ./cmd/clauditory-lint)
-  fi
-  if [[ -z "${CLAUDITORY_VALE:-}" && ! -x "$bin/vale" ]] && ! command -v vale >/dev/null 2>&1; then
-    command -v go >/dev/null 2>&1 || { echo "clauditory: installing Vale needs Go 1.24 or later" >&2; exit 1; }
-    echo "Installing Vale $VALE_VERSION into lint/.bin" >&2
-    GOBIN="$bin" go install "github.com/vale-cli/vale/v3/cmd/vale@$VALE_VERSION"
-  fi
+# copy_skill copies a skill's agent-facing files from $1 to $2.
+copy_skill() {
+  (cd "$1" && find . \( -path ./references -o -path ./scripts/bin -o -name CHANGELOG.md \) -prune -o -type f -print \
+    | while read -r f; do mkdir -p "$2/$(dirname "$f")"; cp -p "$f" "$2/$f"; done)
 }
 
-VALE_VERSION=v3.26.0
+# lint_stamp prints a hash of everything the linter build depends on.
+lint_stamp() {
+  (cd "$ROOT/lint" && find . \( -path ./dist -o -path ./.bin -o -path ./sources -o -path ./tools -o -path ./testdata \) -prune -o -type f \
+    \( -name '*.go' -o -name '*.yml' -o -name '*.json' -o -name go.mod -o -name go.sum -o -name '*.tengo' \) -print \
+    | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)
+}
+
+# lint_dist builds the compressed per-platform linter into lint/dist when
+# its sources changed since the last build.
+lint_dist() {
+  local dist="$ROOT/lint/dist" stamp
+  stamp="$(lint_stamp)"
+  if [[ -f "$dist/SOURCE" && "$(cat "$dist/SOURCE")" == "$stamp" ]]; then
+    return
+  fi
+  for tool in go xz; do
+    command -v "$tool" >/dev/null 2>&1 || { echo "clauditory: building the linter needs $tool" >&2; exit 1; }
+  done
+  echo "Building clauditory-lint for every platform (a few minutes)" >&2
+  "$ROOT/lint/tools/dist.sh" "$dist"
+  echo "$stamp" > "$dist/SOURCE"
+}
+
+# bundle_lint copies the linter builds into a copied skill that has a
+# scripts/lint launcher. $2 is "all" or "linux".
+bundle_lint() {
+  local dest="$1" which="$2"
+  [[ -f "$dest/scripts/lint" ]] || return 0
+  lint_dist
+  rm -rf "$dest/scripts/bin"
+  mkdir -p "$dest/scripts/bin"
+  if [[ "$which" == linux ]]; then
+    cp "$ROOT"/lint/dist/clauditory-lint-linux-*.xz "$dest/scripts/bin/"
+    grep ' clauditory-lint-linux-' "$ROOT/lint/dist/SHA256SUMS" > "$dest/scripts/bin/SHA256SUMS"
+  else
+    cp "$ROOT"/lint/dist/clauditory-lint-*.xz "$ROOT/lint/dist/SHA256SUMS" "$ROOT/lint/dist/SOURCE" "$dest/scripts/bin/"
+  fi
+}
 
 cmd="${1:-}"
 shift || true
@@ -79,8 +109,8 @@ case "$cmd" in
     if [[ "${1:-}" == "--dest" ]]; then dest="${2:?clauditory: --dest needs a directory}"; fi
     name="$(basename "$src")"
     mkdir -p "$dest/$name"
-    (cd "$src" && find . \( -path ./references -o -name CHANGELOG.md \) -prune -o -type f -print \
-      | while read -r f; do mkdir -p "$dest/$name/$(dirname "$f")"; cp "$f" "$dest/$name/$f"; done)
+    copy_skill "$src" "$dest/$name"
+    bundle_lint "$dest/$name" all
     echo "Installed $name to $dest/$name"
     ;;
   package)
@@ -90,7 +120,11 @@ case "$cmd" in
     out="$PWD/$name.zip"
     if [[ "${1:-}" == "--out" ]]; then out="${2:?clauditory: --out needs a file name}"; fi
     rm -f "$out"
-    (cd "$(dirname "$src")" && zip -qr "$out" "$name" -x "$name/references/*" "$name/CHANGELOG.md")
+    stage="$(mktemp -d)"
+    trap 'rm -rf "$stage"' EXIT
+    copy_skill "$src" "$stage/$name"
+    bundle_lint "$stage/$name" linux
+    (cd "$stage" && zip -qr "$out" "$name")
     echo "Packaged $name to $out"
     ;;
   build)
@@ -102,15 +136,15 @@ case "$cmd" in
     for dir in "$ROOT"/chat/skills/*/; do
       name="$(basename "$dir")"
       mkdir -p "$tmp/skills/$name"
-      (cd "$dir" && find . \( -path ./references -o -name CHANGELOG.md \) -prune -o -type f -print \
-        | while read -r f; do mkdir -p "$tmp/skills/$name/$(dirname "$f")"; cp "$f" "$tmp/skills/$name/$f"; done)
+      copy_skill "$dir" "$tmp/skills/$name"
     done
     {
       printf -- '---\nname: clauditory\ndescription: "Clauditory working stance: evidence over agreement, explicit goals, parallel work, and plain prose"\nkeep-coding-instructions: true\nforce-for-plugin: true\n---\n\n'
       cat "$ROOT/chat/system/prompt.md"
     } > "$tmp/output-styles/clauditory.md"
     if [[ "${1:-}" == "--check" ]]; then
-      if diff -r "$tmp/skills" "$plugin/skills" >/dev/null 2>&1 \
+      if diff -r -x bin "$tmp/skills" "$plugin/skills" >/dev/null 2>&1 \
+        && [[ "$(cat "$plugin/skills/writing-style/scripts/bin/SOURCE" 2>/dev/null)" == "$(lint_stamp)" ]] \
         && diff "$tmp/output-styles/clauditory.md" "$plugin/output-styles/clauditory.md" >/dev/null 2>&1 \
         && diff -r "$tmp/hooks" "$plugin/hooks" >/dev/null 2>&1; then
         echo "plugins/clauditory is up to date"
@@ -119,6 +153,7 @@ case "$cmd" in
         exit 1
       fi
     else
+      for dir in "$tmp"/skills/*/; do bundle_lint "$dir" all; done
       rm -rf "$plugin/skills" "$plugin/output-styles" "$plugin/hooks"
       mkdir -p "$plugin"
       cp -R "$tmp/skills" "$tmp/output-styles" "$tmp/hooks" "$plugin/"
@@ -129,18 +164,12 @@ case "$cmd" in
     cat "$ROOT/chat/system/prompt.md"
     ;;
   lint)
-    build_lint
-    exec "$ROOT/lint/.bin/clauditory-lint" "$@"
-    ;;
-  install-lint)
-    build_lint
-    dest="$HOME/.local/bin"
-    if [[ "${1:-}" == "--dest" ]]; then dest="${2:?clauditory: --dest needs a directory}"; fi
-    mkdir -p "$dest"
-    cp "$ROOT/lint/.bin/clauditory-lint" "$dest/"
-    if [[ -x "$ROOT/lint/.bin/vale" ]]; then cp "$ROOT/lint/.bin/vale" "$dest/"; fi
-    echo "Installed clauditory-lint to $dest"
-    case ":$PATH:" in *":$dest:"*) ;; *) echo "Add $dest to your PATH so the plugin's hook can find it." ;; esac
+    bin="$ROOT/lint/.bin/clauditory-lint"
+    if [[ ! -x "$bin" ]] || [[ -n "$(find "$ROOT/lint" \( -path "$ROOT/lint/.bin" -o -path "$ROOT/lint/dist" \) -prune -o \( -name '*.go' -o -name '*.yml' -o -name '*.json' -o -name go.mod \) -newer "$bin" -print -quit)" ]]; then
+      command -v go >/dev/null 2>&1 || { echo "clauditory: building the linter needs Go 1.25 or later" >&2; exit 1; }
+      (cd "$ROOT/lint" && CGO_ENABLED=0 go build -o .bin/clauditory-lint ./cmd/clauditory-lint)
+    fi
+    exec "$bin" "$@"
     ;;
   ""|-h|--help|help)
     usage

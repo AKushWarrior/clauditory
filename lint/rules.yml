@@ -1,15 +1,11 @@
-# Rule registry for clauditory-lint.
-#
-# The owner's hierarchy sets which source wins in each domain. A rule from a
-# source that the domain doesn't list ranks below the tertiary source and
-# applies only where nothing above it disagrees. House rules carry the
-# owner's own choices from the writing-style skill and outrank every source.
+# Rule registry for clauditory-lint: each rule's domain, fix setting, and
+# status, and the internal order in which sources win a conflict.
 #
 # Each rule entry can set:
 #   domain   grammar, wording, or technical (defaults to the style's domain)
 #   topic    rules with the same topic report the same problem; on an
-#            overlapping span only the best-ranked one is reported
-#   opposes  rules that demand the opposite; the worse-ranked side is turned off
+#            overlapping span only the winning rule is reported
+#   opposes  rules that demand the opposite; the losing side is turned off
 #   off      a reason to turn the rule off outright
 #   fix      safe (applied by --fix), review (applied only by --fix=all),
 #            or none (the default)
@@ -19,10 +15,11 @@
 
 owner: House
 
-hierarchy:
-  grammar: [Oxford, AP, Chicago]
-  wording: [NYT, Chicago, AP]
-  technical: [RedHat, Apple, Microsoft]
+order:
+  grammar: [Oxford, AP, Chicago, NYT]
+  wording: [NYT, Chicago, AP, Oxford]
+  technical: [RedHat, Apple, Google, IBM, Microsoft]
+  tells: [AITells, AITellsCommits]
 
 styles:
   House: {domain: wording}
@@ -33,6 +30,10 @@ styles:
   Apple: {domain: technical}
   RedHat: {domain: technical}
   Microsoft: {domain: technical}
+  Google: {domain: technical}
+  IBM: {domain: technical}
+  AITells: {domain: tells, level: suggestion}
+  AITellsCommits: {domain: tells}
 
 rules:
   # ---- House: the owner's choices from the writing-style skill ----
@@ -42,7 +43,6 @@ rules:
   House.RecapOpener: {}
   House.StockPhrases: {}
   House.Announcements: {}
-  House.Vocabulary: {}
   House.HedgeStack: {fix: safe, topic: hedge}
   House.InflatedVerbs: {topic: inflated-verb}
   House.PlainWords: {fix: safe, topic: plain-word}
@@ -103,14 +103,11 @@ rules:
   Apple.ProductNames: {fix: safe, topic: term}
   Apple.Terms: {fix: review, topic: term}
   Apple.Please: {}
-  # Spelling of a general word is a wording question, where Apple ranks
-  # below NYT, Chicago, and AP.
   Apple.Webpage: {domain: wording, opposes: [Chicago.WebPage], topic: webpage}
 
   # ---- Red Hat: technical primary (official Vale style) ----
   RedHat.CaseSensitiveTerms: {fix: safe, topic: term}
-  # Red Hat spells "advisor"; AP, which outranks Red Hat on word choice,
-  # spells "adviser".
+  # Red Hat spells "advisor"; the news manuals spell "adviser".
   RedHat.TermsErrors: {fix: safe, topic: term, ignore: [adviser, advisers]}
   RedHat.TermsWarnings: {topic: term}
   RedHat.TermsSuggestions: {topic: term}
@@ -138,8 +135,8 @@ rules:
   RedHat.EmDash: {off: "House.EmDash covers it, and this rule also reads code spans."}
   RedHat.OxfordComma: {off: "Oxford.SerialComma covers it."}
   RedHat.Contractions: {domain: wording, off: "The writing-style skill allows contractions in conversation (section 7)."}
-  RedHat.Conjunctions: {domain: wording, off: "NYT, the primary wording source, allows a sentence to start with And or But."}
-  RedHat.Abbreviations: {domain: wording, off: "NYT, the primary wording source, writes some abbreviations with periods, such as U.S."}
+  RedHat.Conjunctions: {domain: wording, off: "NYT allows a sentence to start with And or But."}
+  RedHat.Abbreviations: {domain: wording, off: "NYT writes some abbreviations with periods, such as U.S."}
 
   # ---- Microsoft: technical tertiary (community Vale style) ----
   # Microsoft's term list maps "agent" to "personal digital assistant",
@@ -161,7 +158,7 @@ rules:
   Microsoft.DateNumbers: {domain: wording, topic: date}
   Microsoft.DateOrder: {domain: wording, topic: date}
   Microsoft.RangeTime: {domain: wording, topic: range}
-  Microsoft.Percentages: {domain: wording, topic: percent}
+  Microsoft.Percentages: {off: "Flags any word before 'percent', such as 'the percent sign'; NYT.Percent covers percent formatting."}
   Microsoft.HeadingColons: {}
   Microsoft.HeadingAcronyms: {}
   Microsoft.Avoid: {}
@@ -170,8 +167,8 @@ rules:
   Microsoft.Dashes: {off: "House.EmDash forbids em dashes outright."}
   Microsoft.FirstPerson: {domain: wording, off: "The writing-style skill allows the first person in conversation (section 7)."}
   Microsoft.We: {domain: wording, off: "The writing-style skill allows we for a named team (technical-writing section 2)."}
-  Microsoft.UIVerbs: {off: "Apple, the secondary technical source, uses click and tap for those inputs."}
-  Microsoft.GeneralURL: {off: "Red Hat, the primary technical source, uses URL."}
+  Microsoft.UIVerbs: {off: "Apple uses click and tap for those inputs."}
+  Microsoft.GeneralURL: {off: "Red Hat uses URL."}
   Microsoft.Semicolon: {off: "No higher-ranked source discourages semicolons."}
   Microsoft.QuestionMarks: {off: "No higher-ranked source discourages questions."}
   Microsoft.Negative: {off: "Plain-text output can't rely on an en dash."}
@@ -191,3 +188,53 @@ rules:
   Microsoft.Acronyms: {off: "RedHat.Definitions covers it."}
   Microsoft.Adverbs: {off: "House.Intensifiers covers the words the skill names."}
   Microsoft.ExclamationPoints: {off: "House.ExclamationPoint covers it."}
+
+  # ---- AI tells (vale-ai-tells, vendored unchanged) ----
+  AITells.ColonUsage: {off: "The writing-style skill capitalizes a complete sentence after a colon."}
+  AITells.EmDashUsage: {off: "House.EmDash covers it."}
+  AITells.DoubleHyphen: {off: "House.EmDash covers it."}
+  AITells.SemicolonUsage: {off: "The writing-style skill uses semicolons between closely related clauses."}
+  AITells.VerbTricolon: {off: "Fires on ordinary series; the skill asks for as many items as the content has."}
+  AITells.VerbTricolonDensity: {off: "Fires on ordinary series; the skill asks for as many items as the content has."}
+  AITells.FormalTransitions: {off: "Flags 'for example' and 'therefore', which the skill prescribes."}
+  AITells.ConsequenceClause: {off: "Flags ', so' joining two clauses, which the skill's own examples use."}
+  AITells.ExplainerHeadings: {off: "Flags the section headings AGENTS.md requires in every reference file."}
+  AITells.EmptyPadding: {off: "Flags fixed phrases such as 'given name' that the skill prescribes."}
+  AITells.EmptyPaddingStacked: {off: "Flags fixed phrases such as 'given name' that the skill prescribes."}
+  AITells.NounString: {off: "House noun-stack guidance needs judgment; the rule misreads ordinary clauses."}
+  AITells.OverusedVocabulary: {topic: vocabulary, level: warning}
+  House.Vocabulary: {topic: vocabulary}
+  AITells.SycophancyMarkers: {level: warning}
+  AITells.ClosingPleasantries: {level: warning}
+  AITells.OpeningCliches: {level: warning}
+  AITells.ConclusionMarkers: {level: warning}
+  AITells.AffirmativeFormulas: {level: warning}
+  AITells.StrawmanContrast: {level: warning}
+  AITells.ContrastiveFormulas: {level: warning}
+  AITells.ContrastiveNegation: {level: warning}
+  AITells.ServesAsDodge: {level: warning}
+  AITells.PromotionalPuffery: {level: warning}
+  AITells.HedgingPhrases: {level: warning}
+  AITells.StackedHedges: {level: warning}
+  AITells.Metacommentary: {level: warning}
+  AITells.ListIntroductions: {level: warning}
+  AITells.StructureAnnouncements: {level: warning}
+  AITells.UnpackExplore: {level: warning}
+  AITells.ExplainerLeads: {level: warning}
+  AITells.AnnouncementHeadings: {level: warning}
+  AITells.MarketingHeadings: {level: warning}
+  AITells.WrapUpHeadings: {level: warning}
+  AITells.MicDropHeadings: {level: warning}
+  AITells.UrgencyInflation: {level: warning}
+  AITells.VagueAttributions: {level: warning}
+  AITells.DespiteChallenges: {level: warning}
+  AITells.FalseBalance: {level: warning}
+  AITells.AIAdjectiveNounPairs: {level: warning}
+  AITells.AICompoundPhrases: {level: warning}
+  AITells.OverusedVocabularyVerbs: {level: warning}
+  AITells.RhetoricalSelfAnswer: {level: warning}
+  AITells.NarrativePivots: {level: warning}
+  AITells.RestatementMarkers: {level: warning}
+  AITells.FalseExclusivity: {level: warning}
+  AITells.DefensiveHedges: {level: warning}
+  AITells.HollowAcknowledgment: {level: warning}

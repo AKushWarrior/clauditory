@@ -1,0 +1,2517 @@
+- source: ap
+  page: 501
+  entry: 'numerals: school grades'
+  kind: existence
+  wrong: \b[1-9](?:st|nd|rd|th) grade
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Spell out first through ninth grades; figures start at 10th grade.
+- source: ap
+  page: 501
+  entry: 'numerals: school grades'
+  kind: substitution
+  wrong: (?i:tenth|eleventh|twelfth) grade
+  right: 10th grade
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Use figures for grades 10 and above.
+- source: ap
+  page: 504
+  entry: ordinals
+  kind: existence
+  wrong: (?<![\d/-])[1-9](?:st|nd|rd|th)\b(?!\s+(?:Ward|Precinct|Congressional|District|Street|Avenue|Ave|St|Amendment))
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Spell out first through ninth; use figures from 10th. Check dates, wards, precincts.
+- source: ap
+  page: 501
+  entry: 'numerals: speeds'
+  kind: casing
+  wrong: MPH
+  right: mph
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Speeds use lowercase mph.
+- source: ap
+  page: 501
+  entry: 'numerals: temperatures'
+  kind: substitution
+  wrong: (?<![\d.])0 degrees
+  right: zero degrees
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Temperatures use figures except zero.
+- source: ap
+  page: 501
+  entry: 'numerals: temperatures'
+  kind: substitution
+  wrong: negative (?=\d+ degrees)
+  right: 'minus '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Spell out minus for temperatures below zero, not negative or a dash.
+- source: ap
+  page: 501
+  entry: 'numerals: temperatures'
+  kind: existence
+  wrong: (?<![\w\d])-\d+\s?(?:degrees|°)
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Spell out minus for temperatures below zero instead of using a hyphen.
+- source: ap
+  page: 502
+  entry: 'numerals: spell out at the start of a sentence'
+  kind: existence
+  wrong: (?<=[.!?] )\d{1,3}(?![\d(%,.:]|[kKD]\b)
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Spell out a number that begins a sentence; years and 401(k)-type forms are exceptions.
+- source: ap
+  page: 503
+  entry: Roman numerals
+  kind: substitution
+  wrong: World War 1
+  right: World War I
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Use Roman numerals for wars.
+- source: ap
+  page: 503
+  entry: Roman numerals
+  kind: substitution
+  wrong: World War 2
+  right: World War II
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Use Roman numerals for wars.
+- source: ap
+  page: 503
+  entry: Roman numerals
+  kind: existence
+  wrong: Super Bowl [IVXL]+
+  domain: wording
+  fix: none
+  american: true
+  context: sports
+  note: Identify pro football Super Bowls by year, not Roman numerals.
+- source: ap
+  page: 505
+  entry: 'numerals: other uses'
+  kind: existence
+  wrong: \b[1-9] (?:people|men|women|children|dogs|cats|students|employees|workers|sons|daughters)
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Spell out whole numbers below 10 in ordinary counts.
+- source: ap
+  page: 505
+  entry: Nuremberg
+  kind: substitution
+  wrong: Nuernberg
+  right: Nuremberg
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use the common spelling for the German city.
+- source: ap
+  page: 507
+  entry: OB-GYN
+  kind: substitution
+  wrong: OB/GYN|OBGYN|Ob-Gyn|Ob-gyn|ob-gyn
+  right: OB-GYN
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write OB-GYN with a hyphen and capitals.
+- source: ap
+  page: 507
+  entry: obscenities, profanities, vulgarities
+  kind: substitution
+  wrong: God\s?damn(?:ed)?|God-damn
+  right: goddamn
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: In reported profanity lowercase god; use damn, damn it, goddamn.
+- source: ap
+  page: 508
+  entry: obsessive-compulsive disorder
+  kind: existence
+  wrong: \b(?:is|are|was|were)\s+(?:OCD|obsessive-compulsive)\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Say someone has OCD rather than is OCD.
+- source: ap
+  page: 508
+  entry: occur, occurred, occurring
+  kind: substitution
+  wrong: occured
+  right: occurred
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Double the r in the past tense.
+- source: ap
+  page: 508
+  entry: occur, occurred, occurring
+  kind: substitution
+  wrong: occuring
+  right: occurring
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Double the r in the participle.
+- source: ap
+  page: 508
+  entry: occur, occurred, occurring
+  kind: substitution
+  wrong: occurence
+  right: occurrence
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Spell occurrence with double c and double r.
+- source: ap
+  page: 508
+  entry: ocean
+  kind: casing
+  wrong: (?<=\bthe )Ocean\b
+  right: ocean
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Lowercase ocean standing alone.
+- source: ap
+  page: 508
+  entry: ocean
+  kind: casing
+  wrong: Atlantic and Pacific Oceans
+  right: Atlantic and Pacific oceans
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase ocean in plural uses.
+- source: ap
+  page: 509
+  entry: oceangoing
+  kind: substitution
+  wrong: ocean-going|ocean going
+  right: oceangoing
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 509
+  entry: odd-
+  kind: substitution
+  wrong: odd looking
+  right: odd-looking
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Follow odd- with a hyphen.
+- source: ap
+  page: 509
+  entry: odd-
+  kind: substitution
+  wrong: odd numbered
+  right: odd-numbered
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Follow odd- with a hyphen.
+- source: ap
+  page: 510
+  entry: oddsmaker
+  kind: substitution
+  wrong: odds maker|odds-maker
+  right: oddsmaker
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 511
+  entry: officeholder
+  kind: substitution
+  wrong: office holder|office-holder
+  right: officeholder
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 511
+  entry: officer-involved, police-involved
+  kind: existence
+  wrong: (?i:officer|police)-involved
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid this vague jargon; say specifically what happened.
+- source: ap
+  page: 511
+  entry: offline
+  kind: substitution
+  wrong: off-line
+  right: offline
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: ap
+  page: 511
+  entry: off of
+  kind: substitution
+  wrong: off of
+  right: 'off'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: The of is unnecessary.
+- source: ap
+  page: 511
+  entry: off-
+  kind: substitution
+  wrong: offcolor
+  right: off-color
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate.
+- source: ap
+  page: 511
+  entry: off-
+  kind: substitution
+  wrong: offpeak
+  right: off-peak
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate.
+- source: ap
+  page: 511
+  entry: off-
+  kind: substitution
+  wrong: offwhite
+  right: off-white
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate.
+- source: ap
+  page: 511
+  entry: off-
+  kind: substitution
+  wrong: sendoff
+  right: send-off
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate this noun.
+- source: ap
+  page: 512
+  entry: off-
+  kind: substitution
+  wrong: cut-off
+  right: cutoff
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write cutoff as one word with no hyphen.
+- source: ap
+  page: 512
+  entry: off-
+  kind: substitution
+  wrong: lift-off
+  right: liftoff
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write liftoff as one word with no hyphen.
+- source: ap
+  page: 512
+  entry: off-
+  kind: substitution
+  wrong: off-hand
+  right: offhand
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write offhand as one word with no hyphen.
+- source: ap
+  page: 512
+  entry: off-
+  kind: substitution
+  wrong: off-set
+  right: offset
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write offset as one word with no hyphen.
+- source: ap
+  page: 512
+  entry: off-
+  kind: substitution
+  wrong: off-shore
+  right: offshore
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write offshore as one word with no hyphen.
+- source: ap
+  page: 512
+  entry: off-
+  kind: substitution
+  wrong: off-side
+  right: offside
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write offside as one word with no hyphen.
+- source: ap
+  page: 512
+  entry: off-
+  kind: substitution
+  wrong: off-stage
+  right: offstage
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write offstage as one word with no hyphen.
+- source: ap
+  page: 512
+  entry: off-
+  kind: substitution
+  wrong: play-off
+  right: playoff
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write playoff as one word with no hyphen.
+- source: ap
+  page: 512
+  entry: off-
+  kind: substitution
+  wrong: stand-off
+  right: standoff
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write standoff as one word with no hyphen.
+- source: ap
+  page: 512
+  entry: off-
+  kind: substitution
+  wrong: take-off
+  right: takeoff
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write takeoff as one word with no hyphen.
+- source: ap
+  page: 524
+  entry: off-site
+  kind: substitution
+  wrong: offsite|off site
+  right: off-site
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated.
+- source: ap
+  page: 524
+  entry: off-site
+  kind: substitution
+  wrong: onsite
+  right: on-site
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenated.
+- source: ap
+  page: 525
+  entry: oil field
+  kind: substitution
+  wrong: oilfield|oil-field
+  right: oil field
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: ap
+  page: 525
+  entry: OK
+  kind: substitution
+  wrong: \b[Oo]kay\b
+  right: OK
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not use okay; write OK.
+- source: ap
+  page: 525
+  entry: OK
+  kind: substitution
+  wrong: okayed
+  right: OK'd
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use OK'd.
+- source: ap
+  page: 525
+  entry: OK
+  kind: substitution
+  wrong: okaying
+  right: OK'ing
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use OK'ing.
+- source: ap
+  page: 525
+  entry: older adult(s)
+  kind: existence
+  wrong: (?i:\bthe elderly\b)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use the elderly for a group; prefer older adults or specific ages.
+- source: ap
+  page: 525
+  entry: older adult(s)
+  kind: existence
+  wrong: (?i:\bsenior citizens?\b)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Older adults or older people preferred over senior citizens as a general term.
+- source: ap
+  page: 526
+  entry: 'on'
+  kind: existence
+  wrong: \bon (?:(?:Jan|Feb|Aug|Sept|Oct|Nov|Dec)\.|March|April|May|June|July) \d{1,2}\b
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Drop on before a date unless needed to avoid confusion.
+- source: ap
+  page: 526
+  entry: 'on'
+  kind: existence
+  wrong: \bon (?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\b
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Drop on before a day of the week unless it avoids awkward juxtaposition.
+- source: ap
+  page: 526
+  entry: onboard
+  kind: substitution
+  wrong: on-board
+  right: onboard
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word as a modifier.
+- source: ap
+  page: 526
+  entry: one-
+  kind: substitution
+  wrong: \bone (half|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth)\b
+  right: one-$1
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate written fractions.
+- source: ap
+  page: 527
+  entry: one person, one vote
+  kind: substitution
+  wrong: one man, one vote
+  right: one person, one vote
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Courts use the person form.
+- source: ap
+  page: 527
+  entry: one-sided
+  kind: substitution
+  wrong: one sided
+  right: one-sided
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated.
+- source: ap
+  page: 527
+  entry: One World Trade Center
+  kind: substitution
+  wrong: 1 World Trade Center
+  right: One World Trade Center
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Spell out One in the building name.
+- source: ap
+  page: 527
+  entry: online
+  kind: substitution
+  wrong: on-line
+  right: online
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word in all cases.
+- source: ap
+  page: 528
+  entry: onstage
+  kind: substitution
+  wrong: on-stage
+  right: onstage
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 528
+  entry: Ontario
+  kind: substitution
+  wrong: \bOnt\.
+  right: Ontario
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not abbreviate the province name.
+- source: ap
+  page: 529
+  entry: opt in, opt out
+  kind: substitution
+  wrong: opt in(?= (?:permission|option|approach|policy|model|feature|setting|form|list))
+  right: opt-in
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate the adjective form.
+- source: ap
+  page: 529
+  entry: opt in, opt out
+  kind: substitution
+  wrong: opt out(?= (?:permission|option|approach|policy|model|feature|setting|form|list))
+  right: opt-out
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate the adjective form.
+- source: ap
+  page: 529
+  entry: opt in, opt out
+  kind: existence
+  wrong: opt-(?:in|out)(?= (?:of|from|to)\b)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Verb form is two words, no hyphen: opt in, opt out.'
+- source: ap
+  page: 530
+  entry: organizations and institutions
+  kind: substitution
+  wrong: Massachusetts Technology Institute
+  right: Massachusetts Institute of Technology
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Do not flop the formal name of MIT.
+- source: ap
+  page: 531
+  entry: -out
+  kind: substitution
+  wrong: copout
+  right: cop-out
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate this noun.
+- source: ap
+  page: 531
+  entry: -out
+  kind: substitution
+  wrong: fadeout
+  right: fade-out
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate this noun.
+- source: ap
+  page: 532
+  entry: -out
+  kind: substitution
+  wrong: fall-out
+  right: fallout
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 532
+  entry: -out
+  kind: substitution
+  wrong: flame-out
+  right: flameout
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 532
+  entry: -out
+  kind: substitution
+  wrong: hide-out
+  right: hideout
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 532
+  entry: -out
+  kind: substitution
+  wrong: pull-out
+  right: pullout
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 532
+  entry: -out
+  kind: substitution
+  wrong: walk-out
+  right: walkout
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 532
+  entry: -out
+  kind: substitution
+  wrong: wash-out
+  right: washout
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-argue
+  right: outargue
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write outargue as one word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-box
+  right: outbox
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write outbox as one word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-dated
+  right: outdated
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write outdated as one word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-field
+  right: outfield
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write outfield as one word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-fox
+  right: outfox
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write outfox as one word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-patient
+  right: outpatient
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write outpatient as one word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-post
+  right: outpost
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write outpost as one word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-put
+  right: output
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write output as one word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-score
+  right: outscore
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write outscore as one word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-strip
+  right: outstrip
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write outstrip as one word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-talk
+  right: outtalk
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write outtalk as one word.
+- source: ap
+  page: 542
+  entry: out-
+  kind: substitution
+  wrong: out-perform
+  right: outperform
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write outperform as one word.
+- source: ap
+  page: 551
+  entry: outsourcing
+  kind: substitution
+  wrong: out-sourcing
+  right: outsourcing
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 551
+  entry: out of bounds
+  kind: substitution
+  wrong: out of bounds(?= (?:pass|shot|play|line|marker|area|zone|ball))
+  right: out-of-bounds
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate as a modifier.
+- source: ap
+  page: 551
+  entry: out of court
+  kind: substitution
+  wrong: out of court(?= (?:settlement|agreement|deal|payment))
+  right: out-of-court
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate as a modifier.
+- source: ap
+  page: 553
+  entry: -over
+  kind: substitution
+  wrong: carryover
+  right: carry-over
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate this noun.
+- source: ap
+  page: 553
+  entry: -over
+  kind: substitution
+  wrong: hold-over
+  right: holdover
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 554
+  entry: -over
+  kind: substitution
+  wrong: stop-over
+  right: stopover
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 555
+  entry: -over
+  kind: substitution
+  wrong: take-over
+  right: takeover
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 556
+  entry: -over
+  kind: substitution
+  wrong: walk-over
+  right: walkover
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 557
+  entry: over-
+  kind: substitution
+  wrong: over-buy
+  right: overbuy
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Over- words are normally solid.
+- source: ap
+  page: 558
+  entry: over-
+  kind: substitution
+  wrong: over-exert
+  right: overexert
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Over- words are normally solid.
+- source: ap
+  page: 559
+  entry: over-
+  kind: substitution
+  wrong: over-rate
+  right: overrate
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Over- words are normally solid.
+- source: ap
+  page: 560
+  entry: over-
+  kind: substitution
+  wrong: over-ride
+  right: override
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Over- words are normally solid.
+- source: ap
+  page: 560
+  entry: overall
+  kind: substitution
+  wrong: over-all
+  right: overall
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 560
+  entry: Oyez
+  kind: casing
+  wrong: \b[Oo]yes\b
+  right: Oyez
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Spell the court cry Oyez.
+- source: ap
+  page: 563
+  entry: page numbers
+  kind: casing
+  wrong: \bpage(?= \d)
+  right: Page
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Capitalize page before a figure in news style.
+- source: ap
+  page: 563
+  entry: page numbers
+  kind: existence
+  wrong: \bPage \d+-[A-Z]\b
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: 'No hyphen when a letter follows the page figure: Page 20A.'
+- source: ap
+  page: 563
+  entry: pan-
+  kind: substitution
+  wrong: Pan American
+  right: Pan-American
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalize and hyphenate pan- with proper names.
+- source: ap
+  page: 563
+  entry: pan-
+  kind: substitution
+  wrong: Pan African
+  right: Pan-African
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalize and hyphenate pan- with proper names.
+- source: ap
+  page: 563
+  entry: pan-
+  kind: substitution
+  wrong: Pan Asiatic
+  right: Pan-Asiatic
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalize and hyphenate pan- with proper names.
+- source: ap
+  page: 564
+  entry: paraplegia/paraplegic, quadriplegia/quadriplegic
+  kind: existence
+  wrong: \b(?:paraplegics|quadriplegics)\b|\b(?:a|the)\s+(?:paraplegic|quadriplegic)\b(?!\s+\w)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use these as nouns; avoid shorthand para and quad.
+- source: ap
+  page: 565
+  entry: Parkinson's disease
+  kind: substitution
+  wrong: Parkinsons? disease
+  right: Parkinson's disease
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use the possessive form.
+- source: ap
+  page: 565
+  entry: part time, part-time
+  kind: substitution
+  wrong: part time(?= (?:job|worker|employee|position|basis|staff|student|work))
+  right: part-time
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate as a modifier.
+- source: ap
+  page: 569
+  entry: peacekeeping
+  kind: substitution
+  wrong: peace-keeping|peace keeping
+  right: peacekeeping
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 569
+  entry: peacemaker, peacemaking
+  kind: substitution
+  wrong: peace-maker|peace maker
+  right: peacemaker
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 569
+  entry: peacemaker, peacemaking
+  kind: substitution
+  wrong: peace-making|peace making
+  right: peacemaking
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 570
+  entry: peace offering
+  kind: substitution
+  wrong: peace-offering|peaceoffering
+  right: peace offering
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: ap
+  page: 571
+  entry: peacetime
+  kind: substitution
+  wrong: peace-time|peace time
+  right: peacetime
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 571
+  entry: peasant
+  kind: existence
+  wrong: \bpeasants?\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid this often derogatory term for farm laborers, except in quotes or names.
+- source: ap
+  page: 572
+  entry: pedophilia
+  kind: existence
+  wrong: pedophilia conviction|convicted pedophile
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use in a legal sense; refer to the charges.
+- source: ap
+  page: 572
+  entry: people, persons
+  kind: substitution
+  wrong: \bpersons\b
+  right: people
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use people for all plurals; persons only in quotes or titles.
+- source: ap
+  page: 573
+  entry: people, persons
+  kind: existence
+  wrong: '\bthe (?:poor|homeless|disabled|college-educated)(?=(?: (?:are|were|is|was|have|had|and|or|in|of|to|who))|[,.;])'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid dehumanizing the-plus-adjective group labels.
+- source: ap
+  page: 573
+  entry: percent, percentage, percentage points
+  kind: substitution
+  wrong: (?<=\d)\s?(?:percent|per cent)\b
+  right: '%'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Use the % sign with a number, no space.
+- source: ap
+  page: 573
+  entry: percent, percentage, percentage points
+  kind: existence
+  wrong: \d\s+%
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: No space between a number and the percent sign.
+- source: ap
+  page: 573
+  entry: percent, percentage, percentage points
+  kind: existence
+  wrong: (?<![\d.])\.\d+%
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Precede decimals under 1% with a zero.
+- source: ap
+  page: 573
+  entry: percent, percentage, percentage points
+  kind: existence
+  wrong: (?<=[.!?] )\d[\d.,]*%
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Avoid starting a sentence with a figure and percent sign; spell both out.
+- source: ap
+  page: 576
+  entry: Persian Gulf
+  kind: existence
+  wrong: Arabian Gulf
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use Persian Gulf; Arabian Gulf only in quotes with explanation.
+- source: ap
+  page: 576
+  entry: personifications
+  kind: casing
+  wrong: grim reaper|Grim reaper|grim Reaper
+  right: Grim Reaper
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize personifications.
+- source: ap
+  page: 576
+  entry: personifications
+  kind: casing
+  wrong: father time|Father time|father Time
+  right: Father Time
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize personifications.
+- source: ap
+  page: 576
+  entry: personifications
+  kind: casing
+  wrong: mother nature|Mother nature|mother Nature
+  right: Mother Nature
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize personifications.
+- source: ap
+  page: 576
+  entry: personifications
+  kind: casing
+  wrong: old man winter|Old man winter|old Man Winter
+  right: Old Man Winter
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize personifications.
+- source: ap
+  page: 577
+  entry: Ph.D., Ph.D.s
+  kind: substitution
+  wrong: PhD
+  right: Ph.D.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write with periods; better to say holds a doctorate.
+- source: ap
+  page: 577
+  entry: Photoshop
+  kind: existence
+  wrong: \b[Pp]hotoshopped\b
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use the trademark as a verb except in quotes.
+- source: ap
+  page: 577
+  entry: physician assistant
+  kind: substitution
+  wrong: physician['’]s assistant|physicians['’]? assistant
+  right: physician assistant
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No possessive in this medical title.
+- source: ap
+  page: 578
+  entry: picket, pickets, picketed, picket line
+  kind: substitution
+  wrong: picketers
+  right: pickets
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Picket is both noun and verb; avoid picketer.
+- source: ap
+  page: 578
+  entry: picket, pickets, picketed, picket line
+  kind: substitution
+  wrong: picketer
+  right: picket
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Picket is both noun and verb; avoid picketer.
+- source: ap
+  page: 578
+  entry: picnic, picnicked, picnicking, picnicker
+  kind: substitution
+  wrong: picniced
+  right: picnicked
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Add k before the ending.
+- source: ap
+  page: 578
+  entry: picnic, picnicked, picnicking, picnicker
+  kind: substitution
+  wrong: picnicing
+  right: picnicking
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Add k before the ending.
+- source: ap
+  page: 578
+  entry: picnic, picnicked, picnicking, picnicker
+  kind: substitution
+  wrong: picnicer
+  right: picnicker
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Add k before the ending.
+- source: ap
+  page: 578
+  entry: pigeonhole
+  kind: substitution
+  wrong: pigeon-hole|pigeon hole
+  right: pigeonhole
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 578
+  entry: Pikes Peak
+  kind: substitution
+  wrong: Pike['’]s Peak
+  right: Pikes Peak
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No apostrophe.
+- source: ap
+  page: 578
+  entry: pileup (n.) pile up (v.)
+  kind: substitution
+  wrong: pile-up
+  right: pileup
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Noun is solid; verb is two words.
+- source: ap
+  page: 578
+  entry: pill
+  kind: casing
+  wrong: the Pill\b
+  right: the pill
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not capitalize in references to oral contraceptives.
+- source: ap
+  page: 578
+  entry: pingpong
+  kind: substitution
+  wrong: ping pong|ping-pong
+  right: pingpong
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Generic term is one word; trademark is Ping-Pong.
+- source: ap
+  page: 579
+  entry: planets
+  kind: casing
+  wrong: jupiter
+  right: Jupiter
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize planet names.
+- source: ap
+  page: 579
+  entry: planets
+  kind: casing
+  wrong: saturn
+  right: Saturn
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalize planet names.
+- source: ap
+  page: 579
+  entry: planets
+  kind: casing
+  wrong: uranus
+  right: Uranus
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize planet names.
+- source: ap
+  page: 579
+  entry: planets
+  kind: casing
+  wrong: neptune
+  right: Neptune
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize planet names.
+- source: ap
+  page: 579
+  entry: planets
+  kind: casing
+  wrong: venus
+  right: Venus
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize planet names.
+- source: ap
+  page: 579
+  entry: planets
+  kind: casing
+  wrong: martian
+  right: Martian
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize adjectives from planet names.
+- source: ap
+  page: 579
+  entry: planets
+  kind: casing
+  wrong: venusian
+  right: Venusian
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize adjectives from planet names.
+- source: ap
+  page: 579
+  entry: planning
+  kind: existence
+  wrong: future planning
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Redundant; say planning.
+- source: ap
+  page: 580
+  entry: plead, pleaded, pleading
+  kind: substitution
+  wrong: pled
+  right: pleaded
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Past tense is pleaded.
+- source: ap
+  page: 580
+  entry: Plexiglas
+  kind: casing
+  wrong: Plexiglass|plexiglass|PlexiGlass
+  right: Plexiglas
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Trademark has a single s.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: formulae
+  right: formulas
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Formula takes an s plural.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: prospecti
+  right: prospectuses
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: English ending for prospectus.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: syllabi
+  right: syllabuses
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: English ending for syllabus.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: memoranda
+  right: memorandums
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Words ending in um usually add s.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: referenda
+  right: referendums
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Words ending in um usually add s.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: stadia
+  right: stadiums
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Words ending in um usually add s.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: curriculums
+  right: curricula
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Latin ending retained for curriculum.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: addendums
+  right: addenda
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Latin ending retained for addendum.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: potatos
+  right: potatoes
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Add es after a consonant plus o.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: buffalos
+  right: buffaloes
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Add es after a consonant plus o.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: echos
+  right: echoes
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Add es after a consonant plus o.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: heros
+  right: heroes
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Add es after a consonant plus o.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: cupsful
+  right: cupfuls
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Solid compounds add s at the end.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: handsful
+  right: handfuls
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Solid compounds add s at the end.
+- source: ap
+  page: 581
+  entry: plurals
+  kind: substitution
+  wrong: tablespoonsful
+  right: tablespoonfuls
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Solid compounds add s at the end.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: attorney generals
+  right: attorneys general
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the significant first word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: assistant attorney generals
+  right: assistant attorneys general
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the significant middle word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: postmaster generals
+  right: postmasters general
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the significant first word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: court martials|court-martials
+  right: courts-martial
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the first word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: secretary-generals|secretary generals
+  right: secretaries-general
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the first word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: sergeant majors
+  right: sergeants major
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the first word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: aide-de-camps
+  right: aides-de-camp
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the first word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: president-elects
+  right: presidents-elect
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the first word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: daughter-in-laws
+  right: daughters-in-law
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the significant word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: mother-in-laws
+  right: mothers-in-law
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the significant word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: father-in-laws
+  right: fathers-in-law
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the significant word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: son-in-laws
+  right: sons-in-law
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the significant word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: brother-in-laws
+  right: brothers-in-law
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the significant word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: substitution
+  wrong: sister-in-laws
+  right: sisters-in-law
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pluralize the significant word.
+- source: ap
+  page: 582
+  entry: plurals
+  kind: existence
+  wrong: \b\d+['’]s\b
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: 'No apostrophe in plurals of figures: 1920s, 727s.'
+- source: ap
+  page: 583
+  entry: poinsettia
+  kind: substitution
+  wrong: poinsetta
+  right: poinsettia
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Note the ia ending.
+- source: ap
+  page: 584
+  entry: policymaker, policymaking
+  kind: substitution
+  wrong: policy-maker|policy maker
+  right: policymaker
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 584
+  entry: policymaker, policymaking
+  kind: substitution
+  wrong: policy-making|policy making
+  right: policymaking
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 585
+  entry: political divisions
+  kind: casing
+  wrong: (?<=\d(?:st|nd|rd|th) )ward
+  right: Ward
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize Ward with a figure.
+- source: ap
+  page: 585
+  entry: political divisions
+  kind: casing
+  wrong: (?<=\d(?:st|nd|rd|th) )precinct
+  right: Precinct
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize Precinct with a figure.
+- source: ap
+  page: 585
+  entry: political parties and philosophies
+  kind: casing
+  wrong: Democratic party|democratic party|democratic Party
+  right: Democratic Party
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalize party in the proper name.
+- source: ap
+  page: 585
+  entry: political parties and philosophies
+  kind: casing
+  wrong: Republican party|republican party|republican Party
+  right: Republican Party
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalize party in the proper name.
+- source: ap
+  page: 585
+  entry: political parties and philosophies
+  kind: casing
+  wrong: Communism
+  right: communism
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Lowercase philosophy names not derived from proper names.
+- source: ap
+  page: 585
+  entry: political parties and philosophies
+  kind: casing
+  wrong: Fascism
+  right: fascism
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Lowercase philosophy names not derived from proper names.
+- source: ap
+  page: 585
+  entry: political parties and philosophies
+  kind: casing
+  wrong: marxism
+  right: Marxism
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize philosophies derived from a proper name.
+- source: ap
+  page: 585
+  entry: political parties and philosophies
+  kind: casing
+  wrong: nazism
+  right: Nazism
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize philosophies derived from a proper name.
+- source: ap
+  page: 586
+  entry: pope
+  kind: casing
+  wrong: \bpope (?=[A-Z][a-z]+)
+  right: 'Pope '
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalize pope as a formal title before a name.
+- source: ap
+  page: 587
+  entry: possessives
+  kind: casing
+  wrong: childrens
+  right: children's
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Add 's to plural nouns not ending in s.
+- source: ap
+  page: 587
+  entry: possessives
+  kind: casing
+  wrong: womens
+  right: women's
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Add 's to plural nouns not ending in s.
+- source: ap
+  page: 588
+  entry: possessives
+  kind: existence
+  wrong: \b(?:Achilles|Agnes|Ceres|Descartes|Dickens|Euripides|Hercules|Jesus|Jules|Kansas|Moses|Socrates|Xerxes)['’]s\b
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Singular proper names ending in s take only an apostrophe.
+- source: ap
+  page: 588
+  entry: possessives
+  kind: existence
+  wrong: \b(?:virus|witness|boss|class|business|actress)['’](?= [a-z])
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Singular common nouns ending in s take 's.
+- source: ap
+  page: 589
+  entry: possessives
+  kind: substitution
+  wrong: \btheir['’]s\b
+  right: theirs
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Possessive pronouns take no apostrophe.
+- source: ap
+  page: 589
+  entry: possessives
+  kind: substitution
+  wrong: \byour['’]s\b
+  right: yours
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Possessive pronouns take no apostrophe.
+- source: ap
+  page: 589
+  entry: possessives
+  kind: substitution
+  wrong: \bher['’]s\b
+  right: hers
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Possessive pronouns take no apostrophe.
+- source: ap
+  page: 589
+  entry: possessives
+  kind: substitution
+  wrong: \bour['’]s\b
+  right: ours
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Possessive pronouns take no apostrophe.
+- source: ap
+  page: 589
+  entry: possessives
+  kind: substitution
+  wrong: \bits['’](?=\s)
+  right: its
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Possessive its takes no apostrophe.
+- source: ap
+  page: 589
+  entry: possessives
+  kind: existence
+  wrong: \b(?:citizens|teachers|writers)['’] (?:band|college|guide)\b
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Descriptive phrases ending in s take no apostrophe.
+- source: ap
+  page: 589
+  entry: possessives
+  kind: existence
+  wrong: \b(?:years|months|weeks|days)['’] (?:old|pregnant|overdue)\b
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: No apostrophe when the quantity precedes an adjective.
+- source: ap
+  page: 589
+  entry: possessives
+  kind: existence
+  wrong: \b(?:two|three|four|five|six|seven|eight|nine|\d+) (?:weeks|months|years|days) (?:vacation|work|probation|pay|notice|salary|imprisonment|leave)\b
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: 'Quasi-possessive time phrases need an apostrophe: two weeks'' vacation.'
+- source: ap
+  page: 590
+  entry: post-
+  kind: substitution
+  wrong: post-date
+  right: postdate
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write postdate solid.
+- source: ap
+  page: 590
+  entry: post-
+  kind: substitution
+  wrong: post-doctoral
+  right: postdoctoral
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write postdoctoral solid.
+- source: ap
+  page: 590
+  entry: post-
+  kind: substitution
+  wrong: post-game
+  right: postgame
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write postgame solid.
+- source: ap
+  page: 590
+  entry: post-
+  kind: substitution
+  wrong: post-graduate
+  right: postgraduate
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write postgraduate solid.
+- source: ap
+  page: 590
+  entry: post-
+  kind: substitution
+  wrong: post-nuptial
+  right: postnuptial
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write postnuptial solid.
+- source: ap
+  page: 590
+  entry: post-
+  kind: substitution
+  wrong: post-script
+  right: postscript
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write postscript solid.
+- source: ap
+  page: 590
+  entry: post-
+  kind: substitution
+  wrong: post-war
+  right: postwar
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write postwar solid.
+- source: ap
+  page: 590
+  entry: post-
+  kind: substitution
+  wrong: postelection
+  right: post-election
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate.
+- source: ap
+  page: 590
+  entry: post-
+  kind: substitution
+  wrong: postconvention
+  right: post-convention
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate.
+- source: ap
+  page: 590
+  entry: post-
+  kind: substitution
+  wrong: postbellum
+  right: post-bellum
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate.
+- source: ap
+  page: 590
+  entry: post-
+  kind: substitution
+  wrong: postmortem
+  right: post-mortem
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate per the entry's examples.
+- source: ap
+  page: 597
+  entry: Post-it
+  kind: casing
+  wrong: Post-It|Post It
+  right: Post-it
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Trademark spelling.
+- source: ap
+  page: 597
+  entry: post office
+  kind: casing
+  wrong: Post Office
+  right: post office
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No longer capitalized.
+- source: ap
+  page: 597
+  entry: postpartum depression
+  kind: existence
+  wrong: baby blues
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use the term baby blues.
+- source: ap
+  page: 598
+  entry: post-traumatic stress disorder
+  kind: substitution
+  wrong: posttraumatic|post traumatic
+  right: post-traumatic
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate.
+- source: ap
+  page: 598
+  entry: pound (monetary)
+  kind: existence
+  wrong: £
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: English pound sign is not used; convert to dollars unless pounds matter.
+- source: ap
+  page: 599
+  entry: pre-
+  kind: substitution
+  wrong: pre-existing
+  right: preexisting
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen in double-e combinations with pre-.
+- source: ap
+  page: 599
+  entry: pre-
+  kind: substitution
+  wrong: pre-election
+  right: preelection
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen in double-e combinations with pre-.
+- source: ap
+  page: 599
+  entry: pre-
+  kind: substitution
+  wrong: pre-empt
+  right: preempt
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen in double-e combinations with pre-.
+- source: ap
+  page: 599
+  entry: pre-
+  kind: substitution
+  wrong: pre-eminent
+  right: preeminent
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen in double-e combinations with pre-.
+- source: ap
+  page: 599
+  entry: pre-
+  kind: existence
+  wrong: \b(?:pre|re)-e\w+
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No hyphen in double-e combinations with pre- and re-.
+- source: ap
+  page: 600
+  entry: pre-
+  kind: substitution
+  wrong: pre-arrange
+  right: prearrange
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write solid.
+- source: ap
+  page: 600
+  entry: pre-
+  kind: substitution
+  wrong: pre-condition
+  right: precondition
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write solid.
+- source: ap
+  page: 600
+  entry: pre-
+  kind: substitution
+  wrong: pre-cook
+  right: precook
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write solid.
+- source: ap
+  page: 567
+  entry: patrol, patrolled, patrolling
+  kind: substitution
+  wrong: patroled
+  right: patrolled
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Double the l.
+- source: ap
+  page: 567
+  entry: patrol, patrolled, patrolling
+  kind: substitution
+  wrong: patroling
+  right: patrolling
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Double the l.
+- source: ap
+  page: 583
+  entry: p.m., a.m.
+  kind: existence
+  wrong: (?<=\d)\s?(?:[AP]M|[ap]m|Am|Pm)
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Write a.m. and p.m. lowercase with periods.
+- source: ap
+  page: 583
+  entry: p.m., a.m.
+  kind: existence
+  wrong: \d+(?::\d\d)?\s[ap]\.m\. (?:tonight|this (?:morning|afternoon|evening))
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Avoid redundant 10 p.m. tonight.
+- source: ap
+  page: 504
+  entry: times
+  kind: substitution
+  wrong: 12 noon
+  right: noon
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Noon needs no figure.
+- source: ap
+  page: 504
+  entry: times
+  kind: substitution
+  wrong: 12 midnight
+  right: midnight
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Midnight needs no figure.

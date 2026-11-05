@@ -1,0 +1,4861 @@
+- source: apple
+  page: 11
+  entry: 2-byte character
+  kind: substitution
+  wrong: 2-byte character
+  right: double-byte character
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Avoid the numeral form; say double-byte character.
+- source: apple
+  page: 11
+  entry: 24/7
+  kind: substitution
+  wrong: 24x7
+  right: 24/7
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write 24/7 with a slash, not 24x7.
+- source: apple
+  page: 11
+  entry: 2K, 4K, 5K, 6K, 8K
+  kind: substitution
+  wrong: (\d) K(?=\s+(?:display|video|resolution|footage))
+  right: $1K
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: No space between the numeral and K in resolution names.
+- source: apple
+  page: 11
+  entry: 2D / 3D
+  kind: substitution
+  wrong: '[23]-D'
+  right: '[23]D'
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Abbreviations 2D and 3D take no hyphen.
+- source: apple
+  page: 12
+  entry: abbreviations and acronyms
+  kind: existence
+  wrong: \b(?:e\.g\.|i\.e\.|et al\.|etc\.)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid Latin abbreviations; write for example, that is, and others, and so on.
+- source: apple
+  page: 12
+  entry: abort
+  kind: existence
+  wrong: abort(?:s|ed|ing)?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Avoid in user materials; consider exit, interrupt, quit, or stop.
+- source: apple
+  page: 13
+  entry: AC adapter
+  kind: substitution
+  wrong: AC adapter
+  right: power adapter
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use power adapter.
+- source: apple
+  page: 13
+  entry: access (n., v.)
+  kind: existence
+  wrong: access(?:es|ed|ing)? the (?:server|internet)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Prefer precise verbs such as log in to or connect to.
+- source: apple
+  page: 14
+  entry: Action pop-up menu
+  kind: existence
+  wrong: Action pop-up menu
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use; say More button or More menu.
+- source: apple
+  page: 14
+  entry: activate, deactivate
+  kind: existence
+  wrong: (?:de)?activat(?:e|es|ed|ing)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid; use turn on and turn off.
+- source: apple
+  page: 15
+  entry: adapter
+  kind: substitution
+  wrong: adaptor
+  right: adapter
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Spell adapter with -er.
+- source: apple
+  page: 15
+  entry: Adaptive Audio
+  kind: substitution
+  wrong: Adaptive mode
+  right: Adaptive Audio
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: The AirPods mode is Adaptive Audio, not Adaptive mode.
+- source: apple
+  page: 15
+  entry: addresses (mailing)
+  kind: substitution
+  wrong: U\.S\.A\.
+  right: USA
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: In mailing addresses write USA with no periods.
+- source: apple
+  page: 15
+  entry: adjuster
+  kind: existence
+  wrong: adjuster
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not name an up/down arrow control adjuster; use arrows or stepper.
+- source: apple
+  page: 16
+  entry: advisor
+  kind: existence
+  wrong: Apple Support (?:agent|representative)s?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Apple Support staff are Advisors, not agents or representatives.
+- source: apple
+  page: 16
+  entry: afterward
+  kind: substitution
+  wrong: afterwards
+  right: afterward
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use afterward, not afterwards.
+- source: apple
+  page: 16
+  entry: AirDrop
+  kind: existence
+  wrong: AirDrop(?:s|ed|ing)? (?:photos?|files?|documents?|it|them)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use AirDrop as a verb.
+- source: apple
+  page: 16
+  entry: Airplane Mode
+  kind: casing
+  wrong: (?i:airplane mode)
+  right: Airplane Mode
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize both words.
+- source: apple
+  page: 16
+  entry: AirPlay
+  kind: existence
+  wrong: AirPlay(?:s|ed|ing)? (?:videos?|music|photos?|it|them|content)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use AirPlay as a verb.
+- source: apple
+  page: 16
+  entry: AirPods
+  kind: existence
+  wrong: the AirPods(?= (?:Pro|Max|4))
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: In general references skip the article before AirPods.
+- source: apple
+  page: 17
+  entry: AirPods
+  kind: existence
+  wrong: AirPods Pro \(2nd generation\)|AirPods \(\d(?:st|nd|rd|th) generation\)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Name AirPods models by number, not generation.
+- source: apple
+  page: 17
+  entry: AirPods
+  kind: existence
+  wrong: AirPod(?!s)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Avoid singular AirPod; rewrite the sentence.
+- source: apple
+  page: 17
+  entry: AirPort
+  kind: existence
+  wrong: the AirPort (?:Utility|Disk Utility)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not put the before AirPort app names.
+- source: apple
+  page: 17
+  entry: AirPort
+  kind: casing
+  wrong: Base Station(?<!(?:Express|Extreme) Base Station)
+  right: base station
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Lowercase base station unless it is the full product name.
+- source: apple
+  page: 18
+  entry: alert
+  kind: existence
+  wrong: error messages?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid error message in user materials; alert message is fine.
+- source: apple
+  page: 18
+  entry: alias
+  kind: existence
+  wrong: aliased
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use aliased; the target is the original item.
+- source: apple
+  page: 18
+  entry: alignment
+  kind: existence
+  wrong: justification
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use alignment for horizontal text placement.
+- source: apple
+  page: 18
+  entry: allow
+  kind: existence
+  wrong: allows you to
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Restructure so the reader is the subject, for example You can.
+- source: apple
+  page: 18
+  entry: alphanumeric
+  kind: substitution
+  wrong: alpha-numeric|alpha numeric
+  right: alphanumeric
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 19
+  entry: Alt key
+  kind: substitution
+  wrong: Alt key
+  right: Option key
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use Option key for Mac users; Alt only in Windows instructions.
+- source: apple
+  page: 19
+  entry: a.m.
+  kind: substitution
+  wrong: \d(?:am|AM|a\.m|A\.M\.)(?![a-z.])
+  right: a.m.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Lowercase with periods and a space before it: 8:30 a.m.'
+- source: apple
+  page: 19
+  entry: a.m.
+  kind: substitution
+  wrong: \d(?:pm|PM|p\.m|P\.M\.)(?![a-z.])
+  right: p.m.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Lowercase with periods and a space before it.
+- source: apple
+  page: 19
+  entry: ambient light sensor
+  kind: existence
+  wrong: ALS
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not abbreviate ambient light sensor as ALS.
+- source: apple
+  page: 19
+  entry: analog
+  kind: substitution
+  wrong: analogue
+  right: analog
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Spell analog without ue.
+- source: apple
+  page: 19
+  entry: and/or
+  kind: existence
+  wrong: and/or
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Rewrite to avoid and/or.
+- source: apple
+  page: 19
+  entry: angle brackets
+  kind: existence
+  wrong: (?<!angle )brackets(?= \(<|, <)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Call < and > angle brackets, not brackets.
+- source: apple
+  page: 19
+  entry: Animoji
+  kind: substitution
+  wrong: Animojis
+  right: Animoji
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Animoji is both singular and plural.
+- source: apple
+  page: 19
+  entry: antenna
+  kind: substitution
+  wrong: antennae
+  right: antennas
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: For wireless products use antennas.
+- source: apple
+  page: 20
+  entry: anti (prefix)
+  kind: substitution
+  wrong: anti-(?=[a-hj-z])(?![A-Z])(?!replay)
+  right: anti
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Close up anti- except before i or a capital; anti-replay is an exception.
+- source: apple
+  page: 20
+  entry: antialiasing
+  kind: substitution
+  wrong: anti-aliasing|anti-aliased
+  right: antialiasing
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: One word; do not use antialias as a verb.
+- source: apple
+  page: 20
+  entry: anti-replay value
+  kind: existence
+  wrong: nonce
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use anti-replay value instead of nonce, except when quoting code.
+- source: apple
+  page: 20
+  entry: API
+  kind: substitution
+  wrong: application program interface
+  right: application programming interface
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Spell out API as application programming interface.
+- source: apple
+  page: 21
+  entry: appear
+  kind: existence
+  wrong: (?:is|are) displayed|displays? (?:the )?(?:setup|dialog|window|message)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use appear, not display, for items becoming visible.
+- source: apple
+  page: 21
+  entry: appendixes
+  kind: substitution
+  wrong: appendices
+  right: appendixes
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Plural is appendixes.
+- source: apple
+  page: 21
+  entry: Apple
+  kind: existence
+  wrong: (?:an|the|your) Apples?\b(?! (?:Account|Card|Cash|Watch|Pencil|Store|TV|Music|News|Support|Pay|Books|Intelligence|Vision|Original|silicon|Park|Inc|ID|Maps|Fitness|Arcade|Diagnostics|Remote|Loops|Lossless|Trade|Gift|Online|Retail|Authorized|Configurator|Developer|Beta|Creator|Games|Podcasts|Photos|services|logo|menu|event|File|Filing|Push|Computer|Newton|Lisa|II|M\d|A\d|T2|Silicon))
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use Apple alone for products; add a noun such as computer.
+- source: apple
+  page: 22
+  entry: Apple Account
+  kind: substitution
+  wrong: Apple ID
+  right: Apple Account
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Apple ID is replaced by Apple Account.
+- source: apple
+  page: 22
+  entry: Apple Account
+  kind: existence
+  wrong: sign(?:ed|s|ing)? in with (?:your|an|the) Apple Account
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: People sign in to an Apple Account, not with it.
+- source: apple
+  page: 22
+  entry: Apple Account
+  kind: existence
+  wrong: (?:iCloud|iTunes Store|App Store) account
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: People only have an Apple Account; avoid service-specific account names.
+- source: apple
+  page: 22
+  entry: Apple-authorized
+  kind: casing
+  wrong: Apple-Authorized Reseller|Apple Authorised
+  right: Apple Authorized Reseller
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: No hyphen in proper names like Apple Authorized Reseller.
+- source: apple
+  page: 23
+  entry: Apple Books
+  kind: existence
+  wrong: iBooks
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: iBooks is the older name; use Apple Books.
+- source: apple
+  page: 23
+  entry: Apple Card
+  kind: existence
+  wrong: (?:the|an) Apple Card(?! (?:Family|account|Monthly|holder|customer))
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not precede Apple Card with the or an.
+- source: apple
+  page: 23
+  entry: Apple Card Family
+  kind: casing
+  wrong: Apple Card family
+  right: Apple Card Family
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize Family.
+- source: apple
+  page: 23
+  entry: Apple Cash Family
+  kind: casing
+  wrong: Apple Cash family
+  right: Apple Cash Family
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize Family.
+- source: apple
+  page: 23
+  entry: AppleCare
+  kind: casing
+  wrong: Applecare|Apple Care
+  right: AppleCare
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: One word, capital C.
+- source: apple
+  page: 23
+  entry: Apple computer
+  kind: existence
+  wrong: Apple computers?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid where Mac computer would work.
+- source: apple
+  page: 23
+  entry: Apple Creator Studio
+  kind: existence
+  wrong: the Apple Creator Studio
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Do not precede with the.
+- source: apple
+  page: 24
+  entry: Apple Fitness+
+  kind: substitution
+  wrong: Apple Fitness Plus
+  right: Apple Fitness+
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use the plus sign.
+- source: apple
+  page: 24
+  entry: Apple Games app
+  kind: existence
+  wrong: the Games app
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use Apple Games app, not just Games app.
+- source: apple
+  page: 24
+  entry: Apple ID
+  kind: substitution
+  wrong: Apple ID
+  right: Apple Account
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Do not use Apple ID; use Apple Account.
+- source: apple
+  page: 24
+  entry: Apple Intelligence
+  kind: existence
+  wrong: Apple Intelligence \(AI\)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not abbreviate Apple Intelligence as AI.
+- source: apple
+  page: 24
+  entry: Apple logo
+  kind: casing
+  wrong: Apple Logo
+  right: Apple logo
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase logo.
+- source: apple
+  page: 25
+  entry: Apple Loops
+  kind: existence
+  wrong: an Apple Loop\b
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Apple Loops is always plural.
+- source: apple
+  page: 25
+  entry: Apple Loops Utility
+  kind: substitution
+  wrong: Apple Loop Utility
+  right: Apple Loops Utility
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Plural Loops.
+- source: apple
+  page: 25
+  entry: Apple Lossless
+  kind: casing
+  wrong: Apple lossless
+  right: Apple Lossless
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize Lossless.
+- source: apple
+  page: 25
+  entry: Apple Music
+  kind: existence
+  wrong: Apple Music members?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Users are subscribers, not members.
+- source: apple
+  page: 26
+  entry: Apple News+
+  kind: substitution
+  wrong: Apple News Plus
+  right: Apple News+
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use the plus sign.
+- source: apple
+  page: 26
+  entry: Apple Online Store
+  kind: existence
+  wrong: Apple Online Store
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use; say shop online at apple.com.
+- source: apple
+  page: 27
+  entry: Apple Pencil
+  kind: existence
+  wrong: the Apple Pencil(?! (?:you|that|Pro|is|has|in)\b)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: In general references skip the before Apple Pencil.
+- source: apple
+  page: 27
+  entry: Apple Pencil hover
+  kind: casing
+  wrong: Apple Pencil Hover
+  right: Apple Pencil hover
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase hover.
+- source: apple
+  page: 27
+  entry: Apple Retail Store
+  kind: existence
+  wrong: Apple Retail Store
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use; say Apple Store.
+- source: apple
+  page: 27
+  entry: AppleScript
+  kind: existence
+  wrong: AppleScripts|AppleScriptable|AppleScripting
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use script, not AppleScripts; avoid AppleScriptable and AppleScripting.
+- source: apple
+  page: 27
+  entry: Apple services
+  kind: casing
+  wrong: Apple Services
+  right: Apple services
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase services.
+- source: apple
+  page: 27
+  entry: Apple silicon
+  kind: existence
+  wrong: Apple silicon Macs?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Say Mac with Apple silicon.
+- source: apple
+  page: 27
+  entry: Apple silicon
+  kind: casing
+  wrong: Apple Silicon
+  right: Apple silicon
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase silicon.
+- source: apple
+  page: 28
+  entry: Apple Store
+  kind: existence
+  wrong: Apple Stores|Apple Store's
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: No plural or possessive; use Apple Store locations or store's.
+- source: apple
+  page: 28
+  entry: Apple Support
+  kind: existence
+  wrong: contact Support\b
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not shorten Apple Support to Support.
+- source: apple
+  page: 28
+  entry: Apple T2 Security Chip
+  kind: casing
+  wrong: Apple T2 security chip
+  right: Apple T2 Security Chip
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize the full name.
+- source: apple
+  page: 29
+  entry: Apple Trade In
+  kind: substitution
+  wrong: Apple Trade-In
+  right: Apple Trade In
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Program name has no hyphen.
+- source: apple
+  page: 29
+  entry: Apple TV
+  kind: existence
+  wrong: Apple TV\+|Apple TV Plus
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Apple TV+ is retired; use Apple TV.
+- source: apple
+  page: 29
+  entry: Apple TV 4K
+  kind: existence
+  wrong: ATV 4K
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Do not abbreviate Apple TV 4K.
+- source: apple
+  page: 29
+  entry: Apple TV app
+  kind: existence
+  wrong: the Apple TV(?= gives)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Include the and app when naming the app, not the service.
+- source: apple
+  page: 30
+  entry: Apple Vision Pro
+  kind: existence
+  wrong: the Apple Vision Pro(?! (?:you|that))
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: In general references skip the before Apple Vision Pro.
+- source: apple
+  page: 30
+  entry: Apple Vision Pro
+  kind: existence
+  wrong: Vision Pro headset|Apple Vision Pro headset
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not call Apple Vision Pro a headset.
+- source: apple
+  page: 30
+  entry: Apple Watch
+  kind: existence
+  wrong: the Apple Watch(?! (?:you|that|app))
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: In general references skip the before Apple Watch.
+- source: apple
+  page: 30
+  entry: Apple Watch app
+  kind: existence
+  wrong: the Watch app
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use the full name the Apple Watch app.
+- source: apple
+  page: 31
+  entry: Apple website
+  kind: casing
+  wrong: Apple\.com
+  right: apple.com
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Lowercase apple.com mid-sentence; capitalize only at sentence start.
+- source: apple
+  page: 31
+  entry: App Library
+  kind: existence
+  wrong: the App Library
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Do not precede App Library with the.
+- source: apple
+  page: 31
+  entry: app names
+  kind: existence
+  wrong: the QuickTime Player
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use the before app names (Finder excepted).
+- source: apple
+  page: 31
+  entry: App Store
+  kind: existence
+  wrong: Apple Watch App Store|Apple TV App Store
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Avoid these constructions; use App Store for Apple Watch.
+- source: apple
+  page: 32
+  entry: arabic, Arabic
+  kind: casing
+  wrong: Arabic (?=numerals?)
+  right: 'arabic '
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Lowercase arabic for numerals, capital for the script.
+- source: apple
+  page: 32
+  entry: armband
+  kind: substitution
+  wrong: arm band
+  right: armband
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 32
+  entry: arrowhead
+  kind: existence
+  wrong: arrowhead
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use for the arrow pointer.
+- source: apple
+  page: 32
+  entry: arrow keys
+  kind: existence
+  wrong: direction keys
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use arrow keys.
+- source: apple
+  page: 32
+  entry: Asia Pacific
+  kind: existence
+  wrong: Asia Pacific and Japan
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Asia Pacific already includes Japan.
+- source: apple
+  page: 33
+  entry: aspect ratio
+  kind: existence
+  wrong: \b\d{1,2} ?(?:x|by) ?\d{1,2}(?= aspect ratio)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use a colon in aspect ratios, such as 16:9.
+- source: apple
+  page: 33
+  entry: AssistiveTouch
+  kind: substitution
+  wrong: Assistive Touch
+  right: AssistiveTouch
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 33
+  entry: Assistive Access
+  kind: existence
+  wrong: (?:start|open|quit|leave)(?:s|ed|ing)? Assistive Access
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Users enter and exit Assistive Access.
+- source: apple
+  page: 33
+  entry: assure
+  kind: existence
+  wrong: assure(?!d|s)(?= (?:that )?(?:the )?(?:\w+ )?(?:is|are|will|you|it|they)\b)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Assure means convince; use ensure for make certain. Check context.
+- source: apple
+  page: 33
+  entry: at sign (@)
+  kind: existence
+  wrong: \b@ (?=\w)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use at, not @, except in emails and usernames.
+- source: apple
+  page: 33
+  entry: attach
+  kind: existence
+  wrong: attach(?:es|ed|ing)? (?:the |a |your )?(?:USB|device|cable)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use connect, not attach, for devices.
+- source: apple
+  page: 33
+  entry: audio
+  kind: substitution
+  wrong: audio book|audio-book|audio cassette|audio tape|audio-visual
+  right: audiobook
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Close up audiobook, audiocassette, audiotape, audiovisual.
+- source: apple
+  page: 33
+  entry: audio
+  kind: substitution
+  wrong: audio-(?=editing|recording|mixing|playback)
+  right: 'audio '
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No hyphen in compound adjectives with audio.
+- source: apple
+  page: 34
+  entry: audio CD
+  kind: substitution
+  wrong: CD audio disc
+  right: audio CD
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Write audio CD.
+- source: apple
+  page: 34
+  entry: Audio Units
+  kind: existence
+  wrong: Audio Unit(?!s)
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Audio Units is always plural.
+- source: apple
+  page: 34
+  entry: autism
+  kind: existence
+  wrong: autism spectrum disorder|\bASD\b|autistic symptoms|symptoms of autism
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid ASD and symptoms unless writing about a medical diagnosis; use traits.
+- source: apple
+  page: 34
+  entry: autism
+  kind: existence
+  wrong: (?:high|low)[- ]functioning|(?:mild|severe) autism
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use functioning labels or mild/severe for autism.
+- source: apple
+  page: 35
+  entry: auto (prefix)
+  kind: substitution
+  wrong: auto-(?=[a-np-z])
+  right: auto
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Close up auto- except before o.
+- source: apple
+  page: 35
+  entry: Auto Exposure
+  kind: casing
+  wrong: autoexposure
+  right: Auto Exposure
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Feature name is Auto Exposure; lowercase autoexposure is for general use.
+- source: apple
+  page: 35
+  entry: autosave
+  kind: existence
+  wrong: autosaves?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use only as an adjective, not a verb.
+- source: apple
+  page: 35
+  entry: autosync
+  kind: substitution
+  wrong: auto-sync
+  right: autosync
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 35
+  entry: AutoFill
+  kind: casing
+  wrong: Autofill
+  right: AutoFill
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Safari feature is AutoFill; the verb is lowercase autofill.
+- source: apple
+  page: 36
+  entry: back end
+  kind: existence
+  wrong: back end (?=(?:server|service|system|code|developer)s?\b)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Adjective form is back-end hyphenated.
+- source: apple
+  page: 36
+  entry: backlight
+  kind: substitution
+  wrong: back light|back-light|back lit|back-lit
+  right: backlight
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'One word: backlight, backlit.'
+- source: apple
+  page: 36
+  entry: back panel
+  kind: substitution
+  wrong: backpanel
+  right: back panel
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: apple
+  page: 36
+  entry: backspace
+  kind: substitution
+  wrong: back space|back-space
+  right: backspace
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 36
+  entry: backup
+  kind: substitution
+  wrong: back-up
+  right: backup
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Noun and adjective are one word with no hyphen; verb is back up.
+- source: apple
+  page: 36
+  entry: backward
+  kind: substitution
+  wrong: backwards
+  right: backward
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use backward for direction.
+- source: apple
+  page: 36
+  entry: backward compatibility
+  kind: substitution
+  wrong: backwards compatib(?:ility|le)
+  right: backward compatibility
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Not backwards; backward-compatible takes a hyphen.
+- source: apple
+  page: 37
+  entry: badge
+  kind: existence
+  wrong: badged|badging
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use badge as verb or badged as adjective.
+- source: apple
+  page: 37
+  entry: bandwidth
+  kind: substitution
+  wrong: band width|band-width
+  right: bandwidth
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 37
+  entry: battery level
+  kind: existence
+  wrong: power level|battery charge level
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use battery level for remaining power.
+- source: apple
+  page: 38
+  entry: bit rate
+  kind: substitution
+  wrong: bitrate|bit-rate
+  right: bit rate
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: apple
+  page: 38
+  entry: bit resolution
+  kind: substitution
+  wrong: bit resolution
+  right: bit depth
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use bit depth.
+- source: apple
+  page: 38
+  entry: Black (adj.)
+  kind: casing
+  wrong: black (?=(?:leaders|community|history|people|communities|creators|artists|voices|culture|women|men|owned))
+  right: 'Black '
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalize Black for ethnicity or cultural identity.
+- source: apple
+  page: 39
+  entry: black-and-white
+  kind: substitution
+  wrong: black and white (?=(?:picture|photo|image|film|display|video)s?\b)
+  right: 'black-and-white '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate as adjective before a noun.
+- source: apple
+  page: 39
+  entry: black box/white box
+  kind: existence
+  wrong: black[- ]box|white[- ]box
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid for systems or testing; use closed, opaque, open, or transparent.
+- source: apple
+  page: 39
+  entry: black hat/white hat
+  kind: existence
+  wrong: black[- ]hat|white[- ]hat
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use malicious or ethical hacker instead.
+- source: apple
+  page: 39
+  entry: blacklist/whitelist
+  kind: substitution
+  wrong: blacklist(?:s|ed|ing)?
+  right: deny list
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not use; alternatives include deny list or reject list.
+- source: apple
+  page: 39
+  entry: blacklist/whitelist
+  kind: substitution
+  wrong: whitelist(?:s|ed|ing)?
+  right: allow list
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not use; alternatives include allow list or accept list.
+- source: apple
+  page: 39
+  entry: blank character
+  kind: substitution
+  wrong: blank character
+  right: space character
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use space character.
+- source: apple
+  page: 40
+  entry: blind, low vision
+  kind: existence
+  wrong: visually impaired|vision impaired
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid; say blind or has low vision.
+- source: apple
+  page: 40
+  entry: blinking
+  kind: existence
+  wrong: flashing insertion point|insertion point flash
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Insertion point blinks; do not say flashing.
+- source: apple
+  page: 40
+  entry: Bluetooth
+  kind: substitution
+  wrong: Bluetooth-enabled
+  right: Bluetooth enabled
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen with Bluetooth.
+- source: apple
+  page: 40
+  entry: Blu-ray
+  kind: casing
+  wrong: Blu-Ray|Bluray|Blu-ray disc(?= format)
+  right: Blu-ray
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Blu-ray has a hyphen and lowercase r; capitalize Disc only for the format.
+- source: apple
+  page: 40
+  entry: board
+  kind: existence
+  wrong: (?:expansion|video|graphics) board
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use card for removable boards.
+- source: apple
+  page: 40
+  entry: bookmark
+  kind: substitution
+  wrong: book mark|book-mark
+  right: bookmark
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 41
+  entry: Book Store
+  kind: existence
+  wrong: Apple Books [Ss]tore|Apple Book Store|Apple Bookstore
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use the Book Store or the store in Apple Books.
+- source: apple
+  page: 41
+  entry: Boolean
+  kind: casing
+  wrong: boolean
+  right: Boolean
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize Boolean.
+- source: apple
+  page: 41
+  entry: boot chime
+  kind: substitution
+  wrong: boot chime
+  right: startup sound
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use startup sound.
+- source: apple
+  page: 41
+  entry: boot disk
+  kind: substitution
+  wrong: boot disk
+  right: startup disk
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use startup disk except in server materials.
+- source: apple
+  page: 41
+  entry: bottommost
+  kind: substitution
+  wrong: bottom-most|bottom most
+  right: bottommost
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 41
+  entry: box
+  kind: substitution
+  wrong: dialog box
+  right: dialog
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use dialog, not dialog box.
+- source: apple
+  page: 41
+  entry: bps
+  kind: substitution
+  wrong: bps
+  right: bit/s
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use bit/s for bits per second.
+- source: apple
+  page: 41
+  entry: braces
+  kind: existence
+  wrong: curly brackets?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Call { } braces, not curly brackets.
+- source: apple
+  page: 41
+  entry: brackets
+  kind: existence
+  wrong: square brackets?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Call [ ] brackets, not square brackets.
+- source: apple
+  page: 41
+  entry: braille
+  kind: casing
+  wrong: Braille
+  right: braille
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase.
+- source: apple
+  page: 41
+  entry: broadband
+  kind: substitution
+  wrong: broad band|broad-band
+  right: broadband
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 42
+  entry: browsable
+  kind: substitution
+  wrong: browseable
+  right: browsable
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No middle e.
+- source: apple
+  page: 42
+  entry: bug
+  kind: existence
+  wrong: bugs?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid in user materials; use problem, issue, or condition.
+- source: apple
+  page: 42
+  entry: build-to-order
+  kind: substitution
+  wrong: built-to-order
+  right: build-to-order
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Build, not built; do not abbreviate as BTO.
+- source: apple
+  page: 42
+  entry: bullet
+  kind: existence
+  wrong: bullet(?:ed)? dot
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use bullet, not dot, for the list character.
+- source: apple
+  page: 42
+  entry: bundle
+  kind: substitution
+  wrong: prebundled
+  right: bundled
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Do not use prebundled.
+- source: apple
+  page: 42
+  entry: burn
+  kind: existence
+  wrong: burn(?:s|ed|ing)? (?:\w+ ){1,4}onto (?:a|the) (?:disc|CD|DVD)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Burn on or to a disc, not onto.
+- source: apple
+  page: 42
+  entry: bus, buses
+  kind: substitution
+  wrong: busses
+  right: buses
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Plural is buses; busses allowed in audio materials.
+- source: apple
+  page: 42
+  entry: bus-powered
+  kind: existence
+  wrong: bus-powered|self-powered
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid; describe where the device gets power.
+- source: apple
+  page: 43
+  entry: button
+  kind: existence
+  wrong: (?:click|tap) (?:the )?[A-Za-z ]+ button icon
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Refer to icon buttons as buttons; low confidence.
+- source: apple
+  page: 44
+  entry: cable
+  kind: substitution
+  wrong: cabling
+  right: cables
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Do not use cabling; use cables.
+- source: apple
+  page: 44
+  entry: cache
+  kind: substitution
+  wrong: cash(?=\s+(?:memory|miss|hit|line|file))
+  right: cache
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Note spelling cache.
+- source: apple
+  page: 44
+  entry: Calendar
+  kind: casing
+  wrong: calendar app
+  right: Calendar app
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize Calendar for the app name.
+- source: apple
+  page: 44
+  entry: camcorder
+  kind: existence
+  wrong: video cameras?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use camcorder for combined camera and recorder.
+- source: apple
+  page: 45
+  entry: canceled
+  kind: substitution
+  wrong: cancelled|cancelling
+  right: canceled
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'One l for the verb: canceled, canceling.'
+- source: apple
+  page: 45
+  entry: cancellation
+  kind: substitution
+  wrong: cancelation
+  right: cancellation
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two l's for the noun.
+- source: apple
+  page: 45
+  entry: capability
+  kind: existence
+  wrong: has the capability to|have the capability to
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Reword in terms of what the user can do.
+- source: apple
+  page: 46
+  entry: capitalization
+  kind: casing
+  wrong: Chapter (?=\d)
+  right: 'chapter '
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Lowercase chapter and appendix except in cross-references to actual titles.
+- source: apple
+  page: 47
+  entry: Caps Lock key
+  kind: existence
+  wrong: Shift Lock
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use Caps Lock key.
+- source: apple
+  page: 47
+  entry: caret
+  kind: existence
+  wrong: caret(?= (?:accent|in French))
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use caret for circumflex.
+- source: apple
+  page: 47
+  entry: CarPlay
+  kind: existence
+  wrong: CarPlay(?:s|ed|ing)? (?:audiobooks?|music|songs?|it)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use CarPlay as a verb.
+- source: apple
+  page: 47
+  entry: CarPlay
+  kind: casing
+  wrong: Carplay|Car Play|carplay
+  right: CarPlay
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Camel case.
+- source: apple
+  page: 48
+  entry: CarPlay Dashboard
+  kind: existence
+  wrong: (?<!the )CarPlay Dashboard
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: CarPlay Dashboard is preceded by the.
+- source: apple
+  page: 48
+  entry: Catalyst
+  kind: substitution
+  wrong: (?<!Mac )Catalyst
+  right: Mac Catalyst
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use Mac Catalyst.
+- source: apple
+  page: 48
+  entry: CD
+  kind: substitution
+  wrong: CD disk
+  right: CD disc
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use disc, not disk, for CD media.
+- source: apple
+  page: 48
+  entry: cell phone
+  kind: substitution
+  wrong: cell ?phones?|cellular phones?
+  right: mobile phone
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use mobile phone.
+- source: apple
+  page: 48
+  entry: cellular
+  kind: substitution
+  wrong: cell (?=service|data|plan|network|connection)
+  right: 'cellular '
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not shorten cellular to cell.
+- source: apple
+  page: 48
+  entry: cellular signal indicator
+  kind: substitution
+  wrong: cellular-signal indicator
+  right: cellular signal indicator
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: apple
+  page: 48
+  entry: charge cable
+  kind: casing
+  wrong: Charge Cable(?<!USB-C Charge Cable)
+  right: charge cable
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Lowercase except in product names.
+- source: apple
+  page: 49
+  entry: check
+  kind: existence
+  wrong: check the (?:\w+ )?checkbox|checked|unchecked
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Say select or unselected for checkboxes; avoid checked and unchecked.
+- source: apple
+  page: 49
+  entry: checkbox
+  kind: existence
+  wrong: (?:click|tap) (?:on )?the [A-Za-z ]+ checkbox
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Select, do not click, a checkbox.
+- source: apple
+  page: 49
+  entry: chatbot
+  kind: substitution
+  wrong: chat bot|chat-bot
+  right: chatbot
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 49
+  entry: Check In
+  kind: existence
+  wrong: Check In with
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use Check In as a verb.
+- source: apple
+  page: 50
+  entry: checkmark
+  kind: substitution
+  wrong: check mark|check-mark
+  right: checkmark
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 50
+  entry: checkout
+  kind: substitution
+  wrong: check-out
+  right: checkout
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word as noun or adjective; verb is check out.
+- source: apple
+  page: 50
+  entry: checksum
+  kind: substitution
+  wrong: check sum|check-sum
+  right: checksum
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 50
+  entry: child's Apple Account
+  kind: substitution
+  wrong: child Apple Account
+  right: child's Apple Account
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use the possessive.
+- source: apple
+  page: 50
+  entry: choose
+  kind: existence
+  wrong: select (?:the )?(?:View|File|Edit|Format) >
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Users choose menu commands and select items.
+- source: apple
+  page: 50
+  entry: clamshell
+  kind: existence
+  wrong: clamshell
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use for a laptop lid or case; use lid.
+- source: apple
+  page: 50
+  entry: clean installation
+  kind: substitution
+  wrong: clean install\b
+  right: clean installation
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use clean installation, not clean install.
+- source: apple
+  page: 51
+  entry: click
+  kind: substitution
+  wrong: click on
+  right: click
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Do not use click on.
+- source: apple
+  page: 51
+  entry: click
+  kind: existence
+  wrong: click (?:the )?(?:mouse|trackpad)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use press and release instead.
+- source: apple
+  page: 51
+  entry: click and drag
+  kind: existence
+  wrong: click[- ]and[- ]drag
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Either click or drag, not both.
+- source: apple
+  page: 51
+  entry: Clipboard
+  kind: substitution
+  wrong: '[Pp]asteboard'
+  right: Clipboard
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use Clipboard in user materials.
+- source: apple
+  page: 52
+  entry: closed captions
+  kind: substitution
+  wrong: close[- ]captioned|closed captioned|close captions|close captioning
+  right: closed-captioned
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Use closed captions and closed-captioned; check form before replacing.
+- source: apple
+  page: 52
+  entry: cloud
+  kind: existence
+  wrong: the cloud(?<=iCloud, the cloud)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Avoid the cloud as a name for iCloud.
+- source: apple
+  page: 52
+  entry: co (prefix)
+  kind: substitution
+  wrong: co-(?=[a-np-z])
+  right: co
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Close up co- except before some o words like co-op.
+- source: apple
+  page: 52
+  entry: coax
+  kind: existence
+  wrong: coax(?= (?:cable|connector))
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Do not use coax for coaxial.
+- source: apple
+  page: 52
+  entry: codec
+  kind: substitution
+  wrong: CODEC
+  right: codec
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase codec.
+- source: apple
+  page: 52
+  entry: code file
+  kind: substitution
+  wrong: codefile
+  right: code file
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: apple
+  page: 53
+  entry: code, passcode
+  kind: existence
+  wrong: pass code
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use passcode as one word.
+- source: apple
+  page: 54
+  entry: color blind
+  kind: existence
+  wrong: colorblind
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Write color blind and color blindness as two words.
+- source: apple
+  page: 54
+  entry: colored
+  kind: existence
+  wrong: colored (?:pixels?|arrow|pattern|icon|text|line)s?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use colored for screen items; use color.
+- source: apple
+  page: 54
+  entry: color picker
+  kind: existence
+  wrong: color picker
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use; see picker.
+- source: apple
+  page: 54
+  entry: color pixels
+  kind: substitution
+  wrong: colored pixels
+  right: color pixels
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Not colored pixels.
+- source: apple
+  page: 54
+  entry: color well
+  kind: substitution
+  wrong: colorwell|color-well
+  right: color well
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: apple
+  page: 55
+  entry: command
+  kind: existence
+  wrong: (?:select|selecting) the [A-Z][a-z]+ command
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Users choose commands, not select them.
+- source: apple
+  page: 55
+  entry: Command-key equivalent
+  kind: substitution
+  wrong: Command-key equivalents?
+  right: keyboard shortcut
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use keyboard shortcut.
+- source: apple
+  page: 55
+  entry: command line
+  kind: substitution
+  wrong: command line (?=(?:tool|utility|interface|argument)s?\b)
+  right: 'command-line '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate command-line as adjective.
+- source: apple
+  page: 55
+  entry: Command-click
+  kind: substitution
+  wrong: Command click|command-click
+  right: Command-click
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize and hyphenate Command-click.
+- source: apple
+  page: 56
+  entry: command names
+  kind: existence
+  wrong: (?:Choose|choose) [A-Z][a-z]+ > [A-Z][a-z]+(?:…|\.\.\.)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Drop the ellipsis from menu command names in text.
+- source: apple
+  page: 56
+  entry: companion iPhone
+  kind: existence
+  wrong: companion iPhone
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use.
+- source: apple
+  page: 56
+  entry: Compass Waypoints
+  kind: casing
+  wrong: compass waypoints?
+  right: Compass Waypoint
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize the feature; lone waypoint is lowercase.
+- source: apple
+  page: 56
+  entry: compile time
+  kind: substitution
+  wrong: compile time (?=(?:error|check|constant)s?\b)
+  right: 'compile-time '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate as adjective.
+- source: apple
+  page: 56
+  entry: comprise
+  kind: existence
+  wrong: (?:is|are|was|were) comprised of|comprised of
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Never use is comprised of; use is composed of or consists of.
+- source: apple
+  page: 56
+  entry: computer
+  kind: existence
+  wrong: (?:the|a|your) (?:machine|unit)\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use computer, not machine or unit.
+- source: apple
+  page: 56
+  entry: connect
+  kind: existence
+  wrong: (?:hook up|hooks up|hooked up|hooking up|mate|mates|mated)\b
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use connect, not hook up or mate.
+- source: apple
+  page: 57
+  entry: connector
+  kind: existence
+  wrong: (?:male|female) (?:connector|plug|end|port)
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Do not use male or female for connectors.
+- source: apple
+  page: 57
+  entry: constitute
+  kind: existence
+  wrong: constitutes? (?:a |an |the )?whole
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Parts constitute a whole; a whole comprises parts.
+- source: apple
+  page: 57
+  entry: contextual menu
+  kind: substitution
+  wrong: contextual menus?
+  right: shortcut menu
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use shortcut menu in user materials.
+- source: apple
+  page: 57
+  entry: contractions
+  kind: existence
+  wrong: (?:computer|device|system|Apple|server)'s (?:not|going|working|been)
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Do not form contractions from nouns or proper nouns.
+- source: apple
+  page: 58
+  entry: contractions
+  kind: existence
+  wrong: (?:could|would|should)'ve|workin'|everybody'd|how're|it'll|many's|when's|where'll|who've|why's
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Avoid multipart or awkward contractions in written materials.
+- source: apple
+  page: 58
+  entry: Control Center
+  kind: existence
+  wrong: the Control Center
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Do not precede with the.
+- source: apple
+  page: 58
+  entry: Control key
+  kind: existence
+  wrong: CTRL
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use Ctrl, not CTRL, when abbreviating.
+- source: apple
+  page: 58
+  entry: control key
+  kind: substitution
+  wrong: control key
+  right: modifier key
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Lowercase general sense should be modifier key; Control key is the named key.
+- source: apple
+  page: 58
+  entry: Control Strip
+  kind: existence
+  wrong: (?:show|hide)s? the Control Strip
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Expand or collapse the Control Strip.
+- source: apple
+  page: 58
+  entry: convert to
+  kind: substitution
+  wrong: convert into
+  right: convert to
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use convert to.
+- source: apple
+  page: 58
+  entry: cookies
+  kind: substitution
+  wrong: cookie files
+  right: cookies
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Not cookie files.
+- source: apple
+  page: 58
+  entry: coprocessor
+  kind: substitution
+  wrong: co-processor
+  right: coprocessor
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: apple
+  page: 58
+  entry: copy
+  kind: existence
+  wrong: cop(?:y|ies|ied|ying) (?:\w+ ){0,3}(?:on|onto) (?:a|the) (?:disk|disc|drive)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Copy a file to a disk, not on or onto.
+- source: apple
+  page: 58
+  entry: copy-protect
+  kind: substitution
+  wrong: copy protect(?:ed|ion)?
+  right: copy-protect
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate in all forms.
+- source: apple
+  page: 59
+  entry: cord
+  kind: existence
+  wrong: (?:USB|charging|Thunderbolt|display) cord
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Reserve cord for power or phone cords; use cable.
+- source: apple
+  page: 59
+  entry: corrupted
+  kind: substitution
+  wrong: corrupted
+  right: damaged
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Avoid; use damaged.
+- source: apple
+  page: 59
+  entry: country
+  kind: existence
+  wrong: countries(?! or regions)|\bcountry(?! or region)(?= (?:code|availability|settings?))
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Prefer country or region, or just region.
+- source: apple
+  page: 59
+  entry: CPU
+  kind: existence
+  wrong: central processing unit
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: In most cases do not spell out CPU.
+- source: apple
+  page: 60
+  entry: crash
+  kind: existence
+  wrong: crash(?:es|ed|ing)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid in user materials; use quits unexpectedly or stops responding.
+- source: apple
+  page: 60
+  entry: Crash Detection
+  kind: casing
+  wrong: crash detection
+  right: Crash Detection
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize the feature name.
+- source: apple
+  page: 60
+  entry: crosshair
+  kind: substitution
+  wrong: cross-hair|cross hair
+  right: crosshair
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 61
+  entry: curly brackets
+  kind: substitution
+  wrong: curly brackets?
+  right: braces
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Call { } braces.
+- source: apple
+  page: 61
+  entry: cursor
+  kind: existence
+  wrong: cursor
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: In macOS or iOS user materials use insertion point or pointer; cursor fine for VoiceOver.
+- source: apple
+  page: 61
+  entry: custom installation
+  kind: substitution
+  wrong: custom install\b
+  right: custom installation
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use custom installation, not custom install.
+- source: apple
+  page: 61
+  entry: DAC
+  kind: substitution
+  wrong: digital to analog converter
+  right: digital-to-analog converter
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate the spelled-out form.
+- source: apple
+  page: 61
+  entry: Dark Mode
+  kind: casing
+  wrong: '[Dd]ark mode'
+  right: Dark Mode
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize Dark Mode.
+- source: apple
+  page: 61
+  entry: Dark Mode
+  kind: existence
+  wrong: Light Mode
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use the light appearance, not Light Mode.
+- source: apple
+  page: 61
+  entry: Dark Mode
+  kind: existence
+  wrong: (?:using|in) Dark Mode
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not describe a device as using Dark Mode; people use it.
+- source: apple
+  page: 62
+  entry: dash (em)
+  kind: existence
+  wrong: ' — | —|— '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Close up em dashes with surrounding words.
+- source: apple
+  page: 62
+  entry: dash (em)
+  kind: existence
+  wrong: ' -- '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Use a closed-up em dash, not double hyphens.
+- source: apple
+  page: 62
+  entry: dash (en)
+  kind: existence
+  wrong: (?<=\d)-(?=\d{2,4}\b)(?<=\b(?:19|20)\d\d-)
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Use an en dash in number ranges such as years.
+- source: apple
+  page: 62
+  entry: data file
+  kind: substitution
+  wrong: datafile
+  right: data file
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: apple
+  page: 62
+  entry: date picker
+  kind: existence
+  wrong: date picker
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use; see picker.
+- source: apple
+  page: 63
+  entry: dates
+  kind: existence
+  wrong: (?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}(?:st|nd|rd|th)\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use cardinal numbers in dates with the month (August 12, not August 12th).
+- source: apple
+  page: 63
+  entry: dates
+  kind: existence
+  wrong: \b\d{1,2}/\d{1,2}/\d{2,4}\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use slash-form dates like 3/5/22; spell out the month.
+- source: apple
+  page: 63
+  entry: dates
+  kind: existence
+  wrong: \d(?:st|nd|rd|th)(?=\b)(?<=<sup>)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use full-size ordinal letters, not superscript.
+- source: apple
+  page: 63
+  entry: daylight saving time
+  kind: substitution
+  wrong: daylight savings time
+  right: daylight saving time
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Saving, not savings.
+- source: apple
+  page: 63
+  entry: daughter board
+  kind: substitution
+  wrong: daughter ?board
+  right: expansion board
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Do not use; use expansion board.
+- source: apple
+  page: 63
+  entry: deafblind
+  kind: existence
+  wrong: deaf and dumb|deaf-mute|\bmute\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use these terms for deaf or deafblind people.
+- source: apple
+  page: 63
+  entry: deafblind
+  kind: substitution
+  wrong: deaf-blind|deaf blind
+  right: deafblind
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word, lowercase generally.
+- source: apple
+  page: 64
+  entry: hearing impaired
+  kind: existence
+  wrong: hearing[- ]impaired
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use deaf or hard of hearing.
+- source: apple
+  page: 64
+  entry: dealer
+  kind: substitution
+  wrong: dealerships?|dealers?
+  right: Apple Authorized Reseller
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; use Apple Authorized Reseller.
+- source: apple
+  page: 64
+  entry: deejay
+  kind: substitution
+  wrong: deejays?|disc jockey
+  right: DJ
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use DJ; plural DJs.
+- source: apple
+  page: 64
+  entry: degrees
+  kind: existence
+  wrong: \d+ ?º|\d+ °
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Degree symbol closes up with the number.
+- source: apple
+  page: 64
+  entry: dehighlight
+  kind: substitution
+  wrong: dehighlight(?:s|ed|ing)?
+  right: deselect
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use deselect or not highlighted.
+- source: apple
+  page: 64
+  entry: DEL character
+  kind: substitution
+  wrong: DELETE character|rubout character
+  right: DEL character
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use DEL character.
+- source: apple
+  page: 64
+  entry: Delete key
+  kind: substitution
+  wrong: DEL key
+  right: Delete key
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use Delete key.
+- source: apple
+  page: 64
+  entry: deny list/allow list
+  kind: existence
+  wrong: (?:allow|deny)[- ]listed
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use as verbs or participles; use allowed or denied.
+- source: apple
+  page: 65
+  entry: depress
+  kind: existence
+  wrong: depress(?:es|ed|ing)? the (?:button|key)
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use press.
+- source: apple
+  page: 65
+  entry: deselect
+  kind: existence
+  wrong: uncheck(?:s|ed|ing)?|unselect(?:s|ed|ing)?|unhighlight(?:s|ed|ing)?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use deselect; avoid uncheck, unselect, unhighlight.
+- source: apple
+  page: 65
+  entry: desire
+  kind: substitution
+  wrong: desire(?:s|d)?(?= to\b)
+  right: want
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use desire; use want.
+- source: apple
+  page: 65
+  entry: desired
+  kind: existence
+  wrong: desired
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Try to avoid desired.
+- source: apple
+  page: 66
+  entry: diacritical mark
+  kind: substitution
+  wrong: diacritic(?!al)
+  right: diacritical mark
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Not diacritic.
+- source: apple
+  page: 66
+  entry: dialog
+  kind: substitution
+  wrong: dialog box(?:es)?
+  right: dialog
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use dialog, not dialog box.
+- source: apple
+  page: 67
+  entry: dialog message
+  kind: substitution
+  wrong: dialog message
+  right: message
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use message.
+- source: apple
+  page: 67
+  entry: different from
+  kind: substitution
+  wrong: different than
+  right: different from
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use different from, except differently than for parallel clauses.
+- source: apple
+  page: 67
+  entry: digital
+  kind: substitution
+  wrong: digital-(?=video|media|audio|photo|imaging)
+  right: 'digital '
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen in compound adjectives beginning with digital.
+- source: apple
+  page: 67
+  entry: digital
+  kind: existence
+  wrong: digital (?:apps?|applications?)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use digital apps or digital applications.
+- source: apple
+  page: 67
+  entry: Digital Crown
+  kind: existence
+  wrong: (?<!Digital )Crown(?= (?:to|button))|rotate the (?:Digital )?Crown
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use the full term Digital Crown; turn it, do not rotate it.
+- source: apple
+  page: 67
+  entry: Digital Touch
+  kind: existence
+  wrong: doodles?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Call a Digital Touch drawing a sketch, not a doodle.
+- source: apple
+  page: 67
+  entry: digital video
+  kind: substitution
+  wrong: digital-video
+  right: digital video
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: apple
+  page: 68
+  entry: Digital Visual Interface
+  kind: substitution
+  wrong: Digital Video Interface
+  right: Digital Visual Interface
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: DVI stands for Digital Visual Interface.
+- source: apple
+  page: 68
+  entry: dimensions
+  kind: existence
+  wrong: \d+(?:\.\d+)? ?x ?\d+(?:\.\d+)?(?= ?(?:in\b|inch|cm|mm|px|pixels))
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use by, not x, for dimensions.
+- source: apple
+  page: 68
+  entry: dimmed
+  kind: existence
+  wrong: grayed[- ]out|greyed[- ]out|grayed|hollow
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use dimmed for shaded unavailable items.
+- source: apple
+  page: 68
+  entry: disability
+  kind: existence
+  wrong: differently[- ]abled|special needs|special abilities|people of all abilities
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid these euphemisms for disability.
+- source: apple
+  page: 68
+  entry: disable
+  kind: existence
+  wrong: disable(?:s|d)? (?:the )?(?:feature|option|setting|checkbox)|(?:is|are) disabled
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use turn off, deselect, unavailable, or inactive instead of disable.
+- source: apple
+  page: 69
+  entry: disc
+  kind: existence
+  wrong: (?:CD|DVD|Blu-ray)s? disk
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use disc for optical media.
+- source: apple
+  page: 69
+  entry: disclosure arrow
+  kind: substitution
+  wrong: disclosure triangle
+  right: disclosure arrow
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: User materials use disclosure arrow; triangle is for developer materials.
+- source: apple
+  page: 70
+  entry: disk
+  kind: existence
+  wrong: to disk\b|on disk\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: 'Do not omit the article: to a disk, on a disk.'
+- source: apple
+  page: 70
+  entry: disk image
+  kind: substitution
+  wrong: disc image
+  right: disk image
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Note the k in disk.
+- source: apple
+  page: 70
+  entry: disk name
+  kind: substitution
+  wrong: disk title
+  right: disk name
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use disk name.
+- source: apple
+  page: 70
+  entry: display (n.)
+  kind: existence
+  wrong: monitors?(?= (?:cable|port|power cord))
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use display, not monitor.
+- source: apple
+  page: 70
+  entry: display cable
+  kind: substitution
+  wrong: monitor cable|monitor power cord
+  right: display cable
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use display cable.
+- source: apple
+  page: 70
+  entry: display port
+  kind: substitution
+  wrong: monitor port
+  right: display port
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use display port.
+- source: apple
+  page: 70
+  entry: division sign
+  kind: substitution
+  wrong: division symbol
+  right: division sign
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use division sign.
+- source: apple
+  page: 70
+  entry: DJ
+  kind: substitution
+  wrong: DJ's
+  right: DJs
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Plural is DJs.
+- source: apple
+  page: 70
+  entry: do
+  kind: existence
+  wrong: do(?:es|ing)? a clean install(?:ation)?|did a clean install
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Perform a clean installation, not do one.
+- source: apple
+  page: 71
+  entry: Dock
+  kind: existence
+  wrong: on the Dock|docked|dock a window
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Items are in the Dock; do not use dock as a verb.
+- source: apple
+  page: 71
+  entry: document window
+  kind: existence
+  wrong: document window
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use document or window, not both, in user materials.
+- source: apple
+  page: 72
+  entry: Dolby formats
+  kind: casing
+  wrong: dolby (?:atmos|digital|vision)
+  right: Dolby
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Capitalize Dolby Atmos, Dolby Digital, Dolby Vision.
+- source: apple
+  page: 72
+  entry: Dolby formats
+  kind: existence
+  wrong: Dolby Atmos(?! surround sound)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: First reference should include surround sound; later ones may omit it.
+- source: apple
+  page: 72
+  entry: Do Not Disturb
+  kind: casing
+  wrong: '[Dd]o not disturb|Do not Disturb'
+  right: Do Not Disturb
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize the feature name.
+- source: apple
+  page: 72
+  entry: dos and don'ts
+  kind: substitution
+  wrong: do's and don'ts|dos and donts|do's and don'ts
+  right: dos and don’ts
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Plural dos with apostrophe only in don'ts.
+- source: apple
+  page: 72
+  entry: double
+  kind: substitution
+  wrong: double (?=(?:precision|sided|wide|byte)\b)
+  right: double-
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate compound adjectives beginning with double.
+- source: apple
+  page: 72
+  entry: double-byte characters
+  kind: substitution
+  wrong: 2-byte characters?
+  right: double-byte character
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Not 2-byte.
+- source: apple
+  page: 72
+  entry: double-click
+  kind: substitution
+  wrong: double click(?:ed|ing|s)?(?= (?:the|on|an?|your)\b)
+  right: double-click
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate the verb double-click.
+- source: apple
+  page: 73
+  entry: double-click
+  kind: substitution
+  wrong: double-press(?:es|ed|ing)? the (?:Home|side|top) button|double-press the Digital Crown
+  right: double-click
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use double-click for mechanical buttons; double-press is for AirPods stems.
+- source: apple
+  page: 73
+  entry: double layer
+  kind: substitution
+  wrong: dual-layer|dual layer
+  right: double-layer
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use double-layer for DVDs.
+- source: apple
+  page: 73
+  entry: double-tap
+  kind: substitution
+  wrong: double tap(?:ped|ping)? the
+  right: double-tap
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate the verb.
+- source: apple
+  page: 73
+  entry: Down Arrow key
+  kind: casing
+  wrong: down arrow key
+  right: Down Arrow key
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize the full key name.
+- source: apple
+  page: 74
+  entry: download
+  kind: existence
+  wrong: iCloud downloads
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not say iCloud downloads; say keeps up to date.
+- source: apple
+  page: 74
+  entry: Downtime
+  kind: casing
+  wrong: downtime feature
+  right: Downtime feature
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize Downtime when it names the feature.
+- source: apple
+  page: 74
+  entry: dpi
+  kind: casing
+  wrong: DPI
+  right: dpi
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Lowercase dpi.
+- source: apple
+  page: 74
+  entry: drag
+  kind: existence
+  wrong: drag the (?:mouse|pointer|finger)|drag your finger|tap and drag|click and drag
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Say drag, not drag the mouse, tap and drag, or click and drag.
+- source: apple
+  page: 75
+  entry: drag and drop
+  kind: substitution
+  wrong: drag-and-drop(?= (?:the|a|an|your|it|them)\b)|drag and drop (?:the|a|your) \w+ (?:onto|to)
+  right: drag
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use drag and drop as a verb phrase with an object.
+- source: apple
+  page: 75
+  entry: drag handle
+  kind: substitution
+  wrong: drag handle
+  right: handle
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use handle.
+- source: apple
+  page: 76
+  entry: drive
+  kind: existence
+  wrong: partition the drive
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use drive when you mean disk or disc.
+- source: apple
+  page: 76
+  entry: DRM-free
+  kind: substitution
+  wrong: DRM free
+  right: DRM-free
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate.
+- source: apple
+  page: 76
+  entry: drop box
+  kind: substitution
+  wrong: dropbox
+  right: drop box
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Two words; conflicts with the Dropbox trademark, so not safe.
+- source: apple
+  page: 76
+  entry: drop-down menu
+  kind: substitution
+  wrong: drop-?down menu
+  right: menu
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use menu.
+- source: apple
+  page: 76
+  entry: drop zone
+  kind: substitution
+  wrong: dropzone
+  right: drop zone
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: apple
+  page: 76
+  entry: dual
+  kind: substitution
+  wrong: dual (?=(?:band|channel|link)\b)
+  right: dual-
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate compound adjectives beginning with dual.
+- source: apple
+  page: 76
+  entry: dual-display
+  kind: existence
+  wrong: a dual display
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Computers have dual displays or two displays, not a dual display.
+- source: apple
+  page: 76
+  entry: dual-processor
+  kind: existence
+  wrong: a dual processor\b|a dual-processor(?! computer)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Processors come in pairs; do not say a dual processor.
+- source: apple
+  page: 76
+  entry: duckhead
+  kind: substitution
+  wrong: duckhead
+  right: AC wall adapter
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Do not use; use AC wall adapter.
+- source: apple
+  page: 77
+  entry: due to
+  kind: existence
+  wrong: due to
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid; use caused by or because of.
+- source: apple
+  page: 77
+  entry: dummy
+  kind: existence
+  wrong: dummy
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; say placeholder, sample, test, or stub.
+- source: apple
+  page: 77
+  entry: DVD drive
+  kind: substitution
+  wrong: DVD drive
+  right: optical drive
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Avoid; use optical drive.
+- source: apple
+  page: 77
+  entry: Dynamic Island
+  kind: existence
+  wrong: (?<!the )Dynamic Island
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Precede Dynamic Island with the.
+- source: apple
+  page: 77
+  entry: e (prefix)
+  kind: substitution
+  wrong: ecommerce|elearning|e commerce|e learning
+  right: e-commerce
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate e- terms except email and ebook.
+- source: apple
+  page: 77
+  entry: e (prefix)
+  kind: substitution
+  wrong: e-mail|e-book
+  right: email
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Email and ebook are closed up.
+- source: apple
+  page: 77
+  entry: earbuds
+  kind: substitution
+  wrong: ear buds|ear-buds
+  right: earbuds
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 77
+  entry: earlier, later
+  kind: existence
+  wrong: (?:lower|higher|newer|older) (?:version|versions)\b|(?:\d+(?:\.\d+)*) (?:or higher|or lower|or newer|or older)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: For versions use earlier and later, not higher, lower, newer, older.
+- source: apple
+  page: 77
+  entry: earphones
+  kind: substitution
+  wrong: ear phones|ear-phones
+  right: earphones
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 78
+  entry: Ear Tip Fit Test
+  kind: casing
+  wrong: ear tip fit test
+  right: Ear Tip Fit Test
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize the feature name.
+- source: apple
+  page: 78
+  entry: ebook
+  kind: substitution
+  wrong: e-book|eBook|E-book
+  right: ebook
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase one word.
+- source: apple
+  page: 78
+  entry: education
+  kind: existence
+  wrong: \b(?:HED|edu)\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not abbreviate education as ed, edu, or HED.
+- source: apple
+  page: 78
+  entry: e.g.
+  kind: existence
+  wrong: e\.g\.
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use for example or such as.
+- source: apple
+  page: 79
+  entry: ellipsis
+  kind: existence
+  wrong: \.\.\.
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Use the ellipsis character, not three periods.
+- source: apple
+  page: 79
+  entry: email
+  kind: substitution
+  wrong: e-mail|E-mail
+  right: email
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word, no hyphen.
+- source: apple
+  page: 79
+  entry: embed
+  kind: substitution
+  wrong: imbed
+  right: embed
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Not imbed.
+- source: apple
+  page: 80
+  entry: Emergency SOS
+  kind: existence
+  wrong: emergency SOS call
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Say emergency call.
+- source: apple
+  page: 80
+  entry: emoji
+  kind: substitution
+  wrong: emojis|Emoji(?= are)
+  right: emoji
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase; same form singular and plural.
+- source: apple
+  page: 80
+  entry: enable
+  kind: existence
+  wrong: enable(?:s|d)? (?:the )?(?:Windows file sharing|file sharing|feature)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use turn on rather than enable.
+- source: apple
+  page: 81
+  entry: enable
+  kind: existence
+  wrong: enables you to|enable you to
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use enable for give the ability to; rewrite.
+- source: apple
+  page: 81
+  entry: end user
+  kind: substitution
+  wrong: end[- ]users?
+  right: user
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Avoid end user; use user.
+- source: apple
+  page: 81
+  entry: energy management software
+  kind: substitution
+  wrong: energy-management software
+  right: energy management software
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: apple
+  page: 81
+  entry: energy-saving
+  kind: substitution
+  wrong: energy saving (?=(?:mode|feature|setting|option)s?\b)
+  right: 'energy-saving '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate adjective form.
+- source: apple
+  page: 81
+  entry: ENERGY STAR
+  kind: casing
+  wrong: Energy Star|Energy star|energy star
+  right: ENERGY STAR
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: All caps.
+- source: apple
+  page: 81
+  entry: ensure, insure
+  kind: existence
+  wrong: insure (?:that|the|it|your \w+ (?:is|are))
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use ensure for make sure; insure is for insurance.
+- source: apple
+  page: 81
+  entry: enter
+  kind: existence
+  wrong: type (?:in )?(?:your|the) (?:password|name|email|account|passcode)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use enter, not type, for inputting information.
+- source: apple
+  page: 81
+  entry: Enter key
+  kind: casing
+  wrong: enter key
+  right: Enter key
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize Enter key.
+- source: apple
+  page: 81
+  entry: entitled
+  kind: existence
+  wrong: entitled
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use for titled; use titled, named, or called. Valid in the right-to sense.
+- source: apple
+  page: 82
+  entry: EPUB
+  kind: casing
+  wrong: ePub|Epub|epub
+  right: EPUB
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: All caps; use as adjective, not noun.
+- source: apple
+  page: 82
+  entry: equal sign
+  kind: substitution
+  wrong: equal's sign|equals sign|equal symbol|equals symbol
+  right: equal sign
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use equal sign.
+- source: apple
+  page: 82
+  entry: error message
+  kind: existence
+  wrong: error messages?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use only in developer materials; otherwise message, alert, or alert message.
+- source: apple
+  page: 82
+  entry: Esc key
+  kind: substitution
+  wrong: Escape key
+  right: Esc (Escape) key
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use Esc key; include Escape in parentheses on first use.
+- source: apple
+  page: 82
+  entry: Esc key
+  kind: substitution
+  wrong: Esc-(?=[A-Z0-9])
+  right: 'Esc '
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Do not hyphenate escape sequences.
+- source: apple
+  page: 82
+  entry: et al.
+  kind: existence
+  wrong: et al\.?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid in user materials.
+- source: apple
+  page: 82
+  entry: etc.
+  kind: existence
+  wrong: etc\.?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; use and so forth or and so on.
+- source: apple
+  page: 82
+  entry: EU
+  kind: substitution
+  wrong: E\.U\.
+  right: EU
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No periods.
+- source: apple
+  page: 83
+  entry: exit
+  kind: existence
+  wrong: exit(?:s|ed|ing)? (?:the )?(?:app|application|program)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use quit, not exit, for closing an app.
+- source: apple
+  page: 83
+  entry: expansion board
+  kind: substitution
+  wrong: piggyback board|daughter board
+  right: expansion board
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use expansion board.
+- source: apple
+  page: 83
+  entry: EyeSight
+  kind: existence
+  wrong: the EyeSight
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Do not precede EyeSight with the.
+- source: apple
+  page: 83
+  entry: F1, F2, F3
+  kind: casing
+  wrong: f(?=[1-9]\d? key)|F (?=[1-9]\d? key)
+  right: F
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Function keys are capital F plain, no space before the numeral.
+- source: apple
+  page: 83
+  entry: FaceTime
+  kind: existence
+  wrong: FaceTim(?:e|ed|ing)? (?:him|her|them|me|you|your)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use FaceTime as a verb.
+- source: apple
+  page: 83
+  entry: failover
+  kind: substitution
+  wrong: fail-over|fail over(?= (?:server|cluster|node))
+  right: failover
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 83
+  entry: Fall Detection
+  kind: casing
+  wrong: fall detection
+  right: Fall Detection
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize the feature.
+- source: apple
+  page: 83
+  entry: family controls
+  kind: substitution
+  wrong: family controls
+  right: parental controls
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use parental controls.
+- source: apple
+  page: 83
+  entry: Family Sharing
+  kind: substitution
+  wrong: iCloud Family Sharing
+  right: Family Sharing
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Do not prefix with iCloud.
+- source: apple
+  page: 84
+  entry: FAQ
+  kind: existence
+  wrong: FAQ's|a FAQs
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Plural FAQs with no apostrophe.
+- source: apple
+  page: 84
+  entry: fast-forward
+  kind: substitution
+  wrong: fast forward(?:s|ed|ing)?
+  right: fast-forward
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate in all forms.
+- source: apple
+  page: 84
+  entry: female
+  kind: existence
+  wrong: female (?:connector|plug|end|port|endpoint)
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Do not use female or male for connectors.
+- source: apple
+  page: 84
+  entry: fewer, less
+  kind: existence
+  wrong: less (?:devices|files|items|apps|users|photos|songs|errors)\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use fewer for countable items.
+- source: apple
+  page: 84
+  entry: fiber optic
+  kind: substitution
+  wrong: fiber-optic
+  right: fiber optic
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Adjective is not hyphenated.
+- source: apple
+  page: 84
+  entry: Fibre Channel
+  kind: substitution
+  wrong: Fiber Channel
+  right: Fibre Channel
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Note British spelling in the standard name.
+- source: apple
+  page: 85
+  entry: file format
+  kind: existence
+  wrong: (?:JPEG|PNG|PDF|GIF|TIFF|MP3|MOV) file format
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use file type for a kind of file such as PNG.
+- source: apple
+  page: 86
+  entry: FileMaker
+  kind: casing
+  wrong: Filemaker|File Maker
+  right: FileMaker
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Note capitalization.
+- source: apple
+  page: 86
+  entry: filename
+  kind: substitution
+  wrong: file name|file-name
+  right: filename
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 86
+  entry: filename extensions
+  kind: existence
+  wrong: file extension
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Say filename extension or extension, not file extension.
+- source: apple
+  page: 86
+  entry: filename extensions
+  kind: existence
+  wrong: an? \.jpeg|saved as a \.[a-z]{2,4} file
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use filename extensions to name file types.
+- source: apple
+  page: 86
+  entry: file sharing
+  kind: substitution
+  wrong: file sharing (?=(?:service|setting|feature|option)s?\b)
+  right: 'file-sharing '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate adjective form.
+- source: apple
+  page: 86
+  entry: file system
+  kind: substitution
+  wrong: file system (?=(?:format|permission|check|driver)s?\b)
+  right: 'file-system '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate adjective form.
+- source: apple
+  page: 87
+  entry: Finder
+  kind: existence
+  wrong: (?<!the )Finder\b(?= (?:window|icon|sidebar)s?)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use the with Finder; may be flagged in compounds.
+- source: apple
+  page: 87
+  entry: firewall
+  kind: substitution
+  wrong: fire wall|fire-wall
+  right: firewall
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 87
+  entry: FireWire
+  kind: existence
+  wrong: FireWire[- ]enabled
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Products are FireWire equipped, not enabled.
+- source: apple
+  page: 87
+  entry: FireWire
+  kind: casing
+  wrong: Firewire|Fire Wire|firewire
+  right: FireWire
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Camel case.
+- source: apple
+  page: 87
+  entry: firmware
+  kind: substitution
+  wrong: firm ware|firm-ware
+  right: firmware
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 87
+  entry: Fit Dial
+  kind: existence
+  wrong: rotate the Fit Dial
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Turn the Fit Dial; do not rotate.
+- source: apple
+  page: 88
+  entry: fixed-point
+  kind: substitution
+  wrong: fixed point (?=(?:math|number|arithmetic)\b)
+  right: 'fixed-point '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate adjective form.
+- source: apple
+  page: 88
+  entry: flashing
+  kind: existence
+  wrong: flashing (?:insertion point|cursor)
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use blinking for the insertion point.
+- source: apple
+  page: 88
+  entry: flick
+  kind: substitution
+  wrong: flick(?:s|ed|ing)? (?:left|right|up|down)
+  right: swipe
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use swipe in user materials.
+- source: apple
+  page: 88
+  entry: floating-point
+  kind: substitution
+  wrong: floating point (?=(?:math|number|unit|arithmetic|operation)s?\b)
+  right: 'floating-point '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate adjective form.
+- source: apple
+  page: 88
+  entry: flowchart
+  kind: substitution
+  wrong: flow chart|flow-chart
+  right: flowchart
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 88
+  entry: Fn key
+  kind: casing
+  wrong: fn key|FN key
+  right: Fn key
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize F only.
+- source: apple
+  page: 88
+  entry: Focus
+  kind: existence
+  wrong: Focuses|activate(?:s|d)? a Focus
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use Focus options, not Focuses; do not activate a Focus.
+- source: apple
+  page: 88
+  entry: Focus filters
+  kind: casing
+  wrong: focus filters
+  right: Focus filters
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Capitalize Focus.
+- source: apple
+  page: 89
+  entry: font
+  kind: existence
+  wrong: font family|typeface
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use font; avoid font family, typeface, or face.
+- source: apple
+  page: 89
+  entry: font size
+  kind: substitution
+  wrong: type size
+  right: font size
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Not type size.
+- source: apple
+  page: 89
+  entry: font style
+  kind: substitution
+  wrong: typestyle|typeface attribute
+  right: font style
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Not typestyle.
+- source: apple
+  page: 89
+  entry: foot
+  kind: existence
+  wrong: \d+['′](?!\d)(?= ?(?:high|long|wide|tall|deep))
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not use the prime symbol for foot in body text.
+- source: apple
+  page: 89
+  entry: force click
+  kind: existence
+  wrong: Force Touch(?:es|ed)? (?:the|a|an|it)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use Force Touch as a verb; use force click or press harder.
+- source: apple
+  page: 89
+  entry: form factor
+  kind: existence
+  wrong: form factors?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid; use design or enclosure.
+- source: apple
+  page: 90
+  entry: forward compatibility
+  kind: substitution
+  wrong: future compatibility|upward compatibility
+  right: forward compatibility
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use forward compatibility.
+- source: apple
+  page: 90
+  entry: forward-compatible
+  kind: substitution
+  wrong: forward compatible
+  right: forward-compatible
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate.
+- source: apple
+  page: 90
+  entry: fps
+  kind: existence
+  wrong: \d+fps
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Include a space between the number and fps.
+- source: apple
+  page: 90
+  entry: frame buffer
+  kind: substitution
+  wrong: framebuffer
+  right: frame buffer
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: apple
+  page: 90
+  entry: frame rate
+  kind: substitution
+  wrong: framerate|frame-rate
+  right: frame rate
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Two words.
+- source: apple
+  page: 90
+  entry: free
+  kind: existence
+  wrong: free (?:memory|disk space|storage|space)
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use available, not free, for memory or storage.
+- source: apple
+  page: 90
+  entry: FreeBSD
+  kind: casing
+  wrong: Freebsd|FreeBsd|freeBSD
+  right: FreeBSD
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Note capitalization.
+- source: apple
+  page: 91
+  entry: freeze
+  kind: existence
+  wrong: (?:computer|Mac|system) freezes|experience a freeze|a freeze\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid freeze for computer behavior; use not responding.
+- source: apple
+  page: 91
+  entry: freeze frame
+  kind: substitution
+  wrong: freeze frame (?=(?:clip|effect)s?\b)
+  right: 'freeze-frame '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate adjective form.
+- source: apple
+  page: 91
+  entry: front end
+  kind: substitution
+  wrong: front end (?=(?:code|developer|framework|app)s?\b)
+  right: 'front-end '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate adjective form.
+- source: apple
+  page: 91
+  entry: FTP
+  kind: existence
+  wrong: FTP(?:s|ed|ing)? (?:files?|it|them|the)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use FTP as a verb; use transfer files.
+- source: apple
+  page: 91
+  entry: full
+  kind: substitution
+  wrong: full (?=(?:duplex|featured|height|page|screen|size)\b)
+  right: full-
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate compound adjectives beginning with full.
+- source: apple
+  page: 91
+  entry: fully
+  kind: substitution
+  wrong: fully-(?=\w+)
+  right: 'fully '
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Do not hyphenate after fully.
+- source: apple
+  page: 91
+  entry: full-screen
+  kind: substitution
+  wrong: full-screen(?= (?:is|mode is))|view full-screen
+  right: full screen
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Predicate use is two words; adjective is hyphenated.
+- source: apple
+  page: 91
+  entry: functionality
+  kind: existence
+  wrong: functionality
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Prefer features in user materials.
+- source: apple
+  page: 91
+  entry: function keys
+  kind: casing
+  wrong: Function keys
+  right: function keys
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Function is lowercase mid-sentence.
+- source: apple
+  page: 93
+  entry: generation
+  kind: existence
+  wrong: \b(?:\d+(?:st|nd|rd|th)|first|second|third)[- ]gen\b|\biPad \d+G\b
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Do not shorten generation to gen or G.
+- source: apple
+  page: 93
+  entry: Genius
+  kind: existence
+  wrong: the Genius(?! (?:feature|Mix|Playlist))
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not precede Genius with the.
+- source: apple
+  page: 93
+  entry: Genmoji
+  kind: substitution
+  wrong: Genmojis
+  right: Genmoji
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Same form singular and plural.
+- source: apple
+  page: 93
+  entry: gestures
+  kind: existence
+  wrong: finger gestures?|(?:Swipe|Tap|Drag) your finger
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Say gestures, and omit finger for simple gestures.
+- source: apple
+  page: 94
+  entry: GIF
+  kind: casing
+  wrong: Gif\b|gif(?= (?:file|image|format))
+  right: GIF
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Acronym is all caps.
+- source: apple
+  page: 94
+  entry: Gigabit Ethernet
+  kind: casing
+  wrong: gigabit ethernet|Gigabit ethernet
+  right: Gigabit Ethernet
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize.
+- source: apple
+  page: 94
+  entry: glyph
+  kind: existence
+  wrong: glyphs?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use only for appearance of characters; otherwise character.
+- source: apple
+  page: 95
+  entry: GPU
+  kind: existence
+  wrong: GPU-intensive|graphics processing unit
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: In user materials use graphics-intensive; do not spell out GPU.
+- source: apple
+  page: 95
+  entry: grandfathered
+  kind: existence
+  wrong: 'grandfather(?:ed|ing|s)?(?: in)?'
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; use legacy, exempt, or preexisting.
+- source: apple
+  page: 96
+  entry: graphics card
+  kind: existence
+  wrong: graphics cards?|video cards?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Not for Apple silicon products; use GPU or graphics processor.
+- source: apple
+  page: 96
+  entry: gray
+  kind: substitution
+  wrong: grey
+  right: gray
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use gray.
+- source: apple
+  page: 96
+  entry: grayed
+  kind: substitution
+  wrong: grayed|greyed
+  right: dimmed
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use dimmed.
+- source: apple
+  page: 96
+  entry: grayscale
+  kind: substitution
+  wrong: gray scale|gray-scale|greyscale
+  right: grayscale
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 96
+  entry: greater-than sign
+  kind: substitution
+  wrong: greater[- ]than symbol
+  right: greater-than sign
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use sign, not symbol.
+- source: apple
+  page: 96
+  entry: grille
+  kind: substitution
+  wrong: grill(?= (?:pitch|cover))|speaker grill\b
+  right: grille
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Note spelling grille.
+- source: apple
+  page: 96
+  entry: grounded outlet
+  kind: substitution
+  wrong: three-prong outlet
+  right: grounded outlet
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use grounded outlet.
+- source: apple
+  page: 96
+  entry: Guest User
+  kind: existence
+  wrong: Guest User Mode|Guest Mode
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Do not use Guest User Mode or Guest Mode.
+- source: apple
+  page: 96
+  entry: GUI
+  kind: existence
+  wrong: GUI
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use; use interface or UI.
+- source: apple
+  page: 97
+  entry: Guided Access
+  kind: existence
+  wrong: (?:open|quit|exit)(?:s|ed|ing)? a Guided Access session
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Users start and end a Guided Access session.
+- source: apple
+  page: 97
+  entry: half
+  kind: substitution
+  wrong: half (?=(?:duplex|height|hour|length)\b)
+  right: half-
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate compound adjectives beginning with half.
+- source: apple
+  page: 97
+  entry: handheld
+  kind: substitution
+  wrong: hand-held|hand held
+  right: handheld
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 97
+  entry: handicapped
+  kind: existence
+  wrong: handicapped
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use for people with disabilities.
+- source: apple
+  page: 97
+  entry: handle
+  kind: substitution
+  wrong: drag handle
+  right: handle
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Do not use drag handle.
+- source: apple
+  page: 97
+  entry: hands-free
+  kind: substitution
+  wrong: hands free(?= (?:calling|mode|operation|device))|handsfree
+  right: hands-free
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate.
+- source: apple
+  page: 97
+  entry: hands-on
+  kind: substitution
+  wrong: hands on(?= (?:experience|training|lab))
+  right: hands-on
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate.
+- source: apple
+  page: 98
+  entry: hang
+  kind: existence
+  wrong: (?:computer|system|Mac) hangs|hung
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid hang; use not responding.
+- source: apple
+  page: 98
+  entry: hard copy
+  kind: existence
+  wrong: hard[- ]?copy
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use printout or printed document.
+- source: apple
+  page: 98
+  entry: hardcover
+  kind: substitution
+  wrong: hard cover|hard-cover
+  right: hardcover
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: apple
+  page: 98
+  entry: hard disk
+  kind: substitution
+  wrong: harddisk|harddrive
+  right: hard disk
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: apple
+  page: 99
+  entry: HD
+  kind: substitution
+  wrong: high definition (?=(?:video|display|camera|content)\b)
+  right: 'high-definition '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate high-definition as adjective.
+- source: apple
+  page: 99
+  entry: HDMI
+  kind: substitution
+  wrong: High Definition Multimedia Interface|High-Definition Multi-media Interface
+  right: High-Definition Multimedia Interface
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate Definition, closed-up Multimedia.
+- source: apple
+  page: 99
+  entry: HDR
+  kind: substitution
+  wrong: high dynamic range (?=(?:video|photo|image|content)\b)
+  right: 'high-dynamic-range '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate as adjective.
+- source: apple
+  page: 99
+  entry: head band
+  kind: substitution
+  wrong: headband
+  right: head band
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Apple writes head band as two words for Vision Pro; conflicts with dictionary.
+- source: apple
+  page: 99
+  entry: headset
+  kind: existence
+  wrong: headset
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use for Apple Vision Pro.
+- source: apple
+  page: 99
+  entry: hearing impaired
+  kind: existence
+  wrong: hearing[- ]impaired
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; say deaf or hard of hearing.
+- source: apple
+  page: 100
+  entry: help
+  kind: existence
+  wrong: help book
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use only in developer materials.
+- source: apple
+  page: 100
+  entry: help tag
+  kind: existence
+  wrong: tooltips?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use help tag in user materials; tooltip only for developers.
+- source: apple
+  page: 100
+  entry: hexadecimal
+  kind: existence
+  wrong: \bhex\b
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use hex in user materials.
+- source: apple
+  page: 100
+  entry: HFS Plus
+  kind: substitution
+  wrong: HFS\+
+  right: HFS Plus
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Not HFS+.
+- source: apple
+  page: 100
+  entry: high
+  kind: substitution
+  wrong: high (?=(?:bandwidth|level|quality|resolution|speed|performance)\b)
+  right: high-
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate compound adjectives beginning with high.
+- source: apple
+  page: 100
+  entry: highlight
+  kind: existence
+  wrong: highlight(?:s|ed|ing)? the (?:text|word|item|file)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use select, not highlight.
+- source: apple
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  page: 58
+  entry: arrow keys
+  kind: casing
+  wrong: (Left|Right|Up|Down) arrow key
+  right: $1 Arrow key
+  note: Capitalize the full arrow key name.
+- source: apple
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  page: 92
+  entry: GB
+  kind: substitution
+  wrong: (\d)(?:GB|Gb)(?![A-Za-z/])
+  right: $1 GB
+  note: Space between numeral and GB.
+- source: apple
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  page: 92
+  entry: GB
+  kind: substitution
+  wrong: (\d+)-GB
+  right: $1 GB
+  note: Do not hyphenate the adjective form of GB.
+- source: apple
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  page: 93
+  entry: Gbit
+  kind: substitution
+  wrong: (\d+)-Gbit
+  right: $1 Gbit
+  note: Do not hyphenate the adjective form.
+- source: apple
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  page: 94
+  entry: GHz
+  kind: substitution
+  wrong: (\d)(?:GHz|ghz)
+  right: $1 GHz
+  note: Space between numeral and GHz.
+- source: apple
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  page: 78
+  entry: editing
+  kind: substitution
+  wrong: (video|audio|photo|image)-editing
+  right: $1 editing
+  note: No hyphen in compound adjectives with editing.
+- source: apple
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  page: 65
+  entry: deny list/allow list
+  kind: substitution
+  wrong: (allow|deny)-list
+  right: $1 list
+  note: Do not hyphenate allow list or deny list.
+- source: apple
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  page: 87
+  entry: file types
+  kind: existence
+  wrong: \.(?:JPG|JPEG|PDF|GIF|MP3|TIFF|WAV|AIF|RTF|DMG|CAF)\b
+  note: Filename extensions are lowercase.

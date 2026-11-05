@@ -1,0 +1,48 @@
+#!/bin/sh
+# Runs clauditory-lint, the prose linter bundled with this skill. The
+# linter ships xz-compressed, one build per platform; the first run unpacks
+# the build for this machine into a cache, and later runs reuse it.
+here=$(cd "$(dirname "$0")" && pwd)
+case "$(uname -s)" in
+  Linux) os=linux ;;
+  Darwin) os=darwin ;;
+  MINGW* | MSYS* | CYGWIN*) os=windows ;;
+  *) os=unknown ;;
+esac
+case "$(uname -m)" in
+  x86_64 | amd64) arch=amd64 ;;
+  arm64 | aarch64) arch=arm64 ;;
+  *) arch=unknown ;;
+esac
+name="clauditory-lint-$os-$arch"
+[ "$os" = windows ] && name="$name.exe"
+packed="$here/bin/$name.xz"
+if [ ! -f "$packed" ]; then
+  if command -v clauditory-lint >/dev/null 2>&1; then exec clauditory-lint "$@"; fi
+  echo "clauditory-lint: no bundled build for $os-$arch" >&2
+  exit 3
+fi
+sum=$(sed -n "s/^\([0-9a-f]\{16\}\).*  $name\.xz\$/\1/p" "$here/bin/SHA256SUMS" 2>/dev/null)
+for base in "${CLAUDITORY_CACHE:-}" "${XDG_CACHE_HOME:-$HOME/.cache}/clauditory-lint" "${TMPDIR:-/tmp}/clauditory-lint"; do
+  [ -n "$base" ] || continue
+  mkdir -p "$base" 2>/dev/null && [ -w "$base" ] && cache=$base && break
+done
+if [ -z "${cache:-}" ]; then
+  echo "clauditory-lint: no writable cache directory" >&2
+  exit 3
+fi
+exe="$cache/${sum:-latest}-$name"
+if [ ! -x "$exe" ] || [ -z "$sum" ]; then
+  tmp="$exe.$$"
+  if command -v xz >/dev/null 2>&1; then
+    xz -dc "$packed" >"$tmp"
+  elif command -v python3 >/dev/null 2>&1; then
+    python3 -c 'import lzma, shutil, sys; shutil.copyfileobj(lzma.open(sys.argv[1]), open(sys.argv[2], "wb"))' "$packed" "$tmp"
+  else
+    echo "clauditory-lint: unpacking the linter needs xz or python3" >&2
+    exit 3
+  fi || { rm -f "$tmp"; echo "clauditory-lint: couldn't unpack $packed" >&2; exit 3; }
+  chmod +x "$tmp" && mv -f "$tmp" "$exe"
+fi
+export CLAUDITORY_LAUNCHER="$here/lint"
+exec "$exe" "$@"

@@ -1,16 +1,14 @@
 package lint
 
 import (
-	"bytes"
-	"encoding/json"
 	"fmt"
-	"os"
-	"os/exec"
-	"path/filepath"
 	"regexp"
 	"sort"
 	"strings"
 	"unicode"
+
+	"github.com/AKushWarrior/clauditory/lint/internal/vale/core"
+	"github.com/AKushWarrior/clauditory/lint/internal/vale/lint"
 )
 
 // Alert is one Vale alert, with the rule's place in the hierarchy attached.
@@ -27,7 +25,8 @@ type Alert struct {
 	Match    string `json:"Match"`
 	Line     int    `json:"Line"`
 
-	Rule *Rule `json:"-"`
+	Rule  *Rule  `json:"-"`
+	Entry string `json:"-"` // the word-list entry that matched, for generated rules
 }
 
 var severityRank = map[string]int{"suggestion": 0, "warning": 1, "error": 2}
@@ -35,67 +34,64 @@ var severityRank = map[string]int{"suggestion": 0, "warning": 1, "error": 2}
 // SeverityAtLeast reports whether sev is at or above min.
 func SeverityAtLeast(sev, min string) bool { return severityRank[sev] >= severityRank[min] }
 
-// FindVale locates the Vale binary.
-func FindVale() (string, error) {
-	if p := os.Getenv("CLAUDITORY_VALE"); p != "" {
-		return p, nil
-	}
-	if exe, err := os.Executable(); err == nil {
-		p := filepath.Join(filepath.Dir(exe), "vale")
-		if st, err := os.Stat(p); err == nil && !st.IsDir() {
-			return p, nil
-		}
-	}
-	if p, err := exec.LookPath("vale"); err == nil {
-		return p, nil
-	}
-	if home, err := os.UserHomeDir(); err == nil {
-		p := filepath.Join(home, "go", "bin", "vale")
-		if _, err := os.Stat(p); err == nil {
-			return p, nil
-		}
-	}
-	return "", fmt.Errorf("can't find Vale; install it with `go install github.com/vale-cli/vale/v3/cmd/vale@v3.26.0` or set CLAUDITORY_VALE")
-}
-
-// Linter runs Vale with the resolved rules.
+// Linter runs the embedded Vale engine with the resolved rules.
 type Linter struct {
 	Rules *Ruleset
-	Vale  string
-	ini   string
+	cfg   *core.Config
+	terms *termIndex
 }
 
-// NewLinter prepares the Vale config.
-func NewLinter(rs *Ruleset, vale string) (*Linter, error) {
+// NewLinter prepares the Vale config. Vale is compiled into this program,
+// so no separate Vale install is needed.
+func NewLinter(rs *Ruleset) (*Linter, error) {
 	ini, err := rs.WriteConfig()
 	if err != nil {
 		return nil, err
 	}
-	return &Linter{Rules: rs, Vale: vale, ini: ini}, nil
+	cfg, err := core.ReadPipeline(&core.CLIFlags{Path: ini, IgnoreGlobal: true, Output: "JSON", NoExit: true}, false)
+	if err != nil {
+		return nil, fmt.Errorf("vale config: %w", err)
+	}
+	terms, err := loadTerms()
+	if err != nil {
+		return nil, err
+	}
+	return &Linter{Rules: rs, cfg: cfg, terms: terms}, nil
 }
 
 // LintText lints text as if it were a file with the given extension.
-func (l *Linter) LintText(text, ext string) ([]*Alert, error) {
+func (l *Linter) LintText(text, ext string) (alerts []*Alert, err error) {
+	defer func() {
+		if r := recover(); r != nil {
+			alerts, err = nil, fmt.Errorf("vale: %v", r)
+		}
+	}()
 	if ext == "" {
 		ext = ".md"
 	}
-	cmd := exec.Command(l.Vale, "--no-global", "--config="+l.ini, "--output=JSON", "--ext="+ext)
-	cmd.Stdin = strings.NewReader(text)
-	var out, errb bytes.Buffer
-	cmd.Stdout, cmd.Stderr = &out, &errb
-	runErr := cmd.Run()
-	var res map[string][]*Alert
-	if err := json.Unmarshal(out.Bytes(), &res); err != nil {
-		msg := strings.TrimSpace(errb.String() + out.String())
-		if runErr != nil {
-			return nil, fmt.Errorf("vale: %v: %s", runErr, msg)
+	vl, err := lint.NewLinter(l.cfg)
+	if err != nil {
+		return nil, err
+	}
+	files, err := vl.LintStringAs(text, "input"+ext)
+	if err != nil {
+		return nil, fmt.Errorf("vale: %w", err)
+	}
+	for _, f := range files {
+		for _, va := range f.Alerts {
+			if va.Hide {
+				continue
+			}
+			a := &Alert{Check: va.Check, Link: va.Link, Message: va.Message, Severity: va.Severity,
+				Match: va.Match, Line: va.Line}
+			a.Action.Name, a.Action.Params = va.Action.Name, va.Action.Params
+			if len(va.Span) == 2 {
+				a.Span = [2]int{va.Span[0], va.Span[1]}
+			}
+			alerts = append(alerts, a)
 		}
-		return nil, fmt.Errorf("vale returned output that isn't JSON: %s", msg)
 	}
-	var alerts []*Alert
-	for _, as := range res {
-		alerts = append(alerts, as...)
-	}
+	alerts = append(alerts, l.lintTerms(text, ext)...)
 	return l.resolve(alerts), nil
 }
 
@@ -106,6 +102,9 @@ func (l *Linter) resolve(alerts []*Alert) []*Alert {
 	var kept []*Alert
 	for _, a := range alerts {
 		a.Rule = l.Rules.Get(a.Check)
+		if a.Rule.Level != "" {
+			a.Severity = a.Rule.Level
+		}
 		if a.Rule.Off == "" && !a.Rule.Ignore[strings.ToLower(strings.TrimSpace(a.Match))] &&
 			(a.Rule.Skip == nil || !a.Rule.Skip.MatchString(a.Match)) {
 			kept = append(kept, a)

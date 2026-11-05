@@ -74,7 +74,7 @@ The skill no longer holds the kernel's rules for commit messages. Technical-writ
 
 The conflicts this file used to record (subject length, capitalization after the prefix, body wrap width, the commit-reference format, tense for the old behavior, and attribution trailers) concern rules that now live in technical-writing's section 8 or in AGENTS.md. That skill's copies of this file and of git-submitting-patches.md cover them. AGENTS.md now says commit messages follow section 8 of the technical-writing skill.
 
-**Precedence.** AGENTS.md ranks the technical guides and the patch guides below the news manuals, Chicago, and the New Oxford Style Manual, and section 9 says that writing-style wins where technical-writing disagrees with it. Nothing in the kernel's description advice conflicts with sections 1 to 8. Its most specific rules (numbers and costs for claims, user impact, the problem first, and self-contained text) reinforce them.
+**Fit with sections 1 to 8.** Section 9 says that writing-style wins where technical-writing disagrees with it. Nothing in the kernel's description advice conflicts with sections 1 to 8. Its most specific rules (numbers and costs for claims, user impact, the problem first, and self-contained text) reinforce them.
 
 **Should.** The kernel's own prose leans on should for both requirements and recommendations. The usage is the document's style, not a rule it sets, and the modal-verb rule it would trip now belongs to technical-writing, whose copy of this file notes the point.
 

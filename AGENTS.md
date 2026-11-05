@@ -22,11 +22,12 @@ chat/
     <skill-name>/
       SKILL.md            the skill, in Agent Skills format, with metadata.version
       CHANGELOG.md        what changed in each version
+      scripts/            helper programs the skill runs (writing-style ships the linter's launcher)
       references/         one file per source behind the skill
 coding/                   (planned) artifacts for coding agents, same layout as chat/
-lint/                     clauditory-lint, a Go prose linter built on Vale
-  rules.yml               each rule's domain, tier, fix setting, and status
+lint/                     clauditory-lint, a Go prose linter with Vale compiled in
   styles/                 Vale styles, one folder per source
+  sources/                rules extracted from each style guide
   references/             one file per source behind the linter
 plugins/clauditory/       generated plugin for Claude Code, the Claude apps, and Codex
 .claude-plugin/           Claude plugin marketplace that lists plugins/clauditory
@@ -37,11 +38,11 @@ The plugin under `plugins/clauditory` is generated. Edit the sources under `chat
 
 Every skill carries a version in its frontmatter, as `metadata.version`, and a `CHANGELOG.md` beside its `SKILL.md`. Use semantic versioning: raise the major version when a rule changes in a way that alters existing text, the minor version when you add or deepen rules, and the patch version for wording fixes that change no rule. Update the changelog in the same commit.
 
-The writing-style skill sets the house register for any agent writing prose, including agents working in this repository, and the technical-writing skill adds rules for documentation, code comments, and commits. When their sources conflict, the news and book manuals rank first, in this order: The New York Times Manual of Style and Usage, the AP Stylebook, The Chicago Manual of Style, and the New Oxford Style Manual. Where Oxford's British conventions differ from American ones, the American convention wins. The technical guides from Google, Microsoft, Apple, IBM, and Red Hat and the git and Linux kernel patch guides come after them. The owner's explicit choices override every source: no em dashes, the serial comma, and the revision-pass bans.
+The writing-style skill sets the house register for any agent writing prose, including agents working in this repository, and the technical-writing skill adds rules for documentation, code comments, and commits. When their sources disagree, each skill records the choice it made, and the reference files explain the conflict. The owner's explicit choices override every source: no em dashes or hyphens standing in for one, the serial comma, and the revision-pass bans.
 
-The linter ranks sources by domain instead of in one list. For grammar and punctuation the order is Oxford, AP, and Chicago; for word choice and formatting, NYT, Chicago, and AP; and for technical communication, Red Hat, Apple, and Microsoft. The owner's House rules outrank all of them. A lower-ranked rule applies only where no higher-ranked rule disagrees, and `lint/README.md` explains how the linter settles each conflict. The linter carries a version in `lint/registry.go` and a `CHANGELOG.md` and follows the same versioning rule as the skills.
+The linter carries a version in `lint/registry.go` and a `CHANGELOG.md`, and it follows the same versioning rule as the skills. Its extracted rules are generated: edit `lint/sources/`, then run the tools described in `lint/README.md`.
 
-Run `bin/clauditory lint` over prose you write here before you commit it, and fix what it reports where the rule applies.
+Run `bin/clauditory lint` over prose you write here before you commit it, and fix what it reports where the rule applies. Check commit messages with `--commit`.
 
 Use the most widely supported format for each kind of artifact. Skills follow the Agent Skills format: a folder holding a `SKILL.md` file with `name` and `description` frontmatter. System prompts are plain Markdown.
 

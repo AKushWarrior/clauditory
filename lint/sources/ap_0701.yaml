@@ -1,0 +1,2112 @@
+- source: ap
+  page: 701
+  entry: "spill"
+  kind: "substitution"
+  wrong: "spilt"
+  right: "spilled"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Past tense is spilled, not spilt."
+- source: ap
+  page: 701
+  entry: "spelling"
+  kind: "substitution"
+  wrong: "lite"
+  right: "light"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Avoid simplified spellings; brand names excepted."
+- source: ap
+  page: 701
+  entry: "spelling"
+  kind: "substitution"
+  wrong: "(?<![-\\w])thru"
+  right: "through"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Avoid thru except in compounds like drive-thru."
+- source: ap
+  page: 702
+  entry: "sportsbook"
+  kind: "substitution"
+  wrong: "sports ?books?"
+  right: "sportsbook"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "One word for places that take sports bets."
+- source: ap
+  page: 702
+  entry: "sport utility vehicle"
+  kind: "substitution"
+  wrong: "sports utility vehicle"
+  right: "sport utility vehicle"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "No plural s in sport."
+- source: ap
+  page: 702
+  entry: "sport utility vehicle"
+  kind: "substitution"
+  wrong: "sport-utility vehicle"
+  right: "sport utility vehicle"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "No hyphen in sport utility vehicle."
+- source: ap
+  page: 702
+  entry: "sports writer"
+  kind: "substitution"
+  wrong: "sportswriter"
+  right: "sports writer"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Two words; exception to the dictionary."
+- source: ap
+  page: 702
+  entry: "spree"
+  kind: "existence"
+  wrong: "killing spree"
+  right: "wording"
+  domain: "review"
+  fix: "Spree is for shopping or revelry, not violence."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 703
+  entry: "Stalin, Josef"
+  kind: "substitution"
+  wrong: "Joseph Stalin"
+  right: "Josef Stalin"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Spell the first name Josef."
+- source: ap
+  page: 704
+  entry: "startup"
+  kind: "substitution"
+  wrong: "start-up"
+  right: "startup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Startup is one word for a new business venture."
+- source: ap
+  page: 704
+  entry: "stand-alone"
+  kind: "substitution"
+  wrong: "standalone"
+  right: "stand-alone"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenate the adjective stand-alone."
+- source: ap
+  page: 704
+  entry: "state"
+  kind: "casing"
+  wrong: "the State of(?! the Union)"
+  right: "the state of"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Lowercase state in state of constructions."
+- source: ap
+  page: 704
+  entry: "state"
+  kind: "casing"
+  wrong: "the City of"
+  right: "the city of"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Lowercase city in the city of constructions."
+- source: ap
+  page: 704
+  entry: "state"
+  kind: "casing"
+  wrong: "the Town of"
+  right: "the town of"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Lowercase town in the town of constructions."
+- source: ap
+  page: 705
+  entry: "state names"
+  kind: "existence"
+  wrong: "(?:Ala|Ariz|Ark|Calif|Colo|Conn|Del|Fla|Ga|Ill|Ind|Kan|Ky|La|Md|Mass|Mich|Minn|Miss|Mo|Mont|Neb|Nev|N\\.H|N\\.J|N\\.M|N\\.Y|N\\.C|N\\.D|Okla|Ore|Pa|R\\.I|S\\.C|S\\.D|Tenn|Vt|Va|Wash|W\\.Va|Wis|Wyo)(?=\\.)"
+  right: "wording"
+  domain: "none"
+  fix: "Spell out state names in body text; abbreviations are for datelines and lists."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 707
+  entry: "state names"
+  kind: "substitution"
+  wrong: "Washington,? DC"
+  right: "Washington, D.C."
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Write Washington, D.C. with periods and commas."
+- source: ap
+  page: 715
+  entry: "strait"
+  kind: "existence"
+  wrong: "(?:Bosporus|Dardanelles) Strait"
+  right: "wording"
+  domain: "safe"
+  fix: "The Bosporus and the Dardanelles are not followed by Strait."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 717
+  entry: "stutter"
+  kind: "existence"
+  wrong: "stutterers?"
+  right: "wording"
+  domain: "review"
+  fix: "Do not call a person a stutterer; say a person who stutters."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 717
+  entry: "Styrofoam"
+  kind: "substitution"
+  wrong: "[Ss]tyrofoam"
+  right: "plastic foam"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Trademark; use plastic foam unless the brand is meant."
+- source: ap
+  page: 716
+  entry: "strait-laced"
+  kind: "substitution"
+  wrong: "straight jacket|straight-jacket|strait-jacket|strait jacket"
+  right: "straitjacket"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Straitjacket is one word."
+- source: ap
+  page: 718
+  entry: "sue"
+  kind: "existence"
+  wrong: "sued for"
+  right: "wording"
+  domain: "none"
+  fix: "Avoid phrasing that implies guilt before trial; say the lawsuit accuses."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 719
+  entry: "suicide"
+  kind: "existence"
+  wrong: "commit(?:s|ted|ting)? suicide"
+  right: "wording"
+  domain: "review"
+  fix: "Avoid committed suicide; say died by suicide or killed himself."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 719
+  entry: "suicide"
+  kind: "existence"
+  wrong: "unsuccessful suicide attempt|failed suicide attempt|successful suicide"
+  right: "wording"
+  domain: "review"
+  fix: "Say attempted suicide, not unsuccessful attempt."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 720
+  entry: "sunbathe"
+  kind: "substitution"
+  wrong: "sunbath(?=\\b)"
+  right: "sunbathe"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Verb is sunbathe."
+- source: ap
+  page: 727
+  entry: "supersede"
+  kind: "substitution"
+  wrong: "supercede"
+  right: "supersede"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Spelled supersede."
+- source: ap
+  page: 727
+  entry: "super- prefixes"
+  kind: "existence"
+  wrong: "(?:sub|super|ultra|un|under|trans)-(?=[a-z])"
+  right: "wording"
+  domain: "none"
+  fix: "Prefixes generally take no hyphen unless a capital follows; check exceptions."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 730
+  entry: "synch"
+  kind: "substitution"
+  wrong: "synch"
+  right: "sync"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Sync, not synch."
+- source: ap
+  page: 730
+  entry: "synch"
+  kind: "substitution"
+  wrong: "synched"
+  right: "synced"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Synced, not synched."
+- source: ap
+  page: 730
+  entry: "synch"
+  kind: "substitution"
+  wrong: "synching"
+  right: "syncing"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Syncing, not synching."
+- source: ap
+  page: 730
+  entry: "synagogue"
+  kind: "existence"
+  wrong: "Jewish synagogue"
+  right: "wording"
+  domain: "safe"
+  fix: "Redundant; synagogue alone."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 730
+  entry: "syllabus"
+  kind: "substitution"
+  wrong: "syllabi"
+  right: "syllabuses"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Plural is syllabuses."
+- source: ap
+  page: 709
+  entry: "stepbrother"
+  kind: "existence"
+  wrong: "step[- ](?:brother|father|sister|mother|son|daughter|parent|child)"
+  right: "wording"
+  domain: "safe"
+  fix: "Step relatives are one word: stepbrother, stepmother."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 710
+  entry: "stockbroker"
+  kind: "substitution"
+  wrong: "stock broker"
+  right: "stockbroker"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 711
+  entry: "stopgap"
+  kind: "substitution"
+  wrong: "stop-gap|stop gap"
+  right: "stopgap"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 712
+  entry: "stormwater"
+  kind: "substitution"
+  wrong: "storm water"
+  right: "stormwater"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 713
+  entry: "storyline"
+  kind: "substitution"
+  wrong: "story line"
+  right: "storyline"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 714
+  entry: "storyteller"
+  kind: "substitution"
+  wrong: "story teller"
+  right: "storyteller"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 716
+  entry: "strikebreaker"
+  kind: "substitution"
+  wrong: "strike-breaker|strike breaker"
+  right: "strikebreaker"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 720
+  entry: "summertime"
+  kind: "substitution"
+  wrong: "summer time"
+  right: "summertime"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "One word for the season."
+- source: ap
+  page: 703
+  entry: "springtime"
+  kind: "substitution"
+  wrong: "spring time"
+  right: "springtime"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "One word for the season."
+- source: ap
+  page: 701
+  entry: "speechmaker"
+  kind: "substitution"
+  wrong: "speech[- ]maker"
+  right: "speechmaker"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 701
+  entry: "speechmaking"
+  kind: "substitution"
+  wrong: "speech[- ]making"
+  right: "speechmaking"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 708
+  entry: "statewide"
+  kind: "substitution"
+  wrong: "state-wide|state wide"
+  right: "statewide"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 740
+  entry: "theatergoer"
+  kind: "substitution"
+  wrong: "theater[- ]goer|theatre[- ]?goer|theatregoer"
+  right: "theatergoer"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word, American spelling."
+- source: ap
+  page: 740
+  entry: "theater"
+  kind: "substitution"
+  wrong: "theatre"
+  right: "theater"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Use theater unless a proper name uses Theatre."
+- source: ap
+  page: 738
+  entry: "tenfold"
+  kind: "substitution"
+  wrong: "ten-fold|ten fold"
+  right: "tenfold"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 744
+  entry: "tipoff"
+  kind: "substitution"
+  wrong: "tip-off"
+  right: "tipoff"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun and adjective are one word; verb is tip off."
+- source: ap
+  page: 744
+  entry: "titleholder"
+  kind: "substitution"
+  wrong: "title-holder|title holder"
+  right: "titleholder"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 733
+  entry: "takeoff"
+  kind: "substitution"
+  wrong: "take-off"
+  right: "takeoff"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun and adjective are one word; verb is take off."
+- source: ap
+  page: 733
+  entry: "takeover"
+  kind: "substitution"
+  wrong: "take-over"
+  right: "takeover"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun and adjective are one word; verb is take over."
+- source: ap
+  page: 760
+  entry: "undersecretary"
+  kind: "substitution"
+  wrong: "under[- ]secretary"
+  right: "undersecretary"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 760
+  entry: "underway"
+  kind: "substitution"
+  wrong: "under way"
+  right: "underway"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "One word in all uses."
+- source: ap
+  page: 778
+  entry: "uppercase"
+  kind: "substitution"
+  wrong: "upper[- ]case"
+  right: "uppercase"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word for capital letters."
+- source: ap
+  page: 701
+  entry: "spinoff"
+  kind: "substitution"
+  wrong: "spin-off"
+  right: "spinoff"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Spinoff noun is one word; verb is spin off."
+- source: ap
+  page: 744
+  entry: "timeshare"
+  kind: "substitution"
+  wrong: "time[- ]share"
+  right: "timeshare"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Timeshare is one word."
+- source: ap
+  page: 747
+  entry: "touch screen"
+  kind: "substitution"
+  wrong: "touchscreen"
+  right: "touch screen"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is two words; adjective is touch-screen."
+- source: ap
+  page: 747
+  entry: "Tourette syndrome"
+  kind: "substitution"
+  wrong: "Tourette['’]s(?: syndrome)?"
+  right: "Tourette syndrome"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "No possessive."
+- source: ap
+  page: 741
+  entry: "till"
+  kind: "existence"
+  wrong: "(?<=['’])til"
+  right: "wording"
+  domain: "safe"
+  fix: "Use till or until, not 'til."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 747
+  entry: "toward"
+  kind: "substitution"
+  wrong: "towards"
+  right: "toward"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Toward, not towards."
+- source: ap
+  page: 778
+  entry: "upward"
+  kind: "substitution"
+  wrong: "upwards"
+  right: "upward"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Upward, not upwards."
+- source: ap
+  page: 793
+  entry: "-ward, -wards"
+  kind: "existence"
+  wrong: "(?:backwards|downwards|onwards|outwards|inwards|southwards|skywards|heavenwards|homewards|forwards)"
+  right: "wording"
+  domain: "review"
+  fix: "Words ending in -ward take no s; forwards as a verb is fine."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 736
+  entry: "teen, teenager"
+  kind: "substitution"
+  wrong: "teen-aged|teenaged"
+  right: "teenage"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Do not use teen-aged."
+- source: ap
+  page: 735
+  entry: "tear gas"
+  kind: "substitution"
+  wrong: "teargas"
+  right: "tear gas"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Two words."
+- source: ap
+  page: 735
+  entry: "teaspoonful"
+  kind: "substitution"
+  wrong: "teaspoonsful"
+  right: "teaspoonfuls"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Plural is teaspoonfuls."
+- source: ap
+  page: 733
+  entry: "tablespoonful"
+  kind: "substitution"
+  wrong: "tablespoonsful"
+  right: "tablespoonfuls"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Plural is tablespoonfuls."
+- source: ap
+  page: 734
+  entry: "teachers college"
+  kind: "substitution"
+  wrong: "[Tt]eachers['’] college"
+  right: "teachers college"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "No apostrophe in teachers college."
+- source: ap
+  page: 734
+  entry: "Taser"
+  kind: "existence"
+  wrong: "[Tt]asered|[Tt]asering"
+  right: "wording"
+  domain: "review"
+  fix: "Taser is a trademark; do not use it as a verb outside quotes."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 735
+  entry: "tea party"
+  kind: "casing"
+  wrong: "(?<=the )Tea Party(?! [A-Z])"
+  right: "tea party"
+  domain: "wording"
+  fix: "none"
+  american: true
+  context: "general"
+  note: "Lowercase tea party movement; capitalize formal group names."
+- source: ap
+  page: 736
+  entry: "telephone numbers"
+  kind: "existence"
+  wrong: "\\d{3}\\.\\d{3}\\.\\d{4}"
+  right: "wording"
+  domain: "review"
+  fix: "Use hyphens in phone numbers, not periods."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 736
+  entry: "telephone numbers"
+  kind: "existence"
+  wrong: "\\d{3}\\)\\s?\\d{3}-\\d{4}"
+  right: "wording"
+  domain: "review"
+  fix: "Write phone numbers as 212-621-1500, without parentheses."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 737
+  entry: "temperatures"
+  kind: "existence"
+  wrong: "(?<=\\s-)\\d+(?= (?:degrees|F|C))"
+  right: "wording"
+  domain: "review"
+  fix: "Write minus or below zero, not a minus sign."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 737
+  entry: "temperatures"
+  kind: "existence"
+  wrong: "\\d0['’]s"
+  right: "wording"
+  domain: "review"
+  fix: "No apostrophe in decades or temperature ranges: 30s."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 741
+  entry: "time element"
+  kind: "existence"
+  wrong: "(?:last|next) (?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)"
+  right: "wording"
+  domain: "none"
+  fix: "News style avoids last or next before a weekday; tense carries it."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 743
+  entry: "times"
+  kind: "existence"
+  wrong: "\\d{1,2}(?::\\d{2})?\\s?(?:am|pm|AM|PM)"
+  right: "wording"
+  domain: "review"
+  fix: "Write a.m. and p.m. lowercase with periods."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 743
+  entry: "times"
+  kind: "existence"
+  wrong: "\\d{1,2}(?::\\d{2})?\\s?(?:A\\.M|P\\.M)"
+  right: "wording"
+  domain: "review"
+  fix: "Write a.m. and p.m. lowercase."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 743
+  entry: "times"
+  kind: "existence"
+  wrong: "\\d{1,2}:00 [ap]\\.m"
+  right: "wording"
+  domain: "review"
+  fix: "Drop :00 on the hour: 3 p.m., not 3:00 p.m."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 743
+  entry: "times"
+  kind: "existence"
+  wrong: "\\d{1,2}(?::\\d{2})? [ap]\\.m\\. (?:this (?:morning|afternoon|evening)|tonight|(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday) (?:morning|afternoon|evening|night))"
+  right: "wording"
+  domain: "review"
+  fix: "Avoid redundant clock time plus part of day."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 744
+  entry: "time zones"
+  kind: "existence"
+  wrong: "(?:Eastern|Central|Mountain|Pacific) Time(?! Zone)"
+  right: "wording"
+  domain: "review"
+  fix: "Lowercase time in short forms: Eastern time."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 744
+  entry: "time zones"
+  kind: "existence"
+  wrong: "(?:Eastern|Central|Mountain|Pacific) Time Zone"
+  right: "wording"
+  domain: "review"
+  fix: "Lowercase time zone: the Eastern time zone."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 745
+  entry: "titles"
+  kind: "substitution"
+  wrong: "Senator(?= [A-Z])"
+  right: "Sen."
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Abbreviate Sen. before a name."
+- source: ap
+  page: 745
+  entry: "titles"
+  kind: "substitution"
+  wrong: "Representative(?= [A-Z])"
+  right: "Rep."
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Abbreviate Rep. before a name."
+- source: ap
+  page: 745
+  entry: "titles"
+  kind: "substitution"
+  wrong: "Governor(?= [A-Z])"
+  right: "Gov."
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Abbreviate Gov. before a name."
+- source: ap
+  page: 745
+  entry: "titles"
+  kind: "substitution"
+  wrong: "Lieutenant Governor(?= [A-Z])"
+  right: "Lt. Gov."
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Abbreviate Lt. Gov. before a name."
+- source: ap
+  page: 745
+  entry: "titles"
+  kind: "substitution"
+  wrong: "Doctor(?= [A-Z])"
+  right: "Dr."
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Abbreviate Dr. before a name."
+- source: ap
+  page: 747
+  entry: "Tory, Tories"
+  kind: "substitution"
+  wrong: "Torys"
+  right: "Tories"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Plural is Tories."
+- source: ap
+  page: 747
+  entry: "total"
+  kind: "existence"
+  wrong: "a total of"
+  right: "wording"
+  domain: "none"
+  fix: "Often redundant; allowed to avoid starting a sentence with a figure."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 748
+  entry: "trans-"
+  kind: "substitution"
+  wrong: "transatlantic"
+  right: "trans-Atlantic"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenate trans-Atlantic."
+- source: ap
+  page: 748
+  entry: "trans-"
+  kind: "substitution"
+  wrong: "transpacific"
+  right: "trans-Pacific"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenate trans-Pacific."
+- source: ap
+  page: 749
+  entry: "transsexual"
+  kind: "existence"
+  wrong: "transsexuals?"
+  right: "wording"
+  domain: "review"
+  fix: "Do not use transsexual."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 749
+  entry: "transvestite"
+  kind: "substitution"
+  wrong: "transvestites?"
+  right: "cross-dresser"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Use cross-dresser instead."
+- source: ap
+  page: 749
+  entry: "travelogue"
+  kind: "substitution"
+  wrong: "travelog"
+  right: "travelogue"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Travelogue, not travelog."
+- source: ap
+  page: 749
+  entry: "travel"
+  kind: "substitution"
+  wrong: "travelled"
+  right: "traveled"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One l in traveled."
+- source: ap
+  page: 749
+  entry: "travel"
+  kind: "substitution"
+  wrong: "travelling"
+  right: "traveling"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One l in traveling."
+- source: ap
+  page: 749
+  entry: "travel"
+  kind: "substitution"
+  wrong: "traveller"
+  right: "traveler"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One l in traveler."
+- source: ap
+  page: 748
+  entry: "transfer"
+  kind: "substitution"
+  wrong: "transfered"
+  right: "transferred"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Double the r in transferred."
+- source: ap
+  page: 748
+  entry: "transfer"
+  kind: "substitution"
+  wrong: "transfering"
+  right: "transferring"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Double the r in transferring."
+- source: ap
+  page: 750
+  entry: "Truman, Harry S."
+  kind: "substitution"
+  wrong: "Harry S Truman|Harry Truman"
+  right: "Harry S. Truman"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Use a period after the S."
+- source: ap
+  page: 751
+  entry: "tsar"
+  kind: "substitution"
+  wrong: "tsar"
+  right: "czar"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Use czar."
+- source: ap
+  page: 751
+  entry: "T-shirt"
+  kind: "casing"
+  wrong: "t-shirt|T shirt|tee shirt|tshirt|T-Shirt"
+  right: "T-shirt"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Write T-shirt."
+- source: ap
+  page: 752
+  entry: "two-by-four"
+  kind: "existence"
+  wrong: "2-by-4|2 by 4|2x4|2 x 4"
+  right: "wording"
+  domain: "review"
+  fix: "Spell out the lumber noun: two-by-four."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 753
+  entry: "U-boat"
+  kind: "casing"
+  wrong: "U-Boat|u-boat"
+  right: "U-boat"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Write U-boat."
+- source: ap
+  page: 753
+  entry: "U.N."
+  kind: "existence"
+  wrong: "UN"
+  right: "wording"
+  domain: "none"
+  fix: "Use U.N. in text, UN only in headlines."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 762
+  entry: "United States"
+  kind: "existence"
+  wrong: "US"
+  right: "wording"
+  domain: "none"
+  fix: "Use U.S. in text; US only in headlines."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 762
+  entry: "United Kingdom"
+  kind: "existence"
+  wrong: "UK"
+  right: "wording"
+  domain: "none"
+  fix: "Use U.K. in text; UK only in headlines."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 761
+  entry: "United Arab Emirates"
+  kind: "existence"
+  wrong: "U\\.A\\.E"
+  right: "wording"
+  domain: "review"
+  fix: "UAE takes no periods."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 779
+  entry: "USA"
+  kind: "existence"
+  wrong: "U\\.S\\.A"
+  right: "wording"
+  domain: "review"
+  fix: "USA takes no periods."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 785
+  entry: "Veterans Affairs"
+  kind: "existence"
+  wrong: "V\\.A"
+  right: "wording"
+  domain: "review"
+  fix: "VA takes no periods."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 782
+  entry: "USS"
+  kind: "existence"
+  wrong: "U\\.S\\.S"
+  right: "wording"
+  domain: "review"
+  fix: "Write USS without periods."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 781
+  entry: "U.S. Marshals Service"
+  kind: "substitution"
+  wrong: "Marshal(?:['’]s|s['’]|) Service"
+  right: "Marshals Service"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "No apostrophe: Marshals Service."
+- source: ap
+  page: 779
+  entry: "USB"
+  kind: "substitution"
+  wrong: "USB C|USB-c"
+  right: "USB-C"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Hyphenate USB-C."
+- source: ap
+  page: 780
+  entry: "U.S. Conference of Mayors"
+  kind: "existence"
+  wrong: "National Mayors['’]? Conference"
+  right: "wording"
+  domain: "review"
+  fix: "No such organization; use U.S. Conference of Mayors."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 783
+  entry: "Uyghur"
+  kind: "substitution"
+  wrong: "Uighur"
+  right: "Uyghur"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Use the spelling Uyghur."
+- source: ap
+  page: 783
+  entry: "Uyghur"
+  kind: "substitution"
+  wrong: "Uighurs"
+  right: "Uyghurs"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Plural Uyghurs."
+- source: ap
+  page: 779
+  entry: "upstate"
+  kind: "casing"
+  wrong: "(?<=\\w )Upstate"
+  right: "upstate"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Always lowercase upstate."
+- source: ap
+  page: 784
+  entry: "vacation rental websites"
+  kind: "existence"
+  wrong: "home-sharing sites?|room-sharing sites?"
+  right: "wording"
+  domain: "review"
+  fix: "Do not call rental sites home-sharing or room-sharing sites."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 784
+  entry: "vaccine"
+  kind: "existence"
+  wrong: "anti-COVID-19 vaccines?|anti-coronavirus vaccines?"
+  right: "wording"
+  domain: "safe"
+  fix: "Say COVID-19 vaccine, not anti-COVID-19 vaccine."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 785
+  entry: "vape, vaping"
+  kind: "substitution"
+  wrong: "vape devices?"
+  right: "vaping device"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Use vaping device."
+- source: ap
+  page: 785
+  entry: "Valium"
+  kind: "substitution"
+  wrong: "Valium"
+  right: "diazepam"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Trademark; generic is diazepam."
+- source: ap
+  page: 785
+  entry: "Velcro"
+  kind: "substitution"
+  wrong: "Velcro"
+  right: "fabric fastener"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Trademark; use a generic such as fabric fastener."
+- source: ap
+  page: 785
+  entry: "Vaseline"
+  kind: "substitution"
+  wrong: "Vaseline"
+  right: "petroleum jelly"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Trademark; generic is petroleum jelly."
+- source: ap
+  page: 735
+  entry: "Teflon"
+  kind: "substitution"
+  wrong: "Teflon"
+  right: "nonstick coating"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Trademark for nonstick coating; use generic."
+- source: ap
+  page: 785
+  entry: "V-E Day"
+  kind: "substitution"
+  wrong: "VE Day|V\\.E\\. Day|VE-Day"
+  right: "V-E Day"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Write V-E Day."
+- source: ap
+  page: 790
+  entry: "V-J Day"
+  kind: "substitution"
+  wrong: "VJ Day|V\\.J\\. Day"
+  right: "V-J Day"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Write V-J Day."
+- source: ap
+  page: 786
+  entry: "versus"
+  kind: "substitution"
+  wrong: "vs(?!\\.)"
+  right: "vs."
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Abbreviate versus as vs. with a period."
+- source: ap
+  page: 786
+  entry: "Veterans Day"
+  kind: "substitution"
+  wrong: "Veteran['’]s Day|Veterans['’] Day"
+  right: "Veterans Day"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "No apostrophe in Veterans Day."
+- source: ap
+  page: 786
+  entry: "vice"
+  kind: "existence"
+  wrong: "vice-(?:admiral|chairman|chairwoman|chancellor|consul|president|principal|regent|secretary)|vice(?:admiral|chairman|chancellor|consul|president|principal|regent|secretary)"
+  right: "wording"
+  domain: "safe"
+  fix: "Vice titles are two words, no hyphen."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 788
+  entry: "video game"
+  kind: "substitution"
+  wrong: "videogame"
+  right: "video game"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Two words in all uses."
+- source: ap
+  page: 788
+  entry: "video game"
+  kind: "substitution"
+  wrong: "videogames"
+  right: "video games"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Two words in all uses."
+- source: ap
+  page: 788
+  entry: "video on demand"
+  kind: "existence"
+  wrong: "VOD"
+  right: "wording"
+  domain: "review"
+  fix: "Spell out video on demand."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 791
+  entry: "voicemail"
+  kind: "substitution"
+  wrong: "voice mail"
+  right: "voicemail"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 791
+  entry: "vote-getter"
+  kind: "substitution"
+  wrong: "vote getter|votegetter"
+  right: "vote-getter"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Hyphenated."
+- source: ap
+  page: 796
+  entry: "wartime"
+  kind: "substitution"
+  wrong: "war-time|war time"
+  right: "wartime"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 794
+  entry: "warhead"
+  kind: "substitution"
+  wrong: "war head|war-head"
+  right: "warhead"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 795
+  entry: "warlord"
+  kind: "substitution"
+  wrong: "war lord|war-lord"
+  right: "warlord"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "One word."
+- source: ap
+  page: 796
+  entry: "Washington's Birthday"
+  kind: "casing"
+  wrong: "Washington['’]s birthday"
+  right: "Washington's Birthday"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Capitalize Birthday for the holiday."
+- source: ap
+  page: 793
+  entry: "war"
+  kind: "casing"
+  wrong: "(?:world War|World war|world war) II"
+  right: "World War II"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Capitalize World War II."
+- source: ap
+  page: 793
+  entry: "war"
+  kind: "casing"
+  wrong: "(?:world War|World war|world war) I"
+  right: "World War I"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Capitalize World War I."
+- source: ap
+  page: 793
+  entry: "war"
+  kind: "casing"
+  wrong: "Vietnam war"
+  right: "Vietnam War"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Capitalize named wars."
+- source: ap
+  page: 793
+  entry: "war"
+  kind: "casing"
+  wrong: "Korean war"
+  right: "Korean War"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Capitalize named wars."
+- source: ap
+  page: 793
+  entry: "war"
+  kind: "casing"
+  wrong: "Cold war"
+  right: "Cold War"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Capitalize named wars."
+- source: ap
+  page: 793
+  entry: "war"
+  kind: "casing"
+  wrong: "Iraq war"
+  right: "Iraq War"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Capitalize named wars."
+- source: ap
+  page: 793
+  entry: "war"
+  kind: "casing"
+  wrong: "Afghanistan war"
+  right: "Afghanistan War"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Capitalize named wars."
+- source: ap
+  page: 793
+  entry: "war"
+  kind: "casing"
+  wrong: "Gulf war"
+  right: "Gulf War"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Capitalize named wars."
+- source: ap
+  page: 797
+  entry: "weapons"
+  kind: "existence"
+  wrong: "assault rifles?|assault weapons?"
+  right: "wording"
+  domain: "review"
+  fix: "Avoid politicized terms; prefer semi-automatic rifle or specific description."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 797
+  entry: "weapons"
+  kind: "existence"
+  wrong: "military-style rifles?|modern sporting rifles?"
+  right: "wording"
+  domain: "review"
+  fix: "Avoid terms preferred by advocates or manufacturers."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 799
+  entry: "caliber"
+  kind: "existence"
+  wrong: "\\d+\\s?mm[- ]caliber"
+  right: "wording"
+  domain: "review"
+  fix: "Do not use caliber with a metric size: 9 mm pistol."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 799
+  entry: "caliber"
+  kind: "existence"
+  wrong: "\\.\\d{2,3} caliber"
+  right: "wording"
+  domain: "review"
+  fix: "Hyphenate decimal calibers: .22-caliber rifle."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 799
+  entry: "gauge"
+  kind: "existence"
+  wrong: "\\d+ gauge shotgun"
+  right: "wording"
+  domain: "review"
+  fix: "Hyphenate gauge: 12-gauge shotgun."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 799
+  entry: "semi-automatic"
+  kind: "substitution"
+  wrong: "semiautomatic|semi automatic"
+  right: "semi-automatic"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Hyphenate semi-automatic."
+- source: ap
+  page: 799
+  entry: "bolt-action rifle"
+  kind: "existence"
+  wrong: "bolt action rifle|lever action rifle"
+  right: "wording"
+  domain: "review"
+  fix: "Hyphenate bolt-action and lever-action."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 800
+  entry: "machine gun"
+  kind: "substitution"
+  wrong: "machinegun"
+  right: "machine gun"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Two words."
+- source: ap
+  page: 800
+  entry: "machine gun"
+  kind: "substitution"
+  wrong: "sub-machine gun|sub machine gun"
+  right: "submachine gun"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Submachine is one word."
+- source: ap
+  page: 702
+  entry: "surface-to-air missile"
+  kind: "existence"
+  wrong: "SAM missiles?"
+  right: "wording"
+  domain: "safe"
+  fix: "SAM missile is redundant."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 728
+  entry: "survivor, victim"
+  kind: "existence"
+  wrong: "alleged victims?"
+  right: "wording"
+  domain: "review"
+  fix: "Avoid alleged victim; it can read as skepticism."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 728
+  entry: "survivor, victim"
+  kind: "existence"
+  wrong: "AIDS victims?"
+  right: "wording"
+  domain: "review"
+  fix: "Say he has AIDS rather than AIDS victim."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 741
+  entry: "Third World"
+  kind: "existence"
+  wrong: "Third World"
+  right: "wording"
+  domain: "review"
+  fix: "Avoid; developing nations is preferred."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 739
+  entry: "Thai"
+  kind: "existence"
+  wrong: "Siamese(?! cat)"
+  right: "wording"
+  domain: "review"
+  fix: "Siam and Siamese are historical only; use Thai."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 736
+  entry: "technology"
+  kind: "existence"
+  wrong: "high technology"
+  right: "wording"
+  domain: "none"
+  fix: "Outdated for information technology."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 761
+  entry: "unique"
+  kind: "existence"
+  wrong: "(?:rather|most|very|more|quite|somewhat|really) unique"
+  right: "wording"
+  domain: "review"
+  fix: "Unique means one of a kind; no degrees."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 773
+  entry: "-up"
+  kind: "substitution"
+  wrong: "runner-ups"
+  right: "runners-up"
+  domain: "wording"
+  fix: "safe"
+  american: true
+  context: "general"
+  note: "Plural is runners-up."
+- source: ap
+  page: 764
+  entry: "-up"
+  kind: "substitution"
+  wrong: "break-up"
+  right: "breakup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is breakup; verb is break up."
+- source: ap
+  page: 765
+  entry: "-up"
+  kind: "substitution"
+  wrong: "check-up"
+  right: "checkup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is checkup."
+- source: ap
+  page: 766
+  entry: "-up"
+  kind: "substitution"
+  wrong: "clean-up"
+  right: "cleanup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is cleanup; verb is clean up."
+- source: ap
+  page: 767
+  entry: "-up"
+  kind: "substitution"
+  wrong: "crack-up"
+  right: "crackup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is crackup."
+- source: ap
+  page: 768
+  entry: "-up"
+  kind: "substitution"
+  wrong: "hold-up"
+  right: "holdup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is holdup."
+- source: ap
+  page: 769
+  entry: "-up"
+  kind: "substitution"
+  wrong: "let-up"
+  right: "letup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is letup."
+- source: ap
+  page: 770
+  entry: "-up"
+  kind: "substitution"
+  wrong: "line-up"
+  right: "lineup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is lineup."
+- source: ap
+  page: 771
+  entry: "-up"
+  kind: "substitution"
+  wrong: "make-up"
+  right: "makeup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is makeup."
+- source: ap
+  page: 772
+  entry: "-up"
+  kind: "substitution"
+  wrong: "pile-up"
+  right: "pileup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is pileup."
+- source: ap
+  page: 773
+  entry: "-up"
+  kind: "substitution"
+  wrong: "push-up"
+  right: "pushup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is pushup."
+- source: ap
+  page: 774
+  entry: "-up"
+  kind: "substitution"
+  wrong: "round-up"
+  right: "roundup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is roundup."
+- source: ap
+  page: 775
+  entry: "-up"
+  kind: "substitution"
+  wrong: "set-up"
+  right: "setup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is setup; verb is set up."
+- source: ap
+  page: 776
+  entry: "-up"
+  kind: "substitution"
+  wrong: "smash-up"
+  right: "smashup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is smashup."
+- source: ap
+  page: 777
+  entry: "-up"
+  kind: "substitution"
+  wrong: "speed-up"
+  right: "speedup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is speedup."
+- source: ap
+  page: 778
+  entry: "-up"
+  kind: "substitution"
+  wrong: "wind-up"
+  right: "windup"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Noun is windup."
+- source: ap
+  page: 764
+  entry: "-up"
+  kind: "substitution"
+  wrong: "callup"
+  right: "call-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: call-up."
+- source: ap
+  page: 764
+  entry: "-up"
+  kind: "substitution"
+  wrong: "changeup"
+  right: "change-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: change-up."
+- source: ap
+  page: 766
+  entry: "-up"
+  kind: "substitution"
+  wrong: "closeup"
+  right: "close-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: close-up."
+- source: ap
+  page: 766
+  entry: "-up"
+  kind: "substitution"
+  wrong: "coverup"
+  right: "cover-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: cover-up."
+- source: ap
+  page: 767
+  entry: "-up"
+  kind: "substitution"
+  wrong: "followup"
+  right: "follow-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: follow-up."
+- source: ap
+  page: 767
+  entry: "-up"
+  kind: "substitution"
+  wrong: "frameup"
+  right: "frame-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: frame-up."
+- source: ap
+  page: 767
+  entry: "-up"
+  kind: "substitution"
+  wrong: "grownup"
+  right: "grown-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: grown-up."
+- source: ap
+  page: 767
+  entry: "-up"
+  kind: "substitution"
+  wrong: "hangup"
+  right: "hang-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: hang-up."
+- source: ap
+  page: 771
+  entry: "-up"
+  kind: "substitution"
+  wrong: "mixup"
+  right: "mix-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: mix-up."
+- source: ap
+  page: 771
+  entry: "-up"
+  kind: "substitution"
+  wrong: "mockup"
+  right: "mock-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: mock-up."
+- source: ap
+  page: 775
+  entry: "-up"
+  kind: "substitution"
+  wrong: "shakeup"
+  right: "shake-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: shake-up."
+- source: ap
+  page: 775
+  entry: "-up"
+  kind: "substitution"
+  wrong: "shapeup"
+  right: "shape-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: shape-up."
+- source: ap
+  page: 777
+  entry: "-up"
+  kind: "substitution"
+  wrong: "tieup"
+  right: "tie-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: tie-up."
+- source: ap
+  page: 777
+  entry: "-up"
+  kind: "substitution"
+  wrong: "walkup"
+  right: "walk-up"
+  domain: "wording"
+  fix: "review"
+  american: true
+  context: "general"
+  note: "Hyphenated: walk-up."
+- source: ap
+  page: 716
+  entry: "superintendent"
+  kind: "existence"
+  wrong: "Supt(?=\\.)"
+  right: "wording"
+  domain: "review"
+  fix: "Do not abbreviate superintendent."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 703
+  entry: "square"
+  kind: "existence"
+  wrong: "Sq(?=\\.)"
+  right: "wording"
+  domain: "review"
+  fix: "Do not abbreviate square."
+  american: true
+  context: "general"
+  note: ""
+- source: ap
+  page: 738
+  entry: "terrace"
+  kind: "existence"
+  wrong: "Terr?(?=\\.)"
+  right: "wording"
+  domain: "review"
+  fix: "Do not abbreviate terrace."
+  american: true
+  context: "general"
+  note: ""

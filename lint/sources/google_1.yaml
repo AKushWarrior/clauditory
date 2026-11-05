@@ -1,0 +1,4157 @@
+- source: google
+  page: Word list
+  entry: '& (ampersand)'
+  kind: existence
+  wrong: (?<=[A-Za-z]) & (?=[A-Za-z])
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write and, not an ampersand, in headings and text; UI labels, tables, code excepted.
+- source: google
+  page: Word list
+  entry: AM, PM
+  kind: existence
+  wrong: \d ?(?:[ap]\.m|[ap]m|[AP]\.M|Am|Pm)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Times use capital AM or PM, no periods, a space before.
+- source: google
+  page: Word list
+  entry: abort
+  kind: existence
+  wrong: (?i)abort(?:s|ed|ing)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid generally; prefer stop, exit, cancel, end. Fine for the Linux abort signal.
+- source: google
+  page: Word list
+  entry: about versus on
+  kind: substitution
+  wrong: (?i)more information on
+  right: more information about
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: In cross-references that name the topic, use about instead of on.
+- source: google
+  page: Word list
+  entry: account name
+  kind: substitution
+  wrong: account name
+  right: username
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use username.
+- source: google
+  page: Word list
+  entry: actionable
+  kind: existence
+  wrong: (?i)actionable
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid unless clearest phrasing; try useful or that you can act on.
+- source: google
+  page: Word list
+  entry: ad tech
+  kind: substitution
+  wrong: (?i)ad-?tech
+  right: ad tech
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Two words, lowercase; write out advertising technology on first mention.
+- source: google
+  page: Word list
+  entry: address bar
+  kind: existence
+  wrong: (?i)omnibox
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use address bar, not omnibox.
+- source: google
+  page: Word list
+  entry: ad hoc
+  kind: substitution
+  wrong: (?i)ad-hoc
+  right: ad hoc
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Do not hyphenate or italicize ad hoc.
+- source: google
+  page: Word list
+  entry: agnostic
+  kind: existence
+  wrong: (?i)agnostic
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use a precise term such as platform-independent.
+- source: google
+  page: Word list
+  entry: aka
+  kind: existence
+  wrong: (?i)a\.?k\.?a\.?
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write also known as, or use parentheses or or.
+- source: google
+  page: Word list
+  entry: allows you to
+  kind: substitution
+  wrong: (?i)allows you to
+  right: lets you
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use lets you for making something possible.
+- source: google
+  page: Word list
+  entry: enable
+  kind: substitution
+  wrong: (?i)enables you to
+  right: lets you
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use lets you, not enables you to.
+- source: google
+  page: Word list
+  entry: America, American
+  kind: existence
+  wrong: (?i)americans?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use for the US; say the US or people in the US.
+- source: google
+  page: Word list
+  entry: and/or
+  kind: existence
+  wrong: (?i)and/or
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Avoid except where space is limited, such as tables.
+- source: google
+  page: Word list
+  entry: and so on
+  kind: existence
+  wrong: (?i)and so on|and so forth
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid; use such as or including instead.
+- source: google
+  page: Word list
+  entry: anti-pattern
+  kind: existence
+  wrong: (?i)anti-?patterns?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid; use a more specific term.
+- source: google
+  page: Word list
+  entry: API Console
+  kind: existence
+  wrong: (?i)API Console(?! key)|APIs console|developer console|dev console|Developers Console
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use; refer to Google APIs Explorer or Google Cloud console.
+- source: google
+  page: Word list
+  entry: API key
+  kind: substitution
+  wrong: (?i)(?:developer|dev) key
+  right: API key
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use API key, not developer key or dev key.
+- source: google
+  page: Word list
+  entry: APIs Explorer
+  kind: substitution
+  wrong: (?i)API explorer
+  right: APIs Explorer
+  domain: technical
+  fix: review
+  american: true
+  context: Google
+  note: Official name is APIs Explorer.
+- source: google
+  page: Word list
+  entry: appendix
+  kind: substitution
+  wrong: appendices
+  right: appendixes
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Plural is appendixes.
+- source: google
+  page: Word list
+  entry: as of this writing
+  kind: existence
+  wrong: (?i)as of this writing
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid; documentation should be timeless.
+- source: google
+  page: Word list
+  entry: authN, authZ
+  kind: existence
+  wrong: auth[NZ]
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Spell out authentication or authorization.
+- source: google
+  page: Word list
+  entry: autohealing
+  kind: substitution
+  wrong: (?i)auto-healing
+  right: autohealing
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: autopopulate
+  kind: substitution
+  wrong: (?i)auto[- ]populate
+  right: autopopulate
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: autoscaling
+  kind: substitution
+  wrong: (?i)auto-scaling
+  right: autoscaling
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: autotagging
+  kind: substitution
+  wrong: (?i)auto-tagging
+  right: autotagging
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: autoupdate
+  kind: substitution
+  wrong: (?i)autoupdate
+  right: automatically update
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not use autoupdate.
+- source: google
+  page: Word list
+  entry: backend
+  kind: substitution
+  wrong: (?i)back[- ]end
+  right: backend
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: frontend
+  kind: substitution
+  wrong: (?i)front[- ]end
+  right: frontend
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: bar, baz, foo
+  kind: existence
+  wrong: \b(?:foo|bar|baz)\b
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Avoid foo, bar, baz placeholders; use meaningful placeholder names.
+- source: google
+  page: Word list
+  entry: below
+  kind: existence
+  wrong: (?i)(?:see|described|mentioned|listed|shown|following|as noted|as shown) (?:above|below)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid above and below for document position; use earlier, preceding, later, following.
+- source: google
+  page: Word list
+  entry: above/below version ranges
+  kind: substitution
+  wrong: (?<=\d )or (?:above|higher)
+  right: or later
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: For version ranges use later, not above or higher. Android docs differ.
+- source: google
+  page: Word list
+  entry: below version ranges
+  kind: substitution
+  wrong: (?<=\d )or (?:below|lower)
+  right: or earlier
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: For version ranges use earlier, not below or lower. Android docs differ.
+- source: google
+  page: Word list
+  entry: best effort
+  kind: existence
+  wrong: (?i)best[- ]effort
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid; use more specific wording.
+- source: google
+  page: Word list
+  entry: big-endian
+  kind: substitution
+  wrong: (?i)big endian
+  right: big-endian
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate and lowercase.
+- source: google
+  page: Word list
+  entry: little-endian
+  kind: substitution
+  wrong: (?i)little endian
+  right: little-endian
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate and lowercase.
+- source: google
+  page: Word list
+  entry: billing charges
+  kind: substitution
+  wrong: billing charges
+  right: billed charges
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Charges on a bill are billed charges; billing charges means cost of making the bill.
+- source: google
+  page: Word list
+  entry: black-box
+  kind: existence
+  wrong: (?i)black[- ]?box
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use synthetic monitoring or opaque-box testing.
+- source: google
+  page: Word list
+  entry: white-box / gray-box
+  kind: existence
+  wrong: (?i)(?:white|gr[ae]y)[- ]?box
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid color-coded box testing terms; use precise terms.
+- source: google
+  page: Word list
+  entry: Black Friday
+  kind: substitution
+  wrong: Black Friday|Cyber Monday
+  right: peak scale event
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid unless meaning the US event.
+- source: google
+  page: Word list
+  entry: blackhat
+  kind: existence
+  wrong: (?i)black[- ]?hat
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; name the practice, such as illegal or unethical.
+- source: google
+  page: Word list
+  entry: blackhole
+  kind: existence
+  wrong: (?i)black[- ]?hol(?:e|es|ed|ing)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use as verb; say dropped without notification.
+- source: google
+  page: Word list
+  entry: blacklist
+  kind: substitution
+  wrong: (?i)black[- ]?list
+  right: denylist
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not use; denylist, blocklist or rephrase.
+- source: google
+  page: Word list
+  entry: whitelist
+  kind: substitution
+  wrong: (?i)white[- ]?list
+  right: allowlist
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not use; allowlist, safelist or rephrase.
+- source: google
+  page: Word list
+  entry: graylist
+  kind: existence
+  wrong: (?i)gr[ae]y[- ]?list(?:s|ed|ing)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; consider provisional list.
+- source: google
+  page: Word list
+  entry: allowlist / denylist verb
+  kind: existence
+  wrong: (?i)(?:allow|deny)list(?:ed|ing)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use as verbs; rewrite.
+- source: google
+  page: Word list
+  entry: blast radius
+  kind: existence
+  wrong: (?i)blast radius
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use affected area or spatial impact.
+- source: google
+  page: Word list
+  entry: blind
+  kind: existence
+  wrong: (?i)blind (?:to|eye|writes?|change)|change blindly
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid figurative blind; use ignore, unaware of, or precise phrase.
+- source: google
+  page: Word list
+  entry: blue-green
+  kind: substitution
+  wrong: (?i)blue(?:/| )green
+  right: blue-green
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate.
+- source: google
+  page: Word list
+  entry: break-glass
+  kind: existence
+  wrong: (?i)break[- ]glass
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use emergency access or manual fallback.
+- source: google
+  page: Word list
+  entry: brown bag
+  kind: existence
+  wrong: (?i)brown[- ]bag
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use learning session or lunch and learn.
+- source: google
+  page: Word list
+  entry: build cop
+  kind: substitution
+  wrong: (?i)build (?:cop|sheriff)
+  right: build monitor
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use build monitor.
+- source: google
+  page: Word list
+  entry: careful, carefully
+  kind: existence
+  wrong: (?i)careful(?:ly)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid telling users to act carefully; sounds condescending.
+- source: google
+  page: Word list
+  entry: cell phone
+  kind: substitution
+  wrong: (?i)cell ?phone
+  right: mobile phone
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use mobile phone, or mobile device for more than phones.
+- source: google
+  page: Word list
+  entry: cell phone
+  kind: substitution
+  wrong: (?i)cell ?phones
+  right: mobile phones
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use mobile phone, or mobile device for more than phones.
+- source: google
+  page: Word list
+  entry: cellular data
+  kind: substitution
+  wrong: (?i)cellular data
+  right: mobile data
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use mobile data.
+- source: google
+  page: Word list
+  entry: cellular network
+  kind: substitution
+  wrong: (?i)cellular network
+  right: mobile network
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use mobile network.
+- source: google
+  page: Word list
+  entry: checkbox
+  kind: substitution
+  wrong: (?i)check box
+  right: checkbox
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: clear
+  kind: substitution
+  wrong: (?i)(?:deselect|unselect|uncheck)
+  right: clear
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: To remove a checkbox mark, use clear.
+- source: google
+  page: Word list
+  entry: chubby
+  kind: existence
+  wrong: (?i)chubby
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; say unused or overextended.
+- source: google
+  page: Word list
+  entry: click
+  kind: substitution
+  wrong: (?i)click on
+  right: click
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use click, not click on. Click in a region is fine.
+- source: google
+  page: Word list
+  entry: click here
+  kind: existence
+  wrong: (?i)click here
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Avoid vague link text.
+- source: google
+  page: Word list
+  entry: click and drag / drag and drop
+  kind: substitution
+  wrong: (?i)click and drag|drag and drop(?!-)
+  right: drag
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use drag; drag-and-drop is fine as adjective.
+- source: google
+  page: Word list
+  entry: right-click
+  kind: substitution
+  wrong: (?i)(?:right|left|double) click(?!ing)
+  right: right-click
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate right-click, left-click, double-click when used as verbs.
+- source: google
+  page: Word list
+  entry: CLI
+  kind: existence
+  wrong: \bCLI\b
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use CLI generically; name the specific command-line interface.
+- source: google
+  page: Word list
+  entry: Cloud
+  kind: substitution
+  wrong: Google Cloud SDK
+  right: Cloud SDK
+  domain: technical
+  fix: review
+  american: true
+  context: Google Cloud
+  note: Use Cloud SDK.
+- source: google
+  page: Word list
+  entry: codebase
+  kind: substitution
+  wrong: (?i)code base
+  right: codebase
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: codelab
+  kind: substitution
+  wrong: (?i)code[- ]lab
+  right: codelab
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: colocate
+  kind: substitution
+  wrong: (?i)co-locate
+  right: colocate
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word, no hyphen.
+- source: google
+  page: Word list
+  entry: comprise
+  kind: existence
+  wrong: (?i)compris(?:e|es|ed|ing)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; use consist of, contain, or include.
+- source: google
+  page: Word list
+  entry: config
+  kind: existence
+  wrong: config(?!ur)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Spell out configuration in non-code prose; many false hits in code.
+- source: google
+  page: Word list
+  entry: Ctrl shortcuts
+  kind: existence
+  wrong: (?:Ctl|Ctrl|Cmd|Cloverleaf)-[A-Za-z]\b
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Write Control+S, Command+S, with plus sign.
+- source: google
+  page: Word list
+  entry: crazy
+  kind: existence
+  wrong: (?i)crazy|bonkers|lunatic|insane|loony
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; say complicated, strange, unexpected.
+- source: google
+  page: Word list
+  entry: Create a new
+  kind: substitution
+  wrong: Create a new
+  right: Create a
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Drop new unless distinguishing from another recent item.
+- source: google
+  page: Word list
+  entry: cripple
+  kind: existence
+  wrong: (?i)cripple[sd]?|crippling
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; use precise language.
+- source: google
+  page: Word list
+  entry: curated roles
+  kind: substitution
+  wrong: (?i)curated roles
+  right: predefined roles
+  domain: technical
+  fix: review
+  american: true
+  context: Google Cloud
+  note: Use predefined roles.
+- source: google
+  page: Word list
+  entry: currently
+  kind: existence
+  wrong: (?i)currently|presently
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid; implied in timeless documentation.
+- source: google
+  page: Word list
+  entry: curl
+  kind: casing
+  wrong: cURL
+  right: curl
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Write curl in lowercase.
+- source: google
+  page: Word list
+  entry: data (plural)
+  kind: substitution
+  wrong: (?i)data are
+  right: data is
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Treat data as singular.
+- source: google
+  page: Word list
+  entry: data (fewer)
+  kind: substitution
+  wrong: (?i)fewer data
+  right: less data
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Data is a mass noun.
+- source: google
+  page: Word list
+  entry: data center
+  kind: substitution
+  wrong: (?i)datacenter
+  right: data center
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: data center
+  kind: substitution
+  wrong: (?i)datacenters
+  right: data centers
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: data cleaning
+  kind: substitution
+  wrong: (?i)data cleansing
+  right: data cleaning
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use data cleaning.
+- source: google
+  page: Word list
+  entry: data source
+  kind: substitution
+  wrong: (?i)datasource
+  right: data source
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: data source
+  kind: substitution
+  wrong: (?i)datasources
+  right: data sources
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: datastore
+  kind: substitution
+  wrong: (?i)data store
+  right: datastore
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: datastore
+  kind: substitution
+  wrong: (?i)data stores
+  right: datastores
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: data type
+  kind: substitution
+  wrong: (?i)datatype
+  right: data type
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: data type
+  kind: substitution
+  wrong: (?i)datatypes
+  right: data types
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: deep linking
+  kind: substitution
+  wrong: (?i)deep-linking
+  right: deep linking
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: google
+  page: Word list
+  entry: demilitarized zone
+  kind: existence
+  wrong: (?i)demilitarized zone|\bDMZ\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use perimeter network.
+- source: google
+  page: Word list
+  entry: denigrate
+  kind: existence
+  wrong: (?i)denigrat(?:e|es|ed|ing)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use disparage.
+- source: google
+  page: Word list
+  entry: desire
+  kind: existence
+  wrong: (?i)desired?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use want or need.
+- source: google
+  page: Word list
+  entry: docset
+  kind: substitution
+  wrong: (?i)doc ?set
+  right: documentation set
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use documentation set.
+- source: google
+  page: Word list
+  entry: docset
+  kind: substitution
+  wrong: (?i)doc ?sets
+  right: documentation sets
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use documentation set.
+- source: google
+  page: Word list
+  entry: this document
+  kind: substitution
+  wrong: (?i)this (?:article|topic|doc|page)
+  right: this document
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: For text on a page explaining a product, say this document.
+- source: google
+  page: Word list
+  entry: does not yet
+  kind: existence
+  wrong: (?i)does(?:n.t| not) yet|eventually
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid time-dependent wording in timeless docs.
+- source: google
+  page: Word list
+  entry: dojo
+  kind: existence
+  wrong: (?i)dojo
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use training or workshop.
+- source: google
+  page: Word list
+  entry: drop-down
+  kind: substitution
+  wrong: (?i)drop-down (?=list|menu)
+  right: ''
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Omit drop-down before list or menu unless needed for clarity.
+- source: google
+  page: Word list
+  entry: dumb down
+  kind: existence
+  wrong: (?i)dumb(?:ed|ing)? down
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use simplify.
+- source: google
+  page: Word list
+  entry: dummy variable
+  kind: existence
+  wrong: (?i)dummy variables?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use placeholder or indicator variable.
+- source: google
+  page: Word list
+  entry: e.g.
+  kind: existence
+  wrong: (?i)e\.g|i\.e
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use for example or such as; avoid e.g. and i.e.
+- source: google
+  page: Word list
+  entry: easy
+  kind: existence
+  wrong: (?i)easy|easily
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Subjective; omit.
+- source: google
+  page: Word list
+  entry: ecommerce
+  kind: substitution
+  wrong: (?i)e-commerce
+  right: ecommerce
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: google
+  page: Word list
+  entry: email
+  kind: substitution
+  wrong: (?i)e-mail
+  right: email
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: google
+  page: Word list
+  entry: email verb
+  kind: existence
+  wrong: (?i)(?:email|emailed|emailing) (?:me|us|him|her|them|you)\b
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not use email as verb; say send email.
+- source: google
+  page: Word list
+  entry: endpoint
+  kind: substitution
+  wrong: (?i)end point
+  right: endpoint
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: endpoint
+  kind: substitution
+  wrong: (?i)end points
+  right: endpoints
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: etc.
+  kind: existence
+  wrong: (?i)etc\.?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid etc.; if used keep the period.
+- source: google
+  page: Word list
+  entry: expander arrow
+  kind: existence
+  wrong: (?i)expando|zippy|disclosure (?:triangle|widget)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use expander arrow.
+- source: google
+  page: Word list
+  entry: extract
+  kind: substitution
+  wrong: (?i)(?:unarchive|uncompress|untar|unzip)
+  right: extract
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use extract.
+- source: google
+  page: Word list
+  entry: fat
+  kind: existence
+  wrong: (?i)fat (?:client|connection)|trim the fat
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; use precise modifier.
+- source: google
+  page: Word list
+  entry: female adapter
+  kind: existence
+  wrong: (?i)(?:fe)?male (?:adapter|connector)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use genderless words like socket.
+- source: google
+  page: Word list
+  entry: FHIR
+  kind: substitution
+  wrong: an FHIR
+  right: a FHIR
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: FHIR is pronounced fire, so a FHIR.
+- source: google
+  page: Word list
+  entry: filename
+  kind: substitution
+  wrong: (?i)file name
+  right: filename
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: filename
+  kind: substitution
+  wrong: (?i)file names
+  right: filenames
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: file system
+  kind: substitution
+  wrong: (?i)filesystem
+  right: file system
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: file system
+  kind: substitution
+  wrong: (?i)filesystems
+  right: file systems
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: final solution
+  kind: substitution
+  wrong: (?i)final solution
+  right: solution
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use solution, or definitive, optimal, best.
+- source: google
+  page: Word list
+  entry: fintech
+  kind: substitution
+  wrong: FinTech|[Ff]in-tech
+  right: fintech
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase one word.
+- source: google
+  page: Word list
+  entry: first-class
+  kind: existence
+  wrong: (?i)first[- ]class (?:citizen|component|resource|object)s?|first-class
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; describe the actual characteristics.
+- source: google
+  page: Word list
+  entry: for instance
+  kind: existence
+  wrong: (?i)for instance
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use for example, like, or such as.
+- source: google
+  page: Word list
+  entry: GBps
+  kind: substitution
+  wrong: GB/s
+  right: GBps
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Per-second units use ps, not slash.
+- source: google
+  page: Word list
+  entry: Gbps
+  kind: substitution
+  wrong: Gb/s
+  right: Gbps
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Per-second units use ps, not slash.
+- source: google
+  page: Word list
+  entry: Mbps
+  kind: substitution
+  wrong: Mb/s
+  right: Mbps
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Per-second units use ps, not slash.
+- source: google
+  page: Word list
+  entry: gender-neutral he
+  kind: existence
+  wrong: (?i)he/she|\(s\)he|s/he
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use singular they.
+- source: google
+  page: Word list
+  entry: generative AI
+  kind: existence
+  wrong: (?i)gen ?AI
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Spell out generative AI.
+- source: google
+  page: Word list
+  entry: ghetto
+  kind: existence
+  wrong: (?i)ghetto
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use.
+- source: google
+  page: Word list
+  entry: gimp
+  kind: existence
+  wrong: (?i)gimpy?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use.
+- source: google
+  page: Word list
+  entry: Google, Googling
+  kind: existence
+  wrong: (?i)googling|googled
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use Google as a verb; say search with Google.
+- source: google
+  page: Word list
+  entry: Google Account
+  kind: casing
+  wrong: Google account
+  right: Google Account
+  domain: wording
+  fix: review
+  american: true
+  context: Google
+  note: Capitalize Account.
+- source: google
+  page: Word list
+  entry: Google Account
+  kind: casing
+  wrong: Google accounts
+  right: Google Accounts
+  domain: wording
+  fix: review
+  american: true
+  context: Google
+  note: Capitalize Account.
+- source: google
+  page: Word list
+  entry: Google Cloud
+  kind: substitution
+  wrong: Google Cloud Platform|Cloud Platform|GCP
+  right: Google Cloud
+  domain: technical
+  fix: review
+  american: true
+  context: Google Cloud
+  note: Use Google Cloud, not GCP or Cloud Platform.
+- source: google
+  page: Word list
+  entry: Google Cloud project ID
+  kind: substitution
+  wrong: GCP project ID|(?<!Google )Cloud project ID
+  right: Google Cloud project ID
+  domain: technical
+  fix: review
+  american: true
+  context: Google Cloud
+  note: Use Google Cloud project ID.
+- source: google
+  page: Word list
+  entry: Google I/O
+  kind: substitution
+  wrong: Google I-O|Google IO
+  right: Google I/O
+  domain: wording
+  fix: safe
+  american: true
+  context: Google
+  note: Use slash.
+- source: google
+  page: Word list
+  entry: I/O
+  kind: substitution
+  wrong: I-O
+  right: I/O
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write I/O, not I-O or IO.
+- source: google
+  page: Word list
+  entry: Google Play services
+  kind: casing
+  wrong: Google Play Services
+  right: Google Play services
+  domain: technical
+  fix: safe
+  american: true
+  context: Android
+  note: Lowercase services.
+- source: google
+  page: Word list
+  entry: Google Developers Console
+  kind: existence
+  wrong: Google Developers Console|Google APIs? Console
+  domain: technical
+  fix: none
+  american: true
+  context: Google
+  note: Do not use; name the specific console.
+- source: google
+  page: Word list
+  entry: grandfathered
+  kind: existence
+  wrong: (?i)grand[- ]?father(?:ed|ing| clause)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; use legacy, exempt, or made an exception.
+- source: google
+  page: Word list
+  entry: grayed-out
+  kind: existence
+  wrong: (?i)gr[ae]y(?:ed)?[- ]out
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use unavailable.
+- source: google
+  page: Word list
+  entry: grayhat
+  kind: existence
+  wrong: (?i)gr[ae]y[- ]?hat|white[- ]?hat
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; name the practice precisely.
+- source: google
+  page: Word list
+  entry: guru
+  kind: existence
+  wrong: (?i)guru
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use a precise term such as expert or teacher.
+- source: google
+  page: Word list
+  entry: guys
+  kind: existence
+  wrong: (?i)you guys|guys
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use everyone or folks for groups.
+- source: google
+  page: Word list
+  entry: gypsy
+  kind: existence
+  wrong: (?i)gypsy|gypsies
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; name the people precisely or rephrase.
+- source: google
+  page: Word list
+  entry: hamburger menu
+  kind: existence
+  wrong: '(?i)hamburger(?: menu)?|kebab(?: menu)?|kabob(?: menu)?'
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use the icon aria-label, such as Menu or More.
+- source: google
+  page: Word list
+  entry: kebab case
+  kind: existence
+  wrong: (?i)k[ae]bab[- ]case|kabob[- ]case|kabob-case
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use dash-case.
+- source: google
+  page: Capitalization
+  entry: casing style names
+  kind: existence
+  wrong: (?i)camel ?case|snake ?case|pascal ?case
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not name casing styles like camel case or snake case.
+- source: google
+  page: Word list
+  entry: hands off
+  kind: existence
+  wrong: (?i)hands[- ](?:on|off)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid figurative phrase; say automated or customizable.
+- source: google
+  page: Word list
+  entry: hang
+  kind: existence
+  wrong: (?i)(?:system|server|computer|app|process|it|program) (?:hangs|hung|hang)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use stop responding.
+- source: google
+  page: Word list
+  entry: healthcare
+  kind: substitution
+  wrong: (?i)health[- ]care
+  right: healthcare
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: high performance computing
+  kind: substitution
+  wrong: (?i)high-performance computing
+  right: high performance computing
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Do not hyphenate.
+- source: google
+  page: Word list
+  entry: hit
+  kind: existence
+  wrong: (?i)hit (?:the )?(?:enter|return|escape|esc|button|key)
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use hit for click, press, or type.
+- source: google
+  page: Word list
+  entry: hover
+  kind: substitution
+  wrong: (?i)hover over
+  right: hold the pointer over
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use hold the pointer over, or point to.
+- source: google
+  page: Word list
+  entry: home screen
+  kind: substitution
+  wrong: (?i)home-?screen
+  right: home screen
+  domain: technical
+  fix: review
+  american: true
+  context: Android
+  note: Two words.
+- source: google
+  page: Word list
+  entry: lock screen
+  kind: substitution
+  wrong: (?i)lock-?screen
+  right: lock screen
+  domain: technical
+  fix: review
+  american: true
+  context: Android
+  note: Two words.
+- source: google
+  page: Word list
+  entry: hostname
+  kind: substitution
+  wrong: (?i)host name
+  right: hostname
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: hostname
+  kind: substitution
+  wrong: (?i)host names
+  right: hostnames
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: housekeeping
+  kind: existence
+  wrong: (?i)house[- ]?keeping
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use maintenance or cleanup.
+- source: google
+  page: Word list
+  entry: HTTPS
+  kind: casing
+  wrong: HTTPs
+  right: HTTPS
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: All caps.
+- source: google
+  page: Word list
+  entry: ID
+  kind: casing
+  wrong: Id
+  right: ID
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write ID, except in string literals or enums.
+- source: google
+  page: Word list
+  entry: impact
+  kind: existence
+  wrong: (?i)impact(?:s|ed|ing)(?! on)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use impact only as noun; use affect as verb.
+- source: google
+  page: Word list
+  entry: indices
+  kind: substitution
+  wrong: indices
+  right: indexes
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Plural is indexes except math or finance.
+- source: google
+  page: Word list
+  entry: matrices
+  kind: substitution
+  wrong: matrices
+  right: matrixes
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Plural is matrixes except math contexts.
+- source: google
+  page: Word list
+  entry: in order to
+  kind: substitution
+  wrong: (?i)in order to
+  right: to
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Avoid unless needed for clarity.
+- source: google
+  page: Word list
+  entry: inline
+  kind: substitution
+  wrong: (?i)in-line
+  right: inline
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word as adjective.
+- source: google
+  page: Word list
+  entry: intercluster
+  kind: substitution
+  wrong: (?i)inter-cluster
+  right: intercluster
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Unhyphenated.
+- source: google
+  page: Word list
+  entry: interconnect type
+  kind: substitution
+  wrong: interconnect type
+  right: connection type
+  domain: technical
+  fix: review
+  american: true
+  context: Google Cloud
+  note: Use connection type.
+- source: google
+  page: Word list
+  entry: internet
+  kind: casing
+  wrong: Internet(?! of Things| Key| Protocol| Explorer| Archive| Mail)
+  right: internet
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Lowercase except at sentence start.
+- source: google
+  page: Word list
+  entry: IoT
+  kind: casing
+  wrong: IOT|Iot
+  right: IoT
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase o.
+- source: google
+  page: Word list
+  entry: IPsec
+  kind: casing
+  wrong: IPSec|IPSEC
+  right: IPsec
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Write IPsec.
+- source: google
+  page: Word list
+  entry: just
+  kind: existence
+  wrong: (?i)just
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Filler word; usually delete. Many false positives.
+- source: google
+  page: Word list
+  entry: k8s
+  kind: substitution
+  wrong: k8s
+  right: Kubernetes
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Do not use k8s.
+- source: google
+  page: Word list
+  entry: KBps
+  kind: substitution
+  wrong: KB/s
+  right: KBps
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use ps, not slash.
+- source: google
+  page: Word list
+  entry: MBps
+  kind: substitution
+  wrong: MB/s
+  right: MBps
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use ps, not slash.
+- source: google
+  page: Word list
+  entry: Kbps
+  kind: substitution
+  wrong: Kb/s
+  right: Kbps
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use ps, not slash.
+- source: google
+  page: Word list
+  entry: key ring
+  kind: substitution
+  wrong: (?i)keyring
+  right: key ring
+  domain: technical
+  fix: review
+  american: true
+  context: Google Cloud
+  note: Two words for Cloud KMS key grouping.
+- source: google
+  page: Word list
+  entry: key ring
+  kind: substitution
+  wrong: (?i)keyrings
+  right: key rings
+  domain: technical
+  fix: review
+  american: true
+  context: Google Cloud
+  note: Two words for Cloud KMS key grouping.
+- source: google
+  page: Word list
+  entry: key-value pair
+  kind: substitution
+  wrong: (?i)key[/ ]value pair
+  right: key-value pair
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate.
+- source: google
+  page: Word list
+  entry: key-value pair
+  kind: substitution
+  wrong: (?i)key[/ ]value pairs
+  right: key-value pairs
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate.
+- source: google
+  page: Word list
+  entry: kill
+  kind: existence
+  wrong: (?i)kill(?:s|ed|ing)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid; use stop, exit, cancel, end except in command contexts.
+- source: google
+  page: Word list
+  entry: lame
+  kind: existence
+  wrong: (?i)lame
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use.
+- source: google
+  page: Word list
+  entry: learnings
+  kind: existence
+  wrong: (?i)learnings
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use knowledge or things learned.
+- source: google
+  page: Word list
+  entry: let's
+  kind: existence
+  wrong: (?i)let.s
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Avoid let's.
+- source: google
+  page: Word list
+  entry: leverage
+  kind: existence
+  wrong: (?i)leverag(?:e|es|ed|ing)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use use, build on, or take advantage of.
+- source: google
+  page: Word list
+  entry: lifecycle
+  kind: substitution
+  wrong: (?i)life[- ]cycle
+  right: lifecycle
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: lifecycle
+  kind: substitution
+  wrong: (?i)life[- ]cycles
+  right: lifecycles
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: livestream
+  kind: substitution
+  wrong: (?i)live stream
+  right: livestream
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: log in
+  kind: substitution
+  wrong: (?i)log in(?! to)
+  right: sign in
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Prefer sign in unless the tool itself says log in.
+- source: google
+  page: Word list
+  entry: log out
+  kind: substitution
+  wrong: (?i)log out|signout
+  right: sign out
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use sign out.
+- source: google
+  page: Word list
+  entry: sign-in
+  kind: substitution
+  wrong: (?i)signin
+  right: sign-in
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate noun; two words as verb.
+- source: google
+  page: Word list
+  entry: sign into
+  kind: substitution
+  wrong: (?i)sign into
+  right: sign in to
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Use sign in to.
+- source: google
+  page: Word list
+  entry: long-running operation
+  kind: substitution
+  wrong: (?i)long running operation
+  right: long-running operation
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate.
+- source: google
+  page: Word list
+  entry: man hours
+  kind: existence
+  wrong: (?i)man[- ]?hours?|man[- ]?power|man[- ]?made|manned
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use person hours, staff, artificial, staffed.
+- source: google
+  page: Word list
+  entry: man-in-the-middle
+  kind: existence
+  wrong: (?i)man-in-the-middle
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use on-path attacker or person-in-the-middle.
+- source: google
+  page: Word list
+  entry: Markdown
+  kind: casing
+  wrong: markdown
+  right: Markdown
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Always capitalized.
+- source: google
+  page: Word list
+  entry: master
+  kind: existence
+  wrong: (?i)master/slave|master|slave
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Replace with primary, replica, controller, worker etc. except literal code.
+- source: google
+  page: Word list
+  entry: Material Design
+  kind: casing
+  wrong: Material design
+  right: Material Design
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capitalize both words.
+- source: google
+  page: Word list
+  entry: microservices
+  kind: substitution
+  wrong: (?i)micro-services?
+  right: microservices
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word lowercase.
+- source: google
+  page: Word list
+  entry: MIME type
+  kind: substitution
+  wrong: MIME type
+  right: media type
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use media type.
+- source: google
+  page: Word list
+  entry: MIME type
+  kind: substitution
+  wrong: MIME types
+  right: media types
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use media type.
+- source: google
+  page: Word list
+  entry: mom test
+  kind: existence
+  wrong: (?i)(?:mom|grandmother|grandma|girlfriend) test
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use beginner user test or novice user test.
+- source: google
+  page: Word list
+  entry: monkey
+  kind: existence
+  wrong: (?i)monkey test(?:ing)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Say automated, random tests.
+- source: google
+  page: Word list
+  entry: multi-cluster
+  kind: substitution
+  wrong: (?i)multicluster
+  right: multi-cluster
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate exception.
+- source: google
+  page: Word list
+  entry: multi-service
+  kind: substitution
+  wrong: (?i)multiservice
+  right: multi-service
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate exception.
+- source: google
+  page: Word list
+  entry: multi-tenancy
+  kind: substitution
+  wrong: (?i)multitenancy
+  right: multi-tenancy
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate exception.
+- source: google
+  page: Word list
+  entry: N/A
+  kind: substitution
+  wrong: NA
+  right: N/A
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Write N/A or spell out; NA is ambiguous.
+- source: google
+  page: Word list
+  entry: name server
+  kind: substitution
+  wrong: (?i)nameserver
+  right: name server
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: name server
+  kind: substitution
+  wrong: (?i)nameservers
+  right: name servers
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: namespace
+  kind: substitution
+  wrong: (?i)name space
+  right: namespace
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: namespace
+  kind: substitution
+  wrong: (?i)name spaces
+  right: namespaces
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: native
+  kind: existence
+  wrong: (?i)cloud[- ]native
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Ambiguous; try modern cloud, born in the cloud.
+- source: google
+  page: Word list
+  entry: neither
+  kind: existence
+  wrong: '(?i)neither [^,.;]{1,40} or '
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Pair neither with nor.
+- source: google
+  page: Word list
+  entry: new, newer
+  kind: existence
+  wrong: (?i)newer
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid time-dependent words; use later with a version.
+- source: google
+  page: Word list
+  entry: ninja
+  kind: existence
+  wrong: (?i)ninja
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use for a person; use expert.
+- source: google
+  page: Word list
+  entry: nonce
+  kind: existence
+  wrong: (?i)nonce
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use with caution; define on first use.
+- source: google
+  page: Word list
+  entry: NoOps
+  kind: existence
+  wrong: (?i)no-?ops
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use fully managed.
+- source: google
+  page: Word list
+  entry: NoSQL
+  kind: substitution
+  wrong: (?i)no-sql|no sql
+  right: NoSQL
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write NoSQL.
+- source: google
+  page: Word list
+  entry: now
+  kind: existence
+  wrong: (?i)now (?:lets|allows|supports|enables)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid now when describing features.
+- source: google
+  page: Word list
+  entry: nuke
+  kind: existence
+  wrong: (?i)nuke[sd]?|nuking
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use remove or attack.
+- source: google
+  page: Word list
+  entry: OAuth 2.0
+  kind: existence
+  wrong: OAuth2|OAuth 2(?!\.0)|Oauth
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Write OAuth 2.0.
+- source: google
+  page: Word list
+  entry: off-the-shelf
+  kind: existence
+  wrong: (?i)off-the-shelf|\bCOTS\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use ready-made, prebuilt, standard.
+- source: google
+  page: Word list
+  entry: old, older
+  kind: existence
+  wrong: (?i)older (?:version|release)s?|old (?:version|release)s?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use earlier with a version number.
+- source: google
+  page: Word list
+  entry: on-premises
+  kind: substitution
+  wrong: (?i)on[- ]prem(?:ise)?
+  right: on-premises
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate and use premises.
+- source: google
+  page: Word list
+  entry: outpost
+  kind: existence
+  wrong: (?i)outposts?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; use channel.
+- source: google
+  page: Word list
+  entry: outside the box
+  kind: existence
+  wrong: (?i)outside the box|out of the box|out-of-the-box
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid figurative use.
+- source: google
+  page: Word list
+  entry: peering zone
+  kind: substitution
+  wrong: (?i)peer zone
+  right: peering zone
+  domain: technical
+  fix: review
+  american: true
+  context: Google Cloud
+  note: Use peering zone.
+- source: google
+  page: Word list
+  entry: per
+  kind: existence
+  wrong: (?i)as per|per the|per (?:pod|user|request)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use per only for rates; avoid as per, per the.
+- source: google
+  page: Word list
+  entry: performant
+  kind: existence
+  wrong: (?i)performant
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use a more precise term.
+- source: google
+  page: Word list
+  entry: pets versus cattle
+  kind: existence
+  wrong: (?i)pets (?:versus|vs\.?|v\.) cattle
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use persistent versus dynamic.
+- source: google
+  page: Word list
+  entry: please
+  kind: existence
+  wrong: (?i)please
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid in instructions; only for requests that inconvenience reader.
+- source: google
+  page: Word list
+  entry: POJO
+  kind: existence
+  wrong: POJOs?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use simple object unless writing for Java.
+- source: google
+  page: Word list
+  entry: pop-up
+  kind: existence
+  wrong: (?i)pop-?ups?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use dialog or menu.
+- source: google
+  page: Word list
+  entry: postmortem
+  kind: existence
+  wrong: (?i)post-?mortems?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use retrospective, or blameless postmortem in DevOps.
+- source: google
+  page: Word list
+  entry: prebuilt
+  kind: substitution
+  wrong: (?i)pre-built
+  right: prebuilt
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: precapture
+  kind: substitution
+  wrong: (?i)pre-capture
+  right: precapture
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: preemptible
+  kind: substitution
+  wrong: (?i)pre-emptible
+  right: preemptible
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No hyphen.
+- source: google
+  page: Word list
+  entry: pre-existing
+  kind: substitution
+  wrong: (?i)preexisting
+  right: pre-existing
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate.
+- source: google
+  page: Word list
+  entry: prerecorded
+  kind: substitution
+  wrong: (?i)pre-recorded
+  right: prerecorded
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: pre-shared key
+  kind: substitution
+  wrong: (?i)preshared key
+  right: pre-shared key
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate.
+- source: google
+  page: Word list
+  entry: presubmit
+  kind: substitution
+  wrong: (?i)pre-submit
+  right: presubmit
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: preferred pronouns
+  kind: substitution
+  wrong: (?i)preferred pronouns
+  right: pronouns
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Say pronouns.
+- source: google
+  page: Word list
+  entry: presently
+  kind: existence
+  wrong: (?i)at present
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Implied; omit.
+- source: google
+  page: Word list
+  entry: proper
+  kind: existence
+  wrong: (?i)proper(?:ly)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Vague and subjective; describe the technical detail.
+- source: google
+  page: Word list
+  entry: pros
+  kind: existence
+  wrong: (?i)pros and cons
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use advantages and disadvantages.
+- source: google
+  page: Word list
+  entry: quick
+  kind: existence
+  wrong: (?i)quick(?:ly)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Subjective; omit.
+- source: google
+  page: Word list
+  entry: read-only
+  kind: substitution
+  wrong: (?i)read only
+  right: read-only
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Always hyphenate; may flag verb phrase read only.
+- source: google
+  page: Word list
+  entry: redline
+  kind: existence
+  wrong: (?i)redlin(?:e|es|ed|ing)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use as verb.
+- source: google
+  page: Word list
+  entry: regex
+  kind: substitution
+  wrong: (?i)regex
+  right: regular expression
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Spell out regular expression; plural handling needed.
+- source: google
+  page: Word list
+  entry: regex
+  kind: substitution
+  wrong: (?i)regexes
+  right: regular expressions
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Spell out regular expression; plural handling needed.
+- source: google
+  page: Word list
+  entry: repo
+  kind: substitution
+  wrong: (?i)repo
+  right: repository
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Spell out repository.
+- source: google
+  page: Word list
+  entry: Representational State Transfer
+  kind: existence
+  wrong: Representational State Transfer
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not expand REST.
+- source: google
+  page: Word list
+  entry: resource record set
+  kind: substitution
+  wrong: (?i)resource recordset
+  right: resource record set
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Three words.
+- source: google
+  page: Word list
+  entry: retarded
+  kind: existence
+  wrong: (?i)retarded
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; say slowed.
+- source: google
+  page: Word list
+  entry: retriable
+  kind: existence
+  wrong: (?i)retriable|triable|retryable|tryable
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Write around these terms outside code.
+- source: google
+  page: Word list
+  entry: RFC
+  kind: existence
+  wrong: RFC\d+
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Put a space between RFC and number.
+- source: google
+  page: Word list
+  entry: RTFM
+  kind: existence
+  wrong: RTFM|tl;dr|ymmv|YMMV
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid internet slang.
+- source: google
+  page: Word list
+  entry: runbook
+  kind: substitution
+  wrong: (?i)run book
+  right: runbook
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: sane
+  kind: existence
+  wrong: (?i)sane|sanity check
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use valid, sensible, or quick check.
+- source: google
+  page: Word list
+  entry: SAP
+  kind: substitution
+  wrong: a SAP
+  right: an SAP
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pronounced as letters.
+- source: google
+  page: Word list
+  entry: SQL
+  kind: substitution
+  wrong: an SQL
+  right: a SQL
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Pronounced sequel.
+- source: google
+  page: Word list
+  entry: screenshot
+  kind: substitution
+  wrong: (?i)screen shots?|screensnap
+  right: screenshot
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: screenshot
+  kind: substitution
+  wrong: (?i)screen shots?|screensnaps
+  right: screenshots
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: sexy
+  kind: existence
+  wrong: (?i)sexy
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use.
+- source: google
+  page: Word list
+  entry: SHA-1
+  kind: substitution
+  wrong: SHA1
+  right: SHA-1
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate except string literals.
+- source: google
+  page: Word list
+  entry: shall
+  kind: existence
+  wrong: (?i)shall
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid except on legal advice.
+- source: google
+  page: Word list
+  entry: sherpa
+  kind: existence
+  wrong: (?i)sherpa
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use a precise term such as guide.
+- source: google
+  page: Word list
+  entry: shift left
+  kind: existence
+  wrong: (?i)shift(?:ing)? left
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid figurative; say shift earlier.
+- source: google
+  page: Word list
+  entry: simple, simply
+  kind: existence
+  wrong: (?i)simple|simply
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Subjective; delete.
+- source: google
+  page: Word list
+  entry: single pane of glass
+  kind: existence
+  wrong: (?i)single pane of glass
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use single interface or unified interface.
+- source: google
+  page: Word list
+  entry: slice and dice
+  kind: existence
+  wrong: (?i)slice and dice
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use specific terms.
+- source: google
+  page: Word list
+  entry: smartphone
+  kind: substitution
+  wrong: (?i)smart ?phone
+  right: mobile phone
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use mobile phone or phone.
+- source: google
+  page: Word list
+  entry: smartphone
+  kind: substitution
+  wrong: (?i)smart ?phones
+  right: mobile phones
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use mobile phone or phone.
+- source: google
+  page: Word list
+  entry: soon
+  kind: existence
+  wrong: (?i)soon
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid in timeless docs.
+- source: google
+  page: Word list
+  entry: spin up
+  kind: existence
+  wrong: (?i)spin(?:s|ning)? up
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use create or start.
+- source: google
+  page: Word list
+  entry: ssh'ing
+  kind: existence
+  wrong: ssh.ing
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Do not use ssh as verb.
+- source: google
+  page: Word list
+  entry: status bar
+  kind: substitution
+  wrong: (?i)status-?bar
+  right: status bar
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: subtree
+  kind: substitution
+  wrong: (?i)sub-tree
+  right: subtree
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: subzone
+  kind: substitution
+  wrong: (?i)sub[- ]zone
+  right: subzone
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: tarball
+  kind: substitution
+  wrong: (?i)tarball
+  right: tar file
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use tar file.
+- source: google
+  page: Word list
+  entry: tarball
+  kind: substitution
+  wrong: (?i)tarballs
+  right: tar files
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use tar file.
+- source: google
+  page: Word list
+  entry: terminate
+  kind: existence
+  wrong: (?i)terminat(?:e|es|ed|ing)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid as synonym for stop.
+- source: google
+  page: Word list
+  entry: text box
+  kind: existence
+  wrong: (?i)text ?box(?:es)?
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Use box, or field in Cloud and Workspace docs.
+- source: google
+  page: Word list
+  entry: timeframe
+  kind: substitution
+  wrong: (?i)time frame
+  right: timeframe
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word if used.
+- source: google
+  page: Word list
+  entry: timeframe
+  kind: substitution
+  wrong: (?i)time frames
+  right: timeframes
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word if used.
+- source: google
+  page: Word list
+  entry: timestamp
+  kind: substitution
+  wrong: (?i)time stamp
+  right: timestamp
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: timestamp
+  kind: substitution
+  wrong: (?i)time stamps
+  right: timestamps
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: time to live
+  kind: substitution
+  wrong: (?i)time-to-live
+  right: time to live
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphens.
+- source: google
+  page: Word list
+  entry: toolkit
+  kind: substitution
+  wrong: (?i)tool-kit|tool kit
+  right: toolkit
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: touchscreen
+  kind: substitution
+  wrong: (?i)touch screen
+  right: touchscreen
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: touchscreen
+  kind: substitution
+  wrong: (?i)touch screens
+  right: touchscreens
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: transpile
+  kind: substitution
+  wrong: (?i)transcompile
+  right: transpile
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use transpile.
+- source: google
+  page: Word list
+  entry: tribal knowledge
+  kind: existence
+  wrong: (?i)tribal (?:knowledge|wisdom)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use less figurative term.
+- source: google
+  page: Word list
+  entry: Unicode
+  kind: casing
+  wrong: UNICODE
+  right: Unicode
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Not all caps.
+- source: google
+  page: Word list
+  entry: Unix-like
+  kind: substitution
+  wrong: (?i)unixlike|unix like
+  right: Unix-like
+  domain: technical
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenate.
+- source: google
+  page: Word list
+  entry: Unix epoch time
+  kind: substitution
+  wrong: Unix time|(?<!Unix )epoch time
+  right: Unix epoch time
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Use Unix epoch time.
+- source: google
+  page: Word list
+  entry: unsighted
+  kind: existence
+  wrong: (?i)unsighted|visually challenged
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; see blind guidance.
+- source: google
+  page: Word list
+  entry: US
+  kind: substitution
+  wrong: U\.S\.A|U\.S
+  right: US
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Write US with no periods.
+- source: google
+  page: Word list
+  entry: user base
+  kind: substitution
+  wrong: (?i)userbase
+  right: user base
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: UTF
+  kind: existence
+  wrong: UTF\d+
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Write UTF-8 with hyphen.
+- source: google
+  page: Word list
+  entry: utilize
+  kind: existence
+  wrong: (?i)utiliz(?:e|es|ed|ing)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use use; utilization is fine for resource quantity.
+- source: google
+  page: Word list
+  entry: via
+  kind: existence
+  wrong: (?i)via
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use.
+- source: google
+  page: Word list
+  entry: vice versa
+  kind: existence
+  wrong: (?i)vice versa
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Write the relationship explicitly.
+- source: google
+  page: Word list
+  entry: voila
+  kind: existence
+  wrong: (?i)voil[aà]
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use.
+- source: google
+  page: Word list
+  entry: voodoo
+  kind: existence
+  wrong: (?i)voodoo
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use; say mysterious or complicated.
+- source: google
+  page: Word list
+  entry: vs.
+  kind: existence
+  wrong: (?i)vs
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write versus, not vs.
+- source: google
+  page: Word list
+  entry: walkthrough
+  kind: substitution
+  wrong: (?i)walk-through
+  right: walkthrough
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: war room
+  kind: existence
+  wrong: (?i)war[- ]?room
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use situation room or response team.
+- source: google
+  page: Word list
+  entry: web server
+  kind: substitution
+  wrong: (?i)webserver
+  right: web server
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: web server
+  kind: substitution
+  wrong: (?i)webservers
+  right: web servers
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: google
+  page: Word list
+  entry: webmaster
+  kind: existence
+  wrong: (?i)web ?masters?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use website owner or administrator.
+- source: google
+  page: Word list
+  entry: white glove
+  kind: existence
+  wrong: (?i)white[- ]?glove
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use high-touch or premium.
+- source: google
+  page: Word list
+  entry: white label
+  kind: existence
+  wrong: (?i)white[- ]?label
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use unbranded or blank label.
+- source: google
+  page: Word list
+  entry: whitepaper
+  kind: substitution
+  wrong: (?i)white paper
+  right: whitepaper
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word if used.
+- source: google
+  page: Word list
+  entry: whitepaper
+  kind: substitution
+  wrong: (?i)white papers
+  right: whitepapers
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word if used.
+- source: google
+  page: Word list
+  entry: whitespace
+  kind: substitution
+  wrong: (?i)white space
+  right: whitespace
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: wildcard
+  kind: substitution
+  wrong: (?i)wild card
+  right: wildcard
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: wildcard
+  kind: substitution
+  wrong: (?i)wild cards
+  right: wildcards
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: wish
+  kind: existence
+  wrong: (?i)wish(?:es|ed)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use want or need.
+- source: google
+  page: Word list
+  entry: World Wide Web
+  kind: substitution
+  wrong: World Wide Web
+  right: web
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use web.
+- source: google
+  page: What's new
+  entry: gcloud command-line tool
+  kind: substitution
+  wrong: gcloud command-line tool
+  right: gcloud CLI
+  domain: technical
+  fix: safe
+  american: true
+  context: Google Cloud
+  note: Use gcloud CLI.
+- source: google
+  page: Word list
+  entry: hardcode
+  kind: substitution
+  wrong: (?i)hard[- ]code
+  right: hardcode
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word, no hyphen.
+- source: google
+  page: Word list
+  entry: hardcode
+  kind: substitution
+  wrong: (?i)hard[- ]coded
+  right: hardcoded
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word, no hyphen.
+- source: google
+  page: Word list
+  entry: hardcode
+  kind: substitution
+  wrong: (?i)hard[- ]coding
+  right: hardcoding
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word, no hyphen.
+- source: google
+  page: Word list
+  entry: meta-
+  kind: substitution
+  wrong: (?i)meta-feed
+  right: metafeed
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: meta-
+  kind: substitution
+  wrong: (?i)meta-generation
+  right: metageneration
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: google
+  page: Word list
+  entry: Cloud console
+  kind: substitution
+  wrong: Google Cloud Console
+  right: Google Cloud console
+  domain: technical
+  fix: review
+  american: true
+  context: Google Cloud
+  note: Lowercase console; use full name.
+- source: google
+  page: Word list
+  entry: Cloud console
+  kind: substitution
+  wrong: (?<!Google )Cloud [Cc]onsole
+  right: Google Cloud console
+  domain: technical
+  fix: review
+  american: true
+  context: Google Cloud
+  note: Use the full name Google Cloud console.
+- source: google
+  page: Word list
+  entry: blacklist
+  kind: existence
+  wrong: (?i)black[- ]?list(?:s|ed|ing)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use any form; rewrite with precise action verbs.
+- source: google
+  page: Word list
+  entry: whitelist
+  kind: existence
+  wrong: (?i)white[- ]?list(?:s|ed|ing)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not use any form; rewrite with precise action verbs.
+- source: google
+  page: Word list
+  entry: hover
+  kind: existence
+  wrong: (?i)hover(?:s|ed|ing)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use hold the pointer over or point to.
+- source: google
+  page: Word list
+  entry: utilize
+  kind: existence
+  wrong: (?i)utiliz(?:e|es|ed|ing)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use use; utilization of a resource quantity is fine.
+- source: google
+  page: Word list
+  entry: subcommand
+  kind: substitution
+  wrong: subcommands
+  right: sub-commands
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers sub-command.
+- source: google
+  page: Word list
+  entry: sub-command
+  kind: substitution
+  wrong: subcommand
+  right: sub-command
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers sub-command.
+- source: google
+  page: Numbers
+  entry: Ordinal numbers
+  kind: existence
+  wrong: \d+(?:st|nd|rd|th)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Spell out ordinals in text, such as first, fifth.
+- source: google
+  page: Numbers
+  entry: Percentages
+  kind: existence
+  wrong: \d+ percent|\d+ %
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use numeral and percent sign with no space.
+- source: google
+  page: Numbers
+  entry: Dimensions
+  kind: existence
+  wrong: \d+ x \d+
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write dimensions as 192x192, lowercase x, no spaces.
+- source: google
+  page: Numbers
+  entry: Exponents
+  kind: existence
+  wrong: \d\^\d
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use superscript notation, not a caret.
+- source: google
+  page: Numbers
+  entry: Currency
+  kind: existence
+  wrong: \$\d{1,3} \d{3}
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use commas, not spaces, to group thousands.
+- source: google
+  page: Units of measurement
+  entry: Units of measurement
+  kind: existence
+  wrong: \d+(?:GB|MB|kB|KB|TB|PB|GiB|MiB|KiB|TiB|ms|mm|cm|km|Mbps|Gbps|GBps|MBps)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Put a nonbreaking space between number and abbreviated unit.
+- source: google
+  page: Pluralization
+  entry: Plural abbreviations
+  kind: existence
+  wrong: \d+ (?:GB|MB|KB|kB|TB|PB)s
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not pluralize unit abbreviations after a number.
+- source: google
+  page: Units of measurement
+  entry: Temperatures
+  kind: existence
+  wrong: \d+°[CF]
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Put a space between the number and the degree symbol.
+- source: google
+  page: Abbreviations
+  entry: Multiplication as x
+  kind: existence
+  wrong: \d+x (?:faster|slower|more|less|larger|smaller|bigger)
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Write 10 times faster, not 10x faster.
+- source: google
+  page: Hyphens
+  entry: Ranges of numbers
+  kind: existence
+  wrong: from \d+-\d+
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not mix from with a hyphen range; use from X to Y.
+- source: google
+  page: Hyphens
+  entry: Ranges of numbers
+  kind: substitution
+  wrong: (?<=\d)–(?=\d)
+  right: '-'
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Use a hyphen, not an en dash, in number ranges.
+- source: google
+  page: Dashes
+  entry: Dashes
+  kind: existence
+  wrong: (?<=\w) [-–] (?=\w)
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: No spaces around hyphens or en dashes; avoid en dash; use colon in lists.
+- source: google
+  page: Dashes
+  entry: Dashes
+  kind: existence
+  wrong: (?<=\w) — (?=\w)
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Em dash takes no spaces on either side.
+- source: google
+  page: Ellipses
+  entry: Ellipses
+  kind: existence
+  wrong: (?<=\w)\.\.\.(?=\w)
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Avoid ellipses; if used, space around them.
+- source: google
+  page: Quotation marks
+  entry: Quotation marks
+  kind: substitution
+  wrong: (?<=\w)[’‘](?=\w)
+  right: ''''
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Use straight apostrophes, not curly.
+- source: google
+  page: Periods and other end punctuation
+  entry: Periods
+  kind: existence
+  wrong: \.  +[A-Z]
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: One space between sentences.
+- source: google
+  page: Pluralization
+  entry: Plurals with apostrophe
+  kind: existence
+  wrong: '[A-Z]{2,}[''’]s'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Do not form plurals of abbreviations with apostrophe-s; may be a possessive.
+- source: google
+  page: Plurals in parentheses
+  entry: Plurals in parentheses
+  kind: existence
+  wrong: \w\(s(?=\))
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Do not use optional plurals in parentheses.
+- source: google
+  page: Procedures
+  entry: Optional steps
+  kind: existence
+  wrong: (?<=\()Optional(?=\))
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: 'Write Optional: and a colon at step start, not (Optional).'
+- source: google
+  page: Colons
+  entry: Colons
+  kind: existence
+  wrong: (?:are|is|include|includes)(?=:\s*$)
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Text before a colon introducing a list must be a complete sentence.
+- source: google
+  page: Format phone numbers in text
+  entry: Phone numbers
+  kind: existence
+  wrong: \d{3}\) \d{3}-\d{4}
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Use dashes, not parentheses, around the area code.
+- source: google
+  page: Dates and times
+  entry: Time of day
+  kind: existence
+  wrong: \d{1,2}:00 ?(?:AM|PM|am|pm)
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Drop minutes from round hours, such as 3 PM.
+- source: google
+  page: Dates and times
+  entry: Dates
+  kind: existence
+  wrong: \d{1,2}/\d{1,2}/\d{2,4}
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Write dates with month names or ISO format, not slash dates.
+- source: google
+  page: Dates and times
+  entry: Dates
+  kind: existence
+  wrong: \d{1,2}\.\d{1,2}\.\d{4}
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Avoid numeric-only dates with periods; use month names or ISO format.
+- source: google
+  page: Dates and times
+  entry: Month abbreviations
+  kind: existence
+  wrong: (?:Jan|Feb|Mar|Apr|Aug|Sept?|Oct|Nov|Dec)\. \d
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Do not put a period after abbreviated months.
+- source: google
+  page: Dates and times
+  entry: Seasons
+  kind: existence
+  wrong: (?i)in the (?:summer|winter|spring|fall|autumn)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid seasons; use months or quarters.
+- source: google
+  page: Dates and times
+  entry: Time zones
+  kind: existence
+  wrong: \b(?:PST|PDT|EST|EDT|CST|CDT|MST|MDT)\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Spell out time zone names with UTC offset.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)do not
+  right: don't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)does not
+  right: doesn't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)is not
+  right: isn't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)are not
+  right: aren't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)cannot
+  right: can't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)can not
+  right: can't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)will not
+  right: won't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)has not
+  right: hasn't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)have not
+  right: haven't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)should not
+  right: shouldn't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)would not
+  right: wouldn't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)could not
+  right: couldn't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)was not
+  right: wasn't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Contractions
+  entry: Contractions
+  kind: substitution
+  wrong: (?i)were not
+  right: weren't
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Guide prefers negation contractions; keep full form for emphasis.
+- source: google
+  page: Slashes
+  entry: Slashes
+  kind: existence
+  wrong: (?i)c/o|w/(?=\s)
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Spell out slash abbreviations.
+- source: google
+  page: Abbreviations
+  entry: Abbreviations
+  kind: substitution
+  wrong: approx
+  right: approximately
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Use the common spelled-out word.
+- source: google
+  page: Word list
+  entry: Keyboard shortcuts
+  kind: existence
+  wrong: (?:Ctrl|Ctl|Cmd)\+\w
+  domain: technical
+  fix: review
+  american: true
+  context: general
+  note: Write Control+C, Command+C, not abbreviated.
+- source: google
+  page: Procedures
+  entry: Run the following command
+  kind: existence
+  wrong: (?i)run the following command
+  domain: technical
+  fix: none
+  american: true
+  context: general
+  note: Describe what the command does instead.
+- source: google
+  page: Write accessible documentation
+  entry: Directional language
+  kind: existence
+  wrong: (?i)right-hand|left-hand|(?:diagram|image|figure|table|screenshot|example) (?:above|below)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid directional language; use preceding or following.
+- source: google
+  page: Cross-references and linking
+  entry: Link text
+  kind: existence
+  wrong: (?i)see this (?:document|article|page|link|blog post)
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid vague link text like this document.
+- source: google
+  page: Voice and tone
+  entry: Tone
+  kind: existence
+  wrong: (?i)it.s (?:that )?(?:simple|easy)|at this time
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid filler and subjective phrases.
+- source: google
+  page: Write for a global audience
+  entry: Idioms
+  kind: existence
+  wrong: (?i)ballpark figure|back burner|hang in there
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid idioms hard to translate.
+- source: google
+  page: Write for a global audience
+  entry: Writing for a global audience
+  kind: existence
+  wrong: (?i)commence|consequently|a number of|makes? use of
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: 'Use simpler words: start, so, some or many, use.'
+- source: google
+  page: Write inclusive documentation
+  entry: Older adults
+  kind: existence
+  wrong: (?i)the elderly|the aged|seniors?|senior citizens?|80 years young
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use older adults or aging population.
+- source: google
+  page: Write inclusive documentation
+  entry: Native speakers
+  kind: existence
+  wrong: (?i)(?:non-)?native speakers?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid dividing readers by native language.
+- source: google
+  page: Write inclusive documentation
+  entry: Disability terms
+  kind: existence
+  wrong: (?i)the disabled|a quadriplegic|wheelchair[- ]bound|suffering from|victim of|physically challenged|differently abled|handi-?capable|special needs
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use neutral, person-first or community-preferred terms.
+- source: google
+  page: Write inclusive documentation
+  entry: mankind
+  kind: substitution
+  wrong: (?i)mankind
+  right: humanity
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Avoid gendered terms.
+- source: google
+  page: Write inclusive documentation
+  entry: dumb
+  kind: existence
+  wrong: (?i)dumb
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Ableist language; choose accurate alternative.
+- source: google
+  page: Write inclusive documentation
+  entry: Casual sanity-check
+  kind: existence
+  wrong: (?i)sanity[- ]check
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use final check or confidence check.
+- source: google
+  page: Write inclusive documentation
+  entry: Subjective language
+  kind: existence
+  wrong: (?i)thorough(?:ly)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid subjective modifiers like thoroughly.
+- source: google
+  page: Hyphens
+  entry: Hyphen after -ly adverb
+  kind: existence
+  wrong: '[A-Za-z]+ly-[a-z]+'
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Do not hyphenate -ly adverbs; many false hits like family-friendly.
+- source: google
+  page: Anthropomorphism
+  entry: Anthropomorphism
+  kind: existence
+  wrong: (?i)(?:object|class|method|function|server|PC|computer|app) (?:tells|sees|wants|knows|thinks)\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Do not give software human qualities.
+- source: google
+  page: Avoid excessive claims
+  entry: Excessive claims
+  kind: existence
+  wrong: (?i)\b(?:best|fastest|simplest|guarantees?)\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid superlatives and guarantees unless verifiable.
+- source: google
+  page: Present tense
+  entry: Future tense
+  kind: existence
+  wrong: (?i)\b(?:would then|will then)\b
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Prefer present tense.

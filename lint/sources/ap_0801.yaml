@@ -1,0 +1,1460 @@
+- source: ap
+  page: 801
+  entry: silencer, suppressor
+  kind: existence
+  wrong: silencer(?:s)?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Suppressor is the more accurate term; describe as firearm suppressor, generically a silencer.
+- source: ap
+  page: 802
+  entry: submachine gun
+  kind: substitution
+  wrong: sub-machine gun|sub machine gun|submachinegun|submachine-gun
+  right: submachine gun
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words, no hyphen.
+- source: ap
+  page: 802
+  entry: -wear
+  kind: substitution
+  wrong: active wear|active-wear
+  right: activewear
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Words ending in -wear are written solid.
+- source: ap
+  page: 802
+  entry: -wear
+  kind: substitution
+  wrong: eye wear|eye-wear
+  right: eyewear
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Words ending in -wear are written solid.
+- source: ap
+  page: 802
+  entry: -wear
+  kind: substitution
+  wrong: head wear|head-wear
+  right: headwear
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Words ending in -wear are written solid.
+- source: ap
+  page: 802
+  entry: -wear
+  kind: substitution
+  wrong: outer wear|outer-wear
+  right: outerwear
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Words ending in -wear are written solid.
+- source: ap
+  page: 802
+  entry: -wear
+  kind: substitution
+  wrong: sports wear|sports-wear
+  right: sportswear
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Words ending in -wear are written solid.
+- source: ap
+  page: 802
+  entry: -wear
+  kind: substitution
+  wrong: swim wear|swim-wear
+  right: swimwear
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Words ending in -wear are written solid.
+- source: ap
+  page: 802
+  entry: -wear
+  kind: substitution
+  wrong: men's wear|mens wear|men-swear
+  right: menswear
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Words ending in -wear are written solid.
+- source: ap
+  page: 802
+  entry: -wear
+  kind: substitution
+  wrong: women's wear|womens wear
+  right: womenswear
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Words ending in -wear are written solid.
+- source: ap
+  page: 802
+  entry: -wear
+  kind: substitution
+  wrong: evening wear|evening-wear
+  right: eveningwear
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Words ending in -wear are written solid.
+- source: ap
+  page: 802
+  entry: weather-beaten
+  kind: substitution
+  wrong: weather beaten|weatherbeaten
+  right: weather-beaten
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenated.
+- source: ap
+  page: 802
+  entry: degree-day
+  kind: existence
+  wrong: degree days?
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate degree-day and degree-days.
+- source: ap
+  page: 802
+  entry: derecho
+  kind: substitution
+  wrong: derechoes
+  right: derechos
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Plural is derechos.
+- source: ap
+  page: 802
+  entry: dew point
+  kind: substitution
+  wrong: dewpoint|dew-point
+  right: dew point
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: ap
+  page: 805
+  entry: hurricane categories
+  kind: existence
+  wrong: category [1-5](?= (?:hurricane|storm|cyclone|typhoon))
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalize Category before the number in hurricane ratings.
+- source: ap
+  page: 807
+  entry: nor’easter
+  kind: substitution
+  wrong: noreaster|nor-easter|nor'easter
+  right: nor’easter
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Spelled with an apostrophe after nor.
+- source: ap
+  page: 808
+  entry: rainstorm
+  kind: existence
+  wrong: rain event
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Call it a rainstorm, not a rain event.
+- source: ap
+  page: 808
+  entry: rainstorm
+  kind: substitution
+  wrong: rain storm|rain-storm
+  right: rainstorm
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 809
+  entry: tornado
+  kind: substitution
+  wrong: tornados
+  right: tornadoes
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Plural is tornadoes.
+- source: ap
+  page: 809
+  entry: tidal wave
+  kind: existence
+  wrong: tidal waves?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Often wrongly used for tsunami; tidal bore or rogue wave for other cases.
+- source: ap
+  page: 809
+  entry: traveler’s advisory
+  kind: substitution
+  wrong: travelers advisory|travelers[’'] advisory|traveller[’']s advisory
+  right: traveler’s advisory
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Spelled traveler’s advisory.
+- source: ap
+  page: 810
+  entry: waterspout
+  kind: substitution
+  wrong: water spout|water-spout
+  right: waterspout
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 810
+  entry: wind chill factor
+  kind: substitution
+  wrong: wind-chill factor
+  right: wind chill factor
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen.
+- source: ap
+  page: 810
+  entry: wind chill factor
+  kind: substitution
+  wrong: wind-chill
+  right: wind chill
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: No hyphen in wind chill.
+- source: ap
+  page: 810
+  entry: wind shear
+  kind: substitution
+  wrong: windshear|wind-shear
+  right: wind shear
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Two words.
+- source: ap
+  page: 810
+  entry: windstorm
+  kind: existence
+  wrong: wind event
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Call it a windstorm, not a wind event.
+- source: ap
+  page: 810
+  entry: windstorm
+  kind: substitution
+  wrong: wind storm|wind-storm
+  right: windstorm
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 811
+  entry: web
+  kind: existence
+  wrong: Web address|Web browser
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Lowercase web in web address and web browser.
+- source: ap
+  page: 812
+  entry: web
+  kind: substitution
+  wrong: web cam|web-cam
+  right: webcam
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 812
+  entry: web
+  kind: substitution
+  wrong: web cast|web-cast
+  right: webcast
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 812
+  entry: web
+  kind: substitution
+  wrong: web feed|web-feed
+  right: webfeed
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 812
+  entry: web
+  kind: substitution
+  wrong: web master|web-master
+  right: webmaster
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 812
+  entry: web
+  kind: substitution
+  wrong: web page|web-page|Web page
+  right: webpage
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word, lowercase.
+- source: ap
+  page: 812
+  entry: website
+  kind: substitution
+  wrong: Web site|web site|Web-site|web-site|Website
+  right: website
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word, lowercase.
+- source: ap
+  page: 812
+  entry: WeChat
+  kind: casing
+  wrong: Wechat|WECHAT|wechat|We Chat
+  right: WeChat
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capital W and C.
+- source: ap
+  page: 812
+  entry: weeklong, weekslong
+  kind: substitution
+  wrong: week-long
+  right: weeklong
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word as an adjective.
+- source: ap
+  page: 812
+  entry: weeklong, weekslong
+  kind: substitution
+  wrong: week long
+  right: weeklong
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word as an adjective; check it is not a noun phrase.
+- source: ap
+  page: 812
+  entry: weeklong, weekslong
+  kind: substitution
+  wrong: weeks-long|weeks long
+  right: weekslong
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word as an adjective.
+- source: ap
+  page: 813
+  entry: West, Western
+  kind: substitution
+  wrong: country-Western|Country-Western|country Western
+  right: country-western
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Lowercase in country-western to avoid mixed case.
+- source: ap
+  page: 813
+  entry: West, Western
+  kind: casing
+  wrong: old west
+  right: Old West
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalize Old West for the 19th-century frontier.
+- source: ap
+  page: 814
+  entry: WhatsApp
+  kind: casing
+  wrong: Whatsapp|WHATSAPP|whatsapp|Whats App
+  right: WhatsApp
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capital W and A.
+- source: ap
+  page: 815
+  entry: wheelchair user
+  kind: existence
+  wrong: confined to (?:a |an |his |her |their )?wheelchairs?|wheelchair[- ]bound
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Use wheelchair user; do not use confined to or wheelchair-bound.
+- source: ap
+  page: 816
+  entry: wherever
+  kind: substitution
+  wrong: where ever
+  right: wherever
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 817
+  entry: whistleblower
+  kind: substitution
+  wrong: whistle-blower|whistle blower
+  right: whistleblower
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 817
+  entry: white paper
+  kind: substitution
+  wrong: whitepaper|white-paper|White Paper
+  right: white paper
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Two words, lowercase, for a special report.
+- source: ap
+  page: 817
+  entry: wholesale price index
+  kind: casing
+  wrong: Wholesale Price Index
+  right: wholesale price index
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Lowercase when referring to the producer price index.
+- source: ap
+  page: 818
+  entry: -wide
+  kind: existence
+  wrong: '[A-Za-z]{3,}-wide'
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Words ending in -wide take no hyphen (statewide, nationwide).
+- source: ap
+  page: 818
+  entry: wide-
+  kind: substitution
+  wrong: wide-spread|wide spread
+  right: widespread
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word, an exception to the wide- hyphen pattern.
+- source: ap
+  page: 818
+  entry: widow, widower
+  kind: existence
+  wrong: widow(?:er)? of the late
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Redundant: widow of the late.'
+- source: ap
+  page: 818
+  entry: Wi-Fi
+  kind: casing
+  wrong: Wifi|WiFi|wifi|WIFI|Wi-fi|wi-fi
+  right: Wi-Fi
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capital W and F with a hyphen.
+- source: ap
+  page: 820
+  entry: WikiLeaks
+  kind: casing
+  wrong: Wikileaks|wikileaks|WIKILEAKS
+  right: WikiLeaks
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capital W and L.
+- source: ap
+  page: 820
+  entry: wines
+  kind: casing
+  wrong: Chardonnay
+  right: chardonnay
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Grape varietal wine names are lowercase.
+- source: ap
+  page: 820
+  entry: wines
+  kind: casing
+  wrong: Shiraz
+  right: shiraz
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Grape varietal wine names are lowercase.
+- source: ap
+  page: 820
+  entry: wines
+  kind: casing
+  wrong: chianti
+  right: Chianti
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Wines named for regions are capitalized.
+- source: ap
+  page: 820
+  entry: wines
+  kind: casing
+  wrong: champagne
+  right: Champagne
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Region-named wines are capitalized; generic sparkling wine may differ.
+- source: ap
+  page: 821
+  entry: wintertime
+  kind: substitution
+  wrong: winter-time|winter time
+  right: wintertime
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 821
+  entry: wiretap, wiretapper
+  kind: substitution
+  wrong: wiretaped
+  right: wiretapped
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Past tense doubles the p.
+- source: ap
+  page: 821
+  entry: wiretap, wiretapper
+  kind: substitution
+  wrong: wiretaping
+  right: wiretapping
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Doubles the p.
+- source: ap
+  page: 821
+  entry: wiretap, wiretapper
+  kind: substitution
+  wrong: wire-tap|wire tap
+  right: wiretap
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 821
+  entry: -wise
+  kind: existence
+  wrong: (?:clock|length|other|slant|like|edge|side)-wise
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen when -wise means in the direction of or regarding.
+- source: ap
+  page: 824
+  entry: -wise
+  kind: existence
+  wrong: (?:money|religion)wise
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid contrived -wise combinations.
+- source: ap
+  page: 824
+  entry: -wise
+  kind: substitution
+  wrong: pennywise
+  right: penny-wise
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated because wise means smart.
+- source: ap
+  page: 824
+  entry: -wise
+  kind: substitution
+  wrong: streetwise|street wise
+  right: street-wise
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenated, an exception to Webster’s.
+- source: ap
+  page: 824
+  entry: workbook, workday, workforce, workhorse, workout, workplace, worksheet, workstation, workweek
+  kind: existence
+  wrong: work[ -](?:book|day|force|horse|place|sheet|station|week)s?|work-out
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: These work compounds are one word.
+- source: ap
+  page: 824
+  entry: workers’ compensation
+  kind: substitution
+  wrong: workers compensation|worker[’']s compensation|workmen[’']s compensation
+  right: workers' compensation
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Plural possessive with apostrophe after s.
+- source: ap
+  page: 824
+  entry: working class, working-class
+  kind: substitution
+  wrong: working class(?= (?:families|voters|people|jobs|neighborhoods|background|heroes|men|women|communities|whites))
+  right: working-class
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate as an adjective; noun stays two words.
+- source: ap
+  page: 824
+  entry: World Series
+  kind: casing
+  wrong: world series
+  right: World Series
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capitalized, a rare exception to general capitalization rules.
+- source: ap
+  page: 825
+  entry: World War I, World War II
+  kind: substitution
+  wrong: World War (?:1|One)
+  right: World War I
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use Roman numeral I.
+- source: ap
+  page: 825
+  entry: World War I, World War II
+  kind: substitution
+  wrong: World War (?:2|Two)
+  right: World War II
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Use Roman numeral II.
+- source: ap
+  page: 825
+  entry: worldwide
+  kind: substitution
+  wrong: world-wide|world wide(?! web)
+  right: worldwide
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 825
+  entry: write-down, write down
+  kind: substitution
+  wrong: writedown
+  right: write-down
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Noun and adjective are hyphenated.
+- source: ap
+  page: 825
+  entry: wrongdoing
+  kind: substitution
+  wrong: wrong-doing|wrong doing
+  right: wrongdoing
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 826
+  entry: Xbox
+  kind: casing
+  wrong: XBox|X-box|XBOX|X-Box
+  right: Xbox
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capital X only.
+- source: ap
+  page: 826
+  entry: Xmas
+  kind: existence
+  wrong: Xmas|X-mas
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Do not use this abbreviation for Christmas.
+- source: ap
+  page: 826
+  entry: X-ray
+  kind: casing
+  wrong: Xray|xray|X ray|x ray|x-ray
+  right: X-ray
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Capital X with a hyphen.
+- source: ap
+  page: 826
+  entry: Yahoo
+  kind: existence
+  wrong: Yahoo!
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Do not use the exclamation point in the formal name.
+- source: ap
+  page: 826
+  entry: year-end
+  kind: substitution
+  wrong: yearend
+  right: year-end
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenated noun and adjective.
+- source: ap
+  page: 826
+  entry: year-end
+  kind: substitution
+  wrong: year end(?= (?:bonus|sale|sales|report|earnings|results|numbers|deal|deadline|party|holiday))
+  right: year-end
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Hyphenate as an adjective.
+- source: ap
+  page: 826
+  entry: yearlong, yearslong
+  kind: substitution
+  wrong: year-long|year long
+  right: yearlong
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word as an adjective.
+- source: ap
+  page: 826
+  entry: yearlong, yearslong
+  kind: substitution
+  wrong: years-long|years long
+  right: yearslong
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: One word as an adjective.
+- source: ap
+  page: 826
+  entry: year-round
+  kind: substitution
+  wrong: yearround|year round
+  right: year-round
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Hyphenated adjective and adverb.
+- source: ap
+  page: 827
+  entry: years
+  kind: existence
+  wrong: (?:1[0-9]|20)\d0['’]s
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: Decades and centuries take s with no apostrophe (1890s).
+- source: ap
+  page: 827
+  entry: yesterday
+  kind: existence
+  wrong: yesterday
+  domain: wording
+  fix: none
+  american: true
+  context: news
+  note: Use only in quotes or non-specific phrases; otherwise use the day of the week.
+- source: ap
+  page: 827
+  entry: YouTube
+  kind: casing
+  wrong: Youtube|youtube|You Tube
+  right: YouTube
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Capital Y and T.
+- source: ap
+  page: 828
+  entry: Yukon
+  kind: existence
+  wrong: Y\.T\.
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Do not abbreviate Yukon.
+- source: ap
+  page: 828
+  entry: Yule, Yuletide
+  kind: casing
+  wrong: yule|yuletide
+  right: Yule
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Uppercase, an exception to Webster’s.
+- source: ap
+  page: 828
+  entry: zero, zeros
+  kind: substitution
+  wrong: zeroes(?! in\b)
+  right: zeros
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Plural is zeros.
+- source: ap
+  page: 829
+  entry: zigzag
+  kind: substitution
+  wrong: zig-zag|zig zag
+  right: zigzag
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: One word.
+- source: ap
+  page: 829
+  entry: ZIP code
+  kind: casing
+  wrong: Zip code|zip code|Zip Code|ZIP Code|zip Code
+  right: ZIP code
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: ZIP all caps, code lowercase.
+- source: ap
+  page: 829
+  entry: ZIP code
+  kind: existence
+  wrong: \b[A-Z]{2}, \d{5}(?:-\d{4})?\b
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: No comma between state name and ZIP code.
+- source: ap
+  page: 830
+  entry: zip line
+  kind: substitution
+  wrong: zipline|zip-line
+  right: zip line
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Two words.
+- source: ap
+  page: 832
+  entry: apostrophe
+  kind: existence
+  wrong: \b\d{2,4}['’]s\b
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: No apostrophe in plurals of numerals.
+- source: ap
+  page: 832
+  entry: apostrophe
+  kind: existence
+  wrong: (?:Achilles|Agnes|Ceres|Descartes|Dickens|Euripides|Hercules|Jesus|Jules|Kansas|Moses|Socrates|Williams|Xerxes)['’]s\b
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: Singular proper names ending in s take only an apostrophe.
+- source: ap
+  page: 832
+  entry: apostrophe
+  kind: existence
+  wrong: (?:appearance|conscience|goodness)['’]s sake
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Use apostrophe alone in sake expressions before s sounds.
+- source: ap
+  page: 833
+  entry: apostrophe
+  kind: substitution
+  wrong: your['’]s
+  right: yours
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Possessive pronouns take no apostrophe.
+- source: ap
+  page: 833
+  entry: apostrophe
+  kind: substitution
+  wrong: her['’]s
+  right: hers
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Possessive pronouns take no apostrophe.
+- source: ap
+  page: 833
+  entry: apostrophe
+  kind: substitution
+  wrong: our['’]s
+  right: ours
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Possessive pronouns take no apostrophe.
+- source: ap
+  page: 833
+  entry: apostrophe
+  kind: substitution
+  wrong: their['’]s
+  right: theirs
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Possessive pronouns take no apostrophe.
+- source: ap
+  page: 834
+  entry: apostrophe
+  kind: existence
+  wrong: \b(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven) (?:days|weeks|months|years)['’] (?:old|pregnant|overdue|late)\b
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: No apostrophe when the quantity precedes an adjective.
+- source: ap
+  page: 835
+  entry: colon
+  kind: existence
+  wrong: ':\s*—|—\s*:'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Do not combine a dash and a colon.
+- source: ap
+  page: 835
+  entry: colon
+  kind: existence
+  wrong: '[:;][”"]'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Colons and semicolons go outside closing quotation marks unless part of the quote.
+- source: ap
+  page: 836
+  entry: comma
+  kind: existence
+  wrong: \b[A-Za-z]+, [A-Za-z]+, (?:and|or) [A-Za-z]+\b
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: No comma before the conjunction in a simple series.
+- source: ap
+  page: 839
+  entry: comma
+  kind: existence
+  wrong: \b(?:Jan\.|Feb\.|Aug\.|Sept\.|Oct\.|Nov\.|Dec\.|March|April|May|June|July) \d{1,2} \d{4}\b
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Set off the year in a full date with a comma.
+- source: ap
+  page: 839
+  entry: comma
+  kind: existence
+  wrong: (?<=[A-Za-z])"[,.]|”[,.]
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Periods and commas always go inside quotation marks.
+- source: ap
+  page: 839
+  entry: dash
+  kind: substitution
+  wrong: (?<=\w)—(?=\w)
+  right: ' — '
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Put a space on both sides of a dash.
+- source: ap
+  page: 839
+  entry: ellipsis
+  kind: existence
+  wrong: (?<=[A-Za-z])\.\.\.
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Ellipsis is spaced like a three-letter word, with a space on each side.
+- source: ap
+  page: 839
+  entry: ellipsis
+  kind: substitution
+  wrong: …
+  right: '...'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Use three periods, not the single ellipsis character.
+- source: ap
+  page: 841
+  entry: em dash, en dash, hyphen
+  kind: existence
+  wrong: –
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: AP does not use en dashes; use a hyphen for ranges.
+- source: ap
+  page: 841
+  entry: exclamation point
+  kind: existence
+  wrong: '[!?][”"]?[,.](?!\.)'
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: No comma or period after an exclamation or question mark.
+- source: ap
+  page: 843
+  entry: hyphen
+  kind: existence
+  wrong: \b(?!(?:family|friendly|only|early|daily|weekly|monthly|yearly|holy|ugly|lonely|lovely|silly|jelly|belly|bully|rally|supply|reply|apply|assembly|Italy|likely|elderly|deadly|lively|costly|curly|bubbly|chilly|jolly|lily|July|ally|oily|wily|rely)-)(?:very|[a-z]{3,}ly)-(?=[a-z]{3,})
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: No hyphen after very or an -ly adverb in a compound modifier.
+- source: ap
+  page: 843
+  entry: hyphen
+  kind: existence
+  wrong: \b(?:African|Asian|Italian|Mexican|Irish|Chinese|Japanese|Korean|Cuban|Indian|German|Polish|Filipino|Arab|Native|Vietnamese|Greek)-American
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: No hyphen for dual heritage terms like African American.
+- source: ap
+  page: 844
+  entry: hyphen
+  kind: existence
+  wrong: \b(?:re-elect|pre-empt)\w*
+  domain: wording
+  fix: safe
+  american: true
+  context: general
+  note: 'Double-e prefix words are solid: reelected, preempted.'
+- source: ap
+  page: 845
+  entry: parentheses
+  kind: existence
+  wrong: \((?:R|D|I)-[A-Z][A-Za-z.]+\)
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Do not put party and state in parentheses; use commas.
+- source: ap
+  page: 845
+  entry: parentheses
+  kind: existence
+  wrong: \(cq\)
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Do not use (cq) to mark unusual spellings.
+- source: ap
+  page: 845
+  entry: periods
+  kind: existence
+  wrong: \b[A-Z]\. [A-Z]\. [A-Z][a-z]+
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: No space between initials of a name (T.S. Eliot).
+- source: ap
+  page: 846
+  entry: periods
+  kind: existence
+  wrong: \.  +(?=[A-Z])
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Use a single space after a period ending a sentence.
+- source: ap
+  page: 849
+  entry: slash
+  kind: substitution
+  wrong: either-or
+  right: either/or
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Use a slash rather than a hyphen in such constructions.
+- source: ap
+  page: 849
+  entry: slash
+  kind: substitution
+  wrong: over-under
+  right: over/under
+  domain: grammar
+  fix: review
+  american: true
+  context: general
+  note: Use a slash rather than a hyphen.
+- source: ap
+  page: 849
+  entry: slash
+  kind: substitution
+  wrong: and-or
+  right: and/or
+  domain: grammar
+  fix: safe
+  american: true
+  context: general
+  note: Use a slash.
+- source: ap
+  page: 849
+  entry: slash
+  kind: existence
+  wrong: (?<=\w) / (?=\w)
+  domain: grammar
+  fix: none
+  american: true
+  context: general
+  note: No spaces around a slash, except in verse line breaks.
+- source: ap
+  page: 856
+  entry: currency conversions
+  kind: existence
+  wrong: €
+  domain: wording
+  fix: review
+  american: true
+  context: business
+  note: Write euros as 100 euros; do not use the euro symbol.
+- source: ap
+  page: 857
+  entry: currency conversions
+  kind: substitution
+  wrong: (?<![A-Z])A\$
+  right: AU$
+  domain: wording
+  fix: review
+  american: true
+  context: business
+  note: Use AU$ for Australian dollars on later references.
+- source: ap
+  page: 857
+  entry: currency conversions
+  kind: substitution
+  wrong: (?<![A-Z])C\$
+  right: CA$
+  domain: wording
+  fix: review
+  american: true
+  context: business
+  note: Use CA$ for Canadian dollars.
+- source: ap
+  page: 857
+  entry: currency conversions
+  kind: substitution
+  wrong: (?<![A-Z])S\$
+  right: SG$
+  domain: wording
+  fix: review
+  american: true
+  context: business
+  note: Use SG$ for Singapore dollars.
+- source: ap
+  page: 875
+  entry: inclusive storytelling
+  kind: existence
+  wrong: immigration sweeps?
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Phrase can imply people are dirty; choose neutral wording.
+- source: ap
+  page: 875
+  entry: inclusive storytelling
+  kind: existence
+  wrong: \belderly\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Be specific with ages instead of the label elderly.
+- source: ap
+  page: 876
+  entry: inclusive storytelling
+  kind: existence
+  wrong: \bthe (?:homeless|mentally ill)\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Avoid dehumanizing the-plus-adjective labels for groups.
+- source: ap
+  page: 876
+  entry: inclusive storytelling
+  kind: existence
+  wrong: \b(?:insane schedules?|lame ideas?|turn(?:ed|ing|s)? a blind eye|must be deaf)\b
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Pause before using disability words in unrelated senses.
+- source: ap
+  page: 880
+  entry: inclusive storytelling
+  kind: substitution
+  wrong: utilize
+  right: use
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Favor the smaller word.
+- source: ap
+  page: 880
+  entry: inclusive storytelling
+  kind: substitution
+  wrong: utilizes
+  right: uses
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Favor the smaller word.
+- source: ap
+  page: 880
+  entry: inclusive storytelling
+  kind: substitution
+  wrong: utilized
+  right: used
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Favor the smaller word.
+- source: ap
+  page: 880
+  entry: inclusive storytelling
+  kind: substitution
+  wrong: utilizing
+  right: using
+  domain: wording
+  fix: review
+  american: true
+  context: general
+  note: Favor the smaller word.
+- source: ap
+  page: 880
+  entry: inclusive storytelling
+  kind: substitution
+  wrong: audacious
+  right: bold
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Favor smaller words.
+- source: ap
+  page: 880
+  entry: inclusive storytelling
+  kind: existence
+  wrong: attempt(?:s|ed|ing)? to
+  domain: wording
+  fix: none
+  american: true
+  context: general
+  note: Prefer try to attempt.
+- source: ap
+  page: 894
+  entry: polls and surveys
+  kind: existence
+  wrong: statistical (?:dead heat|tie)
+  domain: wording
+  fix: none
+  american: true
+  context: polls
+  note: Inaccurate if there is any gap; say tied, essentially tied, close or about even.
+- source: ap
+  page: 894
+  entry: polls and surveys
+  kind: existence
+  wrong: margin of (?:sampling )?error (?:of|is|was) (?:plus or minus |\+/-|±)?\s?[\d.]+ ?(?:%|percent)(?!age)
+  domain: wording
+  fix: review
+  american: true
+  context: polls
+  note: Express margin of error in percentage points, not percent.

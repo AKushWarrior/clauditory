@@ -1,5 +1,5 @@
 {
-  "description": "After Claude writes or edits a prose file, check it with clauditory-lint if the linter is installed.",
+  "description": "After Claude writes or edits a prose file, check it with the linter bundled in the writing-style skill and pass any problems back to Claude.",
   "hooks": {
     "PostToolUse": [
       {
@@ -7,8 +7,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "command -v clauditory-lint >/dev/null 2>&1 || exit 0; exec clauditory-lint hook",
-            "timeout": 30
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/skills/writing-style/scripts/lint\" hook; [ $? -eq 2 ] && exit 2; exit 0",
+            "timeout": 60
           }
         ]
       }
