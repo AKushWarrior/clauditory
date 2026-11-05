@@ -112,7 +112,7 @@ For documentation, instructions, code comments, commit messages, and pull reques
 ## 8. Mechanics
 
 - Use American spelling and hold it: -ize and -yze (organize, analyze), -or (color), -er (center), traveled and canceled with one l, judgment, gray, toward. A few verbs end in -ise in every system: advertise, advise, comprise, compromise, devise, exercise, revise, supervise, surprise.
-- Spell out one through nine and use figures for 10 and above. Measurements, money, ages, percentages, and data always take figures (3 percent, $4, 5 miles). When one number in a series needs a figure, use figures for the comparable numbers in that series (4, 8, or 16 drives).
+- Spell out one through nine and use figures for 10 and above. Measurements, money, ages, percentages, and data always take figures (3 percent, $4, 5 miles).
 - Use commas in numbers of four or more digits (1,000; 25,000), except in years, version numbers, and code.
 - Don't start a sentence with a figure. Spell the number out or recast: "The 2024 release added..." instead of "2024 saw...".
 - Write "percent" in running prose, and use the % symbol in tables and charts.
