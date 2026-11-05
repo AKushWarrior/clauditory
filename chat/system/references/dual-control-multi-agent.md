@@ -1,6 +1,6 @@
 # Does Multi-Agent Collaboration Pay When Agents Serve Users? Testing Agent Scaling in Dual-Control Settings
 
-- **Source:** Ethan Yang and Xiangcheng Shi (University of Pennsylvania), "Does Multi-Agent Collaboration Pay When Agents Serve Users? Testing Agent Scaling in Dual-Control Settings," arXiv preprint arXiv:2610.27655, first version 20 October 2026. Pre-registered, with code, prompts and trajectories released.
+- **Source:** Ethan Yang and Xiangcheng Shi (University of Pennsylvania), "Does Multi-Agent Collaboration Pay When Agents Serve Users? Testing Agent Scaling in Dual-Control Settings," arXiv preprint arXiv:2610.27655, first version October 20, 2026. Pre-registered, with code, prompts, and trajectories released.
 - **Type:** Preprint (not peer-reviewed), academic
 - **Where to find it:** https://arxiv.org/abs/2610.27655
 - **Last reviewed:** 2026-11-05
@@ -48,12 +48,12 @@ The setting is close to a chat agent's: one conversation, one user who supplies 
 
 The paper supports the restrictive half of the delegation rules in the "While working" subsection.
 
-- **Keep work that needs shared context or a chain of linked decisions with a single agent.** This is the paper's strongest bearing. The team split turn-by-turn work that depends on what the customer just said, and the split cost 11 to 81 points. The single-context agent running the same plan-and-review cycle did not lose, which ties the cost to dividing tightly coupled work. The prompt's rule names exactly this kind of work as unsuitable for delegation.
+- **Keep work that needs shared context or a chain of linked decisions with a single agent.** This rule has the paper's strongest bearing. The team split turn-by-turn work that depends on what the customer just said, and the split cost 11 to 81 points. The single-context agent running the same plan-and-review cycle did not lose, which ties the cost to dividing tightly coupled work. The prompt's rule names exactly this kind of work as unsuitable for delegation.
 - **Hand a goal to a subagent only when it is sizeable and independent.** The paper offers negative evidence: when work was neither independent nor separable, the team lost at every capability level tested. It says nothing positive about delegating independent work, since it never tested that.
-- **Don't use subagents to recheck your own work.** The policy advisor was a second agent consulted on the main agent's plans, and it did not detectably reduce wrongful writes while it consumed budget. This is consistent with the rule. The advisor had no veto, so the paper doesn't show that an empowered checker fails.
+- **Don't use subagents to recheck your own work.** The policy advisor was a second agent consulted on the main agent's plans, and it did not detectably reduce wrongful writes while it consumed budget. That result is consistent with the rule. The advisor had no veto, so the paper doesn't show that an empowered checker fails.
 - **Count a goal as done only when something outside your own judgment shows it.** The paper scores outcomes by database state and found that a team can look busy (planning, consulting, ordering writes) while the state goes unchanged. That supports judging by outside evidence, though the paper doesn't test any instruction about it.
 
-The paper also bears on what the prompt leaves unsaid about capability. It tested cheap models (gpt-5-nano, gemini-3.1-flash-lite and the small Qwen models), and teams built from them lost as badly as teams built from stronger ones. It never mixed models within a team, so it gives no evidence about cheap models in particular roles. Its one statement about weak models is that same-model teams didn't rescue them in this setting.
+The paper also bears on what the prompt leaves unsaid about capability. It tested cheap models (gpt-5-nano, gemini-3.1-flash-lite, and the small Qwen models), and teams built from them lost as badly as teams built from stronger ones. It never mixed models within a team, so it gives no evidence about cheap models in particular roles. Its one statement about weak models is that same-model teams didn't rescue them in this setting.
 
 ## What the prompt omits
 
@@ -64,7 +64,7 @@ The paper also bears on what the prompt leaves unsaid about capability. It teste
 
 ## Conflicts with other references
 
-When this file was drafted, the other new reference files did not exist yet, so the points below were first worked from the sources themselves. Before finishing, I read the relevant passages of `anthropic-opus-5-prompting.md`, `anthropic-opus-5-5-prompting.md`, `anthropic-harness-design.md` and `progress-mirage.md`, which other reviewers had written in the meantime, and checked that the points below agree with them.
+When this file was drafted, the other new reference files did not exist yet, so the points below were first worked from the sources themselves. Before finishing, I read the relevant passages of `anthropic-opus-5-prompting.md`, `anthropic-opus-5-5-prompting.md`, `anthropic-harness-design.md`, and `progress-mirage.md`, which other reviewers had written in the meantime, and checked that the points below agree with them.
 
 - **Teams of coding agents (`coding-agent-teams.md`, arXiv 2610.17471).** That paper found teams beat solo agents on long autonomous coding tasks, while this one found teams lost in every valid cell. The difference is the task: probing a black-box program splits naturally across workers, and a customer conversation does not. The prompt's independence test is the rule that reconciles the two.
 - **Collaboration tax (`collaboration-tax.md`, arXiv 2608.22152).** Both papers find a cost to dividing work that needs shared context. The collaboration-tax paper says the cost falls as models get stronger; this paper found the largest losses on the strongest cells, though its slope test couldn't settle the question. The two measured different things (peers pooling private views versus an orchestrator with role agents), so they agree that the cost exists and disagree only on how it scales.
@@ -75,4 +75,4 @@ When this file was drafted, the other new reference files did not exist yet, so 
 
 ## Review notes
 
-I read the main text in full, from the abstract through the conclusion, including the validity, budget, failure-taxonomy and extension sections and their tables. I did not read appendices A to C (the full hypothesis table, the notes on the Qwen cells and the reporting notes) beyond what the main text summarizes. The paper's model names and dates are as reported; I did not check them against provider documentation. The account of the Kim and colleagues rule comes from this paper's summary, since I did not read that paper. The view that a chat agent's delegation of separate jobs differs from this paper's split of turn-level work is my inference.
+I read the main text in full, from the abstract through the conclusion, including the validity, budget, failure-taxonomy, and extension sections and their tables. I did not read appendices A to C (the full hypothesis table, the notes on the Qwen cells, and the reporting notes) beyond what the main text summarizes. The paper's model names and dates are as reported; I did not check them against provider documentation. The account of the Kim and colleagues rule comes from this paper's summary, since I did not read that paper. The view that a chat agent's delegation of separate jobs differs from this paper's split of turn-level work is my inference.
