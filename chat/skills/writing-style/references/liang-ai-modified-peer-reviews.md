@@ -1,0 +1,119 @@
+# Liang et al. on AI-Modified Peer Reviews
+
+- **Source:** Weixin Liang, Zachary Izzo, Yaohui Zhang, Haley Lepp, Hancheng Cao, Xuandong Zhao, Lingjiao Chen, Haotian Ye, Sheng Liu, Zhi Huang, Daniel A. McFarland and James Y. Zou. "Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews." Proceedings of the 41st International Conference on Machine Learning (ICML), Vienna, Austria, PMLR volume 235, 2024.
+- **Type:** peer-reviewed conference paper
+- **Where to find it:** arXiv:2403.07183 (https://arxiv.org/abs/2403.07183). The version reviewed is arXiv v4, dated 19 May 2026, whose first page carries the ICML 2024 proceedings notice. Code is linked from the paper on GitHub.
+- **Last reviewed:** 2026-11-04
+- **Used by:** chat/skills/writing-style/SKILL.md
+
+## What the source covers
+
+### Purpose and framing
+
+The paper asks how much of the text in a large body of documents was written or heavily rewritten by a large language model, and it answers for one setting: peer reviews at machine learning conferences after ChatGPT became public in late November 2022. The authors present a measurement method first and the peer-review study second. Reviews suit the demonstration because they are public on OpenReview, there are many of them, and several years predate ChatGPT, which gives a natural before-and-after comparison.
+
+The question is about populations, not individual texts. The introduction argues that tools which label each document as human or machine are unreliable for this job. Humans do little better than chance at telling the two apart, deployed detectors have been shown to be unstable, and the authors cite arguments that reliable instance-level detection may be impossible in principle. They also point to a second reason for a corpus-level view: effects such as sameness of output across many documents cannot be seen by reading one document at a time. Their method therefore returns a single share for a whole corpus and never judges any one review.
+
+### The method
+
+The target corpus is modeled as a blend of two kinds of text. One follows the word-usage pattern of scientist-written text (called P) and the other follows the pattern of LLM output (called Q). The unknown is the share of the blend that comes from Q, written alpha. Alpha is found by maximum likelihood: pick the share that makes the observed corpus most probable under the blend.
+
+The method has four steps, in the authors' own order. First, collect the instructions that human authors were given (here, the conference review instructions) and give the same instructions, plus the paper, to an LLM to produce a matching corpus of generated reviews. Second, use the human and generated corpora to estimate P and Q. Third, check the machinery on synthetic corpora where the true share is known. Fourth, run the maximum likelihood step on the real target corpus.
+
+Several design choices matter. The unit of analysis is the sentence, not the review. Each sentence is treated as a set of the adjectives it contains, with no counts, and the model estimates for each adjective the fraction of sentences in which it appears, separately for human and generated text. The reason for sets over counts is that a longer text adds new distinct words more slowly than it adds length, so presence is a gentler measure than frequency. Only sentences of two or more words are used. The vocabulary is limited to adjectives because the authors found it more stable than adverbs, verbs, nouns or all words, and they note this fits earlier work showing that alignment tuning mostly changes stylistic words. Technical keywords that authors self-reported at submission were removed so that subject matter would not pass for style. The generated reviews for training came from GPT-4 (the June 13, 2023 snapshot, the version available during the 2023 and 2024 review cycles), at decoding temperature 1.0 with a cap of 2,048 tokens.
+
+The authors validate by mixing held-out human sentences with held-out generated sentences at chosen true shares from 0 to 25 percent and checking whether the estimator recovers the share. They also run the method at the document level as a robustness check. Document-level results were similar but slightly worse, with a tendency to overestimate, and the authors prefer sentence-level analysis because they think a reviewer is unlikely to generate a whole review and likelier to produce some sentences. Because the unit is the sentence, the headline numbers are shares of sentences, and the body text of the paper summarizes them as roughly 7 to 15 percent of sentences, while the abstract gives 6.5 to 16.9 percent.
+
+An appendix proves a bound on estimation error under strong assumptions (the two distributions are known exactly and differ enough at every point). The bound shrinks with the square root of the number of documents. It is a theoretical comfort, since in practice P and Q are estimated from data.
+
+### Validation results
+
+The model was trained on ICLR 2018 to 2022. ICLR 2023 served as in-distribution validation, and NeurIPS 2017 to 2022 and CoRL 2021 to 2022 as out-of-distribution validation. Error stayed under about 1.8 percentage points for ICLR 2023 and NeurIPS 2022, and under about 2.4 for CoRL 2022. The estimator is not exactly zero at zero true share: with no generated text in the mix it returned about 1.6 percent for ICLR 2023, 1.8 percent for NeurIPS 2022, 2.4 percent for CoRL 2022 and 1.0 percent for the Nature validation set. That floor is why pre-ChatGPT years show estimates of 1 to 2 percent. Estimates ran slightly above the truth at low shares and slightly below at the highest shares tested.
+
+Changing the prompt used for the validation data left accuracy mostly intact, with error growing at the highest true shares (up to about 4 points for CoRL at 25 percent). Training on GPT-3.5 reviews also worked, and a GPT-3.5-trained model also recovered shares in GPT-4 text. The fourth version of the paper adds checks with LLaMA-2 Chat (70B) and Claude 2.1 as the source of the generated reference text, and reports that the framework predicted the true share well in both. Using adverbs, verbs or nouns in place of adjectives gave somewhat worse validation accuracy but the same qualitative rise after ChatGPT.
+
+Against instance-level detectors the gap is large. The authors tested a fine-tuned BERT classifier, two off-the-shelf detectors (RADAR and a deepfake-text detector) and Fast-DetectGPT, all applied sentence by sentence with the same validation protocol. The off-the-shelf detectors returned nearly the same estimate whatever the true share, calling almost everything AI in one case and almost nothing in another. BERT tracked the true share but with large error. Against the best baseline, error fell by a factor of 3.4 in distribution (6.2 to 1.8 percent) and 4.6 out of distribution (11.2 to 2.4 percent). Inference was also far cheaper: about 68 floating-point operations per sentence against about 2.7 billion for BERT, which the authors describe as seven orders of magnitude.
+
+### Corpora
+
+The ML data come from OpenReview. ICLR runs 2018 to 2024, from 2,930 reviews to 27,992. NeurIPS runs 2017 to 2023, from 1,976 to 14,389. CoRL has 558, 756 and 759 reviews for 2021 to 2023, and EMNLP 2023 has 6,419, with no earlier EMNLP year available. A review averages about 26 sentences. The contrast group is the Nature portfolio, with 15 journals (Nature itself, Nature Communications, Nature Human Behaviour and Nature Biomedical Engineering among them, plus several Communications titles), covering papers accepted from 2019 to 2023. The Nature set holds 25,382 reviews from 10,242 papers, averaging about 37 sentences each. Its model was trained on a random subset of 2022 reviews (3,341 reviews) and validated on later 2022 data; the post-ChatGPT inference set is 6,200 reviews from papers accepted in 2022 to 2023.
+
+### Main finding: the share of AI-modified text
+
+Estimates for 2019 to 2022 at the ML venues sit between about 1.4 and 2.4 percent, effectively the method's floor. After ChatGPT they rise. ICLR goes from 1.6 percent in 2023 to 10.6 percent in 2024. NeurIPS goes from 1.9 percent in 2022 to 9.1 percent in 2023. CoRL goes from 2.4 percent in 2022 to 6.5 percent in 2023. EMNLP 2023 is highest at 16.9 percent. Confidence intervals come from 30,000 bootstrap samples and are well under a point for the large venues. The authors point out that all post-ChatGPT estimates exceed the validation estimate for a true share of zero, and at ICLR and NeurIPS they also exceed the validation estimate for a true 5 percent share. They suggest that researchers in natural language processing, who knew the tools earliest, may explain why EMNLP is highest.
+
+The Nature portfolio shows no matching jump. Its yearly estimates are 0.8 percent (2019), 0.7 (2020), 1.1 (2021), 1.0 (2022) and 1.6 (2023), all inside the margin of error of the zero-share validation. The authors read this as a different response among the broader sciences, which makes it a useful control, although the venues differ in field, reviewer pool and review format.
+
+An appendix splits ICLR 2024 by the paper's primary research area. Estimates range from about 21 percent for Datasets and Benchmarks (271 papers) down to about 5 percent for Causal Reasoning (99 papers), with most areas near 10 to 14 percent. Optimization and probabilistic methods sit near 6 percent. So the average hides a spread of more than a factor of four across subfields, though the authors offer no explanation.
+
+### Robustness checks on what counts as modification
+
+Two experiments define what the estimate can and cannot see. In the first, real older reviews were proofread by ChatGPT for grammar and typos only. Estimated shares rose by under a point (ICLR 2023 from 1.5 to 2.2 percent, NeurIPS 2022 from 0.9 to 1.5, CoRL 2022 from 2.3 to 3.0), far smaller than the post-ChatGPT jumps, so ordinary proofreading does not account for the results. In the second, a human review was condensed into a bullet outline and an LLM expanded it into a full review. The estimator recovered the true share of such text fairly well (slightly low at the top of the range), and the authors say this mode of use could account for much of the observed increase. So the findings cover a range of behavior, from drafting from notes to rewriting, and the method cannot say which a given reviewer did.
+
+### Word-level shifts
+
+Figure 1 of the paper tracks six adjectives in ICLR reviews from 2020 to 2024: commendable, innovative, meticulous, intricate, notable and versatile. The chance that an ICLR 2024 sentence contains commendable rose about 9.8-fold, meticulous about 34.7-fold and intricate about 11.2-fold. The authors say NeurIPS shows a similar trend and the Nature journals do not. The comparison point is earlier years of the same venue, and the paper does not report absolute rates in the text, so a large fold change on a rare word still describes a word that most sentences do not contain.
+
+Two appendix tables list the top 100 adjectives and top 100 adverbs that the generated reviews used disproportionately compared with human reviews. These lists are built from GPT-4 output against pre-ChatGPT human text, and the fold changes in Figure 1 are the separate check that the same words rose in real post-ChatGPT reviews. The adjective list opens with commendable, innovative, meticulous, intricate, notable, versatile, noteworthy, invaluable and pivotal, and goes on to include seamless, comprehensive, holistic, compelling, unique, insightful and exceptional. The adverb list includes meticulously, notably, additionally, comprehensively, seamlessly, undoubtedly, thereby, nonetheless, remarkably and exceptionally. Many items are ordinary evaluative words, and some are odd (continental, automotive, unauthorized appear among the adjectives), which shows the lists are statistical, not curated.
+
+### Correlates of higher estimated AI use
+
+Section 4.7 groups reviews by a property and compares the estimated share between groups. The table values below come from the appendix.
+
+Deadline: reviews submitted within three days of the deadline had a higher share. ICLR 2024 was 11.3 percent against 8.8 percent for earlier submissions, NeurIPS 9.5 against 7.7, CoRL 7.3 against 3.9, EMNLP 17.1 against 14.2. The authors call this a small but consistent effect.
+
+Citations: reviews containing the string et al., used as a proxy for citing scholarly work, had a lower share, roughly half. ICLR was 6.5 percent with it and 12.8 without, NeurIPS 5.0 and 10.2, CoRL 2.2 and 7.1, EMNLP 10.6 and 17.7. The authors tie this to evidence that LLMs often fail at accurate citation, and they flag that they lack a counterfactual, since people who would use a model might cite less anyway.
+
+Reply rate: the more times a reviewer replied to author rebuttals, the lower the share. For ICLR 2024 it falls from 13.3 percent with no replies to 3.6 percent with four or more, and for NeurIPS 2023 from 12.8 to 1.9. The text of the paper once calls these participants authors, but the data are reviewer replies. The authors list possible explanations and decline a causal claim.
+
+Homogenization: for each paper, the review whose embedding sits closest to the average of that paper's review embeddings (OpenAI text embeddings) was labeled convergent and the one farthest was labeled divergent. Convergent reviews had higher shares: ICLR 13.1 against 7.2 percent, NeurIPS 11.6 against 6.1, CoRL 7.6 against 5.1, EMNLP 19.6 against 12.8. The authors link this to earlier findings that LLM feedback returns to recurring topics, such as suggestions for further experiments. They raise two worries: authors lose independent expert views, and the convergence is unlikely to be toward a representative spread of viewpoints.
+
+Confidence: reviews with self-rated confidence of 2 or lower (on a 5-point scale) had higher shares than those rated 3 or higher. The gap is clear at ICLR (13.2 against 10.7) and NeurIPS (10.3 against 8.9), but small and statistically weak at CoRL (7.8 against 6.5, with an interval of almost 5 points) and EMNLP (17.6 against 16.6). The main text presents this as a general effect, and the appendix shows it is driven by the two largest venues.
+
+### Limitations
+
+The authors name these: the study centers on ChatGPT, justified by its 76 percent share of generative AI web traffic in early 2024, though other models behaved similarly in the checks above; the prompts used to simulate proofreading, expansion and generation are best-effort approximations of real behavior; findings are from ML conferences and Nature journals and may not extend to other fields, where writing style and AI adoption differ; a changing share of non-native English writers could shift word use independent of LLMs; the likelihood model uses simplifying approximations; and token frequencies drift over time with topics and reviewers. They stress that the method gives no direct evidence that reviewers wrote reviews from scratch with ChatGPT, that the correlational results are not causal, and that they take no stand on whether AI use in reviewing is good or bad. They also note a privacy concern in sending unpublished work to a private model.
+
+### Assessment
+
+The design is sound for its question. It has a clear before-and-after structure, held-out validation with known mixing, tests of sensitivity to prompt, model and unit, a control corpus and an honest account of the baseline floor. Population-level output also protects individual reviewers.
+
+The weaknesses matter to anyone borrowing the findings. The reference text comes from a few prompts and a few models, so the estimate says how much of the corpus resembles that reference text. The features are the presence of adjectives, a thin description of style. Any shift in the reviewer pool that changes adjective use looks like AI use. The correlates are suggestive only, and one of the five (confidence) is weaker than the main text implies. The word lists describe 2023 to early 2024 models in a formal evaluative genre. Later models have been tuned differently, so exact words will have changed. The reported fold changes come from a single venue and year.
+
+### What it implies for writers
+
+Praise and evaluation vocabulary is where model-assisted text was most recognizable in this study, and the same words recur in the adverb list. Text with concrete anchors, such as citations to named work and replies to the other party's actual points, looked less machine-made. Text that converges on what every other text about the paper says looked more machine-made. So specific, grounded content is the practical remedy, and an evaluative adjective earns its place only when it carries a particular meaning.
+
+## What the skill applies
+
+Section 9, item 8 of SKILL.md (overused vocabulary) is the clearest use. Of the words in that list, intricate, meticulous, commendable, innovative, pivotal, seamless, comprehensive and holistic appear among the paper's top adjectives, and notably, additionally, comprehensively and seamlessly appear among its top adverbs. The paper supplies a measured basis for treating evaluative adjectives as a mark of machine prose, and the Figure 1 fold changes show the rise in real reviews, not just in generated samples. It supplies only part of the list: delve, underscore, showcase and the other verbs and nouns rest on other sources, and crucial, multifaceted and nuanced do not appear in the paper's lists.
+
+Section 9, item 7 (announcements in place of content) names Notably and Additionally as sentence openers to cut. The adverb list gives independent support for those two words, though the paper measures their frequency, not their position in a sentence.
+
+Section 2 asks for specific wording (the number, the name, the mechanism, the example). The citation and reply-rate results support that rule indirectly: reviews that referred to named prior work and engaged with the authors looked less machine-made, and generic praise was the pattern the estimator picked up. The same section's rule against intensifiers is adjacent to the adverb list, which includes immensely, exceptionally and remarkably, though the paper does not study intensifiers as a class.
+
+Section 4's instruction to hedge the interpretation and keep the data plain follows the authors' own practice, which this file also follows: the measured shares are stated flatly and the readings of the correlates are held loosely.
+
+The section 9 design, in which the vocabulary list lives only in the post-draft pass, comes from the Semantic Gravity Wells paper, not this one. This paper only shows the list is worth having.
+
+## What the skill omits
+
+The skill leaves out the estimation machinery, corpus sizes and validation numbers. They concern detecting machine text at the population level, and the skill concerns producing prose a person wants to read. The skill does not try to measure itself or evade a detector, and the estimator could not judge a single response anyway.
+
+It does not copy the appendix lists wholesale. Many entries are generic (traditional, wider, quicker, academic, cultural) or specific to the review genre (replicable, asymmetrical), and banning them would damage ordinary writing. The skill takes the handful that other sources also flag and that are rarely the most precise choice. It also does not adopt the paper's fold changes as thresholds, since they describe ICLR 2024 reviews and a 2023 model.
+
+The deadline, reply-rate, confidence and topic-area results are left out. They describe reviewer circumstances, not properties of a text, they are correlational, and they give an agent nothing to change in its prose. The Nature contrast and the findings on ethics, privacy and sentence-versus-document design are likewise out of scope. The skill takes no position on whether machine assistance in peer review is appropriate, matching the authors' own neutrality.
+
+## Conflicts with other references
+
+The real tension is with the other vocabulary studies, and it is one of comparability. kobak-excess-vocabulary.md is a direct reaction to mixture approaches like this one: its authors object that methods needing labeled LLM reference text bake in assumptions about which model and prompt were used, and they instead measure excess frequency of words in PubMed abstracts against a counterfactual extrapolated from 2021 and 2022. juzek-ward-lexical-overrepresentation.md identifies words by comparing 2024 with 2020 PubMed frequencies in occurrences per million words, then checks them against ChatGPT output. Liang uses peer reviews, a sentence-level presence measure for adjectives and a model-generated reference. Genre, unit and statistic all differ, so the word lists and magnitudes cannot be merged or ranked across the three papers. The skill treats them as converging evidence that a family of evaluative and ornamental words rose after 2022 and does not claim one ordering or threshold. Where Liang lists a word that Kobak's measured list lacks (or the reverse), the skill keeps the word only when at least one measured source supports it, and it treats the popular lists in wikipedia-signs-of-ai-writing.md as weaker evidence than any of the three measured papers.
+
+A mild tension exists with semantic-gravity-wells.md. Liang's lists are an argument for having a vocabulary list, while that paper argues that naming a word primes it. The skill resolves this by confining the list to the revision pass in section 9.
+
+I found no conflict with nyt-manual-of-style.md, ap-stylebook.md or chicago-manual-of-style.md, which say nothing about machine-prose vocabulary, so the precedence rule is not engaged. The paper has no bearing on the dash, serial comma, number, percent or colon rules. It also does not touch the findings in reinhart-llm-grammatical-style.md, boggia-artificial-epanorthosis.md or freeburg-em-dashes.md, which concern grammar, framing devices and punctuation, not word choice.
+
+## Review notes
+
+I read the full text of arXiv v4 (19 May 2026) on 2026-11-04 from a local copy of the paper, including the main body, the word lists, the appendix tables, the prompts, the dataset description, the added LLaMA-2 and Claude 2.1 checks and the theory appendix. Version 4 is a revision of the ICML 2024 paper and I did not compare it with the proceedings version, so some details (the Claude and LLaMA checks, the theory appendix) may not be in the 2024 proceedings text. Venue is confirmed from the paper's first page as the 41st ICML, Vienna, PMLR 235, 2024. It is not a Nature Human Behaviour paper.
+
+Things I did not check or only partly checked: the full tables for adverb, verb, noun and document-level results (I read their captions and the qualitative claims, not every row); the GPT-3.5, LLaMA-2 and Claude validation rows (I report the authors' conclusion); the proof in the theory appendix (I report only its shape); and the exact fold-change figures for words other than the three named in the caption of Figure 1, which are shown only in plots. The statement that the adjective lists come from generated text compared with human text rests on the paper's description of Tables 2 and 3 and Figures 12 and 13; the paper does not give the exact ranking statistic in the text I read. The assessment of strengths and weaknesses is my own reading, and the remarks about other reference files rest on skimming the opening sections of those files.
