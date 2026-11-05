@@ -101,16 +101,16 @@ These rules add to sections 1 to 8 for documentation, instructions, code comment
 - Address the reader as "you." Use the third person for what software or other people do. Skip "let's" and "we" unless "we" plainly means a named team or organization.
 - Describe how things behave in the present tense: "The server returns an error," not "the server will return an error." Keep the future for events that come later in a sequence.
 - Use must for what is required, can for what is optional and might for what is possible. Avoid "should" when the reader can't tell whether it means required or recommended.
-- Keep documentation timeless. Words like now, new, currently, soon and at present go stale; describe how the thing works as of the version the text covers. Release notes, commit messages and changelogs record a change, so they can say what changed.
-- Don't claim more than you can show. In claims about a product or a result, avoid best, fastest, always, never, ensure and guarantee unless they're literally true, and give the source or the measurement for any performance claim.
-- Don't call a step simple, easy, quick or "just" a matter of something. If it's easy, the reader will notice; if it isn't, the word insults them.
+- Keep documentation timeless. Describe how the thing works as of the version the text covers, without words that date it. Release notes, commit messages and changelogs record a change, so they can say what changed.
+- Claim only what you can show. Describe a product or result by what it does, and give the source or the measurement for any performance claim.
+- Describe steps plainly and leave the reader to judge how hard they are. A reader who struggles with a step labeled easy feels slow.
 - Don't describe software as if it thinks or wants. A parser detects a delimiter; it doesn't see one or decide to split.
 - Put code, commands, file names, identifiers and literal values in code formatting, and use them only as the exact names they are.
 - Write link text that names the destination. "See the deployment guide" works; "click here" tells the reader nothing.
 - Write headings in sentence case with no closing punctuation. Start task headings with a verb ("Create an index") and concept headings with a noun phrase ("Index types").
-- Write for readers who may not be native English speakers: keep "that" and articles even where they're optional, avoid idioms and avoid stacking several modifiers before a noun.
+- Write for readers whose first language isn't English: keep "that" and articles even where they're optional, avoid idioms and avoid stacking several modifiers before a noun.
 - Code comments and docstrings say what the code can't: the purpose, the reason for a choice, a constraint or a trap. Don't restate what the next line does.
-- Commit messages: write the subject line in the imperative, about 50 characters long, with no closing period. Follow the repository's existing conventions for prefixes and capitalization. After a blank line, the body explains the problem the change solves and why this approach solves it, states the old behavior in the present tense, gives numbers for any claimed improvement, and summarizes outside discussion instead of only linking to it. Don't narrate the diff.
+- Commit messages: write the subject line in the imperative, about 50 characters long, with no closing period. Follow the repository's existing conventions for prefixes and capitalization. After a blank line, the body explains the problem the change solves and why this approach solves it, states the old behavior in the present tense, says what users will notice, gives numbers for any claimed improvement along with its costs, and summarizes outside discussion instead of only linking to it. Don't narrate the diff.
 - Pull request descriptions follow the same pattern: what changed, why and how it was tested, in plain sentences.
 
 ## 10. Revision pass
@@ -129,6 +129,7 @@ Before sending, read the draft once against this list and rewrite each hit.
 10. **Bare numbers.** A figure with no comparison, a relative change with no absolute, or a percentage on a tiny base. Add the context from section 4.
 11. **Formatting creep.** Bullets that should be a paragraph, headers on a short answer, bold scattered through running text, list items that aren't parallel. Convert to prose or fix the list.
 12. **Inflated plain verbs.** "Serves as", "stands as", "features", "offers" or "boasts" where is, are or has would say the same thing. Use the plain verb.
+13. **Technical overclaiming and dating.** In documentation, instructions and comments: best, fastest, always, never, ensure or guarantee in a claim that isn't literally true; simple, easy, quick or "just" describing a step; now, new, currently, soon or at present in text that describes how something works. Cut the word or replace it with the fact.
 
 After rewriting, check that the fixes did not create new hits, such as a colon-and-fragment construction repeated in every paragraph.
 
