@@ -14,6 +14,12 @@ Usage:
   clauditory package <path-to-skill> [--out FILE]
       Build a zip of a skill for upload to the Claude apps
       (default FILE: ./<skill-name>.zip).
+  clauditory build [--check]
+      Regenerate plugins/clauditory from the skills under chat/skills and
+      the system prompt at chat/system/prompt.md. With --check, report
+      whether the plugin is out of date and change nothing.
+  clauditory prompt
+      Print the chat system prompt, for pasting or appending elsewhere.
 
 The references/ folder is left out of installs and packages, because it
 documents the sources for people and is not meant for an agent's context.
@@ -35,7 +41,7 @@ shift || true
 case "$cmd" in
   list)
     echo "Skills:"
-    find "$ROOT" -path "$ROOT/.git" -prune -o -name SKILL.md -print \
+    find "$ROOT" \( -path "$ROOT/.git" -o -path "$ROOT/plugins" \) -prune -o -name SKILL.md -print \
       | sed "s|^$ROOT/||; s|/SKILL.md$||" | sort | sed 's/^/  /'
     echo "System prompts:"
     find "$ROOT" -path "$ROOT/.git" -prune -o -path '*/system/prompt.md' -print \
@@ -61,6 +67,39 @@ case "$cmd" in
     rm -f "$out"
     (cd "$(dirname "$src")" && zip -qr "$out" "$name" -x "$name/references/*")
     echo "Packaged $name to $out"
+    ;;
+  build)
+    plugin="$ROOT/plugins/clauditory"
+    tmp="$(mktemp -d)"
+    trap 'rm -rf "$tmp"' EXIT
+    mkdir -p "$tmp/skills" "$tmp/output-styles"
+    for dir in "$ROOT"/chat/skills/*/; do
+      name="$(basename "$dir")"
+      mkdir -p "$tmp/skills/$name"
+      (cd "$dir" && find . -path ./references -prune -o -type f -print \
+        | while read -r f; do mkdir -p "$tmp/skills/$name/$(dirname "$f")"; cp "$f" "$tmp/skills/$name/$f"; done)
+    done
+    {
+      printf -- '---\nname: clauditory\ndescription: Clauditory working stance: evidence over agreement, explicit goals, parallel work and plain prose\nkeep-coding-instructions: true\nforce-for-plugin: true\n---\n\n'
+      cat "$ROOT/chat/system/prompt.md"
+    } > "$tmp/output-styles/clauditory.md"
+    if [[ "${1:-}" == "--check" ]]; then
+      if diff -r "$tmp/skills" "$plugin/skills" >/dev/null 2>&1 \
+        && diff "$tmp/output-styles/clauditory.md" "$plugin/output-styles/clauditory.md" >/dev/null 2>&1; then
+        echo "plugins/clauditory is up to date"
+      else
+        echo "plugins/clauditory is out of date; run bin/clauditory build" >&2
+        exit 1
+      fi
+    else
+      rm -rf "$plugin/skills" "$plugin/output-styles"
+      mkdir -p "$plugin"
+      cp -R "$tmp/skills" "$tmp/output-styles" "$plugin/"
+      echo "Built plugins/clauditory"
+    fi
+    ;;
+  prompt)
+    cat "$ROOT/chat/system/prompt.md"
     ;;
   ""|-h|--help|help)
     usage

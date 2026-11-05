@@ -12,9 +12,10 @@ The reason is consistency. Agents that work in this repository read its files an
 
 ```
 AGENTS.md                 this file
-bin/clauditory            command-line helper for listing, installing and packaging artifacts
+README.md                 what the repository holds and how to install it
+bin/clauditory            command-line helper: list, install, package, build, prompt
 chat/
-  system/                 (planned)
+  system/
     prompt.md             system prompt for chat agents
     references/           one file per source behind the prompt
   skills/
@@ -22,7 +23,12 @@ chat/
       SKILL.md            the skill, in Agent Skills format
       references/         one file per source behind the skill
 coding/                   (planned) artifacts for coding agents, same layout as chat/
+plugins/clauditory/       generated plugin for Claude Code, the Claude apps and Codex
+.claude-plugin/           Claude plugin marketplace that lists plugins/clauditory
+.agents/plugins/          Codex plugin marketplace that lists plugins/clauditory
 ```
+
+The plugin under `plugins/clauditory` is generated. Edit the sources under `chat/`, then run `bin/clauditory build` and commit the result; `bin/clauditory build --check` fails when the plugin is stale. Bump the version in both plugin manifests when a change should reach people who already installed it.
 
 The first artifact is `chat/skills/writing-style`. It lives under `chat/` because it was written for chat agents, but its rules apply to any agent writing prose, including agents working in this repository. Its sources rank in this order when they conflict: The New York Times Manual of Style and Usage, the AP Stylebook, The Chicago Manual of Style, and then the technical guides (Google, Microsoft and Apple style guides and the git and Linux kernel patch guides), which fill in rules for documentation, code comments and commit messages.
 

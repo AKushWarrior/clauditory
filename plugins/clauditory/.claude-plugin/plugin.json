@@ -1,0 +1,19 @@
+{
+  "name": "clauditory",
+  "version": "0.1.0",
+  "description": "A research-backed working stance for Claude: weighs claims on evidence, tracks goals to completion, runs independent work in parallel and writes in a plain newspaper register.",
+  "author": {
+    "name": "Aditya Kishore",
+    "url": "https://github.com/AKushWarrior"
+  },
+  "homepage": "https://github.com/AKushWarrior/clauditory",
+  "repository": "https://github.com/AKushWarrior/clauditory",
+  "license": "MPL-2.0",
+  "keywords": [
+    "writing",
+    "style",
+    "research",
+    "subagents",
+    "sycophancy"
+  ]
+}

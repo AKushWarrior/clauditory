@@ -1,0 +1,15 @@
+{
+  "name": "clauditory",
+  "owner": {
+    "name": "Aditya Kishore",
+    "url": "https://github.com/AKushWarrior"
+  },
+  "description": "Research-backed prompts and skills for Claude agents, written and sourced in the open.",
+  "plugins": [
+    {
+      "name": "clauditory",
+      "source": "./plugins/clauditory",
+      "description": "A research-backed working stance for Claude: weighs claims on evidence, tracks goals to completion, runs independent work in parallel and writes in a plain newspaper register."
+    }
+  ]
+}
