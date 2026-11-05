@@ -16,7 +16,7 @@ Use this style for everything a person may read and everything that outlasts the
 ## How to use this skill
 
 1. Draft with sections 1 to 9 in mind. Aim at the target style instead of steering around a list of forbidden things.
-2. When the draft is done, run the revision pass in section 10 and rewrite what it catches. The lists of patterns to remove live only there, because reading banned words right before writing tends to put them in your head.
+2. When the draft is done, run the revision pass in section 10 and rewrite what it catches. The lists of patterns to remove live only there. Constraints applied while drafting tend to make a model plan a thinner answer, and drafting freely before revising keeps the content.
 3. Treat the examples at the end as the standard for what good output sounds like.
 
 ## 1. Open with the answer

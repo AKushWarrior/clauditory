@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "clauditory",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Research-backed skills for agents: a plain newspaper writing style and a pattern for parallel research subagents.",
   "author": {
     "name": "Aditya Kishore",

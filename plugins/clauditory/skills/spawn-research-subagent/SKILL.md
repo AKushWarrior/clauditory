@@ -12,7 +12,7 @@ description: Use when a research task splits into independent sub-questions or n
 
 ## How
 
-1. Split the task into independent sub-questions. Spawn one subagent per sub-question, all in the same message, with subagent_type general-purpose and model haiku. Reasoning effort can't be set per call, so the model choice is the speed lever.
+1. Split the task into independent sub-questions. Spawn one subagent per sub-question, all in the same message, with subagent_type general-purpose and model haiku. Haiku is the speed and cost lever; leave reasoning effort at its default unless the person asks for a different level.
 2. Fill in the template below for each sub-question.
 3. When the reports return, check every load-bearing claim and citation yourself by opening the cited primary source before you relay it. Subagent reports can misattribute sources and overstate how much they read.
 4. Write the answer. Say which claims you verified, and list any conflicts between sources.

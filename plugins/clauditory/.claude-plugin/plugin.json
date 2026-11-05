@@ -1,6 +1,6 @@
 {
   "name": "clauditory",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A research-backed working stance for Claude: weighs claims on evidence, tracks goals to completion, runs independent work in parallel and writes in a plain newspaper register.",
   "author": {
     "name": "Aditya Kishore",
