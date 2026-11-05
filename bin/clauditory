@@ -1,0 +1,73 @@
+#!/usr/bin/env bash
+# clauditory: list, install and package the artifacts in this repository.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+usage() {
+  cat <<'EOF'
+Usage:
+  clauditory list
+      Show every skill and system prompt in the repository.
+  clauditory install <path-to-skill> [--dest DIR]
+      Copy a skill into DIR/<skill-name> (default DIR: ~/.claude/skills).
+  clauditory package <path-to-skill> [--out FILE]
+      Build a zip of a skill for upload to the Claude apps
+      (default FILE: ./<skill-name>.zip).
+
+The references/ folder is left out of installs and packages, because it
+documents the sources for people and is not meant for an agent's context.
+EOF
+}
+
+skill_dir() {
+  local dir="$ROOT/${1%/}"
+  if [[ ! -f "$dir/SKILL.md" ]]; then
+    echo "clauditory: no SKILL.md in $1" >&2
+    exit 1
+  fi
+  echo "$dir"
+}
+
+cmd="${1:-}"
+shift || true
+
+case "$cmd" in
+  list)
+    echo "Skills:"
+    find "$ROOT" -path "$ROOT/.git" -prune -o -name SKILL.md -print \
+      | sed "s|^$ROOT/||; s|/SKILL.md$||" | sort | sed 's/^/  /'
+    echo "System prompts:"
+    find "$ROOT" -path "$ROOT/.git" -prune -o -path '*/system/prompt.md' -print \
+      | sed "s|^$ROOT/||" | sort | sed 's/^/  /'
+    ;;
+  install)
+    src="$(skill_dir "${1:?clauditory: install needs a skill path}")"
+    shift
+    dest="$HOME/.claude/skills"
+    if [[ "${1:-}" == "--dest" ]]; then dest="${2:?clauditory: --dest needs a directory}"; fi
+    name="$(basename "$src")"
+    mkdir -p "$dest/$name"
+    (cd "$src" && find . -path ./references -prune -o -type f -print \
+      | while read -r f; do mkdir -p "$dest/$name/$(dirname "$f")"; cp "$f" "$dest/$name/$f"; done)
+    echo "Installed $name to $dest/$name"
+    ;;
+  package)
+    src="$(skill_dir "${1:?clauditory: package needs a skill path}")"
+    shift
+    name="$(basename "$src")"
+    out="$PWD/$name.zip"
+    if [[ "${1:-}" == "--out" ]]; then out="${2:?clauditory: --out needs a file name}"; fi
+    rm -f "$out"
+    (cd "$(dirname "$src")" && zip -qr "$out" "$name" -x "$name/references/*")
+    echo "Packaged $name to $out"
+    ;;
+  ""|-h|--help|help)
+    usage
+    ;;
+  *)
+    echo "clauditory: unknown command '$cmd'" >&2
+    usage >&2
+    exit 1
+    ;;
+esac
