@@ -45,6 +45,8 @@ Every artifact keeps a `references/` folder beside it, with one Markdown file pe
 5. Conflicts with other references in the same folder, and how the artifact resolved them.
 6. Review notes: what was read, what could not be reached and any doubts about the reading.
 
+Sources that make claims about how AI systems perform must be recent, because model capability changes fast. A source of that kind must have been first published less than eight months before its last-reviewed date. Date it by its first publication, such as an arXiv paper's first version, not its latest revision. Living documentation, such as a vendor's current prompting guide, counts from the version read, as long as it covers current models. Studies of human readers and writers, style manuals and other sources that make no claim about AI performance have no age limit. When a source ages out, remove its reference file at the next revision of the artifact, and either replace it with newer evidence or drop the rule it alone supported.
+
 Paraphrase everything. Reference files contain no quotations from the source and no copies of it, its figures or its tables. When you change an artifact, re-review every source behind the change and update the last-reviewed date in each file you touched.
 
 ## Commit messages
