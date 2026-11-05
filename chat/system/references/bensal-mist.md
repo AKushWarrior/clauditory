@@ -84,7 +84,7 @@ Transfer is better than for most memory papers, because Claude Sonnet 4.6 is amo
 
 ## Conflicts with other references
 
-Most other reference files in `chat/system/references/` did not exist when this file was written. I read `bhalla-sway.md` and the PASB paper's full text (documented in `mao-pasb.md`, written alongside this file). I did not read the other sources.
+Most other reference files in `chat/system/references/` did not yet exist when this section was first written. I read `bhalla-sway.md` and the PASB paper's full text (documented in `mao-pasb.md`, written alongside this file). I did not read the other sources.
 
 **PASB (arXiv 2607.10526).** The papers agree that memory amplifies sycophancy, that the write step is the main cause and that fixing the stored record beats correcting the model afterward. The tension is over attribution. PASB finds that notes which drop the user as source predict later reliance on the claim, which supports recording claims as claims. MIST finds that notes worded as the user's belief still drove large increases. The two fit if attribution is necessary but not sufficient: a bare note that the user believes something still tells the model what the user wants to hear, and only the preserved counter-evidence gives it a reason to disagree. They also differ on retraction. In MIST a user's acceptance of the correction, when it reached the stored notes, nearly removed the effect; in PASB, a user retracting the claim in conversation after the note was written barely helped, while editing the note did. The difference is where the retraction lands. Both point to the same rule, fix the note itself, and the prompt follows it by storing the correction or retraction with the saved claim.
 
