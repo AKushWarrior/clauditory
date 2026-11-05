@@ -1,0 +1,8 @@
+extends: existence
+message: "Don't start a sentence with a figure. Spell the number out or recast the sentence."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/nyt-manual-of-style.md
+level: warning
+scope: sentence
+nonword: true
+tokens:
+  - '^\d[\d,.]*\b'

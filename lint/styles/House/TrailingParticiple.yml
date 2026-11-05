@@ -1,0 +1,6 @@
+extends: existence
+message: "The trailing '%s' leaves the reader to guess how it relates. Cut it, name the relation ('which lets you', 'so that'), or start a new sentence."
+level: warning
+nonword: true
+tokens:
+  - ', (?:highlighting|underscoring|showcasing|ensuring|reflecting|emphasizing|enabling|allowing|providing|resulting in|making it)\b'

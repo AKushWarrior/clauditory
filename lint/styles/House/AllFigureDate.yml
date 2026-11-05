@@ -1,0 +1,6 @@
+extends: existence
+message: "Write the month as a word. Readers in many countries read '%s' differently."
+level: error
+nonword: true
+tokens:
+  - '(?<![\w./-])\d{1,2}/\d{1,2}/(?:\d{4}|\d{2})(?![\w/])'

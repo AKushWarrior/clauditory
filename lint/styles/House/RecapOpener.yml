@@ -1,0 +1,6 @@
+extends: existence
+message: "'%s' opens a recap. Delete a closing paragraph that repeats earlier points."
+level: warning
+scope: sentence
+tokens:
+  - '^(?:In summary|In conclusion|To summarize|To sum up|Overall|Ultimately|The bottom line)\b'

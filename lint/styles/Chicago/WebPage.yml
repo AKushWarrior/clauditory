@@ -1,0 +1,10 @@
+extends: substitution
+message: "Write '%s', not '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/chicago-manual-of-style.md
+level: suggestion
+ignorecase: true
+action:
+  name: replace
+swap:
+  webpage: web page
+  webpages: web pages

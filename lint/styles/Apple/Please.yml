@@ -1,0 +1,7 @@
+extends: existence
+message: "Leave 'please' out of instructions."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/technical-writing/references/apple-style-guide.md
+level: suggestion
+scope: sentence
+tokens:
+  - '^Please (?=[a-z]+\b)'

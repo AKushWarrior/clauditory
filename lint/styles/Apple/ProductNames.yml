@@ -1,0 +1,23 @@
+extends: substitution
+message: "Write the product name as Apple does: '%s', not '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/technical-writing/references/apple-style-guide.md
+level: warning
+ignorecase: false
+action:
+  name: replace
+swap:
+  '(?:iphone|Iphone|IPhone|IPHONE)': iPhone
+  '(?:ipad|Ipad|IPad|IPAD)': iPad
+  '(?:Ios|IOs)': iOS
+  '(?:MacOS|Macos|MacOs|MACOS)': macOS
+  '(?:Airpods|AirPod)': AirPods
+  '(?:AppleTV|Appletv)': Apple TV
+  '(?:Imac|IMac)': iMac
+  '(?:Macbook|MacBOOK)': MacBook
+  '(?:Icloud|ICloud|ICLOUD)': iCloud
+  '(?:XCode|XCODE)': Xcode
+  '(?:WatchOS|Watchos)': watchOS
+  '(?:TvOS|TVOS|TvOs)': tvOS
+  '(?:IPadOS|IpadOS|Ipados)': iPadOS
+  '(?:Wifi|WiFi|wifi|Wi-fi|WIFI|wi-fi)': Wi-Fi
+  'bluetooth': Bluetooth

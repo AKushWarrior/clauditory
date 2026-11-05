@@ -1,0 +1,7 @@
+extends: existence
+message: "Name the rest of the category instead of '%s'."
+level: warning
+nonword: true
+tokens:
+  - '(?:such as|including)[^.;:]{1,80}\betc\.'
+  - '\betc\.'

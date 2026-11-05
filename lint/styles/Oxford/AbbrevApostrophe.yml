@@ -1,0 +1,7 @@
+extends: existence
+message: "If '%s' is a plural, drop the apostrophe. Keep it only for a possessive."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/oxford-new-harts-rules.md
+level: suggestion
+nonword: true
+tokens:
+  - "\\b[A-Z]{2,}['’]s(?= (?:are|were|have|that|which|and|or|in|on|for|with|to)\\b)"

@@ -1,0 +1,15 @@
+extends: existence
+message: "'%s' is a stock opener or closer. Start and end on substance."
+level: error
+ignorecase: true
+tokens:
+  - 'great question'
+  - '^(?:certainly|absolutely|of course)[!,.]'
+  - "i'd be (?:happy|glad) to"
+  - "let's dive in"
+  - "let's dive into"
+  - "here's a breakdown"
+  - 'i hope this helps'
+  - 'let me know if you have any (?:other |further |more )?questions'
+  - 'feel free to reach out'
+  - 'feel free to ask'

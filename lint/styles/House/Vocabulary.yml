@@ -1,0 +1,33 @@
+extends: existence
+message: "'%s' is a word machine-written text leans on. Keep it only if no plainer word is as precise."
+level: warning
+ignorecase: true
+tokens:
+  - delv(?:e|es|ed|ing)
+  - underscor(?:e|es|ed|ing)
+  - showcas(?:e|es|ed|ing)
+  - intricate
+  - pivotal
+  - realms?
+  - meticulous(?:ly)?
+  - crucial(?:ly)?
+  - comprehensive(?:ly)?
+  - multifaceted
+  - nuanced
+  - seamless(?:ly)?
+  - transformative
+  - groundbreaking
+  - leverag(?:e|es|ed|ing)
+  - enhanc(?:e|es|ed|ing|ement|ements)
+  - garner(?:s|ed|ing)?
+  - surpass(?:es|ed|ing)?
+  - commendable
+  - innovative
+  - boast(?:s|ed|ing)?
+  - landscapes?
+  - tapestry
+  - robust(?:ly|ness)?
+  - foster(?:s|ed|ing)?
+  - vibrant
+  - holistic(?:ally)?
+  - testament

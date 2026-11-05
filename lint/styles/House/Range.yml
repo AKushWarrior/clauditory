@@ -1,0 +1,12 @@
+extends: existence
+message: "Write 'between 10 and 20' or 'from 10 to 20', not '%s'."
+level: warning
+nonword: true
+action:
+  name: edit
+  params:
+    - regex
+    - '\b([Bb])etween (\S+) to\b'
+    - '${1}etween $2 and'
+tokens:
+  - '\b[Bb]etween \d[\d,.]* to\b'

@@ -1,0 +1,13 @@
+extends: existence
+message: "Put the month first: write 'November 5, 2026', not '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/nyt-manual-of-style.md
+level: warning
+nonword: true
+action:
+  name: edit
+  params:
+    - regex
+    - '^(\d{1,2}) (\w+),? (\d{4})$'
+    - '$2 $1, $3'
+tokens:
+  - '\b\d{1,2} (?:January|February|March|April|May|June|July|August|September|October|November|December),? \d{4}\b'

@@ -1,0 +1,7 @@
+extends: existence
+message: "Chicago spells out whole numbers from one through one hundred: '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/chicago-manual-of-style.md
+level: suggestion
+nonword: true
+tokens:
+  - '(?<![\w.,$/:#-])(?:[1-9][0-9]|100) (?=(?:people|users|files|steps|reasons|items|pages|years|days)\b)'

@@ -1,0 +1,9 @@
+extends: existence
+message: "'%s' frames a correction. State the point plainly unless the reader holds the mistaken view."
+level: warning
+ignorecase: true
+tokens:
+  - 'not just [^.,;]{1,40},? but( also)?'
+  - 'not only [^.,;]{1,40},? but also'
+  - "isn't about [^.]{1,40}\\. It's about"
+  - "(?:it's|this is|that's) not (?:a |an |the )?\\w+, (?:it's|it is)"

@@ -1,0 +1,6 @@
+extends: existence
+message: "Write 'A, B, or both' instead of '%s'."
+level: warning
+nonword: true
+tokens:
+  - '\band/or\b'

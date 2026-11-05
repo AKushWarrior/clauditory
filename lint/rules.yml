@@ -1,0 +1,193 @@
+# Rule registry for clauditory-lint.
+#
+# The owner's hierarchy sets which source wins in each domain. A rule from a
+# source that the domain doesn't list ranks below the tertiary source and
+# applies only where nothing above it disagrees. House rules carry the
+# owner's own choices from the writing-style skill and outrank every source.
+#
+# Each rule entry can set:
+#   domain   grammar, wording, or technical (defaults to the style's domain)
+#   topic    rules with the same topic report the same problem; on an
+#            overlapping span only the best-ranked one is reported
+#   opposes  rules that demand the opposite; the worse-ranked side is turned off
+#   off      a reason to turn the rule off outright
+#   fix      safe (applied by --fix), review (applied only by --fix=all),
+#            or none (the default)
+#   fixer    a built-in fixer for rules whose Vale action can't express the fix
+#   ignore   matched words the rule shouldn't report
+#   skip     a regular expression; matches it fits aren't reported
+
+owner: House
+
+hierarchy:
+  grammar: [Oxford, AP, Chicago]
+  wording: [NYT, Chicago, AP]
+  technical: [RedHat, Apple, Microsoft]
+
+styles:
+  House: {domain: wording}
+  Oxford: {domain: grammar}
+  NYT: {domain: wording}
+  AP: {domain: grammar}
+  Chicago: {domain: wording}
+  Apple: {domain: technical}
+  RedHat: {domain: technical}
+  Microsoft: {domain: technical}
+
+rules:
+  # ---- House: the owner's choices from the writing-style skill ----
+  House.EmDash: {domain: grammar, topic: dash}
+  House.CorrectionFraming: {}
+  House.TrailingParticiple: {}
+  House.RecapOpener: {}
+  House.StockPhrases: {}
+  House.Announcements: {}
+  House.Vocabulary: {}
+  House.HedgeStack: {fix: safe, topic: hedge}
+  House.InflatedVerbs: {topic: inflated-verb}
+  House.PlainWords: {fix: safe, topic: plain-word}
+  House.PlainWordsReview: {topic: plain-word}
+  House.Intensifiers: {topic: filler}
+  House.Cliches: {}
+  House.Latin: {fix: safe, topic: latin}
+  House.Etc: {topic: etc}
+  House.AndOr: {topic: slash}
+  House.ParenPlural: {topic: paren-plural}
+  House.SentenceLength: {domain: grammar, topic: sentence-length}
+  House.BareDemonstrative: {domain: grammar}
+  House.ExclamationPoint: {domain: grammar, topic: exclamation}
+  House.WordForms: {fix: safe, topic: word-form}
+  House.AllFigureDate: {topic: date}
+  House.Range: {fix: safe, topic: range}
+
+  # ---- Oxford (New Hart's Rules): grammar and punctuation, primary ----
+  Oxford.SerialComma: {fix: safe, topic: serial-comma}
+  Oxford.LyHyphen: {fix: safe, topic: ly-hyphen}
+  Oxford.ApostrophePlural: {fix: safe, topic: apostrophe-plural}
+  Oxford.AbbrevApostrophe: {topic: apostrophe-plural}
+  Oxford.AnBeforeVowelSound: {fix: safe, topic: article}
+  Oxford.ABeforeConsonantSound: {fix: safe, topic: article}
+  Oxford.QuotePunctuation: {fix: review, topic: quote-punctuation}
+  Oxford.SpaceBeforePunctuation: {fix: safe, topic: spacing}
+  Oxford.DoublePunctuation: {topic: spacing}
+
+  # ---- NYT: word choice and formatting, primary ----
+  NYT.Percent: {fix: safe, topic: percent}
+  NYT.PercentWords: {fix: safe, topic: percent}
+  NYT.Time: {fix: safe, fixer: time, topic: time}
+  NYT.DateOrder: {fix: safe, topic: date}
+  NYT.Ordinal: {fix: safe, topic: date}
+  NYT.SmallNumbers: {fix: review, fixer: spell-number, topic: small-number}
+  NYT.SentenceStartFigure: {topic: start-figure, skip: '^v?\d+\.\d+(\.\d+)*$'}
+  NYT.ThousandsComma: {topic: thousands}
+  NYT.Words: {fix: safe, topic: word-form}
+  NYT.Internet: {fix: safe, topic: internet}
+
+  # ---- AP: grammar secondary, wording tertiary ----
+  AP.NoSerialComma: {opposes: [Oxford.SerialComma], topic: serial-comma}
+  AP.WhoForPeople: {fix: review}
+  AP.JuniorComma: {fix: safe}
+  AP.Words: {domain: wording, fix: safe, topic: word-form}
+
+  # ---- Chicago: wording secondary, grammar tertiary ----
+  Chicago.Usage: {fix: safe, topic: word-form}
+  Chicago.DifferentThan: {}
+  Chicago.PronounCase: {domain: grammar, fix: safe}
+  Chicago.Prefixes: {fix: safe, topic: prefix}
+  Chicago.Numbers: {opposes: [NYT.SmallNumbers], topic: small-number}
+  Chicago.AmericanSpelling: {fix: safe, topic: spelling}
+  Chicago.WebPage: {fix: safe, topic: webpage}
+  Chicago.DateComma: {domain: grammar, fix: safe}
+
+  # ---- Apple: technical secondary ----
+  Apple.ProductNames: {fix: safe, topic: term}
+  Apple.Terms: {fix: review, topic: term}
+  Apple.Please: {}
+  # Spelling of a general word is a wording question, where Apple ranks
+  # below NYT, Chicago, and AP.
+  Apple.Webpage: {domain: wording, opposes: [Chicago.WebPage], topic: webpage}
+
+  # ---- Red Hat: technical primary (official Vale style) ----
+  RedHat.CaseSensitiveTerms: {fix: safe, topic: term}
+  # Red Hat spells "advisor"; AP, which outranks Red Hat on word choice,
+  # spells "adviser".
+  RedHat.TermsErrors: {fix: safe, topic: term, ignore: [adviser, advisers]}
+  RedHat.TermsWarnings: {topic: term}
+  RedHat.TermsSuggestions: {topic: term}
+  RedHat.Hyphens: {fix: safe, topic: term}
+  RedHat.DoNotUseTerms: {topic: term}
+  RedHat.ConsciousLanguage: {fix: review}
+  RedHat.SimpleWords: {domain: wording, fix: review, topic: plain-word}
+  RedHat.Slash: {domain: wording, topic: slash}
+  RedHat.Symbols: {domain: wording}
+  RedHat.Ellipses: {domain: grammar, topic: ellipsis}
+  RedHat.RepeatedWords: {domain: grammar, fix: safe}
+  RedHat.Spacing: {domain: grammar, topic: spacing}
+  RedHat.SmartQuotes: {fix: safe}
+  RedHat.PassiveVoice: {domain: grammar, topic: passive}
+  RedHat.Using: {domain: grammar, fix: review}
+  RedHat.ProductCentricWriting: {topic: inflated-verb}
+  RedHat.Headings: {topic: heading-case}
+  RedHat.HeadingPunctuation: {topic: heading-punctuation}
+  RedHat.Definitions: {topic: acronym}
+  RedHat.ReleaseNotes: {off: "Applies only to Red Hat release notes."}
+  RedHat.GitLinks: {off: "Red Hat's internal policy on approved repository links."}
+  RedHat.Spelling: {off: "Flags names and terms outside Red Hat's dictionary; turn on with --spelling."}
+  RedHat.ReadabilityGrade: {off: "The skill sets no grade-level target."}
+  RedHat.SentenceLength: {off: "House.SentenceLength applies the skill's 40-word limit."}
+  RedHat.EmDash: {off: "House.EmDash covers it, and this rule also reads code spans."}
+  RedHat.OxfordComma: {off: "Oxford.SerialComma covers it."}
+  RedHat.Contractions: {domain: wording, off: "The writing-style skill allows contractions in conversation (section 7)."}
+  RedHat.Conjunctions: {domain: wording, off: "NYT, the primary wording source, allows a sentence to start with And or But."}
+  RedHat.Abbreviations: {domain: wording, off: "NYT, the primary wording source, writes some abbreviations with periods, such as U.S."}
+
+  # ---- Microsoft: technical tertiary (community Vale style) ----
+  # Microsoft's term list maps "agent" to "personal digital assistant",
+  # which doesn't fit software agents.
+  Microsoft.Terms: {topic: term, ignore: [agent, agents]}
+  Microsoft.Wordiness: {domain: wording, fix: review, topic: plain-word}
+  Microsoft.Auto: {}
+  Microsoft.BiasFree: {}
+  Microsoft.Gender: {}
+  Microsoft.GenderBias: {}
+  Microsoft.Accessibility: {}
+  Microsoft.Militaristic: {}
+  Microsoft.Jargon: {}
+  Microsoft.Ordinal: {}
+  Microsoft.Suspended: {}
+  Microsoft.URLFormat: {}
+  Microsoft.Units: {topic: small-number}
+  Microsoft.DateFormat: {domain: wording, topic: date}
+  Microsoft.DateNumbers: {domain: wording, topic: date}
+  Microsoft.DateOrder: {domain: wording, topic: date}
+  Microsoft.RangeTime: {domain: wording, topic: range}
+  Microsoft.Percentages: {domain: wording, topic: percent}
+  Microsoft.HeadingColons: {}
+  Microsoft.HeadingAcronyms: {}
+  Microsoft.Avoid: {}
+  Microsoft.AMPM: {domain: wording, opposes: [NYT.Time], topic: time}
+  Microsoft.Contractions: {domain: wording, off: "The writing-style skill spells out contractions in formal documents (section 7)."}
+  Microsoft.Dashes: {off: "House.EmDash forbids em dashes outright."}
+  Microsoft.FirstPerson: {domain: wording, off: "The writing-style skill allows the first person in conversation (section 7)."}
+  Microsoft.We: {domain: wording, off: "The writing-style skill allows we for a named team (technical-writing section 2)."}
+  Microsoft.UIVerbs: {off: "Apple, the secondary technical source, uses click and tap for those inputs."}
+  Microsoft.GeneralURL: {off: "Red Hat, the primary technical source, uses URL."}
+  Microsoft.Semicolon: {off: "No higher-ranked source discourages semicolons."}
+  Microsoft.QuestionMarks: {off: "No higher-ranked source discourages questions."}
+  Microsoft.Negative: {off: "Plain-text output can't rely on an en dash."}
+  Microsoft.Vocab: {off: "Flags words for a manual check against Microsoft's word list without a rule."}
+  Microsoft.Uppercase: {off: "Flags acronyms and code names; House rules cover emphasis."}
+  Microsoft.SentenceLength: {off: "House.SentenceLength covers it."}
+  Microsoft.OxfordComma: {off: "Oxford.SerialComma covers it."}
+  Microsoft.Passive: {off: "RedHat.PassiveVoice covers it."}
+  Microsoft.Headings: {off: "RedHat.Headings covers it."}
+  Microsoft.HeadingPunctuation: {off: "RedHat.HeadingPunctuation covers it."}
+  Microsoft.Hyphens: {off: "Oxford.LyHyphen covers it."}
+  Microsoft.Plurals: {off: "House.ParenPlural covers it."}
+  Microsoft.Quotes: {off: "Oxford.QuotePunctuation covers it."}
+  Microsoft.Spacing: {off: "RedHat.Spacing covers it."}
+  Microsoft.Ellipses: {off: "RedHat.Ellipses covers it."}
+  Microsoft.Foreign: {off: "House.Latin covers it."}
+  Microsoft.Acronyms: {off: "RedHat.Definitions covers it."}
+  Microsoft.Adverbs: {off: "House.Intensifiers covers the words the skill names."}
+  Microsoft.ExclamationPoints: {off: "House.ExclamationPoint covers it."}

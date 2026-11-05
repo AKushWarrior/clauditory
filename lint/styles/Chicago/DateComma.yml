@@ -1,0 +1,13 @@
+extends: existence
+message: "Put a comma after the year in a full date: '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/chicago-manual-of-style.md
+level: warning
+nonword: true
+action:
+  name: edit
+  params:
+    - regex
+    - '(\d{4})$'
+    - '$1,'
+tokens:
+  - '\b(?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}(?= (?:and|but|or|to|the|a|an|at|in|on|when|after|before|is|was|were|will)\b)'

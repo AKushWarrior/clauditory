@@ -2,7 +2,7 @@
 name: spawn-research-subagent
 description: Use when a research task splits into independent sub-questions or needs heavy reading across many sources. Fans the work out to parallel Haiku subagents. Not for single-fact lookups.
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Spawn research subagents
@@ -26,7 +26,7 @@ Answer the question below concisely, using all tools available to you.
 
 Sources, best first: peer-reviewed research and official primary documents (government, regulators, company filings, official docs) > systematic reviews > reputable journalism (as pointers to primary sources) > preprints (label them) > other web (label it). Cite every claim with a URL; for key figures, quote the exact sentence from the primary source.
 
-Make independent searches and fetches in parallel; sequence only dependent calls. If a primary-source URL fails, search for the correct URL before falling back to secondary sources. Judge sources by provenance and method: who produced the claim and how they know it. Treat polish, popularity and authority cues as weak signals, and weigh each source on its own record instead of distrusting all of them equally. Confirm load-bearing claims with an independent second source where possible. Stop when each part of the question is answered from a primary source or confirmed unanswerable.
+Make independent searches and fetches in parallel; sequence only dependent calls. If a primary-source URL fails, search for the correct URL before falling back to secondary sources. Judge sources by provenance and method: who produced the claim and how they know it. Treat polish, popularity, and authority cues as weak signals, and weigh each source on its own record instead of distrusting all of them equally. Confirm load-bearing claims with an independent second source where possible. Stop when each part of the question is answered from a primary source or confirmed unanswerable.
 
 Report in this format:
 - Answer: <1-3 sentences>

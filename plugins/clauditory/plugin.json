@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "clauditory",
-  "version": "0.2.0",
-  "description": "Research-backed skills for agents: a plain newspaper writing style and a pattern for parallel research subagents.",
+  "version": "0.3.0",
+  "description": "Research-backed skills for agents: a plain newspaper writing style, technical-writing rules, and a pattern for parallel research subagents.",
   "author": {
     "name": "Aditya Kishore",
     "url": "https://github.com/AKushWarrior"
@@ -20,7 +20,7 @@
     "com.openai": {
       "interface": {
         "displayName": "Clauditory",
-        "shortDescription": "Plain writing style and parallel research subagents",
+        "shortDescription": "Plain writing style, technical writing, and parallel research",
         "developerName": "Aditya Kishore",
         "category": "Productivity"
       }

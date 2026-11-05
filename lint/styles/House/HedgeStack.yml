@@ -1,0 +1,15 @@
+extends: substitution
+message: "Use one hedge: '%s' instead of '%s'."
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  may potentially: may
+  might potentially: might
+  could potentially: could
+  could possibly: could
+  might possibly: might
+  may possibly: may
+  it seems that it might: it might
+  it appears that it may: it may

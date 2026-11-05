@@ -1,0 +1,11 @@
+extends: existence
+message: "Replace the dash with a comma, colon, parentheses, or a period."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/SKILL.md#10-revision-pass
+level: error
+nonword: true
+tokens:
+  - '—'
+  - '\s–\s'
+  - '(?<=\w) - (?=\w)'
+  - '(?<=\w)--(?=\w)'
+  - '(?<=\w) -- (?=\w)'

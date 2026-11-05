@@ -1,0 +1,13 @@
+extends: existence
+message: "Don't hyphenate after an adverb ending in -ly: '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/oxford-new-harts-rules.md
+level: warning
+nonword: true
+action:
+  name: edit
+  params:
+    - regex
+    - '-'
+    - ' '
+tokens:
+  - '\b(?!(?:family|early|holy|friendly|likely|daily|weekly|monthly|yearly|hourly|only|ugly|silly|jolly|curly|lonely|lovely|costly|elderly|orderly|timely|bodily|deadly|scholarly|kindly|lively|manly|womanly|worldly|unlikely|July|Italy|reply|supply|apply|multiply|rely|ally|fly|belly|bully|jelly|rally|tally|lily|Emily|Molly|Billy|Sally|Kelly|Holly|Polly|Lilly|Dolly|Tully|Ely)-)[a-z]+ly-[a-z]+\b'

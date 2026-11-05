@@ -1,6 +1,6 @@
 # Clauditory
 
-Clauditory holds agent-facing prompts, skills, and hooks for chat, coding, and computer-use agents. Each artifact rests on published research or established references, and each one ships with a `references` folder that records which sources shaped it and how.
+Clauditory holds agent-facing prompts, skills, and hooks for chat, coding, and computer-use agents. Each artifact rests on published research or established references, and each one includes a `references` folder that records which sources shaped it and how.
 
 ## Write everything in the house register
 
@@ -13,7 +13,7 @@ The reason is consistency. Agents that work in this repository read its files an
 ```
 AGENTS.md                 this file
 README.md                 what the repository holds and how to install it
-bin/clauditory            command-line helper: list, install, package, build, prompt
+bin/clauditory            command-line helper: list, install, package, build, prompt, lint
 chat/
   system/
     prompt.md             system prompt for chat agents
@@ -24,6 +24,10 @@ chat/
       CHANGELOG.md        what changed in each version
       references/         one file per source behind the skill
 coding/                   (planned) artifacts for coding agents, same layout as chat/
+lint/                     clauditory-lint, a Go prose linter built on Vale
+  rules.yml               each rule's domain, tier, fix setting, and status
+  styles/                 Vale styles, one folder per source
+  references/             one file per source behind the linter
 plugins/clauditory/       generated plugin for Claude Code, the Claude apps, and Codex
 .claude-plugin/           Claude plugin marketplace that lists plugins/clauditory
 .agents/plugins/          Codex plugin marketplace that lists plugins/clauditory
@@ -33,7 +37,11 @@ The plugin under `plugins/clauditory` is generated. Edit the sources under `chat
 
 Every skill carries a version in its frontmatter, as `metadata.version`, and a `CHANGELOG.md` beside its `SKILL.md`. Use semantic versioning: raise the major version when a rule changes in a way that alters existing text, the minor version when you add or deepen rules, and the patch version for wording fixes that change no rule. Update the changelog in the same commit.
 
-The writing-style skill sets the house register for any agent writing prose, including agents working in this repository, and the technical-writing skill adds rules for documentation, code comments, and commits. Their sources rank in this order when they conflict: The New York Times Manual of Style and Usage, the AP Stylebook, The Chicago Manual of Style, the New Oxford Style Manual (where its British conventions differ from American ones, the American convention wins), and then the technical guides from Google, Microsoft, Apple, IBM, and Red Hat and the git and Linux kernel patch guides. The owner's explicit choices override every source: no em dashes, the serial comma, and the revision-pass bans.
+The writing-style skill sets the house register for any agent writing prose, including agents working in this repository, and the technical-writing skill adds rules for documentation, code comments, and commits. When their sources conflict, the news and book manuals rank first, in this order: The New York Times Manual of Style and Usage, the AP Stylebook, The Chicago Manual of Style, and the New Oxford Style Manual. Where Oxford's British conventions differ from American ones, the American convention wins. The technical guides from Google, Microsoft, Apple, IBM, and Red Hat and the git and Linux kernel patch guides come after them. The owner's explicit choices override every source: no em dashes, the serial comma, and the revision-pass bans.
+
+The linter ranks sources by domain instead of in one list. For grammar and punctuation the order is Oxford, AP, and Chicago; for word choice and formatting, NYT, Chicago, and AP; and for technical communication, Red Hat, Apple, and Microsoft. The owner's House rules outrank all of them. A lower-ranked rule applies only where no higher-ranked rule disagrees, and `lint/README.md` explains how the linter settles each conflict. The linter carries a version in `lint/registry.go` and a `CHANGELOG.md` and follows the same versioning rule as the skills.
+
+Run `bin/clauditory lint` over prose you write here before you commit it, and fix what it reports where the rule applies.
 
 Use the most widely supported format for each kind of artifact. Skills follow the Agent Skills format: a folder holding a `SKILL.md` file with `name` and `description` frontmatter. System prompts are plain Markdown.
 
@@ -48,16 +56,16 @@ Every artifact keeps a `references/` folder beside it, with one Markdown file pe
 5. Conflicts with other references in the same folder, and how the artifact resolved them.
 6. Review notes: what was read, what could not be reached, and any doubts about the reading.
 
-Sources that make claims about how AI systems perform must be recent, because model capability changes fast. A source of that kind must have been first published less than eight months before its last-reviewed date. Date it by its first publication, such as an arXiv paper's first version, not its latest revision. Living documentation, such as a vendor's current prompting guide, counts from the version read, as long as it covers current models. Studies of human readers and writers, style manuals, and other sources that make no claim about AI performance have no age limit. When a source ages out, remove its reference file at the next revision of the artifact, and either replace it with newer evidence or drop the rule it alone supported.
+Sources that make claims about how AI systems perform must be recent, because model capability changes fast. A source of that kind must have been first published less than eight months before its last-reviewed date. Date it by its first publication, such as an arXiv paper's first version, not its latest revision. Living documentation, such as a vendor's current prompting guide, counts from the version read, if it covers current models. Studies of human readers and writers, style manuals, and other sources that make no claim about AI performance have no age limit. When a source ages out, remove its reference file at the next revision of the artifact, and either replace it with newer evidence or drop the rule it alone supported.
 
 Paraphrase everything. Reference files contain no quotations from the source and no copies of it, its figures, or its tables. When you change an artifact, re-review every source behind the change and update the last-reviewed date in each file you touched.
 
 ## Commit messages
 
-Commit messages follow section 8 of the technical-writing skill. In short: an imperative subject line of about 50 characters with no closing period, such as "Add the Rhodes reference for the writing-style skill," then a blank line and a body wrapped at about 72 characters that explains the problem and why the change solves it. Name the files or behavior that changed, and skip anything the diff already makes obvious.
+Commit messages follow section 8 of the technical-writing skill. In short, write an imperative subject line of about 50 characters with no closing period, such as "Add the Rhodes reference for the writing-style skill." Then leave a blank line and write a body wrapped at about 72 characters that explains the problem and why the change solves it. Name the files or behavior that changed, and skip anything the diff already makes obvious.
 
 Commit as the repository owner. Don't add trailers that credit or link to an AI model or session, such as Co-Authored-By or Claude-Session lines.
 
-## Using bin/clauditory
+## Using `bin/clauditory`
 
-Run `bin/clauditory list` to see the available artifacts. `bin/clauditory install chat/skills/writing-style` copies a skill into `~/.claude/skills/` for Claude Code; pass `--dest` to install somewhere else. `bin/clauditory package chat/skills/writing-style` builds a zip you can upload as a skill in the Claude apps. Both commands leave out the `references/` folder and `CHANGELOG.md`, since those document the work for people and would only add noise to an agent's context.
+Run `bin/clauditory list` to see the available artifacts. `bin/clauditory install chat/skills/writing-style` copies a skill into `~/.claude/skills/` for Claude Code; pass `--dest` to install somewhere else. `bin/clauditory package chat/skills/writing-style` builds a zip you can upload as a skill in the Claude apps. Both commands omit the `references/` folder and `CHANGELOG.md`, since those document the work for people and would only add noise to an agent's context.

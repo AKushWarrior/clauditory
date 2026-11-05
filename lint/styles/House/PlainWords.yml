@@ -1,0 +1,21 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  utilize: use
+  utilizes: uses
+  utilized: used
+  utilizing: using
+  utilization: use
+  prior to: before
+  in order to: to
+  in conjunction with: with
+  in the event that: if
+  due to the fact that: because
+  as per: according to
+  with regard to: about
+  with regards to: about
+  in regards to: about

@@ -1,0 +1,13 @@
+extends: existence
+message: "Write the day as a cardinal number: '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/nyt-manual-of-style.md
+level: warning
+nonword: true
+action:
+  name: edit
+  params:
+    - regex
+    - '(\d)(?:st|nd|rd|th)'
+    - '$1'
+tokens:
+  - '\b(?:Jan\.|Feb\.|Aug\.|Sept\.|Oct\.|Nov\.|Dec\.|January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}(?:st|nd|rd|th)\b'

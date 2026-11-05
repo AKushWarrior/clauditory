@@ -1,0 +1,13 @@
+extends: substitution
+message: "Consider '%s' instead of '%s'."
+level: suggestion
+ignorecase: true
+swap:
+  facilitat(?:e|es|ed|ing): help
+  transpir(?:e|es|ed|ing): happen
+  initiat(?:e|es|ed|ing): start
+  commenc(?:e|es|ed|ing): start
+  attempt(?:s|ed|ing)? to: try to
+  whether or not: whether
+  the fact that: that
+  one of the reasons: a reason

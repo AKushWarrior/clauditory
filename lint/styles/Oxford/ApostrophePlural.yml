@@ -1,0 +1,13 @@
+extends: existence
+message: "Don't use an apostrophe to make a plural: '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/oxford-new-harts-rules.md
+level: warning
+nonword: true
+action:
+  name: edit
+  params:
+    - regex
+    - "['’]s$"
+    - 's'
+tokens:
+  - "\\b(?:1[0-9]|20)[0-9]0['’]s\\b"

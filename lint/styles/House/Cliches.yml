@@ -1,0 +1,19 @@
+extends: existence
+message: "'%s' is a cliché. Say what you mean."
+level: warning
+ignorecase: true
+tokens:
+  - game[- ]changer
+  - deep dive
+  - at the end of the day
+  - low-hanging fruit
+  - perfect storm
+  - silver bullet
+  - wake-up call
+  - paradigm shift
+  - cutting[- ]edge
+  - harness the power
+  - best-of-breed
+  - on the same page
+  - move the needle
+  - double-edged sword

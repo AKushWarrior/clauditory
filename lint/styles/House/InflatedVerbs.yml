@@ -1,0 +1,9 @@
+extends: existence
+message: "'%s' inflates a plain verb. Use is, are, or has, or put the actor in the subject."
+level: suggestion
+ignorecase: true
+tokens:
+  - 'serv(?:es|ed|ing) as'
+  - 'stands as'
+  - '(?:allows|enables|permits) (?:you|users|the user|developers) to'
+  - '(?:is|are) designed to'

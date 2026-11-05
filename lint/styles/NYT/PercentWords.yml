@@ -1,0 +1,10 @@
+extends: substitution
+message: "Write '%s', not '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/nyt-manual-of-style.md
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  per cent: percent
+  percentage point increase: percentage-point increase

@@ -1,0 +1,6 @@
+extends: existence
+message: "Give '%s' a noun, so the reader knows what it points back to."
+level: suggestion
+scope: sentence
+tokens:
+  - '^(?:This|These|That|Those) (?:is|are|was|were|means|meant|makes|made|shows|showed|lets|allows|has|have|had|can|will|would|should|does|did|helps|causes|caused|keeps|gives|leads)\b'

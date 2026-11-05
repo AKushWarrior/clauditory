@@ -1,0 +1,11 @@
+extends: substitution
+message: "Write '%s', not '%s'."
+level: error
+ignorecase: true
+action:
+  name: replace
+swap:
+  can not: cannot
+  alright: all right
+  noone: no one
+  comprised of: consists of

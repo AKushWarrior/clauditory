@@ -1,0 +1,13 @@
+extends: existence
+message: "Choose the article by sound: '%s' takes 'an'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/oxford-new-harts-rules.md
+level: warning
+nonword: true
+action:
+  name: edit
+  params:
+    - regex
+    - '^([Aa]) '
+    - '${1}n '
+tokens:
+  - '\b[Aa] (?:API|HTTP|HTTPS|HTML|LLM|MCP|SSH|SSL|XML|SDK|SMS|RSS|MRI|FBI|NFL|SVG|RPC|ORM|ETL|IDE|OS|AWS|S3|SLA|SLO|MVP|NPM)\b'

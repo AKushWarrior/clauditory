@@ -1,0 +1,14 @@
+extends: existence
+message: "Write 'percent' in running prose. Keep the percent sign for tables and charts."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/nyt-manual-of-style.md
+level: warning
+nonword: true
+scope: ~table
+action:
+  name: edit
+  params:
+    - regex
+    - '(\d)\s?%'
+    - '$1 percent'
+tokens:
+  - '(?<![\w%])\d+(?:\.\d+)?\s?%(?!\w)'

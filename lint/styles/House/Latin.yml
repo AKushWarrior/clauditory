@@ -1,0 +1,11 @@
+extends: substitution
+message: "In running text, write '%s' instead of '%s'."
+level: warning
+nonword: true
+action:
+  name: replace
+swap:
+  '(?<!\()\be\.g\.,': 'for example,'
+  '(?<!\()\bi\.e\.,': 'that is,'
+  '(?<!\()\be\.g\.(?!,)': 'for example'
+  '(?<!\()\bi\.e\.(?!,)': 'that is'

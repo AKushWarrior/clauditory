@@ -1,0 +1,17 @@
+{
+  "description": "After Claude writes or edits a prose file, check it with clauditory-lint if the linter is installed.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "command -v clauditory-lint >/dev/null 2>&1 || exit 0; exec clauditory-lint hook",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

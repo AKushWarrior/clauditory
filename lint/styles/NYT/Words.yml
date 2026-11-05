@@ -1,0 +1,18 @@
+extends: substitution
+message: "Write '%s', not '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/nyt-manual-of-style.md
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  e-mail: email
+  e-mails: emails
+  web site: website
+  web sites: websites
+  on-line: online
+  okay: OK
+  towards: toward
+  amongst: among
+  whilst: while
+  non-profit: nonprofit

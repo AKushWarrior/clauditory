@@ -1,0 +1,13 @@
+extends: existence
+message: "Cut '%s' or find the stronger word it props up."
+level: suggestion
+ignorecase: true
+tokens:
+  - very
+  - really
+  - truly
+  - incredibly
+  - extremely
+  - basically
+  - essentially
+  - 'rather(?! than)'

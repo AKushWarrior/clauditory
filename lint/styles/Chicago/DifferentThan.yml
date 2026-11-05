@@ -1,0 +1,7 @@
+extends: existence
+message: "Prefer 'different from' when a noun or pronoun follows: '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/chicago-manual-of-style.md
+level: suggestion
+ignorecase: true
+tokens:
+  - 'different than (?:the|a|an|this|that|those|these|it|them|him|her|us|me|you)\b'

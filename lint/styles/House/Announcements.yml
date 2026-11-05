@@ -1,0 +1,7 @@
+extends: existence
+message: "'%s' announces a point instead of making it. Delete the frame and keep the point."
+level: warning
+tokens:
+  - "(?:It's|It is) (?:important|worth|interesting) (?:to note|noting)(?: that)?"
+  - "(?:It's|It is) worth mentioning(?: that)?"
+  - '(?<![\w,] )(?:Notably|Additionally|Importantly),'

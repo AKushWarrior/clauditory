@@ -1,0 +1,14 @@
+extends: substitution
+message: "Write '%s', not '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/ap-stylebook.md
+level: suggestion
+ignorecase: true
+action:
+  name: replace
+swap:
+  afterwards: afterward
+  backwards: backward
+  forwards: forward
+  upwards: upward
+  downwards: downward
+  advisor: adviser

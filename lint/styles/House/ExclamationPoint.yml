@@ -1,0 +1,6 @@
+extends: existence
+message: "Save exclamation points for quotations."
+level: warning
+nonword: true
+tokens:
+  - '(?<=\w)!(?=\s|$)'

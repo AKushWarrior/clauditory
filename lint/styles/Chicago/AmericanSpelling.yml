@@ -1,0 +1,51 @@
+extends: substitution
+message: "Use the American spelling '%s', not '%s'."
+link: https://github.com/AKushWarrior/clauditory/blob/main/chat/skills/writing-style/references/chicago-manual-of-style.md
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  colour: color
+  colours: colors
+  behaviour: behavior
+  behaviours: behaviors
+  favour: favor
+  honour: honor
+  labour: labor
+  neighbour: neighbor
+  centre: center
+  centres: centers
+  metre: meter
+  litre: liter
+  catalogue: catalog
+  dialogue box: dialog box
+  analyse: analyze
+  analysed: analyzed
+  organise: organize
+  organised: organized
+  organisation: organization
+  organisations: organizations
+  recognise: recognize
+  recognised: recognized
+  optimise: optimize
+  optimised: optimized
+  prioritise: prioritize
+  summarise: summarize
+  initialise: initialize
+  initialised: initialized
+  serialise: serialize
+  licence: license
+  defence: defense
+  offence: offense
+  travelled: traveled
+  travelling: traveling
+  cancelled: canceled
+  cancelling: canceling
+  modelling: modeling
+  labelled: labeled
+  labelling: labeling
+  judgement: judgment
+  grey: gray
+  programme: program
+  enrol: enroll

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# clauditory: list, install, package, and build the artifacts in this repository.
+# clauditory: list, install, package, build, and lint the artifacts in this repository.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -20,6 +20,13 @@ Usage:
       whether the plugin is out of date and change nothing.
   clauditory prompt
       Print the chat system prompt, for pasting or appending elsewhere.
+  clauditory lint [flags] [file ...]
+      Check prose with clauditory-lint, building it and Vale first if
+      needed (requires Go). Pass --fix to apply the mechanical fixes, and
+      run `clauditory lint --help` for the other flags.
+  clauditory install-lint [--dest DIR]
+      Build clauditory-lint and Vale and copy both into DIR (default
+      ~/.local/bin), where the plugin's hook can find them.
 
 The references/ folder and CHANGELOG.md are left out of installs and
 packages, because they document the work for people and are not meant for
@@ -35,6 +42,23 @@ skill_dir() {
   fi
   echo "$dir"
 }
+
+# build_lint compiles clauditory-lint when its sources are newer than the
+# binary, and installs Vale beside it when no Vale is on the PATH.
+build_lint() {
+  local bin="$ROOT/lint/.bin"
+  if [[ ! -x "$bin/clauditory-lint" ]] || [[ -n "$(find "$ROOT/lint" -path "$bin" -prune -o \( -name '*.go' -o -name '*.yml' -o -name go.mod \) -newer "$bin/clauditory-lint" -print -quit)" ]]; then
+    command -v go >/dev/null 2>&1 || { echo "clauditory: building the linter needs Go 1.24 or later" >&2; exit 1; }
+    (cd "$ROOT/lint" && go build -o .bin/clauditory-lint ./cmd/clauditory-lint)
+  fi
+  if [[ -z "${CLAUDITORY_VALE:-}" && ! -x "$bin/vale" ]] && ! command -v vale >/dev/null 2>&1; then
+    command -v go >/dev/null 2>&1 || { echo "clauditory: installing Vale needs Go 1.24 or later" >&2; exit 1; }
+    echo "Installing Vale $VALE_VERSION into lint/.bin" >&2
+    GOBIN="$bin" go install "github.com/vale-cli/vale/v3/cmd/vale@$VALE_VERSION"
+  fi
+}
+
+VALE_VERSION=v3.26.0
 
 cmd="${1:-}"
 shift || true
@@ -73,7 +97,8 @@ case "$cmd" in
     plugin="$ROOT/plugins/clauditory"
     tmp="$(mktemp -d)"
     trap 'rm -rf "$tmp"' EXIT
-    mkdir -p "$tmp/skills" "$tmp/output-styles"
+    mkdir -p "$tmp/skills" "$tmp/output-styles" "$tmp/hooks"
+    cp "$ROOT/lint/hooks/hooks.json" "$tmp/hooks/hooks.json"
     for dir in "$ROOT"/chat/skills/*/; do
       name="$(basename "$dir")"
       mkdir -p "$tmp/skills/$name"
@@ -86,21 +111,36 @@ case "$cmd" in
     } > "$tmp/output-styles/clauditory.md"
     if [[ "${1:-}" == "--check" ]]; then
       if diff -r "$tmp/skills" "$plugin/skills" >/dev/null 2>&1 \
-        && diff "$tmp/output-styles/clauditory.md" "$plugin/output-styles/clauditory.md" >/dev/null 2>&1; then
+        && diff "$tmp/output-styles/clauditory.md" "$plugin/output-styles/clauditory.md" >/dev/null 2>&1 \
+        && diff -r "$tmp/hooks" "$plugin/hooks" >/dev/null 2>&1; then
         echo "plugins/clauditory is up to date"
       else
         echo "plugins/clauditory is out of date; run bin/clauditory build" >&2
         exit 1
       fi
     else
-      rm -rf "$plugin/skills" "$plugin/output-styles"
+      rm -rf "$plugin/skills" "$plugin/output-styles" "$plugin/hooks"
       mkdir -p "$plugin"
-      cp -R "$tmp/skills" "$tmp/output-styles" "$plugin/"
+      cp -R "$tmp/skills" "$tmp/output-styles" "$tmp/hooks" "$plugin/"
       echo "Built plugins/clauditory"
     fi
     ;;
   prompt)
     cat "$ROOT/chat/system/prompt.md"
+    ;;
+  lint)
+    build_lint
+    exec "$ROOT/lint/.bin/clauditory-lint" "$@"
+    ;;
+  install-lint)
+    build_lint
+    dest="$HOME/.local/bin"
+    if [[ "${1:-}" == "--dest" ]]; then dest="${2:?clauditory: --dest needs a directory}"; fi
+    mkdir -p "$dest"
+    cp "$ROOT/lint/.bin/clauditory-lint" "$dest/"
+    if [[ -x "$ROOT/lint/.bin/vale" ]]; then cp "$ROOT/lint/.bin/vale" "$dest/"; fi
+    echo "Installed clauditory-lint to $dest"
+    case ":$PATH:" in *":$dest:"*) ;; *) echo "Add $dest to your PATH so the plugin's hook can find it." ;; esac
     ;;
   ""|-h|--help|help)
     usage
