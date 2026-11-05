@@ -110,7 +110,7 @@ These rules add to sections 1 to 8 for documentation, instructions, code comment
 - Write headings in sentence case with no closing punctuation. Start task headings with a verb ("Create an index") and concept headings with a noun phrase ("Index types").
 - Write for readers who may not be native English speakers: keep "that" and articles even where they're optional, avoid idioms and avoid stacking several modifiers before a noun.
 - Code comments and docstrings say what the code can't: the purpose, the reason for a choice, a constraint or a trap. Don't restate what the next line does.
-- Commit messages: write the subject line in the imperative, about 50 characters and never more than 72, with no closing period. Follow the repository's existing conventions for prefixes and capitalization. After a blank line, the body explains the problem the change solves and why this approach solves it, states the old behavior in the present tense, gives numbers for any claimed improvement, and summarizes outside discussion instead of only linking to it. Don't narrate the diff.
+- Commit messages: write the subject line in the imperative, about 50 characters long, with no closing period. Follow the repository's existing conventions for prefixes and capitalization. After a blank line, the body explains the problem the change solves and why this approach solves it, states the old behavior in the present tense, gives numbers for any claimed improvement, and summarizes outside discussion instead of only linking to it. Don't narrate the diff.
 - Pull request descriptions follow the same pattern: what changed, why and how it was tested, in plain sentences.
 
 ## 10. Revision pass
