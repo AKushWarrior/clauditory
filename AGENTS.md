@@ -45,7 +45,7 @@ Paraphrase everything. Reference files contain no quotations from the source and
 
 Commit messages follow section 9 of the writing-style skill. In short: an imperative subject line of about 50 characters with no closing period, such as "Add the Rhodes reference for the writing-style skill", then a blank line and a body wrapped at about 72 characters that explains the problem and why the change solves it. Name the files or behavior that changed, and skip anything the diff already makes obvious.
 
-Commit as the repository owner. Don't add co-author trailers that credit an AI model.
+Commit as the repository owner. Don't add trailers that credit or link to an AI model or session, such as Co-Authored-By or Claude-Session lines.
 
 ## Using bin/clauditory
 
