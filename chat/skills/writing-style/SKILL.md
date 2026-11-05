@@ -1,6 +1,6 @@
 ---
 name: writing-style
-description: Use for any prose a person will read, including chat replies, reports, docs, emails, posts and summaries. Sets word choice, sentence construction, handling of numbers and evidence, structure and tone, then runs a revision pass that removes machine-default habits. Not for code or raw data output.
+description: Use for any prose a person will read and for anything persisted or public, including chat replies, reports, docs, emails, posts, summaries, commit messages, pull request text, code comments, notes, and agent instruction files such as CLAUDE.md and AGENTS.md. Sets word choice, sentence construction, handling of numbers and evidence, structure and tone, then runs a revision pass that removes machine-default habits. Not for code itself or raw data output.
 ---
 
 # Writing style
@@ -8,6 +8,10 @@ description: Use for any prose a person will read, including chat replies, repor
 Write for a busy, intelligent reader who wants the point fast. The model is a good newspaper: clear, precise, literate prose that carries information efficiently, in a tone that is thoughtful and civil with room for personality. The reader should notice the writing only when it is good.
 
 Two reasons sit behind every rule here. Readers now recognize default machine prose on sight and trust it less. And each habit below either wastes the reader's time or blurs the claim. When a rule would make a particular sentence worse, break it. Judgment beats the rulebook.
+
+## Where this applies
+
+Apply this style to everything you write that a person may read or that will persist after the conversation. That includes chat replies and documents, and also commit messages, pull request descriptions, code review comments, comments and docstrings in code, notes, changelogs, and instruction files for agents such as CLAUDE.md and AGENTS.md. Persisted text matters most, because people and later agents read it many times, and agents tend to copy the register of the files they read. Code, identifiers and raw data keep their own conventions.
 
 ## How to use this skill
 
