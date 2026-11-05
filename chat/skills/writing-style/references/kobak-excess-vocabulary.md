@@ -3,7 +3,7 @@
 - **Source:** Dmitry Kobak, Rita González-Márquez, Emőke-Ágnes Horvát and Jan Lause, "Delving into LLM-assisted writing in biomedical publications through excess vocabulary," Science Advances, 2025. Earlier versions circulated as the arXiv preprint 2406.07016 (five versions; v5 reviewed here).
 - **Type:** peer-reviewed journal article (the reviewed text is the v5 preprint of the same work)
 - **Where to find it:** DOI 10.1126/sciadv.adt3813; preprint at https://arxiv.org/abs/2406.07016 (HTML at https://arxiv.org/html/2406.07016v5); code and data at github.com/berenslab/llm-excess-vocab
-- **Last reviewed:** 2026-11-04
+- **Last reviewed:** 2026-11-05
 - **Used by:** chat/skills/writing-style/SKILL.md
 
 ## What the source covers
@@ -76,7 +76,7 @@ Words in the skill's list that do not appear in the authors' list at all: boast,
 
 **Section 2 (words).** The source supports the rule to use plain words and to cut intensifiers and vogue vocabulary. The 2024 excess is made of formal-sounding verbs and adjectives, so the paper gives a concrete picture of what over-formal word choice looks like and why readers notice it. The skill's preference for specific over inflated language is consistent with this finding, though the paper does not test readability.
 
-**How to use this skill (placement of the list).** The paper does not address priming. The decision to keep the word list in the post-draft pass comes from another reference. What the paper contributes is the reason the list exists at all and the reminder that the signature is statistical: one word proves nothing, but a cluster is visible to readers.
+**How to use this skill (placement of the list).** The paper does not address where a list belongs. The decision to keep the word list in the post-draft pass comes from one-token-away-from-collapse.md and taboo-negative-constraints.md. What the paper contributes is the reason the list exists at all and the reminder that the signature is statistical: one word proves nothing, but a cluster is visible to readers.
 
 **Section 10, item 8 versus item 3.** The paper's finding that style-word excess is dominated by verbs is loosely consistent with the revision pass's attention to trailing commentary clauses (verb forms such as underscoring, ensuring and highlighting). That link is the skill authors' inference. The paper does not discuss clause structure.
 
@@ -92,7 +92,7 @@ No direct conflict with the style manuals: NYT, AP and Chicago all advise plain 
 
 The real tensions are with other empirical and popular sources. The file juzek-ward-lexical-overrepresentation.md and liang-ai-modified-peer-reviews.md use different corpora and measures (Kobak's paper itself describes Liang and colleagues' method as a mixture model of human and LLM word distributions calibrated on known LLM text, in contrast to its own trend-based excess measure). The measures are not comparable. Kobak measures a 2024 shift in published abstracts relative to a pre-LLM trend. I did not re-read the Juzek and Ward or Liang files for this review. Words that top one list can be middling in another, and the skill does not claim they agree. It uses their overlap as a signal and does not rank the lists. The file wikipedia-signs-of-ai-writing.md is a popular, editor-built list that includes words absent from Kobak's measured list, as shown in the comparison above (tapestry, testament, vibrant, holistic, robust and others). The skill keeps those words because other evidence or editor experience supports them, but the evidence is weaker than for the words in the measured list.
 
-A further tension is with semantic-gravity-wells.md, which argues that naming banned words can prime them. This paper does not speak to that, but it is the reason the skill places the Kobak-derived list only in the revision pass. The anthropic-prompting-docs.md file recommends positive instructions, and the skill follows that for the drafting stage and uses a list only afterward. Finally, freeburg-em-dashes.md and boggia-artificial-epanorthosis.md cover punctuation and rhetorical frames, which this word-based method cannot see, so the skill's dash and "not X, but Y" rules rest on those files and the user's explicit choices, not on this one.
+A further tension is with one-token-away-from-collapse.md and taboo-negative-constraints.md, which found that bans given while drafting make a model write a thinner answer. This paper does not speak to that. Those findings are the reason the skill places the Kobak-derived list only in the revision pass. An earlier version of this file cited a claim that naming banned words primes them; that claim was dropped. The anthropic-prompting-docs.md file recommends positive instructions, and the skill follows that for the drafting stage and uses a list only afterward. Finally, freeburg-em-dashes.md and boggia-artificial-epanorthosis.md cover punctuation and rhetorical frames, which this word-based method cannot see, so the skill's dash and "not X, but Y" rules rest on those files and the user's explicit choices, not on this one.
 
 ## Review notes
 

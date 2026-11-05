@@ -3,7 +3,7 @@
 - **Source:** University of Chicago Press, *The Chicago Manual of Style*, 18th edition (Chicago: University of Chicago Press, 2024). Principal reviser: Russell David Harper. Chapter 5 (Grammar and Usage) is by Bryan A. Garner; chapter 4 (Rights, Permissions, and Copyright Administration) is by William S. Strong.
 - **Type:** style manual
 - **Where to find it:** Print edition, about 1,100 numbered pages plus front matter, glossary, bibliography and index (the scanned copy reviewed here runs 1,208 PDF pages). An online edition (CMOS Online) exists at chicagomanualofstyle.org; the manual mentions it and a companion Q&A and blog, which this review did not consult.
-- **Last reviewed:** 2026-11-04
+- **Last reviewed:** 2026-11-05
 - **Used by:** chat/skills/writing-style/SKILL.md
 
 ## What the source covers
@@ -134,7 +134,7 @@ On dashes, Chicago uses the unspaced em dash and endorses it as the most versati
 
 **boggia-artificial-epanorthosis.md.** Chicago's negation section treats negation as a normal resource and prefers fewer words (nothing for not anything), and its coverage says nothing against the correction-framing pattern. No conflict arises, but the manual offers no support for the skill's ban on not-X-but-Y constructions, which comes from the user's choice and from Boggia's findings.
 
-**semantic-gravity-wells.md and anthropic-prompting-docs.md.** Garner's glossary is a list of words to avoid, and it names them in the entries. That is the approach the gravity-wells reference warns can prime the very words, and the prompting docs prefer positive instructions. The skill takes the glossary's content but keeps its word lists in the post-draft revision pass and phrases the drafting sections around the plain word to use instead.
+**one-token-away-from-collapse.md, taboo-negative-constraints.md and anthropic-prompting-docs.md.** Garner's glossary is a list of words to avoid, and it names them in the entries. The two studies found that a model obeys bans like these when they sit in its prompt but writes a thinner answer, and the prompting docs prefer positive instructions. An earlier version of this entry cited a claim that naming the words primes them; that claim was dropped. The skill takes the glossary's content but keeps its word lists in the post-draft revision pass and phrases the drafting sections around the plain word to use instead.
 
 **kobak-excess-vocabulary.md, juzek-ward-lexical-overrepresentation.md, liang-ai-modified-peer-reviews.md, wikipedia-signs-of-ai-writing.md.** These sources concern which words machine text overuses. Garner's glossary concerns words human writers misuse or inflate, and it barely overlaps the machine-vocabulary lists in the entries I read. I did not compare the lists in detail. The manual neither supports nor contradicts them, and the skill draws on each for a different purpose.
 

@@ -3,7 +3,7 @@
 - **Source:** Google, *Google developer documentation style guide*, Google for Developers. A web publication with no edition numbers; Google revises it continuously and logs significant changes on its What's new page, whose latest entry at review time was dated October 16, 2026.
 - **Type:** style manual
 - **Where to find it:** https://developers.google.com/style (the review used a crawl of 78 pages taken on 2026-11-04)
-- **Last reviewed:** 2026-11-04
+- **Last reviewed:** 2026-11-05
 - **Used by:** chat/skills/writing-style/SKILL.md
 
 ## What the source covers
@@ -132,7 +132,7 @@ The guide also reinforces rules in earlier sections that rest mainly on the news
 
 **Section 6 (structure and format).** The lists page's rules on introductory sentences and parallel items support the rule on lists. The guide's ban on one-item lists is consistent with the skill's preference for prose.
 
-**Section 10, items 7, 8 and 13.** The tone page's rejection of filler such as please note fits revision item 7. Google's entry against leverage where use is meant is one of the reasons leverage appears in item 8, alongside the corpus studies. Item 13 (technical overclaiming and dating) holds the three word lists that section 9 draws from this guide: best, fastest, always, never, ensure and guarantee from the excessive-claims page, which also names simplest; simple, easy, quick and just from the precise-language section and word list; and now, new, currently, soon and at present, a selection from the timeless page's longer list. An earlier draft of section 9 named these words in the drafting rules. They moved to the revision pass because naming a word can prime it, the finding in semantic-gravity-wells.md, and because anthropic-prompting-docs.md favors positive instructions. Google's guide works the other way and puts its lists in front of the writer, which suits human editors who look words up; the skill's split suits a model that reads its instructions just before drafting.
+**Section 10, items 7, 8 and 13.** The tone page's rejection of filler such as please note fits revision item 7. Google's entry against leverage where use is meant is one of the reasons leverage appears in item 8, alongside the corpus studies. Item 13 (technical overclaiming and dating) holds the three word lists that section 9 draws from this guide: best, fastest, always, never, ensure and guarantee from the excessive-claims page, which also names simplest; simple, easy, quick and just from the precise-language section and word list; and now, new, currently, soon and at present, a selection from the timeless page's longer list. An earlier draft of section 9 named these words in the drafting rules. They moved to the revision pass because constraints given while drafting tend to make a model plan a thinner answer, the finding in one-token-away-from-collapse.md and taboo-negative-constraints.md, and because anthropic-prompting-docs.md favors positive instructions. The move was first justified by a claim that naming a word primes it; that claim was dropped. Google's guide works the other way and puts its lists in front of the writer, which suits human editors who look words up; the skill's split suits a model that reads its instructions just before drafting.
 
 ## What the skill omits
 

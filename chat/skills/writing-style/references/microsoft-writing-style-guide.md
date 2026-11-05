@@ -3,7 +3,7 @@
 - **Source:** Microsoft Corporation, Microsoft Writing Style Guide, published on Microsoft Learn. The guide is a continuously revised website with no edition number; its welcome page carries a 2024 copyright line, and the pages read for this file were last updated between June 2022 and November 2026.
 - **Type:** style manual
 - **Where to find it:** https://learn.microsoft.com/en-us/style-guide/welcome/ (a local crawl of 980 pages, including the A to Z word list, was read on 2026-11-04)
-- **Last reviewed:** 2026-11-04
+- **Last reviewed:** 2026-11-05
 - **Used by:** chat/skills/writing-style/SKILL.md
 
 ## What the source covers
@@ -196,7 +196,7 @@ The best reading is that the guide's weak verbs are be, have, make and do used a
 
 **Exclamation points.** The guide allows them sparingly; NYT restricts them and the skill restricts them to quotations. The skill follows the stricter rule.
 
-**Ban lists and positive instructions (semantic-gravity-wells.md, anthropic-prompting-docs.md).** The guide's tables name the word to avoid next to the word to use, which is the format the gravity-wells reference says can prime the avoided word. The skill keeps the guide's ordering (plain word first) in section 2 and holds its longer lists of words to remove in the revision pass, applied after drafting.
+**Ban lists and positive instructions (one-token-away-from-collapse.md, taboo-negative-constraints.md, anthropic-prompting-docs.md).** The guide's tables name the word to avoid next to the word to use. The two studies found that bans like these, placed in a model's prompt, are obeyed but make the answer thinner, and the prompting docs favor positive instructions. An earlier version of this entry cited a claim that naming the avoided word primes it; that claim was dropped. The skill keeps the guide's ordering (plain word first) in section 2 and holds its longer lists of words to remove in the revision pass, applied after drafting.
 
 **Fragments and scanning.** The guide's brand voice favors fragments and broken-up text for scanning; its global-English page limits fragments. The skill sides with the global-English page and with the news manuals' preference for complete sentences in prose.
 

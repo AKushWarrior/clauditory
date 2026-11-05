@@ -3,7 +3,7 @@
 - **Source:** The Associated Press, *The Associated Press Stylebook*, 56th edition, Associated Press, 2022. Lead editor Paula Froke. Foreword by Daisy Veerasingham, AP president and chief executive.
 - **Type:** style manual
 - **Where to find it:** Print (spiral-bound) 56th edition, 2022; also available as the subscription site AP Stylebook Online, which is updated continuously and so differs from the print edition in places. This review used a full-text extraction of the 56th edition.
-- **Last reviewed:** 2026-11-04
+- **Last reviewed:** 2026-11-05
 - **Used by:** chat/skills/writing-style/SKILL.md
 
 ## What the source covers
@@ -112,7 +112,7 @@ The skill also omits the AP stance on pronouns beyond a one-line summary, the AP
 
 **Hedging and uncertainty (durik-hedges-credibility.md).** The AP asks for caveats and measures of uncertainty and says science is rarely definitive, so the skill can state the data plainly and hedge the interpretation. The AP does not draw the data-versus-interpretation distinction that the skill uses, and does not discuss credibility effects. The skill's rule comes from the Durik material, with AP support.
 
-**Ban lists (semantic-gravity-wells.md, anthropic-prompting-docs.md).** The AP gives a list of cliches and jargon to avoid, and it names them directly in the entry. Semantic Gravity Wells and the Anthropic documents argue that naming banned items can prime them. The skill resolved this by keeping its cliche examples in Section 2 as short illustrations and its longer lists in the revision pass. This is a partial concession to the AP's practice, and the tension is not fully settled.
+**Ban lists (one-token-away-from-collapse.md, taboo-negative-constraints.md, anthropic-prompting-docs.md).** The AP gives a list of cliches and jargon to avoid, and it names them directly in the entry. The Anthropic documents favor positive instructions, and the two studies found that bans placed in a model's prompt are obeyed but make its answer thinner. The skill resolved this by keeping its cliche examples in Section 2 as short illustrations and its longer lists in the revision pass. This is a partial concession to the AP's practice, and the tension is not fully settled. An earlier version of this entry also cited a claim that naming banned items primes them; that claim was dropped, and the Taboo study found that naming forbidden words cut their use sharply.
 
 **Vocabulary lists (kobak-excess-vocabulary.md, wikipedia-signs-of-ai-writing.md).** The AP's cliche and jargon list is a human-editorial list drawn from journalism, and it has no overlap with the machine-text vocabulary lists in the other references. It does not conflict with them.
 

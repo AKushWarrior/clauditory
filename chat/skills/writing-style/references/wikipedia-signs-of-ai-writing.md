@@ -3,7 +3,7 @@
 - **Source:** Wikipedia contributors (maintained by WikiProject AI Cleanup), "Wikipedia:Signs of AI writing," Wikipedia project page (an essay and field guide, not policy), continuously edited. The revision read was the live page as of 4 November 2026.
 - **Type:** general web
 - **Where to find it:** https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing (raw wikitext at https://en.wikipedia.org/w/index.php?title=Wikipedia:Signs_of_AI_writing&action=raw). The page links to subpages on style and markup, and to a WikiProject AI Cleanup guide.
-- **Last reviewed:** 2026-11-04
+- **Last reviewed:** 2026-11-05
 - **Used by:** chat/skills/writing-style/SKILL.md
 
 ## What the source covers
@@ -102,7 +102,7 @@ The skill uses this page as support for the revision pass in section 10, and as 
 
 The skill leaves out most of the page, because most of it is about Wikipedia or about detection and not about prose quality. It omits all the citation signs (broken links, invalid DOIs, tracking parameters), markup signs, placeholder and template text, edit-summary and talk-page signs, Wikipedia-specific headings and leads, user-page signs, and the discussion of model biases. None of these affect how an agent should write a chat reply or report.
 
-It also omits the page's content-level theory as a separate rule. The skill instead folds the idea of "specific beats generic" into section 2 (be specific) and section 4, where it is backed by the style manuals. It does not copy the page's watch phrases for significance puffery (stands as a testament, pivotal moment, evolving landscape) as a standalone list, since the user's list already contains the single words and since a list of phrases would add to the priming risk the skill tries to limit.
+It also omits the page's content-level theory as a separate rule. The skill instead folds the idea of "specific beats generic" into section 2 (be specific) and section 4, where it is backed by the style manuals. It does not copy the page's watch phrases for significance puffery (stands as a testament, pivotal moment, evolving landscape) as a standalone list, since the user's list already contains the single words.
 
 The skill does not adopt the page's era-by-era vocabulary tables. They change too fast to hard-code, and the page's newest set is based on the most recent, least verified observations. The skill also leaves out the page's warnings about false accusations, since the skill governs the agent's own writing and not detection of someone else's. The page's advice to fix deeper problems and not only surface signs is not a rule in the skill, though its first paragraph shares the spirit.
 
@@ -120,7 +120,7 @@ On negative parallelisms, the page says the pattern is common in human listicle 
 
 On voice and agentless passives, the page does not take a position and so does not conflict with reinhart-llm-grammatical-style.md or rhodes-active-passive-voice.md, though it cites Reinhart for the participle finding.
 
-On ban lists, the page's own advice to avoid treating signs as problems and its dating of the vocabulary agree with the caution in semantic-gravity-wells.md that naming words can prime them. The skill follows both by keeping its list only in the revision pass.
+On ban lists, the page's own advice to avoid treating signs as problems and its dating of the vocabulary fit the skill's choice to keep its list only in the revision pass. That choice rests on one-token-away-from-collapse.md and taboo-negative-constraints.md, which found that bans given while drafting make a model write a thinner answer. An earlier version of this file linked the page to a claim that naming words primes them; that claim was dropped.
 
 ## Review notes
 

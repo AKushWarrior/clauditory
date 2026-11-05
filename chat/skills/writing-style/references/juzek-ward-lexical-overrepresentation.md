@@ -3,7 +3,7 @@
 - **Source:** Tom S. Juzek and Zina B. Ward, "Why Does ChatGPT 'Delve' So Much? Exploring the Sources of Lexical Overrepresentation in Large Language Models," Proceedings of the 31st International Conference on Computational Linguistics (COLING 2025). Florida State University. Preprint: arXiv 2412.11385.
 - **Type:** peer-reviewed conference paper
 - **Where to find it:** ACL Anthology 2025.coling-main.426; preprint at https://arxiv.org/abs/2412.11385 (HTML version at https://arxiv.org/html/2412.11385v1)
-- **Last reviewed:** 2026-11-04
+- **Last reviewed:** 2026-11-05
 - **Used by:** chat/skills/writing-style/SKILL.md
 
 ## What the source covers
@@ -70,7 +70,7 @@ The opening paragraph of the skill, which says readers now recognize default mac
 
 Section 1 (open with the answer) and the stock-opener entry in item 6 are consistent with the finding that the first-sentence position is where readers reacted most, though the paper tested only the delve opener and the skill's rule rests mostly on other references.
 
-The decision to keep word lists only in the revision pass (How to use this skill, step 2) is not a product of this paper; it comes from the priming reference. The paper's contribution is to give the list content.
+The decision to keep word lists only in the revision pass (How to use this skill, step 2) is not a product of this paper; it rests on one-token-away-from-collapse.md and taboo-negative-constraints.md, which found that constraints given while drafting thin the answer. The paper's contribution is to give the list content.
 
 ## What the skill omits
 
@@ -84,7 +84,7 @@ The method for identifying focal words is not carried into the skill, since the 
 
 The paper does not contradict the other sources, but it uses a different measure from kobak-excess-vocabulary.md and liang-ai-modified-peer-reviews.md. Juzek and Ward intersect a human-corpus spike with a model-overuse test on PubMed abstracts; Kobak and colleagues estimate excess word frequency against a projected baseline, and Liang and colleagues estimate the share of text modified by a model. The word lists overlap (delve, underscore, intricate, showcase) but the numbers are not comparable, and the skill does not mix them. Where a popular source such as wikipedia-signs-of-ai-writing.md lists words that do not appear in the measured lists, the skill's item 8 keeps only words with at least some measured support or a clear reason from another reference.
 
-There is mild tension with semantic-gravity-wells.md and with anthropic-prompting-docs.md. Those favor positive instruction and warn that naming a banned word primes it. This paper offers the vocabulary that tempts a ban list. The skill resolves the tension by confining the list to the post-draft revision pass. A second, smaller tension concerns the human-study result: raters disliked only the delve opener and showed a slight, nonsignificant preference for abstracts containing the other focal words. That sits uneasily with a blanket ban on all of them, and the skill handles it through the keep-if-most-precise exception in item 8.
+There is mild tension with anthropic-prompting-docs.md, which favors positive instruction, and with one-token-away-from-collapse.md and taboo-negative-constraints.md, which found that bans given while drafting thin the answer. This paper offers the vocabulary that tempts a ban list. The skill resolves the tension by confining the list to the post-draft revision pass. An earlier version of this file also cited a claim that naming a banned word primes it; that claim was dropped. A second, smaller tension concerns the human-study result: raters disliked only the delve opener and showed a slight, nonsignificant preference for abstracts containing the other focal words. That sits uneasily with a blanket ban on all of them, and the skill handles it through the keep-if-most-precise exception in item 8.
 
 No conflict arises with the style manuals (nyt-manual-of-style.md, ap-stylebook.md, chicago-manual-of-style.md); they address usage and mechanics, and none of them speaks to model-favored vocabulary. The dash and not-X-but-Y bans have no basis in this paper, which does not study punctuation or rhetorical frames.
 

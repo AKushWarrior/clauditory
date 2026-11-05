@@ -3,7 +3,7 @@
 - **Source:** Apple Inc., *Apple Style Guide*, June 2026 edition (Cupertino, Calif.: Apple Inc., 2026). Document number 028-00839. No individual authors or editors are named.
 - **Type:** style manual
 - **Where to find it:** PDF at https://help.apple.com/pdf/applestyleguide/en_US/apple-style-guide.pdf (244 pages, created June 16, 2026). Apple also publishes the guide as web pages, which this review did not consult.
-- **Last reviewed:** 2026-11-04
+- **Last reviewed:** 2026-11-05
 - **Used by:** chat/skills/writing-style/SKILL.md
 
 ## What the source covers
@@ -121,7 +121,7 @@ Several section 9 rules have no support in Apple at all. The bullet asking write
 
 **Apple's vocabulary.** The product names, feature names, interface element names and interface verbs make up most of the A-to-Z list. They apply only to writing about Apple products, and an agent that needs them can consult the guide directly.
 
-**Small usage entries the skill does not carry.** Apple's bans on please in instructions, on via, on and/or, on Latin abbreviations, on over for more than and on comprise have no matching rules in SKILL.md. The plain-word rule in section 2 covers some of them in spirit. They are reasonable rules for documentation, and please and the Latin abbreviations in particular bear on agent-written instructions, but the skill keeps its word lists short to limit length and priming, and these were not added. A later revision could consider please and e.g. for section 9.
+**Small usage entries the skill does not carry.** Apple's bans on please in instructions, on via, on and/or, on Latin abbreviations, on over for more than and on comprise have no matching rules in SKILL.md. The plain-word rule in section 2 covers some of them in spirit. They are reasonable rules for documentation, and please and the Latin abbreviations in particular bear on agent-written instructions, but the skill keeps its word lists short to limit length, and these were not added. A later revision could consider please and e.g. for section 9.
 
 **Contractions and the first-person ban.** Apple recommends contractions throughout and forbids we in all documentation. The skill keeps contractions for conversation and spells them out in formal documents, and it allows we when it names a team. These are deliberate departures, described under conflicts.
 
@@ -159,7 +159,7 @@ The technical guides rank below NYT, AP and Chicago, and section 9 states that s
 
 **Goal before action (SKILL.md section 9).** Apple's let entry rewrites a feature description as an action followed by its purpose, which puts the action first. Its want entry leads with the purpose. The guide is inconsistent on this point, and the skill follows the goal-first pattern.
 
-**Ban lists (semantic-gravity-wells.md, anthropic-prompting-docs.md).** Much of Apple's A-to-Z list consists of terms marked don't use, named in the entry. The Semantic Gravity Wells reference warns that naming a forbidden word can prime it, and the Anthropic prompting docs favor positive instructions. The skill takes Apple's content where it applies but phrases the drafting sections around the word to use and keeps its lists in the post-draft revision pass.
+**Ban lists (one-token-away-from-collapse.md, taboo-negative-constraints.md, anthropic-prompting-docs.md).** Much of Apple's A-to-Z list consists of terms marked don't use, named in the entry. The two studies found that bans placed in a model's prompt are obeyed but cost content, and the Anthropic prompting docs favor positive instructions. An earlier version of this entry cited a claim that naming a forbidden word primes it; that claim was dropped. The skill takes Apple's content where it applies but phrases the drafting sections around the word to use and keeps its lists in the post-draft revision pass.
 
 **Disability language (ap-stylebook.md, chicago-manual-of-style.md, microsoft-writing-style-guide.md).** The AP and Chicago references describe person-first and identity-first language as two legitimate approaches and tell writers to learn the person's preference, and Microsoft prefers person-first language by default while accepting identity-first where a community prefers it. Apple agrees on asking, but its table leans toward identity-first language and lists person-with-autism forms among terms to avoid, so it and Microsoft lean in opposite directions. The skill's phrase about leading with the person could be read as a person-first rule. Its example, deaf employees, is identity-first, and its first clause tells writers to use people's own labels, which is what all four sources ask. The tension lies in the wording more than in the practice.
 

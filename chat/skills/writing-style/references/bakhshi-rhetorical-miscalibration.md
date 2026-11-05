@@ -3,7 +3,7 @@
 - **Source:** Asim D. Bakhshi (National University of Science and Technology, Islamabad), Saying More Than They Know: A Framework for Quantifying Epistemic-Rhetorical Miscalibration in Large Language Models. arXiv preprint 2604.19768, version 1, 2026. The arXiv record shows submission on 27 March 2026; the PDF carries a date stamp of 23 April 2026. The record's comments field says the paper is under review at an Elsevier journal on writing assessment.
 - **Type:** preprint (not peer-reviewed)
 - **Where to find it:** https://arxiv.org/abs/2604.19768 (PDF at https://arxiv.org/pdf/2604.19768, 19 pages with appendix)
-- **Last reviewed:** 2026-11-04
+- **Last reviewed:** 2026-11-05
 - **Used by:** chat/skills/writing-style/SKILL.md
 
 ## What the source covers
@@ -90,7 +90,7 @@ Kobak, Juzek and Ward, Liang and Wikipedia (vocabulary files): those sources mea
 
 Freeburg (freeburg-em-dashes.md) and the dash question: Bakhshi's example sentences use em dashes in a few places and say nothing about dashes in the findings, so there is no conflict.
 
-Semantic gravity wells and the Anthropic prompting docs: naming a pattern can prime it. Bakhshi's taxonomy is a list of patterns to detect, which fits the skill's choice to keep such lists inside the post-draft pass. The skill does not apply them at drafting time.
+One Token Away from Collapse, the Taboo study and the Anthropic prompting docs (one-token-away-from-collapse.md, taboo-negative-constraints.md, anthropic-prompting-docs.md): constraints given while drafting tend to thin the answer, and positive instructions steer generation better. An earlier version of this entry said naming a pattern can prime it; that claim was dropped. Bakhshi's taxonomy is a list of patterns to detect, which fits the skill's choice to keep such lists inside the post-draft pass. The skill does not apply them at drafting time.
 
 Durik on hedges and credibility: if that file finds hedging helps or hurts credibility depending on conditions, it is compatible with Bakhshi's distinction between hedges with and without a stated basis. I have not checked this against the file itself.
 

@@ -3,7 +3,7 @@
 - **Source:** Weixin Liang, Zachary Izzo, Yaohui Zhang, Haley Lepp, Hancheng Cao, Xuandong Zhao, Lingjiao Chen, Haotian Ye, Sheng Liu, Zhi Huang, Daniel A. McFarland and James Y. Zou. "Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews." Proceedings of the 41st International Conference on Machine Learning (ICML), Vienna, Austria, PMLR volume 235, 2024.
 - **Type:** peer-reviewed conference paper
 - **Where to find it:** arXiv:2403.07183 (https://arxiv.org/abs/2403.07183). The version reviewed is arXiv v4, dated 19 May 2026, whose first page carries the ICML 2024 proceedings notice. Code is linked from the paper on GitHub.
-- **Last reviewed:** 2026-11-04
+- **Last reviewed:** 2026-11-05
 - **Used by:** chat/skills/writing-style/SKILL.md
 
 ## What the source covers
@@ -94,7 +94,7 @@ Section 2 asks for specific wording (the number, the name, the mechanism, the ex
 
 Section 4's instruction to hedge the interpretation and keep the data plain follows the authors' own practice, which this file also follows: the measured shares are stated flatly and the readings of the correlates are held loosely.
 
-The section 10 design, in which the vocabulary list lives only in the post-draft pass, comes from the Semantic Gravity Wells paper, not this one. This paper only shows the list is worth having.
+The section 10 design, in which the vocabulary list lives only in the post-draft pass, comes from one-token-away-from-collapse.md and taboo-negative-constraints.md. This paper only shows the list is worth having.
 
 ## What the skill omits
 
@@ -108,7 +108,7 @@ The deadline, reply-rate, confidence and topic-area results are left out. They d
 
 The real tension is with the other vocabulary studies, and it is one of comparability. kobak-excess-vocabulary.md is a direct reaction to mixture approaches like this one: its authors object that methods needing labeled LLM reference text bake in assumptions about which model and prompt were used, and they instead measure excess frequency of words in PubMed abstracts against a counterfactual extrapolated from 2021 and 2022. juzek-ward-lexical-overrepresentation.md identifies words by comparing 2024 with 2020 PubMed frequencies in occurrences per million words, then checks them against ChatGPT output. Liang uses peer reviews, a sentence-level presence measure for adjectives and a model-generated reference. Genre, unit and statistic all differ, so the word lists and magnitudes cannot be merged or ranked across the three papers. The skill treats them as converging evidence that a family of evaluative and ornamental words rose after 2022 and does not claim one ordering or threshold. Where Liang lists a word that Kobak's measured list lacks (or the reverse), the skill keeps the word only when at least one measured source supports it, and it treats the popular lists in wikipedia-signs-of-ai-writing.md as weaker evidence than any of the three measured papers.
 
-A mild tension exists with semantic-gravity-wells.md. Liang's lists are an argument for having a vocabulary list, while that paper argues that naming a word primes it. The skill resolves this by confining the list to the revision pass in section 10.
+A mild tension exists with one-token-away-from-collapse.md and taboo-negative-constraints.md. Liang's lists are an argument for having a vocabulary list, while those papers found that bans given to a model while drafting make its answer thinner. The skill resolves this by confining the list to the revision pass in section 10. An earlier version of this file cited a claim that naming a word primes it; that claim was dropped.
 
 I found no conflict with nyt-manual-of-style.md, ap-stylebook.md or chicago-manual-of-style.md, which say nothing about machine-prose vocabulary, so the precedence rule is not engaged. The paper has no bearing on the dash, serial comma, number, percent or colon rules. It also does not touch the findings in reinhart-llm-grammatical-style.md, boggia-artificial-epanorthosis.md or freeburg-em-dashes.md, which concern grammar, framing devices and punctuation, not word choice.
 

@@ -3,7 +3,7 @@
 - **Source:** E. M. Freeburg (independent researcher), "The Last Fingerprint: How Markdown Training Shapes LLM Prose," arXiv preprint arXiv:2603.27006v1 [cs.CL], submitted 27 March 2026.
 - **Type:** preprint (not peer-reviewed)
 - **Where to find it:** https://arxiv.org/abs/2603.27006 (PDF at https://arxiv.org/pdf/2603.27006)
-- **Last reviewed:** 2026-11-04
+- **Last reviewed:** 2026-11-05
 - **Used by:** chat/skills/writing-style/SKILL.md
 
 ## What the source covers
@@ -90,7 +90,7 @@ At the time of this review the references folder at chat/skills/writing-style/re
 
 Style manuals. The paper shows that skilled human writers use the em dash, at rates from nearly zero to over 17 per 1,000 words in its sample. That matches nyt-manual-of-style.md, which allows the mark with limits, ap-stylebook.md, which prescribes spaced dashes, and chicago-manual-of-style.md, which prescribes the unspaced em dash and uses en dashes for ranges. The paper therefore gives no support to treating the em dash as an error in general. The skill is stricter than all three manuals by user choice: it bans the mark outright, uses the word to in ranges, and does not follow Chicago's en dash. When the manuals and the paper agree that humans use the mark and the user has asked for a ban, the user's explicit choice sets the rule. Precedence among the manuals (NYT, then AP, then Chicago) is not in play here, since the skill departs from all of them on this point.
 
-Semantic gravity wells (semantic-gravity-wells.md). Per the brief, that source finds that naming a banned word primes the model to produce it, which is why the skill keeps its pattern lists only in the post-draft revision pass. Freeburg's gradient points the other way for the em dash: an explicit prohibition lowered the rate in all four models tested, although it did not always reach zero. The two findings are measured on different things (single words in one case, a punctuation mark in the other) and are not directly comparable. The skill resolves the tension by naming the em dash only in the revision pass, where the check works on a finished draft, and by treating the prohibition as a reduction, not a guarantee.
+One Token Away from Collapse and the Taboo study (one-token-away-from-collapse.md, taboo-negative-constraints.md). The skill keeps its pattern lists, the em dash included, in the post-draft revision pass because those studies found that constraints given while drafting make a model plan a thinner answer. An earlier version of this entry described a conflict with a priming claim, that naming a banned word makes a model produce it; that claim was dropped with its source. Freeburg's gradient agrees with the Taboo study's compliance results: an explicit prohibition lowered the em dash rate in all four models tested, although it did not always reach zero. Freeburg did not measure content, so the papers do not conflict. The skill names the em dash only in the revision pass, where the check works on a finished draft, and treats the prohibition as a reduction, not a guarantee.
 
 Anthropic prompting docs (anthropic-prompting-docs.md). Per the brief, those docs favor positive instructions over prohibitions. Freeburg tested only prohibitions, and a positive instruction (use commas and periods) was never compared against them. The skill pairs the ban with replacements in the same item, which keeps a positive alternative in view.
 

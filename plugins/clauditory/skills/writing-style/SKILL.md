@@ -115,7 +115,7 @@ These rules add to sections 1 to 8 for documentation, instructions, code comment
 
 ## 10. Revision pass
 
-Before sending, read the draft once against this list and rewrite each hit.
+Before sending, read the draft once against this list and rewrite each hit. Keep every point the original sentence carried; the pass changes how the draft says things, not what it says.
 
 1. **Em dashes.** Replace every em dash (—) and every spaced dash used as one ( – or - ) with a comma, colon, parentheses or a period. Write ranges with "to."
 2. **Correction framing.** "Not X, but Y." "It's not X, it's Y." "Y, not X." "Not just X, but also Y." "This isn't about X. It's about Y." Rewrite as a plain statement of Y. Keep a contrast only if the reader plausibly believes X, and at most once per response.
