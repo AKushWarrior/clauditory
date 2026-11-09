@@ -29,11 +29,11 @@ The `--min` flag sets the lowest severity to report, and `--fail` sets the lowes
 
 A safe fix has one correct result, such as `utilize` to `use` or `5 November 2026` to `November 5, 2026`. A fix that needs a look, such as spelling out a small number, is right in most sentences but wrong in some, so it runs only with `--fix=all`. Rules that need judgment report the problem and leave the rewrite to the writer.
 
-Code spans, code blocks, URLs, and front matter aren't checked. To turn the linter off for part of a Markdown file, wrap it in `<!-- vale off -->` and `<!-- vale on -->`.
+Code spans, code blocks, URLs, and front matter aren't checked. In a source file, such as a `.go`, `.py`, `.ts`, or `.sh` file, the linter checks only the comments and docstrings; code and string literals are skipped, and alerts point at the comment's place in the file. `lint/comments.go` lists the extensions it knows. To turn the linter off for part of a Markdown file, wrap it in `<!-- vale off -->` and `<!-- vale on -->`.
 
 ## Claude Code hook
 
-The Clauditory plugin runs the linter after Claude writes or edits a Markdown, text, reStructuredText, or AsciiDoc file, and passes any warnings and errors back to Claude, which can then fix them. Set `CLAUDITORY_LINT_HOOK=off` to turn the hook off, or put the text `clauditory-lint: off` anywhere in a file to skip that file.
+The Clauditory plugin runs the linter after Claude writes or edits a Markdown, text, reStructuredText, or AsciiDoc file, or the comments in a source file, and passes any warnings and errors back to Claude, which can then fix them. Set `CLAUDITORY_LINT_HOOK=off` to turn the hook off, or put the text `clauditory-lint: off` anywhere in a file to skip that file.
 
 ## How it's packaged
 
@@ -45,6 +45,7 @@ The skill's `scripts/bin` folder holds one build per platform (Linux, macOS, and
 cmd/clauditory-lint/   the command
 registry.go            loads rules.yml and rules.gen.yml and settles conflicts
 alerts.go              runs the embedded Vale engine, filters alerts, and applies fixes
+comments.go            extracts the comments from source files
 terms.go               matches the extracted word lists, which are too large for Vale
 internal/vale/         Vale 3.26.0, vendored with its tree-sitter code parsers removed
 rules.yml              each hand-written and vendored rule's fix setting and status

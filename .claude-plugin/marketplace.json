@@ -9,7 +9,7 @@
     {
       "name": "clauditory",
       "source": "./plugins/clauditory",
-      "description": "A research-backed working stance for Claude: weighs claims on evidence, tracks goals to completion, runs independent work in parallel and writes in a plain newspaper register."
+      "description": "Research-backed writing for Claude: a plain newspaper register for replies, code comments, commits, and docs, plus technical-writing rules and parallel research subagents."
     }
   ]
 }

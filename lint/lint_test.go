@@ -1,6 +1,7 @@
 package lint
 
 import (
+	"fmt"
 	"os"
 	"strings"
 	"testing"
@@ -163,4 +164,42 @@ func TestRhythm(t *testing.T) {
 	if n := checks(t, l, v)["House.Rhythm"]; n != 0 {
 		t.Errorf("varied paragraph: want no House.Rhythm alert, got %d", n)
 	}
+}
+
+// In a code file only the comments are checked: string literals and code are
+// skipped, and alerts point at the comment's line and column in the source.
+func TestCodeComments(t *testing.T) {
+	l := newTestLinter(t)
+	src := "package main\n\n// We utilize a cache.\nvar s = \"utilize\" // utilize it\n/* utilize `utilize` */\n"
+	alerts, err := l.LintText(src, ".go")
+	if err != nil {
+		t.Fatal(err)
+	}
+	var at [][2]int
+	for _, a := range alerts {
+		if a.Check == "House.PlainWords" {
+			at = append(at, [2]int{a.Line, a.Span[0]})
+		}
+	}
+	want := [][2]int{{3, 7}, {4, 22}, {5, 4}}
+	if fmt.Sprint(at) != fmt.Sprint(want) {
+		t.Errorf("utilize alerts: got %v, want %v", at, want)
+	}
+	py := "#!/usr/bin/env python3\ndef f():\n    \"\"\"We utilize it.\"\"\"\n    return \"utilize\"\n"
+	if n := pyChecks(t, l, py)["House.PlainWords"]; n != 1 {
+		t.Errorf("python: want 1 alert from the docstring, got %d", n)
+	}
+}
+
+func pyChecks(t *testing.T, l *Linter, text string) map[string]int {
+	t.Helper()
+	alerts, err := l.LintText(text, ".py")
+	if err != nil {
+		t.Fatal(err)
+	}
+	got := map[string]int{}
+	for _, a := range alerts {
+		got[a.Check]++
+	}
+	return got
 }

@@ -1,7 +1,7 @@
 {
   "name": "clauditory",
-  "version": "0.5.0",
-  "description": "A research-backed working stance for Claude: weighs claims on evidence, tracks goals to completion, runs independent work in parallel, writes in a plain newspaper register, and checks its prose with clauditory-lint when the linter is installed.",
+  "version": "0.6.0",
+  "description": "Research-backed writing for Claude: a plain newspaper register for replies, code comments, commits, and docs, technical-writing rules, parallel research subagents, and clauditory-lint for prose and code comments.",
   "author": {
     "name": "Aditya Kishore",
     "url": "https://github.com/AKushWarrior"

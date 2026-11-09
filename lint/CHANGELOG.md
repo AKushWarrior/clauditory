@@ -2,6 +2,11 @@
 
 Versions follow semantic versioning. A major version turns rules on or off, or changes what they report, in a way that changes existing results, a minor version adds rules or fixes, and a patch version corrects a rule's pattern or wording.
 
+## 2.2.0 (2026-11-08)
+
+- Check source files on their comments and docstrings alone. Code, string literals, comment markers, code spans, and URLs are skipped, alerts keep the source's lines and columns, and `--fix` edits the comments in place. Spacing rules are off for source files, because the comment view keeps code's indentation.
+- Run the Claude Code hook on source files as well as prose files.
+
 ## 2.1.0 (2026-11-08)
 
 - Add `House.Rhythm`, a suggestion for a paragraph of four or more sentences that all run about the same length.

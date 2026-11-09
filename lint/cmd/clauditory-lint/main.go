@@ -61,7 +61,7 @@ func cmdLint(args []string) int {
 	fs.BoolVar(&f.spelling, "spelling", false, "turn on the Red Hat spelling check")
 	fs.BoolVar(&f.commit, "commit", false, "the input is a commit message; also check commit-message tells")
 	fs.Usage = func() { fmt.Fprint(os.Stderr, usage); fs.PrintDefaults() }
-	// Let -fix appear without a value.
+	// Let `-fix` appear without a value.
 	for i, a := range args {
 		if a == "-fix" || a == "--fix" {
 			args[i] = "--fix=safe"
@@ -269,8 +269,9 @@ func cmdHook() int {
 		return 0
 	}
 	path := ev.ToolInput.FilePath
-	switch strings.ToLower(filepath.Ext(path)) {
-	case ".md", ".markdown", ".mdx", ".txt", ".rst", ".adoc":
+	switch ext := strings.ToLower(filepath.Ext(path)); {
+	case ext == ".md", ext == ".markdown", ext == ".mdx", ext == ".txt", ext == ".rst", ext == ".adoc":
+	case lint.IsCode(ext):
 	default:
 		return 0
 	}

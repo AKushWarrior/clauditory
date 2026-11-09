@@ -16,11 +16,13 @@ Usage:
       (default FILE: ./<skill-name>.zip).
   clauditory build [--check]
       Regenerate plugins/clauditory from the skills under chat/skills, the
-      system prompt at chat/system/prompt.md, and the linter under lint/.
+      coding agents' writing prompt at coding/system/prompt.md, and the
+      linter under lint/.
       With --check, report whether the plugin is out of date and change
       nothing.
-  clauditory prompt
-      Print the chat system prompt, for pasting or appending elsewhere.
+  clauditory prompt [chat|coding]
+      Print a system prompt, for pasting or appending elsewhere: the chat
+      prompt (the default) or the coding agents' writing prompt.
   clauditory lint [flags] [file ...]
       Check prose with clauditory-lint, built for this machine from lint/
       (requires Go). Pass --fix to apply the mechanical fixes, and run
@@ -139,8 +141,8 @@ case "$cmd" in
       copy_skill "$dir" "$tmp/skills/$name"
     done
     {
-      printf -- '---\nname: clauditory\ndescription: "Clauditory working stance: evidence over agreement, explicit goals, parallel work, and plain prose"\nkeep-coding-instructions: true\nforce-for-plugin: true\n---\n\n'
-      cat "$ROOT/chat/system/prompt.md"
+      printf -- '---\nname: clauditory\ndescription: "Clauditory writing style: plain, specific prose for replies, comments, commits, and docs"\nkeep-coding-instructions: true\nforce-for-plugin: true\n---\n\n'
+      cat "$ROOT/coding/system/prompt.md"
     } > "$tmp/output-styles/clauditory.md"
     if [[ "${1:-}" == "--check" ]]; then
       if diff -r -x bin "$tmp/skills" "$plugin/skills" >/dev/null 2>&1 \
@@ -161,7 +163,10 @@ case "$cmd" in
     fi
     ;;
   prompt)
-    cat "$ROOT/chat/system/prompt.md"
+    case "${1:-chat}" in
+      chat|coding) cat "$ROOT/${1:-chat}/system/prompt.md" ;;
+      *) echo "clauditory: prompt takes chat or coding" >&2; exit 1 ;;
+    esac
     ;;
   lint)
     bin="$ROOT/lint/.bin/clauditory-lint"

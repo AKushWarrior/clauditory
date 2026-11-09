@@ -69,6 +69,23 @@ func (l *Linter) LintText(text, ext string) (alerts []*Alert, err error) {
 	if ext == "" {
 		ext = ".md"
 	}
+	code := false
+	if cs := codeComments[strings.ToLower(ext)]; cs != nil {
+		text, ext, code = commentView(text, cs), ".txt", true
+	}
+	defer func() {
+		// The comment view keeps code's indentation, which spacing rules
+		// misread as extra spaces between words.
+		if code && err == nil {
+			kept := alerts[:0]
+			for _, a := range alerts {
+				if !strings.HasSuffix(a.Check, ".Spacing") {
+					kept = append(kept, a)
+				}
+			}
+			alerts = kept
+		}
+	}()
 	vl, err := lint.NewLinter(l.cfg)
 	if err != nil {
 		return nil, err

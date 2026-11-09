@@ -24,7 +24,10 @@ chat/
       CHANGELOG.md        what changed in each version
       scripts/            helper programs the skill runs (writing-style ships the linter's launcher)
       references/         one file per source behind the skill
-coding/                   (planned) artifacts for coding agents, same layout as chat/
+coding/
+  system/
+    prompt.md             writing prompt for Claude Code and Codex, a blend of the two writing skills
+    references/           one file per source behind the prompt
 lint/                     clauditory-lint, a Go prose linter with Vale compiled in
   styles/                 Vale styles, one folder per source
   sources/                rules extracted from each style guide
@@ -34,7 +37,9 @@ plugins/clauditory/       generated plugin for Claude Code, the Claude apps, and
 .agents/plugins/          Codex plugin marketplace that lists plugins/clauditory
 ```
 
-The plugin under `plugins/clauditory` is generated. Edit the sources under `chat/`, then run `bin/clauditory build` and commit the result; `bin/clauditory build --check` fails when the plugin is stale. Bump the version in both plugin manifests when a change should reach people who already installed it.
+The plugin under `plugins/clauditory` is generated. Edit the sources under `chat/` and `coding/`, then run `bin/clauditory build` and commit the result; `bin/clauditory build --check` fails when the plugin is stale. Bump the version in both plugin manifests when a change should reach people who already installed it.
+
+The coding prompt condenses the writing-style and technical-writing skills for coding agents, whose own system prompts already cover how to work. The chat prompt is for the Claude apps only. When a rule changes in either skill, update the coding prompt to match in the same commit; the sources behind its rules are the skills' reference files.
 
 Each skill has a version in its frontmatter, as `metadata.version`, and a `CHANGELOG.md` beside its `SKILL.md`. Use semantic versioning: raise the major version when a rule changes in a way that alters existing text, the minor version when you add or deepen rules, and the patch version for wording fixes that don't change a rule. Update the changelog in the same commit.
 
