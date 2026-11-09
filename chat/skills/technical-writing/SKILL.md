@@ -2,7 +2,7 @@
 name: technical-writing
 description: Use when writing documentation, how-to instructions, READMEs, code comments, docstrings, error or log messages, commit messages, pull request descriptions, changelogs, or agent instruction files. Adds rules for steps, modal verbs, code and identifiers, links, headings, and commits on top of the writing-style skill. Not for code itself.
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Technical writing
@@ -11,10 +11,10 @@ These rules add to the writing-style skill for technical and persisted text. App
 
 ## 1. Instructions and procedures
 
-- Write steps in the imperative, one action per step, in a numbered list when order matters. A single action is a sentence, not a one-item list.
+- Write steps in the imperative, one action per step, in a numbered list when order matters. Write one action as a plain sentence instead of a one-item list.
 - Put the goal or condition before the action ("To delete the cache, run `make clean`"), so a reader who doesn't share the goal can skip the step. Turn "if you want to X, you can" into "to X."
 - Make sure the reader knows where an action happens before you describe it ("In the settings file, set `retries` to 3").
-- Put any explanation after the instruction, in the same step. When the reader must choose between paths, give the choice in one step with the alternatives as bullets under it, and start an optional step with "Optional:".
+- Put any explanation after the instruction, in the same step. When the reader must choose between paths, give the choice in one step with the alternatives as bullets under it, and start an optional step with `Optional:`.
 - Stop at the last real action. Don't add a step that only says the task is done.
 - Leave "please," "thank you," and "congratulations" out of instructions and messages. State the action, or state that the task is finished.
 
@@ -36,7 +36,7 @@ These rules add to the writing-style skill for technical and persisted text. App
 
 - Put code, commands, file names, identifiers, and literal values in code formatting, and use them only as the exact names they are. Copy code, commands, and output from the source instead of retyping them.
 - Name the kind of thing after an identifier at first mention: "the `retries` parameter," "the `deploy` command," "the `config.yaml` file." Don't start or end a sentence with a bare identifier, and don't use a command as a verb ("grep the logs"); write "search the logs with `grep`." In chat with engineers, a familiar command verb is fine.
-- Introduce a code block with a complete sentence that says what it does ("This command lists the open ports:"), not a bare "Run:". Don't start a sentence before a code block and finish it after.
+- Introduce a code block with a complete sentence that says what it does, such as "This command lists the open ports." A bare `Run:` tells the reader nothing. Don't start a sentence before a code block and finish it after.
 - Use ISO dates (2026-11-05) in logs, file names, changelogs, and data, and the written-month form in prose.
 - When the difference matters, say whether a gigabyte means 10^9 or 2^30 bytes, or write GiB for the binary unit.
 - Use the common forms of computing words: email, website, web page, online, username, filename, database, internet (lowercase), and login as a noun but log in as a verb.

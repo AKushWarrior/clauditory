@@ -3,8 +3,8 @@
 - **Source:** Red Hat Documentation, "vale-at-red-hat," the official Vale style for Red Hat documentation, MIT License, commit 7cfb4ab (September 29, 2026)
 - **Type:** Open source rule set for the Vale prose linter
 - **Where to find it:** https://github.com/redhat-documentation/vale-at-red-hat
-- **Last reviewed:** 2026-11-05
-- **Used by:** clauditory-lint 2.0.0 (`lint/styles/RedHat`)
+- **Last reviewed:** 2026-11-08
+- **Used by:** clauditory-lint 2.1.0 (`lint/styles/RedHat`)
 
 ## What the source covers
 
@@ -29,7 +29,7 @@ The general-prose rules (passive voice, simple words, slashes, ellipses, spacing
 - **Spelling.** The spelling rule flags model names, author names, and other proper nouns outside Red Hat's dictionary, which in this repository's text means most flagged words are correct. It is off by default and turns on with `--spelling`.
 - **Release notes and repository links.** ReleaseNotes applies only to Red Hat release notes, and GitLinks enforces Red Hat's internal policy on which repositories may be linked.
 - **Rules the skills or another source settle.** Contractions is off because the writing-style skill allows contractions in conversation. Conjunctions is off because NYT allows a sentence to start with "And" or "But." Abbreviations is off because NYT writes some abbreviations with periods. EmDash, OxfordComma, and SentenceLength duplicate House and Oxford rules; EmDash also reads inside code spans. ReadabilityGrade is off because the skill sets no grade-level target.
-- **Unusable fixes.** DoNotUseTerms puts its explanation where the replacement would go, so its matches are never fixed automatically, and TermsWarnings maps some words to replacements that change the meaning (it suggests `you` for `he`), so it reports without fixing.
+- **Unusable fixes.** DoNotUseTerms puts its explanation where the replacement would go, so its matches are never fixed automatically, and TermsWarnings maps some words to replacements that change the meaning (it suggests `you` for `he`). It reports as a suggestion and never fixes, since its cautions suit product documentation more than general prose.
 
 ## Conflicts with other references
 

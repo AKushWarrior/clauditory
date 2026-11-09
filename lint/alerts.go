@@ -73,6 +73,7 @@ func (l *Linter) LintText(text, ext string) (alerts []*Alert, err error) {
 	if err != nil {
 		return nil, err
 	}
+	text = maskQuotes(text)
 	files, err := vl.LintStringAs(text, "input"+ext)
 	if err != nil {
 		return nil, fmt.Errorf("vale: %w", err)
@@ -91,6 +92,7 @@ func (l *Linter) LintText(text, ext string) (alerts []*Alert, err error) {
 			alerts = append(alerts, a)
 		}
 	}
+	alerts = dropNumberSplits(alerts, text)
 	alerts = append(alerts, l.lintTerms(text, ext)...)
 	return l.resolve(alerts), nil
 }
@@ -341,4 +343,35 @@ func matchCase(line []rune, start int, old, rep string, r *Rule) string {
 	}
 	n[0] = unicode.ToUpper(n[0])
 	return string(n)
+}
+
+// dropNumberSplits removes sentence-start alerts that Vale raises inside a
+// section number such as 4.3.5, which its sentence splitter breaks at each
+// period.
+var reCiteAbbr = regexp.MustCompile(`(?i)\b(pp?|ch|chap|sec|secs|fig|figs|no|nos|vol|vols|para|art|eq)\.\s*$`)
+
+func dropNumberSplits(alerts []*Alert, text string) []*Alert {
+	lines := strings.Split(text, "\n")
+	out := alerts[:0]
+	for _, a := range alerts {
+		if a.Check == "NYT.SentenceStartFigure" && a.Line >= 1 && a.Line <= len(lines) {
+			rs := []rune(lines[a.Line-1])
+			i := a.Span[0] - 2
+			if i >= 0 && i < len(rs) && (rs[i] == '.' || unicode.IsDigit(rs[i])) {
+				continue
+			}
+			// A page, section, or chapter citation such as "p. 29" is
+			// not a sentence that starts with a figure.
+			if reCiteAbbr.MatchString(string(rs[:max(0, a.Span[0]-1)])) {
+				continue
+			}
+			// A numbered heading such as "## 1. Instructions" is an
+			// enumerator, not a sentence that starts with a figure.
+			if strings.HasPrefix(strings.TrimLeft(string(rs), " "), "#") {
+				continue
+			}
+		}
+		out = append(out, a)
+	}
+	return out
 }

@@ -59,6 +59,7 @@ rules:
   House.WordForms: {fix: safe, topic: word-form}
   House.AllFigureDate: {topic: date}
   House.Range: {fix: safe, topic: range}
+  House.Rhythm: {domain: grammar, literal: true, level: suggestion}
 
   # ---- Oxford (New Hart's Rules): grammar and punctuation, primary ----
   Oxford.SerialComma: {fix: safe, topic: serial-comma}
@@ -108,8 +109,9 @@ rules:
   # ---- Red Hat: technical primary (official Vale style) ----
   RedHat.CaseSensitiveTerms: {fix: safe, topic: term}
   # Red Hat spells "advisor"; the news manuals spell "adviser".
-  RedHat.TermsErrors: {fix: safe, topic: term, ignore: [adviser, advisers]}
-  RedHat.TermsWarnings: {topic: term}
+  RedHat.TermsErrors: {fix: safe, topic: term, ignore: [adviser, advisers, all right, first name, spend, live only]}
+  # Red Hat's caution lists suit product documentation, not general prose.
+  RedHat.TermsWarnings: {topic: term, level: suggestion}
   RedHat.TermsSuggestions: {topic: term}
   RedHat.Hyphens: {fix: safe, topic: term}
   RedHat.DoNotUseTerms: {topic: term}
@@ -141,7 +143,7 @@ rules:
   # ---- Microsoft: technical tertiary (community Vale style) ----
   # Microsoft's term list maps "agent" to "personal digital assistant",
   # which doesn't fit software agents.
-  Microsoft.Terms: {topic: term, ignore: [agent, agents]}
+  Microsoft.Terms: {topic: term, level: suggestion, ignore: [agent, agents]}
   Microsoft.Wordiness: {domain: wording, fix: review, topic: plain-word}
   Microsoft.Auto: {}
   Microsoft.BiasFree: {}
@@ -203,7 +205,7 @@ rules:
   AITells.EmptyPaddingStacked: {off: "Flags fixed phrases such as 'given name' that the skill prescribes."}
   AITells.NounString: {off: "House noun-stack guidance needs judgment; the rule misreads ordinary clauses."}
   AITells.OverusedVocabulary: {topic: vocabulary, level: warning}
-  House.Vocabulary: {topic: vocabulary}
+  House.Vocabulary: {topic: vocabulary, skip: '^Garner'}
   AITells.SycophancyMarkers: {level: warning}
   AITells.ClosingPleasantries: {level: warning}
   AITells.OpeningCliches: {level: warning}

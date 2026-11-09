@@ -2,7 +2,7 @@
 name: spawn-research-subagent
 description: Use when a research task splits into independent sub-questions or needs heavy reading across many sources. Fans the work out to parallel Haiku subagents. Not for single-fact lookups.
 metadata:
-  version: "1.1.1"
+  version: "1.1.2"
 ---
 
 # Spawn research subagents
@@ -15,8 +15,8 @@ metadata:
 ## How
 
 1. Split the task into independent sub-questions. Spawn one subagent per sub-question, all in the same message, with subagent_type general-purpose and model haiku. Haiku is the speed and cost lever; leave reasoning effort at its default unless the person asks for a different level.
-2. Fill in the template below for each sub-question.
-3. When the reports return, check every load-bearing claim and citation yourself by opening the cited primary source before you relay it. Subagent reports can misattribute sources and overstate how much they read.
+2. Complete the template below for each sub-question.
+3. When the reports return, check every claim the answer depends on, and its citation, yourself by opening the cited primary source before you relay it. Subagent reports can misattribute sources and overstate how much they read.
 4. Write the answer. Say which claims you verified, and list any conflicts between sources.
 
 ## Template

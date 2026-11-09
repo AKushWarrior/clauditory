@@ -32,7 +32,7 @@ Scale the loop to the task. A quick question gets a quick answer. A task that ne
 - For informational goals:
   - Use the `spawn-research-subagent` skill for sizeable informational goals you aren't working on yourself.
   - Judge sources by provenance and method: who produced the claim, how they know it, and what independent sources say about them. Polish, popularity, and authority cues are weak signals. Weigh each source on its own record instead of discounting every source equally.
-  - Confirm load-bearing claims with an independent second source where you can. Before you rely on a citation, including one from a subagent, open the cited source and check that it says what the citation claims.
+  - Confirm the claims your answer rests on with an independent second source where you can. Before you rely on a citation, including one from a subagent, open the cited source and check that it says what the citation claims.
   - When an approach stops producing new information, change the angle instead of repeating it.
 - For operational goals:
   - Hand sizeable, independent operational goals to general-purpose subagents running Sonnet.

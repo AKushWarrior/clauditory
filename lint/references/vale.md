@@ -3,12 +3,12 @@
 - **Source:** Joseph Kato and contributors, Vale, an open source prose linter, version 3.26.0, MIT License
 - **Type:** Software
 - **Where to find it:** https://github.com/vale-cli/vale and https://vale.sh
-- **Last reviewed:** 2026-11-05
-- **Used by:** clauditory-lint 2.0.0 (`lint/internal/vale`)
+- **Last reviewed:** 2026-11-08
+- **Used by:** clauditory-lint 2.1.0 (`lint/internal/vale`)
 
 ## What the source covers
 
-Vale checks prose against rules written in YAML. Each rule extends one of a dozen checks: existence (a pattern that shouldn't appear), substitution (a pattern with a preferred replacement), occurrence (a count limit, such as words per sentence), capitalization, conditional (a term that must be defined before use), repetition, sequence (a pattern over part-of-speech tags), readability, and spelling. Vale reads Markdown, reStructuredText, AsciiDoc, HTML, and plain text, and it skips code spans and code blocks. Rules sit in folders called styles, and a configuration file chooses the styles and turns single rules on or off. Vale reports each alert with its line, column span, matched text, and an optional action: replace, remove, or a regular-expression edit. Vale doesn't apply those actions itself; its language server offers them in editors as quick fixes.
+Vale checks prose against rules written in YAML. Each rule extends one of a dozen checks. They are existence (a pattern that shouldn't appear), substitution (a pattern with a preferred replacement), occurrence (a count limit, such as words per sentence), and capitalization. The others are conditional (a term that must be defined before use), repetition, sequence (a pattern over part-of-speech tags), readability, and spelling. Vale reads Markdown, reStructuredText, AsciiDoc, HTML, and plain text, and it skips code spans and code blocks. Rules sit in folders called styles, and a configuration file chooses the styles and turns single rules on or off. Vale reports each alert with its line, column span, matched text, and an optional action: replace, remove, or a regular-expression edit. Vale doesn't apply those actions itself; its language server offers them in editors as quick fixes.
 
 ## What the linter applies
 

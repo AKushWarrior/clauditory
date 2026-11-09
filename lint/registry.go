@@ -28,7 +28,7 @@ var stylesFS embed.FS
 
 // Version is the linter's version. Raise it with the same semantic-versioning
 // rule the skills use, and record the change in CHANGELOG.md.
-const Version = "2.0.0"
+const Version = "2.1.0"
 
 // unranked is the rank of a source the domain's order doesn't list.
 const unranked = 99

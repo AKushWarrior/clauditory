@@ -131,3 +131,36 @@ func TestTerms(t *testing.T) {
 		t.Errorf("mask left code or a URL unmasked: %q", m)
 	}
 }
+
+// Words inside double quotes are masked, so a skill that quotes a banned
+// phrase doesn't trip the rule it describes.
+func TestQuotes(t *testing.T) {
+	l := newTestLinter(t)
+	if n := checks(t, l, "Delete \"I hope this helps\" at the end.\n")["House.StockPhrases"]; n != 0 {
+		t.Errorf("quoted phrase: want no House.StockPhrases alert, got %d", n)
+	}
+	if n := checks(t, l, "I hope this helps.\n")["House.StockPhrases"]; n == 0 {
+		t.Errorf("unquoted phrase: want a House.StockPhrases alert")
+	}
+	m := maskQuotes("say \"a b a\" now")
+	if m != "say \"b c d\" now" {
+		t.Errorf("maskQuotes: got %q", m)
+	}
+}
+
+// A paragraph whose sentences all run about the same length is flagged; one
+// with a short sentence in it isn't.
+func TestRhythm(t *testing.T) {
+	l := newTestLinter(t)
+	s := "The parser reads each line of the input file and splits it on commas into fields. " +
+		"The validator checks every field against the schema and records each failure it finds. " +
+		"The writer formats the clean records as rows and appends them to the output table. " +
+		"The reporter counts the failures by type and prints a summary when the run is done.\n"
+	if checks(t, l, s)["House.Rhythm"] != 1 {
+		t.Errorf("flat paragraph: want one House.Rhythm alert")
+	}
+	v := strings.Replace(s, "The writer formats", "Nothing else runs. The writer formats", 1)
+	if n := checks(t, l, v)["House.Rhythm"]; n != 0 {
+		t.Errorf("varied paragraph: want no House.Rhythm alert, got %d", n)
+	}
+}

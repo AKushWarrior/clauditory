@@ -2,6 +2,10 @@
 
 Versions follow semantic versioning. A major version changes the procedure in a way that alters results, a minor version adds or deepens steps, and a patch version fixes wording.
 
+## 1.1.2 (2026-11-08)
+
+- Reword two steps in plainer terms: complete the template, and check every claim the answer depends on.
+
 ## 1.1.1 (2026-11-05)
 
 - Add the serial comma to the source rule.

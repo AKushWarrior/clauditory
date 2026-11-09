@@ -4,7 +4,7 @@
 - **Type:** Open source rule set for the Vale prose linter
 - **Where to find it:** https://github.com/tbhb/vale-ai-tells
 - **Last reviewed:** 2026-11-05
-- **Used by:** clauditory-lint 2.0.0 (`lint/styles/AITells` and `lint/styles/AITellsCommits`)
+- **Used by:** clauditory-lint 2.1.0 (`lint/styles/AITells` and `lint/styles/AITellsCommits`)
 
 ## What the source covers
 

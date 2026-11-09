@@ -3,16 +3,16 @@
 - **Source:** Vale project, "Microsoft," a Vale implementation of the Microsoft Writing Style Guide, MIT License, commit ea5fa73 (September 28, 2026)
 - **Type:** Community-maintained rule set for the Vale prose linter
 - **Where to find it:** https://github.com/vale-cli/Microsoft
-- **Last reviewed:** 2026-11-05
-- **Used by:** clauditory-lint 2.0.0 (`lint/styles/Microsoft`)
+- **Last reviewed:** 2026-11-08
+- **Used by:** clauditory-lint 2.1.0 (`lint/styles/Microsoft`)
 
 ## What the source covers
 
-The style holds 47 rules that check text against the Microsoft Writing Style Guide. Microsoft doesn't publish it; the Vale project maintains it from the guide's public pages. It covers word choice (a term list, wordiness, jargon, militaristic and gender-biased terms, and words that define people by disability), technical formatting (URLs, units, "auto-" compounds, and suspended hyphens), dates and times ("July 31, 2016," no ordinal dates, "AM" and "PM" in capitals), punctuation (dashes without spaces, quotation marks, semicolons, exclamation points, and the serial comma), headings, voice (passive voice, the first person, and "we"), and sentence length.
+The style holds 47 rules that check text against the Microsoft Writing Style Guide. Microsoft doesn't publish it; the Vale project maintains it from the guide's public pages. It covers word choice and technical formatting. Word choice includes a term list, wordiness, jargon, militaristic and gender-biased terms, and words that define people by disability. Technical formatting covers URLs, units, "auto-" compounds, and suspended hyphens. Its date and time rules ask for "July 31, 2016," no ordinal dates, and "AM" and "PM" in capitals. The rest cover punctuation (dashes without spaces, quotation marks, semicolons, exclamation points, and the serial comma), headings, voice (passive voice, the first person, and "we"), and sentence length.
 
 ## What the linter applies
 
-The linter vendors the style unchanged and uses it for technical communication where Red Hat and Apple have no rule. The rules that stay on are those no other source contradicts or already covers: the term list, wordiness, jargon, the bias-free and accessibility lists, militaristic terms, "auto-" compounds, ordinals such as `firstly`, suspended hyphens, units, URL phrasing, heading colons and acronyms, the general list of words to avoid, and the date and range formats, which agree with NYT. None of its fixes runs automatically, because several of its replacements predate current usage.
+The linter vendors the style unchanged and uses it for technical communication where Red Hat and Apple have no rule. The rules that stay on are those no other source contradicts or already covers: the term list, wordiness, jargon, the bias-free and accessibility lists, militaristic terms, "auto-" compounds, ordinals such as `firstly`, suspended hyphens, units, URL phrasing, heading colons and acronyms, the general list of words to avoid, and the date and range formats, which agree with NYT. None of its fixes runs automatically, because several of its replacements predate current usage, and its term list reports as suggestions.
 
 ## What the linter omits
 

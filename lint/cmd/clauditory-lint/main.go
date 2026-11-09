@@ -1,6 +1,6 @@
 // Command clauditory-lint checks prose against the Clauditory writing-style
-// rules, ranks the sources behind each rule by the owner's hierarchy, and
-// fixes the problems that have one mechanical fix.
+// rules, settles conflicts between the style guides behind them, and fixes
+// the problems that have one mechanical fix.
 package main
 
 import (

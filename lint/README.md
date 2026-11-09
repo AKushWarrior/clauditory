@@ -1,14 +1,14 @@
 # clauditory-lint
 
-clauditory-lint checks prose against every rule in the writing-style and technical-writing skills that a program can test, and it fixes the problems that have one mechanical fix. It is a single Go program with the Vale prose linter compiled in, so it needs no other install.
+clauditory-lint checks prose against every rule in the writing-style and technical-writing skills that a program can test, and it fixes the problems that have one mechanical fix. It is one Go program with the Vale prose linter compiled in, so you don't need to install anything else.
 
 ## What it checks
 
-- **House rules.** The writing-style skill's own choices: no em dashes, en dashes, or hyphens standing in for a dash; the serial comma; and the patterns in the skill's revision pass, such as correction framing, trailing participles, stock openers, announcements, hedge stacks, and the vocabulary machine-written text leans on.
+- **House rules.** The writing-style skill's own choices come first. The linter flags every em dash and en dash, and every hyphen or run of hyphens used as a dash, and it asks for the serial comma. It also checks the patterns in the skill's revision pass, such as correction framing, trailing participles, stock openers, announcements, hedge stacks, and the vocabulary machine-written text leans on. Its rhythm check flags a paragraph whose sentences all run about the same length.
 - **Machine-writing tells.** The vale-ai-tells style, which catches figurative verbs, false balance, strawman contrasts, announcement headings, closing pleasantries, and many other habits of model prose. A few of its rules that contradict the skill are off.
-- **Style-guide rules.** The word forms and mechanical rules of The New York Times Manual of Style and Usage, the AP Stylebook, The Chicago Manual of Style, New Hart's Rules and the New Oxford Dictionary for Writers and Editors, the IBM Style Guide, the Apple Style Guide, the Google developer documentation style guide, the Microsoft Writing Style Guide, and the Red Hat style guides. Red Hat's official Vale style and the community Microsoft style are included unchanged; the rest were extracted from the guides themselves.
+- **Style-guide rules.** The linter checks the word forms and mechanical rules of nine guides: The New York Times Manual of Style and Usage, the AP Stylebook, The Chicago Manual of Style, New Hart's Rules and the New Oxford Dictionary for Writers and Editors, the IBM Style Guide, the Apple Style Guide, the Google developer documentation style guide, the Microsoft Writing Style Guide, and the Red Hat style guides. Red Hat's official Vale style and the community Microsoft style are included unchanged; the rest were extracted from the guides themselves.
 
-Where two guides disagree, the linter reports only one of them, and it never reports a rule that contradicts the skills. Run `clauditory-lint rules` to see every rule, its fix setting, and, for a rule that is off, why.
+Where two guides disagree, the linter reports only one of them, and it never reports a rule that contradicts the skills. It skips code, URLs, and words inside double quotes, so text that quotes a banned phrase doesn't trip the rule it describes. Run `clauditory-lint rules` to see every rule, its fix setting, and, for a rule that is off, why.
 
 ## Run it
 

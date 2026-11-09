@@ -149,14 +149,65 @@ func mask(text, ext string) string {
 	return string(b)
 }
 
+// maskQuotes replaces what sits inside double quotation marks on one line
+// with filler letters, keeping the marks, spaces, and positions. Quoted words
+// are someone else's text or words discussed as words, so the writer's style
+// rules don't apply to them; the letter before a closing mark keeps punctuation
+// rules about the mark working.
+const maskFill = "bcdfghjkmnprstvwxz"
+
+func maskQuotes(text string) string {
+	lines := strings.Split(text, "\n")
+	for i, line := range lines {
+		rs := []rune(line)
+		open := -1
+		var want rune
+		for j, r := range rs {
+			switch {
+			case open < 0 && (r == '"' || r == '“'):
+				open, want = j, '"'
+				if r == '“' {
+					want = '”'
+				}
+			case open >= 0 && r == want:
+				if j-open <= 800 {
+					// Fill each word with its own pattern, so the mask can't
+					// read as a repeated word, an acronym, or "a" or "I".
+					// Sentence ends stay, so sentence checks still split.
+					n, w := 0, 0
+					for k := open + 1; k < j; k++ {
+						switch r := rs[k]; {
+						case unicode.IsSpace(r):
+							n++
+							w = 0
+						case r == '.' || r == '?':
+						default:
+							if w == 0 {
+								rs[k] = rune(maskFill[n%len(maskFill)])
+							} else {
+								rs[k] = 'q'
+							}
+							w++
+						}
+					}
+				}
+				open = -1
+			}
+		}
+		lines[i] = string(rs)
+	}
+	return strings.Join(lines, "\n")
+}
+
 // lintTerms matches the word lists against the prose in text.
 func (l *Linter) lintTerms(text, ext string) []*Alert {
 	ix := l.terms
 	if ix == nil {
 		return nil
 	}
-	var alerts []*Alert
-	for ln, line := range strings.Split(mask(text, ext), "\n") {
+	masked := mask(text, ext)
+	alerts := l.lintRhythm(masked)
+	for ln, line := range strings.Split(masked, "\n") {
 		alerts = append(alerts, l.lintPatterns(line, ln+1)...)
 		rs := []rune(line)
 		for i := 0; i < len(rs); i++ {
@@ -261,4 +312,60 @@ func (l *Linter) termAlert(t term, match string, line, start, end int) *Alert {
 		a.Action.Name, a.Action.Params = "replace", []string{t.text}
 	}
 	return a
+}
+
+var (
+	reSentence  = regexp.MustCompile(`[^.!?]+[.!?]+["”’)\]]*`)
+	reListStart = regexp.MustCompile(`^\s*([-*+>|#]|\d+[.)])`)
+)
+
+// lintRhythm flags a paragraph whose sentences are all about the same,
+// medium-to-long length. People write many short sentences; model prose
+// clusters at 25 to 30 words, and readers notice the monotony.
+func (l *Linter) lintRhythm(masked string) []*Alert {
+	if l.Rules.Get("House.Rhythm").Off != "" {
+		return nil
+	}
+	var alerts []*Alert
+	lines := strings.Split(masked, "\n")
+	start := 0
+	flush := func(end int) {
+		para := strings.Join(lines[start:end], " ")
+		if strings.TrimSpace(para) == "" || reListStart.MatchString(lines[start]) {
+			return
+		}
+		var lens []int
+		for _, s := range reSentence.FindAllString(para, -1) {
+			if n := len(strings.Fields(s)); n > 0 {
+				lens = append(lens, n)
+			}
+		}
+		if len(lens) < 4 {
+			return
+		}
+		lo, hi, sum := lens[0], lens[0], 0
+		for _, n := range lens {
+			if n < lo {
+				lo = n
+			}
+			if n > hi {
+				hi = n
+			}
+			sum += n
+		}
+		mean := float64(sum) / float64(len(lens))
+		if lo > 12 && float64(hi-lo) < mean*0.8 {
+			alerts = append(alerts, &Alert{Check: "House.Rhythm", Line: start + 1, Span: [2]int{1, 1},
+				Severity: "suggestion", Match: strings.Fields(para)[0],
+				Message: fmt.Sprintf("All %d sentences in this paragraph run %d to %d words. Vary the rhythm: let a short sentence carry a key point.", len(lens), lo, hi)})
+		}
+	}
+	for i, ln := range lines {
+		if strings.TrimSpace(ln) == "" {
+			flush(i)
+			start = i + 1
+		}
+	}
+	flush(len(lines))
+	return alerts
 }

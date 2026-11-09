@@ -4,7 +4,7 @@
 - **Type:** conference paper, posted as a preprint
 - **Where to find it:** https://arxiv.org/abs/2607.00601 (code and data at https://github.com/DanielSc4/LMtaboo/)
 - **Last reviewed:** 2026-11-05
-- **Used by:** chat/skills/writing-style/SKILL.md
+- **Used by:** `chat/skills/writing-style/SKILL.md`
 
 ## What the source covers
 
@@ -12,7 +12,7 @@
 
 The paper uses the party game Taboo to study how language models handle a lexical ban that competes with a communicative goal. In Taboo a player describes a target word so that others can guess it, without using any of a short list of forbidden words, which are usually the most obvious clues. The task therefore asks for two things at once: avoid particular words, and still say enough to identify the target. The authors use it to compare ways of imposing the ban at different depths of the generation process, and they check the results against human players in both directions.
 
-The paper is short (about eight pages before references and appendices). The game is played in Italian.
+The paper is short (about eight pages before references and appendixes). The game is played in Italian.
 
 ### Data and models
 
@@ -24,11 +24,11 @@ Two open-weight models are tested. Gemma 3 4B IT is a small instruction-tuned mo
 
 The study compares a baseline with four ways of enforcing the ban.
 
-In the baseline, the model is asked to describe the target word and is told nothing about forbidden words. The baseline measures how often each model would reach for the forbidden words on its own.
+In the baseline, the model is asked to describe the target word and is told nothing about forbidden words. The baseline measures how often each model would use the forbidden words on its own.
 
 In the prompting condition, the prompt lists the forbidden words and tells the model to avoid them and any word sharing their root. The prompting condition is the one that matters for the skill: the forbidden words are named in the instruction the model reads just before it writes. The prompt does not tell the model to avoid the target word itself, so the authors can measure how often it gives the answer away.
 
-The a priori constrained condition masks, before generation, every vocabulary token whose surface form shares a prefix with a stem or lemma of a forbidden word, so those tokens cannot be produced. The appendix shows this can be blunt. One card's forbidden phrase contained two common function words, and the mask grew to more than 2,000 tokens, including ordinary prepositions and articles. Across the dataset the mask averaged about 470 tokens per card.
+The a priori constrained condition masks, before generation, every vocabulary token whose surface form shares a prefix with a stem or lemma of a forbidden word, so those tokens cannot be produced. The appendix shows this can be blunt. One card's forbidden phrase contained two common function words, and the mask grew to more than 2,000 tokens, including ordinary prepositions and articles. Across the data set the mask averaged about 470 tokens per card.
 
 The online constrained condition lets the model write freely and checks each completed word against the forbidden stems. When a word matches, generation backs up to the start of that word, blocks the offending token at that position and continues. The online method applies the ban only where a violation actually occurs.
 
@@ -38,7 +38,7 @@ The steering condition, run on Gemma only, does not mention the forbidden words 
 
 Compliance is measured by automatic detection of exact forbidden words, of words sharing a forbidden stem or lemma, of leaked target words, and, for the reasoning mode, of runs that used up the token budget without an answer. Accuracy is the share of descriptions with none of these errors.
 
-Informativeness is measured two ways. Each model acts as guesser on descriptions from both models; the authors read the guesser's next-token probabilities and record whether the first token of the target word falls in its top 1, 2, 3, 5, or 10 guesses (reported as pass at k). Eight human annotators also took part. In a guessing phase on 80 cards, they guessed targets from model descriptions, with each card seen under two conditions by two annotators. In a describing phase on 100 other cards, they wrote spontaneous and deliberate descriptions, which other annotators and the models then tried to guess.
+Informativeness is measured two ways. Each model acts as guesser on descriptions from both models. The authors read the guesser's next-token probabilities and record whether the first token of the target word falls in its top 1, 2, 3, 5, or 10 guesses (reported as pass at k). Eight human annotators also took part. In a guessing phase on 80 cards, they guessed targets from model descriptions, with each card seen under two conditions by two annotators. In a describing phase on 100 other cards, they wrote spontaneous and deliberate descriptions, which other annotators and the models then tried to guess.
 
 ### Results on compliance
 
@@ -54,7 +54,7 @@ Steering without naming the words reached about 56 percent accuracy for Gemma, a
 
 The two model guessers differed a great deal. gpt-oss almost never placed the target in its top 10 (never above 10 percent of cards), while Gemma reached about 25 percent. Both agreed on the broad order of conditions.
 
-With Gemma as clue-giver and Gemma as guesser, the target was in the top 10 guesses for 24.7 percent of baseline descriptions, 17.0 percent of online-constrained ones, 17.5 percent under the a priori mask, 21.1 percent under steering, and 11.3 percent under prompting. With gpt-oss as guesser, the order was similar at lower levels (9.3 percent baseline, 8.8 percent online, and 3.6 percent prompting). The authors propose that a model told in its instructions to avoid words becomes cautious and writes sparse descriptions, while a model blocked token by token is pushed toward less obvious but more precise paraphrases. Steering kept descriptions informative but at a cost in compliance, and it often made Gemma switch languages (in 45 percent of the descriptions humans saw).
+With Gemma as clue-giver and Gemma as guesser, the target was in the top 10 guesses for 24.7 percent of baseline descriptions. The rates were 17.0 percent for online-constrained ones, 17.5 percent under the a priori mask, 21.1 percent under steering, and 11.3 percent under prompting. With gpt-oss as guesser, the order was similar at lower levels (9.3 percent baseline, 8.8 percent online, and 3.6 percent prompting). The authors propose that a model told in its instructions to avoid words becomes cautious and writes sparse descriptions, while a model blocked token by token is pushed toward less obvious but more precise paraphrases. Steering kept descriptions informative but at a cost in compliance, and it often made Gemma switch languages (in 45 percent of the descriptions humans saw).
 
 Human guessers showed the same order. Annotators identified the target 38.1 percent of the time from constrained-generation descriptions, 31.0 percent from steered ones, and 23.4 percent from prompted ones, about 31 percent overall. By my arithmetic these shares correspond to roughly 24 of 63, 9 of 29, and 15 of 64 descriptions, so the bases are small.
 
@@ -70,11 +70,11 @@ The study is small and narrow. It uses two models, of 4 and 20 billion parameter
 
 The informativeness comparison between baseline and banned conditions is not like for like, because baseline descriptions are free to use the most obvious clues. The fairer comparison for the skill's purpose is between prompting and the decoding-time conditions, which all obey the ban.
 
-Several of the paper's own numbers disagree. Steering accuracy is given as 55.7 percent in one place and 56.7 percent in another. In the comparison on 10 shared cards, the text gives top-10 rates for two proprietary clue-givers that do not match the figure, and the figure's row for Claude Sonnet 4.6 contains values that cannot arise from 10 cards and appear to repeat another table's row. The text says Gemma reached 30 percent on human descriptions where the figure shows 40 percent. One table reference in the prompting section is unresolved in the copy read. These problems sit in the secondary analyses and do not touch the main compliance tables.
+Several of the paper's own numbers disagree. Steering accuracy is given as 55.7 percent in one place and 56.7 percent in another. In the comparison on 10 shared cards, the text gives top-10 rates for two proprietary clue-givers that do not match the figure. The figure's row for Claude Sonnet 4.6 contains values that cannot arise from 10 cards and appear to repeat another table's row. The text says Gemma reached 30 percent on human descriptions where the figure shows 40 percent. One table reference in the prompting section is unresolved in the copy read. These problems are in the secondary analyses and do not touch the main compliance tables.
 
 ### Principles the paper implies for writers
 
-Naming a forbidden word in a model's instructions makes the model avoid it reliably, especially when the model can reason before answering. The cost shows up elsewhere: an instructed model plays safe and says less. Enforcing the ban on output, after or during writing, keeps more of the content.
+Naming a forbidden word in a model's instructions makes the model avoid it reliably, especially when the model can reason before answering. An instructed model also plays safe and says less. Enforcing the ban on output, after or during writing, keeps more of the content.
 
 ## What the skill applies
 
@@ -110,8 +110,8 @@ anthropic-prompting-docs.md favors telling a model what to do in place of what t
 
 ## Review notes
 
-On 2026-11-05 I read the full text of arXiv 2607.00601 from a local text copy, covering the abstract, all six sections, the acknowledgments and AI-use declaration, the reference list, and appendices A through E, including the prompt templates with their English translations, generation settings, the comparison of the two masking methods, the steering details, the failure examples, and the three per-model result tables. Figures were available only as extracted labels and captions, so values that appear only in figures (such as the 10-card comparison) were read from the extracted numbers, which may have lost their layout. I did not open the code repository or rerun anything.
+On 2026-11-05 I read the full text of arXiv 2607.00601 from a local text copy, covering the abstract, all six sections, the acknowledgments and AI-use declaration, the reference list, and appendixes A through E. The appendixes include the prompt templates with their English translations, generation settings, the comparison of the two masking methods, the steering details, the failure examples, and the three per-model result tables. Figures were available only as extracted labels and captions, so values that appear only in figures (such as the 10-card comparison) were read from the extracted numbers, which may have lost their layout. I did not open the code repository or rerun anything.
 
-The version 1 date of July 1, 2026 comes from the review brief, and the identifier's July 2026 prefix agrees with it. I do not know which version the local copy is. The paper's header names CLiC-it 2026, but I could not confirm that the arXiv text is the version accepted there, so I list the paper as a conference paper posted as a preprint without claiming it passed review in this form.
+The version 1 date of July 1, 2026 comes from the review brief, and the identifier's July 2026 prefix agrees with it. I do not know which version the local copy is. The paper's header names CLiC-it 2026. I could not confirm that the arXiv text is the version accepted there, so I list the paper as a conference paper posted as a preprint without claiming it passed review in this form.
 
-The raw counts behind the human guessing shares are my own arithmetic: they are the smallest whole-number fractions that give the reported percentages, and they sum to 156 against the 160 guessed entries the paper reports, so the split is my reconstruction. The averages for spontaneous and deliberate descriptions guessed by models are my averages over the two guessers in the paper's table. The argument that these results count against the priming rationale is my reading. The paper does not discuss priming or style guides, and its no-ban baseline measures the models' natural use of the forbidden words, not their use after merely seeing them mentioned without a ban. A design that names the words without forbidding them would test priming more directly.
+The raw counts behind the human guessing shares are my own arithmetic. They are the smallest whole-number fractions that give the reported percentages. They sum to 156 against the 160 guessed entries the paper reports, so the split is my reconstruction. The averages for spontaneous and deliberate descriptions guessed by models are my averages over the two guessers in the paper's table. The argument that these results count against the priming rationale is my reading. The paper does not discuss priming or style guides, and its no-ban baseline measures the models' natural use of the forbidden words, not their use after merely seeing them mentioned without a ban. A design that mentions the words but does not forbid them would test priming more directly.

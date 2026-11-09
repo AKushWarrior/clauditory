@@ -2,6 +2,14 @@
 
 Versions follow semantic versioning. A major version changes a rule's outcome in a way that alters existing text, a minor version adds or deepens rules, and a patch version fixes wording without changing a rule.
 
+## 2.2.0 (2026-11-08)
+
+- Add rules from 2026 research on how model prose differs from human prose and how readers and detectors spot it. Section 3 now asks for a wide range of sentence lengths and frequent short sentences. Section 2 asks for the exact word over the expected one, and section 6 asks to cut drafts to the length their content needs.
+- Add two rules to section 7: keep the user's own voice when writing as them or revising their text, and never add typos, odd characters, or synonym swaps to make text look less machine-written.
+- Add revision item 15, flat rhythm, which the linter's new House.Rhythm rule checks, and a revision example.
+- Put word forms discussed as words in code formatting, split sentences over 40 words, and tell the reader that the linter skips quoted and code-formatted text.
+- Add eight reference files: Gude and colleagues, Maier and colleagues, van Nuenen, Smirnov, Kalashnikova and colleagues, Xu and colleagues, Karr and colleagues, and Perrone and Romano.
+
 ## 2.1.0 (2026-11-05)
 
 - Add section 11: run the bundled linter, `scripts/lint`, on substantial text before sending or saving it, and fix what it reports.

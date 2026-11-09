@@ -1,15 +1,15 @@
 # Clauditory
 
-Clauditory is a set of agent-facing prompts and skills, each built from published research and established style guides. Every artifact includes a `references` folder that records which sources shaped it, what it took from each, and where the sources disagree.
+Clauditory is a set of agent-facing prompts and skills, each built from published research and established style guides. Each artifact has a `references` folder that records which sources shaped it, what it took from each, and where the sources disagree.
 
 The plugin contains:
 
 - **A system prompt** (`chat/system/prompt.md`) that sets how an agent handles claims, plans and checks its work, runs independent work in parallel, and writes up answers.
-- **The writing-style skill** (`chat/skills/writing-style`), which sets a plain newspaper register for everything an agent writes.
+- **The writing-style skill** (`chat/skills/writing-style`), which sets a plain newspaper register for everything an agent writes. It draws on recent research into how readers and AI-text detectors tell model prose from human prose.
 - **The technical-writing skill** (`chat/skills/technical-writing`), which adds rules for documentation, instructions, code comments, error messages, commit messages, and pull requests.
 - **The spawn-research-subagent skill** (`chat/skills/spawn-research-subagent`), which splits research into parallel subagents and checks what they bring back.
 
-The writing-style skill also ships **clauditory-lint** (`lint/`), a prose linter with Vale compiled in. It checks text against the rules a program can test, from the skills' own revision passes, a catalog of machine-writing tells, and the word lists of the major style guides, and it fixes the mechanical problems. The skill tells the agent to run it before sending or saving substantial text, and the plugin also runs it after Claude writes a prose file.
+The writing-style skill also includes **clauditory-lint** (`lint/`), a prose linter with Vale compiled in. It checks text against the rules a program can test: the skills' revision passes, sentence rhythm, a catalog of machine-writing tells, and the word lists of the major style guides. It also fixes the mechanical problems. The skill tells the agent to run it before sending or saving substantial text, and the plugin also runs it after Claude writes a prose file.
 
 ## Install
 
@@ -24,7 +24,7 @@ Run these two commands in Claude Code:
 
 The plugin adds the three skills and applies the system prompt as an output style while the plugin is enabled. The style keeps Claude Code's built-in coding instructions. To turn the system prompt off, disable the plugin.
 
-The plugin also adds a hook that lints each Markdown or text file Claude writes and passes problems back to Claude. The linter ships inside the plugin, so there's nothing else to install. See `lint/README.md` to run it by hand.
+The plugin also adds a hook that lints each Markdown or text file Claude writes and passes problems back to Claude. The linter comes inside the plugin, so there's nothing else to install. See `lint/README.md` to run it by hand.
 
 ### Claude apps (claude.ai and desktop)
 
