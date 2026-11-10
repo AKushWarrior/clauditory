@@ -1,6 +1,6 @@
 {
   "name": "clauditory",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Research-backed writing for Claude: a plain newspaper register for replies, code comments, commits, and docs, technical-writing rules, parallel research subagents, and clauditory-lint for prose and code comments.",
   "author": {
     "name": "Aditya Kishore",
@@ -8,7 +8,7 @@
   },
   "homepage": "https://github.com/AKushWarrior/clauditory",
   "repository": "https://github.com/AKushWarrior/clauditory",
-  "license": "MPL-2.0",
+  "license": "MIT",
   "keywords": [
     "writing",
     "style",
