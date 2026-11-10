@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "clauditory",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Research-backed skills for agents: a plain newspaper writing style, technical-writing rules, and a pattern for parallel research subagents.",
   "author": {
     "name": "Aditya Kishore",
@@ -9,7 +9,7 @@
   },
   "homepage": "https://github.com/AKushWarrior/clauditory",
   "repository": "https://github.com/AKushWarrior/clauditory",
-  "license": "MPL-2.0",
+  "license": "MIT",
   "keywords": [
     "writing",
     "style",

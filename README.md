@@ -55,4 +55,4 @@ Source artifacts live under `chat/` and `coding/`. The installable plugin in `pl
 
 ## License
 
-Mozilla Public License 2.0. See `LICENSE`.
+MIT License. See `LICENSE`. The vendored Vale code and styles under `lint/` keep their own licenses, in the LICENSE file in each folder.
